@@ -68,33 +68,68 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
     <ul class="section-ul">
       {list.map((page) => {
         const title = page.frontmatter?.title
+        // Check frontmatter description first, then abstract, then fall back to auto-generated description
+        const description =
+          (page.frontmatter?.description as string) ??
+          (page.frontmatter?.abstract as string) ??
+          page.description ??
+          null
+
+        // Get tags from frontmatter (already processed as array by frontmatter plugin)
         const tags = page.frontmatter?.tags ?? []
+
+        // Support both 'category' (singular) and 'categories' (plural) from frontmatter
+        const categoryRaw = page.frontmatter?.category ?? page.frontmatter?.categories
+        const categories: string[] = Array.isArray(categoryRaw)
+          ? categoryRaw
+          : typeof categoryRaw === "string"
+            ? [categoryRaw]
+            : []
 
         return (
           <li class="section-li">
             <div class="section">
-              <p class="meta">
-                {page.dates && <Date date={getDate(cfg, page)!} locale={cfg.locale} />}
-              </p>
               <div class="desc">
                 <h3>
                   <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
                     {title}
                   </a>
                 </h3>
+                {description && <p class="description">{description}</p>}
+                {categories.length > 0 && (
+                  <ul class="categories">
+                    {categories.map((category) => (
+                      <li>
+                        <a
+                          class="internal category-link"
+                          href={resolveRelative(fileData.slug!, `tags/${category}` as FullSlug)}
+                        >
+                          {category}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {tags.length > 0 && (
+                  <ul class="tags">
+                    {tags.map((tag) => (
+                      <li>
+                        <a
+                          class="internal tag-link"
+                          href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
+                        >
+                          {tag}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {page.dates && (
+                  <p class="meta">
+                    <Date date={getDate(cfg, page)!} locale={cfg.locale} />
+                  </p>
+                )}
               </div>
-              <ul class="tags">
-                {tags.map((tag) => (
-                  <li>
-                    <a
-                      class="internal tag-link"
-                      href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
-                    >
-                      {tag}
-                    </a>
-                  </li>
-                ))}
-              </ul>
             </div>
           </li>
         )
@@ -108,7 +143,66 @@ PageList.css = `
   margin: 0;
 }
 
-.section > .tags {
+.section .desc {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.section .description {
   margin: 0;
+  color: var(--darkgray);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.section .meta {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 0.875rem;
+}
+
+.section .categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section .category-link {
+  background-color: var(--highlight);
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.85rem;
+  color: var(--secondary);
+}
+
+.section .category-link:hover {
+  background-color: var(--tertiary);
+  color: var(--light);
+}
+
+.section .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section .tag-link {
+  background-color: var(--highlight);
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.85rem;
+  color: var(--secondary);
+}
+
+.section .tag-link:hover {
+  background-color: var(--tertiary);
+  color: var(--light);
 }
 `

@@ -7,34 +7,30 @@ ul.section-ul {
 }
 
 li.section-li {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid var(--lightgray);
+
+  &:last-child {
+    border-bottom: none;
+  }
 
   & > .section {
-    display: grid;
-    grid-template-columns: fit-content(8em) 3fr 1fr;
+    display: block;
 
-    @media all and ($mobile) {
-      & > .tags {
-        display: none;
-      }
+    & > .desc > h3 {
+      margin: 0 0 0.5rem 0;
     }
 
     & > .desc > h3 > a {
       background-color: transparent;
-    }
-
-    & .meta {
-      margin: 0 1em 0 0;
-      opacity: 0.6;
     }
   }
 }
 
 // modifications in popover context
 .popover .section {
-  grid-template-columns: fit-content(8em) 1fr !important;
-
-  & > .tags {
-    display: none;
+  & > .desc > h3 {
+    font-size: 1rem;
   }
 }
