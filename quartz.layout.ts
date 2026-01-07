@@ -45,6 +45,21 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
+  afterBody: [
+    Component.Comments({
+      provider: "giscus",
+      options: {
+        repo: "michael-rowe/emergent-scholarship",
+        repoId: "R_kgDOOHzPWg",
+        category: "Announcements",
+        categoryId: "DIC_kwDOOHzPWs4Cw5Jj",
+        mapping: "pathname",
+        strict: false,
+        reactionsEnabled: true,
+        inputPosition: "top",
+      },
+    }),
+  ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)

@@ -13,7 +13,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "umami",
+      websiteId: "77390f7b-08ec-4c18-b306-0b03e2dafc81",
     },
     locale: "en-US",
     baseUrl: "michael-rowe.github.io/emergent-scholarship",
