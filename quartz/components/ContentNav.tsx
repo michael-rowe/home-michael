@@ -69,16 +69,19 @@ export default ((opts?: Partial<ContentNavOptions>) => {
   padding: 0;
 }
 
-.content-nav a {
+.content-nav a.internal {
   color: var(--secondary);
   text-decoration: none;
   display: block;
   padding: 0.2rem 0;
   transition: color 0.2s ease;
+  background-color: transparent;
+  border-radius: 0;
 }
 
-.content-nav a:hover {
+.content-nav a.internal:hover {
   color: var(--tertiary);
+  background-color: transparent;
 }
 `
 

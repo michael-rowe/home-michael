@@ -24,6 +24,8 @@ import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import ContentNav from "./ContentNav"
+import TopNav from "./TopNav"
+import ContextualNav from "./ContextualNav"
 
 export {
   ArticleTitle,
@@ -52,4 +54,6 @@ export {
   Flex,
   ConditionalRender,
   ContentNav,
+  TopNav,
+  ContextualNav,
 }

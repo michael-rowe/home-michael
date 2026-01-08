@@ -4,9 +4,9 @@ title: About
 
 ## About This Project
 
-This site explores **emergent scholarship**—a framework for scholarly engagement that emphasizes connection, adaptation, and ecological sustainability in knowledge work.
+This site explores **emergent scholarship**—a framework for scholarly engagement that emphasises connection, adaptation, and ecological sustainability in knowledge work.
 
-Rather than treating knowledge as a static commodity, emergent scholarship recognizes that understanding develops through relationships, networks, and dynamic interactions within complex systems. This approach is particularly relevant in our current era of rapid technological change, information abundance, and interconnected global challenges.
+Rather than treating knowledge as a static commodity, emergent scholarship recognises that understanding develops through relationships, networks, and dynamic interactions within complex systems. This approach is particularly relevant in our current era of rapid technological change, information abundance, and interconnected global challenges.
 
 ## Purpose
 
