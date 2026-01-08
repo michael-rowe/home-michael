@@ -271,7 +271,7 @@ export default ((opts?: Partial<MobileNavOptions>) => {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .mobile-nav {
     display: block;
     position: fixed;
@@ -426,9 +426,9 @@ export default ((opts?: Partial<MobileNavOptions>) => {
   }
 
   /* Hide sidebars on mobile */
-  .left.sidebar,
-  .right.sidebar {
-    display: none;
+  .page > #quartz-body > .sidebar.left,
+  .page > #quartz-body > .sidebar.right {
+    display: none !important;
   }
 }
 `

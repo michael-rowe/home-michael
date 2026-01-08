@@ -1,37 +1,50 @@
 function populateMobileTOC() {
-  // Get TOC from desktop version
-  const desktopTOC = document.querySelector(".desktop-only .toc")
   const mobileTOCContainer = document.querySelector(".mobile-nav-toc")
   const mobileTOCList = document.getElementById("mobile-toc-list")
 
   if (!mobileTOCContainer || !mobileTOCList) return
 
-  // If there's a TOC on desktop, copy it to mobile menu
-  if (desktopTOC) {
-    const tocItems = desktopTOC.querySelectorAll("li")
-    if (tocItems.length > 0) {
-      mobileTOCContainer.style.display = "block"
-      mobileTOCList.innerHTML = ""
-
-      tocItems.forEach((item) => {
-        const link = item.querySelector("a")
-        if (link) {
-          const li = document.createElement("li")
-          const a = document.createElement("a")
-          a.href = link.href
-          a.textContent = link.textContent
-          a.className = "internal mobile-nav-link"
-          a.addEventListener("click", closeMobileNav)
-          li.appendChild(a)
-          mobileTOCList.appendChild(li)
-        }
-      })
-    } else {
-      mobileTOCContainer.style.display = "none"
-    }
-  } else {
+  // Get all headings from the article
+  const article = document.querySelector("article")
+  if (!article) {
     mobileTOCContainer.style.display = "none"
+    return
   }
+
+  // Find all h1-h6 headings with IDs
+  const headings = article.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]")
+
+  if (headings.length === 0) {
+    mobileTOCContainer.style.display = "none"
+    return
+  }
+
+  mobileTOCContainer.style.display = "block"
+  mobileTOCList.innerHTML = ""
+
+  headings.forEach((heading) => {
+    const li = document.createElement("li")
+    const a = document.createElement("a")
+    a.href = `#${heading.id}`
+
+    // Get the text content, excluding any icons or extra elements
+    const clone = heading.cloneNode(true) as HTMLElement
+    const icon = clone.querySelector('a[role="anchor"]')
+    if (icon) icon.remove()
+    a.textContent = clone.textContent || ""
+
+    a.className = "internal mobile-nav-link"
+
+    // Add indentation based on heading level
+    const level = parseInt(heading.tagName.substring(1))
+    if (level > 2) {
+      a.style.paddingLeft = `${(level - 2) * 0.75}rem`
+    }
+
+    a.addEventListener("click", closeMobileNav)
+    li.appendChild(a)
+    mobileTOCList.appendChild(li)
+  })
 }
 
 function toggleMobileNav(this: HTMLElement) {
