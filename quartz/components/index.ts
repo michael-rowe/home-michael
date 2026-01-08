@@ -26,6 +26,7 @@ import ConditionalRender from "./ConditionalRender"
 import ContentNav from "./ContentNav"
 import TopNav from "./TopNav"
 import ContextualNav from "./ContextualNav"
+import MobileNav from "./MobileNav"
 
 export {
   ArticleTitle,
@@ -56,4 +57,5 @@ export {
   ContentNav,
   TopNav,
   ContextualNav,
+  MobileNav,
 }

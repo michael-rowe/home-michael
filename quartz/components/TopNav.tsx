@@ -94,17 +94,8 @@ export default ((opts?: Partial<TopNavOptions>) => {
 }
 
 @media (max-width: 768px) {
-  .top-nav ul {
-    justify-content: flex-start;
-  }
-
-  .top-nav a.internal {
-    padding: 0.5rem 0.4rem;
-    font-size: 0.9rem;
-  }
-
-  .top-nav li:not(:last-child)::after {
-    margin: 0 0.25rem;
+  .top-nav {
+    display: none;
   }
 }
 `
