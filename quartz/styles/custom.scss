@@ -2,26 +2,29 @@
 
 // put your custom CSS here!
 
-// Flip card styles
+// Flip card styles (click to flip) - uses callout colors
 .flip-card {
   background-color: transparent;
-  width: 100%;
-  height: 300px;
+  max-width: 500px;
+  min-height: 160px;
+  max-height: 220px;
   perspective: 1000px;
-  margin: 1.5rem 0;
+  margin: 1rem auto;
 }
 
 .flip-card-inner {
   position: relative;
   width: 100%;
   height: 100%;
+  min-height: 160px;
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
   cursor: pointer;
 }
 
-.flip-card:hover .flip-card-inner {
+// Click to flip (not hover)
+.flip-card.flipped .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -30,57 +33,119 @@
   position: absolute;
   width: 100%;
   height: 100%;
+  min-height: 160px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border-radius: 8px;
-  padding: 2rem;
+  border-radius: 5px;
+  padding: 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+  border: 1px solid var(--border);
 }
 
-.flip-card-front {
-  background: linear-gradient(135deg, var(--lightgray) 0%, var(--light) 100%);
-  color: var(--dark);
-  border: 2px solid var(--secondary);
+.flip-card:hover .flip-card-front,
+.flip-card:hover .flip-card-back {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+// Use callout colors - default to tip/success colors
+.flip-card-front,
+.flip-card-back {
+  background-color: #00bfa510;
+  border-color: #00bfa544;
+}
+
+.flip-card-front h3 {
+  color: #00bfa5;
+  margin-top: 0;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.flip-card-back h3 {
+  color: #09ad7a;
+  margin-top: 0;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
 }
 
 .flip-card-back {
-  background: linear-gradient(135deg, var(--secondary) 0%, var(--tertiary) 100%);
-  color: var(--light);
   transform: rotateY(180deg);
-}
-
-.flip-card-front h3,
-.flip-card-back h3 {
-  margin-top: 0;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
 }
 
 .flip-card-front p,
 .flip-card-back p {
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1.6;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--dark);
 }
 
-// Mobile tap support for flip cards
-@media (hover: none) {
-  .flip-card {
-    &.flipped .flip-card-inner {
-      transform: rotateY(180deg);
-    }
+.flip-card-front ul,
+.flip-card-back ul {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+// Click instruction hint
+.flip-card-front::after {
+  content: "Click to reveal";
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.75rem;
+  font-size: 0.7rem;
+  opacity: 0.5;
+  font-style: italic;
+  color: var(--gray);
+}
+
+.flip-card-back::after {
+  content: "Click to flip back";
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.75rem;
+  font-size: 0.7rem;
+  opacity: 0.5;
+  font-style: italic;
+  color: var(--gray);
+}
+
+// Two-column comparison layout for before/after content
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 1rem 0;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 }
 
-// Clickable flip cards (for better mobile support)
-.flip-card.clickable .flip-card-inner {
-  transition: transform 0.6s;
-}
+.comparison-column {
+  h4 {
+    margin-top: 0;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: var(--secondary);
+  }
 
-.flip-card.clickable.flipped .flip-card-inner {
-  transform: rotateY(180deg);
+  ul {
+    margin: 0;
+    padding-left: 1.25rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+  }
 }

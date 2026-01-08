@@ -1,3 +1,12 @@
+---
+title: "AI Literacy for Academic Practice"
+description: "Develop multidimensional capability with generative AI for academic work"
+cover: "assets/course-covers/ai-literacy.jpg"
+status: "In Development"
+duration: "10-12 hours"
+level: "All levels"
+---
+
 # Developing AI literacy for academic practice
 
 **A comprehensive course for building multidimensional capability with generative AI**

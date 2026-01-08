@@ -8,5 +8,7 @@ tsconfig.tsbuildinfo
 .quartz-cache
 private/
 content/templates/
+content/Courses/course-style-guide.md
+content/Courses/demo.md
 .replit
 replit.nix

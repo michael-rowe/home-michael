@@ -4,11 +4,11 @@ title: "Interactive Elements Demo"
 
 # Interactive Elements Demo
 
-This demo shows three different approaches for creating interactive, collapsible, and flip card content in Quartz.
+This demo shows two main approaches for creating interactive content in Quartz, plus a special comparison layout for before/after scenarios.
 
 ---
 
-## Approach 1: Quartz Callouts (Built-in Collapsible)
+## Approach 1: Quartz Callouts (Collapsible Sections)
 
 Quartz has built-in support for collapsible callouts using the `[!type]-` syntax.
 
@@ -56,9 +56,9 @@ Quartz has built-in support for collapsible callouts using the `[!type]-` syntax
 
 ---
 
-## Approach 2: Custom CSS Flip Cards (Hover to Flip)
+## Approach 2: Flip Cards (Click to Flip)
 
-These cards flip when you hover over them (or tap on mobile). Great for myth/reality pairs or flashcard-style content.
+These cards are narrower and use callout colors for consistency. They flip when you click on them. Perfect for myth/reality pairs and quiz-style learning content.
 
 ### Example: Time-Blocking Myths
 
@@ -90,215 +90,145 @@ These cards flip when you hover over them (or tap on mobile). Great for myth/rea
   </div>
 </div>
 
-### Example: Closing Open Loops Flashcards
-
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <h3>Common Open Loops in Teaching</h3>
-      <ul style="text-align: left; margin: 1rem 0;">
-        <li>Student email about assignment extension waiting in inbox</li>
-        <li>Mental note to revise week 5 lecture content</li>
-        <li>Meeting notes about curriculum changes</li>
-        <li>Browser tabs open with potential reading materials</li>
-        <li>Verbal request from student for reference letter</li>
-      </ul>
-    </div>
-    <div class="flip-card-back">
-      <h3>Closing Teaching Loops</h3>
-      <div style="text-align: left;">
-        <p><strong>Quick wins (5-15 mins):</strong></p>
-        <ul>
-          <li>Reply to student email with clear decision</li>
-          <li>Save and organise reading materials</li>
-          <li>Create task for reference letter with deadline</li>
-        </ul>
-        <p><strong>Medium tasks (30-60 mins):</strong></p>
-        <ul>
-          <li>Process meeting notes into action items</li>
-          <li>Schedule time block for lecture revision</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <h3>Common Open Loops in Research</h3>
-      <ul style="text-align: left; margin: 1rem 0;">
-        <li>Notes from conference talk that might inform methodology</li>
-        <li>Unfinished draft of methods section sitting on desktop</li>
-        <li>Reviewer comments waiting for response</li>
-        <li>Potential collaborator's email needs follow-up</li>
-        <li>Data files needing backup and organisation</li>
-      </ul>
-    </div>
-    <div class="flip-card-back">
-      <h3>Closing Research Loops</h3>
-      <div style="text-align: left;">
-        <p><strong>Quick wins (5-15 mins):</strong></p>
-        <ul>
-          <li>Move data files to secure storage</li>
-          <li>Send brief response to collaborator</li>
-          <li>Create task for reviewer response</li>
-        </ul>
-        <p><strong>Larger projects:</strong></p>
-        <ul>
-          <li>Methods section: Block 3 two-hour sessions next week</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
 ---
 
-## Approach 3: Native HTML `<details>` + `<summary>` (Semantic HTML)
+## Approach 3: Comparison Layout (Side-by-Side Before/After)
 
-This uses standard HTML elements that work everywhere. Simple, accessible, and semantic.
+For content where learners need to compare the "before" and "after" (like open loops vs. closed loops), use a collapsible callout with a two-column comparison grid. This shows both sides at once for easy comparison.
 
-### Example: Activity Section
+### Example: Closing Open Loops
 
-<details>
-<summary><strong>Activity: Build Your Fixed-Schedule Foundation</strong></summary>
+> [!example]- Teaching: Open vs. Closed Loops
+> <div class="comparison-grid">
+> <div class="comparison-column">
+>
+> #### Common Open Loops in Teaching
+> - Student email about assignment extension waiting in inbox
+> - Mental note to revise week 5 lecture content
+> - Meeting notes about curriculum changes
+> - Browser tabs open with potential reading materials
+> - Verbal request from student for reference letter
+>
+> </div>
+> <div class="comparison-column">
+>
+> #### Closing Teaching Loops
+> **Quick wins (5-15 mins):**
+> - Reply to student email with clear decision
+> - Save and organise reading materials
+> - Create task for reference letter with deadline
+>
+> **Medium tasks (30-60 mins):**
+> - Process meeting notes into action items
+> - Schedule time block for lecture revision
+>
+> </div>
+> </div>
 
-Today, start building your fixed-schedule foundation with these simple steps:
-
-**Step 1: Choose your end time**
-- Not shorter than your contracted hours, but not longer either
-- Set this as a firm boundary for today
-
-**Step 2: Review your tasks**
-- Move anything non-essential to later in the week
-- Focus only on what truly needs to happen today
-
-**Step 3: Set an alarm**
-- Set it for 10 minutes before your chosen end time
-- Use this wrap-up time to help you finish gracefully
-
-**Step 4: Process remaining tasks**
-- Use this wrap-up time to quickly process remaining tasks into your calendar
-- Don't try to complete everything—just capture what needs to happen next
-
-**Step 5: Create a reminder**
-- Place a sticky note on your laptop that says "Don't work at night"
-- This serves as a physical commitment to your boundaries
-
-**Bonus step:** Share your commitment to fixed hours with family or colleagues and ask them to gently help you stick to it.
-
-</details>
-
-<details>
-<summary><strong>Activity: Week 1-4 Implementation Plan (Day-Theming)</strong></summary>
-
-This four-week implementation plan helps you develop a sustainable day-theming practice.
-
-**Week 1: Observe and document**
-- Track your current work patterns for one week
-- When are you most energetic?
-- What days have fixed commitments?
-- What tasks naturally cluster together?
-- Note which tasks drain your energy and which energise you
-- Identify your most common interruptions and urgent requests
-- Document your peak productive periods
-
-**Week 2: Design your approach**
-- Review your observations and choose a day-theming style that fits your patterns
-- Create initial theme assignments that work with your fixed commitments
-- Identify potential challenges and develop contingency plans
-- Set up calendar blocks to support your themes
-
-**Week 3: Test and implement**
-- Start with a "light" version of your chosen system—perhaps theming just 2-3 days
-- Keep a brief daily note about what worked and what didn't
-- Pay attention to how you handle interruptions and urgent requests
-- Notice when and why you deviate from your themes
-
-**Week 4: Reflect and refine**
-- Review your implementation notes
-- What patterns emerged? Which themes felt natural? Where did you struggle?
-- Adjust your themes based on real-world experience
-- Create a sustainable version you can maintain long-term
-
-**Bonus:** Use your weekly review to track theme effectiveness over time.
-
-</details>
-
-<details>
-<summary><strong>Practical Example: Mid-Career Academic</strong></summary>
-
-**High-value tasks:**
-- Supervising 4 postgraduate students
-- Leading a major research project
-- Writing an impact case study
-
-**Important but not urgent:**
-- Peer-reviewing papers
-- Committee work
-- Mentoring junior colleagues
-
-**Routine tasks:**
-- Module coordination
-- Marking assignments
-- Department meetings
-
-**Applying task classification to the tasks above:**
-- Use short gaps between meetings for quick tasks
-- Protect Tuesday and Thursday mornings for PhD supervision
-- Block Wednesdays for focused writing
-- Batch routine admin into Monday afternoons
-
-</details>
+> [!example]- Research: Open vs. Closed Loops
+> <div class="comparison-grid">
+> <div class="comparison-column">
+>
+> #### Common Open Loops in Research
+> - Notes from conference talk that might inform methodology
+> - Unfinished draft of methods section sitting on desktop
+> - Reviewer comments waiting for response
+> - Potential collaborator's email needs follow-up
+> - Data files needing backup and organisation
+>
+> </div>
+> <div class="comparison-column">
+>
+> #### Closing Research Loops
+> **Quick wins (5-15 mins):**
+> - Move data files to secure storage
+> - Send brief response to collaborator
+> - Create task for reviewer response
+>
+> **Larger projects:**
+> - Methods section: Block 3 two-hour sessions next week
+>
+> </div>
+> </div>
 
 ---
 
 ## Comparison Summary
 
-### Quartz Callouts
+### Quartz Callouts (Collapsible Sections)
+**Best for:** Activity instructions, practical examples, additional information
+
 **Pros:**
 - Built into Quartz, no setup needed
 - Consistent styling with the rest of your site
 - Multiple callout types (tip, warning, example, etc.)
 - Good for longer content sections
+- Clean, professional appearance
 
 **Cons:**
-- Only collapsible (not flip-style)
-- Less visually distinctive for flashcard-style content
+- Only collapsible (not quiz-style)
+- Less engaging for active recall content
 
-### Custom CSS Flip Cards
+### Flip Cards (Click-Based)
+**Best for:** Myth/reality pairs, quiz content, active recall learning
+
 **Pros:**
 - Visually engaging and interactive
 - Perfect for flashcard/quiz-style content
-- Great for myth/reality pairs
+- Great for myth/reality or question/answer pairs
 - Encourages active learning
+- Click-based interaction feels intentional
+- Uses callout colors for consistency
+- Compact horizontal size (max 500px)
 
 **Cons:**
-- Requires custom CSS
+- Requires custom CSS and JavaScript
 - Need to use HTML in markdown
-- Fixed height (though this can be adjusted)
+- Not ideal for content that should be compared side-by-side
 
-### Native HTML Details/Summary
+### Comparison Grid (Side-by-Side Layout)
+**Best for:** Before/after comparisons, open vs. closed loops, parallel information
+
 **Pros:**
-- Works everywhere (semantic HTML)
-- No custom CSS needed
-- Fully accessible
-- Can contain any markdown content
-- Variable height (adapts to content)
+- Shows both sides at once for easy comparison
+- Works inside Quartz callouts (collapsible)
+- Responsive (stacks on mobile)
+- Perfect for comparing related concepts
+- Uses semantic structure
 
 **Cons:**
-- Less visually distinctive
-- Basic styling only
-- Similar to callouts but without the visual theming
+- Requires HTML divs in markdown
+- Needs custom CSS for grid layout
 
 ---
 
-## My Recommendation
+## Recommended Usage
 
-Use a **combination**:
-- **Flip cards** → For myth/reality pairs and open loops flashcards (lessons 03, 05)
-- **Details/Summary** → For activity sections and long practical examples (all lessons)
-- **Quartz Callouts** → For tips, warnings, and informational asides
+Use the right tool for each type of content:
 
-This gives you visual variety while keeping the content organized and interactive.
+**Quartz Callouts** → Activity sections, practical examples, tips and warnings, additional context
+
+**Flip Cards** → Myth/reality pairs (lesson 03), quiz-style content, active recall exercises
+
+**Comparison Grid** → Open vs. closed loops (lesson 05), before/after scenarios, parallel concepts
+
+This approach gives you pedagogical variety while maintaining visual consistency with the callout color scheme.
+
+<script>
+// Flip card click handler
+document.addEventListener('DOMContentLoaded', function() {
+  function setupFlipCards() {
+    const flipCards = document.querySelectorAll('.flip-card');
+    flipCards.forEach(card => {
+      card.addEventListener('click', function() {
+        this.classList.toggle('flipped');
+      });
+    });
+  }
+
+  setupFlipCards();
+
+  // Re-run on navigation (for SPA)
+  document.addEventListener('nav', setupFlipCards);
+});
+</script>

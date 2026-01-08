@@ -24,6 +24,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    Component.ConditionalRender({
+      component: Component.CourseGrid(),
+      condition: (page) => page.fileData.slug === "Courses/index",
+    }),
   ],
   left: [
     Component.PageTitle(),
