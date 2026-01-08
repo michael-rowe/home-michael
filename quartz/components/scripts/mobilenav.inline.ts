@@ -1,3 +1,39 @@
+function populateMobileTOC() {
+  // Get TOC from desktop version
+  const desktopTOC = document.querySelector(".desktop-only .toc")
+  const mobileTOCContainer = document.querySelector(".mobile-nav-toc")
+  const mobileTOCList = document.getElementById("mobile-toc-list")
+
+  if (!mobileTOCContainer || !mobileTOCList) return
+
+  // If there's a TOC on desktop, copy it to mobile menu
+  if (desktopTOC) {
+    const tocItems = desktopTOC.querySelectorAll("li")
+    if (tocItems.length > 0) {
+      mobileTOCContainer.style.display = "block"
+      mobileTOCList.innerHTML = ""
+
+      tocItems.forEach((item) => {
+        const link = item.querySelector("a")
+        if (link) {
+          const li = document.createElement("li")
+          const a = document.createElement("a")
+          a.href = link.href
+          a.textContent = link.textContent
+          a.className = "internal mobile-nav-link"
+          a.addEventListener("click", closeMobileNav)
+          li.appendChild(a)
+          mobileTOCList.appendChild(li)
+        }
+      })
+    } else {
+      mobileTOCContainer.style.display = "none"
+    }
+  } else {
+    mobileTOCContainer.style.display = "none"
+  }
+}
+
 function toggleMobileNav(this: HTMLElement) {
   const mobileNav = this.closest(".mobile-nav") as HTMLElement
   if (!mobileNav) return
@@ -33,7 +69,7 @@ function createOverlay() {
   document.body.appendChild(overlay)
 }
 
-document.addEventListener("nav", () => {
+function setupMobileNav() {
   // Remove any existing overlay first
   const existingOverlay = document.querySelector(".mobile-nav-overlay")
   if (existingOverlay) {
@@ -42,6 +78,9 @@ document.addEventListener("nav", () => {
 
   // Create new overlay
   createOverlay()
+
+  // Populate TOC
+  populateMobileTOC()
 
   // Setup toggle button
   const toggleButton = document.querySelector(".mobile-nav-toggle")
@@ -66,24 +105,9 @@ document.addEventListener("nav", () => {
 
   // Close menu on page navigation (for SPA)
   window.addEventListener("popstate", closeMobileNav)
-})
+}
+
+document.addEventListener("nav", setupMobileNav)
 
 // Initialize on first load
-window.addEventListener("DOMContentLoaded", () => {
-  createOverlay()
-
-  const toggleButton = document.querySelector(".mobile-nav-toggle")
-  if (toggleButton) {
-    toggleButton.addEventListener("click", toggleMobileNav)
-  }
-
-  const closeButton = document.querySelector(".mobile-nav-close")
-  if (closeButton) {
-    closeButton.addEventListener("click", closeMobileNav)
-  }
-
-  const navLinks = document.querySelectorAll(".mobile-nav-link")
-  navLinks.forEach((link) => {
-    link.addEventListener("click", handleLinkClick)
-  })
-})
+window.addEventListener("DOMContentLoaded", setupMobileNav)
