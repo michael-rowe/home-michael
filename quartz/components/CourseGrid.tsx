@@ -20,7 +20,8 @@ export default ((opts?: Partial<CourseGridOptions>) => {
     cfg,
   }: QuartzComponentProps) => {
     // Find all course folders by looking for course landing pages or index files
-    const courseFolderPattern = new RegExp(`^${options.coursesFolder}/([^/]+)/(landing page|index)$`)
+    // Note: Quartz converts "landing page.md" to "landing-page" in slugs
+    const courseFolderPattern = new RegExp(`^${options.coursesFolder}/([^/]+)/(landing-page|index)$`)
 
     const courses = allFiles
       .filter((file) => {
@@ -43,7 +44,21 @@ export default ((opts?: Partial<CourseGridOptions>) => {
           courseName: courseName,
         }
       })
-      .sort((a, b) => a.title.localeCompare(b.title))
+      .sort((a, b) => {
+        // Sort by status first (Published > In Development > Coming Soon > others)
+        const statusOrder: Record<string, number> = {
+          Published: 0,
+          "In Development": 1,
+          "Coming Soon": 2,
+        }
+        const aStatus = statusOrder[a.status || ""] ?? 999
+        const bStatus = statusOrder[b.status || ""] ?? 999
+        if (aStatus !== bStatus) {
+          return aStatus - bStatus
+        }
+        // Then sort alphabetically by title
+        return a.title.localeCompare(b.title)
+      })
 
     if (courses.length === 0) {
       return (

@@ -1,14 +1,16 @@
 ---
+title: AI-forward
+description:
 aliases:
-title: AI-forward institutions
+type:
 author:
   - "[[Michael Rowe]]"
-tags: "organisation"
-description:
-related:
 created: 2025-12-26
-type:
+updated:
+status: Published
 needs_review: "true"
+tags: organisation
+related:
 ---
 ## Definition
 

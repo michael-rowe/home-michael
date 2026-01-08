@@ -183,8 +183,9 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
         })
         .sort((a, b) => {
           // Try to sort by lesson number if available in frontmatter
-          const aLesson = a.frontmatter?.lesson as number | undefined
-          const bLesson = b.frontmatter?.lesson as number | undefined
+          // Check both lesson_number and lesson_order fields
+          const aLesson = (a.frontmatter?.lesson_number ?? a.frontmatter?.lesson_order ?? a.frontmatter?.lesson) as number | undefined
+          const bLesson = (b.frontmatter?.lesson_number ?? b.frontmatter?.lesson_order ?? b.frontmatter?.lesson) as number | undefined
           if (aLesson !== undefined && bLesson !== undefined) {
             return aLesson - bLesson
           }
@@ -200,16 +201,19 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
         <div class={classNames(displayClass, "contextual-nav")}>
           <h3>Course Lessons</h3>
           <ul>
-            {lessons.map((lesson) => (
-              <li>
-                <a href={resolveRelative(fileData.slug!, lesson.slug!)} class="internal">
-                  {lesson.frontmatter?.lesson !== undefined && (
-                    <span class="lesson-number">{lesson.frontmatter.lesson}. </span>
-                  )}
-                  {lesson.frontmatter?.title}
-                </a>
-              </li>
-            ))}
+            {lessons.map((lesson) => {
+              const lessonNum = (lesson.frontmatter?.lesson_number ?? lesson.frontmatter?.lesson_order ?? lesson.frontmatter?.lesson) as number | undefined
+              return (
+                <li>
+                  <a href={resolveRelative(fileData.slug!, lesson.slug!)} class="internal">
+                    {lessonNum !== undefined && (
+                      <span class="lesson-number">{lessonNum}. </span>
+                    )}
+                    {lesson.frontmatter?.title}
+                  </a>
+                </li>
+              )
+            })}
           </ul>
         </div>
       )
@@ -224,6 +228,9 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  overflow-y: auto;
+  flex: 1 1 auto;
+  min-height: 0;
 }
 
 .contextual-nav h3 {
@@ -231,6 +238,7 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
   font-weight: 700;
   margin: 0;
   color: var(--dark);
+  flex-shrink: 0;
 }
 
 .contextual-nav ul {
@@ -240,6 +248,7 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  overflow-y: auto;
 }
 
 .contextual-nav li {
@@ -274,6 +283,7 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
 .contextual-nav .lesson-number {
   font-weight: 600;
   color: var(--darkgray);
+  display: inline;
 }
 `
 

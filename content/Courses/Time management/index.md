@@ -1,10 +1,10 @@
 ---
-title: "Time Management for Academics"
-description: "Transform your workday with sustainable working practices and systematic time management"
-cover: "assets/course-covers/time-management.jpg"
-status: "Published"
-duration: "4-6 hours"
-level: "Beginner"
+title: Time Management for Academics
+description: Transform your workday with sustainable working practices and systematic time management
+cover: Media/course-cover-time-management.jpg
+status: Published
+duration: 4-6 hours
+level: Beginner
 ---
 
 # Time Management for Academics

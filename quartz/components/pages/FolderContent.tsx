@@ -102,21 +102,27 @@ export default ((opts?: Partial<FolderContentOptions>) => {
         : htmlToJsx(fileData.filePath!, tree)
     ) as ComponentChildren
 
+    // Don't show the automatic page listing on Courses/index or Book/index since custom components handle it
+    const shouldShowPageListing =
+      fileData.slug !== "Courses/index" && fileData.slug !== "Book/index"
+
     return (
       <div class="popover-hint">
         <article class={classes}>{content}</article>
-        <div class="page-listing">
-          {options.showFolderCount && (
-            <p>
-              {i18n(cfg.locale).pages.folderContent.itemsUnderFolder({
-                count: allPagesInFolder.length,
-              })}
-            </p>
-          )}
-          <div>
-            <PageList {...listProps} />
+        {shouldShowPageListing && (
+          <div class="page-listing">
+            {options.showFolderCount && (
+              <p>
+                {i18n(cfg.locale).pages.folderContent.itemsUnderFolder({
+                  count: allPagesInFolder.length,
+                })}
+              </p>
+            )}
+            <div>
+              <PageList {...listProps} />
+            </div>
           </div>
-        </div>
+        )}
       </div>
     )
   }

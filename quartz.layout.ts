@@ -7,10 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [Component.TopNav(), Component.MobileNav()],
   afterBody: [],
   footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
-    },
+    author: "Michael Rowe",
   }),
 }
 
@@ -50,6 +47,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Backlinks(),
   ],
   afterBody: [
+    Component.CourseButton(),
+    Component.LessonNav(),
     Component.Comments({
       provider: "giscus",
       options: {
@@ -68,7 +67,19 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+    Component.ConditionalRender({
+      component: Component.BookOverview({ showCoverOnly: true }),
+      condition: (page) => page.fileData.slug === "Book/index",
+    }),
+    Component.ConditionalRender({
+      component: Component.CourseGrid(),
+      condition: (page) => page.fileData.slug === "Courses/index",
+    }),
+  ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -87,5 +98,13 @@ export const defaultListPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+  ],
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.BookOverview({ showChaptersOnly: true }),
+      condition: (page) => page.fileData.slug === "Book/index",
+    }),
+    Component.CourseButton(),
+    Component.LessonNav(),
   ],
 }

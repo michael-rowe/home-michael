@@ -28,6 +28,9 @@ import TopNav from "./TopNav"
 import ContextualNav from "./ContextualNav"
 import MobileNav from "./MobileNav"
 import CourseGrid from "./CourseGrid"
+import LessonNav from "./LessonNav"
+import CourseButton from "./CourseButton"
+import BookOverview from "./BookOverview"
 
 export {
   ArticleTitle,
@@ -60,4 +63,7 @@ export {
   ContextualNav,
   MobileNav,
   CourseGrid,
+  LessonNav,
+  CourseButton,
+  BookOverview,
 }

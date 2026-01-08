@@ -11,7 +11,7 @@ const config: QuartzConfig = {
     pageTitle: "Emergent scholarship",
     pageTitleSuffix: "",
     enableSPA: true,
-    enablePopovers: true,
+    enablePopovers: false,
     analytics: {
       provider: "umami",
       websiteId: "77390f7b-08ec-4c18-b306-0b03e2dafc81",
