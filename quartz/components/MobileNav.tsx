@@ -130,8 +130,8 @@ export default ((opts?: Partial<MobileNavOptions>) => {
       const chapters = allFiles
         .filter((f) => f.slug?.startsWith("Book/") && f.slug !== "Book/index")
         .sort((a, b) => {
-          const aChapter = a.frontmatter?.chapter as number | undefined
-          const bChapter = b.frontmatter?.chapter as number | undefined
+          const aChapter = a.frontmatter?.chapter_number as number | undefined
+          const bChapter = b.frontmatter?.chapter_number as number | undefined
           if (aChapter !== undefined && bChapter !== undefined) {
             return aChapter - bChapter
           }
@@ -146,8 +146,8 @@ export default ((opts?: Partial<MobileNavOptions>) => {
               {chapters.map((chapter) => (
                 <li>
                   <a href={resolveRelative(fileData.slug!, chapter.slug!)} class="internal mobile-nav-link">
-                    {chapter.frontmatter?.chapter !== undefined && (
-                      <span class="chapter-number">{chapter.frontmatter.chapter}. </span>
+                    {chapter.frontmatter?.chapter_number !== undefined && (
+                      <span class="chapter-number">{chapter.frontmatter.chapter_number}. </span>
                     )}
                     {chapter.frontmatter?.title}
                   </a>

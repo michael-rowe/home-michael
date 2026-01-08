@@ -136,8 +136,8 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
         .filter((f) => f.slug?.startsWith("Book/") && f.slug !== "Book/index")
         .sort((a, b) => {
           // Try to sort by chapter number if available in frontmatter
-          const aChapter = a.frontmatter?.chapter as number | undefined
-          const bChapter = b.frontmatter?.chapter as number | undefined
+          const aChapter = a.frontmatter?.chapter_number as number | undefined
+          const bChapter = b.frontmatter?.chapter_number as number | undefined
           if (aChapter !== undefined && bChapter !== undefined) {
             return aChapter - bChapter
           }
@@ -152,8 +152,8 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
             {chapters.map((chapter) => (
               <li>
                 <a href={resolveRelative(fileData.slug!, chapter.slug!)} class="internal">
-                  {chapter.frontmatter?.chapter !== undefined && (
-                    <span class="chapter-number">{chapter.frontmatter.chapter}. </span>
+                  {chapter.frontmatter?.chapter_number !== undefined && (
+                    <span class="chapter-number">{chapter.frontmatter.chapter_number}. </span>
                   )}
                   {chapter.frontmatter?.title}
                 </a>
