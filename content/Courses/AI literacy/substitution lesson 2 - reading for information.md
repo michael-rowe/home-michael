@@ -1,4 +1,9 @@
-# Lesson 4: Reading for information
+---
+title: "Reading for information"
+lesson_number: substitution-2
+---
+
+# Reading for information
 
 ## Lesson overview
 
@@ -28,9 +33,8 @@ By 10:20am, she's triaged 10 papers and knows exactly what deserves her sustaine
 
 Three weeks later, James has carefully read 3 more papers (50 total hours). Sarah has processed 45 papers through triage and read 8 papers deeply (20 total hours).
 
-**Before we begin:** How do you currently approach your reading backlog? Do you try to read everything carefully? How does that work for you?
-
-[Text input box]
+> [!question] Before we begin
+> How do you currently approach your reading backlog? Do you try to read everything carefully? How does that work for you?
 
 **Progress:** Section 2 of 12
 
@@ -50,27 +54,24 @@ The crucial distinction for reading: **information extraction versus comprehensi
 
 This lesson focuses on substitution-level reading: using AI to extract information efficiently when that's what you need. You're not changing your reading practice fundamentally; you're adding AI to accelerate extraction so you can read more strategically.
 
-<details> <summary><strong>How this builds on previous lessons (click to expand)</strong></summary>
+> [!example]- How this builds on previous lessons
+>
+> **Substitution framework continues:**
+>
+> - Same goal: Stay current with your field, identify relevant papers, extract information for your work
+> - Same process: You still decide what to read, evaluate relevance, determine what you need
+> - What changes: AI extracts information faster, allowing you to process more texts strategically
+>
+> **Same literacy dimensions as lesson 3:**
+>
+> - Functional application: Using extraction-level engagement effectively
+> - Critical evaluation: Honestly assessing whether extraction gave you what you needed
+> - Binary assessment: Did this work or didn't it?
+>
+> **Same purpose:** Creating headspace. Time saved through AI extraction should go toward deeper reading of papers that genuinely matter, not just processing more volume.
 
-**Substitution framework continues:**
-
-- Same goal: Stay current with your field, identify relevant papers, extract information for your work
-- Same process: You still decide what to read, evaluate relevance, determine what you need
-- What changes: AI extracts information faster, allowing you to process more texts strategically
-
-**Same literacy dimensions as lesson 3:**
-
-- Functional application: Using extraction-level engagement effectively
-- Critical evaluation: Honestly assessing whether extraction gave you what you needed
-- Binary assessment: Did this work or didn't it?
-
-**Same purpose:** Creating headspace. Time saved through AI extraction should go toward deeper reading of papers that genuinely matter, not just processing more volume.
-
-</details>
-
-**Quick reflection:** If you could process your reading backlog efficiently, what papers would you make time to read deeply?
-
-[Text input box]
+> [!question] Quick reflection
+> If you could process your reading backlog efficiently, what papers would you make time to read deeply?
 
 **Progress:** Section 3 of 12
 
@@ -88,19 +89,14 @@ Choose one paper you've already read carefully—something you know well enough 
 
 **Now compare AI's summary to your understanding:**
 
-**What AI got right:**
-
-[Text input box]
-
-**What AI missed or oversimplified:**
-
-[Text input box]
-
-**Could you have cited this paper confidently based only on this summary?** Yes / No
-
-**What this reveals:**
-
-[Text input box]
+> [!question]- Evaluate the summary
+> **What AI got right:**
+>
+> **What AI missed or oversimplified:**
+>
+> **Could you have cited this paper confidently based only on this summary?** Yes / No
+>
+> **What this reveals:**
 
 **Calibration insight:** This exercise shows you AI's limitations in your domain. You're building critical evaluation skills by understanding where AI summaries are trustworthy and where they need your verification. This judgement is essential for deciding when extraction suffices.
 
@@ -131,38 +127,32 @@ Here's a complete summarisation prompt with critical evaluation. Notice how it s
 - Would I feel comfortable citing this paper based on this information?
 - What's missing that matters for my purposes?
 
-**Self-explanation:** Why specify "200 words" rather than just asking for "a summary"?
+> [!question] Self-explanation
+> Why specify "200 words" rather than just asking for "a summary"?
 
-[Text input box for reasoning]
-
-<details> <summary><strong>Show answer</strong></summary>
-
-Specifying word count prevents AI from generating either too-brief summaries (missing key details) or too-long ones (defeating the efficiency purpose). 200 words provides enough detail for most triage purposes while being quick to read. This is functional application—clear communication about exactly what you need.
-
-</details>
+> [!example]- Show answer
+>
+> Specifying word count prevents AI from generating either too-brief summaries (missing key details) or too-long ones (defeating the efficiency purpose). 200 words provides enough detail for most triage purposes while being quick to read. This is functional application—clear communication about exactly what you need.
 
 **Stage 2: Apply to your work**
 
 Choose one paper from your reading backlog. Create a summarisation prompt for it, being specific about what elements you need.
 
-**Your prompt:**
-
-[Text input box]
+> [!todo]- Your prompt
+> [Write your summarisation prompt here]
 
 **After AI responds, evaluate:**
 
-- Did this give you what you needed? Yes / No
-- What would you need to know before citing this paper?
-
-[Text input box]
+> [!question]- Evaluate the response
+> - Did this give you what you needed? Yes / No
+> - What would you need to know before citing this paper?
 
 **Stage 3: Refine your approach**
 
 If the summary was insufficient, what specific element was missing? Revise your prompt to request that information.
 
-**Refined prompt (if needed):**
-
-[Text input box]
+> [!todo]- Refined prompt (if needed)
+> [Write your refined prompt here]
 
 **When basic summarisation works well:**
 
@@ -214,15 +204,12 @@ Instead of asking for everything, specify exactly what you need:
 
 Choose a paper you need to cite. What specific information do you need from it? Write a targeted extraction prompt.
 
-**Your targeted prompt:**
-
-[Text input box]
-
-**What you got:**
-
-[Text input box]
-
-**Was this sufficient for citing the paper?** Yes / No / Need to verify by reading
+> [!todo]- Your targeted extraction
+> **Your targeted prompt:**
+>
+> **What you got:**
+>
+> **Was this sufficient for citing the paper?** Yes / No / Need to verify by reading
 
 **Self-check:**
 
@@ -243,25 +230,23 @@ Choose a paper you need to cite. What specific information do you need from it? 
 
 Before investing reading time, quickly assess whether papers warrant your attention.
 
-<details> <summary><strong>The relevance checking workflow (click to expand and learn)</strong></summary>
-
-### Prompt structure
-
-"I'm researching [your specific topic]. Based on this paper's abstract and introduction, is it relevant? What specific contributions does it make that might be useful for my work?"
-
-### Critical evaluation
-
-Does this help you decide whether to read further? Does it identify connections you might have missed?
-
-### When this suffices
-
-Quick triage prevents reading papers that won't serve your work. This is efficiency for headspace—redirecting time toward papers that matter.
-
-### Time saved
-
-Checking relevance by reading abstracts: 10-15 minutes per paper AI relevance assessment: 2-3 minutes per paper
-
-</details>
+> [!example]- The relevance checking workflow
+>
+> ### Prompt structure
+>
+> "I'm researching [your specific topic]. Based on this paper's abstract and introduction, is it relevant? What specific contributions does it make that might be useful for my work?"
+>
+> ### Critical evaluation
+>
+> Does this help you decide whether to read further? Does it identify connections you might have missed?
+>
+> ### When this suffices
+>
+> Quick triage prevents reading papers that won't serve your work. This is efficiency for headspace—redirecting time toward papers that matter.
+>
+> ### Time saved
+>
+> Checking relevance by reading abstracts: 10-15 minutes per paper AI relevance assessment: 2-3 minutes per paper
 
 ### Quick practice
 
@@ -305,41 +290,38 @@ You've found a paper on qualitative coding that looks relevant. You have 30 minu
 
 **What's your approach?**
 
-<details> <summary><strong>Option A: Use AI for quick summary, move on</strong></summary>
+> [!example]- Option A: Use AI for quick summary, move on
+>
+> **Your approach:** You ask AI for a 150-word summary. It tells you the paper uses grounded theory for interview analysis. Sounds useful. You save it to cite.
+>
+> **What happens:** Two weeks later, writing your methodology section, you realize you don't understand grounded theory well enough to compare it to your approach. You need to read the paper properly anyway, but now you're on a deadline.
+>
+> **Time total:** 3 minutes now + 40 minutes later when rushed = 43 minutes
+>
+> **Learning:** Extraction worked for initial relevance check but not for the depth you actually needed. Your writing revealed insufficient understanding. Should have either read it properly initially or noted it needed deeper reading.
 
-**Your approach:** You ask AI for a 150-word summary. It tells you the paper uses grounded theory for interview analysis. Sounds useful. You save it to cite.
+> [!example]- Option B: Read the paper carefully for 30 minutes
+>
+> **Your approach:** You start reading from the beginning, taking notes carefully.
+>
+> **What happens:** You get through introduction and literature review but don't finish. The meeting interrupts you. Later that day, you can't remember details and need to re-read sections. The paper takes 90 minutes total across three sessions.
+>
+> **Time total:** 30 + 30 + 30 = 90 minutes (fragmented)
+>
+> **Learning:** Deep reading is important but 30-minute chunks aren't sufficient for 8,000-word papers. Should have either allocated proper time or triaged with extraction first to determine if full reading was necessary.
 
-**What happens:** Two weeks later, writing your methodology section, you realize you don't understand grounded theory well enough to compare it to your approach. You need to read the paper properly anyway, but now you're on a deadline.
+> [!example]- Option C: Use AI for detailed extraction, assess if you need more
+>
+> **Your approach:** You spend 5 minutes getting AI to extract: coding approach used, how grounded theory is applied, what makes this approach different from other methods, acknowledged limitations, and key takeaways about when this approach works well.
+>
+> **What happens:** You now understand it's similar to your approach but emphasizes different aspects of emergence in coding. You save detailed notes. When writing your methodology section, you know exactly which 2 pages to read carefully for the specific variation you want to discuss. Total time: 5 minutes extraction + 15 minutes targeted reading later = 20 minutes.
+>
+> **Time total:** 5 + 15 = 20 minutes (strategic)
+>
+> **Learning:** Targeted extraction helped you understand relevance AND what specifically to read deeply. You invested reading time where it mattered most. This is strategic triage serving your scholarly goals.
 
-**Time total:** 3 minutes now + 40 minutes later when rushed = 43 minutes
-
-**Learning:** Extraction worked for initial relevance check but not for the depth you actually needed. Your writing revealed insufficient understanding. Should have either read it properly initially or noted it needed deeper reading.
-
-</details> <details> <summary><strong>Option B: Read the paper carefully for 30 minutes</strong></summary>
-
-**Your approach:** You start reading from the beginning, taking notes carefully.
-
-**What happens:** You get through introduction and literature review but don't finish. The meeting interrupts you. Later that day, you can't remember details and need to re-read sections. The paper takes 90 minutes total across three sessions.
-
-**Time total:** 30 + 30 + 30 = 90 minutes (fragmented)
-
-**Learning:** Deep reading is important but 30-minute chunks aren't sufficient for 8,000-word papers. Should have either allocated proper time or triaged with extraction first to determine if full reading was necessary.
-
-</details> <details> <summary><strong>Option C: Use AI for detailed extraction, assess if you need more</strong></summary>
-
-**Your approach:** You spend 5 minutes getting AI to extract: coding approach used, how grounded theory is applied, what makes this approach different from other methods, acknowledged limitations, and key takeaways about when this approach works well.
-
-**What happens:** You now understand it's similar to your approach but emphasizes different aspects of emergence in coding. You save detailed notes. When writing your methodology section, you know exactly which 2 pages to read carefully for the specific variation you want to discuss. Total time: 5 minutes extraction + 15 minutes targeted reading later = 20 minutes.
-
-**Time total:** 5 + 15 = 20 minutes (strategic)
-
-**Learning:** Targeted extraction helped you understand relevance AND what specifically to read deeply. You invested reading time where it mattered most. This is strategic triage serving your scholarly goals.
-
-</details>
-
-**Reflection:** Which approach best served scholarly goals? When might each be appropriate?
-
-[Text input box]
+> [!question] Reflection
+> Which approach best served scholarly goals? When might each be appropriate?
 
 **Decision principle:** Extraction first for triage, then read deeply only what your work requires. Don't default to either always extracting or always reading everything carefully.
 
@@ -381,9 +363,8 @@ Think of 2-3 papers currently in your backlog. Run each through this checklist:
 
 - Decision: Deep reading / Targeted reading / Extraction / Delete
 
-**Pattern recognition:** Do most of your papers require deep reading, or are you defaulting to deep reading when extraction would suffice?
-
-[Text input box]
+> [!question] Pattern recognition
+> Do most of your papers require deep reading, or are you defaulting to deep reading when extraction would suffice?
 
 ⚠️ **Literacy warning:** If everything ends up as "deep reading required," you may be defaulting to reading everything carefully out of anxiety rather than strategic judgement. Aim for roughly 20-30% deep reading, 40-50% extraction, 20-30% delete/irrelevant. Adjust based on your actual needs.
 
@@ -465,9 +446,8 @@ Select 5-7 papers from your backlog. For each:
 
 **Papers removed from backlog:** [___]
 
-**Critical evaluation:** Did the extraction help you make these categorization decisions? What would you have done differently without AI?
-
-[Text input box]
+> [!question] Critical evaluation
+> Did the extraction help you make these categorization decisions? What would you have done differently without AI?
 
 **✓ You can now identify when summaries provide sufficient information vs when you need deep reading**
 
@@ -505,9 +485,8 @@ Let's make the efficiency gains concrete rather than abstract.
 
 **Traditional approach:** [_**] hours/week reading everything **Strategic approach:** [**_] hours/week with triage + targeted deep reading **Potential time savings:** [___] hours/week
 
-**What will you do with 2-3 reclaimed hours per week?**
-
-[Text input box]
+> [!question] Your commitment
+> **What will you do with 2-3 reclaimed hours per week?**
 
 **Remember:** This time should go toward deeper reading of papers that truly matter, not just processing more volume. Protect this time by scheduling deep reading sessions for your Tier 1 papers before other work fills the space.
 
@@ -584,9 +563,8 @@ Using AI for extraction carries a risk: defaulting to summaries when you need co
 
 ## Your commitment
 
-Based on this lesson, how will you process your reading backlog this week? What's one Tier 1 paper you commit to reading deeply?
-
-[Text input box]
+> [!todo] Your commitment
+> Based on this lesson, how will you process your reading backlog this week? What's one Tier 1 paper you commit to reading deeply?
 
 ---
 

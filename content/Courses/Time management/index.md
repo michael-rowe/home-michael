@@ -28,4 +28,4 @@ While academics have considerable autonomy around structuring their days, few fe
 - **Format:** Self-paced with practical activities
 - **Status:** Published
 
-[[course-overview|Start Course →]]
+[[time-management-course-overview|Start Course →]]

@@ -1,4 +1,8 @@
-# Lesson 4: Project notes
+---
+title: "Project notes"
+---
+
+# Project notes
 
 > Every intellectual endeavour starts with a note. - Sönke Ahrens (2017)
 
@@ -137,51 +141,43 @@ This weekly rhythm prevents projects from stalling due to inattention. Even if y
 
 ## Pause and reflect
 
-One challenge with project notes is scope creep – both at the individual project level and in terms of what counts as a project worthy of dedicated notes. It's tempting to create elaborate project note systems for every possible piece of work, but this quickly becomes unsustainable.
-
-**Useful heuristic:** Ask whether the work will extend beyond a few weeks and involve multiple distinct activities or stakeholders. Writing a conference abstract probably doesn't need full project notes. But writing the paper that results from that presentation probably does warrant project notes because it involves literature review, drafting, feedback, revision, and submission over several months.
-
-Another common pitfall is failing to update project notes consistently. It's easy to create comprehensive notes at project start, then neglect them as you get immersed in the work. This is where weekly reviews become crucial. Project notes only provide value if they reflect current reality, not just initial planning.
-
-Remember that project notes are meant to be archived when projects complete. Don't let completed project notes accumulate in your active workspace. When a project ends, review the project notes, extract any lasting insights into permanent notes, then move the entire project into an archive.
+> [!question] Reflection: managing project notes systems
+> One challenge with project notes is scope creep – both at the individual project level and in terms of what counts as a project worthy of dedicated notes. It's tempting to create elaborate project note systems for every possible piece of work, but this quickly becomes unsustainable.
+>
+> **Useful heuristic:** Ask whether the work will extend beyond a few weeks and involve multiple distinct activities or stakeholders. Writing a conference abstract probably doesn't need full project notes. But writing the paper that results from that presentation probably does warrant project notes because it involves literature review, drafting, feedback, revision, and submission over several months.
+>
+> Another common pitfall is failing to update project notes consistently. It's easy to create comprehensive notes at project start, then neglect them as you get immersed in the work. This is where weekly reviews become crucial. Project notes only provide value if they reflect current reality, not just initial planning.
+>
+> Remember that project notes are meant to be archived when projects complete. Don't let completed project notes accumulate in your active workspace. When a project ends, review the project notes, extract any lasting insights into permanent notes, then move the entire project into an archive.
 
 ## Activity
 
-Develop sustainable project notes practices over four weeks:
+> [!todo]- Week 1: Identify and organise
+> List all current projects – anything extending beyond simple task completion. For each project, ask: "Will this still be active next month?" Choose three active projects and create dedicated spaces with basic overview documents including:
+>
+> - Project purpose and goals
+> - Key deliverables and deadlines
+> - Main stakeholders
+> - Current status
 
-**Week 1: Identify and organise**
+> [!todo]- Week 2: Populate and refine
+> Move existing project information into project notes. Look through email for important exchanges, gather documents, consolidate meeting notes. Refine your project note structures based on this real information. Different projects may need different structures – let the nature of each project guide its organisation.
 
-List all current projects – anything extending beyond simple task completion. For each project, ask: "Will this still be active next month?" Choose three active projects and create dedicated spaces with basic overview documents including:
+> [!todo]- Week 3: Integrate with daily workflow
+> Use project notes in your daily work. Take meeting notes directly in project notes. Update project status when completing tasks. Capture important information from emails in project notes. Add project reviews to your weekly review routine, spending a few minutes on each active project.
 
-- Project purpose and goals
-- Key deliverables and deadlines
-- Main stakeholders
-- Current status
-
-**Week 2: Populate and refine**
-
-Move existing project information into project notes. Look through email for important exchanges, gather documents, consolidate meeting notes. Refine your project note structures based on this real information. Different projects may need different structures – let the nature of each project guide its organisation.
-
-**Week 3: Integrate with daily workflow**
-
-Use project notes in your daily work. Take meeting notes directly in project notes. Update project status when completing tasks. Capture important information from emails in project notes. Add project reviews to your weekly review routine, spending a few minutes on each active project.
-
-**Week 4: Review and systematise**
-
-Reflect on what worked over three weeks. Which aspects were most valuable? What felt like unnecessary overhead? What information did you need that wasn't captured? Adjust your system based on actual experience. If any projects completed during this month, practice archiving them.
+> [!todo]- Week 4: Review and systematise
+> Reflect on what worked over three weeks. Which aspects were most valuable? What felt like unnecessary overhead? What information did you need that wasn't captured? Adjust your system based on actual experience. If any projects completed during this month, practice archiving them.
 
 ## Key takeaways
 
-**Project notes create bounded spaces for complex, extended work.** Unlike daily notes that track immediate tasks or permanent notes that preserve lasting insights, project notes occupy a middle ground with clear lifecycles. They begin when projects start, evolve as work progresses, and are archived when projects complete. This bounded nature means project notes can be more pragmatic and messy than permanent notes while being more organised and strategic than daily notes.
+- **Create bounded spaces for complex, extended work:** Unlike daily notes that track immediate tasks or permanent notes that preserve lasting insights, project notes occupy a middle ground with clear lifecycles. They begin when projects start, evolve as work progresses, and are archived when projects complete. This bounded nature means project notes can be more pragmatic and messy than permanent notes while being more organised and strategic than daily notes.
 
-**Effective project notes require regular review and updating.** Creating comprehensive project notes at the start isn't sufficient – they only remain valuable through consistent maintenance. Integrate project reviews into your weekly review practice, updating status, identifying next actions, and ensuring notes reflect current reality. Without this regular attention, projects stall and project notes become historical documents rather than active working tools.
+- **Maintain project notes through regular review and updating:** Creating comprehensive project notes at the start isn't sufficient – they only remain valuable through consistent maintenance. Integrate project reviews into your weekly review practice, updating status, identifying next actions, and ensuring notes reflect current reality. Without this regular attention, projects stall and project notes become historical documents rather than active working tools.
 
-**Not everything needs formal project notes.** Be selective about what warrants dedicated project notes versus what can be managed through daily notes and simple task lists. The test is whether work extends beyond a few weeks and involves multiple distinct activities or stakeholders. Creating project notes for everything adds unnecessary overhead; creating them for genuinely complex work provides essential structure and clarity.
+- **Be selective about what warrants formal project notes:** Be selective about what warrants dedicated project notes versus what can be managed through daily notes and simple task lists. The test is whether work extends beyond a few weeks and involves multiple distinct activities or stakeholders. Creating project notes for everything adds unnecessary overhead; creating them for genuinely complex work provides essential structure and clarity.
 
 ## Resources
 
-Ahrens, S. (2017). [How to take smart notes: One simple technique to boost writing, learning and thinking](https://amzn.to/3xeFgdW). Sönke Ahrens.
-
-Forte, T. (2022). [Building a second brain: A proven method to organise your digital life and unlock your creative potential](https://amzn.to/3Xv2Iye). Atria Books.
-
-Do you have any experiences or insights that you'd like to share with others? What habits and routines have you implemented in your own practice that have helped in this area? Do you have any questions about your specific context that are not addressed in this lesson? Please leave a comment for other participants in the field below.
+- Ahrens, S. (2017). [How to take smart notes: One simple technique to boost writing, learning and thinking](https://amzn.to/3xeFgdW). Sönke Ahrens.
+- Forte, T. (2022). [Building a second brain: A proven method to organise your digital life and unlock your creative potential](https://amzn.to/3Xv2Iye). Atria Books.

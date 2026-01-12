@@ -1,4 +1,9 @@
-# Lesson 7: Argument development through dialogue
+---
+title: Argument development through dialogue
+lesson_number: adaptation-2
+---
+
+# Argument development through dialogue
 
 ## Lesson overview
 
@@ -55,7 +60,8 @@ Dr. Thompson needs to make the same argument. She spends 45 minutes with AI befo
 
 Then she drafts for 2 hours—articulating arguments she's already tested. The prose flows because she knows exactly what she's arguing and why. Total time: 3 hours total, confident submission.
 
-**Before we begin:** Think about your last argument section. Did you discover structural problems after you'd already drafted? What would have changed if you'd explored the argument first?
+> [!question]
+> Think about your last argument section. Did you discover structural problems after you'd already drafted? What would have changed if you'd explored the argument first?
 
 [Text input box]
 
@@ -129,7 +135,8 @@ The adaptation stage is about discovering what becomes possible when AI supports
 
 </details>
 
-**Quick reflection:** When you write arguments, do you draft first then discover problems, or explore systematically before writing?
+> [!question]
+> When you write arguments, do you draft first then discover problems, or explore systematically before writing?
 
 [Text input box]
 
@@ -141,9 +148,9 @@ The adaptation stage is about discovering what becomes possible when AI supports
 
 The same evidence can support different arguments depending on structure. Most academics use the first structure that occurs to them. Adaptation-level literacy means deliberately exploring alternatives.
 
-### Faded practice: From observation to independence
+### [!todo]- Faded practice: From observation to independence
 
-**Stage 1 - Observe expert application**
+### [!todo]- Stage 1: Observe expert application
 
 Here's how an experienced scholar explores structural options systematically:
 
@@ -176,7 +183,7 @@ Generating alternatives makes structure a conscious choice rather than default. 
 
 </details>
 
-**Stage 2 - Guided evaluation**
+### [!todo]- Stage 2: Guided evaluation
 
 Think of an argument you're currently developing. Write your claim and main evidence briefly.
 
@@ -227,7 +234,7 @@ Think of an argument you're currently developing. Write your claim and main evid
 - [ ] I understand what this structure foregrounds vs backgrounds
 - [ ] This reflects my analytical approach, not AI's
 
-**Stage 3 - Independent application**
+### [!todo]- Stage 3: Independent application
 
 You now know the pattern: generate structural options → evaluate against your goals → make deliberate choices about emphasis.
 
@@ -241,7 +248,7 @@ You now know the pattern: generate structural options → evaluate against your 
 
 Strong arguments require evidence that actually supports claims. But it's easy to assume connections that don't fully hold. Systematic testing reveals gaps before reviewers find them.
 
-### The sufficiency test
+### **The sufficiency test**
 
 **Prompt structure:**
 
@@ -251,7 +258,7 @@ Strong arguments require evidence that actually supports claims. But it's easy t
 
 "I'm claiming workload increases cause research productivity decline based on survey data showing both increased workload and decreased output over 5 years. Is this evidence sufficient? What alternative explanations could account for both patterns?"
 
-### Quick practice
+### [!todo]- Quick practice
 
 Apply the sufficiency test to your argument from the previous exercise.
 
@@ -294,7 +301,7 @@ Apply the sufficiency test to your argument from the previous exercise.
 
 Testing isn't just about whether evidence supports claims—it's about what contradicts them.
 
-### The steel man test
+### **The steel man test**
 
 Don't ask AI for weak objections you can easily dismiss. Ask for the strongest possible challenge to your thinking.
 
@@ -310,7 +317,7 @@ Steel man objections are more useful. If you can address the strongest version, 
 
 </details>
 
-### Quick practice
+### [!todo]- Quick practice
 
 Generate a steel man objection to your argument.
 
@@ -356,7 +363,7 @@ Generate a steel man objection to your argument.
 
 We're often blind to our own assumptions. AI can surface them for explicit examination.
 
-### The three assumption types
+### **The three assumption types**
 
 **Conceptual assumptions:** What you're assuming about how concepts work
 
@@ -407,7 +414,7 @@ Choose the ONE most relevant to your argument:
 
 Not all AI challenges improve arguments. Let's practice distinguishing helpful from unhelpful suggestions.
 
-### The scenario
+### **The scenario**
 
 You're arguing that increased workload decreases research productivity based on longitudinal survey data showing both trends.
 
@@ -451,9 +458,8 @@ Major revisions or rejection.
 
 </details>
 
-**Reflection:** What's the difference between these responses? How do you decide what level of engagement a challenge deserves?
-
-[Text input box]
+> [!question]
+> What's the difference between these responses? How do you decide what level of engagement a challenge deserves?[Text input box]
 
 **Decision principle:** Evaluate challenges against your goals and evidence. Some reveal genuine weaknesses. Some introduce valuable sophistication. Some overcomplicate. Your judgement about which is which determines whether pre-writing exploration helps or hinders.
 
@@ -716,7 +722,7 @@ The same evidence supports different arguments depending on structure. Most acad
 
 ### Distinctive voice remains central through deliberate choices
 
-Pre-writing argument development requires maintaining your distinctive analytical voice throughout. The exploration is valuable only if it strengthens your thinking—not if it replaces it with generic approaches. Your voice emerges through which options feel true to how you think, what evidence you find genuinely compelling, how you interpret without oversimplifying, and how you engage with counterarguments respectfully. You're using AI to think more rigorously like yourself—not learning to think like AI suggests.
+**Pre-writing argument development requires maintaining your distinctive analytical voice throughout. The exploration is valuable only if it strengthens your thinking—not if it replaces it with generic approaches. Your voice emerges through which options feel true to how you think, what evidence you find genuinely compelling, how you interpret without oversimplifying, and how you engage with counterarguments respectfully. You're using AI to think more rigorously like yourself—not learning to think like AI suggests.**
 
 ---
 

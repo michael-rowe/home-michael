@@ -1,7 +1,6 @@
 ---
 title: Contact
 ---
-
 ## Get In Touch
 
 I welcome conversations about emergent scholarship, networked thinking, and collaborative knowledge work.

@@ -1,12 +1,11 @@
 ---
-# Lesson Identity
+title: "Course summary"
+lesson_number: 6
 lesson_id: "time-management-06-summary"
 course_id: "time-management-academics"
-title: "Course Summary"
 subtitle: "Bringing it all together"
 
 # Lesson Structure
-lesson_number: 6
 lesson_order: 6
 module: "Course Conclusion"
 section: "Integration"
@@ -17,7 +16,7 @@ version: "1.0"
 
 # Content Description
 objective: "Review and integrate all course concepts for sustainable practice"
-summary: "This lesson synthesizes the five core practices of the course: fixed schedules, task categorization, time-blocking, day-theming, and weekly reviews. It reinforces how these practices work together to create sustainable academic productivity."
+summary: "This lesson synthesises the five core practices of the course: fixed schedules, task categorisation, time-blocking, day-theming, and weekly reviews. It reinforces how these practices work together to create sustainable academic productivity."
 description: "Course conclusion that reviews key concepts, provides a complete bibliography, and helps consolidate learning for ongoing practice."
 
 # Learning Design
@@ -28,7 +27,7 @@ learning_type: "conceptual"
 # Learning Elements
 key_concepts:
   - "Fixed-schedule productivity"
-  - "Task categorization"
+  - "Task categorisation"
   - "Time-blocking"
   - "Day-theming"
   - "Weekly reviews"
@@ -36,7 +35,7 @@ key_concepts:
 
 key_habits:
   - "Maintain fixed working hours"
-  - "Continue categorizing and prioritizing tasks"
+  - "Continue categorising and prioritising tasks"
   - "Use time-blocking for intentional scheduling"
   - "Apply day-theming to reduce context-switching"
   - "Conduct regular weekly reviews"
@@ -73,16 +72,16 @@ optional_materials:
   - "Course notes"
   - "Implementation calendar"
 external_resources:
-  - name: "Getting Things Done"
+  - name: "Getting things done"
     url: ""
     type: "book"
-  - name: "Four Thousand Weeks"
+  - name: "Four thousand weeks"
     url: ""
     type: "book"
-  - name: "Deep Work"
+  - name: "Deep work"
     url: ""
     type: "book"
-  - name: "It Doesn't Have to Be Crazy at Work"
+  - name: "It doesn't have to be crazy at work"
     url: ""
     type: "book"
 
@@ -112,21 +111,19 @@ author:
 language: "en"
 ---
 
+# Course summary
+
 The aim of this course was to design a fixed working schedule that's planned effectively, with protected time to complete the rest of this course.
 
 You were going to do this by achieving the following objectives:
 
-Establish a fixed working schedule
+- Establish a fixed working schedule
+- Define the different tasks in your working context
+- Allocate tasks to specific blocks of time
+- Batch related tasks into specific days
+- Use weekly reviews to plan more effectively
 
-Define the different tasks in your working context
-
-Allocate tasks to specific blocks of time
-
-Batch related tasks into specific days
-
-Use weekly reviews to plan more effectively
-
-Overview of lessons
+## Overview of lessons
 
 You started the course by defining a fixed working schedule and making a commitment to only working within those hours. By recognising the finite limits of your time you're forced to plan for how the necessary work will fit into fixed schedule. This is the first step in taking a proactive approach to defining the limits of your working life.
 
@@ -138,28 +135,17 @@ Day-theming is a strategy to ensure that you include tasks across all relevant d
 
 Finally, you went through the process of conducting weekly reviews. Wrapping up your working week with a review means that you can go home without the psychological baggage of the open loops that cause anxiety and stress. It means looking back and recognising the work you've done, and creating space to plan for the next session, whether that's tomorrow or next week.
 
-Bibliography
+## Bibliography
 
-Allen, D. (2002). Getting things done: The art of stress-free productivity. Penguin.
-
-Burkeman, O. (2021). Four thousand weeks: Time management for mortals. Farrar, Straus and Giroux.
-
-Burkeman, O. (2014). This column will change your life: Precrastination. The Guardian.
-
-Dillard, A. (2013). The writing life. HarperPerennial.
-
-Drucker, P. F. (2006). The effective executive: The definitive guide to getting the right things done. HarperCollins.
-
-Fried, J. & Hansson, D.H. (2018). It doesn’t have to be crazy at work. HarperCollins.
-
-Laoyan, S. (2022). How task batching can increase your productivity at work. Asana blog.
-
-Manson, M. (2017). How to be more productive by working less. Observer.
-
-Newport, C. (2016). Deep work: Rules for focused success in a distracted world. Grand Central Publishing.
-
-Newport, C. (2022). Fixed schedule productivity. Study Hacks blog.
-
-Scroggs, L. (n.d.). The complete guide to time blocking. Todoist blog.
-
-Vardy, M. (2016). Why theming my days has made me a better dad. Productivityist blog.
+- Allen, D. (2002). *Getting things done: The art of stress-free productivity*. Penguin.
+- Burkeman, O. (2021). *Four thousand weeks: Time management for mortals*. Farrar, Straus and Giroux.
+- Burkeman, O. (2014). This column will change your life: Precrastination. *The Guardian*.
+- Dillard, A. (2013). *The writing life*. HarperPerennial.
+- Drucker, P. F. (2006). *The effective executive: The definitive guide to getting the right things done*. HarperCollins.
+- Fried, J. & Hansson, D.H. (2018). *It doesn't have to be crazy at work*. HarperCollins.
+- Laoyan, S. (2022). How task batching can increase your productivity at work. *Asana* blog.
+- Manson, M. (2017). How to be more productive by working less. *Observer*.
+- Newport, C. (2016). *Deep work: Rules for focused success in a distracted world*. Grand Central Publishing.
+- Newport, C. (2022). Fixed schedule productivity. *Study Hacks* blog.
+- Scroggs, L. (n.d.). The complete guide to time blocking. *Todoist* blog.
+- Vardy, M. (2016). Why theming my days has made me a better dad. *Productivityist* blog.

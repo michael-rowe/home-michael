@@ -1,4 +1,9 @@
-# Lesson 1: Filtering information
+---
+title: "Filtering information"
+lesson: 1
+---
+
+# Filtering information
 
 > Everybody should be quiet near a little stream and listen. - Maurice Sendak (2001)
 
@@ -122,48 +127,47 @@ For academics serious about protecting focused attention, consider these additio
 
 ## Pause and reflect
 
-You may find yourself spending significant time refining your information filters, particularly on social media, seeking the 'best' possible information diet. While curation has value, don't fall into the trap of perpetual optimisation. Consuming information on social media is not your work—even if that information is work-related.
-
-Your filters should aim to surface high-quality information related to projects you're actively working on. This represents purposeful engagement where you make deliberate choices about what to focus on, rather than your reading being guided by whatever appears in your stream.
-
-The goal isn't to disconnect completely from professional networks or miss important developments in your field. Rather, it's to move from reactive to intentional consumption. You decide what information deserves your attention and when you'll give it that attention, rather than allowing platforms and other people to decide for you.
-
-Remember that effective filtering is necessarily imperfect. You will occasionally miss something interesting or useful. This is not only acceptable—it's the entire point. The alternative—attempting to capture everything—guarantees you'll be overwhelmed by noise and unable to focus on signal that matters.
+> [!question] Pause and reflect
+> You may find yourself spending significant time refining your information filters, particularly on social media, seeking the 'best' possible information diet. While curation has value, don't fall into the trap of perpetual optimisation. Consuming information on social media is not your work—even if that information is work-related.
+>
+> Your filters should aim to surface high-quality information related to projects you're actively working on. This represents purposeful engagement where you make deliberate choices about what to focus on, rather than your reading being guided by whatever appears in your stream.
+>
+> The goal isn't to disconnect completely from professional networks or miss important developments in your field. Rather, it's to move from reactive to intentional consumption. You decide what information deserves your attention and when you'll give it that attention, rather than allowing platforms and other people to decide for you.
+>
+> Remember that effective filtering is necessarily imperfect. You will occasionally miss something interesting or useful. This is not only acceptable—it's the entire point. The alternative—attempting to capture everything—guarantees you'll be overwhelmed by noise and unable to focus on signal that matters.
 
 ## Activity
 
-The first step in creating a system for personal information management is limiting the volume of information you pay attention to. This activity takes 15-30 minutes and creates immediate impact.
-
-**Email filtering (10 minutes)**
-
-1. Open your email and scroll through your inbox
-2. Unsubscribe from any mailing lists you consistently delete without reading
-3. Create a rule to automatically archive recurring institutional emails that you never read but feel obliged to keep
-4. If you're uncertain about unsubscribing, remember: you can always resubscribe if you miss it (hint: you probably won't even notice it's gone)
-
-**Social media cull (10 minutes)**
-
-1. Open Twitter, LinkedIn, or your primary academic social media platform
-2. Review your feed and unfollow 10-20 people who aren't sharing content related to projects you're currently working on
-3. Unfollow any news accounts, hot-take generators, or sources of outrage and controversy
-4. Remember: 'interesting' isn't the same as 'useful for my work right now'
-
-**Device configuration (5-10 minutes)**
-
-1. Uninstall social media apps from your phone (you can still access through the browser if needed)
-2. Turn off notifications for all apps except essential ones (phone calls from your partner, perhaps calendar alerts)
-3. Move your email app off your home screen
-4. To make access even more difficult, log out of email and social media services when you finish using them
-
-**Bonus step:** Turn on 'do not disturb' mode on your phone right now. For advanced users, try airplane mode during your next focused work session, then put your phone in a drawer on the other side of the room. Research shows that simply seeing your phone on your desk pulls attention toward it.
+> [!todo]- Activity: Establish your filtering system
+> The first step in creating a system for personal information management is limiting the volume of information you pay attention to. This activity takes 15-30 minutes and creates immediate impact.
+>
+> **Email filtering (10 minutes)**
+> 1. Open your email and scroll through your inbox
+> 2. Unsubscribe from any mailing lists you consistently delete without reading
+> 3. Create a rule to automatically archive recurring institutional emails that you never read but feel obliged to keep
+> 4. If you're uncertain about unsubscribing, remember: you can always resubscribe if you miss it (hint: you probably won't even notice it's gone)
+>
+> **Social media cull (10 minutes)**
+> 1. Open Twitter, LinkedIn, or your primary academic social media platform
+> 2. Review your feed and unfollow 10-20 people who aren't sharing content related to projects you're currently working on
+> 3. Unfollow any news accounts, hot-take generators, or sources of outrage and controversy
+> 4. Remember: 'interesting' isn't the same as 'useful for my work right now'
+>
+> **Device configuration (5-10 minutes)**
+> 1. Uninstall social media apps from your phone (you can still access through the browser if needed)
+> 2. Turn off notifications for all apps except essential ones (phone calls from your partner, perhaps calendar alerts)
+> 3. Move your email app off your home screen
+> 4. To make access even more difficult, log out of email and social media services when you finish using them
+>
+> **Bonus step:** Turn on 'do not disturb' mode on your phone right now. For advanced users, try airplane mode during your next focused work session, then put your phone in a drawer on the other side of the room. Research shows that simply seeing your phone on your desk pulls attention toward it.
 
 ## Key takeaways
 
-**Cull inputs to maximise outputs.** The relationship between information consumption and knowledge production isn't linear. Consuming more information doesn't automatically lead to better academic work. Often it produces the opposite—analysis paralysis and fragmented attention. By dramatically reducing information inputs, you create the cognitive space needed for the deep processing that generates valuable outputs.
+- **Cull inputs to maximise outputs.** The relationship between information consumption and knowledge production isn't linear. Consuming more information doesn't automatically lead to better academic work. Often it produces the opposite—analysis paralysis and fragmented attention. By dramatically reducing information inputs, you create the cognitive space needed for the deep processing that generates valuable outputs.
 
-**Filter at the source, not at the point of consumption.** The mistake most academics make is trying to manage information overload through better sorting and processing techniques. This is like trying to bail out a sinking boat rather than fixing the hole. Instead, prevent low-quality information from reaching you in the first place. Unsubscribe, unfollow, and disable notifications aggressively. The information you never see costs you nothing in terms of attention.
+- **Filter at the source, not at the point of consumption.** The mistake most academics make is trying to manage information overload through better sorting and processing techniques. This is like trying to bail out a sinking boat rather than fixing the hole. Instead, prevent low-quality information from reaching you in the first place. Unsubscribe, unfollow, and disable notifications aggressively. The information you never see costs you nothing in terms of attention.
 
-**Purposeful information consumption beats serendipitous discovery.** There's a romantic notion that we need to constantly scan broad information streams to serendipitously discover unexpected insights. While serendipity has value, most academic progress comes from focused, purposeful engagement with high-quality sources directly related to current work. When you need to explore new territory, do so intentionally rather than through passive scrolling. The fear of missing something interesting is not a strong enough rationale for subjecting yourself to continuous information overload.
+- **Purposeful information consumption beats serendipitous discovery.** There's a romantic notion that we need to constantly scan broad information streams to serendipitously discover unexpected insights. While serendipity has value, most academic progress comes from focused, purposeful engagement with high-quality sources directly related to current work. When you need to explore new territory, do so intentionally rather than through passive scrolling. The fear of missing something interesting is not a strong enough rationale for subjecting yourself to continuous information overload.
 
 ## Resources
 

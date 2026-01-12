@@ -1,4 +1,9 @@
-# Lesson 3: Extracting information
+---
+title: "Extracting information"
+lesson: 3
+---
+
+# Extracting information
 
 > Every idea you have is downstream from what you consume. - James Clear (2020)
 
@@ -121,50 +126,49 @@ Without these connections, extracted information becomes orphaned—potentially 
 
 ## Pause and reflect
 
-There's often no bright line between extracting and processing information. While you're annotating a text, you're already processing it—making connections, developing interpretations, generating questions. And processing a text frequently means returning to extract more information, either from the same source or from additional sources that become relevant.
-
-Don't get too caught up in which stage you're at. The boundaries between filtering, capturing, extracting, and processing are permeable by design. What matters is moving information from raw sources toward processed understanding through whatever path works for your thinking.
-
-It's also easy to fall into extraction as performance—highlighting everything that seems remotely interesting, taking comprehensive notes that capture every detail, creating beautiful annotations that never get used. Remember that extraction serves a purpose: to pull out what you need for your work. Extract less, but engage more deeply with what you do extract.
-
-The goal isn't to have the most comprehensive notes on a source. The goal is to have notes that actually help you when you're writing, teaching, or researching. Sometimes this means a single extracted paragraph with a critical question attached. Sometimes it means extensive notes on multiple sections. Let your purpose guide your extraction rather than trying to extract everything perfectly.
+> [!question] Pause and reflect
+> There's often no bright line between extracting and processing information. While you're annotating a text, you're already processing it—making connections, developing interpretations, generating questions. And processing a text frequently means returning to extract more information, either from the same source or from additional sources that become relevant.
+>
+> Don't get too caught up in which stage you're at. The boundaries between filtering, capturing, extracting, and processing are permeable by design. What matters is moving information from raw sources toward processed understanding through whatever path works for your thinking.
+>
+> It's also easy to fall into extraction as performance—highlighting everything that seems remotely interesting, taking comprehensive notes that capture every detail, creating beautiful annotations that never get used. Remember that extraction serves a purpose: to pull out what you need for your work. Extract less, but engage more deeply with what you do extract.
+>
+> The goal isn't to have the most comprehensive notes on a source. The goal is to have notes that actually help you when you're writing, teaching, or researching. Sometimes this means a single extracted paragraph with a critical question attached. Sometimes it means extensive notes on multiple sections. Let your purpose guide your extraction rather than trying to extract everything perfectly.
 
 ## Activity
 
-This activity helps you establish an extraction practice with an immediate, concrete outcome. It takes 30-45 minutes.
-
-**Prepare your extraction environment (5 minutes)**
-
-1. Identify one source from your personal library that relates to a current project (see the lesson on capturing if you haven't built this yet)
-2. Block 30-40 minutes in your calendar right now for this extraction session
-3. Close all unnecessary browser tabs and applications
-4. Open your reference manager or note-taking app alongside the source
-
-**Engage with the source (25-30 minutes)**
-
-1. Open the source and review any metadata—is the author information correct? Have you noted who recommended it or why you saved it?
-2. Read (or watch, or listen to) the source actively, looking for content that resonates with your project work
-3. Highlight passages that strike you as important, interesting, or questionable
-4. For each highlighted section, add a brief annotation: Why does this matter? How might you use it? What questions does it raise?
-5. Notice when your attention shifts to connections with other sources or ideas you're working with—capture those thoughts immediately
-
-**Create an extraction note (10 minutes)**
-
-1. Create a new note associated with this source (in Zotero, use "Add Note" and link it to the source entry)
-2. If your tool allows, automatically extract your highlights and annotations into this note
-3. At the top of the note, write: "Why I saved this source" and "How it relates to [current project]"
-4. Review your extracted passages and annotations—add any additional thoughts that arose during the extraction process
-5. Ensure the note includes enough bibliographic information that you could cite this source later
-
-**Bonus step:** If you extracted information from this source that connects to other sources you've read, open those literature notes and add cross-references. This begins building the network of connections that makes your personal library genuinely useful.
+> [!todo]- Activity: Establish an extraction practice
+> This activity helps you establish an extraction practice with an immediate, concrete outcome. It takes 30-45 minutes.
+>
+> **Prepare your extraction environment (5 minutes)**
+> 1. Identify one source from your personal library that relates to a current project (see the lesson on capturing if you haven't built this yet)
+> 2. Block 30-40 minutes in your calendar right now for this extraction session
+> 3. Close all unnecessary browser tabs and applications
+> 4. Open your reference manager or note-taking app alongside the source
+>
+> **Engage with the source (25-30 minutes)**
+> 1. Open the source and review any metadata—is the author information correct? Have you noted who recommended it or why you saved it?
+> 2. Read (or watch, or listen to) the source actively, looking for content that resonates with your project work
+> 3. Highlight passages that strike you as important, interesting, or questionable
+> 4. For each highlighted section, add a brief annotation: Why does this matter? How might you use it? What questions does it raise?
+> 5. Notice when your attention shifts to connections with other sources or ideas you're working with—capture those thoughts immediately
+>
+> **Create an extraction note (10 minutes)**
+> 1. Create a new note associated with this source (in Zotero, use "Add Note" and link it to the source entry)
+> 2. If your tool allows, automatically extract your highlights and annotations into this note
+> 3. At the top of the note, write: "Why I saved this source" and "How it relates to [current project]"
+> 4. Review your extracted passages and annotations—add any additional thoughts that arose during the extraction process
+> 5. Ensure the note includes enough bibliographic information that you could cite this source later
+>
+> **Bonus step:** If you extracted information from this source that connects to other sources you've read, open those literature notes and add cross-references. This begins building the network of connections that makes your personal library genuinely useful.
 
 ## Key takeaways
 
-**Extraction transforms inert sources into workable materials.** Captured sources sitting in reference managers or bookmark folders remain potential rather than actual resources for your work. Extraction—pulling out relevant passages, adding annotations, creating literature notes—converts potential into usable materials. Without extraction, your carefully curated library is just an accumulation of PDFs and links you meant to engage with.
+- **Extraction transforms inert sources into workable materials.** Captured sources sitting in reference managers or bookmark folders remain potential rather than actual resources for your work. Extraction—pulling out relevant passages, adding annotations, creating literature notes—converts potential into usable materials. Without extraction, your carefully curated library is just an accumulation of PDFs and links you meant to engage with.
 
-**Annotation is where intellectual work begins.** Simply highlighting passages creates minimal value. The real work happens when you write your own thoughts alongside extracted information—questioning claims, making connections, identifying applications. These annotations become the raw material for your own thinking rather than just reminders of what someone else said. Quality of extraction depends more on the depth of your annotations than the comprehensiveness of your highlights.
+- **Annotation is where intellectual work begins.** Simply highlighting passages creates minimal value. The real work happens when you write your own thoughts alongside extracted information—questioning claims, making connections, identifying applications. These annotations become the raw material for your own thinking rather than just reminders of what someone else said. Quality of extraction depends more on the depth of your annotations than the comprehensiveness of your highlights.
 
-**Systematic extraction requires scheduled time.** Reading with the attention necessary for meaningful extraction doesn't happen in spare moments between other commitments. It requires protected time in your schedule, even if just 30 minutes daily. Without scheduled extraction time, captured sources accumulate unread while you remain perpetually intending to engage with them "when things calm down"—a moment that never arrives.
+- **Systematic extraction requires scheduled time.** Reading with the attention necessary for meaningful extraction doesn't happen in spare moments between other commitments. It requires protected time in your schedule, even if just 30 minutes daily. Without scheduled extraction time, captured sources accumulate unread while you remain perpetually intending to engage with them "when things calm down"—a moment that never arrives.
 
 ## Resources
 

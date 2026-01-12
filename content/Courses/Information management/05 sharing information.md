@@ -1,4 +1,9 @@
-# Lesson 5: Sharing information
+---
+title: "Sharing information"
+lesson: 5
+---
+
+# Sharing information
 
 > Writing is inherently a topic in psychology. It's a way that one mind can cause ideas to happen in another mind. - Steven Pinker (2014)
 
@@ -106,63 +111,61 @@ Daily sharing sounds demanding, but remember it can be as simple as emailing one
 
 ## Pause and reflect
 
-It's easy to spend excessive time curating information to share, falling into the trap of creating perfect newsletters or comprehensive resource lists that require hours to compile. While thoughtful curation has value, your job isn't to flag everything potentially interesting for colleagues. Most people already face information overload; adding more volume, even well-intentioned volume, rarely helps.
-
-Focus your sharing on processed insights—things you've thought about, synthesised, or applied in your own work—rather than merely passing along interesting sources. This distinction keeps your sharing valuable rather than contributing to the noise you've worked to filter out of your own information environment.
-
-Also recognise that sharing is inherently vulnerable. You're making your thinking visible, which means making your uncertainty, questions, and works-in-progress visible. The temptation to wait until ideas are perfect before sharing is strong. But scholarship requires working in public to some degree. Not everything you share will resonate or prove useful. This is normal and acceptable. Share without expecting overwhelming response, and occasionally be pleasantly surprised when insights connect powerfully with others.
-
-Finally, different disciplines and institutions have different norms around sharing. Some fields embrace public scholarship and social media engagement; others view it suspiciously. Some institutions recognise diverse forms of sharing in promotion cases; others focus narrowly on traditional publications. Understand your context while also recognising that scholarly communication is evolving. Finding approaches to sharing that feel authentic to you while respecting disciplinary norms creates sustainable practices.
+> [!question] Pause and reflect
+> It's easy to spend excessive time curating information to share, falling into the trap of creating perfect newsletters or comprehensive resource lists that require hours to compile. While thoughtful curation has value, your job isn't to flag everything potentially interesting for colleagues. Most people already face information overload; adding more volume, even well-intentioned volume, rarely helps.
+>
+> Focus your sharing on processed insights—things you've thought about, synthesised, or applied in your own work—rather than merely passing along interesting sources. This distinction keeps your sharing valuable rather than contributing to the noise you've worked to filter out of your own information environment.
+>
+> Also recognise that sharing is inherently vulnerable. You're making your thinking visible, which means making your uncertainty, questions, and works-in-progress visible. The temptation to wait until ideas are perfect before sharing is strong. But scholarship requires working in public to some degree. Not everything you share will resonate or prove useful. This is normal and acceptable. Share without expecting overwhelming response, and occasionally be pleasantly surprised when insights connect powerfully with others.
+>
+> Finally, different disciplines and institutions have different norms around sharing. Some fields embrace public scholarship and social media engagement; others view it suspiciously. Some institutions recognise diverse forms of sharing in promotion cases; others focus narrowly on traditional publications. Understand your context while also recognising that scholarly communication is evolving. Finding approaches to sharing that feel authentic to you while respecting disciplinary norms creates sustainable practices.
 
 ## Activity
 
-This activity establishes a sharing practice and creates immediate visibility for your work. It takes 15-20 minutes.
-
-**Identify something to share right now (5 minutes)**
-
-1. Review work you've done this week—processed notes, teaching materials, project documents
-2. Identify one insight, synthesis, or resource that would be valuable to someone else
-3. This could be:
-    - An article summary with your commentary on why it matters
-    - A synthesis of 2-3 sources on a topic
-    - A teaching resource or assignment you designed
-    - A methodological insight from your research
-    - Critical commentary on a recent development in your field
-
-**Add value through context (5-10 minutes)**
-
-1. Write 3-5 sentences explaining why this matters or how it might be useful
-2. Include:
-    - What problem does this address or illuminate?
-    - Who might find this particularly relevant?
-    - What's your key takeaway or insight?
-3. Don't aim for perfection—aim for useful
-
-**Share it (5 minutes)**
-
-1. Choose the appropriate sharing mechanism:
-    - Email to a specific colleague or student
-    - Social media post with your commentary
-    - Addition to a blog or personal website
-    - Shared in a department meeting or supervision session
-2. Actually share it right now—don't save it for later
-3. Release any expectation of response or engagement
-
-**Establish a sharing habit**
-
-1. Add "Share something useful with someone" to your daily or weekly task list
-2. Block 15 minutes weekly to identify sharing opportunities from your recent work
-3. Remember that sharing to one relevant person creates value, even if small-scale
-
-**Bonus step:** Create a simple template for sharing that reduces friction. For example, a standard email format: "I recently came across [source] that made me think of [your work]. The key insight is [summary]. Thought you might find it useful for [specific reason]." Having templates makes regular sharing faster and easier.
+> [!todo]- Activity: Establish a sharing practice
+> This activity establishes a sharing practice and creates immediate visibility for your work. It takes 15-20 minutes.
+>
+> **Identify something to share right now (5 minutes)**
+> 1. Review work you've done this week—processed notes, teaching materials, project documents
+> 2. Identify one insight, synthesis, or resource that would be valuable to someone else
+> 3. This could be:
+>    - An article summary with your commentary on why it matters
+>    - A synthesis of 2-3 sources on a topic
+>    - A teaching resource or assignment you designed
+>    - A methodological insight from your research
+>    - Critical commentary on a recent development in your field
+>
+> **Add value through context (5-10 minutes)**
+> 1. Write 3-5 sentences explaining why this matters or how it might be useful
+> 2. Include:
+>    - What problem does this address or illuminate?
+>    - Who might find this particularly relevant?
+>    - What's your key takeaway or insight?
+> 3. Don't aim for perfection—aim for useful
+>
+> **Share it (5 minutes)**
+> 1. Choose the appropriate sharing mechanism:
+>    - Email to a specific colleague or student
+>    - Social media post with your commentary
+>    - Addition to a blog or personal website
+>    - Shared in a department meeting or supervision session
+> 2. Actually share it right now—don't save it for later
+> 3. Release any expectation of response or engagement
+>
+> **Establish a sharing habit**
+> 1. Add "Share something useful with someone" to your daily or weekly task list
+> 2. Block 15 minutes weekly to identify sharing opportunities from your recent work
+> 3. Remember that sharing to one relevant person creates value, even if small-scale
+>
+> **Bonus step:** Create a simple template for sharing that reduces friction. For example, a standard email format: "I recently came across [source] that made me think of [your work]. The key insight is [summary]. Thought you might find it useful for [specific reason]." Having templates makes regular sharing faster and easier.
 
 ## Key takeaways
 
-**Career capital accumulates through demonstrating value to your professional community.** Publications matter for academic advancement, but career capital includes broader visibility, demonstrated expertise, and professional connections. Sharing your thinking—through blog posts, email commentary, presentations, teaching resources, and social media insights—builds career capital by making your expertise visible to colleagues who might collaborate with you, cite your work, or support your advancement.
+- **Career capital accumulates through demonstrating value to your professional community.** Publications matter for academic advancement, but career capital includes broader visibility, demonstrated expertise, and professional connections. Sharing your thinking—through blog posts, email commentary, presentations, teaching resources, and social media insights—builds career capital by making your expertise visible to colleagues who might collaborate with you, cite your work, or support your advancement.
 
-**Value added outweighs distribution breadth.** Retweeting to 1,000 followers adds minimal value and builds minimal career capital. Sending a thoughtful synthesis to three colleagues facing a specific problem adds substantial value even with tiny reach. Focus on the intellectual work of processing and contextualising information rather than merely amplifying sources. The friction involved in creating valuable sharing—synthesising multiple sources, adding critical commentary, explaining applications—is precisely what makes it valuable.
+- **Value added outweighs distribution breadth.** Retweeting to 1,000 followers adds minimal value and builds minimal career capital. Sending a thoughtful synthesis to three colleagues facing a specific problem adds substantial value even with tiny reach. Focus on the intellectual work of processing and contextualising information rather than merely amplifying sources. The friction involved in creating valuable sharing—synthesising multiple sources, adding critical commentary, explaining applications—is precisely what makes it valuable.
 
-**Sharing processed insights beats sharing raw information.** Your professional community doesn't need more links to articles or sources—that's not sharing; that's forwarding. What creates value is sharing your thinking about those sources: synthesis across multiple papers, critical perspective on methodological approaches, applications to specific teaching contexts. This processed sharing demonstrates your intellectual work while creating resources others can actually use.
+- **Sharing processed insights beats sharing raw information.** Your professional community doesn't need more links to articles or sources—that's not sharing; that's forwarding. What creates value is sharing your thinking about those sources: synthesis across multiple papers, critical perspective on methodological approaches, applications to specific teaching contexts. This processed sharing demonstrates your intellectual work while creating resources others can actually use.
 
 ## Resources
 

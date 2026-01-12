@@ -1,4 +1,9 @@
-# Lesson 2: Capturing information
+---
+title: "Capturing information"
+lesson: 2
+---
+
+# Capturing information
 
 > When information is cheap, attention becomes expensive. - James Gleick (2011)
 
@@ -119,52 +124,50 @@ This annotation takes only a minute or two per source but dramatically increases
 
 ## Pause and reflect
 
-The principles of information capture—filtering, quick review, permanent storage—remain consistent regardless of which tools you choose. While it's tempting to spend considerable time exploring different applications and building elaborate systems, this can become procrastination disguised as productivity.
-
-For now, implementing a simple capture system using basic tools will serve you better than endlessly researching the optimal solution. You can always refine your approach once you understand how you actually work with captured information. The perfect system that you never implement is infinitely less useful than a simple system you use daily.
-
-Remember that capture is a means, not an end. The purpose isn't to build the largest or most perfectly organised library—it's to ensure you can engage with valuable sources when you have the cognitive capacity to process them properly. Your capture system succeeds when it reduces anxiety, preserves attention for current work, and provides reliable access to sources when you need them.
+> [!question] Pause and reflect
+> The principles of information capture—filtering, quick review, permanent storage—remain consistent regardless of which tools you choose. While it's tempting to spend considerable time exploring different applications and building elaborate systems, this can become procrastination disguised as productivity.
+>
+> For now, implementing a simple capture system using basic tools will serve you better than endlessly researching the optimal solution. You can always refine your approach once you understand how you actually work with captured information. The perfect system that you never implement is infinitely less useful than a simple system you use daily.
+>
+> Remember that capture is a means, not an end. The purpose isn't to build the largest or most perfectly organised library—it's to ensure you can engage with valuable sources when you have the cognitive capacity to process them properly. Your capture system succeeds when it reduces anxiety, preserves attention for current work, and provides reliable access to sources when you need them.
 
 ## Activity
 
-This activity establishes a basic capture system you can implement today. It takes 20-30 minutes and provides immediate benefits.
-
-**Set up your capture tool (10 minutes)**
-
-1. If you don't already have a note-taking app for quick captures, install Joplin (it's free, open source, and works across platforms)
-2. Install the web clipper browser extension for your primary browser ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/joplin-web-clipper/), [Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek?hl=en-GB), [Safari](https://github.com/cweirup/JoplinSafariWebClipper))
-3. Create a notebook called "Inbox" for initial captures
-4. If using Joplin, enable the web clipper in the desktop app (Tools → Web Clipper Options)
-
-**Capture some sources (10 minutes)**
-
-1. Use the web clipper to save 3-5 sources you've been meaning to read—could be articles, blog posts, YouTube videos, or Twitter threads
-2. Include those browser tabs you've been keeping open, planning to read "one day"
-3. Don't worry about organisation yet—just get them into your inbox
-4. Notice how quick the process is and how it feels to close those browser tabs
-
-**Add basic context (5-10 minutes)**
-
-1. Open your capture tool and review what you just saved
-2. For each source, add a brief note: Why did you save this? How might it be useful?
-3. Create a folder structure based on your current projects (e.g., "Teaching - Module name", "Research - Article topic", "Admin - Committee work")
-4. Move sources from your inbox into relevant project folders
-
-**Establish a review habit**
-
-1. Add a 15-minute block to your weekly schedule for reviewing captured sources (see the lesson on _Weekly reviews_ in the _Scheduling_ course)
-2. During this review, decide: keep for permanent library, or delete?
-3. For items you're keeping, ensure context notes are complete
-
-**Bonus step:** If you plan to build a permanent library, install Zotero now and spend 10 minutes familiarising yourself with its interface. You don't need to add anything yet—just understand where sources will eventually live once they've survived your review process.
+> [!todo]- Activity: Set up your capture system
+> This activity establishes a basic capture system you can implement today. It takes 20-30 minutes and provides immediate benefits.
+>
+> **Set up your capture tool (10 minutes)**
+> 1. If you don't already have a note-taking app for quick captures, install Joplin (it's free, open source, and works across platforms)
+> 2. Install the web clipper browser extension for your primary browser ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/joplin-web-clipper/), [Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek?hl=en-GB), [Safari](https://github.com/cweirup/JoplinSafariWebClipper))
+> 3. Create a notebook called "Inbox" for initial captures
+> 4. If using Joplin, enable the web clipper in the desktop app (Tools → Web Clipper Options)
+>
+> **Capture some sources (10 minutes)**
+> 1. Use the web clipper to save 3-5 sources you've been meaning to read—could be articles, blog posts, YouTube videos, or Twitter threads
+> 2. Include those browser tabs you've been keeping open, planning to read "one day"
+> 3. Don't worry about organisation yet—just get them into your inbox
+> 4. Notice how quick the process is and how it feels to close those browser tabs
+>
+> **Add basic context (5-10 minutes)**
+> 1. Open your capture tool and review what you just saved
+> 2. For each source, add a brief note: Why did you save this? How might it be useful?
+> 3. Create a folder structure based on your current projects (e.g., "Teaching - Module name", "Research - Article topic", "Admin - Committee work")
+> 4. Move sources from your inbox into relevant project folders
+>
+> **Establish a review habit**
+> 1. Add a 15-minute block to your weekly schedule for reviewing captured sources (see the lesson on _Weekly reviews_ in the _Scheduling_ course)
+> 2. During this review, decide: keep for permanent library, or delete?
+> 3. For items you're keeping, ensure context notes are complete
+>
+> **Bonus step:** If you plan to build a permanent library, install Zotero now and spend 10 minutes familiarising yourself with its interface. You don't need to add anything yet—just understand where sources will eventually live once they've survived your review process.
 
 ## Key takeaways
 
-**Capture systems solve temporal mismatches between when information arrives and when you can process it properly.** Academic work requires sustained focus, but useful sources appear unpredictably throughout the day. Capture systems let you acknowledge value without disrupting current work, reducing cognitive load while ensuring you don't lose potentially valuable sources.
+- **Capture systems solve temporal mismatches between when information arrives and when you can process it properly.** Academic work requires sustained focus, but useful sources appear unpredictably throughout the day. Capture systems let you acknowledge value without disrupting current work, reducing cognitive load while ensuring you don't lose potentially valuable sources.
 
-**The three-stage funnel prevents library overwhelm.** Initial capture has a low threshold—save anything that might be useful. Review creates a higher bar—does this still seem valuable? Permanent storage has the highest threshold—is this information-dense enough to warrant long-term keeping? This progressive filtering ensures your permanent library contains genuinely useful sources rather than accumulated clutter that seemed interesting in passing moments.
+- **The three-stage funnel prevents library overwhelm.** Initial capture has a low threshold—save anything that might be useful. Review creates a higher bar—does this still seem valuable? Permanent storage has the highest threshold—is this information-dense enough to warrant long-term keeping? This progressive filtering ensures your permanent library contains genuinely useful sources rather than accumulated clutter that seemed interesting in passing moments.
 
-**Annotation transforms captures into contextualised resources.** A link saved without explanation becomes mysterious weeks later—why did you save this? What made it relevant? Adding brief context notes during review creates a personalised index to your thinking. This small investment of time during the review stage dramatically increases the utility of sources when you return to them months later during actual project work.
+- **Annotation transforms captures into contextualised resources.** A link saved without explanation becomes mysterious weeks later—why did you save this? What made it relevant? Adding brief context notes during review creates a personalised index to your thinking. This small investment of time during the review stage dramatically increases the utility of sources when you return to them months later during actual project work.
 
 ## Resources
 

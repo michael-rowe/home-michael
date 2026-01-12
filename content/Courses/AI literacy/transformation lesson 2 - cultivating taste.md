@@ -1,4 +1,9 @@
-# Lesson 10: Cultivating professional judgement
+---
+title: Cultivating professional judgement
+lesson_number: transformation-2
+---
+
+# Cultivating professional judgement
 
 ## Lesson overview
 
@@ -28,9 +33,8 @@ But should you? For which parts does AI collaboration serve your teaching goals,
 
 **These questions require professional judgement** that frameworks, techniques, and infrastructure can't answer. They require taste—contextual judgement about meaningful engagement.
 
+[!question]- Reflection: Evaluating meaningful engagement
 **Before we begin:** Think of a recent substantial AI engagement. Can you articulate whether it was meaningful or superficial? What distinguishes the two?
-
-[Text input box]
 
 **Progress:** Section 2 of 9
 
@@ -94,9 +98,8 @@ Taste operates at three levels, each requiring judgement:
 
 **This third level distinguishes literacy from competence.** You're not just judging engagement quality—you're judging your own judgement. This metacognitive awareness enables ongoing development.
 
-**Reflection:** Which level do you typically evaluate? Most academics focus on outputs, occasionally on process, rarely on meta-evaluation. Literacy requires all three.
-
-[Text input box]
+[!question]- Reflection: Self-assessment of evaluation level
+**Which level do you typically evaluate?** Most academics focus on outputs, occasionally on process, rarely on meta-evaluation. Literacy requires all three.
 
 **Progress:** Section 4 of 9
 
@@ -148,9 +151,8 @@ Then you draft the section yourself (4 hours). The argument is yours, the voice 
 
 **This is taste in action:** Recognizing that Option C serves your scholarly work whilst Option B feels efficient but undermines intellectual development. Option A maintains integrity but misses collaborative benefits. Rules can't capture these distinctions—only judgement cultivated through experience.
 
-**Reflection:** Which option would you typically choose? Why? What does that reveal about your taste?
-
-[Text input box]
+[!question]- Reflection: Your typical engagement pattern
+**Which option would you typically choose?** Why? What does that reveal about your taste?
 
 **Progress:** Section 5 of 9
 
@@ -159,6 +161,8 @@ Then you draft the section yourself (4 hours). The argument is yours, the voice 
 ## Domain-specific judgement
 
 Taste is domain-specific—what constitutes meaningful engagement differs across research, teaching, and administration. Developing literacy means recognizing these differences.
+
+**Key takeaway:** Meaningful engagement looks different in research, teaching, and administration. What strengthens scholarly thinking might undermine student learning or administrative effectiveness. Develop domain-specific standards.
 
 ### Research context: Intellectual integrity
 
@@ -294,56 +298,46 @@ Making criteria explicit can accelerate development—but this is optional advan
 
 This activity establishes the simple practice infrastructure that develops taste over time.
 
-### Step 1: Create your engagement log (5 minutes)
-
+[!todo]- Step 1: Create your engagement log (5 minutes)
 In your note-taking system, create a note called "AI Engagement Reflections"
 
 **Use this template for each engagement:**
 
-**Date:** [___]  
-**Context:** Research / Teaching / Administration  
-**Task:** [What you were trying to accomplish]  
+**Date:** [___]
+**Context:** Research / Teaching / Administration
+**Task:** [What you were trying to accomplish]
 **Approach:** [How you engaged with AI]
 
 **Process evaluation:**
-
 - Was this intellectually productive? Why or why not?
 - Did I maintain critical stance or accept suggestions uncritically?
 - Did this feel meaningful or superficial?
 
 **Output evaluation:**
-
 - Does this serve my goals and maintain my voice?
 - Would I be satisfied claiming this as my work?
 - Is quality appropriate for my standards?
 
 **Pattern recognition:**
-
 - What does this reveal about when AI helps my work?
 - What would I do differently next time?
 
 **Literacy connection:**
-
 - Which literacy dimensions was I exercising well?
 - Which need more development?
 
-### Step 2: Document one recent engagement (8 minutes)
-
+[!todo]- Step 2: Document one recent engagement (8 minutes)
 Think of a substantial AI engagement from the past week. Document it now using your template.
 
 Be honest in your evaluation—both successes and failures teach. The goal isn't to demonstrate good practice; it's to notice patterns in your actual practice.
 
 [Complete your first documented engagement]
 
-### Step 3: Commit to ongoing practice (2 minutes)
-
+[!todo]- Step 3: Commit to ongoing practice (2 minutes)
 **Your commitment:**
-
-**I will document:** 2-3 substantial AI engagements per week
-
-**I will reflect monthly:** 15-20 minutes reviewing documented engagements to identify patterns, adjust practice, and evaluate judgement quality
-
-**First monthly review scheduled:** [Date - add to calendar right now]
+- **I will document:** 2-3 substantial AI engagements per week
+- **I will reflect monthly:** 15-20 minutes reviewing documented engagements to identify patterns, adjust practice, and evaluate judgement quality
+- **First monthly review scheduled:** [Date - add to calendar right now]
 
 **Why this matters:** Taste develops through this sustained practice over months, not through completing this activity once. Your literacy continues developing through regular engagement with this simple cycle.
 
@@ -386,24 +380,20 @@ But start simple: document engagements, reflect monthly. Other infrastructure ca
 - Generic across all work types
 - Fixed once developed
 
-### Your commitment to ongoing development
-
+[!question]- Your commitment to ongoing development
 **I understand that:**
-
 - [ ] Taste develops through months of systematic practice, not through lesson completion
 - [ ] The practice-reflection cycle is simple: engage, attend, document, reflect monthly, adjust
 - [ ] Meta-evaluation (judging my own judgement) distinguishes literacy from competence
 - [ ] My taste will continue evolving as AI capabilities change and my work develops
 
 **I commit to:**
-
 - [ ] Documenting 2-3 substantial engagements weekly
 - [ ] Monthly 15-minute reflection on patterns
 - [ ] Honest evaluation of both successes and failures
 - [ ] Ongoing attention to when AI serves versus hinders my work
 
 **What sophisticated AI literacy means for my practice:**
-
 [Text input box]
 
 **Progress:** Section 9 of 9 — Lesson complete
@@ -434,13 +424,11 @@ You've completed the AI literacy course, developing functional application, crit
 
 ## Resources
 
-### Professional judgement and expertise
-
+**Professional judgement and expertise:**
 - Dreyfus, H. & Dreyfus, S. (2005). Expertise in real world contexts. Organisation Studies, 26(5), 779-792.
 - Schön, D. (1983). The reflective practitioner: How professionals think in action. Basic Books.
 
-### Evaluative judgement
-
+**Evaluative judgement:**
 - Tai, J. et al. (2018). Developing evaluative judgement. Higher Education, 76(3), 467-481.
 
 ---

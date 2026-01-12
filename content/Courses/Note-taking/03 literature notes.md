@@ -1,4 +1,8 @@
-# Lesson 3: Literature notes
+---
+title: "Literature notes"
+---
+
+# Literature notes
 
 > You need to take some form of literature note that captures your understanding of the text, so you have something in front of your eyes while you are making the [permanent] note. But don't turn it into a project in itself. Literature notes are short and meant to help with writing. - Sönke Ahrens (2017)
 
@@ -139,60 +143,52 @@ Your literature notes should always include full bibliographic information, eith
 
 ## Pause and reflect
 
-Literature notes present a particular challenge because it's easy to make them too elaborate. There's a seductive appeal to creating comprehensive, beautifully organised notes on everything you read. But this approach quickly becomes unsustainable. The time cost can exceed the value you extract from them.
-
+> [!question] Reflection: developing sustainable literature notes
+> Literature notes present a particular challenge because it's easy to make them too elaborate. There's a seductive appeal to creating comprehensive, beautifully organised notes on everything you read. But this approach quickly becomes unsustainable. The time cost can exceed the value you extract from them.
+>
 > **Remember:** Literature notes are means to an end, not an end in themselves. They exist to support your thinking and writing, not to create a perfect archive of human knowledge on your computer.
-
-Another common trap is treating literature notes as mechanical information capture rather than intellectual engagement. It's possible to highlight extensively, copy passages, and create elaborate summaries without actually thinking deeply about the material. The highlighting feels like work, but it's not the cognitive engagement that leads to understanding.
-
-**The solution:** Focus literature notes on moments of genuine intellectual engagement. Highlight less and think more. When you capture something, ask yourself: "Why does this matter? How does this connect to my work? What questions does this raise?"
-
-Finally, avoid the perfectionist urge to create literature notes for everything you read. Not every article deserves a literature note. Some sources you skim for general familiarity; others you read for one specific piece of information. Literature notes are for sources where you're genuinely engaging with ideas and where you expect that engagement to be useful for your future work.
+>
+> Another common trap is treating literature notes as mechanical information capture rather than intellectual engagement. It's possible to highlight extensively, copy passages, and create elaborate summaries without actually thinking deeply about the material. The highlighting feels like work, but it's not the cognitive engagement that leads to understanding.
+>
+> **The solution:** Focus literature notes on moments of genuine intellectual engagement. Highlight less and think more. When you capture something, ask yourself: "Why does this matter? How does this connect to my work? What questions does this raise?"
+>
+> Finally, avoid the perfectionist urge to create literature notes for everything you read. Not every article deserves a literature note. Some sources you skim for general familiarity; others you read for one specific piece of information. Literature notes are for sources where you're genuinely engaging with ideas and where you expect that engagement to be useful for your future work.
 
 ## Activity
 
-Build sustainable literature notes practices over four weeks:
+> [!todo]- Week 1: Set up your system
+> Install and configure your reference manager (Zotero recommended if starting fresh). Install browser extensions and PDF annotation tools. Find three sources you've been meaning to read. Add them to your reference manager and practice creating literature notes that include:
+>
+> - Brief summary of main argument
+> - One or two specific observations or critiques
+> - At least one connection to your own work
+>
+> Don't aim for comprehensiveness – aim for capturing your genuine intellectual engagement.
 
-**Week 1: Set up your system**
+> [!todo]- Week 2: Expand across formats
+> Create literature notes for sources across different formats: at least one article, one video/presentation, and one other type (book chapter, podcast, blog post). Practice adapting your approach to different media types. Pay attention to maintaining connections between notes and sources.
 
-Install and configure your reference manager (Zotero recommended if starting fresh). Install browser extensions and PDF annotation tools. Find three sources you've been meaning to read. Add them to your reference manager and practice creating literature notes that include:
+> [!todo]- Week 3: Focus on intellectual engagement
+> For each source you engage with, include:
+>
+> - At least one critical question or observation
+> - At least one explicit connection to another source
+> - Brief note about why this source matters for your work
+>
+> Notice how this affects your engagement with the material.
 
-- Brief summary of main argument
-- One or two specific observations or critiques
-- At least one connection to your own work
-
-Don't aim for comprehensiveness – aim for capturing your genuine intellectual engagement.
-
-**Week 2: Expand across formats**
-
-Create literature notes for sources across different formats: at least one article, one video/presentation, and one other type (book chapter, podcast, blog post). Practice adapting your approach to different media types. Pay attention to maintaining connections between notes and sources.
-
-**Week 3: Focus on intellectual engagement**
-
-For each source you engage with, include:
-
-- At least one critical question or observation
-- At least one explicit connection to another source
-- Brief note about why this source matters for your work
-
-Notice how this affects your engagement with the material.
-
-**Week 4: Process and reflect**
-
-Review the notes you've created. Look for patterns: which types of sources generated the most valuable literature notes? Which aspects are most useful when you revisit them? What connections are emerging? Use this reflection to refine your ongoing practice.
+> [!todo]- Week 4: Process and reflect
+> Review the notes you've created. Look for patterns: which types of sources generated the most valuable literature notes? Which aspects are most useful when you revisit them? What connections are emerging? Use this reflection to refine your ongoing practice.
 
 ## Key takeaways
 
-**Literature notes document your intellectual engagement, not the source itself.** The purpose of literature notes is to capture your thinking about sources, not to create a comprehensive record of what those sources say. Focus on your observations, questions, connections, and critical commentary rather than extensive excerpts or summaries. Anyone can access the original source; only you can provide your particular intellectual response to it.
+- **Document your intellectual engagement, not the source itself:** The purpose of literature notes is to capture your thinking about sources, not to create a comprehensive record of what those sources say. Focus on your observations, questions, connections, and critical commentary rather than extensive excerpts or summaries. Anyone can access the original source; only you can provide your particular intellectual response to it.
 
-**Maintaining connection between notes and sources is essential.** Literature notes are only valuable if you can reliably connect them back to their original sources. Use a reference manager to keep notes and bibliographic information together, ensuring that you can generate proper citations and relocate relevant sections when needed. Without this connection, literature notes become orphaned observations you can't effectively use in your own work.
+- **Maintain connection between notes and sources:** Literature notes are only valuable if you can reliably connect them back to their original sources. Use a reference manager to keep notes and bibliographic information together, ensuring that you can generate proper citations and relocate relevant sections when needed. Without this connection, literature notes become orphaned observations you can't effectively use in your own work.
 
-**Literature notes form the foundation for permanent notes and your own writing.** Don't treat literature notes as an end in themselves. They're raw material for your thinking – the source material you'll draw on when creating permanent notes about concepts that matter to your work. The quality of your literature notes directly affects the quality of permanent notes you can create from them, which in turn shapes the depth and originality of your academic writing.
+- **Use literature notes as foundation for permanent notes:** Don't treat literature notes as an end in themselves. They're raw material for your thinking – the source material you'll draw on when creating permanent notes about concepts that matter to your work. The quality of your literature notes directly affects the quality of permanent notes you can create from them, which in turn shapes the depth and originality of your academic writing.
 
 ## Resources
 
-Ahrens, S. (2017). [How to take smart notes: One simple technique to boost writing, learning and thinking](https://amzn.to/3xeFgdW). Sönke Ahrens.
-
-Forte, T. (2022). [Building a second brain: A proven method to organise your digital life and unlock your creative potential](https://amzn.to/3Xv2Iye). Atria Books.
-
-Do you have any experiences or insights that you'd like to share with others? What habits and routines have you implemented in your own practice that have helped in this area? Do you have any questions about your specific context that are not addressed in this lesson? Please leave a comment for other participants in the field below.
+- Ahrens, S. (2017). [How to take smart notes: One simple technique to boost writing, learning and thinking](https://amzn.to/3xeFgdW). Sönke Ahrens.
+- Forte, T. (2022). [Building a second brain: A proven method to organise your digital life and unlock your creative potential](https://amzn.to/3Xv2Iye). Atria Books.

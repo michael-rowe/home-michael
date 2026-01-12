@@ -1,9 +1,7 @@
 ---
 title: Context engineering
-description: Brief one-line description of what this note is about
+description: Context engineering is...
 aliases:
-  - Alternative name 1
-  - Alternative name 2
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-01-08
@@ -11,12 +9,17 @@ updated:
 status: Draft
 needs_review: false
 tags:
+  - artificial-intelligence
+  - prompt-engineering
+  - language-model
 category: ""
-related: "[[context sovereignty]]"
+related:
+  - "[[context sovereignty]]"
+  - "[[context engineering for academics]]"
 builds_on:
+  - "[[prompt engineering]]"
 leads_to:
 contradicts:
 source: ""
 source_url: ""
-context: ""
 ---

@@ -1,4 +1,8 @@
-# Lesson 2: Temporary notes
+---
+title: "Temporary notes"
+---
+
+# Temporary notes
 
 > Fleeting [temporary] notes are only useful if you review them within a day or so and turn them into proper notes you can use later. Fleeting literature notes can make sense if you need an extra step to understand or grasp an idea, but they will not help you in the later stages of the writing process, as no underlined sentence will ever present itself when you need it in the development of an argument. - Sönke Ahrens (2017)
 
@@ -113,54 +117,44 @@ These captures ensure insights don't get lost when you need to shift contexts.
 
 ## Pause and reflect
 
-The simplicity of temporary notes can be deceptive. Many academics find their temporary note systems become yet another source of stress rather than relief.
-
-**Common pitfalls:**
-
-**Capturing too much.** With low-friction capture systems, it's easy to save every interesting article, every potential research direction, every passing thought. When you have hundreds of temporary notes to process, the review becomes overwhelming. Be more selective: before creating a temporary note, ask yourself "Am I genuinely likely to act on this?"
-
-**The perfectionist trap.** Spending time optimising your temporary notes system instead of using it. A simple notebook and pen, or a basic notes app on your phone, is sufficient. Optimise only after you've built the habit of consistent use.
-
-**Holding onto notes too long.** If you're keeping temporary notes for months "just in case," they've ceased being temporary and have become a collection of information you feel obligated to do something with. Regular, ruthless processing with liberal deletion is essential.
-
-The goal is to keep the system small enough that reviewing it feels manageable rather than daunting.
+> [!question] Reflection: managing temporary notes systems
+> The simplicity of temporary notes can be deceptive. Many academics find their temporary note systems become yet another source of stress rather than relief.
+>
+> **Common pitfalls:**
+>
+> **Capturing too much:** With low-friction capture systems, it's easy to save every interesting article, every potential research direction, every passing thought. When you have hundreds of temporary notes to process, the review becomes overwhelming. Be more selective: before creating a temporary note, ask yourself "Am I genuinely likely to act on this?"
+>
+> **The perfectionist trap:** Spending time optimising your temporary notes system instead of using it. A simple notebook and pen, or a basic notes app on your phone, is sufficient. Optimise only after you've built the habit of consistent use.
+>
+> **Holding onto notes too long:** If you're keeping temporary notes for months "just in case," they've ceased being temporary and have become a collection of information you feel obligated to do something with. Regular, ruthless processing with liberal deletion is essential.
+>
+> The goal is to keep the system small enough that reviewing it feels manageable rather than daunting.
 
 ## Activity
 
-Build your temporary notes practice progressively over four weeks:
+> [!todo]- Week 1: Establish capture system
+> Choose your tool (pocket notebook or digital app). Install it on all devices if digital. Carry it everywhere. Your only goal: build the habit of capturing information in this single location. Notice when you're most likely to generate temporary notes.
 
-**Week 1: Establish capture system**
+> [!todo]- Week 2: Centralise existing notes
+> While continuing to capture new information, audit your current scattered temporary notes: sticky notes, to-do lists, email drafts, bookmarks. Move everything into your temporary notes system. This shows you how many partial systems you've been maintaining.
 
-Choose your tool (pocket notebook or digital app). Install it on all devices if digital. Carry it everywhere. Your only goal: build the habit of capturing information in this single location. Notice when you're most likely to generate temporary notes.
+> [!todo]- Week 3: Introduce weekly processing
+> Schedule 20-30 minutes during your weekly review for processing temporary notes. Work through every note, making decisions. Your goal: end the week with zero temporary notes older than one week.
 
-**Week 2: Centralise existing notes**
-
-While continuing to capture new information, audit your current scattered temporary notes: sticky notes, to-do lists, email drafts, bookmarks. Move everything into your temporary notes system. This shows you how many partial systems you've been maintaining.
-
-**Week 3: Introduce weekly processing**
-
-Schedule 20-30 minutes during your weekly review for processing temporary notes. Work through every note, making decisions. Your goal: end the week with zero temporary notes older than one week.
-
-**Week 4: Refine your process**
-
-Pay attention to patterns. Are you capturing articles you never read? Are certain note types consistently getting deleted? Use these observations to refine your practice – perhaps being more selective about what you capture initially.
+> [!todo]- Week 4: Refine your process
+> Pay attention to patterns. Are you capturing articles you never read? Are certain note types consistently getting deleted? Use these observations to refine your practice – perhaps being more selective about what you capture initially.
 
 ## Key takeaways
 
-**Temporary notes are designed to be deleted, not accumulated.** The defining characteristic of a temporary note is its impermanence. Once you've processed the information – moving it into your workflow, pursuing the idea, or acknowledging it's no longer relevant – the temporary note should be deleted. This isn't just tidying; it's essential to keeping the system sustainable. A temporary notes system that grows indefinitely becomes another source of stress.
+- **Design temporary notes to be deleted, not accumulated:** The defining characteristic of a temporary note is its impermanence. Once you've processed the information – moving it into your workflow, pursuing the idea, or acknowledging it's no longer relevant – the temporary note should be deleted. This isn't just tidying; it's essential to keeping the system sustainable. A temporary notes system that grows indefinitely becomes another source of stress.
 
-**A single, dedicated location is crucial.** When temporary information is scattered across sticky notes, margins of documents, draft emails, multiple apps, and scraps of paper, you lose the benefits of having a system at all. The cognitive load of tracking where you might have captured something often exceeds just keeping it in your head. Choose one capture method and commit to using only that method for temporary notes.
+- **Create a single, dedicated location:** When temporary information is scattered across sticky notes, margins of documents, draft emails, multiple apps, and scraps of paper, you lose the benefits of having a system at all. The cognitive load of tracking where you might have captured something often exceeds just keeping it in your head. Choose one capture method and commit to using only that method for temporary notes.
 
-**Weekly processing transforms temporary notes from a dumping ground into a valuable tool.** The capture is only half of the system; regular review and processing is what makes temporary notes effective. Without weekly processing, temporary notes accumulate and become overwhelming. The weekly rhythm is long enough that you can remember context but short enough that you won't be drowning in unprocessed notes.
+- **Use weekly processing to transform temporary notes:** The capture is only half of the system; regular review and processing is what makes temporary notes effective. Without weekly processing, temporary notes accumulate and become overwhelming. The weekly rhythm is long enough that you can remember context but short enough that you won't be drowning in unprocessed notes.
 
 ## Resources
 
-Ahrens, S. (2017). [How to take smart notes: One simple technique to boost writing, learning and thinking](https://amzn.to/3xeFgdW). Sönke Ahrens.
-
-Forte, T. (2022). [Building a second brain: A proven method to organise your digital life and unlock your creative potential](https://amzn.to/3Xv2Iye). Atria Books.
-
-Khoe, M.L. (2016). [Messy thought, neat thought](https://klr.tumblr.com/post/154784481858/messy-thought-neat-thought). Khan Academy Early Product Development.
-
-Matuschak, A. (n.d.). [Evergreen notes](https://notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C?stackedNotes=z2ZAGQBHuJ2u9WrtAQHAEHcCZTtqpsGkAsrD1). Andy's working notes.
-
-Do you have any experiences or insights that you'd like to share with others? What habits and routines have you implemented in your own practice that have helped in this area? Do you have any questions about your specific context that are not addressed in this lesson? Please leave a comment for other participants in the field below.
+- Ahrens, S. (2017). [How to take smart notes: One simple technique to boost writing, learning and thinking](https://amzn.to/3xeFgdW). Sönke Ahrens.
+- Forte, T. (2022). [Building a second brain: A proven method to organise your digital life and unlock your creative potential](https://amzn.to/3Xv2Iye). Atria Books.
+- Khoe, M.L. (2016). [Messy thought, neat thought](https://klr.tumblr.com/post/154784481858/messy-thought-neat-thought). Khan Academy Early Product Development.
+- Matuschak, A. (n.d.). [Evergreen notes](https://notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C?stackedNotes=z2ZAGQBHuJ2u9WrtAQHAEHcCZTtqpsGkAsrD1). Andy's working notes.

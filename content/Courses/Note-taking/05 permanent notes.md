@@ -1,4 +1,8 @@
-# Lesson 5: Permanent notes
+---
+title: "Permanent notes"
+---
+
+# Permanent notes
 
 > Evergreen [permanent] notes are written and organised to evolve, contribute, and accumulate over time, across projects. - Andy Matuschak (n.d.)
 
@@ -164,65 +168,56 @@ Make these connections explicit by linking between notes. Over time, these conne
 
 ## Pause and reflect
 
-The most common challenge with permanent notes is perfectionism. Because these notes are meant to last forever, there's temptation to make them comprehensive and perfectly articulated before saving them. This perfectionism prevents many academics from building substantial collections – they keep refining and never feel the note is "ready."
-
-**Remember:** Permanent notes are meant to evolve over time. It's better to create an imperfect permanent note that captures a concept in basic form than to never create the note because you're waiting to fully develop the idea. You can always return and enhance it later.
-
-Another challenge is distinguishing between permanent notes and literature notes. If a note is essentially "here's what this article says," it belongs in literature notes even if the concept seems important. Permanent notes should be your thinking about concepts, informed by but not dominated by specific sources.
-
-There's also a tendency to create permanent notes that are too narrow or too broad:
-
-- **Too broad:** "Teaching" (not about a concept but an entire domain)
-- **Too narrow:** "The specific example Smith uses in chapter 3" (about a particular instance)
-- **Just right:** "Formative assessment timing and student learning" (specific enough to be meaningful, general enough to apply across contexts)
-
-Finally, resist treating permanent notes as a way to avoid engaging with original sources. They're meant to complement direct engagement with sources, not substitute for it. Use permanent notes to build from rather than to avoid reading widely and deeply.
+> [!question] Reflection: creating quality permanent notes
+> The most common challenge with permanent notes is perfectionism. Because these notes are meant to last forever, there's temptation to make them comprehensive and perfectly articulated before saving them. This perfectionism prevents many academics from building substantial collections – they keep refining and never feel the note is "ready."
+>
+> **Remember:** Permanent notes are meant to evolve over time. It's better to create an imperfect permanent note that captures a concept in basic form than to never create the note because you're waiting to fully develop the idea. You can always return and enhance it later.
+>
+> Another challenge is distinguishing between permanent notes and literature notes. If a note is essentially "here's what this article says," it belongs in literature notes even if the concept seems important. Permanent notes should be your thinking about concepts, informed by but not dominated by specific sources.
+>
+> There's also a tendency to create permanent notes that are too narrow or too broad:
+>
+> - **Too broad:** "Teaching" (not about a concept but an entire domain)
+> - **Too narrow:** "The specific example Smith uses in chapter 3" (about a particular instance)
+> - **Just right:** "Formative assessment timing and student learning" (specific enough to be meaningful, general enough to apply across contexts)
+>
+> Finally, resist treating permanent notes as a way to avoid engaging with original sources. They're meant to complement direct engagement with sources, not substitute for it. Use permanent notes to build from rather than to avoid reading widely and deeply.
 
 ## Activity
 
-Develop sustainable permanent notes practices over four weeks:
+> [!todo]- Week 1: Review for permanent note candidates
+> Go through literature notes from recent months. Look for recurring themes or concepts that appear across multiple sources, or ideas you keep returning to. Identify three concepts worth developing. For each, create a draft permanent note:
+>
+> - Clear title capturing the concept (not the source)
+> - A few paragraphs explaining your understanding in your own words
+> - References to sources that informed your understanding
+> - Any questions or limitations you've identified
 
-**Week 1: Review for permanent note candidates**
+> [!todo]- Week 2: Connect new notes
+> Create three more permanent notes, focusing on making connections to notes from Week 1 or other knowledge you have. For each new note, explicitly ask:
+>
+> - How does this relate to other ideas I've captured?
+> - Does this provide an example of a more general principle?
+> - Does this complicate or contradict other ideas?
+>
+> Add links or references between related notes.
 
-Go through literature notes from recent months. Look for recurring themes or concepts that appear across multiple sources, or ideas you keep returning to. Identify three concepts worth developing. For each, create a draft permanent note:
+> [!todo]- Week 3: Develop notes through use
+> Practice using permanent notes in your actual work. When writing, teaching, or working on a project, start by reviewing relevant permanent notes. After completing work sessions, spend a few minutes updating relevant permanent notes with what you learned. Demonstrate that these notes evolve through use.
 
-- Clear title capturing the concept (not the source)
-- A few paragraphs explaining your understanding in your own words
-- References to sources that informed your understanding
-- Any questions or limitations you've identified
-
-**Week 2: Connect new notes**
-
-Create three more permanent notes, focusing on making connections to notes from Week 1 or other knowledge you have. For each new note, explicitly ask:
-
-- How does this relate to other ideas I've captured?
-- Does this provide an example of a more general principle?
-- Does this complicate or contradict other ideas?
-
-Add links or references between related notes.
-
-**Week 3: Develop notes through use**
-
-Practice using permanent notes in your actual work. When writing, teaching, or working on a project, start by reviewing relevant permanent notes. After completing work sessions, spend a few minutes updating relevant permanent notes with what you learned. Demonstrate that these notes evolve through use.
-
-**Week 4: Establish sustainable practices**
-
-Add "review permanent notes" to your weekly review template – perhaps committing to reviewing and updating 2-3 permanent notes each week. Reflect on your system: Is the format sustainable? Is your organisation working? Are you creating notes at the right level of abstraction? Adjust based on what you've learned.
+> [!todo]- Week 4: Establish sustainable practices
+> Add "review permanent notes" to your weekly review template – perhaps committing to reviewing and updating 2-3 permanent notes each week. Reflect on your system: Is the format sustainable? Is your organisation working? Are you creating notes at the right level of abstraction? Adjust based on what you've learned.
 
 ## Key takeaways
 
-**Permanent notes are concept-oriented, not source-oriented or project-oriented.** The fundamental distinction is their focus on transferable concepts and ideas rather than specific sources, projects, or events. You create permanent notes about threshold concepts, not about specific articles. You create permanent notes about methodological considerations, not about specific research projects. This concept-orientation is what makes permanent notes valuable across different contexts and over extended time periods.
+- **Maintain concept-oriented focus, not source-oriented or project-oriented:** The fundamental distinction is their focus on transferable concepts and ideas rather than specific sources, projects, or events. You create permanent notes about threshold concepts, not about specific articles. You create permanent notes about methodological considerations, not about specific research projects. This concept-orientation is what makes permanent notes valuable across different contexts and over extended time periods.
 
-**Permanent notes should be written for your future self in your own words.** A permanent note isn't a collection of quotes or a summary of what sources say – it's your developed understanding of a concept. Write as if explaining the idea to yourself six months or two years from now, when you've forgotten immediate context. This means complete thoughts rather than fragments, your own words rather than extensive quotes, and enough context to be comprehensible without extensive background reconstruction.
+- **Write for your future self in your own words:** A permanent note isn't a collection of quotes or a summary of what sources say – it's your developed understanding of a concept. Write as if explaining the idea to yourself six months or two years from now, when you've forgotten immediate context. This means complete thoughts rather than fragments, your own words rather than extensive quotes, and enough context to be comprehensible without extensive background reconstruction.
 
-**The value of permanent notes compounds over time through use and connection.** A small collection of permanent notes is modestly useful; a large, interconnected collection built over years becomes transformative. As you create more permanent notes and connect them to each other, you're building an external representation of your intellectual territory. This network makes your accumulated thinking immediately available when you're writing, teaching, or developing new projects, and it reveals connections and patterns that might not be visible when ideas remain scattered.
+- **Allow permanent note value to compound over time:** A small collection of permanent notes is modestly useful; a large, interconnected collection built over years becomes transformative. As you create more permanent notes and connect them to each other, you're building an external representation of your intellectual territory. This network makes your accumulated thinking immediately available when you're writing, teaching, or developing new projects, and it reveals connections and patterns that might not be visible when ideas remain scattered.
 
 ## Resources
 
-Ahrens, S. (2017). [How to take smart notes: One simple technique to boost writing, learning and thinking](https://amzn.to/3xeFgdW). Sönke Ahrens.
-
-Matuschak, A. (n.d.). [Evergreen notes](https://notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C?stackedNotes=z2ZAGQBHuJ2u9WrtAQHAEHcCZTtqpsGkAsrD1). Andy's working notes.
-
-Young, S. & Clear, J. (2019). [Ultralearning: Master hard skills, outsmart the competition, and accelerate your career](https://amzn.to/3Xv2Iye). Harper Business.
-
-Do you have any experiences or insights that you'd like to share with others? What habits and routines have you implemented in your own practice that have helped in this area? Do you have any questions about your specific context that are not addressed in this lesson? Please leave a comment for other participants in the field below.
+- Ahrens, S. (2017). [How to take smart notes: One simple technique to boost writing, learning and thinking](https://amzn.to/3xeFgdW). Sönke Ahrens.
+- Matuschak, A. (n.d.). [Evergreen notes](https://notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C?stackedNotes=z2ZAGQBHuJ2u9WrtAQHAEHcCZTtqpsGkAsrD1). Andy's working notes.
+- Young, S. & Clear, J. (2019). [Ultralearning: Master hard skills, outsmart the competition, and accelerate your career](https://amzn.to/3Xv2Iye). Harper Business.

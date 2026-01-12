@@ -1,4 +1,9 @@
-# Lesson 4: Processing information
+---
+title: "Processing information"
+lesson: 4
+---
+
+# Processing information
 
 > Reading furnishes the mind only with materials of knowledge; it is thinking that makes what we read ours. - John Locke
 
@@ -140,55 +145,54 @@ The tangible output matters because it transforms processing from vague intellec
 
 ## Pause and reflect
 
-The boundary between extracting and processing information is necessarily blurry. While annotating during extraction, you're already processing—making connections, developing interpretations, generating questions. And processing often requires returning to sources to extract additional information you initially overlooked. Don't worry about which stage you're at. What matters is that information moves from raw sources toward processed understanding.
-
-It's also important to recognise that processing is cognitively demanding in ways that reading or organising notes is not. You can't process information for eight hours straight. Most people find they have perhaps 2-4 hours daily of genuine processing capacity, and that's on good days. Respect this limitation rather than fighting it. Better to process deeply for 30 minutes than to spend two hours producing superficial work because you're mentally exhausted.
-
-Finally, resist the temptation to process everything perfectly before moving forward. Processing is iterative—you'll return to sources multiple times as your understanding develops. The first pass might produce basic connections and questions. Later passes might generate synthetic insights or identify gaps in current understanding. Accept that processing is ongoing rather than something you complete once and finish.
+> [!question] Pause and reflect
+> The boundary between extracting and processing information is necessarily blurry. While annotating during extraction, you're already processing—making connections, developing interpretations, generating questions. And processing often requires returning to sources to extract additional information you initially overlooked. Don't worry about which stage you're at. What matters is that information moves from raw sources toward processed understanding.
+>
+> It's also important to recognise that processing is cognitively demanding in ways that reading or organising notes is not. You can't process information for eight hours straight. Most people find they have perhaps 2-4 hours daily of genuine processing capacity, and that's on good days. Respect this limitation rather than fighting it. Better to process deeply for 30 minutes than to spend two hours producing superficial work because you're mentally exhausted.
+>
+> Finally, resist the temptation to process everything perfectly before moving forward. Processing is iterative—you'll return to sources multiple times as your understanding develops. The first pass might produce basic connections and questions. Later passes might generate synthetic insights or identify gaps in current understanding. Accept that processing is ongoing rather than something you complete once and finish.
 
 ## Activity
 
-This activity establishes a basic processing routine and produces a concrete output. It takes 30-40 minutes.
-
-**Prepare for processing (5 minutes)**
-
-1. Identify a project you're currently working on (an article, lecture preparation, research proposal)
-2. Select one source from your literature notes that relates to this project
-3. Block 30-40 minutes of uninterrupted time right now
-4. Close email, silence notifications, and open your notes alongside a blank document or new note
-
-**Process the source (20-25 minutes)**
-
-1. Review the literature note you created during extraction—read your highlights and annotations
-2. Start a dialogue with the material by writing responses to these prompts:
-    - What are the 2-3 most important ideas in this source?
-    - How do these ideas relate to other sources you've read?
-    - What questions does this source raise?
-    - How might you use this in your current project?
-3. Write freely without editing—this is thinking-writing, not publication-writing
-4. When connections to other sources occur to you, note them immediately
-5. If you identify gaps in understanding or questions requiring more reading, create a list
-
-**Create a concrete output (5-10 minutes)**
-
-1. Review what you've written during processing
-2. Identify 1-3 core insights that emerged from this session
-3. Create one of the following outputs:
-    - A paragraph for your current project incorporating ideas from this processing
-    - A permanent note capturing a concept you now understand more clearly
-    - A synthesis note connecting this source to 2-3 other sources
-    - An updated outline for your project showing where this material fits
-4. Add this output to your project notes or permanent notes system
-
-**Bonus step:** Schedule your next processing session in your calendar right now. Even 30 minutes tomorrow. Building the habit matters more than the length of individual sessions.
+> [!todo]- Activity: Establish a basic processing routine
+> This activity establishes a basic processing routine and produces a concrete output. It takes 30-40 minutes.
+>
+> **Prepare for processing (5 minutes)**
+> 1. Identify a project you're currently working on (an article, lecture preparation, research proposal)
+> 2. Select one source from your literature notes that relates to this project
+> 3. Block 30-40 minutes of uninterrupted time right now
+> 4. Close email, silence notifications, and open your notes alongside a blank document or new note
+>
+> **Process the source (20-25 minutes)**
+> 1. Review the literature note you created during extraction—read your highlights and annotations
+> 2. Start a dialogue with the material by writing responses to these prompts:
+>    - What are the 2-3 most important ideas in this source?
+>    - How do these ideas relate to other sources you've read?
+>    - What questions does this source raise?
+>    - How might you use this in your current project?
+> 3. Write freely without editing—this is thinking-writing, not publication-writing
+> 4. When connections to other sources occur to you, note them immediately
+> 5. If you identify gaps in understanding or questions requiring more reading, create a list
+>
+> **Create a concrete output (5-10 minutes)**
+> 1. Review what you've written during processing
+> 2. Identify 1-3 core insights that emerged from this session
+> 3. Create one of the following outputs:
+>    - A paragraph for your current project incorporating ideas from this processing
+>    - A permanent note capturing a concept you now understand more clearly
+>    - A synthesis note connecting this source to 2-3 other sources
+>    - An updated outline for your project showing where this material fits
+> 4. Add this output to your project notes or permanent notes system
+>
+> **Bonus step:** Schedule your next processing session in your calendar right now. Even 30 minutes tomorrow. Building the habit matters more than the length of individual sessions.
 
 ## Key takeaways
 
-**Information becomes knowledge through writing, not just reading.** Many academics treat writing as something they do after achieving clarity through reading. This misunderstands the process. Writing is how you achieve clarity—how you test understanding, identify connections, and develop original insight. Processing information through regular writing sessions transforms accumulated notes into genuine understanding.
+- **Information becomes knowledge through writing, not just reading.** Many academics treat writing as something they do after achieving clarity through reading. This misunderstands the process. Writing is how you achieve clarity—how you test understanding, identify connections, and develop original insight. Processing information through regular writing sessions transforms accumulated notes into genuine understanding.
 
-**The value you add distinguishes knowledge work from information consumption.** Two people reading identical sources will generate different insights, make distinct connections, and develop unique perspectives. This difference represents your intellectual contribution. Processing is where you add value through your particular way of thinking about problems, connecting ideas, and applying concepts to your specific context.
+- **The value you add distinguishes knowledge work from information consumption.** Two people reading identical sources will generate different insights, make distinct connections, and develop unique perspectives. This difference represents your intellectual contribution. Processing is where you add value through your particular way of thinking about problems, connecting ideas, and applying concepts to your specific context.
 
-**Concrete outputs make progress visible and sustainable.** Processing sessions should produce tangible results—a new permanent note, a draft paragraph, a synthesis document. These concrete outputs serve multiple purposes: they make progress visible, build momentum, and create materials you can draw on during later writing. Without concrete outputs, processing feels like invisible work that's hard to sustain over time.
+- **Concrete outputs make progress visible and sustainable.** Processing sessions should produce tangible results—a new permanent note, a draft paragraph, a synthesis document. These concrete outputs serve multiple purposes: they make progress visible, build momentum, and create materials you can draw on during later writing. Without concrete outputs, processing feels like invisible work that's hard to sustain over time.
 
 ## Resources
 

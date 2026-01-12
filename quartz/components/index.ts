@@ -31,6 +31,9 @@ import CourseGrid from "./CourseGrid"
 import LessonNav from "./LessonNav"
 import CourseButton from "./CourseButton"
 import BookOverview from "./BookOverview"
+import NotesGrid from "./NotesGrid"
+import NotesByTag from "./NotesByTag"
+import AILiteracyNav from "./AILiteracyNav"
 
 export {
   ArticleTitle,
@@ -66,4 +69,7 @@ export {
   LessonNav,
   CourseButton,
   BookOverview,
+  NotesGrid,
+  NotesByTag,
+  AILiteracyNav,
 }

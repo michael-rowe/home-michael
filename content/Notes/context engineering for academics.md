@@ -9,6 +9,8 @@ updated:
 status: draft
 needs_review: false
 tags:
+  - higher-education
+  - context-engineering
 category: ""
 related:
   - "[[context engineering]]"

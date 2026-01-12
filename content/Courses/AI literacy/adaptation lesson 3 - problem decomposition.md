@@ -1,4 +1,9 @@
-# Lesson 8: Developing problem framing literacy
+---
+title: Developing problem framing literacy
+lesson_number: adaptation-3
+---
+
+# Developing problem framing literacy
 
 ## Lesson overview
 
@@ -36,7 +41,8 @@ Without systematic framing, you either miss crucial dimensions or drown in undif
 
 Think of your current research challenge or a complex problem you're facing.
 
-**Quick test:** Without looking anything up, can you articulate this problem from three genuinely different perspectives right now? (Not three similar angles, but three fundamentally different ways of framing what the problem actually is.)
+> [!question]
+> Without looking anything up, can you articulate this problem from three genuinely different perspectives right now? (Not three similar angles, but three fundamentally different ways of framing what the problem actually is.)
 
 [Text input box - write three framings]
 
@@ -95,7 +101,7 @@ This lesson develops different capabilities: critical evaluation of inquiry fram
 
 Different disciplines frame the same problem differently—revealing assumptions you might not recognize as assumptions.
 
-### The approach
+### **The approach**
 
 **Prompt structure:**
 
@@ -105,9 +111,9 @@ Different disciplines frame the same problem differently—revealing assumptions
 
 "I'm investigating academic workload problems. How would economists, psychologists, and sociologists frame this? What would each discipline prioritize? What would each overlook?"
 
-### Faded practice: From observation to evaluation
+### [!todo]- Faded practice: From observation to evaluation
 
-**Stage 1 - Observe expert evaluation**
+### [!todo]- Stage 1: Observe expert evaluation
 
 Here's how a scholar uses disciplinary decomposition whilst maintaining critical evaluation:
 
@@ -141,7 +147,7 @@ AI might oversimplify disciplinary perspectives. Real economists consider struct
 
 </details>
 
-**Stage 2 - Apply with critical evaluation**
+### [!todo]- Stage 2: Apply with critical evaluation
 
 Now apply disciplinary decomposition to YOUR problem.
 
@@ -192,7 +198,7 @@ Now apply disciplinary decomposition to YOUR problem.
 
 Different methods illuminate different aspects—and obscure others. Developing literacy means understanding what each approach shows and what it misses.
 
-### The approach
+### **The approach**
 
 **Prompt structure:**
 
@@ -210,7 +216,7 @@ Choosing methods shapes what you can discover. If you only use surveys, you'll n
 
 </details>
 
-### Quick practice
+### [!todo]- Quick practice
 
 Apply methodological decomposition to your problem.
 
@@ -247,9 +253,8 @@ Apply methodological decomposition to your problem.
 - [ ] I've acknowledged practical constraints honestly
 - [ ] I can explain my methodological choices
 
-**Reflection:** Has this decomposition helped you choose methods appropriately, or has it simply increased uncertainty without improving judgement?
-
-[Text input box]
+> [!question]
+> Has this decomposition helped you choose methods appropriately, or has it simply increased uncertainty without improving judgement?[Text input box]
 
 **✓ You can now evaluate methodological affordances and constraints**
 
@@ -285,7 +290,7 @@ Some problems require distinguishing types, categories, or dimensions.
 
 Not all problems benefit from systematic decomposition. Let's practice evaluating when it serves your work.
 
-### The scenario
+### **The scenario**
 
 Dr. Kim is studying "student engagement in online learning." She spends 90 minutes systematically decomposing the problem: disciplinary framings (education, psychology, computer science, sociology), methodological framings (surveys, analytics, interviews, observation), temporal framings (before class, during, after, semester-long), conceptual framings (active vs passive, cognitive vs affective, individual vs social).
 
@@ -313,9 +318,8 @@ She realizes her initial question was already appropriately focused: "Do discuss
 
 </details>
 
-**Reflection:** What determines whether decomposition helps or hinders? How do you decide?
-
-[Text input box]
+> [!question]
+> What determines whether decomposition helps or hinders? How do you decide?[Text input box]
 
 **Decision principle:** Use systematic decomposition when:
 
@@ -340,7 +344,7 @@ Skip systematic decomposition when:
 **Time required:** 25 minutes  
 **Objective:** Experience systematic decomposition whilst developing critical evaluation of whether it serves your scholarly work
 
-### Part 1: Identify your problem (2 minutes)
+### [!todo]- Part 1: Identify your problem (2 minutes)
 
 **The complex problem I'm facing:**
 
@@ -358,7 +362,7 @@ Skip systematic decomposition when:
 - [ ] Understand multiple perspectives on this problem
 - [ ] Other: [___]
 
-### Part 2: First decomposition with evaluation (10 minutes)
+### [!todo]- Part 2: First decomposition with evaluation (10 minutes)
 
 Choose disciplinary OR methodological decomposition—whichever you think will be most useful. This choice itself is judgement practice.
 
@@ -387,7 +391,7 @@ Choose disciplinary OR methodological decomposition—whichever you think will b
 
 [Text input box]
 
-### Part 3: Second decomposition with comparison (10 minutes)
+### [!todo]- Part 3: Second decomposition with comparison (10 minutes)
 
 Choose the OTHER decomposition type (if you did disciplinary, now do methodological, or vice versa).
 
@@ -405,7 +409,7 @@ Are the two framings complementary or redundant? [___]
 
 Am I gaining clarity or experiencing overwhelm? [___]
 
-### Part 4: Synthesis and judgement (3 minutes)
+### [!todo]- Part 4: Synthesis and judgement (3 minutes)
 
 **How my understanding evolved:**
 
@@ -500,7 +504,7 @@ Multiple decompositions can reveal blind spots single framings create—every fr
 
 ### Metacognitive awareness is the core capability
 
-The most valuable outcome isn't better problem framing—it's increased awareness of your own framing patterns and biases. When you see how different disciplines frame the same problem, you recognize that your framing reflects assumptions you may not have been aware of. When you evaluate whether decomposition helped or hindered, you develop judgement about when techniques serve your work. This metacognitive awareness prepares you for the transformation lessons—where you'll integrate these capabilities into sustained scholarly practice.
+**The most valuable outcome isn't better problem framing—it's increased awareness of your own framing patterns and biases. When you see how different disciplines frame the same problem, you recognize that your framing reflects assumptions you may not have been aware of. When you evaluate whether decomposition helped or hindered, you develop judgement about when techniques serve your work. This metacognitive awareness prepares you for the transformation lessons—where you'll integrate these capabilities into sustained scholarly practice.**
 
 ---
 
@@ -519,7 +523,7 @@ You've completed the adaptation module, developing critical evaluation, contextu
 
 ### Complex problem solving
 
-- Dorst, K. (2015). Frame innovation: Create new thinking by design. MIT Press.
+**- Dorst, K. (2015). Frame innovation: Create new thinking by design. MIT Press.**
 
 ---
 

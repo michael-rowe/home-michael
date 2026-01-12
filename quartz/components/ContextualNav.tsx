@@ -26,6 +26,11 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
     const currentSlug = fileData.slug!
     const slug = simplifySlug(currentSlug)
 
+    // Don't show ContextualNav for AI literacy course (has its own navigation)
+    if (currentSlug.startsWith("Courses/AI literacy/")) {
+      return null
+    }
+
     // Determine which section we're in
     const isEssays = currentSlug.startsWith("Essays/")
     const isPosts = currentSlug.startsWith("Posts/")
@@ -89,26 +94,64 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
       )
     }
 
-    // Notes: Show related notes (backlinks + outgoing links)
+    // Notes: Show related notes from frontmatter
     if (isNotes) {
-      // Get backlinks (pages that link to this page)
-      const backlinkFiles = allFiles.filter((file) => file.links?.includes(slug))
+      const relatedSlugs = new Set<string>()
 
-      // Get outgoing links (pages this page links to)
-      const outgoingLinks = fileData.links ?? []
-      const outgoingFiles = allFiles.filter((file) => outgoingLinks.includes(simplifySlug(file.slug!)))
+      // Helper function to slugify text (convert spaces to hyphens, etc.)
+      const slugifyText = (text: string): string => {
+        return text
+          .replace(/\s/g, "-")
+          .replace(/&/g, "-and-")
+          .replace(/%/g, "-percent")
+          .replace(/\?/g, "")
+          .replace(/#/g, "")
+      }
 
-      // Combine and deduplicate
-      const relatedSlugs = new Set([
-        ...backlinkFiles.map((f) => f.slug!),
-        ...outgoingFiles.map((f) => f.slug!),
-      ])
-      // Remove current page from related notes
-      relatedSlugs.delete(currentSlug)
+      // Parse the 'related' field from frontmatter
+      const relatedField = fileData.frontmatter?.related
+      if (relatedField) {
+        // Handle both string and array formats
+        const relatedList = Array.isArray(relatedField) ? relatedField : [relatedField]
+
+        for (const item of relatedList) {
+          // Extract slug from wikilink format [[slug]] or plain text
+          const match = typeof item === "string" ? item.match(/\[\[([^\]]+)\]\]/) : null
+          if (match) {
+            const linkText = match[1]
+            const slugifiedLink = slugifyText(linkText)
+
+            // Try to find the file, prioritizing Notes section
+            let relatedFile = allFiles.find(
+              (f) =>
+                f.slug?.startsWith("Notes/") &&
+                (f.slug === `Notes/${slugifiedLink}` ||
+                  simplifySlug(f.slug!) === slugifiedLink ||
+                  f.slug?.endsWith(`/${slugifiedLink}`) ||
+                  f.frontmatter?.title === linkText)
+            )
+
+            // If not found in Notes, search in all files
+            if (!relatedFile) {
+              relatedFile = allFiles.find(
+                (f) =>
+                  f.frontmatter?.title === linkText ||
+                  simplifySlug(f.slug!) === slugifiedLink ||
+                  f.slug?.endsWith(`/${slugifiedLink}`)
+              )
+            }
+
+            if (relatedFile && relatedFile.slug !== currentSlug) {
+              relatedSlugs.add(relatedFile.slug!)
+            }
+          }
+        }
+      }
 
       const relatedNotes = Array.from(relatedSlugs)
         .map((slug) => allFiles.find((f) => f.slug === slug))
         .filter((f) => f !== undefined)
+        .sort(byDateAndAlphabetical(cfg))
 
       if (relatedNotes.length === 0) {
         return null
@@ -123,6 +166,11 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
                 <a href={resolveRelative(fileData.slug!, note!.slug!)} class="internal">
                   {note!.frontmatter?.title}
                 </a>
+                {note!.dates && (
+                  <span class="date">
+                    <Date date={getDate(cfg, note!)!} locale={cfg.locale} />
+                  </span>
+                )}
               </li>
             ))}
           </ul>

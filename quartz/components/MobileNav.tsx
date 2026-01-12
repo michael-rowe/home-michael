@@ -94,21 +94,62 @@ export default ((opts?: Partial<MobileNavOptions>) => {
         )
       }
     } else if (isNotes) {
-      const backlinkFiles = allFiles.filter((file) => file.links?.includes(slug))
-      const outgoingLinks = fileData.links ?? []
-      const outgoingFiles = allFiles.filter((file) =>
-        outgoingLinks.includes(simplifySlug(file.slug!)),
-      )
+      const relatedSlugs = new Set<string>()
 
-      const relatedSlugs = new Set([
-        ...backlinkFiles.map((f) => f.slug!),
-        ...outgoingFiles.map((f) => f.slug!),
-      ])
-      relatedSlugs.delete(currentSlug)
+      // Helper function to slugify text (convert spaces to hyphens, etc.)
+      const slugifyText = (text: string): string => {
+        return text
+          .replace(/\s/g, "-")
+          .replace(/&/g, "-and-")
+          .replace(/%/g, "-percent")
+          .replace(/\?/g, "")
+          .replace(/#/g, "")
+      }
+
+      // Parse the 'related' field from frontmatter
+      const relatedField = fileData.frontmatter?.related
+      if (relatedField) {
+        // Handle both string and array formats
+        const relatedList = Array.isArray(relatedField) ? relatedField : [relatedField]
+
+        for (const item of relatedList) {
+          // Extract slug from wikilink format [[slug]] or plain text
+          const match = typeof item === "string" ? item.match(/\[\[([^\]]+)\]\]/) : null
+          if (match) {
+            const linkText = match[1]
+            const slugifiedLink = slugifyText(linkText)
+
+            // Try to find the file, prioritizing Notes section
+            let relatedFile = allFiles.find(
+              (f) =>
+                f.slug?.startsWith("Notes/") &&
+                (f.slug === `Notes/${slugifiedLink}` ||
+                  simplifySlug(f.slug!) === slugifiedLink ||
+                  f.slug?.endsWith(`/${slugifiedLink}`) ||
+                  f.frontmatter?.title === linkText)
+            )
+
+            // If not found in Notes, search in all files
+            if (!relatedFile) {
+              relatedFile = allFiles.find(
+                (f) =>
+                  f.frontmatter?.title === linkText ||
+                  simplifySlug(f.slug!) === slugifiedLink ||
+                  f.slug?.endsWith(`/${slugifiedLink}`)
+              )
+            }
+
+            if (relatedFile && relatedFile.slug !== currentSlug) {
+              relatedSlugs.add(relatedFile.slug!)
+            }
+          }
+        }
+      }
 
       const relatedNotes = Array.from(relatedSlugs)
         .map((slug) => allFiles.find((f) => f.slug === slug))
         .filter((f) => f !== undefined)
+        .sort(byDateAndAlphabetical(cfg))
 
       if (relatedNotes.length > 0) {
         contextualContent = (
@@ -396,6 +437,7 @@ export default ((opts?: Partial<MobileNavOptions>) => {
   .mobile-nav-section .lesson-number {
     font-weight: 600;
     color: var(--darkgray);
+    display: inline;
   }
 
   /* Overlay */

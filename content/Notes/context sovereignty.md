@@ -9,6 +9,11 @@ updated:
 status: draft
 needs_review: false
 tags:
+  - artificial-intelligence
+  - context-engineering
+  - context-sovereignty
+  - model-context-protocol
+  - language-model
 category: ""
 related: "[[context engineering]]"
 builds_on:

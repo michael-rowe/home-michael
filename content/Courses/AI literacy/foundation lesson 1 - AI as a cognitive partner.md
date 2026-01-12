@@ -1,4 +1,9 @@
-# Lesson 1: Understanding AI as a cognitive partner
+---
+title: "AI as a cognitive partner"
+lesson_number: "foundation-1"
+---
+
+# AI as a cognitive partner
 
 ## Lesson overview
 
@@ -26,9 +31,8 @@ The next morning, her colleague mentions using AI differently: "I don't ask it f
 
 This conversation leads somewhere useful.
 
-**Before we begin:** How would you currently approach using AI for a research challenge like Sarah's? What's your mental model of what AI does? [Type one sentence—you'll reference this later]
-
-[Text input box]
+> [!question] Before we begin
+> How would you currently approach using AI for a research challenge like Sarah's? What's your mental model of what AI does? [Type one sentence—you'll reference this later]
 
 **Progress:** Section 2 of 10
 
@@ -40,63 +44,59 @@ Most confusion about AI comes from applying the wrong mental model. Before explo
 
 ### Not a search engine
 
-<details> <summary><strong>Click to expand</strong></summary>
+> [!example]- Click to expand
+>
+> When you search Google Scholar, the engine matches your keywords to documents and returns ranked results. You do the work of reading and synthesising.
+>
+> Generative AI works differently—it generates responses based on patterns learned from vast amounts of text. It's not retrieving documents; it's constructing language probabilistically in response to your specific query.
+>
+> **Why this matters:** You can have a conversation with AI—asking follow-up questions, requesting clarification, exploring ideas iteratively. This conversational capability fundamentally changes what's possible, but it also means you can't expect AI to simply 'retrieve' information. It constructs responses, which requires your critical evaluation.
 
-When you search Google Scholar, the engine matches your keywords to documents and returns ranked results. You do the work of reading and synthesising.
-
-Generative AI works differently—it generates responses based on patterns learned from vast amounts of text. It's not retrieving documents; it's constructing language probabilistically in response to your specific query.
-
-**Why this matters:** You can have a conversation with AI—asking follow-up questions, requesting clarification, exploring ideas iteratively. This conversational capability fundamentally changes what's possible, but it also means you can't expect AI to simply 'retrieve' information. It constructs responses, which requires your critical evaluation.
-
-**Quick reflection:** Think of a recent time you used AI. Did you treat it like a search engine? What happened?
-
-</details>
+> [!question] Quick reflection
+> Think of a recent time you used AI. Did you treat it like a search engine? What happened?
 
 ### Not traditional software
 
-<details> <summary><strong>Click to expand</strong></summary>
+> [!example]- Click to expand
+>
+> Most software operates through commands. You execute actions, get results. AI responds to natural language. You describe what you need (often imprecisely at first), and the system interprets your intent and adapts based on conversation.
+>
+> **Why this matters:** You don't need to learn an interface or memorise commands. You communicate naturally, which lowers the barrier to engagement—but requires different skills around clear communication. The quality of what you get depends on how well you communicate what you need.
 
-Most software operates through commands. You execute actions, get results. AI responds to natural language. You describe what you need (often imprecisely at first), and the system interprets your intent and adapts based on conversation.
-
-**Why this matters:** You don't need to learn an interface or memorise commands. You communicate naturally, which lowers the barrier to engagement—but requires different skills around clear communication. The quality of what you get depends on how well you communicate what you need.
-
-**Quick reflection:** Have you ever approached AI like software, expecting to learn 'how to use it'? What frustrated you?
-
-</details>
+> [!question] Quick reflection
+> Have you ever approached AI like software, expecting to learn 'how to use it'? What frustrated you?
 
 ### Not a knowledge database
 
-<details> <summary><strong>Click to expand</strong></summary>
+> [!example]- Click to expand
+>
+> AI doesn't store facts like a database. It has learned patterns from training data, allowing it to generate plausible text on almost any topic. But it doesn't 'know' things in the way humans do, and it can confidently generate incorrect information—what we call hallucinations.
+>
+> **Why this matters:** You can't trust AI outputs uncritically. Everything requires your scholarly judgement and verification. The value isn't in delegating evaluation to AI—it's in extending your thinking through collaboration whilst maintaining your responsibility for accuracy.
 
-AI doesn't store facts like a database. It has learned patterns from training data, allowing it to generate plausible text on almost any topic. But it doesn't 'know' things in the way humans do, and it can confidently generate incorrect information—what we call hallucinations.
-
-**Why this matters:** You can't trust AI outputs uncritically. Everything requires your scholarly judgement and verification. The value isn't in delegating evaluation to AI—it's in extending your thinking through collaboration while maintaining your responsibility for accuracy.
-
-**Quick reflection:** When have you caught AI being confidently wrong about something in your field?
-
-</details>
+> [!question] Quick reflection
+> When have you caught AI being confidently wrong about something in your field?
 
 **Progress:** Section 3 of 10
 
 ---
 
-## Quick practice: Transactional vs conversational
+## Quick practice: transactional vs conversational
 
-**Time required:** 5 minutes
-
-Let's experience the difference between treating AI as a search engine versus a thinking partner.
-
-**Part 1:** Choose a topic relevant to your current work—something you're genuinely curious about or stuck on. Open ChatGPT or Claude and ask a simple, direct question. For example: "What are the main theories of student engagement?" or "What methods work for teaching statistics?"
-
-Read the response but don't engage further. Note what you got and what's missing.
-
-**Part 2:** Now provide context: What's your specific situation? What have you already tried? What's the actual problem you're trying to solve?
-
-Read AI's response. Does it feel different? More useful?
-
-**Reflection:** What did conversation provide that the simple query didn't? When would you use each approach?
-
-[Text input box]
+> [!todo]- Activity: Experience the difference
+> **Time required:** 5 minutes
+>
+> Let's experience the difference between treating AI as a search engine versus a thinking partner.
+>
+> **Part 1:** Choose a topic relevant to your current work—something you're genuinely curious about or stuck on. Open ChatGPT or Claude and ask a simple, direct question. For example: "What are the main theories of student engagement?" or "What methods work for teaching statistics?"
+>
+> Read the response but don't engage further. Note what you got and what's missing.
+>
+> **Part 2:** Now provide context: What's your specific situation? What have you already tried? What's the actual problem you're trying to solve?
+>
+> Read AI's response. Does it feel different? More useful?
+>
+> **Reflection:** What did conversation provide that the simple query didn't? When would you use each approach?
 
 **Progress:** Section 4 of 10
 
@@ -110,7 +110,7 @@ Human thinking has always been extended by language technologies. Writing create
 
 Each technological leap changed what humans could think, not just how they recorded thoughts. Plato worried that writing would weaken memory—and he was right. We no longer cultivate the elaborate memory techniques that oral cultures required. But writing didn't diminish cognition—it extended it, making new forms of thinking possible.
 
-**The pattern is consistent:** New language technologies feel threatening because they change intellectual work. But they don't replace thinking—they extend it, making new forms of thinking possible while requiring us to develop new capabilities.
+**The pattern is consistent:** New language technologies feel threatening because they change intellectual work. But they don't replace thinking—they extend it, making new forms of thinking possible whilst requiring us to develop new capabilities.
 
 Consider how you already use language to extend thinking. Writing clarifies vague ideas by forcing precise articulation. Teaching deepens understanding by requiring clear explanation. Conversation with colleagues helps you work through complex problems. AI extends these familiar practices—it provides a conversational partner for thinking through ideas, an audience for articulating vague intuitions, and a collaborator for working through problems.
 
@@ -118,19 +118,18 @@ The key difference: AI responds in real-time, adapts to your context, and doesn'
 
 But like all cognitive extensions, AI is only as valuable as the quality of engagement you bring to it.
 
-<details> <summary><strong>Learn more about the history of language technologies</strong></summary>
+> [!example]- Learn more about the history of language technologies
+>
+> Oral tradition allowed ideas to persist beyond individual memory, but required sophisticated mnemonic techniques we've now lost. Mediaeval scholars worried that printing would dilute scholarship by making books too accessible. Today we worry that AI will diminish critical thinking. Each transition sparked legitimate concerns, but each also enabled new forms of intellectual work that weren't possible before.
 
-Oral tradition allowed ideas to persist beyond individual memory, but required sophisticated mnemonic techniques we've now lost. Medieval scholars worried that printing would dilute scholarship by making books too accessible. Today we worry that AI will diminish critical thinking. Each transition sparked legitimate concerns, but each also enabled new forms of intellectual work that weren't possible before.
-
-</details>
-
-**Knowledge check:** What's the key difference between AI and previous language technologies like writing or printing?
-
-<details> <summary><strong>Show answer</strong></summary>
-
-Real-time conversational adaptation. Unlike static text, AI responds to your specific context and adjusts based on your questions, creating a dynamic rather than fixed extension of thinking.
-
-</details>
+> [!question] Knowledge check
+> What's the key difference between AI and previous language technologies like writing or printing?
+>
+> <details><summary><strong>Show answer</strong></summary>
+>
+> Real-time conversational adaptation. Unlike static text, AI responds to your specific context and adjusts based on your questions, creating a dynamic rather than fixed extension of thinking.
+>
+> </details>
 
 **Progress:** Section 5 of 10
 
@@ -162,57 +161,56 @@ A better metaphor is AI as collaborative thinking partner. Not equal partnership
 
 One of the most valuable aspects of human-AI collaboration is that you and AI make different kinds of mistakes. Recognising this transforms how you work together.
 
-**Interactive assessment:** Select the errors you commonly make in your academic work:
+> [!question] Interactive assessment
+> Select the errors you commonly make in your academic work:
 
-<details> <summary><strong>Overlooking relevant literature outside my immediate field</strong></summary>
+> [!example]- Overlooking relevant literature outside my immediate field
+>
+> **How AI helps:** Ask AI to suggest connections between your work and adjacent fields. For example: "I'm researching X in education. What parallel work exists in organisational psychology or cognitive science that might inform my approach?"
+>
+> **Why this works:** AI's breadth across domains helps surface connections you might not encounter through standard database searches.
+>
+> **What you still need:** Evaluating whether suggested connections are genuinely relevant or superficial analogies.
 
-**How AI helps:** Ask AI to suggest connections between your work and adjacent fields. For example: "I'm researching X in education. What parallel work exists in organisational psychology or cognitive science that might inform my approach?"
+> [!example]- Getting stuck in familiar thinking patterns
+>
+> **How AI helps:** Explicitly ask AI to challenge your assumptions. For example: "I'm approaching this problem by assuming X. What alternative frameworks might I be overlooking?"
+>
+> **Why this works:** AI can generate alternative perspectives without the social awkwardness of challenging your own thinking.
+>
+> **What you still need:** Scholarly judgement about which alternative perspectives have merit in your specific context.
 
-**Why this works:** AI's breadth across domains helps surface connections you might not encounter through standard database searches.
+> [!example]- Missing logical inconsistencies in complex arguments
+>
+> **How AI helps:** Present your argument structure to AI and ask: "What assumptions am I making here? Where might this logic break down?"
+>
+> **Why this works:** AI can track multiple premises and spot gaps in reasoning that you might miss when deeply immersed.
+>
+> **What you still need:** Evaluating whether identified gaps are genuine problems or acceptable limitations.
 
-**What you still need:** Evaluating whether suggested connections are genuinely relevant or superficial analogies.
-
-</details> <details> <summary><strong>Getting stuck in familiar thinking patterns</strong></summary>
-
-**How AI helps:** Explicitly ask AI to challenge your assumptions. For example: "I'm approaching this problem by assuming X. What alternative frameworks might I be overlooking?"
-
-**Why this works:** AI can generate alternative perspectives without the social awkwardness of challenging your own thinking.
-
-**What you still need:** Scholarly judgement about which alternative perspectives have merit in your specific context.
-
-</details> <details> <summary><strong>Missing logical inconsistencies in complex arguments</strong></summary>
-
-**How AI helps:** Present your argument structure to AI and ask: "What assumptions am I making here? Where might this logic break down?"
-
-**Why this works:** AI can track multiple premises and spot gaps in reasoning that you might miss when deeply immersed.
-
-**What you still need:** Evaluating whether identified gaps are genuine problems or acceptable limitations.
-
-</details> <details> <summary><strong>Losing track of details in extended reasoning</strong></summary>
-
-**How AI helps:** Use AI to summarise and structure complex information, asking it to track threads through long documents or conversations.
-
-**Why this works:** AI doesn't experience cognitive fatigue and can maintain attention across extended texts.
-
-**What you still need:** Verifying that AI hasn't introduced errors or missed crucial nuances in the summarisation.
-
-</details>
+> [!example]- Losing track of details in extended reasoning
+>
+> **How AI helps:** Use AI to summarise and structure complex information, asking it to track threads through long documents or conversations.
+>
+> **Why this works:** AI doesn't experience cognitive fatigue and can maintain attention across extended texts.
+>
+> **What you still need:** Verifying that AI hasn't introduced errors or missed crucial nuances in the summarisation.
 
 **Now recognise what AI gets wrong:**
 
 AI makes different errors than humans—it generates plausible but incorrect information (hallucinations), misses disciplinary nuance and conventions, produces generic outputs lacking scholarly sophistication, and fails to recognise when simplification distorts meaning.
 
-**The collaboration principle:** Productive engagement means you catch what AI misses while AI catches what you overlook. Neither participant is infallible, but together you reduce the error rate of working alone.
+**The collaboration principle:** Productive engagement means you catch what AI misses whilst AI catches what you overlook. Neither participant is infallible, but together you reduce the error rate of working alone.
 
 **Progress:** Section 7 of 10
 
 ---
 
-## Scaffolded practice: From observation to independence
+## Scaffolded practice: from observation to independence
 
 Let's work through how collaboration actually functions using a real example from your work.
 
-### Step 1: Observe an expert collaboration (Modelling)
+### Step 1: observe an expert collaboration (modelling)
 
 Here's how an experienced academic might collaborate with AI on improving a conference abstract:
 
@@ -224,49 +222,46 @@ Here's how an experienced academic might collaborate with AI on improving a conf
 
 **Notice:** The academic doesn't ask AI to rewrite the abstract. They use conversation to clarify their own thinking about what's missing, then do the rewriting themselves.
 
-### Step 2: Your turn to complete the final step (Fading)
+### Step 2: your turn to complete the final step (fading)
 
 You're preparing a research proposal and want to strengthen your literature review section. You've identified relevant sources but the section feels like a list rather than a narrative.
 
 **Starter prompt (already written for you):** "I'm writing a literature review on [your topic]. I've identified key sources but the section reads like a catalogue rather than building an argument. Here's what I have: [paste 200 words]. What structural approach might create a stronger narrative?"
 
-**Now you complete:** After reading AI's response, what follow-up question would you ask to clarify the most useful suggestion? Write it below.
+> [!question] Now you complete
+> After reading AI's response, what follow-up question would you ask to clarify the most useful suggestion? Write it below.
 
-[Text input box]
+### Step 3: independent application
 
-### Step 3: Independent application
-
-Think of something you're currently writing or revising. What specific challenge are you facing with it? Draft a conversational prompt you'd use with AI to think through this challenge. Remember: you're not asking AI to do the work, but to help you think more clearly about it.
-
-[Text input box]
+> [!question] Think and draft
+> Think of something you're currently writing or revising. What specific challenge are you facing with it? Draft a conversational prompt you'd use with AI to think through this challenge. Remember: you're not asking AI to do the work, but to help you think more clearly about it.
 
 **Progress:** Section 8 of 10
 
 ---
 
-## Deeper practice: Explore collaboration with your work
+## Deeper practice: explore collaboration with your work
 
-**Time required:** 10 minutes
-
-Choose a current challenge in your academic work—something you're genuinely stuck on or uncertain about. This might be:
-
-- A section of writing that isn't working
-- A methodological decision you're weighing
-- A concept you're trying to explain to students
-- A research direction you're uncertain about
-
-**Task:** Spend 10 minutes conversing with AI about this challenge. Important: You're not seeking AI to solve it, but using conversation to think more clearly about it.
-
-As you converse, notice:
-
-- When does conversation help clarify your thinking?
-- When does AI's response feel unhelpful or generic?
-- What follow-up questions make the exchange more valuable?
-- How does talking through the problem change your understanding of it?
-
-**Reflection:** What became clearer through this conversation? What would you do differently next time?
-
-[Text input box]
+> [!todo]- Activity: 10-minute exploration
+> **Time required:** 10 minutes
+>
+> Choose a current challenge in your academic work—something you're genuinely stuck on or uncertain about. This might be:
+>
+> - A section of writing that isn't working
+> - A methodological decision you're weighing
+> - A concept you're trying to explain to students
+> - A research direction you're uncertain about
+>
+> **Task:** Spend 10 minutes conversing with AI about this challenge. Important: You're not seeking AI to solve it, but using conversation to think more clearly about it.
+>
+> As you converse, notice:
+>
+> - When does conversation help clarify your thinking?
+> - When does AI's response feel unhelpful or generic?
+> - What follow-up questions make the exchange more valuable?
+> - How does talking through the problem change your understanding of it?
+>
+> **Reflection:** What became clearer through this conversation? What would you do differently next time?
 
 **Progress:** Section 9 of 10
 
@@ -274,29 +269,20 @@ As you converse, notice:
 
 ## Key takeaways
 
-### AI as cognitive extension
+**AI as cognitive extension:** AI is language-based cognitive extension, not software you operate. This is the latest development in a long evolutionary history of humans using language technologies to extend thinking. You're not learning to operate a tool—you're developing fluency in a new form of language-based collaboration.
 
-AI is language-based cognitive extension, not software you operate. This is the latest development in a long evolutionary history of humans using language technologies to extend thinking. You're not learning to operate a tool—you're developing fluency in a new form of language-based collaboration.
+**Shared responsibility for quality:** Collaboration requires shared responsibility for quality. You and AI make different kinds of errors. Productive engagement means you catch what AI misses (hallucinations, lack of nuance, generic outputs) whilst AI catches errors you might overlook (missing perspectives, logical inconsistencies, overlooked connections). Neither participant is infallible, but together you reduce the error rate of working alone.
 
-### Shared responsibility for quality
+**Conversation over commands:** When facing complex challenges, extended conversational engagement produces better outcomes than single transactional queries. Provide context, ask follow-up questions, treat initial responses as starting points rather than final outputs. This conversational fluency develops through practice—each interaction teaches you what works for your specific needs.
 
-Collaboration requires shared responsibility for quality. You and AI make different kinds of errors. Productive engagement means you catch what AI misses (hallucinations, lack of nuance, generic outputs) while AI catches errors you might overlook (missing perspectives, logical inconsistencies, overlooked connections). Neither participant is infallible, but together you reduce the error rate of working alone.
-
-### Conversation over commands
-
-When facing complex challenges, extended conversational engagement produces better outcomes than single transactional queries. Provide context, ask follow-up questions, treat initial responses as starting points rather than final outputs. This conversational fluency develops through practice—each interaction teaches you what works for your specific needs.
-
-### Appropriate expectations
-
-AI excels at breadth across domains, pattern recognition, generating variations, and conversational exploration. It struggles with disciplinary expertise, original insight, accurate factual recall, and understanding your specific context without being told. Use AI to enhance your scholarly practice, not replace it. The goal is augmented intelligence—your expertise extended through AI capabilities.
+**Appropriate expectations:** AI excels at breadth across domains, pattern recognition, generating variations, and conversational exploration. It struggles with disciplinary expertise, original insight, accurate factual recall, and understanding your specific context without being told. Use AI to enhance your scholarly practice, not replace it. The goal is augmented intelligence—your expertise extended through AI capabilities.
 
 ---
 
 ## Your commitment
 
-Based on this lesson, what's one specific way you'll engage with AI differently this week?
-
-[Text input box]
+> [!question] Reflection
+> Based on this lesson, what's one specific way you'll engage with AI differently this week?
 
 ---
 
@@ -310,19 +296,11 @@ In the next lesson, we'll use this foundational understanding to develop structu
 
 ## Resources
 
-### Understanding AI
-
 - Bommasani, R., et al. (2021). On the opportunities and risks of foundation models. arXiv.
 - Bender, E., et al. (2021). On the dangers of stochastic parrots: Can language models be too big? FAccT '21.
 - Mollick, E. (2024). Co-intelligence: Living and working with AI. Portfolio.
-
-### Language as cognitive extension
-
 - Clark, A. (2008). Supersizing the mind: Embodiment, action, and cognitive extension. Oxford University Press.
 - Ong, W. (2002). Orality and literacy: The technologising of the word. Routledge.
-
-### AI for academics
-
 - Mollick, E. & Mollick, L. (2023). Practical AI for instructors and students. YouTube series.
 - UNESCO. (2023). Guidance for generative AI in education and research. UNESCO.
 

@@ -1,4 +1,9 @@
-# Lesson 6: Building competence through reading
+---
+title: Building competence through reading
+lesson_number: adaptation-1
+---
+
+# Building competence through reading
 
 ## Lesson overview
 
@@ -14,7 +19,8 @@
 
 ## The illusion of understanding
 
-**Quick test:** What is grounded theory methodology?
+> [!question]
+> What is grounded theory methodology?
 
 [Text input box]
 
@@ -53,7 +59,8 @@ Dr. Williams needs the same understanding. She spends 60 minutes in structured d
 
 She has competence, not just familiarity.
 
-**Before we begin:** Think of a methodology or framework you've read about but couldn't confidently use. What's the difference between recognizing it and being able to deploy it?
+> [!question]
+> Think of a methodology or framework you've read about but couldn't confidently use. What's the difference between recognizing it and being able to deploy it?
 
 [Text input box]
 
@@ -106,7 +113,8 @@ This lesson develops adaptation-level capabilities that substitution doesn't add
 
 </details>
 
-**Quick reflection:** What's one methodology or framework critical to your research where you need competence, not just familiarity?
+> [!question]
+> What's one methodology or framework critical to your research where you need competence, not just familiarity?
 
 [Text input box]
 
@@ -182,9 +190,9 @@ We'll focus on stages 1-3 in this lesson. Stage 4 becomes important when you're 
 
 Start with the simplest explanation that captures core concepts without nuance.
 
-### Faded practice: From observation to independence
+### [!todo]- Faded practice: From observation to independence
 
-**Stage 1 - Observe expert application**
+### [!todo]- Stage 1: Observe expert application
 
 Here's how an experienced researcher builds foundation understanding:
 
@@ -208,7 +216,7 @@ Testing immediately reveals gaps before you build on shaky foundations. If you d
 
 </details>
 
-**Stage 2 - Guided practice**
+### [!todo]- Stage 2: Guided practice
 
 Choose a methodology, theoretical framework, or analytical approach relevant to your research but unfamiliar. Choose something you genuinely need to understand.
 
@@ -237,7 +245,7 @@ Choose a methodology, theoretical framework, or analytical approach relevant to 
 - [ ] I understand what problem this solves
 - [ ] I'm not just repeating AI's exact words
 
-**Stage 3 - Independent application**
+### [!todo]- Stage 3: Independent application
 
 You now know the pattern: prompt for explanation → immediately test understanding → identify gaps → clarify before progressing.
 
@@ -253,7 +261,7 @@ You'll apply this pattern to the next complexity stages.
 
 Add context: why this approach matters, how it differs from alternatives, when it's appropriate.
 
-### The approach
+### **The approach**
 
 **Prompt structure:**
 
@@ -263,7 +271,7 @@ Add context: why this approach matters, how it differs from alternatives, when i
 
 This conversational engagement is creation/communication—actively constructing understanding through dialogue, not passively receiving information.
 
-### Quick practice
+### [!todo]- Quick practice
 
 Continue with your chosen concept from Stage 1.
 
@@ -321,7 +329,7 @@ Can you describe what you would actually do if using this? Can you anticipate ch
 
 </details>
 
-### Quick practice
+### [!todo]- Quick practice
 
 **Your procedural prompt:**
 
@@ -421,7 +429,7 @@ Choose ONE test that best assesses competence for your concept:
 
 Let's see what genuine competence enables versus what superficial familiarity produces.
 
-### The scenario
+### **The scenario**
 
 You've spent 30 minutes learning about grounded theory through staged complexity. A colleague asks: "Should I use grounded theory for my study on teacher burnout? I want to understand what factors contribute to burnout in secondary schools."
 
@@ -459,9 +467,8 @@ You've spent 30 minutes learning about grounded theory through staged complexity
 
 </details>
 
-**Reflection:** What's the difference between these responses? What does genuine competence enable that familiarity doesn't?
-
-[Text input box]
+> [!question]
+> What's the difference between these responses? What does genuine competence enable that familiarity doesn't?[Text input box]
 
 **Decision principle:** Invest 60 minutes building competence when you need to use, explain, or evaluate concepts. Use 5-minute extraction when recognition suffices.
 
@@ -613,19 +620,19 @@ What did you learn about your learning process itself?
 
 ### Competence requires active construction through testing
 
-Information consumption differs fundamentally from competence building. Consumption is passive—you read sophisticated explanations, take notes, move on. You recognize concepts but can't use them. Competence is active—you engage through staged complexity, test understanding at each level, work through confusion until concepts become deployable tools. Building competence requires deliberate progression: accessible foundation first, then contextual understanding, then procedural detail. Test through explanation, application, comparison. This systematic approach builds genuine competence rather than superficial familiarity.
+**Information consumption differs fundamentally from competence building.** Consumption is passive—you read sophisticated explanations, take notes, move on. You recognize concepts but can't use them. Competence is active—you engage through staged complexity, test understanding at each level, work through confusion until concepts become deployable tools. Building competence requires deliberate progression: accessible foundation first, then contextual understanding, then procedural detail. Test through explanation, application, comparison. This systematic approach builds genuine competence rather than superficial familiarity.
 
 ### Immediate testing prevents illusion of understanding
 
-Reading sophisticated explanations creates the illusion of understanding—it feels like learning but produces no usable knowledge. You recognize terms but can't apply concepts. Testing reveals the difference between recognition and genuine understanding. Test immediately after each complexity stage before progressing. If you can't explain it, apply it, or distinguish it from alternatives, you haven't learned it yet—you've just read about it. This metacognitive awareness—knowing what you actually understand versus what you merely recognize—develops through systematic testing.
+**Reading sophisticated explanations creates the illusion of understanding**—it feels like learning but produces no usable knowledge. You recognize terms but can't apply concepts. Testing reveals the difference between recognition and genuine understanding. Test immediately after each complexity stage before progressing. If you can't explain it, apply it, or distinguish it from alternatives, you haven't learned it yet—you've just read about it. This metacognitive awareness—knowing what you actually understand versus what you merely recognize—develops through systematic testing.
 
 ### Progressive staging builds on solid foundations
 
-Jumping straight to sophisticated explanations creates detailed familiarity without competence—you recognize terminology but can't deploy concepts. Stage complexity deliberately instead: get the basic idea first (5-10 min), understand when to use it (10-15 min), know how to do it (15-20 min). Test understanding at each stage before progressing. Building on shaky foundations produces superficial knowledge. This discipline of staged progression with testing is what produces actual learning, not time invested reading.
+**Jumping straight to sophisticated explanations creates detailed familiarity** without competence—you recognize terminology but can't deploy concepts. Stage complexity deliberately instead: get the basic idea first (5-10 min), understand when to use it (10-15 min), know how to do it (15-20 min). Test understanding at each stage before progressing. Building on shaky foundations produces superficial knowledge. This discipline of staged progression with testing is what produces actual learning, not time invested reading.
 
 ### Co-evolutionary learning tailors to your context
 
-Generic explanations produce generic understanding. Co-evolutionary learning—where you provide research context and AI adapts explanations to your situation—produces understanding connected to your work. You explain your research context, AI tailors examples to your field, you ask questions specific to your situation, AI refines explanations based on your needs. This iterative, contextual approach builds understanding you can actually use, not just abstract knowledge. This is adaptation-level literacy: reshaping learning practice around AI's capability to support sustained, contextual learning dialogue.
+**Generic explanations produce generic understanding. Co-evolutionary learning—where you provide research context and AI adapts explanations to your situation—produces understanding connected to your work. You explain your research context, AI tailors examples to your field, you ask questions specific to your situation, AI refines explanations based on your needs. This iterative, contextual approach builds understanding you can actually use, not just abstract knowledge. This is adaptation-level literacy: reshaping learning practice around AI's capability to support sustained, contextual learning dialogue.**
 
 ---
 

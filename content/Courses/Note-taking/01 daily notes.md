@@ -1,4 +1,8 @@
-# Lesson 1: Daily notes
+---
+title: "Daily notes"
+---
+
+# Daily notes
 
 > My notes now stop me from having to go backwards whenever I pick up something again… Ideas stay intact and usable, concepts don't need to be reworded each time, experiments can be incremental, projects can stand still for a while but can restart immediately when I return to them. That's valuable return on the time spent making those notes. - Ton Zijlstra (2022)
 
@@ -109,68 +113,60 @@ Daily notes become significantly more powerful when combined with weekly reviews
 
 ## Pause and reflect
 
-Daily notes can be deceptively simple in concept but challenging in practice. You might find yourself forgetting to open your daily note in the morning, or slipping back into old habits. This is normal. Building any new habit requires time and consistency.
-
-There's also a tendency to track everything that can be tracked. Some elaborate templates encourage recording weather, step count, calorie intake, gratitude lists, yearly goals, and more. While these additions might work for some people, they risk transforming your daily note from a practical working tool into a burden.
-
-**The emphasis of daily notes should be on getting things done and creating head space for your most important work.** Any element that doesn't serve these purposes is optional at best. Start minimal and add complexity only when you've identified a genuine need.
-
-Remember that daily notes are meant to reduce stress, not create it. If you miss a day, simply start fresh the next day. If your note becomes messy during a chaotic day, that's fine – it served its purpose of capturing information in the moment.
+> [!question] Reflection: managing daily note practice
+> Daily notes can be deceptively simple in concept but challenging in practice. You might find yourself forgetting to open your daily note in the morning, or slipping back into old habits. This is normal. Building any new habit requires time and consistency.
+>
+> There's also a tendency to track everything that can be tracked. Some elaborate templates encourage recording weather, step count, calorie intake, gratitude lists, yearly goals, and more. While these additions might work for some people, they risk transforming your daily note from a practical working tool into a burden.
+>
+> **The emphasis of daily notes should be on getting things done and creating head space for your most important work.** Any element that doesn't serve these purposes is optional at best. Start minimal and add complexity only when you've identified a genuine need.
+>
+> Remember that daily notes are meant to reduce stress, not create it. If you miss a day, simply start fresh the next day. If your note becomes messy during a chaotic day, that's fine – it served its purpose of capturing information in the moment.
 
 ## Activity
 
-This activity helps you establish a sustainable daily notes practice over four weeks:
+> [!todo]- Week 1: Establish the basic habit
+> Download the daily note template and save it somewhere easily accessible. Each morning, create a new daily note. Focus on:
+>
+> - Writing down your tasks for the day
+> - Noting your key time blocks
+> - Capturing information that would otherwise live in your head
+>
+> End each day with a two-minute review: which tasks got completed? What's moving to tomorrow?
 
-**Week 1: Establish the basic habit**
+> [!todo]- Week 2: Refine based on use
+> Review last week's daily notes and adjust your template:
+>
+> - Remove sections you didn't use
+> - Add categories you found yourself creating
+> - Adjust structure to match how you actually worked
 
-Download the daily note template and save it somewhere easily accessible. Each morning, create a new daily note. Focus on:
+> [!todo]- Week 3: Expand your practice
+> Integrate meeting notes and thought capture:
+>
+> - Take all meeting notes in daily notes
+> - Capture fleeting thoughts throughout the day
+> - Keep your daily note accessible for quick captures
 
-- Writing down your tasks for the day
-- Noting your key time blocks
-- Capturing information that would otherwise live in your head
-
-End each day with a two-minute review: which tasks got completed? What's moving to tomorrow?
-
-**Week 2: Refine based on use**
-
-Review last week's daily notes and adjust your template:
-
-- Remove sections you didn't use
-- Add categories you found yourself creating
-- Adjust structure to match how you actually worked
-
-**Week 3: Expand your practice**
-
-Integrate meeting notes and thought capture:
-
-- Take all meeting notes in daily notes
-- Capture fleeting thoughts throughout the day
-- Keep your daily note accessible for quick captures
-
-**Week 4: Connect to weekly planning**
-
-Review all daily notes from the past four weeks. Look for:
-
-- Tasks that kept appearing but never got completed
-- Patterns in how you spent time versus how you planned to
-- Insights that deserve moving into permanent notes
-
-This demonstrates the value of daily notes beyond the immediate day.
+> [!todo]- Week 4: Connect to weekly planning
+> Review all daily notes from the past four weeks. Look for:
+>
+> - Tasks that kept appearing but never got completed
+> - Patterns in how you spent time versus how you planned to
+> - Insights that deserve moving into permanent notes
+>
+> This demonstrates the value of daily notes beyond the immediate day.
 
 Download the template
 
 ## Key takeaways
 
-**Daily notes reduce cognitive load by externalising working memory.** Rather than trying to hold everything in your head – your tasks, your commitments, your fleeting thoughts – daily notes provide a reliable external system. This frees up mental capacity for the actual thinking work that matters most in academic life. The simple act of writing something down provides psychological closure, allowing you to focus fully on whatever you're working on in the moment.
+- **Reduce cognitive load by externalising working memory:** Rather than trying to hold everything in your head – your tasks, your commitments, your fleeting thoughts – daily notes provide a reliable external system. This frees up mental capacity for the actual thinking work that matters most in academic life. The simple act of writing something down provides psychological closure, allowing you to focus fully on whatever you're working on in the moment.
 
-**A consistent daily note system creates a foundation for weekly planning.** When you review your daily notes during your weekly review, you're not trying to remember what you did or reconstruct conversations from fragments. Everything is captured in temporal context, making it easy to reflect on progress, identify patterns, and plan effectively for the coming week. This creates a feedback loop where your daily practice directly supports your strategic thinking.
+- **Create a foundation for weekly planning:** When you review your daily notes during your weekly review, you're not trying to remember what you did or reconstruct conversations from fragments. Everything is captured in temporal context, making it easy to reflect on progress, identify patterns, and plan effectively for the coming week. This creates a feedback loop where your daily practice directly supports your strategic thinking.
 
-**Start simple and let practice inform your system.** The most elaborate daily note template in the world is useless if you don't actually use it. Begin with the basics – tasks, time blocks, and a space for notes – and only add complexity as you discover genuine needs through practice. The goal is a sustainable habit that reduces stress and increases effectiveness, not a perfect system that requires significant overhead to maintain.
+- **Start simple and let practice inform your system:** The most elaborate daily note template in the world is useless if you don't actually use it. Begin with the basics – tasks, time blocks, and a space for notes – and only add complexity as you discover genuine needs through practice. The goal is a sustainable habit that reduces stress and increases effectiveness, not a perfect system that requires significant overhead to maintain.
 
 ## Resources
 
-Ahrens, S. (2017). [How to take smart notes: One simple technique to boost writing, learning and thinking](https://amzn.to/3xeFgdW). Sönke Ahrens.
-
-Drucker, P. (2006). [The effective executive: The definitive guide to getting the right things done](https://amzn.to/3Y3YeQk). Harper Business.
-
-Do you have any experiences or insights that you'd like to share with others? What habits and routines have you implemented in your own practice that have helped in this area? Do you have any questions about your specific context that are not addressed in this lesson? Please leave a comment for other participants in the field below.
+- Ahrens, S. (2017). [How to take smart notes: One simple technique to boost writing, learning and thinking](https://amzn.to/3xeFgdW). Sönke Ahrens.
+- Drucker, P. (2006). [The effective executive: The definitive guide to getting the right things done](https://amzn.to/3Y3YeQk). Harper Business.

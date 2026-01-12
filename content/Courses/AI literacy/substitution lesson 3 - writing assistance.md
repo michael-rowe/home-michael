@@ -1,4 +1,9 @@
-# Lesson 5: Writing assistance
+---
+title: "Writing assistance"
+lesson_number: substitution-3
+---
+
+# Writing assistance
 
 ## Lesson overview
 
@@ -27,9 +32,8 @@ Dr. Elena Martinez has a similar email to write. She spends 3 minutes creating a
 
 She sends it confidently. Total time: 10 minutes. Says exactly what she wanted.
 
-**Before we begin:** Think about your last difficult writing task. What made it challenging? Where did you get stuck?
-
-[Text input box]
+> [!question] Before we begin
+> Think about your last difficult writing task. What made it challenging? Where did you get stuck?
 
 **Progress:** Section 2 of 12
 
@@ -45,19 +49,16 @@ Your distinctive voice comes not from what AI generates but from what you choose
 
 **This lesson completes the substitution stage.** You'll use AI for bounded writing tasks—drafting support, clarity improvements, alternative phrasings—whilst maintaining the voice that makes your writing yours. This is instrumental efficiency: getting unstuck faster, revising more efficiently, whilst preserving what matters most.
 
-<details> <summary><strong>What comes after substitution (click to expand)</strong></summary>
+> [!example]- What comes after substitution
+>
+> You've now completed five lessons developing substitution-level literacy: recognising when AI is relevant, communicating effectively, applying across domains (content creation, reading, writing), and critically evaluating whether it serves your goals.
+>
+> The next stage is **adaptation**—where your practice begins reshaping around AI capabilities. You'll learn to use AI not just for bounded tasks but for developing competence in new areas, approaching problems differently, and enabling work that wasn't previously possible.
+>
+> Adaptation requires the functional competence and critical evaluation skills you've built through substitution. Literacy develops through stages, not leaps.
 
-You've now completed five lessons developing substitution-level literacy: recognising when AI is relevant, communicating effectively, applying across domains (content creation, reading, writing), and critically evaluating whether it serves your goals.
-
-The next stage is **adaptation**—where your practice begins reshaping around AI capabilities. You'll learn to use AI not just for bounded tasks but for developing competence in new areas, approaching problems differently, and enabling work that wasn't previously possible.
-
-Adaptation requires the functional competence and critical evaluation skills you've built through substitution. Literacy develops through stages, not leaps.
-
-</details>
-
-**Quick reflection:** What makes your writing recognisably yours—word choices, sentence rhythm, how you explain ideas?
-
-[Text input box]
+> [!question] Quick reflection
+> What makes your writing recognisably yours—word choices, sentence rhythm, how you explain ideas?
 
 **Progress:** Section 3 of 12
 
@@ -71,25 +72,18 @@ Before using AI for writing assistance, you need to calibrate—understanding wh
 
 Find a paragraph from something you've written recently that sounds distinctively like you—an email, paper section, anything where you think "yes, that's my writing."
 
-**Paste your paragraph here:**
-
-[Text input box]
-
-**Now ask AI to "improve clarity" of that paragraph.**
-
-**Compare the two versions:**
-
-**What changed that you'd keep? (genuine improvements)**
-
-[Text input box]
-
-**What changed that loses your voice? (generic AI patterns)**
-
-[Text input box]
-
-**Which specific phrases feel like "you" vs "generic academic"?**
-
-[Text input box]
+> [!todo]- Voice calibration exercise
+> **Paste your paragraph here:**
+>
+> **Now ask AI to "improve clarity" of that paragraph.**
+>
+> **Compare the two versions:**
+>
+> **What changed that you'd keep? (genuine improvements)**
+>
+> **What changed that loses your voice? (generic AI patterns)**
+>
+> **Which specific phrases feel like "you" vs "generic academic"?**
 
 **Calibration insight:** This exercise shows you what AI does to your voice. Notice patterns: Does AI make you more formal? Remove specific examples? Add formulaic phrases? This awareness is essential for critical evaluation when using AI for new writing.
 
@@ -126,32 +120,27 @@ Original AI: "I would be grateful if we could identify a mutually convenient tim
 - Kept: Email structure, professional framework
 - Changed: Every sentence to match voice, added specific details, removed formulaic phrases
 
-**Self-explanation:** Why did the revision change "unforeseen circumstances" to "journal wants final revisions by Friday"?
+> [!question] Self-explanation
+> Why did the revision change "unforeseen circumstances" to "journal wants final revisions by Friday"?
 
-[Text input box for reasoning]
-
-<details> <summary><strong>Show answer</strong></summary>
-
-Specificity replaces vagueness. "Unforeseen circumstances" is generic AI phrasing that could mean anything. The specific deadline shows respect by explaining the actual situation. Your voice emerges from being direct and specific rather than vaguely formal.
-
-</details>
+> [!example]- Show answer
+>
+> Specificity replaces vagueness. "Unforeseen circumstances" is generic AI phrasing that could mean anything. The specific deadline shows respect by explaining the actual situation. Your voice emerges from being direct and specific rather than vaguely formal.
 
 **Stage 2: Apply to your work**
 
 Think of a routine email or paragraph you need to write. Create a structured prompt that gives AI enough context to draft something useful.
 
-**Your prompt (be specific about tone, audience, key points):**
-
-[Text input box]
-
-**After AI responds, revise systematically:**
-
-**Pass 1 - Structure:** What organizational elements work? (Keep these) **Pass 2 - Voice:** Which sentences sound like you? (Keep), which don't? (Rewrite)  
-**Pass 3 - Specifics:** Where can you replace generic phrasing with specific examples?
-
-**Your revised version:**
-
-[Text input box]
+> [!todo]- Your prompt
+> **Your prompt (be specific about tone, audience, key points):**
+>
+> **After AI responds, revise systematically:**
+>
+> **Pass 1 - Structure:** What organizational elements work? (Keep these)
+> **Pass 2 - Voice:** Which sentences sound like you? (Keep), which don't? (Rewrite)
+> **Pass 3 - Specifics:** Where can you replace generic phrasing with specific examples?
+>
+> **Your revised version:**
 
 **Self-check:**
 
@@ -200,27 +189,24 @@ Once you have draft text, AI can identify unclear passages. You then critically 
 
 Take a paragraph from something you're currently writing—something you're not quite happy with.
 
-**Your original paragraph:**
-
-[Text input box]
-
-**Ask AI to review for clarity, then evaluate each suggestion:**
-
-**AI suggestion 1:**
-
-- What AI suggested: [___]
-- Your evaluation: Improves clarity / Loses nuance / Wrong tone
-- Decision: Keep / Reject / Modify
-
-**AI suggestion 2:**
-
-- What AI suggested: [___]
-- Your evaluation: Improves clarity / Loses nuance / Wrong tone
-- Decision: Keep / Reject / Modify
-
-**Your final revised paragraph (after critical evaluation):**
-
-[Text input box]
+> [!todo]- Clarity improvement practice
+> **Your original paragraph:**
+>
+> **Ask AI to review for clarity, then evaluate each suggestion:**
+>
+> **AI suggestion 1:**
+>
+> - What AI suggested: [___]
+> - Your evaluation: Improves clarity / Loses nuance / Wrong tone
+> - Decision: Keep / Reject / Modify
+>
+> **AI suggestion 2:**
+>
+> - What AI suggested: [___]
+> - Your evaluation: Improves clarity / Loses nuance / Wrong tone
+> - Decision: Keep / Reject / Modify
+>
+> **Your final revised paragraph (after critical evaluation):**
 
 **Self-check:**
 
@@ -243,53 +229,48 @@ Take a paragraph from something you're currently writing—something you're not 
 
 When you've used the same phrase repeatedly or can't find the right wording, AI generates alternatives you select from critically.
 
-<details> <summary><strong>The alternative phrasing workflow (click to expand and learn)</strong></summary>
-
-### Prompt structure
-
-"I keep using the phrase '[your repeated phrase]' in this section. Suggest 5 alternative ways to express this idea, maintaining the same level of formality and precision."
-
-### Critical selection
-
-Review all options:
-
-- Which maintains your meaning exactly?
-- Which sounds like you?
-- Often, none work perfectly, but they help you think of your own better version
-
-### The value
-
-This is cognitive extension—AI expands your options, you make the scholarly judgement. The value isn't in AI's specific suggestions but in how they prompt your own thinking.
-
-</details>
+> [!example]- The alternative phrasing workflow
+>
+> ### Prompt structure
+>
+> "I keep using the phrase '[your repeated phrase]' in this section. Suggest 5 alternative ways to express this idea, maintaining the same level of formality and precision."
+>
+> ### Critical selection
+>
+> Review all options:
+>
+> - Which maintains your meaning exactly?
+> - Which sounds like you?
+> - Often, none work perfectly, but they help you think of your own better version
+>
+> ### The value
+>
+> This is cognitive extension—AI expands your options, you make the scholarly judgement. The value isn't in AI's specific suggestions but in how they prompt your own thinking.
 
 ### Quick practice
 
 Identify a phrase you've used repeatedly in something you're writing, or a phrase you're stuck on.
 
-**Your repeated phrase:** [___]
-
-**Ask AI for 5 alternatives. List them:**
-
-1. [___]
-2. [___]
-3. [___]
-4. [___]
-5. [___]
-
-**Evaluate each:**
-
-- Which (if any) maintains your exact meaning?
-- Which sound like something you'd write?
-- Do they spark your own better alternative?
-
-**Your final choice (yours or AI's):**
-
-[Text input box]
-
-**Reasoning for your choice:**
-
-[Text input box]
+> [!todo]- Alternative phrasing practice
+> **Your repeated phrase:** [___]
+>
+> **Ask AI for 5 alternatives. List them:**
+>
+> 1. [___]
+> 2. [___]
+> 3. [___]
+> 4. [___]
+> 5. [___]
+>
+> **Evaluate each:**
+>
+> - Which (if any) maintains your exact meaning?
+> - Which sound like something you'd write?
+> - Do they spark your own better alternative?
+>
+> **Your final choice (yours or AI's):**
+>
+> **Reasoning for your choice:**
 
 **✓ You can now use AI to expand your phrasing options while maintaining precision**
 
@@ -316,21 +297,19 @@ Read this paragraph and identify which phrases are generic AI patterns vs distin
 - [ ] "Moreover, these findings indicate..." → Generic / Distinctive
 - [ ] "substantial variation across different school contexts" → Generic / Distinctive
 
-<details> <summary><strong>Show answers</strong></summary>
-
-**Generic AI patterns (reject these):**
-
-- "It is important to note that..." (formulaic opening, says nothing)
-- "Furthermore, this analysis suggests..." (vague transition, no substance)
-- "Moreover, these findings indicate..." (generic connector)
-
-**Distinctive voice (preserve these):**
-
-- "My interviews with teachers showed three unexpected..." (specific ownership, concrete claim)
-- "substantial variation across different school contexts" (precise, specific)
-- "recent research has revealed" is borderline—generic phrasing but not empty
-
-</details>
+> [!example]- Show answers
+>
+> **Generic AI patterns (reject these):**
+>
+> - "It is important to note that..." (formulaic opening, says nothing)
+> - "Furthermore, this analysis suggests..." (vague transition, no substance)
+> - "Moreover, these findings indicate..." (generic connector)
+>
+> **Distinctive voice (preserve these):**
+>
+> - "My interviews with teachers showed three unexpected..." (specific ownership, concrete claim)
+> - "substantial variation across different school contexts" (precise, specific)
+> - "recent research has revealed" is borderline—generic phrasing but not empty
 
 ### Exercise 2: Revision challenge
 
@@ -338,9 +317,8 @@ Here's a paragraph written in generic AI style. Revise it to sound like academic
 
 "It is evident that the educational landscape has undergone significant transformation. Furthermore, it can be argued that these changes have had considerable impact on teaching practices. Moreover, recent studies suggest that educators have adapted their approaches accordingly. This development is particularly noteworthy in the context of contemporary pedagogical frameworks."
 
-**Your revision (same content, your voice):**
-
-[Text input box]
+> [!todo] Your revision
+> Revise the paragraph above (same content, your voice):
 
 **Compare to this example revision:**
 

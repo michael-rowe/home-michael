@@ -1,4 +1,9 @@
-# Lesson 3: Creating content efficiently
+---
+title: "Creating content efficiently"
+lesson_number: substitution-1
+---
+
+# Creating content efficiently
 
 ## Lesson overview
 
@@ -24,9 +29,8 @@ The following Monday, Elena tries something different. She opens Claude and spen
 
 By 10am—after 45 minutes total—she has a lesson plan that's just as good as last week's, and she's protected 2 hours for research writing.
 
-**Before we begin:** Think about a recent time you spent hours on routine content creation (lesson plans, slides, emails, documentation). What made it time-consuming? What parts required your unique expertise vs structural work?
-
-[Text input box]
+> [!question] Before we begin
+> Think about a recent time you spent hours on routine content creation (lesson plans, slides, emails, documentation). What made it time-consuming? What parts required your unique expertise vs structural work?
 
 **Progress:** Section 2 of 12
 
@@ -44,23 +48,20 @@ Academic work involves relentless content creation: lesson plans, presentation s
 
 **Your evaluation focus:** Is this usable? Did this actually save time including revision? Would I use this approach again? At the substitution level, evaluation is straightforward—it worked (saved time, maintained quality) or it didn't. Both outcomes teach you about meaningful AI engagement in your specific context.
 
-<details> <summary><strong>Understanding where this lesson fits in the course (click to expand)</strong></summary>
+> [!example]- Understanding where this lesson fits in the course
+>
+> This course follows a three-stage progression from novice application through adaptive practice to transformative capability:
+>
+> **Stage 1: Substitution (this lesson)** - You're applying functional literacy to existing workflows. Same tasks, same process, less time. Evaluation is binary: does this work or not?
+>
+> **Stage 2: Adaptation (later lessons)** - Your practice begins reshaping around AI capabilities. You're not just doing tasks faster—you're doing different things because AI makes new approaches possible.
+>
+> **Stage 3: Transformation (much later)** - You're doing work that wasn't previously possible, pursuing different scholarly questions, engaging with scholarship in fundamentally new ways.
+>
+> We start with substitution because you need functional competence before attempting complex applications. You need to develop judgement about when AI helps and when it hinders through actual practice with bounded tasks.
 
-This course follows a three-stage progression from novice application through adaptive practice to transformative capability:
-
-**Stage 1: Substitution (this lesson)** - You're applying functional literacy to existing workflows. Same tasks, same process, less time. Evaluation is binary: does this work or not?
-
-**Stage 2: Adaptation (later lessons)** - Your practice begins reshaping around AI capabilities. You're not just doing tasks faster—you're doing different things because AI makes new approaches possible.
-
-**Stage 3: Transformation (much later)** - You're doing work that wasn't previously possible, pursuing different scholarly questions, engaging with scholarship in fundamentally new ways.
-
-We start with substitution because you need functional competence before attempting complex applications. You need to develop judgement about when AI helps and when it hinders through actual practice with bounded tasks.
-
-</details>
-
-**Quick reflection:** If AI saved you 2-3 hours per week on routine content creation, what would you do with that time? [Type one specific activity]
-
-[Text input box]
+> [!question] Quick reflection
+> If AI saved you 2-3 hours per week on routine content creation, what would you do with that time? [Type one specific activity]
 
 **Progress:** Section 3 of 12
 
@@ -94,15 +95,12 @@ Here's a complete RGID prompt for a lesson plan. Read through and notice how it 
 
 **[Discuss]** Background: These students completed an introductory research methods module last year but have limited practical experience with qualitative approaches. I prefer activities where students work with real data or scenarios rather than abstract discussions. After generating the structure, I'll want to discuss adapting activities for different learning styles and potentially adding a reflective component.
 
-**Self-explanation:** Why does specifying "second-year sociology students" rather than just "students" matter?
+> [!question] Self-explanation
+> Why does specifying "second-year sociology students" rather than just "students" matter?
 
-[Text input box for reasoning]
-
-<details> <summary><strong>Show answer</strong></summary>
-
-Specifying the level and discipline activates patterns relevant to that context—the sophistication level, disciplinary conventions, typical background knowledge, and common student challenges in sociology vs other fields. "Students" would produce generic content averaging across all contexts.
-
-</details>
+> [!example]- Show answer
+>
+> Specifying the level and discipline activates patterns relevant to that context—the sophistication level, disciplinary conventions, typical background knowledge, and common student challenges in sociology vs other fields. "Students" would produce generic content averaging across all contexts.
 
 **Stage 2: Complete the instruction component**
 
@@ -114,28 +112,28 @@ Dr. Patel needs a lesson plan for a statistics workshop. The Role and Goal are p
 
 **[Instruct]** Write 4-5 numbered items specifying what AI should include:
 
-[Text input box]
+> [!todo]- Your turn
+> [Write your 4-5 numbered items here]
 
-<details> <summary><strong>See example completion</strong></summary>
-
-**[Instruct]** Please include: (1) Timing breakdown showing a gradual progression from simple to complex, (2) Key concepts explained with everyday analogies before technical language, (3) Three scaffolded activities building from guided practice to independence, (4) Common misconceptions students have about regression and how to address them, (5) Visual aids or demonstrations that make abstract concepts concrete.
-
-</details>
+> [!example]- See example completion
+>
+> **[Instruct]** Please include: (1) Timing breakdown showing a gradual progression from simple to complex, (2) Key concepts explained with everyday analogies before technical language, (3) Three scaffolded activities building from guided practice to independence, (4) Common misconceptions students have about regression and how to address them, (5) Visual aids or demonstrations that make abstract concepts concrete.
 
 **Stage 3: Create your own complete prompt**
 
 Think of a lesson or seminar you need to prepare. Create a complete RGID prompt for it.
 
-[Text input box for complete prompt]
-
-**Self-check:**
-
-- [ ] Role specifies pedagogical approach or teaching context
-- [ ] Goal states student level, topic, and time frame
-- [ ] Instruct includes at least 4 specific deliverables
-- [ ] Discuss mentions student background or teaching constraints
-
-If you're missing elements, revise before continuing.
+> [!todo]- Your turn
+> [Create your complete RGID prompt here]
+>
+> **Self-check:**
+>
+> - [ ] Role specifies pedagogical approach or teaching context
+> - [ ] Goal states student level, topic, and time frame
+> - [ ] Instruct includes at least 4 specific deliverables
+> - [ ] Discuss mentions student background or teaching constraints
+>
+> If you're missing elements, revise before continuing.
 
 ### After AI generates the plan
 
@@ -166,42 +164,39 @@ If you're missing elements, revise before continuing.
 
 Whether for conferences, departmental meetings, or teaching, slide creation consumes significant time.
 
-<details> <summary><strong>The slide creation workflow (click to expand and learn)</strong></summary>
+> [!example]- The slide creation workflow
+>
+> ### Structure your prompt
+>
+> **[Role]** You are a presentation design expert familiar with academic contexts and effective visual communication.
+>
+> **[Goal]** Create slide content for a 20-minute conference presentation on [your research topic].
+>
+> **[Instruct]** Please provide: (1) Title slide with compelling framing of the research problem, (2) 3-4 main sections with key points as brief bullets (not full sentences), (3) Conclusion slide emphasizing implications and contributions, (4) Suggestions for visual elements for each slide (graphs, diagrams, images).
+>
+> **[Discuss]** My research focuses on [brief context]. Audience includes both specialists in my subfield and researchers from adjacent areas. After reviewing the structure, I'll need help refining technical explanations for accessibility without oversimplification.
+>
+> ### After generation
+>
+> **Critical evaluation:**
+>
+> - Are slides visual-focused rather than text-heavy?
+> - Does flow make sense for your actual presentation?
+> - Are technical concepts explained appropriately for audience?
+>
+> **Refine:** "Slide 3 has too much text. Reduce to 3 bullet points maximum that I can elaborate on verbally."
+>
+> **Add your voice:** Your specific data, your examples, your insights, your personality in speaker notes.
+>
+> **Typical time comparison:**
+>
+> - Manual slide creation (15-20 slides): 2-3 hours
+> - With AI assistance: 45-60 minutes
+>
+> **Literacy note:** Extraction-level engagement works well here because slides are bounded, structured outputs. But generic slides aren't usable—your critical evaluation determines whether you deploy them.
 
-### Structure your prompt
-
-**[Role]** You are a presentation design expert familiar with academic contexts and effective visual communication.
-
-**[Goal]** Create slide content for a 20-minute conference presentation on [your research topic].
-
-**[Instruct]** Please provide: (1) Title slide with compelling framing of the research problem, (2) 3-4 main sections with key points as brief bullets (not full sentences), (3) Conclusion slide emphasizing implications and contributions, (4) Suggestions for visual elements for each slide (graphs, diagrams, images).
-
-**[Discuss]** My research focuses on [brief context]. Audience includes both specialists in my subfield and researchers from adjacent areas. After reviewing the structure, I'll need help refining technical explanations for accessibility without oversimplification.
-
-### After generation
-
-**Critical evaluation:**
-
-- Are slides visual-focused rather than text-heavy?
-- Does flow make sense for your actual presentation?
-- Are technical concepts explained appropriately for audience?
-
-**Refine:** "Slide 3 has too much text. Reduce to 3 bullet points maximum that I can elaborate on verbally."
-
-**Add your voice:** Your specific data, your examples, your insights, your personality in speaker notes.
-
-**Typical time comparison:**
-
-- Manual slide creation (15-20 slides): 2-3 hours
-- With AI assistance: 45-60 minutes
-
-**Literacy note:** Extraction-level engagement works well here because slides are bounded, structured outputs. But generic slides aren't usable—your critical evaluation determines whether you deploy them.
-
-</details>
-
-**Quick practice:** Think of your next presentation. Write a Goal statement for the slide deck that specifies topic, time frame, and audience.
-
-[Text input box]
+> [!todo] Quick practice
+> Think of your next presentation. Write a Goal statement for the slide deck that specifies topic, time frame, and audience.
 
 **✓ You can now match engagement levels to different content types**
 
@@ -213,43 +208,40 @@ Whether for conferences, departmental meetings, or teaching, slide creation cons
 
 Quiz questions, exam prompts, discussion questions, assignment briefs—assessment creation is time-intensive and cognitively demanding.
 
-<details> <summary><strong>The assessment creation workflow (click to expand and learn)</strong></summary>
+> [!example]- The assessment creation workflow
+>
+> ### Structure your prompt
+>
+> **[Role]** You are an assessment design expert familiar with [your discipline] education and evidence-based assessment practices.
+>
+> **[Goal]** Generate 10 multiple-choice questions assessing understanding of [specific concept] at application level, not just recall.
+>
+> **[Instruct]** For each question: (1) Create a scenario or problem requiring application of the concept, (2) Provide one clearly correct answer, (3) Include three plausible distractors that reflect common misconceptions, (4) Avoid tricky wording—test understanding, not test-taking skills, (5) Briefly explain why the correct answer is correct.
+>
+> **[Discuss]** Students in this module struggle most with [common misconception]. After reviewing questions, I'll want to refine any that don't effectively address this challenge or that use overly technical language for this level.
+>
+> ### After generation
+>
+> **Critical evaluation (complementary errors from lesson 1):**
+>
+> - Do questions test what you want to assess?
+> - Are distractors plausible but clearly incorrect to someone who understands?
+> - Would these work with your actual students?
+> - Do they address common misconceptions you know about?
+>
+> **Adapt:** Add disciplinary context, adjust difficulty based on student knowledge, ensure alignment with your teaching.
+>
+> **Typical time comparison:**
+>
+> - Manual creation (10 good questions): 1-2 hours
+> - With AI assistance: 30-45 minutes
+>
+> **Literacy note:** This is where complementary errors become evident. AI generates plausible questions but may miss subtleties. You catch disciplinary nuance AI misses. Quality emerges through this partnership.
 
-### Structure your prompt
-
-**[Role]** You are an assessment design expert familiar with [your discipline] education and evidence-based assessment practices.
-
-**[Goal]** Generate 10 multiple-choice questions assessing understanding of [specific concept] at application level, not just recall.
-
-**[Instruct]** For each question: (1) Create a scenario or problem requiring application of the concept, (2) Provide one clearly correct answer, (3) Include three plausible distractors that reflect common misconceptions, (4) Avoid tricky wording—test understanding, not test-taking skills, (5) Briefly explain why the correct answer is correct.
-
-**[Discuss]** Students in this module struggle most with [common misconception]. After reviewing questions, I'll want to refine any that don't effectively address this challenge or that use overly technical language for this level.
-
-### After generation
-
-**Critical evaluation (complementary errors from lesson 1):**
-
-- Do questions test what you want to assess?
-- Are distractors plausible but clearly incorrect to someone who understands?
-- Would these work with your actual students?
-- Do they address common misconceptions you know about?
-
-**Adapt:** Add disciplinary context, adjust difficulty based on student knowledge, ensure alignment with your teaching.
-
-**Typical time comparison:**
-
-- Manual creation (10 good questions): 1-2 hours
-- With AI assistance: 30-45 minutes
-
-**Literacy note:** This is where complementary errors become evident. AI generates plausible questions but may miss subtleties. You catch disciplinary nuance AI misses. Quality emerges through this partnership.
-
-</details>
-
-**Quick practice:** Generate 3 quiz questions for a topic you're currently teaching. Use AI, then evaluate: would you actually use these with students? What needs adjustment?
-
-**Your critical evaluation:**
-
-[Text input box]
+> [!todo] Quick practice
+> Generate 3 quiz questions for a topic you're currently teaching. Use AI, then evaluate: would you actually use these with students? What needs adjustment?
+>
+> **Your critical evaluation:**
 
 **✓ You can now evaluate efficiency honestly**
 
@@ -261,44 +253,41 @@ Quiz questions, exam prompts, discussion questions, assignment briefs—assessme
 
 Routine professional correspondence—scheduling, documentation, responses—accumulates throughout the week.
 
-<details> <summary><strong>The email workflow (click to expand and learn)</strong></summary>
+> [!example]- The email workflow
+>
+> ### Structure your prompt
+>
+> **[Role]** You are a professional communication expert familiar with academic contexts and conventions.
+>
+> **[Goal]** Draft an email to [recipient] about [purpose].
+>
+> **[Instruct]** Please include: (1) Brief but warm opening that acknowledges context, (2) Clear statement of what I need or am asking, (3) Specific action items or questions, (4) Professional close with explicit next steps.
+>
+> **[Discuss]** My relationship with this person is [formal/collaborative/friendly professional]. Tone should be [professional but friendly/formal/direct]. They're busy, so brevity matters while maintaining warmth.
+>
+> ### After generation
+>
+> **Critical evaluation:**
+>
+> - Does it sound like something you'd write?
+> - Is the tone appropriate for this relationship?
+> - Are action items clear?
+>
+> **Adapt:** Adjust for your voice, add personal touches, modify formality level.
+>
+> **Warning about false efficiency:** If you spend 15 minutes editing what AI produces, when you could write it yourself in 10 minutes, you didn't save time. Email is where false efficiency appears most often.
+>
+> **Typical time comparison:**
+>
+> - Simple emails: **May add overhead rather than saving time**
+> - Complex professional writing (proposals, documentation): May save 30-50%
+>
+> **Honest evaluation matters:** Not every task benefits from AI assistance.
 
-### Structure your prompt
-
-**[Role]** You are a professional communication expert familiar with academic contexts and conventions.
-
-**[Goal]** Draft an email to [recipient] about [purpose].
-
-**[Instruct]** Please include: (1) Brief but warm opening that acknowledges context, (2) Clear statement of what I need or am asking, (3) Specific action items or questions, (4) Professional close with explicit next steps.
-
-**[Discuss]** My relationship with this person is [formal/collaborative/friendly professional]. Tone should be [professional but friendly/formal/direct]. They're busy, so brevity matters while maintaining warmth.
-
-### After generation
-
-**Critical evaluation:**
-
-- Does it sound like something you'd write?
-- Is the tone appropriate for this relationship?
-- Are action items clear?
-
-**Adapt:** Adjust for your voice, add personal touches, modify formality level.
-
-**Warning about false efficiency:** If you spend 15 minutes editing what AI produces, when you could write it yourself in 10 minutes, you didn't save time. Email is where false efficiency appears most often.
-
-**Typical time comparison:**
-
-- Simple emails: **May add overhead rather than saving time**
-- Complex professional writing (proposals, documentation): May save 30-50%
-
-**Honest evaluation matters:** Not every task benefits from AI assistance.
-
-</details>
-
-**Quick practice:** Compare approaches. Draft one routine email manually (time it). Draft a similar email with AI assistance (time it including revision). Which was actually faster?
-
-**Your comparison:**
-
-[Text input box]
+> [!todo] Quick practice
+> Compare approaches. Draft one routine email manually (time it). Draft a similar email with AI assistance (time it including revision). Which was actually faster?
+>
+> **Your comparison:**
 
 **Progress:** Section 7 of 12
 
@@ -318,41 +307,38 @@ You have 45 minutes before your next meeting. Looking at your task list, you nee
 
 **Which tasks should you use AI for?**
 
-<details> <summary><strong>Option A: Use AI for all three tasks</strong></summary>
+> [!example]- Option A: Use AI for all three tasks
+>
+> **Your approach:** You try to prompt for slides, emails, and questions all within 45 minutes.
+>
+> **What happens:** You rush through prompting, get mediocre outputs for all three. The slides lack examples you wanted, the emails feel impersonal, and the discussion questions miss the nuance you wanted to develop. You spend the meeting distracted because nothing feels quite right. Later that evening, you spend an hour fixing everything.
+>
+> **Time total:** 45 min during day + 60 min evening = 105 minutes
+>
+> **Learning:** Not every task benefits from AI. Very quick tasks (like short emails) often take longer to prompt than to write. Rushing through prompts produces poor outputs that require extensive revision.
 
-**Your approach:** You try to prompt for slides, emails, and questions all within 45 minutes.
+> [!example]- Option B: Use AI only for slides (highest time investment)
+>
+> **Your approach:** You focus AI engagement on the most time-intensive task—slides. You spend 20 minutes creating a strong prompt and reviewing output, 15 minutes refining with follow-up questions, 5 minutes adding your examples. You manually write the three emails (3 minutes total) and draft discussion questions from your expertise (7 minutes).
+>
+> **What happens:** You have solid slide structure that you'll polish tomorrow morning. The emails are personal and appropriate. The discussion questions reflect exactly what you wanted to explore. You protected time for what matters.
+>
+> **Time total:** 20 + 15 + 5 + 3 + 7 = 50 minutes (5 minutes over, but manageable)
+>
+> **Learning:** Prioritize AI for high time-investment tasks with clear structure. Quick tasks are often faster manual. Tasks requiring your distinctive voice or expertise may not benefit from AI's generic starting point.
 
-**What happens:** You rush through prompting, get mediocre outputs for all three. The slides lack examples you wanted, the emails feel impersonal, and the discussion questions miss the nuance you wanted to develop. You spend the meeting distracted because nothing feels quite right. Later that evening, you spend an hour fixing everything.
+> [!example]- Option C: Don't use AI—do everything manually
+>
+> **Your approach:** You decide to create slides, write emails, and draft questions all manually.
+>
+> **What happens:** Creating 25 slides manually takes 2 hours. You run out of time before finishing, have to skip the meeting, and still need to complete everything later. The emails and questions never get written.
+>
+> **Time total:** 2+ hours, incomplete work, missed meeting
+>
+> **Learning:** For genuinely time-intensive tasks with clear structure, AI assistance can prevent being overwhelmed. The question isn't "should I use AI?" but "which tasks benefit most from AI assistance?"
 
-**Time total:** 45 min during day + 60 min evening = 105 minutes
-
-**Learning:** Not every task benefits from AI. Very quick tasks (like short emails) often take longer to prompt than to write. Rushing through prompts produces poor outputs that require extensive revision.
-
-</details> <details> <summary><strong>Option B: Use AI only for slides (highest time investment)</strong></summary>
-
-**Your approach:** You focus AI engagement on the most time-intensive task—slides. You spend 20 minutes creating a strong prompt and reviewing output, 15 minutes refining with follow-up questions, 5 minutes adding your examples. You manually write the three emails (3 minutes total) and draft discussion questions from your expertise (7 minutes).
-
-**What happens:** You have solid slide structure that you'll polish tomorrow morning. The emails are personal and appropriate. The discussion questions reflect exactly what you wanted to explore. You protected time for what matters.
-
-**Time total:** 20 + 15 + 5 + 3 + 7 = 50 minutes (5 minutes over, but manageable)
-
-**Learning:** Prioritize AI for high time-investment tasks with clear structure. Quick tasks are often faster manual. Tasks requiring your distinctive voice or expertise may not benefit from AI's generic starting point.
-
-</details> <details> <summary><strong>Option C: Don't use AI—do everything manually</strong></summary>
-
-**Your approach:** You decide to create slides, write emails, and draft questions all manually.
-
-**What happens:** Creating 25 slides manually takes 2 hours. You run out of time before finishing, have to skip the meeting, and still need to complete everything later. The emails and questions never get written.
-
-**Time total:** 2+ hours, incomplete work, missed meeting
-
-**Learning:** For genuinely time-intensive tasks with clear structure, AI assistance can prevent being overwhelmed. The question isn't "should I use AI?" but "which tasks benefit most from AI assistance?"
-
-</details>
-
-**Reflection:** Which option best balanced time investment with quality outcomes? What does this reveal about task selection?
-
-[Text input box]
+> [!question] Reflection
+> Which option best balanced time investment with quality outcomes? What does this reveal about task selection?
 
 **Task selection principle:** Use AI for bounded, time-intensive tasks with clear structure. Manual may be faster for very quick tasks or those requiring your distinctive voice throughout.
 
@@ -379,19 +365,17 @@ Choose ONE content creation task from your actual workload this week:
 
 ### Time tracking (be specific)
 
-**Task:** [What are you creating?]
-
-[Text input box]
-
-**Estimated normal time for this task:** [___] minutes
-
-**Start time:** [___]
+> [!todo]- Your task details
+> **Task:** [What are you creating?]
+>
+> **Estimated normal time for this task:** [___] minutes
+>
+> **Start time:** [___]
 
 ### Creation process
 
-**1. Write your RGID prompt:**
-
-[Text input box]
+> [!todo]- 1. Write your RGID prompt
+> [Write your prompt here]
 
 **2. Track your time:**
 
@@ -409,9 +393,8 @@ Choose ONE content creation task from your actual workload this week:
 - [ ] It meets my normal quality standards for this task type
 - [ ] It includes my distinctive perspective/examples/voice where it matters
 
-**If any boxes unchecked:** What specific revision is needed?
-
-[Text input box]
+> [!question]- If any boxes unchecked
+> What specific revision is needed?
 
 **Finish time:** [___]
 
@@ -439,9 +422,8 @@ This is the critical evaluation dimension of literacy. Be brutally honest—both
 - [ ] Meets my normal quality standards
 - [ ] Would use this approach again for this task type
 
-**What made this task suitable for AI assistance?**
-
-[Text input box]
+> [!question]- What made this task suitable for AI assistance?
+> [Reflect on what worked well]
 
 ### OR if it didn't work:
 
@@ -452,30 +434,27 @@ This is the critical evaluation dimension of literacy. Be brutally honest—both
 - [ ] Added overhead rather than saving time
 - [ ] Wouldn't use AI for this task type again
 
-**What made this unsuitable?**
+> [!question]- What made this unsuitable?
+> [Reflect on what didn't work]
 
-[Text input box]
-
-<details> <summary><strong>Troubleshooting: Why didn't this work? (click if needed)</strong></summary>
-
-**Possible causes:**
-
-**Task too simple** - Faster to do manually than prompt (e.g., 2-sentence email)
-
-**Task too complex** - Requires sustained expertise throughout, not just evaluation at the end
-
-**Insufficient context in prompt** - AI couldn't generate useful output because it lacked critical information
-
-**Task needed your voice from the start** - Generic AI starting point added revision burden rather than saving time
-
-**What to do:**
-
-1. Identify which factor applied
-2. If prompting issue: revise RGID structure once more with better context
-3. If task mismatch: note that this task type doesn't suit substitution
-4. Move on—recognising what doesn't work is valuable learning
-
-</details>
+> [!example]- Troubleshooting: Why didn't this work?
+>
+> **Possible causes:**
+>
+> **Task too simple** - Faster to do manually than prompt (e.g., 2-sentence email)
+>
+> **Task too complex** - Requires sustained expertise throughout, not just evaluation at the end
+>
+> **Insufficient context in prompt** - AI couldn't generate useful output because it lacked critical information
+>
+> **Task needed your voice from the start** - Generic AI starting point added revision burden rather than saving time
+>
+> **What to do:**
+>
+> 1. Identify which factor applied
+> 2. If prompting issue: revise RGID structure once more with better context
+> 3. If task mismatch: note that this task type doesn't suit substitution
+> 4. Move on—recognising what doesn't work is valuable learning
 
 **Literacy note:** Honest evaluation—including recognising what doesn't work—is essential for developing taste. If AI added overhead, that's valuable information about task characteristics, not a failure.
 
@@ -489,17 +468,13 @@ If you saved 20-30 minutes, that only matters if you protect that time for high-
 
 **If you saved time, schedule something specific RIGHT NOW:**
 
-**I will use this reclaimed time for:**
-
-[Text input box - examples: 30 minutes uninterrupted writing, reading one paper, leaving work earlier, proper lunch break, specific research task]
-
-**When:** [Specific day and time this week]
-
-[Text input box]
-
-**Where:** [Location]
-
-[Text input box]
+> [!todo] Schedule your reclaimed time
+> **I will use this reclaimed time for:**
+> [examples: 30 minutes uninterrupted writing, reading one paper, leaving work earlier, proper lunch break, specific research task]
+>
+> **When:** [Specific day and time this week]
+>
+> **Where:** [Location]
 
 **Put this in your calendar before other work fills the space:**
 
@@ -548,7 +523,8 @@ Possible patterns:
 - Require expertise to evaluate but not to generate initial structure?
 - Time-consuming but don't require your unique voice throughout?
 
-[Text input box for your pattern observations]
+> [!question] Your pattern observations
+> [Reflect on what characteristics make tasks good candidates for AI]
 
 **This is taste development:** Through repeated honest evaluation, you're building professional judgement about when substitution serves your work and when it doesn't. This pattern recognition is how literacy develops beyond technique mastery.
 
@@ -580,9 +556,8 @@ Use AI to accelerate tasks that don't require deep engagement. Reserve your cogn
 
 ## Your commitment
 
-Based on this lesson, what's one specific content creation task you'll try with AI assistance this week? How will you evaluate whether it produced genuine efficiency gains?
-
-[Text input box]
+> [!todo] Your commitment
+> Based on this lesson, what's one specific content creation task you'll try with AI assistance this week? How will you evaluate whether it produced genuine efficiency gains?
 
 ---
 

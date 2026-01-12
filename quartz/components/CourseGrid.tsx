@@ -128,15 +128,17 @@ export default ((opts?: Partial<CourseGridOptions>) => {
   CourseGrid.css = `
 .course-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 260px));
+  gap: 1.5rem;
   margin: 2rem 0;
+  justify-content: start;
 }
 
 @media (max-width: 800px) {
   .course-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, 260px);
+    gap: 1.25rem;
+    justify-content: center;
   }
 }
 
@@ -151,6 +153,8 @@ export default ((opts?: Partial<CourseGridOptions>) => {
   text-decoration: none;
   color: inherit;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  max-width: 260px;
+  width: 260px;
 }
 
 .course-card:hover {
@@ -162,7 +166,7 @@ export default ((opts?: Partial<CourseGridOptions>) => {
 .course-card-image {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 160px;
   overflow: hidden;
   background-color: var(--lightgray);
   display: flex;

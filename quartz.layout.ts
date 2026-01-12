@@ -21,10 +21,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-    Component.ConditionalRender({
-      component: Component.CourseGrid(),
-      condition: (page) => page.fileData.slug === "Courses/index",
-    }),
   ],
   left: [
     Component.PageTitle(),
@@ -40,6 +36,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.ContextualNav(),
+    Component.AILiteracyNav(),
   ],
   right: [
     Component.Graph(),
@@ -47,6 +44,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Backlinks(),
   ],
   afterBody: [
+    Component.ConditionalRender({
+      component: Component.CourseGrid(),
+      condition: (page) => page.fileData.slug === "Courses/index",
+    }),
     Component.CourseButton(),
     Component.LessonNav(),
     Component.Comments({
@@ -75,10 +76,6 @@ export const defaultListPageLayout: PageLayout = {
       component: Component.BookOverview({ showCoverOnly: true }),
       condition: (page) => page.fileData.slug === "Book/index",
     }),
-    Component.ConditionalRender({
-      component: Component.CourseGrid(),
-      condition: (page) => page.fileData.slug === "Courses/index",
-    }),
   ],
   left: [
     Component.PageTitle(),
@@ -93,6 +90,7 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.ContextualNav(),
+    Component.AILiteracyNav(),
   ],
   right: [
     Component.Graph(),
@@ -103,6 +101,10 @@ export const defaultListPageLayout: PageLayout = {
     Component.ConditionalRender({
       component: Component.BookOverview({ showChaptersOnly: true }),
       condition: (page) => page.fileData.slug === "Book/index",
+    }),
+    Component.ConditionalRender({
+      component: Component.CourseGrid(),
+      condition: (page) => page.fileData.slug === "Courses/index",
     }),
     Component.CourseButton(),
     Component.LessonNav(),

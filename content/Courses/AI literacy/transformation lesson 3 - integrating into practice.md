@@ -1,4 +1,9 @@
-# Lesson 11: Sustaining AI literacy through structural integration
+---
+title: Sustaining AI literacy through structural integration
+lesson_number: transformation-3
+---
+
+# Sustaining AI literacy through structural integration
 
 ## Lesson overview
 
@@ -18,18 +23,16 @@
 
 **Time required:** 3 minutes
 
+[!question]- Reflecting on what sticks
 Think about courses, training, or professional development you've completed in the past 2 years.
 
 **How much of what you learned are you still applying consistently?**
-
 [Text input: percentage]
 
 **What made some practices stick?**
-
 [Text input box]
 
 **What made other practices fade?**
-
 [Text input box]
 
 **Pattern recognition:**
@@ -53,6 +56,8 @@ You plan to apply everything systematically. You intend to maintain context sove
 Two months later, you're back to old habits.
 
 You occasionally use AI for quick tasks, but the literacy practices have disappeared. Not because you don't value them—you do. Not because you don't understand them—you spent 11 lessons developing these capabilities. But because **good intentions don't sustain practice under real-world pressures.**
+
+**Key takeaway:** Literacy without structural support fades under pressure. The goal is to design systems where literate practice is the default, not something you have to remember to do.
 
 **This is the discursive integration trap:** Hoping that knowledge and intention will change practice. Telling yourself "I should apply what I learned" and expecting compliance through willpower.
 
@@ -86,6 +91,8 @@ She feels guilty but can't sustain the effort required. The literacy practices r
 
 **Pattern:** Discursive integration depends on willpower (fails under pressure), requires conscious memory (forgotten when busy), exists separately from workflow (feels like additional work), and degrades when competing priorities emerge.
 
+**Key observation:** Martinez's approach relies on discipline and willpower—it cannot sustain when cognitive load increases.
+
 ### Dr. Chen: The structural approach
 
 **Month 1 after completing the course:**
@@ -113,6 +120,8 @@ Under pressure completing a grant, her workflow continues enforcing literacy pra
 The practices feel automatic now. She's not relying on willpower; her systems support literate engagement by default.
 
 **Pattern:** Structural integration embeds practices in workflow (automatic under pressure), uses templates and defaults (no memory required), happens as byproduct of work (not additional task), and sustains when competing priorities emerge because structure makes literate practice easier than avoiding it.
+
+**Key observation:** Chen's approach uses systems design—structures that make literate practice the natural default option.
 
 ### The fundamental difference
 
@@ -272,10 +281,8 @@ Integrating AI literacy structurally shifts how you see your expertise—from in
 
 This activity designs ONE concrete structural change that makes literacy automatic in your workflow.
 
-### Step 1: Choose one workflow and identify the friction point (8 minutes)
-
+[!todo]- Step 1: Choose one workflow and identify the friction point (8 minutes)
 **Choose one workflow you use weekly:**
-
 - Research literature review
 - Seminar preparation
 - Grant writing
@@ -284,37 +291,30 @@ This activity designs ONE concrete structural change that makes literacy automat
 - Paper writing
 
 **Write down the actual steps you currently follow:**
-
 [Text input box]
 
 **Identify ONE friction point:** Where should you apply literacy practices but often don't?
 
 Examples:
-
 - "I should critically evaluate AI-generated summaries before using them, but I usually just accept them when busy"
 - "I should share my professional context with AI for better engagement, but I retype the same background information every time"
 - "I should document what makes engagements meaningful versus superficial, but I never capture reflections"
 - "I should decompose complex problems before investigating, but I usually jump straight to searching"
 
 **Your friction point:**
-
 [Text input box]
 
-### Step 2: Design one structural change (8 minutes)
-
+[!todo]- Step 2: Design one structural change (8 minutes)
 **For your friction point, design a structural change that makes literate practice automatic.**
 
 Use the structural integration principles:
-
 - **Templates over intentions:** Create files with prompts already written
 - **Workflow integration:** Build reflection into existing templates
 - **Better defaults:** Make literate practice one-click instead of manual
 - **Mandatory steps:** Structure enforces sequence
 
-**Example structural changes:**
-
+[!example]- Example structural changes
 **Friction point:** "I accept AI summaries without critical evaluation" **Structural change:** Create template `evaluation_checklist.md` that appears automatically when saving AI-generated content. Checklist must be completed before file is marked complete:
-
 - [ ] Does this actually capture the source's argument or miss key nuances?
 - [ ] Does this maintain appropriate academic voice?
 - [ ] Would I be satisfied using this in my work?
@@ -324,31 +324,19 @@ Use the structural integration principles:
 **Friction point:** "I never document reflections on engagement quality" **Structural change:** Add to existing project completion template: "Reflection on AI collaboration in this project: [Was this intellectually productive? Why? What would I do differently next time?]" Reflection happens when completing project documentation you already do.
 
 **Your structural change:**
+- What specific template, default, or workflow step will you create? [Text input box]
+- How does this make literate practice automatic rather than optional? [Text input box]
 
-What specific template, default, or workflow step will you create?
-
-[Text input box]
-
-How does this make literate practice automatic rather than optional?
-
-[Text input box]
-
-### Step 3: Commit to implementation (4 minutes)
-
+[!todo]- Step 3: Commit to implementation (4 minutes)
 **Implementation commitment:**
-
-**I will implement this structural change:** [Date within one week]
-
-**I will test it with real work for one month**
-
-**I will review and refine:** [Date for monthly review]
+- **I will implement this structural change:** [Date within one week]
+- **I will test it with real work for one month**
+- **I will review and refine:** [Date for monthly review]
 
 **Success indicator:** How will you know this structural change is working?
-
 [Text input box]
 
 **Next structural changes:** After one month, if this change works, what's the next friction point you'll address?
-
 [Text input box]
 
 **The principle:** You don't need comprehensive workflow overhaul. You need ONE structural change that makes literacy automatic. Start small. Build based on what works. Each successful structural change compounds—you're building literacy infrastructure gradually through changes that actually sustain.
@@ -425,13 +413,11 @@ This course marks the beginning of ongoing literacy development, not its complet
 
 ## Resources
 
-### Behaviour change and systems design
-
+**Behaviour change and systems design:**
 - Clear, J. (2018). Atomic habits: An easy & proven way to build good habits & break bad ones. Avery.
 - Fogg, B.J. (2019). Tiny habits: The small changes that change everything. Houghton Mifflin Harcourt.
 
-### Professional practice
-
+**Professional practice:**
 - Schön, D. (1983). The reflective practitioner: How professionals think in action. Basic Books.
 
 ---
