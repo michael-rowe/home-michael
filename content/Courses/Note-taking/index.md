@@ -2,7 +2,7 @@
 title: "Effective Note-Taking Systems"
 description: "Building personal knowledge systems for research and learning"
 cover: "assets/course-covers/note-taking.jpg"
-status: "Coming Soon"
+status: "Published"
 duration: "5-7 hours"
 level: "Intermediate"
 ---
@@ -26,4 +26,4 @@ Develop systematic approaches to capturing, organizing, and retrieving knowledge
 - **Duration:** 5-7 hours
 - **Level:** Intermediate
 - **Format:** Self-paced with practical exercises
-- **Status:** Coming Soon
+- **Status:** Published

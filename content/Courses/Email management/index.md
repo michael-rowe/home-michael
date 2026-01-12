@@ -2,7 +2,7 @@
 title: "Email Management for Academics"
 description: "Systematic approaches to handling academic correspondence effectively"
 cover: "assets/course-covers/email-management.jpg"
-status: "Coming Soon"
+status: "Published"
 duration: "3-4 hours"
 level: "Beginner"
 ---
@@ -26,4 +26,4 @@ Learn to process email efficiently, respond appropriately, and maintain inbox sa
 - **Duration:** 3-4 hours
 - **Level:** Beginner
 - **Format:** Self-paced with templates
-- **Status:** Coming Soon
+- **Status:** Published

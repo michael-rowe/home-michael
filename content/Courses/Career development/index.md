@@ -2,7 +2,7 @@
 title: "Academic Career Development"
 description: "Strategic planning and development for academic careers"
 cover: "assets/course-covers/career-development.jpg"
-status: "Coming Soon"
+status: "Published"
 duration: "6-8 hours"
 level: "Advanced"
 ---
@@ -26,4 +26,4 @@ Navigate the complexities of academic career progression with systematic approac
 - **Duration:** 6-8 hours
 - **Level:** Advanced
 - **Format:** Self-paced with planning exercises
-- **Status:** Coming Soon
+- **Status:** Published

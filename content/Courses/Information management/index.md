@@ -2,7 +2,7 @@
 title: "Information Management for Researchers"
 description: "Organizing research materials, references, and resources systematically"
 cover: "assets/course-covers/information-management.jpg"
-status: "Coming Soon"
+status: "Published"
 duration: "4-5 hours"
 level: "Intermediate"
 ---
@@ -26,4 +26,4 @@ Learn to manage the information flow of academic work, from research papers to p
 - **Duration:** 4-5 hours
 - **Level:** Intermediate
 - **Format:** Self-paced with tools and templates
-- **Status:** Coming Soon
+- **Status:** Published
