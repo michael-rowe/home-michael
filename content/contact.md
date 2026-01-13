@@ -1,42 +1,23 @@
 ---
 title: Contact
 ---
-## Get In Touch
+## Contact me
 
-I welcome conversations about emergent scholarship, networked thinking, and collaborative knowledge work.
+<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="98885db0-631f-4540-8f05-97902fa66a38">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit Form</button>
+</form>
 
-### Email
-
-- **General inquiries**: [your-email@example.com]
-- **Collaboration opportunities**: [collaboration@example.com]
-
-### Social Media
-
-- **Twitter/X**: [@your-handle]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Mastodon**: [@your-handle@instance.social]
-
-### Professional Networks
-
-- **ORCID**: [Your ORCID ID]
-- **Google Scholar**: [Your Google Scholar Profile]
-- **ResearchGate**: [Your ResearchGate Profile]
-
-## Speaking & Workshops
+## Speaking & workshops
 
 I'm available for speaking engagements, workshops, and consultations on topics related to:
 
 - Digital scholarship and networked thinking
 - Knowledge management and personal learning systems
-- Collaborative research practices
 - Academic writing and publishing
 
-To inquire about availability, please email [speaking@example.com]
+To inquire about availability, please use the form above.
 
-## Office Hours
-
-[Optional: Add information about virtual office hours or consultation availability]
-
----
-
-*Response time: I typically respond to emails within 2-3 business days.*

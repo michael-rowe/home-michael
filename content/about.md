@@ -1,8 +1,7 @@
 ---
 title: About
 ---
-
-## About This Project
+## About this project
 
 This site explores **emergent scholarship**—a framework for scholarly engagement that emphasises connection, adaptation, and ecological sustainability in knowledge work.
 
@@ -18,20 +17,21 @@ This digital space serves as:
 
 The content here reflects ongoing learning and thinking-in-progress. You'll find notes, essays, reflections, and syntheses that represent different stages of development rather than polished final products.
 
-## About Me
+## About me
 
-[Your name] is a [your role/position] working at the intersection of [your interests/fields]. With a background in [your background], [I/they] explore how [your research focus or areas of interest].
+I am an Associate Professor and Director of Digital Innovation in the School of Health and Care Sciences at the University of Lincoln in the United Kingdom.
 
-[Add more about your education, experience, current work, or research interests]
+My early research led to a PhD investigating the impact of blended learning in health professions education, laying the foundation for ongoing work exploring the intersection of technology and pedagogy.
 
-## Contact & Connect
+My scholarship focuses on the transformative potential of digital technologies in education, with a particular interest in how they influence relationships between teachers and students in learning environments. Drawing on critical pedagogy and complexity science, my work focuses on the use of technological innovation to enhance both education and practice while maintaining student-centred approaches to learning.
 
-- Email: [your email]
-- Website: [your website]
-- Social: [your social media links]
-- GitHub: [your GitHub]
+## Online profiles
 
-## This Site
+- [Google Scholar](https://scholar.google.com/citations?user=H6CN3yAAAAAJ&hl=en)
+- [LinkedIn](https://www.linkedin.com/in/michael-rowe-phd/)
+- [GitHub](https://github.com/michael-rowe/emergent-scholarship)
+
+## This site
 
 This site is built with [Quartz](https://quartz.jzhao.xyz/), an open-source static site generator designed for publishing digital gardens and interconnected notes. The content is written in Markdown and published as an evolving collection of linked thoughts.
 
