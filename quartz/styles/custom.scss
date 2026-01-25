@@ -176,6 +176,30 @@ body[data-slug="index"] .recent-notes {
     border-color: var(--secondary);
     background-color: var(--light);
   }
+
+  &.learn {
+    background-color: #F8DE7E;
+    border-color: #F8DE7E;
+    &:hover {
+      background-color: #fce7a2;
+    }
+  }
+
+  &.topic {
+    background-color: #B2D8D8;
+    border-color: #B2D8D8;
+    &:hover {
+      background-color: #cce5e5;
+    }
+  }
+
+  &.format {
+    background-color: #FFB6C1;
+    border-color: #FFB6C1;
+    &:hover {
+      background-color: #ffcdd5;
+    }
+  }
 }
 
 .entry-card-title {

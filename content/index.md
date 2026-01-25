@@ -19,21 +19,21 @@ This isn't about publishing more. It's about working differently across the enti
 <div class="entry-cards">
 
 <div class="entry-card-wrapper">
-<a href="/learn" class="entry-card">
+<a href="/learn" class="entry-card learn">
 <span class="entry-card-title">Learn</span>
 </a>
 <p class="entry-card-description">Structured courses and guides with practical exercises</p>
 </div>
 
 <div class="entry-card-wrapper">
-<a href="/topics" class="entry-card">
+<a href="/topics" class="entry-card topic">
 <span class="entry-card-title">By topic</span>
 </a>
 <p class="entry-card-description">AI, productivity, scholarly practice, education</p>
 </div>
 
 <div class="entry-card-wrapper">
-<a href="/formats" class="entry-card">
+<a href="/formats" class="entry-card format">
 <span class="entry-card-title">By format</span>
 </a>
 <p class="entry-card-description">Courses, essays, posts, notes, book</p>
