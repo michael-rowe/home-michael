@@ -45,6 +45,30 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   afterBody: [
     Component.ConditionalRender({
+      component: Component.RecentNotes({
+        title: "Recent",
+        limit: 5,
+        showTags: false,
+        filter: (f) => {
+          const slug = f.slug ?? ""
+          // Exclude templates, index pages, and non-content pages
+          if (slug.includes("templates")) return false
+          if (slug.endsWith("/index")) return false
+          if (slug === "index") return false
+          if (slug === "about") return false
+          if (slug === "contact") return false
+          if (slug === "newsletter") return false
+          if (slug === "principles") return false
+          if (slug === "start-here") return false
+          if (slug === "learn") return false
+          if (slug === "topics") return false
+          if (slug === "formats") return false
+          return true
+        },
+      }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+    Component.ConditionalRender({
       component: Component.CourseGrid(),
       condition: (page) => page.fileData.slug === "Courses/index",
     }),

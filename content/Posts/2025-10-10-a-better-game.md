@@ -1,9 +1,23 @@
 ---
 title: A Better Game
-date: 2025-10-10
-tags: critical thinking, education technology, learning
-category:
+type: post
+aliases:
+  - A Better Game for AI Engagement
 description: I keep seeing posts cataloguing AI's failures and questioning tech companies' motives. That's one way to engage. Here's another - demonstrate thoughtful use, critique from practice, and amplify what matters to you. The question is what you choose to amplify as a practical alternative to performative critique.
+author: "[[Michael Rowe]]"
+date: 2025-10-10
+updated: 2025-10-10
+tags:
+  - critical-thinking
+  - educational-technology
+  - learning
+category: ""
+related:
+draft: false
+permalink: ""
+enableToc: true
+cssclasses:
+  - ""
 ---
 If your LinkedIn feed is anything like mine, you're seeing a steady stream of posts warning about the dangers of AI. They include critiques of tech companies' - and their CEOs - motives, videos with errors presented as evidence of failure, and moral panic about the dangers of misinformation.
 

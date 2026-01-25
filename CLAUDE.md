@@ -2,13 +2,54 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Project Overview
+## What this site is
 
-Quartz is a static site generator that transforms Markdown files (particularly from digital gardens/note-taking apps like Obsidian) into a fully-featured website. It uses a plugin-based architecture with transformers, filters, and emitters to process content through a build pipeline.
+This is the home of **Emergent Scholarship** - a framework for the entire knowledge creation pipeline: from identifying problems worth solving, to learning systematically, to sharing what you've learned in ways that matter.
 
-## Essential Commands
+It's not just about publishing differently. It's about working differently as someone who creates and shares knowledge. The framework helps users get better at getting better.
 
-### Building and Development
+This is not a personal portfolio or CV. It's a **project** that happens to use one practitioner's work as its primary demonstration. Think of how an open source project works:
+
+- **A working framework** (you can use it)
+- **A demonstration of that framework** (you can learn from it)
+- **A place where outputs accumulate** (work produced through the framework)
+- **An invitation to participate** (others can practice this way, adapt, contribute)
+
+### What this means for content
+
+Outputs on this site serve dual purposes:
+- **Content value**: The work itself is valuable (an essay on AI pedagogy, a course on digital literacy, etc.)
+- **Framework demonstration**: The work's existence shows emergent scholarship in practice - knowledge work done openly, with visible process, across the entire pipeline from problem identification to sharing
+
+### Navigation structure
+
+The site structure should centre these questions (inspired by open source project onboarding):
+
+1. **What is this project/method?** (README-first orientation)
+2. **How does it work?** (Progressive disclosure of the practice)
+3. **What has it produced?** (Outputs organised by user need, not author taxonomy)
+4. **How can I try it / contribute?** (Contribution ladders from reader → practitioner → contributor)
+
+**Key constraints:**
+- No CV-style "About Me" as primary navigation
+- No exhaustive lists organised by content type
+- Entry points by problem/need rather than author's categorisation
+- Simple starting points that reveal complexity as users go deeper
+
+## Style guidelines
+
+When generating content for this site:
+
+- **British spelling**: Use British English spelling throughout (e.g., organised, colour, behaviour, centre, programme)
+- **Sentence case headings**: All headings should use sentence case, not title case (e.g., "How does it work?" not "How Does It Work?")
+
+## Technical overview
+
+This site uses Quartz, a static site generator that transforms Markdown files (particularly from digital gardens/note-taking apps like Obsidian) into a fully-featured website. It uses a plugin-based architecture with transformers, filters, and emitters to process content through a build pipeline.
+
+## Essential commands
+
+### Building and development
 ```bash
 # Build the site (production)
 npx quartz build
@@ -29,7 +70,7 @@ npm run format
 npm test
 ```
 
-### CLI Commands
+### CLI commands
 The main CLI is defined in `quartz/bootstrap-cli.mjs`:
 - `npx quartz create` - Initialize new Quartz site
 - `npx quartz update` - Get latest Quartz updates
@@ -39,7 +80,7 @@ The main CLI is defined in `quartz/bootstrap-cli.mjs`:
 
 ## Architecture
 
-### Build Pipeline Overview
+### Build pipeline overview
 
 Quartz processes content through a three-stage plugin pipeline:
 
@@ -55,7 +96,7 @@ Quartz processes content through a three-stage plugin pipeline:
 3. **Emitters** (reduce): Generate output files from all content
    - Examples: ContentPage, FolderPage, RSS feed, sitemap
 
-### Key Files and Directories
+### Key files and directories
 
 **Configuration:**
 - `quartz.config.ts` - Main site configuration (theme, plugins, analytics, etc.)
@@ -84,7 +125,7 @@ Quartz processes content through a three-stage plugin pipeline:
 - `quartz/components/scripts/*.inline.ts` - Client-side scripts bundled inline
 - Components can define: `css`, `beforeDOMLoaded`, `afterDOMLoaded`
 
-### Build Process Details
+### Build process details
 
 When `npx quartz build` runs:
 
@@ -109,7 +150,7 @@ When `npx quartz build` runs:
    - File watcher for source code changes (`.ts`, `.tsx`, `.scss`)
    - File watcher for content changes (`.md` files, debounced 250ms)
 
-### Rendering Pipeline
+### Rendering pipeline
 
 Content flows through unified/remark/rehype:
 - Text → vfile
@@ -121,9 +162,9 @@ Content flows through unified/remark/rehype:
 - hast → JSX via hast-util-to-jsx-runtime (Preact)
 - JSX → HTML string via preact-render-to-string
 
-## Plugin Development
+## Plugin development
 
-### Transformer Plugin Structure
+### Transformer plugin structure
 ```typescript
 export const MyTransformer: QuartzTransformerPlugin<Options> = (opts) => {
   return {
@@ -136,7 +177,7 @@ export const MyTransformer: QuartzTransformerPlugin<Options> = (opts) => {
 }
 ```
 
-### Filter Plugin Structure
+### Filter plugin structure
 ```typescript
 export const MyFilter: QuartzFilterPlugin<Options> = (opts) => {
   return {
@@ -146,7 +187,7 @@ export const MyFilter: QuartzFilterPlugin<Options> = (opts) => {
 }
 ```
 
-### Emitter Plugin Structure
+### Emitter plugin structure
 ```typescript
 export const MyEmitter: QuartzEmitterPlugin<Options> = (opts) => {
   return {
@@ -159,7 +200,7 @@ export const MyEmitter: QuartzEmitterPlugin<Options> = (opts) => {
 }
 ```
 
-## Component Development
+## Component development
 
 Components are Preact components with special properties:
 
@@ -175,25 +216,25 @@ MyComponent.afterDOMLoaded = "/* client script run in <body> */"
 
 Client-side scripts in `components/scripts/*.inline.ts` are bundled separately for browser execution.
 
-## Important Patterns
+## Important patterns
 
-### Path Handling
+### Path handling
 - `FilePath` type represents file paths
 - Slugs are simplified paths used for URLs
 - Path utilities in `quartz/util/path.ts`
 - See `docs/advanced/paths.md` for detailed path logic
 
-### Content Map
+### Content map
 The build maintains a `Map<FilePath, ProcessedContent>` that tracks:
 - Parsed AST for each file
 - Plugin-added metadata
 - Updated incrementally during hot reload
 
-### Context Objects
+### Context objects
 - `BuildCtx`: Contains argv, cfg, allSlugs, allFiles
 - `QuartzComponentProps`: Props passed to components (ctx, fileData, cfg, tree, etc.)
 
-### Static Resources
+### Static resources
 Plugins and components can declare external resources:
 - CSS files (external URL or inline content)
 - JS files (with load time: beforeDOMReady/afterDOMReady)
@@ -215,7 +256,7 @@ Plugins and components can declare external resources:
   - `quartz/util/fileTrie.test.ts`
   - `quartz/components/scripts/search.test.ts`
 
-## TypeScript Configuration
+## TypeScript configuration
 
 - Module system: ESNext with Node resolution
 - JSX: `react-jsx` with `preact` as import source
@@ -223,7 +264,7 @@ Plugins and components can declare external resources:
 - All `.ts` and `.tsx` files included
 - Exclude `build/**/*.d.ts`
 
-## Content Structure
+## Content structure
 
 Content lives in `content/` directory (ignored by git per configuration):
 - Markdown files with optional frontmatter
@@ -231,7 +272,7 @@ Content lives in `content/` directory (ignored by git per configuration):
 - Ignore patterns configurable in `quartz.config.ts`
 - Examples: `ignorePatterns: ["private", "templates", ".obsidian"]`
 
-## Performance Considerations
+## Performance considerations
 
 - Worker threads used for parsing when >128 files
 - Incremental rebuilds track changes since last build
@@ -239,7 +280,7 @@ Content lives in `content/` directory (ignored by git per configuration):
 - CSS/JS bundling and minification
 - Note: Dynamic imports with query strings cause ~350KB memory leak per reload (acceptable for dev)
 
-## Internationalization
+## Internationalisation
 
 - Locale support in `quartz/i18n/locales/`
 - Configured via `locale` in `quartz.config.ts`

@@ -116,6 +116,127 @@
   color: var(--gray);
 }
 
+// Style RecentNotes on homepage to match page design
+body[data-slug="index"] .recent-notes {
+  // Main heading matches h2
+  & > h3 {
+    font-size: 1.4rem !important;
+    margin-top: 1.9rem;
+    margin-bottom: 1rem;
+  }
+
+  // Item titles match body text size
+  .section > .desc > h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+
+    a {
+      font-weight: 500;
+    }
+  }
+}
+
+// Entry point cards for homepage navigation
+.entry-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+.entry-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.entry-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  padding: 1.5rem;
+  background-color: var(--lightgray);
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--dark);
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: var(--secondary);
+    background-color: var(--light);
+  }
+}
+
+.entry-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.entry-card-description {
+  margin: 0.75rem 0 0 0;
+  font-size: 0.9rem;
+  color: var(--darkgray);
+  line-height: 1.4;
+}
+
+// Primary CTA button style
+.homepage-cta {
+  margin: 2rem 0;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    padding: 0.875rem 2rem;
+    background-color: var(--secondary);
+    color: var(--light);
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: var(--tertiary);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+
+// Featured content section
+.featured-content {
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  background-color: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+
+  p {
+    margin: 0.75rem 0;
+    line-height: 1.6;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
 // Two-column comparison layout for before/after content
 .comparison-grid {
   display: grid;

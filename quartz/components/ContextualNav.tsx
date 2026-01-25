@@ -66,18 +66,80 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
       )
     }
 
-    // Posts: Show recent posts
+    // Posts: Show related posts based on shared tags
     if (isPosts) {
-      const posts = allFiles
-        .filter((f) => f.slug?.startsWith("Posts/") && f.slug !== "Posts/index")
-        .sort(byDateAndAlphabetical(cfg))
+      // Get current post's tags
+      const currentTags = fileData.frontmatter?.tags
+      const currentTagSet = new Set<string>()
+
+      if (currentTags) {
+        if (Array.isArray(currentTags)) {
+          currentTags.forEach((tag: string) => currentTagSet.add(tag.toLowerCase().trim()))
+        } else if (typeof currentTags === "string") {
+          // Handle comma-separated tags
+          currentTags.split(",").forEach((tag: string) => currentTagSet.add(tag.toLowerCase().trim()))
+        }
+      }
+
+      // Find posts with shared tags and count matches
+      const otherPosts = allFiles
+        .filter((f) => f.slug?.startsWith("Posts/") && f.slug !== "Posts/index" && f.slug !== currentSlug)
+
+      const postsWithScores = otherPosts.map((post) => {
+        const postTags = post.frontmatter?.tags
+        const postTagSet = new Set<string>()
+
+        if (postTags) {
+          if (Array.isArray(postTags)) {
+            postTags.forEach((tag: string) => postTagSet.add(tag.toLowerCase().trim()))
+          } else if (typeof postTags === "string") {
+            postTags.split(",").forEach((tag: string) => postTagSet.add(tag.toLowerCase().trim()))
+          }
+        }
+
+        // Count shared tags
+        let sharedCount = 0
+        currentTagSet.forEach((tag) => {
+          if (postTagSet.has(tag)) sharedCount++
+        })
+
+        return { post, sharedCount }
+      })
+
+      // Sort by shared tag count (descending), then by date
+      const relatedPosts = postsWithScores
+        .filter((p) => p.sharedCount > 0)
+        .sort((a, b) => {
+          if (b.sharedCount !== a.sharedCount) {
+            return b.sharedCount - a.sharedCount
+          }
+          // Fall back to date sorting
+          const aDate = getDate(cfg, a.post)
+          const bDate = getDate(cfg, b.post)
+          if (aDate && bDate) {
+            return bDate.getTime() - aDate.getTime()
+          }
+          return 0
+        })
         .slice(0, options.postsLimit)
+        .map((p) => p.post)
+
+      // If no related posts found, fall back to recent posts
+      const displayPosts = relatedPosts.length > 0
+        ? relatedPosts
+        : otherPosts.sort(byDateAndAlphabetical(cfg)).slice(0, options.postsLimit)
+
+      const headerText = relatedPosts.length > 0 ? "Related Posts" : "Recent Posts"
+
+      if (displayPosts.length === 0) {
+        return null
+      }
 
       return (
         <div class={classNames(displayClass, "contextual-nav")}>
-          <h3>Recent Posts</h3>
+          <h3>{headerText}</h3>
           <ul>
-            {posts.map((post) => (
+            {displayPosts.map((post) => (
               <li>
                 <a href={resolveRelative(fileData.slug!, post.slug!)} class="internal">
                   {post.frontmatter?.title}

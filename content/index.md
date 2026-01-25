@@ -1,21 +1,65 @@
 ---
-title: Emergent scholarship
+title: Emergent Scholarship
 ---
-## A framework for scholarly engagement in a complex world
 
-## Features
-  - Connection. Knowledge emerges at the intersections of ideas, disciplines, and people, creating a networked ecosystem where understanding develops through relationships rather than in isolation
-  - Adaptation. Scholarly practices must evolve to thrive in complex, changing environments, embracing flexibility and responsiveness over rigid structures and predetermined outcomes
-  - Ecology. Scholarship exists within broader systems and must respect natural limits, nurturing sustainable practices that enhance rather than deplete human and environmental resources
+> A framework for getting better at getting better
 
-## Core principles
+**For academics, researchers, and rigorous thinkers** who want to improve how they identify problems, learn systematically, and share knowledge in ways that matter.
 
-Emergent scholarship is built on seven interconnected principles:
+This isn't about publishing more. It's about working differently across the entire knowledge creation pipeline. It is about developing the adaptive expertise and critical consciousness needed to navigate an era of information abundance. By embracing networked thinking and augmented dialogue, we can transform the scholarly process into a more resilient, connected, and meaningful pursuit.
 
-- **Knowledge through connection**: Understanding emerges from relationships and interactions rather than residing solely in individual minds or isolated texts
-- **Information flow through networks**: Information moves through formal and informal networks, creating new patterns and insights
-- **Identity through community**: Professional identity forms through participation in multiple overlapping communities of practice
-- **Innovation through openness**: Innovation emerges from environments where ideas can flow freely and evolve through collaboration
-- **Meaning through medium**: The forms and formats we use to express knowledge shape understanding and learning
-- **Value through engagement**: Worth is determined through meaningful impact and stakeholder engagement
-- **Sustainability through ecology**: Learning environments must respect and enhance human and environmental resources
+<div class="homepage-cta">
+
+[[start-here|Start here]]
+
+</div>
+
+## <i class="ph ph-map-pin"></i> Find your path
+
+<div class="entry-cards">
+
+<div class="entry-card-wrapper">
+<a href="/learn" class="entry-card">
+<span class="entry-card-title">Learn</span>
+</a>
+<p class="entry-card-description">Structured courses and guides with practical exercises</p>
+</div>
+
+<div class="entry-card-wrapper">
+<a href="/topics" class="entry-card">
+<span class="entry-card-title">By topic</span>
+</a>
+<p class="entry-card-description">AI, productivity, scholarly practice, education</p>
+</div>
+
+<div class="entry-card-wrapper">
+<a href="/formats" class="entry-card">
+<span class="entry-card-title">By format</span>
+</a>
+<p class="entry-card-description">Courses, essays, posts, notes, book</p>
+</div>
+
+</div>
+
+## Quick win
+
+Read [[Posts/2025-10-10-a-better-game|A better game]] — a different way to think about engaging with AI in your practice.
+
+## Featured
+
+<div class="featured-content">
+
+**Course**: [[Courses/Time management/index|Time management for academics]]
+The most practical starting point. Build a sustainable system for managing your time.
+
+**Essay**: [[Essays/learning-alignment|The learning alignment problem]]
+Why current approaches to AI in education are asking the wrong questions.
+
+**Book**: [[Book/01 introduction|Emergent scholarship: An introduction]]
+The full framework — what it is, why it matters, how to practise it.
+
+</div>
+
+---
+
+[[about|What is emergent scholarship?]] · [[principles|Core principles]]
