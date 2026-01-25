@@ -41,11 +41,11 @@ This isn't about publishing more. It's about working differently across the enti
 
 </div>
 
-## Quick win
+## <i class="ph ph-medal"></i> Quick win
 
 Read [[Posts/2025-10-10-a-better-game|A better game]] — a different way to think about engaging with AI in your practice.
 
-## Featured
+## <i class="ph ph-star"></i> Featured
 
 <div class="featured-content">
 
