@@ -1,27 +1,23 @@
 ---
-title: "Daily notes"
+title: Daily notes
+lesson: 1
+description: Establish a reliable daily practice to externalise your working memory and reduce cognitive load.
 ---
-
-# Daily notes
-
-> My notes now stop me from having to go backwards whenever I pick up something again… Ideas stay intact and usable, concepts don't need to be reworded each time, experiments can be incremental, projects can stand still for a while but can restart immediately when I return to them. That's valuable return on the time spent making those notes. - Ton Zijlstra (2022)
-
-## Lesson overview
-
-**Objective:** Establish a habit of writing daily notes
-
-**Summary:** Daily notes serve as an extension of your working memory, helping you track progress throughout your day without keeping everything in your head. Rather than juggling multiple mental threads or relying on scattered reminders, daily notes provide a single, reliable space to capture tasks, meeting notes, and fleeting thoughts. This lesson explores how to build a sustainable daily notes practice that reduces cognitive load and creates the foundation for effective weekly planning.
-
-**Key habits:**
-
-- Start each working day with a daily note using a consistent template
-- Capture all tasks, meetings, and thoughts in your daily note rather than across multiple systems
-- Review your daily note at the end of each day to identify incomplete items and plan for tomorrow
-- Use your daily notes during weekly reviews to reflect on progress and plan ahead
-
-[ez-toc]
+> [!info] Lesson overview
+> **Objective:** Establish a habit of writing daily notes
+>
+> **Summary:** Daily notes serve as an extension of your working memory, helping you track progress throughout your day without keeping everything in your head. Rather than juggling multiple mental threads or relying on scattered reminders, daily notes provide a single, reliable space to capture tasks, meeting notes, and fleeting thoughts. This lesson explores how to build a sustainable daily notes practice that reduces cognitive load and creates the foundation for effective weekly planning.
+>
+> **Key habits:**
+>
+> - Start each working day with a daily note using a consistent template
+> - Capture all tasks, meetings, and thoughts in your daily note rather than across multiple systems
+> - Review your daily note at the end of each day to identify incomplete items and plan for tomorrow
+> - Use your daily notes during weekly reviews to reflect on progress and plan ahead
 
 ## Introduction
+
+> My notes now stop me from having to go backwards whenever I pick up something again… Ideas stay intact and usable, concepts don't need to be reworded each time, experiments can be incremental, projects can stand still for a while but can restart immediately when I return to them. That's valuable return on the time spent making those notes. - Ton Zijlstra (2022)
 
 Trying to keep track of everything in your head is exhausting. Most academics have developed some system for managing their day – a paper diary, a to-do list app, a calendar, sticky notes around the monitor, or some combination of all of these. The problem is that diaries don't work well for managing a changing list of tasks, to-do lists don't capture the narrative of your day, and calendars show meetings but not the thinking work between them.
 

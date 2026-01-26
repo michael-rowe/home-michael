@@ -1,19 +1,20 @@
 ---
-title: "Master your craft"
+title: Master your craft
 lesson: 3
+description: Break down complex academic work into specific capabilities that can be systematically improved through deliberate practice and sustainable daily routines.
 ---
 
-# Master your craft
-
-**Objective:** Build routines that help master your craft
-
-**Summary:** Excellence in academic work isn't about dramatic breakthroughs or unsustainable effort - it's about consistently practising small skills that compound over time. Just as athletes and musicians improve through deliberate practice, academics can develop their craft by protecting time for focused skill development. The key is breaking down complex work into specific capabilities that can be systematically improved through sustainable daily routines.
-
-**Key habits:**
-- **Schedule daily practice sessions:** About 30 minutes for focused skill development, choosing a consistent time that matches your energy levels
-- **Create feedback loops:** Document your practice attempts and outcomes, and seek regular input from colleagues
-- **Build a practice system:** Break complex skills into manageable components and develop routines that fit your existing schedule
-- **Focus on consistency over intensity:** Show up for short sessions every day rather than occasional marathons; progress will feel slow at first so celebrate small improvements
+> [!info] Lesson overview
+> **Objective:** Build routines that help master your craft
+>
+> **Summary:** Excellence in academic work isn't about dramatic breakthroughs or unsustainable effort - it's about consistently practising small skills that compound over time. Just as athletes and musicians improve through deliberate practice, academics can develop their craft by protecting time for focused skill development. The key is breaking down complex work into specific capabilities that can be systematically improved through sustainable daily routines.
+>
+> **Key habits:**
+>
+> - Schedule daily practice sessions: About 30 minutes for focused skill development, choosing a consistent time that matches your energy levels
+> - Create feedback loops: Document your practice attempts and outcomes, and seek regular input from colleagues
+> - Build a practice system: Break complex skills into manageable components and develop routines that fit your existing schedule
+> - Focus on consistency over intensity: Show up for short sessions every day rather than occasional marathons; progress will feel slow at first so celebrate small improvements
 
 ## Introduction
 

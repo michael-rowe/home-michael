@@ -1,20 +1,21 @@
 ---
-title: "Writing email"
+title: Writing email
 lesson: 3
+description: Treat email as a deliberate writing genre with specific structures to improve clarity and reduce back-and-forth.
 ---
 
-# Writing email
-
-**Objective:** Write better emails
-
-**Summary:** What was once a tool for efficient communication has morphed into a constant stream of interruptions that fragments our attention and erodes our mental head space. By treating email as a deliberate, structured form of writing, we can reclaim our cognitive bandwidth. Writing better emails is about creating structure in an unstructured medium, where every clear email you write helps maintain the collective head space needed for high-value academic work.
-
-**Key habits:**
-- **Write subject lines that are searchable and actionable:** Make it easy for recipients to understand what's needed at a glance
-- **Put required actions in the first paragraph:** State clearly what you need and by when
-- **Break complex messages into numbered points:** Enable recipients to respond to each point individually
-- **Delete unnecessary information:** Keep messages as short as possible while remaining complete
-- **Match your writing time to recipient reading time:** Don't spend more time writing than they'll spend reading
+> [!info] Lesson overview
+> **Objective:** Write better emails
+>
+> **Summary:** What was once a tool for efficient communication has morphed into a constant stream of interruptions that fragments our attention and erodes our mental head space. By treating email as a deliberate, structured form of writing, we can reclaim our cognitive bandwidth. Writing better emails is about creating structure in an unstructured medium, where every clear email you write helps maintain the collective head space needed for high-value academic work.
+>
+> **Key habits:**
+>
+> - Write subject lines that are searchable and actionable: Make it easy for recipients to understand what's needed at a glance
+> - Put required actions in the first paragraph: State clearly what you need and by when
+> - Break complex messages into numbered points: Enable recipients to respond to each point individually
+> - Delete unnecessary information: Keep messages as short as possible while remaining complete
+> - Match your writing time to recipient reading time: Don't spend more time writing than they'll spend reading
 
 ## Introduction
 

@@ -1,6 +1,7 @@
 ---
-title: Building context sovereignty
-lesson_number: transformation-1
+title: Context sovereignty
+lesson: 9
+description: Build persistent AI partnerships with accumulated context about your research, disciplinary conventions, and scholarly goals.
 ---
 
 # Building context sovereignty

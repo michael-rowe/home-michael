@@ -1,8 +1,8 @@
 ---
-title: "Summary"
+title: Summary
+lesson: 6
+description: Review the complete note-taking framework and reflect on how to maintain a sustainable, lifelong knowledge system.
 ---
-
-# Course summary
 
 The aim of this course was to **create a note-taking framework that provides an extension to your working and long-term memory,** enabling you to focus on what matters.
 
@@ -26,7 +26,6 @@ The fourth lesson explained _project notes as a way of providing structure_ for 
 
 The final lesson was a very basic introduction to the concept of _permanent notes that you aim to keep for a lifetime_. There are several implications of notes that are intended to serve as an extension of your long-term memory, most of which are beyond the scope of this course. However, this lesson establishes a foundation that will make it easier to create high-value academic work in the future.
 
----
 ## Resources
 
 - Ahrens, S. (2017). [How to take smart notes: One simple technique to boost writing, learning and thinking](https://amzn.to/3xeFgdW). Sönke Ahrens.
@@ -35,5 +34,3 @@ The final lesson was a very basic introduction to the concept of _permanent note
 - Khoe, M.L. (2016). [Messy thought, neat thought](https://klr.tumblr.com/post/154784481858/messy-thought-neat-thought). Khan Academy Early Product Development.
 - Matuschak, A. (n.d.). [Evergreen notes](https://notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C?stackedNotes=z2ZAGQBHuJ2u9WrtAQHAEHcCZTtqpsGkAsrD1). Andy's working notes.
 - Young, S. & Clear, J. (2019). [Ultralearning: Master hard skills, outsmart the competition, and accelerate your career](https://amzn.to/3Xv2Iye). Harper Business.
-
----

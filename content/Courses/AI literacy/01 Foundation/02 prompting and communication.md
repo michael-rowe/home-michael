@@ -1,6 +1,7 @@
 ---
-title: "Prompting and communication"
-lesson_number: foundation-2
+title: Prompting and communication
+lesson: 2
+description: Learn to communicate effectively with AI through structured prompting and context sovereignty.
 ---
 
 # Prompting and communication

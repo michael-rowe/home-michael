@@ -1,31 +1,27 @@
 ---
-title: "Capturing information"
+title: Capturing information
 lesson: 2
+description: Save and organise information in a personal library using a three-stage capture process that reduces anxiety while building a curated collection.
 ---
 
-# Capturing information
+> [!info] Lesson overview
+> **Objective:** Save and organise information in a personal library
+>
+> **Summary:** Even after filtering information sources, potentially useful content still moves too quickly to process in the moment. Academic journals, conference presentations, recommended articles, and interesting threads all arrive faster than you can meaningfully engage with them. You need a reliable mechanism to pull valuable sources out of the fast-moving stream, review them quickly to determine if they warrant deeper attention, and save the keepers into a personal library for later engagement. This lesson establishes a three-stage capture process that reduces anxiety while building a curated collection of high-value sources.
+>
+> **Key habits:**
+>
+> - Use a web clipper or similar tool to save sources in the moment without interrupting current work
+> - Review captured items weekly to decide what deserves permanent storage
+> - Save only information-dense sources rather than everything that seems interesting
+> - Add context notes explaining why you saved each source and how it might be useful
+> - Allocate time in your weekly schedule to work through your personal library
+
+## Introduction
 
 > When information is cheap, attention becomes expensive. - James Gleick (2011)
 
-## Lesson overview
-
-**Objective:** Save and organise information in a personal library
-
-**Summary:** Even after filtering information sources, potentially useful content still moves too quickly to process in the moment. Academic journals, conference presentations, recommended articles, and interesting threads all arrive faster than you can meaningfully engage with them. You need a reliable mechanism to pull valuable sources out of the fast-moving stream, review them quickly to determine if they warrant deeper attention, and save the keepers into a personal library for later engagement. This lesson establishes a three-stage capture process that reduces anxiety while building a curated collection of high-value sources.
-
-**Key habits:**
-
-- Use a web clipper or similar tool to save sources in the moment without interrupting current work
-- Review captured items weekly to decide what deserves permanent storage
-- Save only information-dense sources rather than everything that seems interesting
-- Add context notes explaining why you saved each source and how it might be useful
-- Allocate time in your weekly schedule to work through your personal library
-
 Capturing information effectively means you can engage with sources when you have the cognitive space to process them properly, rather than trying to consume everything the moment it appears.
-
-[ez-toc]
-
-## Introduction
 
 You've reduced the volume of information streaming past your attention by filtering sources at the point of entry. But even filtered information streams can feel overwhelming. Consider an academic journal that publishes 10-15 articles twice yearly—a relatively slow-moving information stream. Yet when you factor in the time required to actually read and process those articles, even this pace is too fast. And when integrated with faster-moving streams like email recommendations, social media mentions, and conference presentations, meaningful engagement becomes impossible without a capture system.
 

@@ -4,6 +4,7 @@ import style from "../styles/listPage.scss"
 import { PageList, SortFn } from "../PageList"
 import { NotesGrid } from "../NotesGrid"
 import { NotesByTag } from "../NotesByTag"
+import { CourseLessonList } from "../CourseLessonList"
 import { Root } from "hast"
 import { htmlToJsx } from "../../util/jsx"
 import { i18n } from "../../i18n"
@@ -108,16 +109,27 @@ export default ((opts?: Partial<FolderContentOptions>) => {
     const shouldShowPageListing =
       fileData.slug !== "Courses/index" && fileData.slug !== "Book/index"
 
-    // Use NotesByTag for Notes folder, PageList for others
+    // Detect folder types
     const isNotesFolder = fileData.slug === "Notes/index"
-    const ListComponent = isNotesFolder ? NotesByTag : PageList
+    const isCourseFolder = fileData.slug?.startsWith("Courses/") && fileData.slug !== "Courses/index"
+
+    // Determine which list component to use
+    let ListComponent = PageList
+    if (isNotesFolder) {
+      ListComponent = NotesByTag
+    } else if (isCourseFolder) {
+      ListComponent = CourseLessonList
+    }
+
+    // Only show folder count for standard folders (not notes, not courses)
+    const showCount = !isNotesFolder && !isCourseFolder && options.showFolderCount
 
     return (
       <div class="popover-hint">
         <article class={classes}>{content}</article>
         {shouldShowPageListing && (
           <div class="page-listing">
-            {!isNotesFolder && options.showFolderCount && (
+            {showCount && (
               <p>
                 {i18n(cfg.locale).pages.folderContent.itemsUnderFolder({
                   count: allPagesInFolder.length,
@@ -133,6 +145,6 @@ export default ((opts?: Partial<FolderContentOptions>) => {
     )
   }
 
-  FolderContent.css = concatenateResources(style, PageList.css, NotesGrid.css, NotesByTag.css)
+  FolderContent.css = concatenateResources(style, PageList.css, NotesGrid.css, NotesByTag.css, CourseLessonList.css)
   return FolderContent
 }) satisfies QuartzComponentConstructor

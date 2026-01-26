@@ -1,19 +1,20 @@
 ---
-title: "Describe your paradigm"
+title: Describe your paradigm
 lesson: 1
+description: Examine the deeply held beliefs and assumptions that shape your academic practice and develop more intentional approaches.
 ---
 
-# Describe your paradigm
-
-**Objective:** Examine how work paradigms shape your practice
-
-**Summary:** Every academic inherits assumptions about work from their previous professional experiences. These paradigms - deeply held beliefs about productivity, success, and the nature of work itself - can either enable or constrain us in academia's uniquely autonomous environment. This lesson helps you examine your current working paradigm and develop more intentional approaches that align with both academic reality and your personal goals.
-
-**Key habits:**
-- **Strategic pausing:** Build in brief moments throughout your day to consciously assess whether your current activity aligns with your intended paradigm
-- **Daily reflection:** Set aside 5 minutes at the end of each working day to note where your work patterns aligned with or diverged from your intentions
-- **Active experimentation:** Test small changes to your routine for 1-2 weeks before either adopting or discarding them
-- **Regular review:** Schedule monthly check-ins to evaluate whether your work patterns serve your current priorities and career stage
+> [!info] Lesson overview
+> **Objective:** Examine how work paradigms shape your practice
+>
+> **Summary:** Every academic inherits assumptions about work from their previous professional experiences. These paradigms - deeply held beliefs about productivity, success, and the nature of work itself - can either enable or constrain us in academia's uniquely autonomous environment. This lesson helps you examine your current working paradigm and develop more intentional approaches that align with both academic reality and your personal goals.
+>
+> **Key habits:**
+>
+> - Strategic pausing: Build in brief moments throughout your day to consciously assess whether your current activity aligns with your intended paradigm
+> - Daily reflection: Set aside 5 minutes at the end of each working day to note where your work patterns aligned with or diverged from your intentions
+> - Active experimentation: Test small changes to your routine for 1-2 weeks before either adopting or discarding them
+> - Regular review: Schedule monthly check-ins to evaluate whether your work patterns serve your current priorities and career stage
 
 ## Introduction
 

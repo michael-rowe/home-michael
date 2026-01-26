@@ -1,7 +1,8 @@
-# Take control of your notes
-%%Explanation page for the module on the website i.e. this is the teaser content that pushes someone to want to do the course.%%
-
-==These introduction pieces need to tie together all of the lessons in their respective modules.==
+---
+title: Introduction
+lesson: 0
+description: Understand why notes are the core of academic work and how to build a unified conceptual framework for your thinking.
+---
 
 > If you’re going to take notes on something, you might as well treat them as important. - Sönke Ahrens (2017)
 

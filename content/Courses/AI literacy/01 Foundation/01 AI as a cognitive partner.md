@@ -1,6 +1,7 @@
 ---
-title: "AI as a cognitive partner"
-lesson_number: "foundation-1"
+title: AI as a cognitive partner
+lesson: 1
+description: Understand what generative AI is and how to approach it as language-based cognitive extension rather than software to operate.
 ---
 
 # AI as a cognitive partner

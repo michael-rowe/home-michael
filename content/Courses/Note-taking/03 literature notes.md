@@ -1,27 +1,23 @@
 ---
-title: "Literature notes"
+title: Literature notes
+lesson: 3
+description: Document your critical observations and questions as you engage with sources, moving beyond passive consumption to active intellectual engagement.
 ---
-
-# Literature notes
-
-> You need to take some form of literature note that captures your understanding of the text, so you have something in front of your eyes while you are making the [permanent] note. But don't turn it into a project in itself. Literature notes are short and meant to help with writing. - Sönke Ahrens (2017)
-
-## Lesson overview
-
-**Objective:** Write literature notes as part of your reading practice
-
-**Summary:** Literature notes capture your thinking as you engage with sources – whether articles, books, presentations, or other media. Rather than simply highlighting passages or collecting references, literature notes document your understanding, questions, and critical observations about the material. This lesson explores how to create literature notes that remain connected to their sources while forming the foundation for your own thinking and writing.
-
-**Key habits:**
-
-- Take literature notes while engaging with sources rather than treating reading as passive consumption
-- Capture your thoughts and questions about the material, not just excerpts from it
-- Keep literature notes connected to their original sources using a reference manager
-- Review and process literature notes regularly, using them as raw material for permanent notes
-
-[ez-toc]
+> [!info] Lesson overview
+> **Objective:** Write literature notes as part of your reading practice
+>
+> **Summary:** Literature notes capture your thinking as you engage with sources – whether articles, books, presentations, or other media. Rather than simply highlighting passages or collecting references, literature notes document your understanding, questions, critical observations, and connections to other ideas. This lesson explores how to create literature notes that remain connected to their sources while forming the foundation for your own thinking and writing.
+>
+> **Key habits:**
+>
+> - Take literature notes while engaging with sources rather than treating reading as passive consumption
+> - Capture your thoughts and questions about the material, not just excerpts from it
+> - Keep literature notes connected to their original sources using a reference manager
+> - Review and process literature notes regularly, using them as raw material for permanent notes
 
 ## Introduction
+
+> You need to take some form of literature note that captures your understanding of the text, so you have something in front of your eyes while you are making the [permanent] note. But don't turn it into a project in itself. Literature notes are short and meant to help with writing. - Sönke Ahrens (2017)
 
 Capturing your thinking when working through a text can be surprisingly difficult. Most academics regularly need to take notes while reading articles, watching conference presentations, listening to podcasts, or reviewing draft manuscripts. These notes need to be connected to the original source in a way that makes them findable later, but they also need to capture something more than the source itself – they need to document your thinking in response to the material.
 

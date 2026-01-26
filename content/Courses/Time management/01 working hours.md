@@ -1,65 +1,28 @@
 ---
-title: "Working hours"
-lesson_number: 1
-lesson_id: time-management-01-working-hours
-course_id: time-management-academics
-subtitle: Establish a fixed working schedule
-lesson_order: 1
-module: Time Management Fundamentals
-section: Foundation
-status: published
-version: "1.0"
-objective: Establish a fixed working schedule
-summary: Your ability to do meaningful academic work depends more on managing your limited cognitive energy than extending your working hours. Most people only have the mental energy to complete a few hours of deep work per day - protect these for your highest-value work. The key is working backwards - rather than letting work expand to fill the available time, start with your fixed schedule and make intentional choices about what fits within it.
+title: Working hours
+lesson: 1
 description: Learn to establish and maintain fixed working hours that protect your peak cognitive energy and create sustainable academic productivity.
-estimated_time: 30-40 minutes
-difficulty: beginner
-learning_type: practical
-key_concepts:
-  - Fixed-schedule productivity
-  - Cognitive energy management
-  - Law of diminishing returns
-  - Sustainable work boundaries
-key_habits:
-  - Set a firm end time for your workday and stick to it
-  - Track your actual working hours to see where boundaries slip
-  - Build a 10-minute end-of-day routine
-  - Communicate your working hours clearly to colleagues and students
-tags:
-  - time-management
-  - productivity
-  - work-life-balance
-  - academic-practice
-  - boundaries
-required_materials:
-  - Energy mapping template (downloadable)
-optional_materials:
-  - Sticky notes
-  - Calendar or planner
-has_quiz: false
-has_assignment: false
-has_reflection: true
-assessment_type: self-reflection
-progress_sections: 8
-completion_criteria: complete-all-sections
-created: 2024-10-12
-updated: 2024-10-12
-published: 2024-10-12
-previous_lesson: time-management-00-introduction
-next_lesson: time-management-02-types-of-tasks
-course_page: time-management-course-overview
-author:
-  - Michael Rowe
-language: en
 ---
 
-# Working hours
+> [!info] Lesson overview
+> **Objective:** Establish a fixed working schedule
+>
+> **Summary:** Your ability to do meaningful academic work depends more on managing your limited cognitive energy than extending your working hours. Most people only have the mental energy to complete a few hours of deep work per day - protect these for your highest-value work. The key is working backwards - rather than letting work expand to fill the available time, start with your fixed schedule and make intentional choices about what fits within it.
+>
+> **Key habits:**
+>
+> - Set a firm end time for your workday and stick to it
+> - Track your actual working hours to see where boundaries slip
+> - Build a 10-minute end-of-day routine
+> - Communicate your working hours clearly to colleagues and students
 
-Working longer hours will almost never give you the solution to the problems you care about. One of the great privileges of academic work is that you can often work flexible hours, but just because you can work anywhere and any time, it doesn't mean that you should. Each of us has about 3-4 'good' hours in us, where our cognitive energy is highest. This lesson is about making sure you allocate those hours appropriately.
+## Introduction
 
 > Creativity, progress, and impact do not yield to brute force.
 >
 > Hannson & Fried (2018)
+
+Working longer hours will almost never give you the solution to the problems you care about. One of the great privileges of academic work is that you can often work flexible hours, but just because you can work anywhere and any time, it doesn't mean that you should. Each of us has about 3-4 'good' hours in us, where our cognitive energy is highest. This lesson is about making sure you allocate those hours appropriately.
 
 ## Fixed-schedule productivity
 

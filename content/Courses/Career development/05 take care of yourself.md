@@ -1,19 +1,20 @@
 ---
-title: "Take care of yourself"
+title: Take care of yourself
 lesson: 5
+description: Integrate sustainable self-care practices into your academic workflow to create the conditions for meaningful, high-value work.
 ---
 
-# Take care of yourself
-
-**Objective:** Embed self-care into your career development
-
-**Summary:** This lesson focuses on integrating sustainable self-care practices into your academic workflow to create the conditions for meaningful, high-value work. Rather than viewing rest as a reward for productivity, we position it as the foundation that enables good work to emerge. The lesson provides practical strategies adapted for different academic roles - whether you're focused on teaching, research, leadership, or administration - helping you build habits that support both professional achievement and personal wellbeing.
-
-**Key habits:**
-- **Create intentional recovery periods:** Schedule 15-30 minute breaks between intensive work sessions, treating them as non-negotiable parts of your day
-- **Define and defend your work boundaries:** Establish consistent start and end times to your day, along with clear limits on when you'll engage with email and other communications
-- **Integrate movement into your daily workflow:** Take walking breaks, stand while reading, or schedule regular exercise sessions that work within your academic schedule
-- **Prioritise sleep:** Set up routines and an environment that support good rest, including a consistent bedtime and a workspace separate from your rest space
+> [!info] Lesson overview
+> **Objective:** Embed self-care into your career development
+>
+> **Summary:** This lesson focuses on integrating sustainable self-care practices into your academic workflow to create the conditions for meaningful, high-value work. Rather than viewing rest as a reward for productivity, we position it as the foundation that enables good work to emerge. The lesson provides practical strategies adapted for different academic roles - whether you're focused on teaching, research, leadership, or administration - helping you build habits that support both professional achievement and personal wellbeing.
+>
+> **Key habits:**
+>
+> - Create intentional recovery periods: Schedule 15-30 minute breaks between intensive work sessions, treating them as non-negotiable parts of your day
+> - Define and defend your work boundaries: Establish consistent start and end times to your day, along with clear limits on when you'll engage with email and other communications
+> - Integrate movement into your daily workflow: Take walking breaks, stand while reading, or schedule regular exercise sessions that work within your academic schedule
+> - Prioritise sleep: Set up routines and an environment that support good rest, including a consistent bedtime and a workspace separate from your rest space
 
 ## Introduction
 
@@ -120,6 +121,8 @@ While the principles of self-care remain constant, how you implement them may de
 > **Exercise adaptations**
 > - Take walking meetings where appropriate
 > - Stand during one-on-one discussions
+> - Schedule movement breaks between long meeting blocks
+> - Use physical activity to process complex leadership challenges
 > - Schedule movement breaks between long meeting blocks
 > - Use physical activity to process complex leadership challenges
 >

@@ -1,77 +1,28 @@
 ---
-title: "Weekly reviews"
-lesson_number: 5
-lesson_id: time-management-05-reviews
-course_id: time-management-academics
-subtitle: "Use weekly reviews to plan more effectively"
-lesson_order: 5
-module: "Time Management Implementation"
-section: "Sustaining Practices"
-status: published
-version: "1.0"
-objective: "Use weekly reviews to plan more effectively"
-summary: "Weekly reviews transform academic workflow by systematically closing open loops and allocating time for meaningful work. While intensive, this practice helps academics transition from reactive task management to intentional engagement with their scholarship."
-description: "Learn to conduct effective weekly reviews that close open loops, provide clarity on commitments, and enable true disconnection from work during rest periods."
-estimated_time: "50-60 minutes"
-difficulty: "intermediate"
-learning_type: "practical"
-key_concepts:
-  - "Open loops and mental bandwidth"
-  - "Systematic task processing"
-  - "Trusted capture system"
-  - "Weekly reflection practice"
-  - "Work-rest boundaries"
-key_habits:
-  - "Create clear boundaries between work and rest with complete weekly resets"
-  - "Schedule fixed time for weekly reviews as high-value commitment"
-  - "Process inputs completely with clear next actions"
-  - "Maintain trusted system for capturing commitments"
-tags:
-  - time-management
-  - weekly-review
-  - task-management
-  - reflection
-  - planning
-prerequisites:
-  - "Established time-blocking practice"
-  - "Understanding of task types"
-builds_on:
-  - time-management-01-working-hours
-  - time-management-02-types-of-tasks
-  - time-management-03-time-blocking
-  - time-management-04-day-theming
-prepares_for:
-  - time-management-06-summary
-required_materials:
-  - "Weekly review template"
-  - "Task management system"
-optional_materials:
-  - "Calendar"
-  - "Project tracking tools"
-has_quiz: false
-has_assignment: false
-has_reflection: true
-assessment_type: practice-based
-progress_sections: 10
-completion_criteria: complete-all-sections
-created: 2024-10-12
-updated: 2024-10-12
-published: 2024-10-12
-previous_lesson: time-management-04-day-theming
-next_lesson: time-management-06-summary
-course_page: time-management-academics
-author:
-  - Michael Rowe
-language: en
+title: Weekly reviews
+lesson: 5
+description: Learn to conduct effective weekly reviews that close open loops, provide clarity on commitments, and enable true disconnection from work during rest periods.
 ---
 
-# Weekly reviews
+> [!info] Lesson overview
+> **Objective:** Use weekly reviews to plan more effectively
+>
+> **Summary:** Weekly reviews transform academic workflow by systematically closing open loops and allocating time for meaningful work. While intensive, this practice helps academics transition from reactive task management to intentional engagement with their scholarship.
+>
+> **Key habits:**
+>
+> - Create clear boundaries between work and rest with complete weekly resets
+> - Schedule fixed time for weekly reviews as high-value commitment
+> - Process inputs completely with clear next actions
+> - Maintain trusted system for capturing commitments
 
-Think about how you typically feel at the end of your work week. If you're like many academics, there's often a lingering sense of unease associated with unfinished tasks and looming commitments that make it hard to truly disconnect. But what if you could end each week with clarity and confidence, knowing exactly where your work stands and what comes next?
+## Introduction
 
 > A plan is simply a statement of intent and not a description of the future.
 >
 > Oliver Burkeman (2021)
+
+Think about how you typically feel at the end of your work week. If you're like many academics, there's often a lingering sense of unease associated with unfinished tasks and looming commitments that make it hard to truly disconnect. But what if you could end each week with clarity and confidence, knowing exactly where your work stands and what comes next?
 
 ## Close open loops
 

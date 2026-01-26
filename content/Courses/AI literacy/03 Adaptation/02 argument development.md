@@ -1,6 +1,7 @@
 ---
-title: Argument development through dialogue
-lesson_number: adaptation-2
+title: Argument development
+lesson: 7
+description: Develop strong arguments through systematic pre-writing exploration—testing claims, surfacing assumptions, and anticipating counterarguments.
 ---
 
 # Argument development through dialogue

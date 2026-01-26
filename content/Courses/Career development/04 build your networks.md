@@ -1,19 +1,20 @@
 ---
-title: "Build your networks"
+title: Build your networks
 lesson: 4
+description: Strategically position yourself within professional networks by understanding different roles and building meaningful relationships that create value for your communities.
 ---
 
-# Build your networks
-
-**Objective:** Strategically position yourself within professional networks
-
-**Summary:** Effective academic networking isn't about collecting contacts or attending every conference - it's about building meaningful relationships that create value for everyone involved. Understanding different networking roles (Connector, Maven, Bridge, or Leader) helps you contribute more strategically to your professional communities. While aggressive networking might lead to quick wins, thoughtful relationship-building leads to more sustainable success.
-
-**Key habits:**
-- **Schedule regular network maintenance:** Set aside specific times each week to follow up with contacts, share useful information, or make introductions between colleagues
-- **Focus your energy:** Rather than trying to be active in every network, identify 2-3 key communities where you can make meaningful contributions
-- **Lead with value:** Before asking for help or support, look for opportunities to assist others
-- **Document your network interactions:** Keep brief notes about key conversations, shared interests, and potential collaboration opportunities
+> [!info] Lesson overview
+> **Objective:** Strategically position yourself within professional networks
+>
+> **Summary:** Effective academic networking isn't about collecting contacts or attending every conference - it's about building meaningful relationships that create value for everyone involved. Understanding different networking roles (Connector, Maven, Bridge, or Leader) helps you contribute more strategically to your professional communities. While aggressive networking might lead to quick wins, thoughtful relationship-building leads to more sustainable success.
+>
+> **Key habits:**
+>
+> - Schedule regular network maintenance: Set aside specific times each week to follow up with contacts, share useful information, or make introductions between colleagues
+> - Focus your energy: Rather than trying to be active in every network, identify 2-3 key communities where you can make meaningful contributions
+> - Lead with value: Before asking for help or support, look for opportunities to assist others
+> - Document your network interactions: Keep brief notes about key conversations, shared interests, and potential collaboration opportunities
 
 ## Introduction
 

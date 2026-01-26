@@ -1,19 +1,20 @@
 ---
-title: "Processing email"
+title: Processing email
 lesson: 2
+description: Develop a process-oriented approach to email that minimizes back-and-forth exchanges and creates mental clarity.
 ---
 
-# Processing email
-
-**Objective:** Spend more time processing email to spend less time in email
-
-**Summary:** This lesson introduces a more intentional approach to processing email that creates space for focused work, reduces anxiety, and helps you maintain the mental clarity needed for meaningful academic contributions. While quick email replies typically feel productive they often create more back-and-forth message threads, taking up time and wasting cognitive energy. Spending more time on processing your email thoroughly allows you to spend less time in your inbox.
-
-**Key habits:**
-- **Spend extra time upfront understanding what each email truly requires:** Take the time to identify the real goal behind the message
-- **Provide complete information in your responses:** Close loops immediately by giving recipients everything they need
-- **Either handle it in two minutes, archive it, delete it, or move important information into your proper workflow:** Your inbox is not your to-do list
-- **Remember that your inbox isn't a to-do list:** Extract actionable items into your task management system
+> [!info] Lesson overview
+> **Objective:** Spend more time processing email to spend less time in email
+>
+> **Summary:** This lesson introduces a more intentional approach to processing email that creates space for focused work, reduces anxiety, and helps you maintain the mental clarity needed for meaningful academic contributions. While quick email replies typically feel productive they often create more back-and-forth message threads, taking up time and wasting cognitive energy. Spending more time on processing your email thoroughly allows you to spend less time in your inbox.
+>
+> **Key habits:**
+>
+> - Spend extra time upfront understanding what each email truly requires: Take the time to identify the real goal behind the message
+> - Provide complete information in your responses: Close loops immediately by giving recipients everything they need
+> - Either handle it in two minutes, archive it, delete it, or move important information into your proper workflow: Your inbox is not your to-do list
+> - Remember that your inbox isn't a to-do list: Extract actionable items into your task management system
 
 ## Introduction
 

@@ -1,6 +1,7 @@
 ---
-title: "Creating content efficiently"
-lesson_number: substitution-1
+title: Creating content efficiently
+lesson: 3
+description: Apply functional application literacy to routine content creation using structured prompting while developing critical evaluation skills.
 ---
 
 # Creating content efficiently

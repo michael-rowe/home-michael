@@ -1,27 +1,23 @@
 ---
-title: "Project notes"
+title: Project notes
+lesson: 4
+description: Create bounded spaces for complex, extended work to track meetings, tasks, and resources throughout a project's lifecycle.
 ---
-
-# Project notes
-
-> Every intellectual endeavour starts with a note. - Sönke Ahrens (2017)
-
-## Lesson overview
-
-**Objective:** Provide structure for projects through notes
-
-**Summary:** Academic projects span extended periods and involve multiple moving parts – meetings, tasks, deadlines, resources, and stakeholders. Project notes provide dedicated spaces to track this complexity, separate from the daily notes that manage your immediate work and the permanent notes that capture lasting insights. This lesson explores how to create project note systems that support both solo and collaborative work while remaining flexible enough to adapt to the varied nature of academic projects.
-
-**Key habits:**
-
-- Create dedicated spaces for projects that separate them from daily operational notes
-- Capture project-related information in project notes rather than scattering it across multiple systems
-- Review project notes weekly to track progress and identify next actions
-- Archive project notes when projects complete rather than deleting or keeping them active indefinitely
-
-[ez-toc]
+> [!info] Lesson overview
+> **Objective:** Provide structure for projects through notes
+>
+> **Summary:** Academic projects span extended periods and involve multiple moving parts – meetings, tasks, deadlines, resources, and stakeholders. Project notes provide dedicated spaces to track this complexity, separate from the daily notes that manage your immediate work and the permanent notes that capture lasting insights. This lesson explores how to create project note systems that support both solo and collaborative work while remaining flexible enough to adapt to the varied nature of academic projects.
+>
+> **Key habits:**
+>
+> - Create dedicated spaces for projects that separate them from daily operational notes
+> - Capture project-related information in project notes rather than scattering it across multiple systems
+> - Review project notes weekly to track progress and identify next actions
+> - Archive project notes when projects complete rather than deleting or keeping them active indefinitely
 
 ## Introduction
+
+> Every intellectual endeavour starts with a note. - Sönke Ahrens (2017)
 
 Academic projects can be sprawling, far-reaching, and long-lasting in ways that make them fundamentally different from daily tasks. Writing a journal article might span six months. Developing a new programme could take two years. Running a research project might involve multiple phases over several years. PhD studies stretch across three to seven years.
 

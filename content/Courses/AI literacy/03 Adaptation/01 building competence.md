@@ -1,6 +1,7 @@
 ---
-title: Building competence through reading
-lesson_number: adaptation-1
+title: Building competence
+lesson: 6
+description: Move beyond information extraction to developing genuine working competence in unfamiliar methodologies and theoretical frameworks.
 ---
 
 # Building competence through reading

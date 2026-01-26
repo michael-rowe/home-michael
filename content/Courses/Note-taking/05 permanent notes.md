@@ -1,27 +1,23 @@
 ---
-title: "Permanent notes"
+title: Permanent notes
+lesson: 5
+description: Preserve concepts and ideas that remain valuable throughout your career, building an external long-term memory that grows with your expertise.
 ---
-
-# Permanent notes
-
-> Evergreen [permanent] notes are written and organised to evolve, contribute, and accumulate over time, across projects. - Andy Matuschak (n.d.)
-
-## Lesson overview
-
-**Objective:** Create notes that you will keep for a lifetime
-
-**Summary:** Permanent notes preserve concepts and ideas that remain valuable regardless of your current project, institution, or location. Unlike daily notes that organise immediate work, temporary notes that are designed for deletion, or project notes that are archived when projects complete, permanent notes form an external long-term memory that grows and develops throughout your career. This lesson explores how to create concept-oriented notes that serve your thinking and writing across all your academic work.
-
-**Key habits:**
-
-- Create permanent notes based on concepts and ideas rather than on specific sources, projects, or events
-- Write permanent notes in your own words as complete thoughts rather than as fragments or quotes
-- Review literature notes regularly to identify ideas worth developing into permanent notes
-- Connect new permanent notes to existing ones, building a network of related ideas over time
-
-[ez-toc]
+> [!info] Lesson overview
+> **Objective:** Create notes that you will keep for a lifetime
+>
+> **Summary:** Permanent notes preserve concepts and ideas that remain valuable regardless of your current project, institution, or location. Unlike daily notes that organise immediate work, temporary notes that are designed for deletion, or project notes that are archived when projects complete, permanent notes form an external long-term memory that grows and develops throughout your career. This lesson explores how to create concept-oriented notes that serve your thinking and writing across all your academic work.
+>
+> **Key habits:**
+>
+> - Create permanent notes based on concepts and ideas rather than on specific sources, projects, or events
+> - Write permanent notes in your own words as complete thoughts rather than as fragments or quotes
+> - Review literature notes regularly to identify ideas worth developing into permanent notes
+> - Connect new permanent notes to existing ones, building a network of related ideas over time
 
 ## Introduction
+
+> Evergreen [permanent] notes are written and organised to evolve, contribute, and accumulate over time, across projects. - Andy Matuschak (n.d.)
 
 Some notes will still be valuable in a decade, but not if you keep them in your diary. The challenge is that without a systematic approach to note-taking, there's no clear framework for distinguishing between notes with a limited lifespan and notes that deserve to be kept forever. Meeting notes from three years ago probably aren't useful anymore. That brilliant insight about teaching methodology you captured somewhere two years ago might still be valuable, but where is it?
 

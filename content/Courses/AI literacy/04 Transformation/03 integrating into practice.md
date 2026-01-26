@@ -1,6 +1,7 @@
 ---
-title: Sustaining AI literacy through structural integration
-lesson_number: transformation-3
+title: Sustaining AI literacy
+lesson: 11
+description: Make AI literacy practices automatic through workflow redesign rather than relying on willpower.
 ---
 
 # Sustaining AI literacy through structural integration

@@ -1,31 +1,27 @@
 ---
-title: "Processing information"
+title: Processing information
 lesson: 4
+description: Convert information into something personally meaningful through the intellectual work of connecting, elaborating, questioning, and synthesising.
 ---
 
-# Processing information
+> [!info] Lesson overview
+> **Objective:** Convert information into something personally meaningful
+>
+> **Summary:** Having filtered sources, captured promising materials, and extracted key information into literature notes, you now face the central challenge of knowledge work: adding something of yourself that creates new understanding. Information becomes knowledge through processing—the intellectual work of connecting, elaborating, questioning, and synthesising. This processing happens through writing, which isn't a luxury saved for when inspiration strikes but a regular, iterative practice of working through ideas. This lesson establishes daily writing habits that transform extracted information into original insight.
+>
+> **Key habits:**
+>
+> - Schedule daily writing sessions (even 30 minutes) dedicated to processing information
+> - Engage in dialogue with extracted notes by asking questions and making observations
+> - Look for connections between different sources and ideas
+> - Identify relationships and patterns across your literature notes
+> - Produce something concrete from each processing session that advances your project work
+
+## Introduction
 
 > Reading furnishes the mind only with materials of knowledge; it is thinking that makes what we read ours. - John Locke
 
-## Lesson overview
-
-**Objective:** Convert information into something personally meaningful
-
-**Summary:** Having filtered sources, captured promising materials, and extracted key information into literature notes, you now face the central challenge of knowledge work: adding something of yourself that creates new understanding. Information becomes knowledge through processing—the intellectual work of connecting, elaborating, questioning, and synthesising. This processing happens through writing, which isn't a luxury saved for when inspiration strikes but a regular, iterative practice of working through ideas. This lesson establishes daily writing habits that transform extracted information into original insight.
-
-**Key habits:**
-
-- Schedule daily writing sessions (even 30 minutes) dedicated to processing information
-- Engage in dialogue with extracted notes by asking questions and making observations
-- Look for connections between different sources and ideas
-- Identify relationships and patterns across your literature notes
-- Produce something concrete from each processing session that advances your project work
-
 Processing is the craft of knowledge work. It's cognitively demanding, often frustrating, but ultimately the most rewarding part of academic practice.
-
-[ez-toc]
-
-## Introduction
 
 You've built a personal library of high-quality sources. You've extracted relevant information from those sources into literature notes with annotations. But this collection of notes, however well-organised, remains information—content you've consumed but not yet transformed. Having more information doesn't automatically lead to better academic work. In fact, accumulating information without processing it often produces the opposite effect: analysis paralysis, fragmented understanding, and the nagging sense that you're always reading but never producing.
 

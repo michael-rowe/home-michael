@@ -19,18 +19,13 @@ Structured learning paths with practical exercises. 3-12 hours each.
 
 Long-form, research-informed writing. Deep dives into specific topics.
 
-- [[Essays/context-sovereignty|Context sovereignty for AI-supported learning]]
 - [[Essays/learning-alignment|The learning alignment problem]]
 - [[Essays/taste-and-judgement|Taste and judgement in human-AI systems]]
-- [[Essays/context-engineering|Context engineering]]
 - [[Essays/teaching-to-learning|From teaching to learning]]
-- [[Essays/publishing-with-purpose|Publishing with purpose]]
-- [[Essays/academic-framework|Academic framework for health professions]]
-- [[Essays/curriculum-infrastructure|Curriculum infrastructure]]
-- [[Essays/ai-integration-positioning|AI integration positioning]]
-- [[Essays/graph-user-interface|Graph-based user interface]]
-- [[Essays/language-technology|Language and technology]]
 - [[Essays/transparency-transforms-trust|Transparency transforms trust]]
+- [[Essays/context-sovereignty|Context sovereignty for AI-supported learning]]
+
+[[Essays/index|See all essays →]]
 
 ## Book
 
@@ -44,6 +39,8 @@ Shorter pieces — reflections, observations, ideas.
 
 - [[Posts/2025-10-10-a-better-game|A better game]]
 
+[[Posts/index|See all posts →]]
+
 ## Notes
 
 Brief reference notes on key concepts.
@@ -53,6 +50,8 @@ Brief reference notes on key concepts.
 - [[Notes/context sovereignty|Context sovereignty]]
 - [[Notes/prompt engineering|Prompt engineering]]
 
+[[Notes/index|See all notes →]]
+
 ## Coming soon
 
 - **Guides** — Focused how-to content
@@ -60,4 +59,4 @@ Brief reference notes on key concepts.
 
 ---
 
-[[start-here|← Back to start]]
+[[index|← Back to home]]

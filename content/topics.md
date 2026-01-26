@@ -44,4 +44,4 @@ How learning works and how to design for it.
 
 ---
 
-[[start-here|← Back to start]]
+[[index|← Back to home]]

@@ -1,6 +1,7 @@
 ---
-title: Developing problem framing literacy
-lesson_number: adaptation-3
+title: Problem decomposition
+lesson: 8
+description: Break down complex academic problems from multiple theoretical and methodological angles.
 ---
 
 # Developing problem framing literacy

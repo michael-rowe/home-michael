@@ -1,19 +1,20 @@
 ---
-title: "Avoiding email"
+title: Avoiding email
 lesson: 4
+description: Explore alternative communication channels that save time, preserve mental energy, and build better relationships.
 ---
 
-# Avoiding email
-
-**Objective:** Consider other options instead of email
-
-**Summary:** Email isn't always the best communication tool, even though we default to using it. Every email you send tends to generate more emails, creating a cycle that takes time away from your important work. Instead of automatically opening your inbox or firing off another message, pause to consider if there's a better way - like a quick phone call, coffee meeting, or walking to someone's office. You'll often find that a 10-minute conversation can replace a series of back-and-forth emails.
-
-**Key habits:**
-- **Question your email impulse:** Before sending an email, pause and ask: "Is this the best communication channel?"
-- **Batch similar communications:** Instead of responding to emails reactively, create dedicated time blocks for communication
-- **Protect focus time:** Create deliberate boundaries around communication to preserve mental space for high-value academic work
-- **Model better communication practices:** Proactively shape communication culture in your workplace
+> [!info] Lesson overview
+> **Objective:** Consider other options instead of email
+>
+> **Summary:** Email isn't always the best communication tool, even though we default to using it. Every email you send tends to generate more emails, creating a cycle that takes time away from your important work. Instead of automatically opening your inbox or firing off another message, pause to consider if there's a better way - like a quick phone call, coffee meeting, or walking to someone's office. You'll often find that a 10-minute conversation can replace a series of back-and-forth emails.
+>
+> **Key habits:**
+>
+> - Question your email impulse: Before sending an email, pause and ask: "Is this the best communication channel?"
+> - Batch similar communications: Instead of responding to emails reactively, create dedicated time blocks for communication
+> - Protect focus time: Create deliberate boundaries around communication to preserve mental space for high-value academic work
+> - Model better communication practices: Proactively shape communication culture in your workplace
 
 ## Introduction
 

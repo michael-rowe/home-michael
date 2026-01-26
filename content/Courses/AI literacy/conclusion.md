@@ -1,3 +1,9 @@
+---
+title: Conclusion
+lesson: 12
+description: Reflecting on your AI literacy development and planning for ongoing cultivation of capability across all six dimensions.
+---
+
 ## Sustaining and developing AI literacy
 
 You've completed 11 lessons developing comprehensive AI literacy. You've worked through conceptual foundations, practical application across multiple domains, and frameworks for cultivating professional judgement. You've practiced with your actual academic work, reflected on what creates meaningful versus superficial engagement, and designed structural integration that makes literate practice sustainable.

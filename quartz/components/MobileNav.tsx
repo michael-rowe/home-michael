@@ -13,11 +13,7 @@ interface MobileNavOptions {
 
 const defaultOptions: MobileNavOptions = {
   links: [
-    { text: "Book", slug: "Book/" },
-    { text: "Courses", slug: "Courses/" },
-    { text: "Essays", slug: "Essays/" },
-    { text: "Posts", slug: "Posts/" },
-    { text: "Notes", slug: "Notes/" },
+    { text: "Browse", slug: "formats" },
     { text: "About", slug: "about" },
     { text: "Contact", slug: "contact" },
     { text: "Newsletter", slug: "newsletter" },

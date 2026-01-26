@@ -1,6 +1,7 @@
 ---
-title: "Reading for information"
-lesson_number: substitution-2
+title: Reading for information
+lesson: 4
+description: Extract information efficiently from academic papers while maintaining critical reading practices and understanding the difference between extraction and competence.
 ---
 
 # Reading for information

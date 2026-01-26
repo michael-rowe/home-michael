@@ -1,75 +1,28 @@
 ---
-title: "Day-theming"
-lesson_number: 4
-lesson_id: time-management-04-day-theming
-course_id: time-management-academics
-subtitle: "Allocate related tasks to specific days"
-lesson_order: 4
-module: "Time Management Implementation"
-section: "Advanced Practices"
-status: published
-version: "1.0"
-objective: "Allocate related tasks to specific days"
-summary: "Day-theming is a flexible approach to organising academic work that helps you maintain progress across different responsibilities without feeling overwhelmed. Instead of frantically juggling multiple priorities each day, you create intentional patterns that align with your natural rhythms and institutional requirements."
-description: "Learn to organise your week using day-theming approaches based on task categories, energy levels, location, or projects to reduce context-switching and maintain calm productivity."
-estimated_time: "45-55 minutes"
-difficulty: "intermediate"
-learning_type: "mixed"
-key_concepts:
-  - "Day-theming fundamentals"
-  - "Traditional categorical theming"
-  - "Energy-based theming"
-  - "Location-based theming"
-  - "Project-based theming"
-  - "Flexible boundaries"
-key_habits:
-  - "Regular pattern recognition of work rhythms and energy levels"
-  - "Intentional task batching by theme"
-  - "Flexible boundary setting around themed blocks"
-  - "Weekly reflection and adjustment of themes"
-tags:
-  - time-management
-  - day-theming
-  - weekly-planning
-  - work-patterns
-  - sustainable-productivity
-prerequisites:
-  - Understanding of time-blocking
-  - Experience with task categorization
-builds_on:
-  - time-management-02-types-of-tasks
-  - time-management-03-time-blocking
-prepares_for:
-  - time-management-05-reviews
-required_materials:
-  - Weekly calendar
-  - Day-theming template
-optional_materials:
-  - Energy tracking log
-has_quiz: false
-has_assignment: false
-has_reflection: true
-assessment_type: practice-based
-progress_sections: 8
-completion_criteria: complete-all-sections
-created: 2024-10-12
-updated: 2024-10-12
-published: 2024-10-12
-previous_lesson: time-management-03-time-blocking
-next_lesson: time-management-05-reviews
-course_page: time-management-academics
-author:
-  - Michael Rowe
-language: en
+title: Day-theming
+lesson: 4
+description: Learn to organise your week using day-theming approaches based on task categories, energy levels, location, or projects to reduce context-switching and maintain calm productivity.
 ---
 
-# Day-theming
+> [!info] Lesson overview
+> **Objective:** Allocate related tasks to specific days
+>
+> **Summary:** Day-theming is a flexible approach to organising academic work that helps you maintain progress across different responsibilities without feeling overwhelmed. Instead of frantically juggling multiple priorities each day, you create intentional patterns that align with your natural rhythms and institutional requirements.
+>
+> **Key habits:**
+>
+> - Regular pattern recognition of work rhythms and energy levels
+> - Intentional task batching by theme
+> - Flexible boundary setting around themed blocks
+> - Weekly reflection and adjustment of themes
 
-One of the biggest challenges being an academic is that there are so many projects to move forward. You need to teach and set assessments, mark assignments, attend meetings, conduct research, secure funding, contribute to your professional community, supervise postgraduate students, and provide input on reports. And then there's email. How do you ensure that you're making progress in all the areas of scholarship that you're responsible for?
+## Introduction
 
 > How we spend our days is, of course, how we spend our lives. What we do with this hour, and that one, is what we are doing.
 >
 > Annie Dillard (2013)
+
+One of the biggest challenges being an academic is that there are so many projects to move forward. You need to teach and set assessments, mark assignments, attend meetings, conduct research, secure funding, contribute to your professional community, supervise postgraduate students, and provide input on reports. And then there's email. How do you ensure that you're making progress in all the areas of scholarship that you're responsible for?
 
 ## Set aside specific days for related tasks
 

@@ -1,71 +1,28 @@
 ---
-title: "Types of tasks"
-lesson_number: 2
-lesson_id: time-management-02-types-of-tasks
-course_id: time-management-academics
-subtitle: Define the different types of tasks in your working context
-lesson_order: 2
-module: Time Management Fundamentals
-section: Foundation
-status: published
-version: "1.0"
-objective: Define the different types of tasks in your working context
-summary: Not all tasks deserve equal time or attention in your schedule. By thoughtfully categorising your academic work into high-value, important, and routine tasks, you can protect your peak cognitive hours (3-4 hours daily) for the deep, meaningful work that really matters.
+title: Types of tasks
+lesson: 2
 description: Learn to categorize academic tasks strategically to protect peak cognitive hours for high-value work while managing routine responsibilities effectively.
-estimated_time: 35-45 minutes
-difficulty: beginner
-learning_type: practical
-key_concepts:
-  - Task categorization and prioritization
-  - High-value vs routine tasks
-  - Eisenhower matrix
-  - Strategic time allocation
-  - Clearing the decks fallacy
-key_habits:
-  - Identify and protect 2-3 blocks of focused time daily for high-value work
-  - Schedule routine tasks during lower-energy periods
-  - Batch similar administrative tasks together
-  - Review and adjust task categories weekly
-tags:
-  - time-management
-  - productivity
-  - task-prioritization
-  - deep-work
-  - academic-practice
-prerequisites:
-  - Understanding of fixed schedule productivity
-builds_on:
-  - time-management-01-working-hours
-prepares_for:
-  - time-management-03-time-blocking
-required_materials:
-  - Task list or current workload overview
-optional_materials:
-  - Eisenhower matrix template
-has_quiz: false
-has_assignment: false
-has_reflection: true
-assessment_type: self-reflection
-progress_sections: 7
-completion_criteria: complete-all-sections
-created: 2024-10-12
-updated: 2024-10-12
-published: 2024-10-12
-previous_lesson: time-management-01-working-hours
-next_lesson: time-management-03-time-blocking
-course_page: time-management-academics
-author:
-  - Michael Rowe
-language: en
 ---
 
-# Types of tasks
+> [!info] Lesson overview
+> **Objective:** Define the different types of tasks in your working context
+>
+> **Summary:** Not all tasks deserve equal time or attention in your schedule. By thoughtfully categorising your academic work into high-value, important, and routine tasks, you can protect your peak cognitive hours (3-4 hours daily) for the deep, meaningful work that really matters.
+>
+> **Key habits:**
+>
+> - Identify and protect 2-3 blocks of focused time daily for high-value work
+> - Schedule routine tasks during lower-energy periods
+> - Batch similar administrative tasks together
+> - Review and adjust task categories weekly
 
-An undifferentiated to-do list can very quickly become overwhelming. It's all very well to use lists of tasks to track your work, but when you create an undifferentiated to do list it can quickly become overwhelming. In these situations you may find that you tend to work on the small, easily completed tasks. They're quick wins where you feel as if you're making progress. But, you're really filling your day with an activity that Oliver Burkeman calls 'clearing the decks'. The problem with this approach is that there are always more incoming tasks, which is why you get to the end of the month having made very little progress on the big, high-value projects, even though you feel like you're always working. The reality is that you'll never clear the decks to make space for the work you want to do.
+## Introduction
 
 > I build my days around a core of carefully chosen deep work, with the shallow activities...batched into smaller bursts... Three to four hours a day, five days a week, of uninterrupted and carefully directed concentration...can produce a lot of valuable output.
 >
 > Cal Newport (2016)
+
+An undifferentiated to-do list can very quickly become overwhelming. It's all very well to use lists of tasks to track your work, but when you create an undifferentiated to do list it can quickly become overwhelming. In these situations you may find that you tend to work on the small, easily completed tasks. They're quick wins where you feel as if you're making progress. But, you're really filling your day with an activity that Oliver Burkeman calls 'clearing the decks'. The problem with this approach is that there are always more incoming tasks, which is why you get to the end of the month having made very little progress on the big, high-value projects, even though you feel like you're always working. The reality is that you'll never clear the decks to make space for the work you want to do.
 
 ## Different plans for different tasks
 

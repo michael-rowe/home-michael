@@ -1,19 +1,20 @@
 ---
-title: "Define your mission"
+title: Define your mission
 lesson: 2
+description: Identify the pressing problems where you can make meaningful contributions and develop a clear sense of purpose for your academic career.
 ---
 
-# Define your mission
-
-**Objective:** Identify a pressing problem to focus your career on
-
-**Summary:** Defining your academic mission means identifying important problems where you can make meaningful contributions. Early-career academics should focus on well-defined "normal" problems, while experienced scholars can tackle complex "wicked" problems that cross disciplinary boundaries. Your mission statement should be forward-looking, connecting your unique skills to larger challenges. This clarity creates the head space needed for sustainable, high-impact work by helping you distinguish between what's urgent and what's truly important.
-
-**Key habits:**
-- **Regular horizon scanning:** Dedicate time monthly to explore emerging challenges in your field and adjacent disciplines to identify meaningful problems where your expertise could contribute
-- **Skills-to-impact mapping:** Quarterly, evaluate how your developing expertise connects to pressing problems, adjusting your focus as your capabilities evolve
-- **Mission-aligned decision making:** Before accepting new commitments, explicitly evaluate them against your mission statement to protect your focus and energy
-- **Reflective adaptation:** Schedule bi-annual reviews of your mission statement, assessing how evolving knowledge and emerging challenges might reshape your understanding of your optimal contribution
+> [!info] Lesson overview
+> **Objective:** Identify a pressing problem to focus your career on
+>
+> **Summary:** Defining your academic mission means identifying important problems where you can make meaningful contributions. Early-career academics should focus on well-defined "normal" problems, while experienced scholars can tackle complex "wicked" problems that cross disciplinary boundaries. Your mission statement should be forward-looking, connecting your unique skills to larger challenges. This clarity creates the head space needed for sustainable, high-impact work by helping you distinguish between what's urgent and what's truly important.
+>
+> **Key habits:**
+>
+> - Regular horizon scanning: Dedicate time monthly to explore emerging challenges in your field and adjacent disciplines to identify meaningful problems where your expertise could contribute
+> - Skills-to-impact mapping: Quarterly, evaluate how your developing expertise connects to pressing problems, adjusting your focus as your capabilities evolve
+> - Mission-aligned decision making: Before accepting new commitments, explicitly evaluate them against your mission statement to protect your focus and energy
+> - Reflective adaptation: Schedule bi-annual reviews of your mission statement, assessing how evolving knowledge and emerging challenges might reshape your understanding of your optimal contribution
 
 ## Introduction
 

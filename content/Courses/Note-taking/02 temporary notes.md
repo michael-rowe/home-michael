@@ -1,27 +1,23 @@
 ---
-title: "Temporary notes"
+title: Temporary notes
+lesson: 2
+description: Create a designated home for information that's important enough to capture but doesn't yet have a clear destination.
 ---
-
-# Temporary notes
-
-> Fleeting [temporary] notes are only useful if you review them within a day or so and turn them into proper notes you can use later. Fleeting literature notes can make sense if you need an extra step to understand or grasp an idea, but they will not help you in the later stages of the writing process, as no underlined sentence will ever present itself when you need it in the development of an argument. - Sönke Ahrens (2017)
-
-## Lesson overview
-
-**Objective:** Use temporary notes to capture fleeting information
-
-**Summary:** Temporary notes capture the ideas, tasks, and information that arise when you can't immediately act on them or don't yet know where they belong in your system. Unlike daily notes that organise your day or permanent notes that preserve lasting insights, temporary notes are explicitly designed to be processed and then discarded. This lesson explores how to create a simple, reliable system for capturing temporary information without letting it accumulate into another source of anxiety.
-
-**Key habits:**
-
-- Capture temporary notes in a single, dedicated location rather than across multiple systems
-- Process your temporary notes at least weekly, moving information into your workflow or discarding it
-- Delete temporary notes once you've acted on the information they contain
-- Use simple tools that load quickly and work across all your devices
-
-[ez-toc]
+> [!info]
+> **Objective:** Use temporary notes to capture fleeting information
+>
+> **Summary:** Temporary notes capture the ideas, tasks, and information that arise when you can't immediately act on them or don't yet know where they belong in your system. Unlike daily notes that organise your day or permanent notes that preserve lasting insights, temporary notes are explicitly designed to be processed and then discarded. This lesson explores how to create a simple, reliable system for capturing temporary information without letting it accumulate into another source of anxiety.
+>
+> **Key habits:**
+>
+> - Capture temporary notes in a single, dedicated location rather than across multiple systems
+> - Process your temporary notes at least weekly, moving information into your workflow or discarding it
+> - Delete temporary notes once you've acted on the information they contain
+> - Use simple tools that load quickly and work across all your devices
 
 ## Introduction
+
+> Fleeting [temporary] notes are only useful if you review them within a day or so and turn them into proper notes you can use later. Fleeting literature notes can make sense if you need an extra step to understand or grasp an idea, but they will not help you in the later stages of the writing process, as no underlined sentence will ever present itself when you need it in the development of an argument. - Sönke Ahrens (2017)
 
 Fleeting thoughts tend not to have a 'home'. You're walking between meetings and remember you need to call the finance office. You're in a seminar and someone mentions a relevant article. You're making dinner and think of a way to restructure your module. You're reviewing a manuscript and spot a methodological approach to explore further.
 

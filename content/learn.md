@@ -42,4 +42,4 @@ Develop genuine capability with AI tools. 10-12 hours, all levels.
 
 ---
 
-[[start-here|← Back to start]]
+[[index|← Back to home]]

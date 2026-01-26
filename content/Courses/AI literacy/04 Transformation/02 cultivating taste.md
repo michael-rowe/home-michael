@@ -1,6 +1,7 @@
 ---
-title: Cultivating professional judgement
-lesson_number: transformation-2
+title: Cultivating taste
+lesson: 10
+description: Develop professional judgement about meaningful engagement that can't be reduced to rules.
 ---
 
 # Cultivating professional judgement

@@ -1,112 +1,28 @@
 ---
-title: "Time-blocking"
-lesson_number: 3
-lesson_id: "time-management-03-time-blocking"
-course_id: "time-management-academics"
-subtitle: "Allocate tasks to specific blocks of time in your schedule"
-
-# Lesson Structure
-lesson_order: 3
-module: "Time Management Implementation"
-section: "Core Practices"
-
-# Status
-status: "published"
-version: "1.0"
-
-# Content Description
-objective: "Allocate tasks to specific blocks of time in your schedule"
-summary: "Time-blocking is about taking control of your day before it controls you. By deliberately allocating blocks of time to specific tasks, you create protective boundaries around your high-value work. It's about making intentional choices that help you maintain focus on what matters while building in flexibility for the natural variations of academic life."
-description: "Learn to use time-blocking to protect high-value work, reduce context-switching, and create intentional daily structure that supports meaningful academic progress."
-
-# Learning Design
-estimated_time: "40-50 minutes"
-difficulty: "intermediate"
-learning_type: "practical"
-
-# Learning Elements
-key_concepts:
-  - "Time-blocking fundamentals"
-  - "Task batching"
-  - "Context-switching costs"
-  - "Buffer time and flexibility"
-  - "Proactive vs reactive scheduling"
-
-key_habits:
-  - "Start each day by blocking out protected time for highest-value work"
-  - "Batch similar tasks together to reduce context-switching"
-  - "Build in buffer time between blocks (15-30 minutes)"
-  - "Review and adjust blocks weekly while remaining flexible"
-
-activities:
-  - name: "Minimal viable time-blocking"
-    type: "practice"
-    duration: "15 minutes"
-  - name: "Week 1-4 implementation plan"
-    type: "practice"
-    duration: "20 minutes"
-
-# Taxonomy
-tags:
-  - time-management
-  - time-blocking
-  - scheduling
-  - deep-work
-  - context-switching
-
-# Prerequisites and Relationships
-prerequisites:
-  - "Understanding of task types and priorities"
-builds_on:
-  - "time-management-01-working-hours"
-  - "time-management-02-types-of-tasks"
-prepares_for:
-  - "time-management-04-day-theming"
-
-# Resources
-required_materials:
-  - "Calendar or scheduling tool"
-  - "Task list with priorities"
-optional_materials:
-  - "Time-blocking template"
-external_resources:
-  - name: "Deep Work"
-    url: ""
-    type: "book"
-
-# Assessment
-has_quiz: false
-has_assignment: false
-has_reflection: true
-assessment_type: "practice-based"
-
-# Progress Tracking
-progress_sections: 9
-completion_criteria: "complete-all-sections"
-
-# Dates
-created: 2024-10-12
-updated: 2024-10-12
-published: 2024-10-12
-
-# Navigation
-previous_lesson: "time-management-02-types-of-tasks"
-next_lesson: "time-management-04-day-theming"
-course_page: "time-management-academics"
-
-# Metadata
-author:
-  - "Michael Rowe"
-language: "en"
+title: Time-blocking
+lesson: 3
+description: Learn to use time-blocking to protect high-value work, reduce context-switching, and create intentional daily structure that supports meaningful academic progress.
 ---
 
-# Time-blocking
+> [!info] Lesson overview
+> **Objective:** Allocate tasks to specific blocks of time in your schedule
+>
+> **Summary:** Time-blocking is about taking control of your day before it controls you. By deliberately allocating blocks of time to specific tasks, you create protective boundaries around your high-value work. It's about making intentional choices that help you maintain focus on what matters while building in flexibility for the natural variations of academic life.
+>
+> **Key habits:**
+>
+> - Start each day by blocking out protected time for highest-value work
+> - Batch similar tasks together to reduce context-switching
+> - Build in buffer time between blocks (15-30 minutes)
+> - Review and adjust blocks weekly while remaining flexible
 
-No-one is going to create time in your schedule for you to do the deep work that will move your career forward. Starting your day without a plan typically means that you start your day with email, which probably isn't going to help you move your meaningful work forward. Alternatively, you start your day by reacting to whoever gets to your office first with tasks that require your attention. Usually, these tasks are not high-value for you. And, even if you do manage to start working on a piece of writing, for example, frequent interruptions mean that you're always context-switching, paying a cognitive price every time this happens.
+## Introduction
 
 > I only write when inspiration strikes. Fortunately, it strikes at nine every morning.
 >
 > William Faulkner
+
+No-one is going to create time in your schedule for you to do the deep work that will move your career forward. Starting your day without a plan typically means that you start your day with email, which probably isn't going to help you move your meaningful work forward. Alternatively, you start your day by reacting to whoever gets to your office first with tasks that require your attention. Usually, these tasks are not high-value for you. And, even if you do manage to start working on a piece of writing, for example, frequent interruptions mean that you're always context-switching, paying a cognitive price every time this happens.
 
 ## Creating space for what matters
 

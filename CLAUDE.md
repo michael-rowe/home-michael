@@ -41,7 +41,8 @@ The site structure should centre these questions (inspired by open source projec
 When generating content for this site:
 
 - **British spelling**: Use British English spelling throughout (e.g., organised, colour, behaviour, centre, programme)
-- **Sentence case headings**: All headings should use sentence case, not title case (e.g., "How does it work?" not "How Does It Work?")
+- **Sentence case headings**: All headings MUST use sentence case, not title case (e.g., "How does it work?" not "How Does It Work?")
+- **Strict adherence**: This applies to all content, including course titles, section headers, and blog post titles.
 
 ## Technical overview
 

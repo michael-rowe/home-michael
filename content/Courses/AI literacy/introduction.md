@@ -1,3 +1,9 @@
+---
+title: Introduction
+lesson: 0
+description: Course orientation covering how the course works, what you'll need, and how to approach developing AI literacy for academic practice.
+---
+
 ## Welcome to developing AI literacy for academic practice
 
 You're about to begin an 11-lesson course that develops comprehensive AI literacy—the multidimensional capability to engage with generative AI critically, effectively, and responsibly across all aspects of your academic work.

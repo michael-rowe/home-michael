@@ -1,31 +1,27 @@
 ---
-title: "Sharing information"
+title: Sharing information
 lesson: 5
+description: Increase your career capital by sharing what you learn through practices that demonstrate your thinking and create value for others.
 ---
 
-# Sharing information
+> [!info] Lesson overview
+> **Objective:** Increase your career capital by sharing what you learn
+>
+> **Summary:** While many academics share links and sources on social media, relatively few share insights that demonstrate the intellectual work they've done with those sources. The difference between retweeting an article and offering critical commentary represents the difference between adding minimal value and contributing genuine insight to your professional community. When you share processed information rather than raw sources, you build career capital—the skills, connections, and reputation that create opportunities for advancement and impact. This lesson establishes practices for sharing work that demonstrates your thinking and creates value for others.
+>
+> **Key habits:**
+>
+> - Share something useful with someone at least once daily (even if just to one person)
+> - Add your own commentary or synthesis when sharing sources rather than passing them along without context
+> - Look for opportunities to transform private work into shareable formats (blog posts, newsletters, presentations)
+> - Focus on sharing processed insights rather than unprocessed information
+> - Remember that value comes from depth of insight, not breadth of distribution
+
+## Introduction
 
 > Writing is inherently a topic in psychology. It's a way that one mind can cause ideas to happen in another mind. - Steven Pinker (2014)
 
-## Lesson overview
-
-**Objective:** Increase your career capital by sharing what you learn
-
-**Summary:** While many academics share links and sources on social media, relatively few share insights that demonstrate the intellectual work they've done with those sources. The difference between retweeting an article and offering critical commentary represents the difference between adding minimal value and contributing genuine insight to your professional community. When you share processed information rather than raw sources, you build career capital—the skills, connections, and reputation that create opportunities for advancement and impact. This lesson establishes practices for sharing work that demonstrates your thinking and creates value for others.
-
-**Key habits:**
-
-- Share something useful with someone at least once daily (even if just to one person)
-- Add your own commentary or synthesis when sharing sources rather than passing them along without context
-- Look for opportunities to transform private work into shareable formats (blog posts, newsletters, presentations)
-- Focus on sharing processed insights rather than unprocessed information
-- Remember that value comes from depth of insight, not breadth of distribution
-
 Sharing closes the loop on information management. You've filtered sources, captured materials, extracted key information, and processed it into understanding. Now you contribute that understanding back to your professional community.
-
-[ez-toc]
-
-## Introduction
 
 You've built a system for managing information that moves from filtering sources to capturing promising materials, extracting relevant content, and processing that content into personal understanding. This system creates tremendous value for your own work—better research, more informed teaching, clearer thinking about disciplinary problems. But this value remains largely invisible to others unless you share it.
 

@@ -1,31 +1,27 @@
 ---
-title: "Filtering information"
+title: Filtering information
 lesson: 1
+description: Reduce the volume of information competing for your attention by becoming more selective about which sources you allow into your attention field.
 ---
 
-# Filtering information
+> [!info] Lesson overview
+> **Objective:** Reduce the volume of information competing for your attention
+>
+> **Summary:** Most academics are overwhelmed by turbulent information streams that fragment their attention and create cognitive overhead. By becoming more selective about which information sources you allow into your attention field, you can create the head space needed for deep, meaningful academic work. This lesson helps you establish clear criteria for filtering information, moving from reactive consumption to purposeful engagement with high-quality sources aligned with your current projects.
+>
+> **Key habits:**
+>
+> - Review and unsubscribe from low-value email lists and notifications weekly
+> - Unfollow social media accounts that don't contribute to current project work
+> - Remove social media apps from your phone to create helpful friction
+> - Turn off non-essential notifications across all devices
+> - Establish 'do not disturb' protocols during focused work sessions
+
+## Introduction
 
 > Everybody should be quiet near a little stream and listen. - Maurice Sendak (2001)
 
-## Lesson overview
-
-**Objective:** Reduce the volume of information competing for your attention
-
-**Summary:** Most academics are overwhelmed by turbulent information streams that fragment their attention and create cognitive overhead. By becoming more selective about which information sources you allow into your attention field, you can create the head space needed for deep, meaningful academic work. This lesson helps you establish clear criteria for filtering information, moving from reactive consumption to purposeful engagement with high-quality sources aligned with your current projects.
-
-**Key habits:**
-
-- Review and unsubscribe from low-value email lists and notifications weekly
-- Unfollow social media accounts that don't contribute to current project work
-- Remove social media apps from your phone to create helpful friction
-- Turn off non-essential notifications across all devices
-- Establish 'do not disturb' protocols during focused work sessions
-
 The volume of information available isn't your problem—your criteria for deciding what deserves attention is. When you're intentional about filtering information at the source, you reduce cognitive overhead and preserve mental energy for the work that genuinely matters.
-
-[ez-toc]
-
-## Introduction
 
 A guiding metaphor for this course on information management is that of a stream moving across your field of attention. While we want deep, slow-moving streams that we can sit beside and listen to, the streams most academics encounter are fast-moving and relatively shallow. Sendak's suggestion—that we sit quietly 'near a little stream and listen'—offers a welcome contrast to the turbulent torrents making up so much of modern academic life.
 

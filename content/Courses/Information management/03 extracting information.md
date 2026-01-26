@@ -1,31 +1,27 @@
 ---
-title: "Extracting information"
+title: Extracting information
 lesson: 3
+description: Extract high-value information from a variety of sources by establishing practices for systematic extraction that transforms captured sources into workable materials.
 ---
 
-# Extracting information
+> [!info] Lesson overview
+> **Objective:** Extract high-value information from a variety of sources
+>
+> **Summary:** Most information arrives in formats you can't easily work with—PDFs, videos, podcasts, emails, and images don't lend themselves to annotation, editing, or integration with other materials. Even text information is scattered across different applications and platforms. To convert raw sources into something useful for your academic work, you must extract what matters and move it somewhere you can process it further. This lesson establishes practices for systematic extraction that transforms captured sources into workable materials.
+>
+> **Key habits:**
+>
+> - Schedule dedicated reading time in your daily or weekly routine (even 30 minutes matters)
+> - Engage actively with sources through highlighting and annotation rather than passive reading
+> - Extract information that resonates with you, not everything the source contains
+> - Create notes associated with original sources so you can trace ideas back to their origins
+> - Ask "Why did I save this?" to guide what you extract and how you engage with it
+
+## Introduction
 
 > Every idea you have is downstream from what you consume. - James Clear (2020)
 
-## Lesson overview
-
-**Objective:** Extract high-value information from a variety of sources
-
-**Summary:** Most information arrives in formats you can't easily work with—PDFs, videos, podcasts, emails, and images don't lend themselves to annotation, editing, or integration with other materials. Even text information is scattered across different applications and platforms. To convert raw sources into something useful for your academic work, you must extract what matters and move it somewhere you can process it further. This lesson establishes practices for systematic extraction that transforms captured sources into workable materials.
-
-**Key habits:**
-
-- Schedule dedicated reading time in your daily or weekly routine (even 30 minutes matters)
-- Engage actively with sources through highlighting and annotation rather than passive reading
-- Extract information that resonates with you, not everything the source contains
-- Create notes associated with original sources so you can trace ideas back to their origins
-- Ask "Why did I save this?" to guide what you extract and how you engage with it
-
 Extraction is where you move from having sources to having ideas. It's laborious and time-consuming, but it's also where genuine understanding begins.
-
-[ez-toc]
-
-## Introduction
 
 You've filtered your information sources to reduce volume. You've captured promising materials into a personal library. But those captured sources remain in their original formats—PDFs sitting in a reference manager, bookmarked articles, saved videos, emails containing useful information. None of these formats are conducive to the kind of intellectual work academics do. You can't easily annotate a video. You can't search across multiple PDFs for related concepts. You can't synthesise ideas when they're locked in their original containers.
 

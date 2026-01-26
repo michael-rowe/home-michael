@@ -1,19 +1,20 @@
 ---
-title: "Ignoring email"
+title: Ignoring email
 lesson: 5
+description: Learn to distinguish between emails that require your attention and those that distract you, reclaiming your time for what matters.
 ---
 
-# Ignoring email
-
-**Objective:** Recognise that you don't have to respond to every email you receive
-
-**Summary:** Individual email habits shape more than just personal productivity - they influence the broader culture of academic communication. When we habitually respond to every message or work late clearing our inbox, these practices ripple through departments and institutions, creating unsustainable expectations that can lead to burnout. When you make thoughtful decisions about which emails truly require your attention, you're not just protecting your own time - you're contributing to a culture that values focused scholarly work over constant digital responsiveness.
-
-**Key habits:**
-- **Develop a quick mental triage system for incoming emails:** Make deliberate decisions about engagement rather than defaulting to response
-- **Build comfort with archiving ambiguous or non-essential messages:** Accept that not every email requires your engagement
-- **Learn to strategically convert unclear email exchanges into brief conversations when needed:** Use synchronous communication to quickly resolve ambiguous requests
-- **Maintain consistent boundaries around your email practices:** Focus preserved mental energy on high-value academic work
+> [!info] Lesson overview
+> **Objective:** Recognise that you don't have to respond to every email you receive
+>
+> **Summary:** Individual email habits shape more than just personal productivity - they influence the broader culture of academic communication. When we habitually respond to every message or work late clearing our inbox, these practices ripple through departments and institutions, creating unsustainable expectations that can lead to burnout. When you make thoughtful decisions about which emails truly require your attention, you're not just protecting your own time - you're contributing to a culture that values focused scholarly work over constant digital responsiveness.
+>
+> **Key habits:**
+>
+> - Develop a quick mental triage system for incoming emails: Make deliberate decisions about engagement rather than defaulting to response
+> - Build comfort with archiving ambiguous or non-essential messages: Accept that not every email requires your engagement
+> - Learn to strategically convert unclear email exchanges into brief conversations when needed: Use synchronous communication to quickly resolve ambiguous requests
+> - Maintain consistent boundaries around your email practices: Focus preserved mental energy on high-value academic work
 
 ## Introduction
 

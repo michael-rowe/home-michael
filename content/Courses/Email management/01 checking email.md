@@ -1,30 +1,32 @@
 ---
-title: "Checking email"
+title: Checking email
 lesson: 1
+description: Create intentional boundaries around your email habits to protect your cognitive energy for high-value work.
 ---
-# Checking email
 
-**Objective:** Establish a fixed routine for checking email
-
-**Summary:** Email management is crucial for academics trying to protect their most valuable resource: their attention. Starting your day with email surrenders your cognitive energy to other people's priorities, undermining your ability to focus on high-value academic work. Instead, aim to create intentional boundaries around email, treating it as a tool that supports your work rather than something that dictates your schedule.
-
-**Key habits:**
-- **Don't check email first thing:** Reserve your morning hours for high-value tasks
-- **Schedule specific times for email:** e.g. morning triage, mid-morning urgent replies, afternoon processing
-- **Turn off notifications:** You'll get to your messages during scheduled email sessions
-- **End each day with a quick inbox review:** Then disconnect until tomorrow
+> [!info] Lesson overview
+> **Objective:** Establish a fixed routine for checking email
+>
+> **Summary:** Email management is crucial for academics trying to protect their most valuable resource: their attention. Starting your day with email surrenders your cognitive energy to other people's priorities, undermining your ability to focus on high-value academic work. Instead, aim to create intentional boundaries around email, treating it as a tool that supports your work rather than something that dictates your schedule.
+>
+> **Key habits:**
+>
+> - Don't check email first thing: Reserve your morning hours for high-value tasks
+> - Schedule specific times for email: e.g. morning triage, mid-morning urgent replies, afternoon processing
+> - Turn off notifications: You'll get to your messages during scheduled email sessions
+> - End each day with a quick inbox review: Then disconnect until tomorrow
 
 ## Introduction
+
+> Email is a system that delivers other people's priorities to your attention.
+>
+> Chris Brogan
 
 Email is a deceptive distraction: it feels productive but often pulls us away from our most meaningful work. Like many academics, you're probably constantly juggling competing priorities - from research projects and teaching preparation to administrative duties and student support. When faced with an unstructured day, your inbox provides a ready-made list of tasks, making it particularly tempting to start there.
 
 This is why so many of us begin our day by checking email, letting other people's priorities dictate our schedule. Each message demands attention, fragmenting our focus and consuming mental bandwidth that could be directed toward more impactful work. When you don't have a clear plan for your day, your schedule will inevitably be prioritised for you through your inbox.
 
 That's why it's so important to create intentional boundaries around checking email, that protect our capacity for deep thinking and creative scholarship. By establishing sustainable email practices, you can maintain effective workplace communication while preserving space for the more meaningful work that drives you.
-
-> Email is a system that delivers other people's priorities to your attention.
->
-> Chris Brogan
 
 ## Don't start your day with email
 
