@@ -147,20 +147,20 @@ body[data-slug="index"] .recent-notes {
 :root {
   --entry-learn: #F8DE7E;
   --entry-learn-hover: #fce7a2;
-  --entry-topic: #B2D8D8;
-  --entry-topic-hover: #cce5e5;
-  --entry-format: #FFB6C1;
-  --entry-format-hover: #ffcdd5;
+  --entry-topic: #B8E6B8;
+  --entry-topic-hover: #d0f0d0;
+  --entry-format: #D8D0E8;
+  --entry-format-hover: #e8e0f8;
 }
 
 // Entry card colours (dark mode) - slightly muted for dark backgrounds
 :root[saved-theme="dark"] {
   --entry-learn: #c9a93d;
   --entry-learn-hover: #d4b854;
-  --entry-topic: #6a9e9e;
-  --entry-topic-hover: #7eb0b0;
-  --entry-format: #c98a94;
-  --entry-format-hover: #d49da6;
+  --entry-topic: #7ab87a;
+  --entry-topic-hover: #8ec88e;
+  --entry-format: #a898b8;
+  --entry-format-hover: #b8a8c8;
 }
 
 // Entry point cards for homepage navigation
@@ -417,4 +417,25 @@ body[data-slug="index"] .recent-notes {
 
 .form-submit:active {
   transform: scale(0.98);
+}
+
+// Start Course button for course landing pages
+.start-course-btn {
+  display: inline-block;
+  margin: 1.5rem 0;
+  padding: 0.875rem 2rem;
+  background-color: var(--secondary);
+  color: var(--light) !important;
+  text-decoration: none !important;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: all 0.2s ease;
+  border: none !important;
+
+  &:hover {
+    background-color: var(--tertiary);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
 }

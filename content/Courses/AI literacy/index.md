@@ -6,12 +6,7 @@ status: In Development
 duration: 10-12 hours
 level: All levels
 modules:
-  Foundation: Conceptual understanding of what AI is and how to communicate effectively with it
-  Substitution: Integrating AI into existing workflows for routine tasks
-  Adaptation: Reshaping practice around AI capabilities for genuinely different approaches
-  Transformation: Making AI a permanent part of professional infrastructure
 ---
-
 > [!info] Course details
 > <div class="comparison-grid">
 > <div class="comparison-column">
@@ -48,11 +43,4 @@ AI literacy isn't about learning software or memorising prompts. It's about deve
 - **Ethical awareness:** Understanding implications for academic integrity and scholarly values
 - **Contextual judgement:** Developing professional taste about when AI enhances versus undermines your work
 
-## Course structure
-
-The course uses a developmental framework across four modules:
-
-- **Foundation (Lessons 1-2):** Conceptual understanding of what AI is and how to communicate effectively with it
-- **Substitution (Lessons 3-5):** Integrating AI into existing workflows for routine tasks
-- **Adaptation (Lessons 6-8):** Reshaping practice around AI capabilities for genuinely different approaches
-- **Transformation (Lessons 9-11):** Making AI a permanent part of professional infrastructure
+<a href="introduction" class="start-course-btn">Start Course →</a>
