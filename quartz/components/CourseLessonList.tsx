@@ -97,15 +97,10 @@ export const CourseLessonList: QuartzComponent = ({
 
   if (isModular) {
     // Modular course: show modules with headings
+    // Introduction and Conclusion are hidden from this view but still accessible
+    // via the sidebar navigation and "Start Course" button
     return (
       <div class="course-lesson-list course-modular">
-        {/* Introduction lessons first */}
-        {introLessons.length > 0 && (
-          <div class="course-module course-intro">
-            <ul class="lesson-list">{introLessons.map(renderLesson)}</ul>
-          </div>
-        )}
-
         {/* Main modules */}
         {sortedModules.map((module) => (
           <div class="course-module">
@@ -117,17 +112,10 @@ export const CourseLessonList: QuartzComponent = ({
           </div>
         ))}
 
-        {/* Other direct lessons */}
+        {/* Other direct lessons (excluding intro/outro) */}
         {otherDirectLessons.length > 0 && (
           <div class="course-module course-supplementary">
             <ul class="lesson-list">{otherDirectLessons.map(renderLesson)}</ul>
-          </div>
-        )}
-
-        {/* Conclusion lessons last */}
-        {outroLessons.length > 0 && (
-          <div class="course-module course-outro">
-            <ul class="lesson-list">{outroLessons.map(renderLesson)}</ul>
           </div>
         )}
       </div>
