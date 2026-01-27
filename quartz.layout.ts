@@ -96,10 +96,6 @@ export const defaultListPageLayout: PageLayout = {
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
-    Component.ConditionalRender({
-      component: Component.BookOverview({ showCoverOnly: true }),
-      condition: (page) => page.fileData.slug === "Book/index",
-    }),
   ],
   left: [
     Component.PageTitle(),
@@ -122,10 +118,6 @@ export const defaultListPageLayout: PageLayout = {
     Component.Backlinks(),
   ],
   afterBody: [
-    Component.ConditionalRender({
-      component: Component.BookOverview({ showChaptersOnly: true }),
-      condition: (page) => page.fileData.slug === "Book/index",
-    }),
     Component.ConditionalRender({
       component: Component.CourseGrid(),
       condition: (page) => page.fileData.slug === "Courses/index",

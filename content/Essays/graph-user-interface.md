@@ -1,7 +1,7 @@
 ---
 title: "Beyond text boxes: Exploring a graph-based user interface for AI-supported learning"
 author:
-  - Michael Rowe
+  - "[[Michael Rowe]]"
 affiliation:
   - University of Lincoln
 email:
@@ -19,13 +19,8 @@ tags:
   - emergent-scholarship
   - scholarship
 doi:
-  live: ""
-  preprint: ""
-  journal: ""
 ---
-# Beyond text boxes: Exploring a graph-based user interface for AI-supported learning
-
-> [!tip] **Metadata**
+[!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: April 08, 2025

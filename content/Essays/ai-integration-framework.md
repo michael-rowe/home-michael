@@ -1,11 +1,11 @@
 ---
 title: "Avoiding innovation theatre: A framework for supporting institutional AI integration"
-author: "Michael Rowe"
-affiliation: "University of Lincoln"
-email: "mrowe@lincoln.ac.uk"
+author: "[[Michael Rowe]]"
+affiliation: University of Lincoln
+email: mrowe@lincoln.ac.uk
 abstract: "Higher education institutions face persistent pressure to demonstrate visible engagement with artificial intelligence, often resulting in what we characterise as innovation theatre - the performance of transformation without corresponding structural change. This paper presents a diagnostic framework that distinguishes between performative and structural integration through analysis of four operational domains: governance and accountability, resource architecture, learning systems, and boundary setting. Unlike maturity models that prescribe linear progression, this framework enables institutional leaders to assess whether organisational structures align with stated strategic intentions, revealing gaps between rhetoric and reality. The framework emerged from critical analysis of institutional AI responses but evolved toward practical utility for decision-makers operating within genuine constraints. We position this work as practitioner pattern recognition requiring subsequent empirical validation, outline specific validation pathways, and discuss implications for institutional strategy in contexts of technological disruption."
 version: 0.4
-created: "2025-12-05"
+created: 2025-12-05
 tags:
   - AI-forward
   - artificial-intelligence
@@ -13,19 +13,14 @@ tags:
   - organisational-infrastructure
   - risk-management
 doi:
-  live: ""
-  preprint: ""
-  journal: ""
 ---
-# Avoiding innovation theatre: A framework for supporting institutional AI integration
-
-> [!tip] **Metadata**
-> - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk)
-> - **Affiliations**: University of Lincoln
+> [!info] **About this essay**
+> - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk)
+> - **Affiliation**: University of Lincoln
 > - **Created**: Dec 05, 2025
 > - **Version**: 0.4
-> - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
-> - **Keywords**: AI-forward, artificial intelligence, leadership, organisational infrastructure, risk management: 
+> - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/content/Essays)
+> - **Keywords**: AI-forward, artificial intelligence, leadership, organisational infrastructure, risk management
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**: N/A
 > - **Peer reviewed**: No

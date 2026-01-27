@@ -1,7 +1,7 @@
 ---
 title: "The learning alignment problem: AI and the loss of control in higher education"
 author:
-  - Michael Rowe
+  - "[[Michael Rowe]]"
 affiliation:
   - University of Lincoln
 email:
@@ -20,13 +20,8 @@ tags:
   - learning
   - control
 doi:
-  live: ""
-  preprint: ""
-  journal: ""
 ---
-# The learning alignment problem: AI and the loss of control in higher education
-
-> [!tip] **Metadata**
+[!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: June 05, 2025

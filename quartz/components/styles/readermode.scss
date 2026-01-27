@@ -22,7 +22,7 @@
 }
 
 :root[reader-mode="on"] {
-  & .sidebar.left,
+  /* Right sidebar: Hide completely (reappear on hover) */
   & .sidebar.right {
     opacity: 0;
     transition: opacity 0.2s ease;
@@ -30,5 +30,20 @@
     &:hover {
       opacity: 1;
     }
+  }
+
+  /* Left sidebar: Hide specific navigation elements globally when reader mode is on */
+  /* We do NOT enable hover-to-reveal here because the toggle button is in the left sidebar,
+     so clicking it would immediately trigger the hover effect, preventing the hide. */
+  & .contextual-nav,
+  & .ai-literacy-nav {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+  }
+
+  /* Hide Recent Essays component completely */
+  & .recent-notes {
+    display: none;
   }
 }

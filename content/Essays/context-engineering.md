@@ -1,15 +1,15 @@
 ---
-title: "Context engineering and the technical foundations of educational transformation"
+title: Context engineering and the technical foundations of educational transformation
 author:
-  - Michael Rowe
-  - Wesley Lynch
+  - "[[Michael Rowe]]"
+  - "[[Wesley Lynch]]"
 affiliation:
   - University of Lincoln
   - Snapplify
 email:
   - mrowe@lincoln.ac.uk
   - wesley@snapplify.com
-abstract: "Higher education institutions face a fundamental choice in AI engagement that will determine whether they undergo genuine transformation or sophisticated preservation of existing paradigms. While institutional responses have centred on prompt engineering—teaching students to craft effective AI queries—this approach inadvertently reinforces hierarchical knowledge transmission models and container-based educational structures that increasingly misalign with professional practice. Context engineering emerges as a paradigmatic alternative that shifts focus from optimising individual AI interactions toward architecting persistent knowledge ecosystems. This demands sophisticated technical infrastructure including knowledge graphs capturing conceptual relationships, standardised protocols enabling federated intelligence, and persistent memory systems accumulating understanding over time. These technologies enable epistemic transformations that fundamentally reconceptualise how knowledge exists and operates within educational environments. Rather than discrete curricular containers, knowledge exists as interconnected networks where concepts gain meaning through relationships to broader understanding frameworks. Dynamic knowledge integration enables real-time incorporation of emerging research and community insights, while collaborative construction processes challenge traditional academic gatekeeping through democratic validation involving multiple stakeholder communities. The systemic implications prove profound, demanding governance reconceptualisation, substantial infrastructure investment, and operational transformation that most institutions currently lack capabilities to address effectively. Context engineering creates technical dependencies making traditional educational approaches increasingly untenable, establishing path dependencies favouring continued transformation over reversion to familiar paradigms. This analysis reveals context engineering as a potential watershed moment for higher education institutions seeking educational relevance and technological sophistication within rapidly evolving contexts that traditional academic structures struggle to address effectively."
+abstract: Higher education institutions face a fundamental choice in AI engagement that will determine whether they undergo genuine transformation or sophisticated preservation of existing paradigms. While institutional responses have centred on prompt engineering—teaching students to craft effective AI queries—this approach inadvertently reinforces hierarchical knowledge transmission models and container-based educational structures that increasingly misalign with professional practice. Context engineering emerges as a paradigmatic alternative that shifts focus from optimising individual AI interactions toward architecting persistent knowledge ecosystems. This demands sophisticated technical infrastructure including knowledge graphs capturing conceptual relationships, standardised protocols enabling federated intelligence, and persistent memory systems accumulating understanding over time. These technologies enable epistemic transformations that fundamentally reconceptualise how knowledge exists and operates within educational environments. Rather than discrete curricular containers, knowledge exists as interconnected networks where concepts gain meaning through relationships to broader understanding frameworks. Dynamic knowledge integration enables real-time incorporation of emerging research and community insights, while collaborative construction processes challenge traditional academic gatekeeping through democratic validation involving multiple stakeholder communities. The systemic implications prove profound, demanding governance reconceptualisation, substantial infrastructure investment, and operational transformation that most institutions currently lack capabilities to address effectively. Context engineering creates technical dependencies making traditional educational approaches increasingly untenable, establishing path dependencies favouring continued transformation over reversion to familiar paradigms. This analysis reveals context engineering as a potential watershed moment for higher education institutions seeking educational relevance and technological sophistication within rapidly evolving contexts that traditional academic structures struggle to address effectively.
 version: 0.7
 created: 2025-07-04
 tags:
@@ -24,14 +24,8 @@ tags:
   - personal-knowledge-management
   - personal-learning
 doi:
-  live: ""
-  preprint: ""
-  journal: ""
 ---
-
-# Context engineering and the technical foundations of educational transformation
-
-> [!tip] **Metadata**
+> [!info] **About this essay**
 > - **Authors**: Michael Rowe 1 ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk) and Wesley Lynch 2 ([LinkedIn](https://www.linkedin.com/in/wesleylynch/); wesley@snapplify.com)
 > - **Affiliations**: 1) University of Lincoln; 2) [Snapplify](https://www.snapplify.com)
 > - **Created**: 04 Jul, 2025

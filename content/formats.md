@@ -27,12 +27,6 @@ Long-form, research-informed writing. Deep dives into specific topics.
 
 [[Essays/index|See all essays →]]
 
-## Book
-
-The complete framework, explained chapter by chapter.
-
-- [[Book/index|Emergent scholarship: A framework for engaging with complex problems]]
-
 ## Posts
 
 Shorter pieces — reflections, observations, ideas.

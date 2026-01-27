@@ -1,8 +1,8 @@
 ---
 title: "Beyond document management: Graph infrastructure for professional education curricula"
 author:
-  - Michael Rowe
-  - Wesley Lynch
+  - "[[Michael Rowe]]"
+  - "[[Wesley Lynch]]"
 affiliation:
   - University of Lincoln
   - Snapplify
@@ -25,13 +25,8 @@ tags:
   - model-context-protocol
   - vector-database
 doi:
-  live: ""
-  preprint: ""
-  journal: ""
 ---
-# Beyond document management: Graph infrastructure for professional education curricula
-
-> [!tip] **Metadata**
+> [!info] **About this essay**
 > - **Authors**: Michael Rowe 1 ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk) and Wesley Lynch 2 ([LinkedIn](https://www.linkedin.com/in/wesleylynch/); wesley@snapplify.com)
 > - **Affiliations**: 1) University of Lincoln; 2) [Snapplify](https://www.snapplify.com)
 > - **Created**: Nov 08, 2025

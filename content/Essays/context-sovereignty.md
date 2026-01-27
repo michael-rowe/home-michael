@@ -1,8 +1,8 @@
 ---
 title: "Context sovereignty for AI-supported learning: A human-centred approach"
 author:
-  - Michael Rowe
-  - Wesley Lynch
+  - "[[Michael Rowe]]"
+  - "[[Wesley Lynch]]"
 affiliation:
   - University of Lincoln
   - Snapplify
@@ -21,14 +21,9 @@ tags:
   - educational-technology
   - human-AI-collaboration
   - personal-learning
-doi:
-  live: ""
-  preprint: "10.31219/osf.io/8czva_v1"
-  journal: ""
+doi: 10.31219/osf.io/8czva_v1
 ---
-# Context sovereignty for AI-supported learning: A human-centred approach
-
-> [!tip] **Metadata**
+> [!info] **About this essay**
 > - **Authors**: Michael Rowe 1 ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk) and Wesley Lynch 2 ([LinkedIn](https://www.linkedin.com/in/wesleylynch/); wesley@snapplify.com)
 > - **Affiliations**: 1) University of Lincoln; 2) [Snapplify](https://www.snapplify.com)
 > - **Created**: May 23, 2025

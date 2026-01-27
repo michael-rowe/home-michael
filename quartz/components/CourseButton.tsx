@@ -46,6 +46,14 @@ export default ((opts?: Partial<CourseButtonOptions>) => {
         )
       })
       .sort((a, b) => {
+        // Prioritize introduction
+        const aTitle = (a.frontmatter?.title as string)?.toLowerCase() ?? ""
+        const bTitle = (b.frontmatter?.title as string)?.toLowerCase() ?? ""
+        const aIsIntro = aTitle.includes("introduction")
+        const bIsIntro = bTitle.includes("introduction")
+        if (aIsIntro && !bIsIntro) return -1
+        if (!aIsIntro && bIsIntro) return 1
+
         const aLesson =
           (a.frontmatter?.lesson_number ?? a.frontmatter?.lesson_order ?? a.frontmatter?.lesson) as
             | number
@@ -105,7 +113,7 @@ export default ((opts?: Partial<CourseButtonOptions>) => {
   padding: 1rem 2rem;
   background-color: var(--secondary);
   color: var(--light);
-  border: none;
+  border: 2px solid var(--secondary);
   border-radius: 8px;
   font-size: 1.1rem;
   font-weight: 600;
@@ -116,6 +124,7 @@ export default ((opts?: Partial<CourseButtonOptions>) => {
 
 .course-button:hover {
   background-color: var(--tertiary);
+  border-color: var(--tertiary);
   color: var(--light);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);

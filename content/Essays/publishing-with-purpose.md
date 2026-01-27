@@ -1,7 +1,7 @@
 ---
-title: Publishing with purpose Using AI to enhance scientific discourse
+title: "Publishing with purpose: Using AI to enhance scientific discourse"
 author:
-  - Michael Rowe
+  - "[[Michael Rowe]]"
 affiliation:
   - University of Lincoln
 email:
@@ -16,14 +16,9 @@ tags:
   - publication
 version: 1.1
 created: 2025-01-27
-doi:
-  live: ""
-  preprint: 10.31219/osf.io/d7hwf_v1
-  published: ""
+doi: 10.31219/osf.io/d7hwf_v1
 ---
-# Publishing with purpose: Using AI to enhance scientific discourse
-
-> [!tip] Metadata
+> [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: January 27, 2025

@@ -1,5 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
+import { resolveRelative } from "../util/path"
 
 interface BookOverviewOptions {
   bookFolder?: string
@@ -79,7 +80,7 @@ export default ((opts?: Partial<BookOverviewOptions>) => {
       return (
         <div class={classNames(displayClass, "book-chapters")}>
           <h2>Chapters</h2>
-          <div class="chapter-list">
+          <ul class="chapter-list">
             {chapters.map((chapter) => {
               const chapterNum = chapter.frontmatter?.chapter_number as number | undefined
               const title = chapter.frontmatter?.title as string | undefined
@@ -91,23 +92,24 @@ export default ((opts?: Partial<BookOverviewOptions>) => {
                 ""
 
               return (
-                <div class="chapter-item">
-                  <div class="chapter-header">
-                    {chapterNum !== undefined && (
-                      <span class="chapter-number">Chapter {chapterNum}</span>
-                    )}
-                    <h3 class="chapter-title">
-                      <a href={`../${chapter.slug}`} class="internal">
-                        {title}
-                      </a>
-                    </h3>
-                    {subtitle && <p class="chapter-subtitle">{subtitle}</p>}
-                  </div>
-                  {description && <p class="chapter-description">{description}</p>}
-                </div>
+                <li class="chapter-item">
+                  <a
+                    href={resolveRelative(fileData.slug!, chapter.slug!)}
+                    class="chapter-link"
+                  >
+                    <div class="chapter-header">
+                      {chapterNum !== undefined && (
+                        <span class="chapter-number">Chapter {chapterNum}</span>
+                      )}
+                      <h3 class="chapter-title">{title}</h3>
+                      {subtitle && <p class="chapter-subtitle">{subtitle}</p>}
+                    </div>
+                    {description && <p class="chapter-description">{description}</p>}
+                  </a>
+                </li>
               )
             })}
-          </div>
+          </ul>
         </div>
       )
     }
@@ -152,26 +154,39 @@ export default ((opts?: Partial<BookOverviewOptions>) => {
 }
 
 .chapter-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 0.75rem;
 }
 
 .chapter-item {
-  padding: 1.5rem;
-  border-left: 3px solid var(--secondary);
-  background-color: var(--highlight);
-  border-radius: 4px;
-  transition: all 0.2s ease;
+  margin: 0;
 }
 
-.chapter-item:hover {
-  border-left-color: var(--tertiary);
-  background-color: var(--lightgray);
+.chapter-link {
+  display: block;
+  text-decoration: none;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: transparent;
+  transition: background-color 0.2s ease;
+  border: none !important;
+  color: var(--darkgray);
+}
+
+.chapter-link:hover,
+.chapter-link:focus,
+.chapter-link:active {
+  background-color: rgba(143, 159, 169, 0.1);
+  color: var(--darkgray);
+  text-decoration: none;
 }
 
 .chapter-header {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .chapter-number {
@@ -181,38 +196,31 @@ export default ((opts?: Partial<BookOverviewOptions>) => {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .chapter-title {
   margin: 0;
   font-size: 1.3rem;
   line-height: 1.3;
-}
-
-.chapter-title a {
   color: var(--dark);
-  text-decoration: none;
-  background-color: transparent;
-  padding: 0;
-}
-
-.chapter-title a:hover {
-  color: var(--secondary);
+  font-weight: 600;
 }
 
 .chapter-subtitle {
-  margin: 0.5rem 0 0 0;
+  margin: 0.25rem 0 0 0;
   font-size: 1rem;
   color: var(--gray);
   font-style: italic;
+  font-weight: 400;
 }
 
 .chapter-description {
-  margin: 0;
+  margin: 0.25rem 0 0 0;
   color: var(--darkgray);
-  line-height: 1.6;
+  line-height: 1.5;
   font-size: 0.95rem;
+  font-weight: 400;
 }
 
 @media (max-width: 800px) {
@@ -222,7 +230,7 @@ export default ((opts?: Partial<BookOverviewOptions>) => {
     max-width: 150px;
   }
 
-  .chapter-item {
+  .chapter-link {
     padding: 1rem;
   }
 

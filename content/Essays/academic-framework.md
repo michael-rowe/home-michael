@@ -1,7 +1,7 @@
 ---
 title: A theoretical framework for integrating AI into health professions education
 author:
-  - Michael Rowe
+  - "[[Michael Rowe]]"
 affiliation:
   - University of Lincoln
 email:
@@ -19,14 +19,9 @@ tags:
   - health-professions-education
   - learning-theory
   - emergent-scholarship
-doi:
-  live: ""
-  preprint: ""
-  journal: ""
+doi: 10.31219/osf.io/c764f_v1
 ---
-# A theoretical framework for integrating AI into health professions education
-
-> [!tip] Metadata
+> [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: March 29, 2025

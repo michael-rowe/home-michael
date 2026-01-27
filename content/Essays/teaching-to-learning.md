@@ -1,9 +1,9 @@
 ---
-title: "From teaching to learning - How emergent scholarship disrupts traditional education hieararchies"
-author: "Michael Rowe"
-affiliation: "University of Lincoln"
-email: "mrowe@lincoln.ac.uk"
-abstract: "Traditional education systems are built on a paradox - institutions dedicated to learning are structured almost entirely around teaching. This fundamental misalignment has persisted for centuries, with higher education operating on the assumption that teaching inevitably produces learning. This paper argues that the traditional model, where knowledge flows unidirectionally from expert to novice, no longer serves a world of information abundance and technological disruption. Emergent scholarship offers an alternative approach that reconceptualises learning as a complex, networked process emerging from connections rather than transmission. By shifting from knowledge authority to learning facilitation, educators can create environments where diverse participants contribute to collective understanding, challenging hierarchies that position faculty as sole knowledge producers. This transformation is particularly urgent as artificial intelligence develops capabilities once exclusive to human experts, fundamentally altering the educational landscape. Rather than fighting these technological changes, emergent scholarship integrates them as participants in the learning ecosystem while focusing on uniquely human capabilities like critical thinking and collaborative problem-solving. The shift from teaching hierarchies to learning networks requires reimagining not just pedagogical approaches but institutional structures, potentially creating educational environments that better prepare graduates for complexity and uncertainty while fostering more engaging experiences for all participants."
+title: "From teaching to learning: How emergent scholarship disrupts traditional education hierarchies"
+author: Michael Rowe
+affiliation: University of Lincoln
+email: mrowe@lincoln.ac.uk
+abstract: Traditional education systems are built on a paradox - institutions dedicated to learning are structured almost entirely around teaching. This fundamental misalignment has persisted for centuries, with higher education operating on the assumption that teaching inevitably produces learning. This paper argues that the traditional model, where knowledge flows unidirectionally from expert to novice, no longer serves a world of information abundance and technological disruption. Emergent scholarship offers an alternative approach that reconceptualises learning as a complex, networked process emerging from connections rather than transmission. By shifting from knowledge authority to learning facilitation, educators can create environments where diverse participants contribute to collective understanding, challenging hierarchies that position faculty as sole knowledge producers. This transformation is particularly urgent as artificial intelligence develops capabilities once exclusive to human experts, fundamentally altering the educational landscape. Rather than fighting these technological changes, emergent scholarship integrates them as participants in the learning ecosystem while focusing on uniquely human capabilities like critical thinking and collaborative problem-solving. The shift from teaching hierarchies to learning networks requires reimagining not just pedagogical approaches but institutional structures, potentially creating educational environments that better prepare graduates for complexity and uncertainty while fostering more engaging experiences for all participants.
 version: 0.5
 created: 2025-04-01
 tags:
@@ -12,13 +12,8 @@ tags:
   - higher-education
   - emergent-scholarship
 doi:
-  live: ""
-  preprint: ""
-  journal: ""
 ---
-# From teaching to learning: How emergent scholarship disrupts traditional education hierarchies
-
-> [!tip] Metadata
+[!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: April 01, 2025

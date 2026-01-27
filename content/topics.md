@@ -28,7 +28,6 @@ Managing time, information, and attention as an academic.
 
 Rethinking what it means to do knowledge work.
 
-- [[Book/index|Emergent scholarship]] *(book)*
 - [[Courses/Career development/index|Academic career development]] *(course)*
 - [[Essays/teaching-to-learning|From teaching to learning]] *(essay)*
 - [[Essays/publishing-with-purpose|Publishing with purpose]] *(essay)*

@@ -48,6 +48,14 @@ export default ((opts?: Partial<LessonNavOptions>) => {
         )
       })
       .sort((a, b) => {
+        // Prioritize introduction
+        const aTitle = (a.frontmatter?.title as string)?.toLowerCase() ?? ""
+        const bTitle = (b.frontmatter?.title as string)?.toLowerCase() ?? ""
+        const aIsIntro = aTitle.includes("introduction")
+        const bIsIntro = bTitle.includes("introduction")
+        if (aIsIntro && !bIsIntro) return -1
+        if (!aIsIntro && bIsIntro) return 1
+
         // Sort by lesson number if available
         const aLesson =
           (a.frontmatter?.lesson_number ?? a.frontmatter?.lesson_order ?? a.frontmatter?.lesson) as

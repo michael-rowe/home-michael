@@ -36,7 +36,7 @@ This isn't about publishing more. It's about working differently across the enti
 <a href="/formats" class="entry-card format">
 <span class="entry-card-title">By format</span>
 </a>
-<p class="entry-card-description">Courses, essays, posts, notes, book</p>
+<p class="entry-card-description">Courses, essays, posts, notes</p>
 </div>
 
 </div>
@@ -54,9 +54,6 @@ The most practical starting point. Build a sustainable system for managing your 
 
 **Essay**: [[Essays/learning-alignment|The learning alignment problem]]
 Why current approaches to AI in education are asking the wrong questions.
-
-**Book**: [[Book/01 introduction|Emergent scholarship: An introduction]]
-The full framework — what it is, why it matters, how to practise it.
 
 </div>
 

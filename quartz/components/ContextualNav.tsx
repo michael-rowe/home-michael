@@ -35,7 +35,6 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
     const isEssays = currentSlug.startsWith("Essays/")
     const isPosts = currentSlug.startsWith("Posts/")
     const isNotes = currentSlug.startsWith("Notes/")
-    const isBook = currentSlug.startsWith("Book/")
     const isCourses = currentSlug.startsWith("Courses/")
 
     // Essays: Show 5 most recent essays
@@ -240,40 +239,6 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
       )
     }
 
-    // Book: Show book chapters
-    if (isBook) {
-      const chapters = allFiles
-        .filter((f) => f.slug?.startsWith("Book/") && f.slug !== "Book/index")
-        .sort((a, b) => {
-          // Try to sort by chapter number if available in frontmatter
-          const aChapter = a.frontmatter?.chapter_number as number | undefined
-          const bChapter = b.frontmatter?.chapter_number as number | undefined
-          if (aChapter !== undefined && bChapter !== undefined) {
-            return aChapter - bChapter
-          }
-          // Fall back to alphabetical
-          return (a.frontmatter?.title ?? "").localeCompare(b.frontmatter?.title ?? "")
-        })
-
-      return (
-        <div class={classNames(displayClass, "contextual-nav")}>
-          <h3>Chapters</h3>
-          <ul>
-            {chapters.map((chapter) => (
-              <li>
-                <a href={resolveRelative(fileData.slug!, chapter.slug!)} class="internal">
-                  {chapter.frontmatter?.chapter_number !== undefined && (
-                    <span class="chapter-number">{chapter.frontmatter.chapter_number}. </span>
-                  )}
-                  {chapter.frontmatter?.title}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )
-    }
-
     // Courses: Show course lessons when viewing a specific course
     if (isCourses) {
       // Check if we're viewing a specific course (not the courses index)
@@ -292,6 +257,14 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
           return fParts[0] === "Courses" && fParts[1] === courseName && f.slug !== `Courses/${courseName}/index`
         })
         .sort((a, b) => {
+          // Prioritize introduction
+          const aTitle = (a.frontmatter?.title as string)?.toLowerCase() ?? ""
+          const bTitle = (b.frontmatter?.title as string)?.toLowerCase() ?? ""
+          const aIsIntro = aTitle.includes("introduction")
+          const bIsIntro = bTitle.includes("introduction")
+          if (aIsIntro && !bIsIntro) return -1
+          if (!aIsIntro && bIsIntro) return 1
+
           // Try to sort by lesson number if available in frontmatter
           // Check both lesson_number and lesson_order fields
           const aLesson = (a.frontmatter?.lesson_number ?? a.frontmatter?.lesson_order ?? a.frontmatter?.lesson) as number | undefined

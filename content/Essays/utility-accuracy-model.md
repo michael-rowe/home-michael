@@ -1,8 +1,36 @@
-# The Accessibility Paradox: Why 90% Accurate AI Tutors Outperform Perfect Textbooks in Student Learning
+---
+title: "Maximising utility through optimal accuracy: A model for  educational AI"
+author:
+  - "[[Michael Rowe]]"
+affiliation:
+  - University of Lincoln
+email:
+  - mrowe@lincoln.ac.uk
+abstract: Educational support systems have long prioritised accuracy as the primary metric of quality, resulting in technically excellent resources that remain largely unused. We present a mathematical framework demonstrating that AI tutoring systems with 10-15% error rates might achieve superior learning outcomes through increased utility compared to more accurate but less accessible alternatives. We show that the multiplicative relationship between accuracy and utilisation creates an 'accessibility paradox' where imperfect-but-accessible systems outperform perfect-but-unused ones. Furthermore, we argue that education's inherent error correction mechanisms and the pedagogical value of critical evaluation make this domain particularly suited for moderate-accuracy AI deployment. Our framework provides quantitative thresholds for acceptable error rates and challenges the prevailing assumption that educational AI must meet the same accuracy standards as, for example, diagnostic AI in healthcare.
+version: 0.4
+created: 2025-10-19
+tags:
+  - AI-tutoring
+  - educational-technology
+  - engagement
+  - learning-outcomes
+  - accessibility
+doi:
+---
+> [!info] **About this essay**
+> - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk)
+> - **Affiliation**: University of Lincoln
+> - **Created**: 19 October 2025
+> - **Version**: 0.4
+> - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/content/Essays)
+> - **Keywords**: AI tutoring, educational technology, engagement, learning outcomes, accessibility paradox
+> - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+> - **Preprint DOI**: N/A
+> - **Peer reviewed**: No
 
 ## Abstract
 
-Educational support systems have long prioritised accuracy as the primary metric of quality, resulting in technically excellent resources that remain largely unused. We present a mathematical framework demonstrating that AI tutoring systems with 10-15% error rates might achieve superior learning outcomes through dramatically increased engagement compared to more accurate but less accessible alternatives. We show that the multiplicative relationship between accuracy and utilisation creates an "accessibility paradox" where imperfect-but-engaging systems outperform perfect-but-unused ones. Furthermore, we argue that education's inherent error correction mechanisms and the pedagogical value of critical evaluation make this domain particularly suited for moderate-accuracy AI deployment. Our framework provides quantitative thresholds for acceptable error rates and challenges the prevailing assumption that educational AI must meet the same accuracy standards as, for example, diagnostic AI in healthcare.
+Educational support systems have long prioritised accuracy as the primary metric of quality, resulting in technically excellent resources that nonetheless may remain largely unused. We present a mathematical framework demonstrating that AI tutoring systems with 10-15% error rates might achieve superior learning outcomes through increased engagement compared to more accurate but less accessible alternatives. We show that the multiplicative relationship between accuracy and utilisation creates an "accessibility paradox" where imperfect-but-engaging systems outperform perfect-but-unused ones. Furthermore, we argue that education's inherent error correction mechanisms and the pedagogical value of critical evaluation make this domain particularly suited for moderate-accuracy AI deployment. Our framework provides quantitative thresholds for acceptable error rates and challenges the prevailing assumption that educational AI must meet the same accuracy standards as, for example, diagnostic AI in healthcare.
 
 ## 1. Introduction
 

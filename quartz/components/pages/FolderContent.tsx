@@ -126,9 +126,9 @@ export default ((opts?: Partial<FolderContentOptions>) => {
         : htmlToJsx(fileData.filePath!, tree)
     ) as ComponentChildren
 
-    // Don't show the automatic page listing on Courses/index or Book/index since custom components handle it
+    // Don't show the automatic page listing on Courses/index since custom components handle it
     const shouldShowPageListing =
-      fileData.slug !== "Courses/index" && fileData.slug !== "Book/index"
+      fileData.slug !== "Courses/index"
 
     // Detect folder types
     const isNotesFolder = fileData.slug === "Notes/index"

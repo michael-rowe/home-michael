@@ -1,20 +1,18 @@
 ---
 title: "From journals to networks: How transparency transforms trust in scholarship"
-author: "Michael Rowe"
-affiliation: "University of Lincoln"
-email: "mrowe@lincoln.ac.uk"
+author: "[[Michael Rowe]]"
+affiliation: University of Lincoln
+email: mrowe@lincoln.ac.uk
 abstract: "This essay examines the shifting landscape of trust in academic scholarship, challenging the traditional model where trust has been outsourced to publishers and journals as proxies for validation and quality assessment. While this system developed important mechanisms for scholarly trust, including persistent identification, version control, peer feedback, and contextual placement, technological change offers an opportunity to reclaim and enhance these mechanisms. Drawing on principles of emergent scholarship, I explore how trust can be reimagined through knowledge connection, innovation through openness, identity through community, value through engagement, and meaning through medium. This approach does not reject traditional scholarship but builds bridges between established practices and new possibilities, enabling a shift from institutional proxies to visible processes. The essay proposes a three-tier technical framework that maintains compatibility with traditional academic structures while introducing new possibilities: a live working environment where scholarship evolves through visible iteration; preprints with DOIs enabling persistent citation; and journal publication connecting to established incentive structures. This framework offers significant benefits, including greater scholarly autonomy, enhanced transparency, increased responsiveness, and recognition of diverse contributions. However, it also presents challenges: technical barriers to participation, potential fragmentation, increased resource demands, and recognition within traditional contexts. The result is not a replacement for traditional scholarship but an evolution that shifts trust from institutional proxies to visible processes, creating scholarship that is more connected, open, engaged, and ultimately more trustworthy."
 version: 0.5
 created: 2025-03-29
-tags: ["journal", "trust", "authorship"]
+tags:
+  - journal
+  - trust
+  - authorship
 doi:
-  live: ""
-  preprint: ""
-  journal: ""
 ---
-# From journals to networks: How transparency transforms trust in scholarship
-
-> [!tip] Metadata
+[!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: March 29, 2025

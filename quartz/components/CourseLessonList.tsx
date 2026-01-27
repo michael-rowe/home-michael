@@ -62,17 +62,32 @@ export const CourseLessonList: QuartzComponent = ({
     module.lessons.sort((a, b) => a.slug!.localeCompare(b.slug!))
   }
 
-  // Sort direct lessons by slug
-  directLessons.sort((a, b) => a.slug!.localeCompare(b.slug!))
+  // Sort direct lessons by slug, but prioritize introduction and conclusion
+  directLessons.sort((a, b) => {
+    const aTitle = (a.frontmatter?.title as string)?.toLowerCase() ?? ""
+    const bTitle = (b.frontmatter?.title as string)?.toLowerCase() ?? ""
+    const aIsIntro = aTitle.includes("introduction")
+    const bIsIntro = bTitle.includes("introduction")
+    const aIsOutro = aTitle.includes("conclusion") || aTitle.includes("summary")
+    const bIsOutro = bTitle.includes("conclusion") || bTitle.includes("summary")
+
+    if (aIsIntro && !bIsIntro) return -1
+    if (!aIsIntro && bIsIntro) return 1
+    if (aIsOutro && !bIsOutro) return 1
+    if (!aIsOutro && bIsOutro) return -1
+    return a.slug!.localeCompare(b.slug!)
+  })
 
   // Separate intro lessons (introduction) from outro lessons (conclusion)
   const introLessons = directLessons.filter((f) => {
     const title = (f.frontmatter?.title as string)?.toLowerCase() ?? ""
-    return title.includes("introduction")
+    const slug = f.slug?.toLowerCase() ?? ""
+    return title.includes("introduction") || slug.includes("introduction")
   })
   const outroLessons = directLessons.filter((f) => {
     const title = (f.frontmatter?.title as string)?.toLowerCase() ?? ""
-    return title.includes("conclusion") || title.includes("summary")
+    const slug = f.slug?.toLowerCase() ?? ""
+    return title.includes("conclusion") || title.includes("summary") || slug.includes("conclusion") || slug.includes("summary")
   })
   const otherDirectLessons = directLessons.filter(
     (f) => !introLessons.includes(f) && !outroLessons.includes(f),

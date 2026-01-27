@@ -9,7 +9,6 @@ interface ContentNavOptions {
 const defaultOptions: ContentNavOptions = {
   title: "Content",
   links: [
-    { text: "Book", slug: "Book/" },
     { text: "Courses", slug: "Courses/" },
     { text: "Essays", slug: "Essays/" },
     { text: "Posts", slug: "Posts/" },

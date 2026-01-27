@@ -37,4 +37,4 @@ This site is built with [Quartz](https://quartz.jzhao.xyz/), an open-source stat
 
 ---
 
-*Last updated: [Date]*
+*Last updated: 26 January 2026*

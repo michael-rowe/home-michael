@@ -39,7 +39,6 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     const isEssays = currentSlug.startsWith("Essays/")
     const isPosts = currentSlug.startsWith("Posts/")
     const isNotes = currentSlug.startsWith("Notes/")
-    const isBook = currentSlug.startsWith("Book/")
     const isCourses = currentSlug.startsWith("Courses/")
 
     // Get contextual navigation content
@@ -156,37 +155,6 @@ export default ((opts?: Partial<MobileNavOptions>) => {
                 <li>
                   <a href={resolveRelative(fileData.slug!, note!.slug!)} class="internal mobile-nav-link">
                     {note!.frontmatter?.title}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )
-      }
-    } else if (isBook) {
-      const chapters = allFiles
-        .filter((f) => f.slug?.startsWith("Book/") && f.slug !== "Book/index")
-        .sort((a, b) => {
-          const aChapter = a.frontmatter?.chapter_number as number | undefined
-          const bChapter = b.frontmatter?.chapter_number as number | undefined
-          if (aChapter !== undefined && bChapter !== undefined) {
-            return aChapter - bChapter
-          }
-          return (a.frontmatter?.title ?? "").localeCompare(b.frontmatter?.title ?? "")
-        })
-
-      if (chapters.length > 0) {
-        contextualContent = (
-          <div class="mobile-nav-section">
-            <h3>Chapters</h3>
-            <ul>
-              {chapters.map((chapter) => (
-                <li>
-                  <a href={resolveRelative(fileData.slug!, chapter.slug!)} class="internal mobile-nav-link">
-                    {chapter.frontmatter?.chapter_number !== undefined && (
-                      <span class="chapter-number">{chapter.frontmatter.chapter_number}. </span>
-                    )}
-                    {chapter.frontmatter?.title}
                   </a>
                 </li>
               ))}

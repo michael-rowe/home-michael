@@ -18,10 +18,6 @@ Read [[Posts/2025-10-10-a-better-game|A better game]]. It's a short piece that c
 
 Start with [[Courses/Time management/index|Time management for academics]]. It's the most immediately practical course, and you'll walk away with systems you can use tomorrow.
 
-### Want the full picture?
-
-Read the [[Book/01 introduction|introduction to the book]]. It explains what emergent scholarship is, why it matters, and how the pieces fit together.
-
 ---
 
 ## Or choose by what you need
@@ -39,7 +35,6 @@ Read the [[Book/01 introduction|introduction to the book]]. It explains what eme
 → [[Essays/learning-alignment|The learning alignment problem]]
 
 **"I want to rethink my entire approach to scholarship"**
-→ [[Book/01 introduction|The book]]
 → [[principles|Core principles]]
 
 ---
