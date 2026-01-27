@@ -4,19 +4,20 @@ lesson: 1
 description: Understand what generative AI is and how to approach it as language-based cognitive extension rather than software to operate.
 ---
 
-# AI as a cognitive partner
+> If you do not change direction, you may end up where you are heading.
+>
+> Lao Tzu
 
-## Lesson overview
-
-**Objective:** Understand what generative AI is and how to approach it as language-based cognitive extension rather than software to operate
-
-**Time to complete:** 40-45 minutes
-
-**What you'll do:** Work through concepts, practice with your own materials, and develop a framework for productive AI collaboration
-
-**Progress:** Section 1 of 10
-
----
+> [!info] Lesson overview
+> **Objective:** Understand what generative AI is and how to approach it as language-based cognitive extension rather than software to operate
+>
+> **Summary:** This lesson establishes the conceptual foundation for productive AI engagement. Most confusion about AI comes from applying the wrong mental model—treating it as a search engine, traditional software, or knowledge database. Understanding AI as language-based cognitive extension transforms how you approach collaboration and sets the stage for developing genuine literacy.
+>
+> **Key habits:**
+>
+> - Conversational engagement: Approach AI as a thinking partner rather than a query interface, providing context and building on responses iteratively
+> - Complementary error awareness: Recognise that you and AI make different kinds of mistakes, and use this to catch what each other misses
+> - Critical evaluation: Verify AI outputs against your scholarly judgement rather than accepting responses uncritically
 
 ## The scenario
 
@@ -33,11 +34,7 @@ The next morning, her colleague mentions using AI differently: "I don't ask it f
 This conversation leads somewhere useful.
 
 > [!question] Before we begin
-> How would you currently approach using AI for a research challenge like Sarah's? What's your mental model of what AI does? [Type one sentence—you'll reference this later]
-
-**Progress:** Section 2 of 10
-
----
+> How would you currently approach using AI for a research challenge like Sarah's? What's your mental model of what AI does?
 
 ## What AI isn't (and why it matters)
 
@@ -78,10 +75,6 @@ Most confusion about AI comes from applying the wrong mental model. Before explo
 > [!question] Quick reflection
 > When have you caught AI being confidently wrong about something in your field?
 
-**Progress:** Section 3 of 10
-
----
-
 ## Quick practice: transactional vs conversational
 
 > [!todo]- Activity: Experience the difference
@@ -89,19 +82,17 @@ Most confusion about AI comes from applying the wrong mental model. Before explo
 >
 > Let's experience the difference between treating AI as a search engine versus a thinking partner.
 >
-> **Part 1:** Choose a topic relevant to your current work—something you're genuinely curious about or stuck on. Open ChatGPT or Claude and ask a simple, direct question. For example: "What are the main theories of student engagement?" or "What methods work for teaching statistics?"
+> **Step 1: Simple query**
+> Choose a topic relevant to your current work—something you're genuinely curious about or stuck on. Open ChatGPT or Claude and ask a simple, direct question. For example: "What are the main theories of student engagement?" or "What methods work for teaching statistics?"
 >
 > Read the response but don't engage further. Note what you got and what's missing.
 >
-> **Part 2:** Now provide context: What's your specific situation? What have you already tried? What's the actual problem you're trying to solve?
+> **Step 2: Contextual conversation**
+> Now provide context: What's your specific situation? What have you already tried? What's the actual problem you're trying to solve?
 >
 > Read AI's response. Does it feel different? More useful?
 >
 > **Reflection:** What did conversation provide that the simple query didn't? When would you use each approach?
-
-**Progress:** Section 4 of 10
-
----
 
 ## Language as cognitive extension
 
@@ -132,10 +123,6 @@ But like all cognitive extensions, AI is only as valuable as the quality of enga
 >
 > </details>
 
-**Progress:** Section 5 of 10
-
----
-
 ## The collaboration framework
 
 Understanding AI as cognitive extension leads to a different model of engagement—one based on collaboration rather than tool operation.
@@ -153,10 +140,6 @@ A better metaphor is AI as collaborative thinking partner. Not equal partnership
 - **Responsibility is shared.** You're responsible for clear communication, appropriate framing, and critical evaluation. AI contributes relevant knowledge, alternative perspectives, and structured thinking.
 - **Quality emerges through interaction.** You refine through follow-up questions, clarifications, and iterative development.
 - **Context matters enormously.** The more effectively you communicate your context and needs, the more valuable AI contributions become.
-
-**Progress:** Section 6 of 10
-
----
 
 ## Understanding complementary errors
 
@@ -203,10 +186,6 @@ AI makes different errors than humans—it generates plausible but incorrect inf
 
 **The collaboration principle:** Productive engagement means you catch what AI misses whilst AI catches what you overlook. Neither participant is infallible, but together you reduce the error rate of working alone.
 
-**Progress:** Section 7 of 10
-
----
-
 ## Scaffolded practice: from observation to independence
 
 Let's work through how collaboration actually functions using a real example from your work.
@@ -237,15 +216,9 @@ You're preparing a research proposal and want to strengthen your literature revi
 > [!question] Think and draft
 > Think of something you're currently writing or revising. What specific challenge are you facing with it? Draft a conversational prompt you'd use with AI to think through this challenge. Remember: you're not asking AI to do the work, but to help you think more clearly about it.
 
-**Progress:** Section 8 of 10
+## Activity
 
----
-
-## Deeper practice: explore collaboration with your work
-
-> [!todo]- Activity: 10-minute exploration
-> **Time required:** 10 minutes
->
+> [!todo]- 10-minute exploration
 > Choose a current challenge in your academic work—something you're genuinely stuck on or uncertain about. This might be:
 >
 > - A section of writing that isn't working
@@ -253,10 +226,11 @@ You're preparing a research proposal and want to strengthen your literature revi
 > - A concept you're trying to explain to students
 > - A research direction you're uncertain about
 >
-> **Task:** Spend 10 minutes conversing with AI about this challenge. Important: You're not seeking AI to solve it, but using conversation to think more clearly about it.
+> **Step 1: Initiate conversation**
+> Spend 10 minutes conversing with AI about this challenge. Important: You're not seeking AI to solve it, but using conversation to think more clearly about it.
 >
+> **Step 2: Observe your process**
 > As you converse, notice:
->
 > - When does conversation help clarify your thinking?
 > - When does AI's response feel unhelpful or generic?
 > - What follow-up questions make the exchange more valuable?
@@ -264,36 +238,24 @@ You're preparing a research proposal and want to strengthen your literature revi
 >
 > **Reflection:** What became clearer through this conversation? What would you do differently next time?
 
-**Progress:** Section 9 of 10
-
----
-
 ## Key takeaways
 
-**AI as cognitive extension:** AI is language-based cognitive extension, not software you operate. This is the latest development in a long evolutionary history of humans using language technologies to extend thinking. You're not learning to operate a tool—you're developing fluency in a new form of language-based collaboration.
+- **AI as cognitive extension:** AI is language-based cognitive extension, not software you operate. This is the latest development in a long evolutionary history of humans using language technologies to extend thinking. You're not learning to operate a tool—you're developing fluency in a new form of language-based collaboration.
 
-**Shared responsibility for quality:** Collaboration requires shared responsibility for quality. You and AI make different kinds of errors. Productive engagement means you catch what AI misses (hallucinations, lack of nuance, generic outputs) whilst AI catches errors you might overlook (missing perspectives, logical inconsistencies, overlooked connections). Neither participant is infallible, but together you reduce the error rate of working alone.
+- **Shared responsibility for quality:** Collaboration requires shared responsibility for quality. You and AI make different kinds of errors. Productive engagement means you catch what AI misses (hallucinations, lack of nuance, generic outputs) whilst AI catches errors you might overlook (missing perspectives, logical inconsistencies, overlooked connections).
 
-**Conversation over commands:** When facing complex challenges, extended conversational engagement produces better outcomes than single transactional queries. Provide context, ask follow-up questions, treat initial responses as starting points rather than final outputs. This conversational fluency develops through practice—each interaction teaches you what works for your specific needs.
+- **Conversation over commands:** When facing complex challenges, extended conversational engagement produces better outcomes than single transactional queries. Provide context, ask follow-up questions, treat initial responses as starting points rather than final outputs.
 
-**Appropriate expectations:** AI excels at breadth across domains, pattern recognition, generating variations, and conversational exploration. It struggles with disciplinary expertise, original insight, accurate factual recall, and understanding your specific context without being told. Use AI to enhance your scholarly practice, not replace it. The goal is augmented intelligence—your expertise extended through AI capabilities.
-
----
+- **Appropriate expectations:** AI excels at breadth across domains, pattern recognition, generating variations, and conversational exploration. It struggles with disciplinary expertise, original insight, accurate factual recall, and understanding your specific context without being told.
 
 ## Your commitment
 
-> [!question] Reflection
-> Based on this lesson, what's one specific way you'll engage with AI differently this week?
-
----
+> [!question] Pause and reflect
+> Based on this lesson, what's one specific way you'll engage with AI differently this week? Document this commitment in your Action Journal.
 
 ## Looking ahead
 
 In the next lesson, we'll use this foundational understanding to develop structured prompting approaches that dramatically improve output quality. You'll learn how to communicate your needs clearly, build iterative conversations, and create a personal prompt library for recurring academic tasks.
-
-**Progress:** Section 10 of 10 — Lesson complete
-
----
 
 ## Resources
 
@@ -304,7 +266,3 @@ In the next lesson, we'll use this foundational understanding to develop structu
 - Ong, W. (2002). Orality and literacy: The technologising of the word. Routledge.
 - Mollick, E. & Mollick, L. (2023). Practical AI for instructors and students. YouTube series.
 - UNESCO. (2023). Guidance for generative AI in education and research. UNESCO.
-
----
-
-**Share your experience:** What habits and routines have you implemented in your own practice that have helped in this area? Do you have questions about your specific context that are not addressed in this lesson? Leave a comment for other participants below.

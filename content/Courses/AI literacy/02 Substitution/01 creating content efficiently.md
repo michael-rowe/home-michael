@@ -3,39 +3,35 @@ title: Creating content efficiently
 lesson: 3
 description: Apply functional application literacy to routine content creation using structured prompting while developing critical evaluation skills.
 ---
-
-# Creating content efficiently
-
-## Lesson overview
-
-**Objective:** Apply functional application literacy to routine content creation—using structured prompting to streamline common academic tasks while developing critical evaluation skills
-
-**Time to complete:** 60-70 minutes
-
-**What you'll do:** Learn workflows for common content creation tasks, practice with your actual work, and honestly evaluate whether AI produces genuine efficiency gains
-
-**Progress:** Section 1 of 12
-
----
+> [!info] Lesson overview
+> **Objective:** Apply functional application literacy to routine content creation—using structured prompting to streamline common academic tasks while developing critical evaluation skills
+>
+> **Summary:** This lesson develops substitution-level literacy: applying the RGID framework to accelerate bounded tasks like lesson planning, slides, assessment, and professional writing. You'll learn workflows for common content creation, practice with your actual work, and honestly evaluate whether AI produces genuine efficiency gains. The goal isn't to do more work—it's creating headspace for work that genuinely matters.
+>
+> **Key habits:**
+>
+> - Task selection: Choose high time-investment tasks with clear structure for AI assistance; manual may be faster for quick tasks
+> - Honest evaluation: Track time including all revision to assess whether AI actually saved time
+> - Time protection: Schedule reclaimed time for high-value work before it disappears into your schedule
 
 ## The contrast
 
-Dr Elena Rodriguez spends Monday morning creating a lesson plan for next week's seminar on qualitative research methods. She starts at 9am with coffee, a blank document, and good intentions.
+> Efficiency is doing things right; effectiveness is doing the right things.
+>
+> Peter Drucker
 
-By 11:30am, she has a rough outline but keeps second-guessing the activity sequence. Should the group discussion come before or after the methodology explanation? What examples will resonate with this particular cohort? She breaks for lunch, still not quite satisfied with the structure.
+Dr Elena Rodriguez spends Monday morning creating a lesson plan for next week's seminar on qualitative research methods. She starts at 09:00 with coffee, a blank document, and good intentions.
 
-After lunch, she refines the timing, adds discussion prompts, and creates a handout template. By 2pm—after 3 hours of work—she has a usable lesson plan. It's good, but the process was exhausting.
+By 11:30, she has a rough outline but keeps second-guessing the activity sequence. Should the group discussion come before or after the methodology explanation? What examples will resonate with this particular cohort? She breaks for lunch, still not quite satisfied with the structure.
+
+After lunch, she refines the timing, adds discussion prompts, and creates a handout template. By 14:00—after 3 hours of work—she has a usable lesson plan. It's good, but the process was exhausting.
 
 The following Monday, Elena tries something different. She opens Claude and spends 5 minutes structuring a detailed prompt: her pedagogical approach, student background, learning objectives, time constraints, and specific deliverables needed. AI generates a structured lesson plan in 30 seconds. Elena spends the next 40 minutes evaluating and refining—adjusting examples to her students, adding her research insights, modifying activities based on what she knows works with this cohort.
 
-By 10am—after 45 minutes total—she has a lesson plan that's just as good as last week's, and she's protected 2 hours for research writing.
+By 10:00—after 45 minutes total—she has a lesson plan that's just as good as last week's, and she's protected 2 hours for research writing.
 
 > [!question] Before we begin
 > Think about a recent time you spent hours on routine content creation (lesson plans, slides, emails, documentation). What made it time-consuming? What parts required your unique expertise vs structural work?
-
-**Progress:** Section 2 of 12
-
----
 
 ## Why efficiency matters for academics
 
@@ -62,11 +58,7 @@ Academic work involves relentless content creation: lesson plans, presentation s
 > We start with substitution because you need functional competence before attempting complex applications. You need to develop judgement about when AI helps and when it hinders through actual practice with bounded tasks.
 
 > [!question] Quick reflection
-> If AI saved you 2-3 hours per week on routine content creation, what would you do with that time? [Type one specific activity]
-
-**Progress:** Section 3 of 12
-
----
+> If AI saved you 2-3 hours per week on routine content creation, what would you do with that time?
 
 ## Workflow 1: Creating lesson plans
 
@@ -98,10 +90,12 @@ Here's a complete RGID prompt for a lesson plan. Read through and notice how it 
 
 > [!question] Self-explanation
 > Why does specifying "second-year sociology students" rather than just "students" matter?
-
-> [!example]- Show answer
+>
+> <details><summary><strong>Show answer</strong></summary>
 >
 > Specifying the level and discipline activates patterns relevant to that context—the sophistication level, disciplinary conventions, typical background knowledge, and common student challenges in sociology vs other fields. "Students" would produce generic content averaging across all contexts.
+>
+> </details>
 
 **Stage 2: Complete the instruction component**
 
@@ -111,10 +105,8 @@ Dr. Patel needs a lesson plan for a statistics workshop. The Role and Goal are p
 
 **[Goal]** I need a structured lesson plan for a 2-hour workshop on regression analysis for first-year research methods students who find statistics intimidating.
 
-**[Instruct]** Write 4-5 numbered items specifying what AI should include:
-
-> [!todo]- Your turn
-> [Write your 4-5 numbered items here]
+> [!todo]- Your turn: Write 4-5 numbered items
+> Write your 4-5 numbered items specifying what AI should include.
 
 > [!example]- See example completion
 >
@@ -124,9 +116,7 @@ Dr. Patel needs a lesson plan for a statistics workshop. The Role and Goal are p
 
 Think of a lesson or seminar you need to prepare. Create a complete RGID prompt for it.
 
-> [!todo]- Your turn
-> [Create your complete RGID prompt here]
->
+> [!todo]- Your turn: Create your complete RGID prompt
 > **Self-check:**
 >
 > - [ ] Role specifies pedagogical approach or teaching context
@@ -147,19 +137,13 @@ Think of a lesson or seminar you need to prepare. Create a complete RGID prompt 
 
 **Refine through follow-up:** "The discussion activity in section 2 seems too abstract. Suggest a more concrete activity connecting to [specific context relevant to your students]."
 
-**Personalize where it matters:** Add examples from your research, anecdotes that connect concepts, adaptations for students you know struggle, disciplinary context AI can't provide.
+**Personalise where it matters:** Add examples from your research, anecdotes that connect concepts, adaptations for students you know struggle, disciplinary context AI can't provide.
 
 **Typical time comparison:**
 
 - Manual lesson planning: 2-3 hours
 - With AI assistance: 45-60 minutes
 - **But track honestly**—if revision takes 2 hours, you didn't save time
-
-**✓ You can now structure lesson planning prompts**
-
-**Progress:** Section 4 of 12
-
----
 
 ## Workflow 2: Creating presentation slides
 
@@ -196,14 +180,8 @@ Whether for conferences, departmental meetings, or teaching, slide creation cons
 >
 > **Literacy note:** Extraction-level engagement works well here because slides are bounded, structured outputs. But generic slides aren't usable—your critical evaluation determines whether you deploy them.
 
-> [!todo] Quick practice
+> [!todo]- Quick practice
 > Think of your next presentation. Write a Goal statement for the slide deck that specifies topic, time frame, and audience.
-
-**✓ You can now match engagement levels to different content types**
-
-**Progress:** Section 5 of 12
-
----
 
 ## Workflow 3: Creating assessment questions
 
@@ -239,16 +217,8 @@ Quiz questions, exam prompts, discussion questions, assignment briefs—assessme
 >
 > **Literacy note:** This is where complementary errors become evident. AI generates plausible questions but may miss subtleties. You catch disciplinary nuance AI misses. Quality emerges through this partnership.
 
-> [!todo] Quick practice
+> [!todo]- Quick practice
 > Generate 3 quiz questions for a topic you're currently teaching. Use AI, then evaluate: would you actually use these with students? What needs adjustment?
->
-> **Your critical evaluation:**
-
-**✓ You can now evaluate efficiency honestly**
-
-**Progress:** Section 6 of 12
-
----
 
 ## Workflow 4: Professional emails and documentation
 
@@ -285,14 +255,8 @@ Routine professional correspondence—scheduling, documentation, responses—acc
 >
 > **Honest evaluation matters:** Not every task benefits from AI assistance.
 
-> [!todo] Quick practice
+> [!todo]- Quick practice
 > Compare approaches. Draft one routine email manually (time it). Draft a similar email with AI assistance (time it including revision). Which was actually faster?
->
-> **Your comparison:**
-
-**Progress:** Section 7 of 12
-
----
 
 ## Task selection: Choosing wisely
 
@@ -326,7 +290,7 @@ You have 45 minutes before your next meeting. Looking at your task list, you nee
 >
 > **Time total:** 20 + 15 + 5 + 3 + 7 = 50 minutes (5 minutes over, but manageable)
 >
-> **Learning:** Prioritize AI for high time-investment tasks with clear structure. Quick tasks are often faster manual. Tasks requiring your distinctive voice or expertise may not benefit from AI's generic starting point.
+> **Learning:** Prioritise AI for high time-investment tasks with clear structure. Quick tasks are often faster manual. Tasks requiring your distinctive voice or expertise may not benefit from AI's generic starting point.
 
 > [!example]- Option C: Don't use AI—do everything manually
 >
@@ -338,72 +302,39 @@ You have 45 minutes before your next meeting. Looking at your task list, you nee
 >
 > **Learning:** For genuinely time-intensive tasks with clear structure, AI assistance can prevent being overwhelmed. The question isn't "should I use AI?" but "which tasks benefit most from AI assistance?"
 
-> [!question] Reflection
+> [!question] Pause and reflect
 > Which option best balanced time investment with quality outcomes? What does this reveal about task selection?
 
 **Task selection principle:** Use AI for bounded, time-intensive tasks with clear structure. Manual may be faster for very quick tasks or those requiring your distinctive voice throughout.
 
-**✓ You can now choose appropriate tasks for AI assistance**
+## Activity
 
-**Progress:** Section 8 of 12
-
----
-
-## Activity: Apply to your actual work
-
-**Time required:** 20-25 minutes  
-**Objective:** Develop functional application and critical evaluation by using AI for real content creation, then honestly assessing efficiency
-
-Choose ONE content creation task from your actual workload this week:
-
-- Lesson plan or teaching material
-- Presentation slides
-- Assessment questions
-- Professional email or documentation
-- Other routine content you need to create
-
-**Commit to deploying it:** Only count this as successful if you actually use what you create in your work, not just practice.
-
-### Time tracking (be specific)
-
-> [!todo]- Your task details
-> **Task:** [What are you creating?]
+> [!todo]- Apply to your actual work
+> **Time required:** 20-25 minutes
 >
-> **Estimated normal time for this task:** [___] minutes
+> Choose ONE content creation task from your actual workload this week:
 >
-> **Start time:** [___]
-
-### Creation process
-
-> [!todo]- 1. Write your RGID prompt
-> [Write your prompt here]
-
-**2. Track your time:**
-
-- Prompt creation: [___] minutes
-- AI response review: [___] minutes
-- First revision round: [___] minutes
-- Second revision round: [___] minutes
-- Final polish: [___] minutes
-
-**3. Critical evaluation before finishing:**
-
-**Usability check:**
-
-- [ ] I would actually deploy this in my work without major additional revision
-- [ ] It meets my normal quality standards for this task type
-- [ ] It includes my distinctive perspective/examples/voice where it matters
-
-> [!question]- If any boxes unchecked
-> What specific revision is needed?
-
-**Finish time:** [___]
-
-**Total time including all revision:** [___] minutes
-
-**Progress:** Section 9 of 12
-
----
+> - Lesson plan or teaching material
+> - Presentation slides
+> - Assessment questions
+> - Professional email or documentation
+> - Other routine content you need to create
+>
+> **Commit to deploying it:** Only count this as successful if you actually use what you create in your work, not just practice.
+>
+> **Step 1: Write your RGID prompt**
+>
+> **Step 2: Track your time**
+> - Prompt creation: ___ minutes
+> - AI response review: ___ minutes
+> - First revision round: ___ minutes
+> - Second revision round: ___ minutes
+> - Final polish: ___ minutes
+>
+> **Step 3: Critical evaluation before finishing**
+> - [ ] I would actually deploy this in my work without major additional revision
+> - [ ] It meets my normal quality standards for this task type
+> - [ ] It includes my distinctive perspective/examples/voice where it matters
 
 ## Honest efficiency evaluation
 
@@ -411,9 +342,9 @@ This is the critical evaluation dimension of literacy. Be brutally honest—both
 
 ### Time analysis
 
-**Normal time for this task:** [_**] minutes  
-**Time with AI (including all revision):** [**_] minutes  
-**Net time saved (or lost):** [___] minutes
+- **Normal time for this task:** ___ minutes
+- **Time with AI (including all revision):** ___ minutes
+- **Net time saved (or lost):** ___ minutes
 
 ### Quality check
 
@@ -424,9 +355,7 @@ This is the critical evaluation dimension of literacy. Be brutally honest—both
 - [ ] Would use this approach again for this task type
 
 > [!question]- What made this task suitable for AI assistance?
-> [Reflect on what worked well]
-
-### OR if it didn't work:
+> Reflect on what worked well.
 
 **If it didn't work:**
 
@@ -436,19 +365,16 @@ This is the critical evaluation dimension of literacy. Be brutally honest—both
 - [ ] Wouldn't use AI for this task type again
 
 > [!question]- What made this unsuitable?
-> [Reflect on what didn't work]
+> Reflect on what didn't work.
 
 > [!example]- Troubleshooting: Why didn't this work?
 >
 > **Possible causes:**
 >
-> **Task too simple** - Faster to do manually than prompt (e.g., 2-sentence email)
->
-> **Task too complex** - Requires sustained expertise throughout, not just evaluation at the end
->
-> **Insufficient context in prompt** - AI couldn't generate useful output because it lacked critical information
->
-> **Task needed your voice from the start** - Generic AI starting point added revision burden rather than saving time
+> - **Task too simple** - Faster to do manually than prompt (e.g., 2-sentence email)
+> - **Task too complex** - Requires sustained expertise throughout, not just evaluation at the end
+> - **Insufficient context in prompt** - AI couldn't generate useful output because it lacked critical information
+> - **Task needed your voice from the start** - Generic AI starting point added revision burden rather than saving time
 >
 > **What to do:**
 >
@@ -459,108 +385,57 @@ This is the critical evaluation dimension of literacy. Be brutally honest—both
 
 **Literacy note:** Honest evaluation—including recognising what doesn't work—is essential for developing taste. If AI added overhead, that's valuable information about task characteristics, not a failure.
 
-**Progress:** Section 10 of 12
-
----
-
 ## Protecting the time you saved
 
 If you saved 20-30 minutes, that only matters if you protect that time for high-value work. Without intentional planning, efficiency gains simply disappear into your schedule.
 
-**If you saved time, schedule something specific RIGHT NOW:**
-
-> [!todo] Schedule your reclaimed time
+> [!todo]- Schedule your reclaimed time
 > **I will use this reclaimed time for:**
-> [examples: 30 minutes uninterrupted writing, reading one paper, leaving work earlier, proper lunch break, specific research task]
+> (examples: 30 minutes uninterrupted writing, reading one paper, leaving work earlier, proper lunch break, specific research task)
 >
-> **When:** [Specific day and time this week]
+> **When:** (Specific day and time this week)
 >
-> **Where:** [Location]
-
-**Put this in your calendar before other work fills the space:**
-
-- [ ] Calendar entry created
-- [ ] I've protected this time
+> **Where:** (Location)
+>
+> **Put this in your calendar before other work fills the space:**
+> - [ ] Calendar entry created
+> - [ ] I've protected this time
 
 **Why this matters:** This is contextual judgement—understanding how efficiency serves what matters to you. Saving time on slides is meaningless if you just fill that time with more email. Instrumental efficiency becomes meaningful when it serves your scholarly goals.
-
-**Progress:** Section 11 of 12
-
----
 
 ## Pattern recognition: Building your taste
 
 Looking across the workflows you've learned and the task you completed, identify patterns about when AI assistance works well.
 
-**List 2-3 routine content creation tasks you do regularly where AI might help:**
-
-**Task 1:**
-
-- Task type: [___]
-- Frequency: Weekly / Monthly
-- Time per instance: [___] minutes
-- Good candidate for AI? Yes / Maybe / No
-
-**Task 2:**
-
-- Task type: [___]
-- Frequency: Weekly / Monthly
-- Time per instance: [___] minutes
-- Good candidate for AI? Yes / Maybe / No
-
-**Task 3:**
-
-- Task type: [___]
-- Frequency: Weekly / Monthly
-- Time per instance: [___] minutes
-- Good candidate for AI? Yes / Maybe / No
-
-**What characteristics do your "good candidate" tasks share?**
-
-Possible patterns:
-
-- Bounded and routine (clear start and end)?
-- Follow predictable structures?
-- Require expertise to evaluate but not to generate initial structure?
-- Time-consuming but don't require your unique voice throughout?
-
-> [!question] Your pattern observations
-> [Reflect on what characteristics make tasks good candidates for AI]
+> [!question] Pause and reflect
+> List 2-3 routine content creation tasks you do regularly where AI might help. For each, note:
+> - Task type
+> - Frequency (weekly/monthly)
+> - Time per instance
+> - Good candidate for AI? (Yes/Maybe/No)
+>
+> What characteristics do your "good candidate" tasks share? Possible patterns:
+> - Bounded and routine (clear start and end)?
+> - Follow predictable structures?
+> - Require expertise to evaluate but not to generate initial structure?
+> - Time-consuming but don't require your unique voice throughout?
 
 **This is taste development:** Through repeated honest evaluation, you're building professional judgement about when substitution serves your work and when it doesn't. This pattern recognition is how literacy develops beyond technique mastery.
 
-**✓ You've demonstrated substitution-level literacy by deploying AI-created content in your actual work**
-
-**Progress:** Section 12 of 12 — Lesson complete
-
----
-
 ## Key takeaways
 
-### Substitution applies foundational literacy to specific tasks
+- **Substitution applies foundational literacy to specific tasks:** You're using extraction-level engagement and structured prompting (RGID from lesson 2) to accelerate bounded tasks—lesson planning, slides, assessment, professional writing—while maintaining quality through critical evaluation. Success means completing necessary content faster while maintaining acceptable quality.
 
-You're using extraction-level engagement and structured prompting (RGID from lesson 2) to accelerate bounded tasks—lesson planning, slides, assessment, professional writing—while maintaining quality through critical evaluation. This is instrumental efficiency: saving time on tasks that don't require deep engagement so you can redirect cognitive resources toward high-value work. Success means completing necessary content faster while maintaining acceptable quality.
+- **Efficiency serves headspace, not productivity:** The value of AI-assisted content creation isn't producing more content—it's producing necessary content efficiently so you have time for work that genuinely matters. Without intentional planning, efficiency gains simply disappear into your schedule. Identify high-value work that matters to you, then protect the time you save for those activities.
 
-### Efficiency serves headspace, not productivity
+- **Honest evaluation builds literacy:** Ask: Does this work? Is it usable? Did it actually save time including all revision? The evaluation is largely binary at substitution level—it works or it doesn't—but the honesty matters enormously for literacy development. If AI adds overhead rather than saving time for a particular task, that's valuable information.
 
-The value of AI-assisted content creation isn't producing more content—it's producing necessary content efficiently so you have time for work that genuinely matters. Without intentional planning, efficiency gains simply disappear into your schedule. Identify high-value work that matters to you, then protect the time you save for those activities. Schedule them before other commitments fill the space. This is contextual judgement—understanding how efficiency serves what matters.
-
-### Honest evaluation builds literacy
-
-Ask: Does this work? Is it usable? Did it actually save time including all revision? The evaluation is largely binary at substitution level—it works or it doesn't—but the honesty matters enormously for literacy development. If AI adds overhead rather than saving time for a particular task, that's valuable information. Through repeated honest evaluation across different tasks, you develop taste—professional judgement about when substitution serves your work and when it doesn't.
-
-### Not all work should be efficient
-
-Use AI to accelerate tasks that don't require deep engagement. Reserve your cognitive resources for work requiring genuine intellectual engagement—research, deep reading, developing original arguments. The efficiency you gain through substitution should serve your capacity for deep, meaningful scholarly work. That's what makes this AI literacy rather than just productivity hacking.
-
----
+- **Not all work should be efficient:** Use AI to accelerate tasks that don't require deep engagement. Reserve your cognitive resources for work requiring genuine intellectual engagement—research, deep reading, developing original arguments. The efficiency you gain through substitution should serve your capacity for deep, meaningful scholarly work.
 
 ## Your commitment
 
-> [!todo] Your commitment
-> Based on this lesson, what's one specific content creation task you'll try with AI assistance this week? How will you evaluate whether it produced genuine efficiency gains?
-
----
+> [!question] Pause and reflect
+> Based on this lesson, what's one specific content creation task you'll try with AI assistance this week? How will you evaluate whether it produced genuine efficiency gains? Document this commitment in your Action Journal.
 
 ## Looking ahead
 
@@ -568,25 +443,11 @@ You've applied functional application literacy to content creation. The next sub
 
 Before moving on, make sure you've identified at least one routine content creation task that benefited from AI assistance and one that didn't. Both observations inform your developing taste.
 
----
-
 ## Resources
-
-### AI-assisted content creation
 
 - Mollick, E. & Mollick, L. (2023). Using AI to implement effective teaching strategies in classrooms. SSRN.
 - Mollick, E. & Mollick, L. (2023). Assigning AI: Seven approaches for students, with prompts. SSRN Electronic Journal.
-
-### Time, attention, and headspace
-
 - Newport, C. (2016). Deep work: Rules for focused success in a distracted world. Grand Central Publishing.
 - Burkeman, O. (2021). Four thousand weeks: Time management for mortals. Farrar, Straus and Giroux.
-
-### Efficiency and meaningful work
-
 - Allen, D. (2015). Getting things done: The art of stress-free productivity. Penguin.
 - Drucker, P. (2006). The effective executive: The definitive guide to getting the right things done. Harper Business.
-
----
-
-**Share your experience:** What content creation tasks worked well with AI assistance? Which didn't? What helped you evaluate efficiency honestly? How are you protecting time you save? Honest accounts of what doesn't work are as valuable as success stories—they help everyone develop better taste.

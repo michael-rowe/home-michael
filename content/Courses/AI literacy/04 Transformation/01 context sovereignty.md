@@ -4,29 +4,25 @@ lesson: 9
 description: Build persistent AI partnerships with accumulated context about your research, disciplinary conventions, and scholarly goals.
 ---
 
-# Building context sovereignty
-
-## Lesson overview
-
-**Objective:** Develop metacognitive awareness and ethical responsibility in building persistent AI partnerships through systematic context management
-
-**Time to complete:** 3 hours total
-
-- **Teaching:** 35 minutes (this lesson)
-- **Documentation:** 2.5 hours (your independent work across 3-4 sessions)
-
-**What you'll do:** Learn the literacy framework for context sovereignty, then build your professional context document through reflected documentation work
-
-**Important note:** Unlike previous lessons, most of your time will be writing and reflecting, not learning new concepts. The literacy development happens through the reflection prompts embedded in the documentation work. Most academics complete the documentation across multiple sessions rather than all at once.
-
-**Progress:** Section 1 of 10
-
----
+> [!info] Lesson overview
+> **Objective:** Develop metacognitive awareness and ethical responsibility in building persistent AI partnerships through systematic context management
+>
+> **Summary:** This lesson moves beyond session-by-session AI engagement toward building persistent partnerships. You'll learn how to document professional context that AI can draw on across conversations—your expertise, current projects, methodological preferences, and recurring challenges. More importantly, you'll develop the metacognitive awareness and ethical judgement this requires.
+>
+> **Key habits:**
+>
+> - Context documentation: Systematically articulate your scholarly identity, expertise boundaries, and working patterns
+> - Ethical boundary-setting: Make deliberate choices about what to share and what to protect in persistent partnerships
+> - Maintenance commitment: Treat context as living infrastructure requiring regular updates as your work evolves
 
 ## The repetitive explaining problem
 
-[!question]- Reflection: Managing context with AI
-**Before we begin:** Think about your last 5 AI conversations. How much time did you spend explaining your project and context? Was any of it repetitive?
+> Knowledge is of two kinds. We know a subject ourselves, or we know where we can find information on it.
+>
+> Samuel Johnson
+
+> [!question]- Reflection: Managing context with AI
+> **Before we begin:** Think about your last 5 AI conversations. How much time did you spend explaining your project and context? Was any of it repetitive?
 
 Dr. Patel has a productive 45-minute conversation with AI about her research methodology. The engagement is sophisticated—AI understands her constructivist approach, her small-sample qualitative methods, her focus on lived experience.
 
@@ -42,40 +38,28 @@ AI responds immediately with context-appropriate suggestions. No re-explaining n
 
 **The difference:** Chen invested upfront. Patel pays the re-explaining tax every time. Plus Chen doesn't carry the cognitive load of wondering if AI remembers her context.
 
-**Progress:** Section 2 of 10
-
----
-
 ## Context sovereignty assessment
 
-**Time required:** 3 minutes
-
-[!question]- Reflection: Assessing your re-explaining patterns
-**How much time do you spend re-explaining context?**
-
-Think about your last 5 AI conversations about your work.
-
-**Total time spent explaining your project, methodology, and context:** [___] minutes
-
-**How much of that explanation was repetitive across conversations?** [___]%
-
-**Multiply:** (time × repetitive %) = wasted re-explaining time
-
-**Interpretation:**
-
-- **10+ minutes per conversation re-explaining:** You'd benefit significantly from systematic context documentation. This lesson is for you.
-- **5-9 minutes per conversation:** Moderate repetition—context documentation would help but isn't urgent.
-- **Under 5 minutes:** Either you're using AI for very simple tasks, or you're already managing context informally.
+> [!question]- Reflection: Assessing your re-explaining patterns
+> **How much time do you spend re-explaining context?**
+>
+> Think about your last 5 AI conversations about your work.
+>
+> **Total time spent explaining your project, methodology, and context:** [___] minutes
+>
+> **How much of that explanation was repetitive across conversations?** [___]%
+>
+> **Multiply:** (time × repetitive %) = wasted re-explaining time
+>
+> **Interpretation:**
+>
+> - **10+ minutes per conversation re-explaining:** You'd benefit significantly from systematic context documentation. This lesson is for you.
+> - **5-9 minutes per conversation:** Moderate repetition—context documentation would help but isn't urgent.
+> - **Under 5 minutes:** Either you're using AI for very simple tasks, or you're already managing context informally.
 
 **The question this lesson addresses:** What if you could eliminate repetitive re-explaining whilst building more sophisticated engagement through persistent context?
 
 **But also:** What are the implications of building persistent partnerships where AI accumulates understanding over time? What literacy capabilities does that require?
-
-**✓ You can now recognize whether repetitive re-explaining affects your work**
-
-**Progress:** Section 3 of 10
-
----
 
 ## What context sovereignty means
 
@@ -101,10 +85,6 @@ Think about your last 5 AI conversations about your work.
 
 **The core literacy question:** What should AI know about you to engage appropriately with your work, and what boundaries should that knowledge respect?
 
-**Progress:** Section 4 of 10
-
----
-
 ## What professional context includes
 
 Effective context has four components. Each requires reflection about what matters for engagement.
@@ -119,8 +99,8 @@ Effective context has four components. Each requires reflection about what matte
 - Methodological expertise and preferences
 - What you know deeply versus peripherally
 
-[!example]- Example: Documenting expertise
-"Senior lecturer in education with background in sociology. Expertise in academic workload and wellbeing using qualitative methods (interviews, ethnography) and organizational justice theory. Working knowledge of survey methods but limited statistical expertise. Know higher education policy well but limited K-12 knowledge."
+> [!example]- Example: Documenting expertise
+> "Senior lecturer in education with background in sociology. Expertise in academic workload and wellbeing using qualitative methods (interviews, ethnography) and organizational justice theory. Working knowledge of survey methods but limited statistical expertise. Know higher education policy well but limited K-12 knowledge."
 
 **Why this matters:** AI calibrates responses to your actual expertise level. But documenting this requires metacognitive awareness—understanding your genuine boundaries, not presenting idealized credentials.
 
@@ -135,8 +115,8 @@ Effective context has four components. Each requires reflection about what matte
 - Teaching preparation and development
 - Where you need support
 
-[!example]- Example: Documenting current work
-"Current projects: (1) Interview study on workload allocation—20 interviews completed, analysis phase, exploring how formal models relate to actual practice. (2) Conceptual paper on emergent scholarship—arguing for new framework, draft stage, struggling with positioning against existing concepts."
+> [!example]- Example: Documenting current work
+> "Current projects: (1) Interview study on workload allocation—20 interviews completed, analysis phase, exploring how formal models relate to actual practice. (2) Conceptual paper on emergent scholarship—arguing for new framework, draft stage, struggling with positioning against existing concepts."
 
 **Why this matters:** AI connects responses to your actual work rather than providing generic advice. But this requires ethical judgement about boundaries.
 
@@ -151,8 +131,8 @@ Effective context has four components. Each requires reflection about what matte
 - Tools and systems you actually use
 - How you actually work
 
-[!example]- Example: Documenting methodological preferences
-"Prefer qualitative interpretive approaches, work within constructivist paradigm, typically 15-25 participants. Real constraints: limited research time given teaching load, no funding for transcription services. Write best early mornings."
+> [!example]- Example: Documenting methodological preferences
+> "Prefer qualitative interpretive approaches, work within constructivist paradigm, typically 15-25 participants. Real constraints: limited research time given teaching load, no funding for transcription services. Write best early mornings."
 
 **Why this matters:** AI suggests approaches matching your reality rather than idealized methods you won't implement. Requires honest self-assessment.
 
@@ -166,16 +146,12 @@ Effective context has four components. Each requires reflection about what matte
 - Where you need support most
 - Patterns in what slows your work
 
-[!example]- Example: Documenting recurring challenges
-"Struggle with: literature review synthesis (tend to get lost in details), over-complicating arguments (lose main thread), writing concisely (wordiness). Value support on: identifying core claims, simplifying complex points."
+> [!example]- Example: Documenting recurring challenges
+> "Struggle with: literature review synthesis (tend to get lost in details), over-complicating arguments (lose main thread), writing concisely (wordiness). Value support on: identifying core claims, simplifying complex points."
 
 **Why this matters:** AI can proactively address known challenges. But requires vulnerability—acknowledging struggles isn't comfortable.
 
 **Literacy question:** Are you comfortable sharing professional challenges with an AI system?
-
-**Progress:** Section 5 of 10
-
----
 
 ## Decision point: Setting ethical boundaries
 
@@ -231,14 +207,10 @@ All without accessing any identifiable or sensitive information.
 
 </details>
 
-[!question]- Reflection: Setting ethical boundaries
-**What determines appropriate boundaries?** How do you decide what level of abstraction serves engagement while maintaining ethics?
+> [!question]- Reflection: Setting ethical boundaries
+> **What determines appropriate boundaries?** How do you decide what level of abstraction serves engagement while maintaining ethics?
 
 **Decision principle:** Document what AI needs to provide relevant support, abstract away identifiable details and sensitive information, exclude what doesn't serve engagement. This requires judgement—there's no formula.
-
-**Progress:** Section 6 of 10
-
----
 
 ## Building your professional context: The process
 
@@ -322,81 +294,76 @@ For each active project (research, writing, teaching, administrative):
 
 **Iterate:** Refine areas where context wasn't applied effectively. This testing develops your judgement about what context actually serves engagement.
 
-**Progress:** Section 7 of 10
+## Activity
 
----
-
-## Activity: Build your professional context
-
-**Total time: 2.5 hours across 3-4 sessions**
-
-Most academics find this works better as multiple shorter sessions rather than one long session. The reflection prompts are crucial—they develop literacy capabilities, not just documentation skills.
-
-[!todo]- Session 1: Map expertise and reflect (45 minutes)
-Complete Phase 1 documentation.
-
-**Open your note-taking system** or create a document titled "Professional Context - [Your Name]"
-
-**Document your expertise:**
-1. Disciplinary training and background
-2. Research specializations and publications
-3. Theoretical frameworks you work within
-4. Methodological expertise and preferences
-5. What you know deeply versus peripherally
-
-**Metacognitive reflection (write these down):**
-- What assumptions do I carry from my training? [___]
-- Where are my genuine expertise boundaries? [___]
-- What makes my scholarly approach distinctive? [___]
-- What gaps should AI be aware of? [___]
-
-[!todo]- Session 2: Document current work (45 minutes)
-Complete Phase 2 documentation.
-
-For each active project, document:
-1. Research question or goal
-2. Current stage and status
-3. Key challenges or stuck points
-4. Where you need support
-
-**Ethical boundary reflection (write these down):**
-- Are there aspects I'd prefer to keep separate? [___]
-- Does this involve confidential information? [___]
-- What level of detail serves engagement appropriately? [___]
-- What boundaries am I setting and why? [___]
-
-[!todo]- Session 3: Describe actual practice (30 minutes)
-Complete Phase 3 documentation.
-
-Document honestly:
-1. Tools and systems you actually use
-2. What you actually prioritize
-3. Recurring challenges where you genuinely need help
-4. Your real working patterns and constraints
-
-**Honest self-assessment (write these down):**
-- Am I documenting reality or aspiration? [___]
-- What constraints actually shape my work? [___]
-- Where do I genuinely struggle? [___]
-- What would actually help? [___]
-
-[!todo]- Session 4: Test and refine (30 minutes)
-Complete Phase 4 testing.
-
-1. Share your context document with AI
-2. Ask a work-related question
-3. Evaluate the response critically
-4. Refine based on what you learn
-
-**Critical evaluation (write these down):**
-- Did context improve engagement quality? [___]
-- Did AI respect my boundaries? [___]
-- What refinements would help? [___]
-- What did I learn about effective context? [___]
-
-**Progress:** Section 8 of 10
-
----
+> [!todo]- Build your professional context (2.5 hours across 3-4 sessions)
+> Most academics find this works better as multiple shorter sessions rather than one long session. The reflection prompts are crucial—they develop literacy capabilities, not just documentation skills.
+>
+> ### Session 1: Map expertise and reflect (45 minutes)
+>
+> Complete Phase 1 documentation.
+>
+> **Open your note-taking system** or create a document titled "Professional Context - [Your Name]"
+>
+> **Document your expertise:**
+> 1. Disciplinary training and background
+> 2. Research specializations and publications
+> 3. Theoretical frameworks you work within
+> 4. Methodological expertise and preferences
+> 5. What you know deeply versus peripherally
+>
+> **Metacognitive reflection (write these down):**
+> - What assumptions do I carry from my training? [___]
+> - Where are my genuine expertise boundaries? [___]
+> - What makes my scholarly approach distinctive? [___]
+> - What gaps should AI be aware of? [___]
+>
+> ### Session 2: Document current work (45 minutes)
+>
+> Complete Phase 2 documentation.
+>
+> For each active project, document:
+> 1. Research question or goal
+> 2. Current stage and status
+> 3. Key challenges or stuck points
+> 4. Where you need support
+>
+> **Ethical boundary reflection (write these down):**
+> - Are there aspects I'd prefer to keep separate? [___]
+> - Does this involve confidential information? [___]
+> - What level of detail serves engagement appropriately? [___]
+> - What boundaries am I setting and why? [___]
+>
+> ### Session 3: Describe actual practice (30 minutes)
+>
+> Complete Phase 3 documentation.
+>
+> Document honestly:
+> 1. Tools and systems you actually use
+> 2. What you actually prioritize
+> 3. Recurring challenges where you genuinely need help
+> 4. Your real working patterns and constraints
+>
+> **Honest self-assessment (write these down):**
+> - Am I documenting reality or aspiration? [___]
+> - What constraints actually shape my work? [___]
+> - Where do I genuinely struggle? [___]
+> - What would actually help? [___]
+>
+> ### Session 4: Test and refine (30 minutes)
+>
+> Complete Phase 4 testing.
+>
+> 1. Share your context document with AI
+> 2. Ask a work-related question
+> 3. Evaluate the response critically
+> 4. Refine based on what you learn
+>
+> **Critical evaluation (write these down):**
+> - Did context improve engagement quality? [___]
+> - Did AI respect my boundaries? [___]
+> - What refinements would help? [___]
+> - What did I learn about effective context? [___]
 
 ## Transformation literacy self-assessment
 
@@ -436,10 +403,6 @@ Now that you've built your professional context, assess the literacy capabilitie
 
 **If you checked under 8:** Revisit the reflection prompts in the activity—the literacy development happens through that reflective work, not just the documentation.
 
-**Progress:** Section 9 of 10
-
----
-
 ## Ongoing responsibility and commitment
 
 **Professional context is living infrastructure** requiring ongoing maintenance. Outdated context shapes engagement poorly. Inaccurate context produces inappropriate responses.
@@ -471,11 +434,8 @@ Now that you've built your professional context, assess the literacy capabilitie
 - Are there new challenges I should document?
 - What have I learned about my practice?
 
-<details> <summary><strong>Technical note: Platform-neutral storage (click to expand)</strong></summary>
-
-Store context in markdown files or your note-taking system, not proprietary AI platforms. This ensures you control your context regardless of which AI tools you use. Maintain one canonical document you pull from, rather than fragmenting across platforms. This independence is itself a literacy practice—maintaining critical distance and control.
-
-</details>
+> [!tip]- Technical note: Platform-neutral storage
+> Store context in markdown files or your note-taking system, not proprietary AI platforms. This ensures you control your context regardless of which AI tools you use. Maintain one canonical document you pull from, rather than fragmenting across platforms. This independence is itself a literacy practice—maintaining critical distance and control.
 
 ### Your maintenance commitment
 
@@ -485,23 +445,14 @@ Store context in markdown files or your note-taking system, not proprietary AI p
 - [ ] Date of first review: [___]
 - [ ] Context stored in: [___] (your note-taking system)
 
-**Progress:** Section 10 of 10 — Lesson complete
+## Reflection and commitment
 
----
-
-## Reflection and next steps
-
-**Time required:** 5 minutes
-
-[!question]- What you learned
-**One metacognitive insight about your scholarly identity:**
-[Text input box]
-
-**One boundary decision you made and why:**
-[Text input box]
-
-**One challenge of honest self-assessment:**
-[Text input box]
+> [!question]- What you learned
+> **One metacognitive insight about your scholarly identity:**
+>
+> **One boundary decision you made and why:**
+>
+> **One challenge of honest self-assessment:**
 
 ### Your commitment
 
@@ -514,39 +465,25 @@ Store context in markdown files or your note-taking system, not proprietary AI p
 
 **What becomes possible now:** Every AI conversation builds on accumulated understanding rather than starting fresh. This enables more sophisticated engagement—but only if you maintain the infrastructure responsibly.
 
----
-
 ## Key takeaways
 
-### Context sovereignty is literacy practice
+- **Context sovereignty is literacy practice:** Building persistent context requires metacognitive awareness (understanding what about your work matters for engagement), ethical judgement (setting appropriate boundaries and protecting confidential information), and ongoing responsibility (maintaining accuracy as work evolves). This isn't a technique—it's transformation-level literacy requiring sophisticated understanding of what you're building and why.
 
-Building persistent context requires metacognitive awareness (understanding what about your work matters for engagement), ethical judgement (setting appropriate boundaries and protecting confidential information), and ongoing responsibility (maintaining accuracy as work evolves). This isn't a technique—it's transformation-level literacy requiring sophisticated understanding of what you're building and why. The reflection prompts embedded in the documentation process develop these capabilities.
+- **Honest self-assessment serves engagement better:** Documenting real practice—actual constraints, genuine challenges, honest working patterns—produces more useful collaboration than idealized presentation. Acknowledging that you struggle with literature synthesis, work best in early mornings, and have limited statistical expertise helps AI provide relevant support. This vulnerability is itself a literacy capability.
 
-### Honest self-assessment serves engagement better
+- **Infrastructure requires maintenance commitment:** Professional context is living infrastructure, not one-time documentation. Plan quarterly reviews to update projects, refine based on experience, and maintain accuracy. As your work evolves, context needs updating. This maintenance commitment is transformation-level practice—taking ongoing responsibility for how AI engages with your evolving scholarly identity over time.
 
-Documenting real practice—actual constraints, genuine challenges, honest working patterns—produces more useful collaboration than idealized presentation. Acknowledging that you struggle with literature synthesis, work best in early mornings, and have limited statistical expertise helps AI provide relevant support. This vulnerability is itself a literacy capability—understanding that honesty about limitations improves outcomes more than professional posturing.
+## Your commitment
 
-### Infrastructure requires maintenance commitment
-
-Professional context is living infrastructure, not one-time documentation. Plan quarterly reviews to update projects, refine based on experience, and maintain accuracy. As your work evolves, context needs updating. This maintenance commitment is transformation-level practice—taking ongoing responsibility for how AI engages with your evolving scholarly identity over time.
-
----
+> [!question] Pause and reflect
+> Based on this lesson, how will you build and maintain your professional context? What boundaries will you set? Document this commitment in your Action Journal.
 
 ## Looking ahead
 
 You've built infrastructure for persistent partnerships through systematic context management. The next transformation lesson develops sophisticated professional judgement—what distinguishes truly valuable AI engagement from mere technical competence. You've created the infrastructure; now you'll develop the judgement to use it wisely.
 
----
-
 ## Resources
 
-**Context and knowledge management:**
 - Ahrens, S. (2017). How to take smart notes. Sönke Ahrens.
 - Forte, T. (2022). Building a second brain. Profile Books.
-
-**Professional identity and practice:**
 - Wenger, E. (1998). Communities of practice: Learning, meaning, and identity. Cambridge University Press.
-
----
-
-**Share your experience:** How has building professional context changed your understanding of your scholarly practice? What metacognitive insights emerged through documentation? How have you navigated ethical boundaries in persistent partnerships?

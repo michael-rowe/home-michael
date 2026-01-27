@@ -4,19 +4,20 @@ lesson: 2
 description: Learn to communicate effectively with AI through structured prompting and context sovereignty.
 ---
 
-# Prompting and communication
+> The single biggest problem in communication is the illusion that it has taken place.
+>
+> George Bernard Shaw
 
-## Lesson overview
-
-**Objective:** Develop functional application literacy—learning to communicate effectively with AI through structured prompting and understanding three levels of engagement
-
-**Time to complete:** 45-50 minutes
-
-**What you'll do:** Learn a simple framework for structuring prompts, practice each component, and match engagement levels to different academic tasks
-
-**Progress:** Section 1 of 12
-
----
+> [!info] Lesson overview
+> **Objective:** Develop functional application literacy—learning to communicate effectively with AI through structured prompting and understanding three levels of engagement
+>
+> **Summary:** This lesson introduces the RGID framework (Role, Goal, Instruct, Discuss) for structuring prompts that produce useful outputs. You'll also learn to match engagement levels to different academic tasks—extraction for quick outputs, conversation for complex thinking, and context for sustained projects. These skills form the foundation for everything that follows in subsequent lessons.
+>
+> **Key habits:**
+>
+> - Structured prompting: Use the RGID framework to communicate clearly rather than hoping simple queries will work
+> - Level matching: Choose engagement depth (extraction, conversation, context) based on task requirements
+> - Prompt documentation: Build a personal library of effective prompts for recurring tasks
 
 ## The contrast
 
@@ -37,11 +38,7 @@ The next day, James tries again with a different approach:
 This time, AI generates a specific, actionable coding framework with relevant theoretical grounding. James can immediately start applying it to his data.
 
 > [!question] Before we begin
-> What's the difference between these two approaches? Why did the second work so much better than the first? [Type your reasoning]
-
-**Progress:** Section 2 of 12
-
----
+> What's the difference between these two approaches? Why did the second work so much better than the first?
 
 ## Why structure matters
 
@@ -53,11 +50,7 @@ Think of prompting as briefing a research assistant. You wouldn't walk into some
 
 This lesson develops two essential literacy skills: how to structure prompts using a simple framework called RGID, and how to match your engagement level to different academic tasks. These capabilities form the foundation for everything that follows in subsequent lessons.
 
-**Progress:** Section 3 of 12
-
----
-
-## RGID Component 1: Role
+## RGID component 1: Role
 
 The RGID framework gives you a mental scaffold for communicating clearly with AI. It's not a rigid formula—it's a thinking tool. Let's build it one component at a time.
 
@@ -73,18 +66,12 @@ The role establishes which patterns in AI's training data become most relevant. 
 
 **Why this works:** Without a role, AI draws from generic patterns. With a specific role, it weights responses toward expertise in that domain. You're not creating a personality—you're focusing the statistical patterns that generate the response.
 
-### Quick practice
+> [!todo]- Quick practice: Write a role statement
+> Choose something you're currently working on. What perspective or expertise would be most helpful?
+>
+> Write a role statement for this task. Does your role specify a domain of expertise or perspective relevant to your task? If it's too generic ("you are a helpful assistant"), try adding specificity.
 
-Choose something you're currently working on. What perspective or expertise would be most helpful? Write a role statement for this task.
-
-> [!todo]- Quick practice
-> Write a role statement for your current task. Does your role specify a domain of expertise or perspective relevant to your task? If it's too generic ("you are a helpful assistant"), try adding specificity.
-
-**Progress:** Section 4 of 12
-
----
-
-## RGID Component 2: Goal
+## RGID component 2: Goal
 
 ### Clearly state your desired outcome
 
@@ -102,18 +89,12 @@ Clarity about goals helps AI calibrate its response appropriately. This connects
 - Defines the scope (20 interviews, 3 key themes, first draft)
 - Clarifies the purpose (for analysis, for teaching, for publication)
 
-### Quick practice
+> [!todo]- Quick practice: Transform a vague goal
+> Take the vague goal "I need help with literature review." Transform it into a specific, structured goal statement.
+>
+> Does your goal answer "what format?", "how much?", and "for what purpose?" If someone else read your goal, could they understand exactly what you need?
 
-Take the vague goal "I need help with literature review." Transform it into a specific, structured goal statement.
-
-> [!todo]- Quick practice
-> Transform "I need help with literature review" into a specific goal. Does your goal answer "what format?", "how much?", and "for what purpose?" If someone else read your goal, could they understand exactly what you need?
-
-**Progress:** Section 5 of 12
-
----
-
-## RGID Component 3: Instruct
+## RGID component 3: Instruct
 
 ### Provide specific steps
 
@@ -130,18 +111,12 @@ Clear instructions leverage AI's strength at following structured guidance while
 
 **Why numbered steps work:** They create a logical sequence, make the output predictable and scannable, and ensure nothing important gets omitted from the response.
 
-### Quick practice
+> [!todo]- Quick practice: Create numbered steps
+> Think about your goal from the previous exercise. What are 3-4 specific steps AI should take to achieve that goal? Write them as a numbered list.
+>
+> Could someone follow your steps in order? Do they lead logically from one to the next? Are they specific enough that AI knows what to produce at each stage?
 
-Think about your goal from the previous exercise. What are 3-4 specific steps AI should take to achieve that goal? Write them as a numbered list.
-
-> [!todo]- Quick practice
-> List 3-4 specific steps for AI to follow. Could someone follow your steps in order? Do they lead logically from one to the next? Are they specific enough that AI knows what to produce at each stage?
-
-**Progress:** Section 6 of 12
-
----
-
-## RGID Component 4: Discuss
+## RGID component 4: Discuss
 
 ### Signal openness to iteration
 
@@ -157,22 +132,16 @@ This connects directly to the conversation paradigm from lesson 1. Quality emerg
 - Prepares AI for follow-up questions
 - Frames engagement as collaborative rather than transactional
 
-### Quick practice
-
-For your emerging prompt (role + goal + instructions), what follow-up questions would help refine the output? What aspects might need clarification? Write 2-3 questions you'd plan to ask.
-
-> [!todo]- Quick practice
-> Write 2-3 follow-up questions. Do your questions dig deeper into the output you'll receive, or do they just ask for more of the same? Good follow-ups typically ask "why," "how does this apply when," or "what if."
-
-**Progress:** Section 7 of 12
-
----
+> [!todo]- Quick practice: Plan follow-up questions
+> For your emerging prompt (role + goal + instructions), what follow-up questions would help refine the output? What aspects might need clarification? Write 2-3 questions you'd plan to ask.
+>
+> Do your questions dig deeper into the output you'll receive, or do they just ask for more of the same? Good follow-ups typically ask "why," "how does this apply when," or "what if."
 
 ## Putting RGID together: Faded practice
 
 You've now built all four RGID components. Let's practice combining them through three progressive stages.
 
-### Stage 1: Observe expert application (Fully worked)
+### Stage 1: Observe expert application (fully worked)
 
 Here's a complete RGID prompt for a research question development task. Read through and notice how all four components work together:
 
@@ -186,14 +155,14 @@ Here's a complete RGID prompt for a research question development task. Read thr
 
 > [!question] Self-explanation
 > Why does specifying "UK academics" rather than just "academics" improve the output?
+>
+> <details><summary><strong>Show answer</strong></summary>
+>
+> Specifying "UK academics" activates patterns relevant to the UK higher education context—REF pressures, teaching-intensive vs research-intensive institutions, casualisation trends. Generic "academics" would produce responses averaging across different national systems with different pressures and constraints.
+>
+> </details>
 
-<details> <summary><strong>Show answer</strong></summary>
-
-Specifying "UK academics" activates patterns relevant to the UK higher education context—REF pressures, teaching-intensive vs research-intensive institutions, casualisation trends. Generic "academics" would produce responses averaging across different national systems with different pressures and constraints.
-
-</details>
-
-### Stage 2: Complete the final components (Fading)
+### Stage 2: Complete the final components (fading)
 
 Dr Sarah Lee needs help with literature review structure. The Role and Goal are provided. Your task: complete the Instruct and Discuss components.
 
@@ -207,15 +176,13 @@ Dr Sarah Lee needs help with literature review structure. The Role and Goal are 
 > [!todo]- Complete the Discuss component
 > What follow-up questions would refine this output?
 
-<details> <summary><strong>See example completion</strong></summary>
+> [!example]- See example completion
+>
+> **[Instruct]** Please: (1) Identify 4-6 major themes across the 60 papers, (2) For each theme, summarise the key arguments and methodological approaches, (3) Map which themes are well-developed versus underexplored, (4) Suggest 3-5 specific research gaps emerging from theme patterns.
+>
+> **[Discuss]** I'd like to explore how these themes have evolved chronologically and discuss which gaps are most feasible for a two-year doctoral study.
 
-**[Instruct]** Please: (1) Identify 4-6 major themes across the 60 papers, (2) For each theme, summarise the key arguments and methodological approaches, (3) Map which themes are well-developed versus underexplored, (4) Suggest 3-5 specific research gaps emerging from theme patterns.
-
-**[Discuss]** I'd like to explore how these themes have evolved chronologically and discuss which gaps are most feasible for a two-year doctoral study.
-
-</details>
-
-### Stage 3: Create your own complete RGID prompt (Independent)
+### Stage 3: Create your own complete RGID prompt (independent)
 
 Now apply RGID to a real task from your work. Combine all four components into a complete, structured prompt you could actually use this week.
 
@@ -226,10 +193,6 @@ Now apply RGID to a real task from your work. Combine all four components into a
 > - [ ] Instruct: Provides clear numbered steps
 > - [ ] Discuss: Signals openness to iteration
 
-**Progress:** Section 8 of 12
-
----
-
 ## Three levels of engagement
 
 The RGID framework helps structure individual prompts. But AI literacy also requires understanding different engagement levels—matching how you interact with AI to what the task requires.
@@ -238,89 +201,67 @@ Not every task needs the same depth of engagement. Sometimes you need quick outp
 
 ### Extraction: Quick outputs for bounded tasks
 
-<details> <summary><strong>Click to learn about Extraction (2-5 minutes)</strong></summary>
-
-**What it is:** Single-prompt interactions that produce quick, specific outputs for clearly defined tasks.
-
-**When to use it:**
-
-- Summarising papers or reports
-- Generating teaching materials from existing content
-- Extracting key information from documents
-- Creating lists, templates, or examples
-
-**When NOT to use it:**
-
-- Understanding complex frameworks
-- Working through methodological decisions
-- Exploring your own thinking
-- Developing nuanced arguments
-
-> [!example]- Example task
-> "Summarise the methodology section of this paper in 200 words, focusing on data collection and analysis approaches"
-
-> [!todo]- Try it now
-> Think of a paper you need to summarise this week. Write a 30-second extraction prompt to get key findings.
-
-</details>
+> [!example]- Click to learn about Extraction (2-5 minutes)
+>
+> **What it is:** Single-prompt interactions that produce quick, specific outputs for clearly defined tasks.
+>
+> **When to use it:**
+>
+> - Summarising papers or reports
+> - Generating teaching materials from existing content
+> - Extracting key information from documents
+> - Creating lists, templates, or examples
+>
+> **When NOT to use it:**
+>
+> - Understanding complex frameworks
+> - Working through methodological decisions
+> - Exploring your own thinking
+> - Developing nuanced arguments
+>
+> **Example task:** "Summarise the methodology section of this paper in 200 words, focusing on data collection and analysis approaches"
 
 ### Conversation: Extended dialogue for complex thinking
 
-<details> <summary><strong>Click to learn about Conversation (15-30 minutes)</strong></summary>
-
-**What it is:** Multi-turn exchanges where you work through complex ideas, test assumptions, and develop understanding through dialogue.
-
-**When to use it:**
-
-- Exploring methodological choices and trade-offs
-- Understanding unfamiliar theoretical frameworks
-- Testing your reasoning and assumptions
-- Developing arguments or course structures
-
-**When NOT to use it:**
-
-- Simple factual questions
-- Tasks requiring accumulated context from previous conversations
-- When you just need a quick output
-
-> [!example]- Example task
-> A 20-minute conversation exploring: "I'm deciding between survey and interview approaches for studying academic stress. Help me think through the implications of each for my specific research questions..."
-
-> [!todo]- Try it now
-> Identify one complex decision you're currently facing. How would conversation help you think it through?
-
-</details>
+> [!example]- Click to learn about Conversation (15-30 minutes)
+>
+> **What it is:** Multi-turn exchanges where you work through complex ideas, test assumptions, and develop understanding through dialogue.
+>
+> **When to use it:**
+>
+> - Exploring methodological choices and trade-offs
+> - Understanding unfamiliar theoretical frameworks
+> - Testing your reasoning and assumptions
+> - Developing arguments or course structures
+>
+> **When NOT to use it:**
+>
+> - Simple factual questions
+> - Tasks requiring accumulated context from previous conversations
+> - When you just need a quick output
+>
+> **Example task:** A 20-minute conversation exploring: "I'm deciding between survey and interview approaches for studying academic stress. Help me think through the implications of each for my specific research questions..."
 
 ### Context: Sustained collaboration for ongoing projects
 
-<details> <summary><strong>Click to learn about Context (Ongoing, building)</strong></summary>
-
-**What it is:** Returning to the same conversation over time, building shared understanding as the AI accumulates context about your project.
-
-**When to use it:**
-
-- Developing course materials over several weeks
-- Working through a complex research project
-- Building something that requires iterative refinement
-- When each session builds on previous understanding
-
-**When NOT to use it:**
-
-- One-off questions unrelated to ongoing work
-- When starting fresh gives better results than accumulated context
-- Tasks where you need AI to challenge rather than build on your thinking
-
-> [!example]- Example task
-> Returning to the same conversation across multiple sessions while developing a module, each time building on previous discussions about learning objectives, assessment design, and content structure.
-
-> [!todo]- Try it now
-> What project would benefit from sustained engagement rather than starting fresh each time?
-
-</details>
-
-**Progress:** Section 9 of 12
-
----
+> [!example]- Click to learn about Context (ongoing, building)
+>
+> **What it is:** Returning to the same conversation over time, building shared understanding as the AI accumulates context about your project.
+>
+> **When to use it:**
+>
+> - Developing course materials over several weeks
+> - Working through a complex research project
+> - Building something that requires iterative refinement
+> - When each session builds on previous understanding
+>
+> **When NOT to use it:**
+>
+> - One-off questions unrelated to ongoing work
+> - When starting fresh gives better results than accumulated context
+> - Tasks where you need AI to challenge rather than build on your thinking
+>
+> **Example task:** Returning to the same conversation across multiple sessions while developing a module, each time building on previous discussions about learning objectives, assessment design, and content structure.
 
 ## Branching scenario: Matching level to task
 
@@ -332,78 +273,51 @@ You're preparing to teach a new module on research methods next semester. You've
 
 **Which engagement level would you use and why?**
 
-<details> <summary><strong>Option A: Extraction — Quick material generation</strong></summary>
+> [!example]- Option A: Extraction — Quick material generation
+>
+> **Your approach:** Write a single prompt: "Generate 10 examples of research questions in education using both qualitative and quantitative approaches."
+>
+> **What happens:** You get 10 generic examples. They're technically correct but don't reflect the nuances of education research. When you use them in class, students ask questions you can't answer fluently because the examples don't quite fit the disciplinary context.
+>
+> **Reflection:** Extraction works for adaptation when you already deeply understand the new context. Here, you needed to develop that understanding first, not just get outputs.
 
-**Your approach:** Write a single prompt: "Generate 10 examples of research questions in education using both qualitative and quantitative approaches."
+> [!example]- Option B: Conversation — Explore adaptation challenges
+>
+> **Your approach:** Spend 20 minutes in conversation: "I've taught research methods in sociology but now teaching it in education. What are the key differences in how these disciplines approach research? What examples work well in education? What disciplinary conventions should I know?"
+>
+> **What happens:** Through dialogue, you identify that education research has different relationships with practitioner knowledge, different ethical considerations around research with children, and different expectations about actionable findings. You develop genuine understanding of how to adapt your existing knowledge.
+>
+> **Reflection:** Conversation helped you understand the adaptation challenge rather than just generating outputs. This serves the task well—you needed to develop understanding, not just materials.
 
-**What happens:** You get 10 generic examples. They're technically correct but don't reflect the nuances of education research. When you use them in class, students ask questions you can't answer fluently because the examples don't quite fit the disciplinary context. Students notice you're working from generic material rather than deep disciplinary knowledge.
+> [!example]- Option C: Context — Build comprehensive understanding
+>
+> **Your approach:** Return to the same conversation over several weeks, progressively building understanding of education research methods, testing example problems, discussing student misconceptions, refining materials based on what you learn.
+>
+> **What happens:** You develop very deep understanding of education research methods. The time investment creates excellent materials and genuine fluency. However, conversation-level engagement would have been sufficient—you didn't actually need the accumulated context building that context-level engagement provides.
+>
+> **Reflection:** Context level can work, but it's overkill for this task. The time investment isn't justified by the incremental benefit over conversation-level engagement. Save context for projects requiring sustained, iterative development.
 
-**Reflection:** Extraction works for adaptation when you already deeply understand the new context. Here, you needed to develop that understanding first, not just get outputs.
-
-</details>
-
-<details> <summary><strong>Option B: Conversation — Explore adaptation challenges</strong></summary>
-
-**Your approach:** Spend 20 minutes in conversation: "I've taught research methods in sociology but now teaching it in education. What are the key differences in how these disciplines approach research? What examples work well in education? What disciplinary conventions should I know?"
-
-**What happens:** Through dialogue, you identify that education research has different relationships with practitioner knowledge, different ethical considerations around research with children, and different expectations about actionable findings. You develop genuine understanding of how to adapt your existing knowledge. The examples you create yourself now reflect authentic disciplinary positioning.
-
-**Reflection:** Conversation helped you understand the adaptation challenge rather than just generating outputs. This serves the task well—you needed to develop understanding, not just materials.
-
-</details>
-
-<details> <summary><strong>Option C: Context — Build comprehensive understanding</strong></summary>
-
-**Your approach:** Return to the same conversation over several weeks, progressively building understanding of education research methods, testing example problems, discussing student misconceptions, refining materials based on what you learn.
-
-**What happens:** You develop very deep understanding of education research methods. The time investment creates excellent materials and genuine fluency. However, you realise three weeks in that conversation-level engagement would have been sufficient—you didn't actually need the accumulated context building that context-level engagement provides.
-
-**Reflection:** Context level can work, but it's overkill for this task. The time investment isn't justified by the incremental benefit over conversation-level engagement. Save context for projects requiring sustained, iterative development.
-
-</details>
-
-> [!question] Your reflection
+> [!question] Pause and reflect
 > Which option best balanced time investment with the understanding needed? What did this reveal about matching engagement level to task requirements?
 
-**Progress:** Section 10 of 12
+## Activity
 
----
-
-## Practice: Compare approaches with your work
-
-**Time required:** 8-10 minutes
-
-Choose a specific task you need AI help with this week—something real from your actual work.
-
-### Part 1: Quick extraction (3 minutes)
-
-Write a simple, direct prompt for this task. Keep it under 20 words. Try it with actual AI and note what you get.
-
-> [!todo]- Part 1
-> **Your naive prompt:**
+> [!todo]- Compare approaches with your work
+> **Time required:** 8-10 minutes
 >
-> **What you got:**
-
-### Part 2: Structured RGID (5 minutes)
-
-Now apply the full RGID framework to the same task. Have 2-3 turns refining the output based on what you need.
-
-> [!todo]- Part 2
-> **Your RGID prompt:**
+> Choose a specific task you need AI help with this week—something real from your actual work.
 >
-> **How did follow-up dialogue improve the output?**
-
-### Part 3: Reflect on the difference
-
-> [!question] Compare the approaches
+> **Step 1: Quick extraction (3 minutes)**
+> Write a simple, direct prompt for this task. Keep it under 20 words. Try it with actual AI and note what you get.
+>
+> **Step 2: Structured RGID (5 minutes)**
+> Now apply the full RGID framework to the same task. Have 2-3 turns refining the output based on what you need.
+>
+> **Step 3: Reflect on the difference**
 > - Which approach fits the task better?
 > - How much time did each take?
 > - Which output can you actually use in your work?
 > - What does this reveal about structured versus naive prompting?
-
-**Progress:** Section 11 of 12
-
----
 
 ## Start your prompt library
 
@@ -432,35 +346,20 @@ This becomes a resource you'll build throughout the course—a personal collecti
 
 **Literacy note:** Documentation supports metacognition—reflecting on your practice and building frameworks you can apply across situations. This is how expertise develops.
 
-**Progress:** Section 12 of 12 — Lesson complete
-
----
-
 ## Key takeaways
 
-**Structured prompting produces better results**
+- **Structured prompting produces better results:** The RGID framework—Role, Goal, Instruct, Discuss—provides a mental scaffold for communicating clearly with AI. By establishing perspective, specifying desired outcomes, providing clear steps, and signalling openness to dialogue, you fundamentally change the quality of AI responses.
 
-The RGID framework—Role, Goal, Instruct, Discuss—provides a mental scaffold for communicating clearly with AI. By establishing perspective (Role), specifying desired outcomes (Goal), providing clear steps (Instruct), and signalling openness to dialogue (Discuss), you fundamentally change the quality of AI responses. This isn't about finding perfect prompts; it's about developing communicative competence with a collaborative partner.
+- **Three engagement levels serve different purposes:** Extraction works for bounded tasks where you want quick outputs. Conversation works for complex challenges requiring extended thinking. Context works for sustained projects where accumulated understanding creates value. Matching engagement level to task requirements is a key aspect of developing taste.
 
-**Three engagement levels serve different purposes**
+- **Iteration develops collaboration and understanding:** Effective AI engagement is rarely about finding the perfect prompt on the first try. It's about starting with structured communication using RGID, then refining through follow-up questions. Each iteration develops understanding—both AI's understanding of what you need and your understanding of the task itself.
 
-Extraction works for bounded tasks where you want quick outputs. Conversation works for complex challenges requiring extended thinking. Context works for sustained projects where accumulated understanding creates value. Matching engagement level to task requirements is a key aspect of developing taste—there's no universal "best" approach, only what serves your specific purpose given time constraints and desired outcomes.
-
-**Iteration develops collaboration and understanding**
-
-Effective AI engagement is rarely about finding the perfect prompt on the first try. It's about starting with structured communication using RGID, then refining through follow-up questions. Each iteration develops understanding—both AI's understanding of what you need and your understanding of the task itself. This mindset shift from "get the right answer" to "develop understanding through dialogue" makes AI engagement far more productive for complex academic work.
-
-**Taste develops through reflective practice**
-
-Professional judgement about when and how AI engagement serves your work can't be taught through rules. It develops by trying different approaches, reflecting on what produces meaningful value, and gradually building intuitions about effective engagement. Begin developing taste by noticing what works: after significant AI interactions, pause to reflect on whether they produced meaningful value. Document what made them useful or not. Your prompt library becomes a record of your developing practice.
-
----
+- **Taste develops through reflective practice:** Professional judgement about when and how AI engagement serves your work can't be taught through rules. It develops by trying different approaches, reflecting on what produces meaningful value, and gradually building intuitions about effective engagement.
 
 ## Your commitment
 
-Based on this lesson, what's one specific task you'll try with structured RGID prompting this week? How will you evaluate whether it produced meaningful value?
-
----
+> [!question] Pause and reflect
+> Based on this lesson, what's one specific task you'll try with structured RGID prompting this week? How will you evaluate whether it produced meaningful value? Document this commitment in your Action Journal.
 
 ## Looking ahead
 
@@ -468,26 +367,12 @@ You've now developed functional application—the ability to communicate effecti
 
 Before moving on, make sure you've saved at least one successful prompt to your library. You'll build on this foundation in every subsequent lesson.
 
----
-
 ## Resources
-
-### Prompting guides
 
 - Anthropic. (2024). Prompt engineering guide. https://docs.anthropic.com/
 - OpenAI. (2023). Prompt engineering. https://platform.openai.com/docs/guides/prompt-engineering
 - Schulhoff, S. et al. (2024). The prompt report: A systematic survey of prompting techniques. arXiv.
-
-### AI literacy frameworks
-
 - Long, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. CHI '20.
 - Ng, D. T. K., et al. (2021). A conceptual framework for AI literacy. Computers and Education: Artificial Intelligence, 2.
-
-### Effective communication with AI
-
 - Mollick, E. & Mollick, L. (2023). Practical AI for instructors and students Part 3: Prompting AI. YouTube.
 - Mollick, E. & Mollick, L. (2023). Assigning AI: Seven approaches for students, with prompts. SSRN Electronic Journal.
-
----
-
-**Share your experience:** How has structured prompting changed what you get from AI compared to simple queries? What differences have you noticed between extraction and conversation-level engagement? Leave a comment for other participants below.

@@ -6,6 +6,10 @@ description: Course orientation covering how the course works, what you'll need,
 
 ## Welcome to developing AI literacy for academic practice
 
+> The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn.
+>
+> Alvin Toffler
+
 You're about to begin an 11-lesson course that develops comprehensive AI literacy—the multidimensional capability to engage with generative AI critically, effectively, and responsibly across all aspects of your academic work.
 
 This isn't a course about learning software or memorising prompts. It's about developing integrated capability that combines understanding, critical thinking, practical competence, ethical awareness, and professional judgement. By the end, you'll have the literacy to navigate AI integration thoughtfully—knowing when AI enhances your work and when it undermines it.
@@ -47,7 +51,7 @@ Activities use your actual academic materials. When a lesson asks you to practic
 
 That's it. No special software, no technical expertise beyond basic computer use.
 
-**📝 Requirement: Your Action Journal**
+**Requirement: Your Action Journal**
 
 This course isn't just about reading—it's about building capability through deliberate practice. Before you start Lesson 1, you need to create a dedicated space for your reflections and commitments. This is your Action Journal.
 

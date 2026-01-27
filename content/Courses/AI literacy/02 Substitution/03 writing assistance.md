@@ -4,21 +4,22 @@ lesson: 5
 description: Use AI as writing coach for overcoming blocks, receiving feedback, and collaborative drafting without losing your distinctive voice.
 ---
 
-# Writing assistance
-
-## Lesson overview
-
-**Objective:** Apply functional application literacy to writing whilst developing critical evaluation skills for preserving voice—completing the substitution stage of AI literacy development
-
-**Time to complete:** 60-65 minutes
-
-**What you'll do:** Learn to use AI as a writing assistant while maintaining your distinctive scholarly voice through rigorous critical selection
-
-**Progress:** Section 1 of 12
-
----
+> [!info] Lesson overview
+> **Objective:** Apply functional application literacy to writing whilst developing critical evaluation skills for preserving voice—completing the substitution stage of AI literacy development
+>
+> **Summary:** This lesson completes the substitution stage. You'll use AI for bounded writing tasks—drafting support, clarity improvements, alternative phrasings—whilst maintaining the voice that makes your writing yours. Your distinctive voice comes not from what AI generates but from what you choose to keep, how you adapt it, and what you reject as not fitting your writing.
+>
+> **Key habits:**
+>
+> - Critical selection: AI drafts options, you select what fits your voice and reject what doesn't
+> - Read aloud testing: Read every AI-assisted piece aloud to catch generic patterns your eyes miss
+> - Voice retention tracking: Measure how much you revise AI drafts to ensure healthy revision depth (10-30% unchanged is ideal)
 
 ## The contrast
+
+> Easy reading is damn hard writing.
+>
+> Nathaniel Hawthorne
 
 Dr. James Chen needs to email his research collaborator about a methodological concern. He opens a blank document. Types: "I wanted to discuss the sampling approach." Deletes it. Too formal. Types: "Hey, quick question about the methodology." Too casual. Deletes it.
 
@@ -35,10 +36,6 @@ She sends it confidently. Total time: 10 minutes. Says exactly what she wanted.
 
 > [!question] Before we begin
 > Think about your last difficult writing task. What made it challenging? Where did you get stuck?
-
-**Progress:** Section 2 of 12
-
----
 
 ## AI as writing assistant, not writer
 
@@ -61,38 +58,23 @@ Your distinctive voice comes not from what AI generates but from what you choose
 > [!question] Quick reflection
 > What makes your writing recognisably yours—word choices, sentence rhythm, how you explain ideas?
 
-**Progress:** Section 3 of 12
-
----
-
 ## Voice calibration: Establishing your baseline
 
 Before using AI for writing assistance, you need to calibrate—understanding what "your voice" actually sounds like and what happens when AI changes it.
 
-**Time required:** 5 minutes
-
-Find a paragraph from something you've written recently that sounds distinctively like you—an email, paper section, anything where you think "yes, that's my writing."
-
-> [!todo]- Voice calibration exercise
+> [!todo]- Voice calibration exercise (5 minutes)
+> Find a paragraph from something you've written recently that sounds distinctively like you—an email, paper section, anything where you think "yes, that's my writing."
+>
 > **Paste your paragraph here:**
 >
 > **Now ask AI to "improve clarity" of that paragraph.**
 >
 > **Compare the two versions:**
->
-> **What changed that you'd keep? (genuine improvements)**
->
-> **What changed that loses your voice? (generic AI patterns)**
->
-> **Which specific phrases feel like "you" vs "generic academic"?**
+> - What changed that you'd keep? (genuine improvements)
+> - What changed that loses your voice? (generic AI patterns)
+> - Which specific phrases feel like "you" vs "generic academic"?
 
 **Calibration insight:** This exercise shows you what AI does to your voice. Notice patterns: Does AI make you more formal? Remove specific examples? Add formulaic phrases? This awareness is essential for critical evaluation when using AI for new writing.
-
-**✓ You can now recognise your distinctive voice and how AI affects it**
-
-**Progress:** Section 4 of 12
-
----
 
 ## Workflow 1: Getting unstuck on drafting
 
@@ -123,32 +105,30 @@ Original AI: "I would be grateful if we could identify a mutually convenient tim
 
 > [!question] Self-explanation
 > Why did the revision change "unforeseen circumstances" to "journal wants final revisions by Friday"?
-
-> [!example]- Show answer
+>
+> <details><summary><strong>Show answer</strong></summary>
 >
 > Specificity replaces vagueness. "Unforeseen circumstances" is generic AI phrasing that could mean anything. The specific deadline shows respect by explaining the actual situation. Your voice emerges from being direct and specific rather than vaguely formal.
+>
+> </details>
 
 **Stage 2: Apply to your work**
 
 Think of a routine email or paragraph you need to write. Create a structured prompt that gives AI enough context to draft something useful.
 
-> [!todo]- Your prompt
+> [!todo]- Your turn
 > **Your prompt (be specific about tone, audience, key points):**
 >
 > **After AI responds, revise systematically:**
+> - **Pass 1 - Structure:** What organisational elements work? (Keep these)
+> - **Pass 2 - Voice:** Which sentences sound like you? (Keep), which don't? (Rewrite)
+> - **Pass 3 - Specifics:** Where can you replace generic phrasing with specific examples?
 >
-> **Pass 1 - Structure:** What organizational elements work? (Keep these)
-> **Pass 2 - Voice:** Which sentences sound like you? (Keep), which don't? (Rewrite)
-> **Pass 3 - Specifics:** Where can you replace generic phrasing with specific examples?
->
-> **Your revised version:**
-
-**Self-check:**
-
-- [ ] I revised at least 70% of AI's draft
-- [ ] Final text sounds like me when read aloud
-- [ ] I removed generic academic phrases
-- [ ] I added context AI couldn't know
+> **Self-check:**
+> - [ ] I revised at least 70% of AI's draft
+> - [ ] Final text sounds like me when read aloud
+> - [ ] I removed generic academic phrases
+> - [ ] I added context AI couldn't know
 
 **When this works well:**
 
@@ -161,12 +141,6 @@ Think of a routine email or paragraph you need to write. Create a structured pro
 - Sensitive communications requiring careful tone
 - Core arguments with your specific examples
 - Anything where relationship context matters deeply
-
-**✓ You can now use AI to overcome writer's block while maintaining your voice**
-
-**Progress:** Section 5 of 12
-
----
 
 ## Workflow 2: Clarity improvements
 
@@ -186,45 +160,32 @@ Once you have draft text, AI can identify unclear passages. You then critically 
 
 **Remember:** Complexity isn't automatically bad. Sometimes ideas are genuinely complex and clarity requires precision, not simplification.
 
-### Quick practice
-
-Take a paragraph from something you're currently writing—something you're not quite happy with.
-
 > [!todo]- Clarity improvement practice
+> Take a paragraph from something you're currently writing—something you're not quite happy with.
+>
 > **Your original paragraph:**
 >
 > **Ask AI to review for clarity, then evaluate each suggestion:**
 >
 > **AI suggestion 1:**
->
-> - What AI suggested: [___]
+> - What AI suggested:
 > - Your evaluation: Improves clarity / Loses nuance / Wrong tone
 > - Decision: Keep / Reject / Modify
 >
 > **AI suggestion 2:**
->
-> - What AI suggested: [___]
+> - What AI suggested:
 > - Your evaluation: Improves clarity / Loses nuance / Wrong tone
 > - Decision: Keep / Reject / Modify
 >
-> **Your final revised paragraph (after critical evaluation):**
-
-**Self-check:**
-
-- [ ] I evaluated each suggestion individually
-- [ ] I rejected suggestions that lost necessary precision
-- [ ] Final version is clearer AND sounds like me
-- [ ] I can explain why each change (or non-change) improves the paragraph
+> **Self-check:**
+> - [ ] I evaluated each suggestion individually
+> - [ ] I rejected suggestions that lost necessary precision
+> - [ ] Final version is clearer AND sounds like me
+> - [ ] I can explain why each change (or non-change) improves the paragraph
 
 **Literacy note:** Critical evaluation means recognising the difference between necessary complexity (serving precision) and unnecessary complexity (serving no purpose). This is scholarly judgement that AI can't replace.
 
 **Typical time saved:** Self-editing a paragraph: 10-15 minutes. With AI highlighting specific issues: 5-7 minutes.
-
-**✓ You can now evaluate clarity suggestions critically**
-
-**Progress:** Section 6 of 12
-
----
 
 ## Workflow 3: Generating alternative phrasings
 
@@ -239,7 +200,6 @@ When you've used the same phrase repeatedly or can't find the right wording, AI 
 > ### Critical selection
 >
 > Review all options:
->
 > - Which maintains your meaning exactly?
 > - Which sounds like you?
 > - Often, none work perfectly, but they help you think of your own better version
@@ -248,23 +208,19 @@ When you've used the same phrase repeatedly or can't find the right wording, AI 
 >
 > This is cognitive extension—AI expands your options, you make the scholarly judgement. The value isn't in AI's specific suggestions but in how they prompt your own thinking.
 
-### Quick practice
-
-Identify a phrase you've used repeatedly in something you're writing, or a phrase you're stuck on.
-
 > [!todo]- Alternative phrasing practice
-> **Your repeated phrase:** [___]
+> Identify a phrase you've used repeatedly in something you're writing, or a phrase you're stuck on.
+>
+> **Your repeated phrase:**
 >
 > **Ask AI for 5 alternatives. List them:**
->
-> 1. [___]
-> 2. [___]
-> 3. [___]
-> 4. [___]
-> 5. [___]
+> 1.
+> 2.
+> 3.
+> 4.
+> 5.
 >
 > **Evaluate each:**
->
 > - Which (if any) maintains your exact meaning?
 > - Which sound like something you'd write?
 > - Do they spark your own better alternative?
@@ -272,12 +228,6 @@ Identify a phrase you've used repeatedly in something you're writing, or a phras
 > **Your final choice (yours or AI's):**
 >
 > **Reasoning for your choice:**
-
-**✓ You can now use AI to expand your phrasing options while maintaining precision**
-
-**Progress:** Section 7 of 12
-
----
 
 ## Voice preservation exercises
 
@@ -291,12 +241,12 @@ Read this paragraph and identify which phrases are generic AI patterns vs distin
 
 **Mark each phrase:**
 
-- [ ] "It is important to note that..." → Generic / Distinctive
-- [ ] "recent research has revealed..." → Generic / Distinctive
-- [ ] "Furthermore, this analysis suggests..." → Generic / Distinctive
-- [ ] "My interviews with teachers showed three unexpected..." → Generic / Distinctive
-- [ ] "Moreover, these findings indicate..." → Generic / Distinctive
-- [ ] "substantial variation across different school contexts" → Generic / Distinctive
+- "It is important to note that..." → Generic / Distinctive
+- "recent research has revealed..." → Generic / Distinctive
+- "Furthermore, this analysis suggests..." → Generic / Distinctive
+- "My interviews with teachers showed three unexpected..." → Generic / Distinctive
+- "Moreover, these findings indicate..." → Generic / Distinctive
+- "substantial variation across different school contexts" → Generic / Distinctive
 
 > [!example]- Show answers
 >
@@ -318,7 +268,7 @@ Here's a paragraph written in generic AI style. Revise it to sound like academic
 
 "It is evident that the educational landscape has undergone significant transformation. Furthermore, it can be argued that these changes have had considerable impact on teaching practices. Moreover, recent studies suggest that educators have adapted their approaches accordingly. This development is particularly noteworthy in the context of contemporary pedagogical frameworks."
 
-> [!todo] Your revision
+> [!todo]- Your revision
 > Revise the paragraph above (same content, your voice):
 
 **Compare to this example revision:**
@@ -332,12 +282,6 @@ Here's a paragraph written in generic AI style. Revise it to sound like academic
 - Ownership and evidence ("My interviews" vs "recent studies suggest")
 - Concrete over abstract ("assessment vs instruction" vs "contemporary frameworks")
 
-**✓ You can now identify and reject generic AI patterns**
-
-**Progress:** Section 8 of 12
-
----
-
 ## Decision point: When to use AI for writing
 
 Not every writing task benefits from AI assistance. Let's practice recognising when AI helps versus when it hinders.
@@ -348,112 +292,80 @@ You need to write a difficult email to a colleague who missed an important deadl
 
 **What's your approach?**
 
-<details> <summary><strong>Option A: Use AI to draft the entire email</strong></summary>
+> [!example]- Option A: Use AI to draft the entire email
+>
+> **Your approach:** You prompt AI: "Draft an email to a colleague who missed a deadline, explaining the impact on our grant application."
+>
+> **What happens:** AI produces professionally phrased text: "I wanted to touch base regarding the recent project timeline. It would be beneficial to discuss our mutual commitments moving forward. Perhaps we could identify strategies to ensure alignment..."
+>
+> You send it. Your colleague responds coldly—the tone feels formal and passive-aggressive. Your normally collegial relationship feels strained. They're defensive rather than apologetic.
+>
+> **Time total:** 5 minutes writing, weeks repairing relationship
+>
+> **Learning:** AI can't know relationship context. Sensitive communications requiring careful tone balance need to be written by you from the start. AI's generic "professional" tone often reads as cold or passive-aggressive in real relationships.
 
-**Your approach:** You prompt AI: "Draft an email to a colleague who missed a deadline, explaining the impact on our grant application."
+> [!example]- Option B: Write it entirely yourself without AI
+>
+> **Your approach:** You spend 30 minutes drafting and revising, trying to balance expressing frustration with maintaining the relationship. The emotional labour is exhausting. You're not sure if you got the tone right.
+>
+> **What happens:** The email works—your colleague apologises, explains what happened, commits to the revised timeline. The relationship is fine. But the writing process was draining.
+>
+> **Time total:** 30 minutes of emotionally taxing work
+>
+> **Learning:** You did it well, but this timing wasn't optimal for AI assistance. AI could have helped with structure while you provided all the relationship-sensitive content.
 
-**What happens:** AI produces professionally phrased text: "I wanted to touch base regarding the recent project timeline. It would be beneficial to discuss our mutual commitments moving forward. Perhaps we could identify strategies to ensure alignment..."
+> [!example]- Option C: Use AI for structure only, write sensitive content yourself
+>
+> **Your approach:** You ask AI: "Suggest a structure for an email addressing a missed deadline while maintaining collegial relationship. I need to: acknowledge impact, understand what happened, find solution together."
+>
+> AI suggests framework:
+> 1. Express concern about the situation (not blame)
+> 2. Explain concrete impact (short timeline now)
+> 3. Ask what happened (genuine question)
+> 4. Propose path forward collaboratively
+>
+> You write each section yourself using this structure: "I'm worried about our budget section timeline—we're now down to 2 days instead of 2 weeks, which is tight. What happened on your end? Let's talk today about how we can divide this work to still submit something strong."
+>
+> **Time total:** 15 minutes (3 min structure, 12 min writing)
+>
+> **Learning:** AI provided structural scaffolding while you handled all relationship-sensitive content. This balanced efficiency with authenticity. The structure helped you be direct and solution-focused rather than dwelling on frustration.
 
-You send it. Your colleague responds coldly—the tone feels formal and passive-aggressive. Your normally collegial relationship feels strained. They're defensive rather than apologetic.
-
-**Time total:** 5 minutes writing, weeks repairing relationship
-
-**Learning:** AI can't know relationship context. Sensitive communications requiring careful tone balance need to be written by you from the start. AI's generic "professional" tone often reads as cold or passive-aggressive in real relationships.
-
-</details> <details> <summary><strong>Option B: Write it entirely yourself without AI</strong></summary>
-
-**Your approach:** You spend 30 minutes drafting and revising, trying to balance expressing frustration with maintaining the relationship. The emotional labor is exhausting. You're not sure if you got the tone right.
-
-**What happens:** The email works—your colleague apologises, explains what happened, commits to the revised timeline. The relationship is fine. But the writing process was draining.
-
-**Time total:** 30 minutes of emotionally taxing work
-
-**Learning:** You did it well, but this timing wasn't optimal for AI assistance. AI could have helped with structure while you provided all the relationship-sensitive content.
-
-</details> <details> <summary><strong>Option C: Use AI for structure only, write sensitive content yourself</strong></summary>
-
-**Your approach:** You ask AI: "Suggest a structure for an email addressing a missed deadline while maintaining collegial relationship. I need to: acknowledge impact, understand what happened, find solution together."
-
-AI suggests framework:
-
-1. Express concern about the situation (not blame)
-2. Explain concrete impact (short timeline now)
-3. Ask what happened (genuine question)
-4. Propose path forward collaboratively
-
-You write each section yourself using this structure: "I'm worried about our budget section timeline—we're now down to 2 days instead of 2 weeks, which is tight. What happened on your end? Let's talk today about how we can divide this work to still submit something strong."
-
-**Time total:** 15 minutes (3 min structure, 12 min writing)
-
-**Learning:** AI provided structural scaffolding while you handled all relationship-sensitive content. This balanced efficiency with authenticity. The structure helped you be direct and solution-focused rather than dwelling on frustration.
-
-</details>
-
-**Reflection:** When should you use AI for writing? When should you write entirely yourself?
-
-[Text input box]
+> [!question] Pause and reflect
+> When should you use AI for writing? When should you write entirely yourself?
 
 **Decision principle:** Use AI for structure and routine content; write sensitive, relationship-dependent, or core intellectual content yourself. Don't let AI handle tone when relationships matter.
-
-**Progress:** Section 9 of 12
-
----
 
 ## Read aloud practice: The voice preservation test
 
 Reading your writing aloud is the single best test for voice preservation. Let's practice this systematically.
 
-**Time required:** 5 minutes
-
-Take something you've written today using AI assistance (from the previous exercises).
-
-**Read it aloud slowly, listening for:**
-
-### Voice preservation checklist
-
-While reading, mark each:
-
-**Natural language check:**
-
-- [ ] This sounds like conversation I'd have (even if formal)
-- [ ] No phrases I'd never say aloud
-- [ ] Sentence rhythm matches how I think
-
-**Recognition check:**
-
-- [ ] Colleagues who know my writing would recognise this
-- [ ] Uses words I actually use
-- [ ] Examples are specific to my work
-- [ ] Explanations match how I teach/talk about ideas
-
-**Generic phrase check:**
-
-- [ ] No "It is important to note that..."
-- [ ] No "Furthermore" or "Moreover" without substance
-- [ ] No passive constructions hiding agency ("It can be argued...")
-- [ ] No vague intensifiers ("particularly significant," "especially noteworthy")
-
-### If you found problems:
-
-**List phrases that don't sound like you:**
-
-1. [___]
-2. [___]
-3. [___]
-
-**Revise them now:**
-
-1. [___]
-2. [___]
-3. [___]
+> [!todo]- Read aloud exercise (5 minutes)
+> Take something you've written today using AI assistance (from the previous exercises).
+>
+> **Read it aloud slowly, listening for:**
+>
+> ### Voice preservation checklist
+>
+> **Natural language check:**
+> - [ ] This sounds like conversation I'd have (even if formal)
+> - [ ] No phrases I'd never say aloud
+> - [ ] Sentence rhythm matches how I think
+>
+> **Recognition check:**
+> - [ ] Colleagues who know my writing would recognise this
+> - [ ] Uses words I actually use
+> - [ ] Examples are specific to my work
+> - [ ] Explanations match how I teach/talk about ideas
+>
+> **Generic phrase check:**
+> - [ ] No "It is important to note that..."
+> - [ ] No "Furthermore" or "Moreover" without substance
+> - [ ] No passive constructions hiding agency ("It can be argued...")
+> - [ ] No vague intensifiers ("particularly significant," "especially noteworthy")
+>
+> **If you found problems, list phrases that don't sound like you and revise them now.**
 
 **Literacy note:** This read-aloud practice trains your ear to recognise when AI has influenced your voice. With practice, you'll catch these patterns during writing rather than needing a separate review pass.
-
-**✓ You can now test voice preservation systematically**
-
-**Progress:** Section 10 of 12
-
----
 
 ## Voice retention metric: Measuring revision depth
 
@@ -463,141 +375,89 @@ Voice preservation isn't just subjective feeling—you can measure how much you 
 
 For any text where you used AI assistance:
 
-1. **Count total sentences in final version:** [___]
-2. **Count sentences kept completely unchanged from AI draft:** [___]
-3. **Calculate percentage:** (unchanged ÷ total) × 100 = [___]%
+1. **Count total sentences in final version:** ___
+2. **Count sentences kept completely unchanged from AI draft:** ___
+3. **Calculate percentage:** (unchanged ÷ total) × 100 = ___%
 
 ### Interpreting your score
 
 **10-30% unchanged: Healthy range**
-
 - You're using AI for structure/drafting support
 - Heavy revision preserves your voice
 - This is effective AI-assisted writing
 
 **30-50% unchanged: Moderate voice risk**
-
 - Check carefully by reading aloud
 - Verify phrases sound like you
 - May indicate accepting AI phrasing too readily
 
 **Over 50% unchanged: Voice likely compromised**
-
 - Generic AI prose probably dominates
 - Requires more aggressive revision
 - Consider whether AI helped or just produced text you accepted
 
 **Under 10% unchanged: AI may not have helped**
-
 - If almost complete rewrite, might have been faster to write yourself
 - AI assistance added overhead rather than value
 - Some tasks don't benefit from AI drafting
 
-### Your score from today's exercises
+> [!question] Pause and reflect
+> Calculate your voice retention score from today's exercises. What does this tell you about your revision practice?
 
-**Exercise:** [which one] **Unchanged percentage:** [___]% **Assessment:** Healthy / Moderate risk / Compromised / Unhelpful
+## Activity
 
-**What this tells you about your revision practice:**
-
-[Text input box]
-
-**✓ You can now measure voice preservation objectively**
-
-**Progress:** Section 11 of 12
-
----
-
-## Activity: Document patterns for future practice
-
-**Time required:** 8-10 minutes  
-**Objective:** Reflect on what you learned about when AI helps versus hinders your writing, building taste through pattern recognition
-
-### What worked
-
-**AI was helpful for:**
-
-Task type: [_**]  
-What it did well: [**_]  
-Why it worked: [_**]  
-Voice retention score: [**_]%
-
-### What didn't work
-
-**AI was not helpful for:**
-
-Task type: [_**]  
-Why it added friction: [**_]  
-What I needed instead: [_**]  
-What I learned: [**_]
-
-### Pattern recognition
-
-Looking across today's exercises, identify patterns:
-
-**Task characteristics that work well with AI:**
-
-[Text input box]
-
-**Task characteristics where I should write from scratch:**
-
-[Text input box]
-
-**Generic phrases I need to watch for in my writing:**
-
-[Text input box]
-
-**Revision strategies that preserve my voice:**
-
-[Text input box]
-
-### This week's commitment
-
-**I will:**
-
-- Try AI for ONE more writing task this week
-- Apply the 4-pass revision strategy (structure → examples → voice → read aloud)
-- Calculate my voice retention percentage
-- Document whether it helped or hindered
-
-**Specific task:** [___]
-
-**Day/time I'll do this:** [___]
-
-**Calendar entry created:** Yes / Not yet
-
-**Literacy note:** Both successes and failures build taste. If AI hinders more than helps for certain writing tasks, that's valuable knowledge about your process.
-
-**Progress:** Section 12 of 12 — Lesson complete
-
----
+> [!todo]- Document patterns for future practice
+> **Time required:** 8-10 minutes
+>
+> ### What worked
+>
+> **AI was helpful for:**
+> - Task type:
+> - What it did well:
+> - Why it worked:
+> - Voice retention score: ___%
+>
+> ### What didn't work
+>
+> **AI was not helpful for:**
+> - Task type:
+> - Why it added friction:
+> - What I needed instead:
+> - What I learned:
+>
+> ### Pattern recognition
+>
+> Looking across today's exercises, identify patterns:
+> - **Task characteristics that work well with AI:**
+> - **Task characteristics where I should write from scratch:**
+> - **Generic phrases I need to watch for in my writing:**
+> - **Revision strategies that preserve my voice:**
+>
+> ### This week's commitment
+>
+> - Try AI for ONE more writing task this week
+> - Apply the 4-pass revision strategy (structure → examples → voice → read aloud)
+> - Calculate my voice retention percentage
+> - Document whether it helped or hindered
+>
+> **Specific task:**
+> **Day/time I'll do this:**
+> **Calendar entry created:** Yes / Not yet
 
 ## Key takeaways
 
-### AI as assistant requires critical selection
+- **AI as assistant requires critical selection:** AI as writing assistant means you maintain control over voice, argument, and quality through rigorous critical selection. AI drafts options, you select what works, reject what doesn't, and revise everything to sound like you. Your distinctive voice comes from what you choose to keep, how you adapt it, and what you reject—not from AI's initial draft.
 
-AI as writing assistant means you maintain control over voice, argument, and quality through rigorous critical selection. AI drafts options, you select what works, reject what doesn't, and revise everything to sound like you. Your distinctive voice comes from what you choose to keep, how you adapt it, and what you reject. This critical evaluation process is where your voice and scholarly judgement reside—not in AI's initial draft.
+- **Voice preservation distinguishes literacy from competence:** Many people can get AI to draft text. Fewer develop the critical evaluation skills to recognise what preserves versus compromises their distinctive voice. This requires ethical awareness (maintaining scholarly integrity), critical evaluation (distinguishing genuine improvements from generic alternatives), and contextual judgement (knowing when your voice matters more than efficiency).
 
-### Voice preservation distinguishes literacy from competence
+- **Read aloud to catch generic patterns:** Reading your writing aloud is the single best test for voice preservation. Your ear catches formulaic phrases, awkward rhythm, and generic academic prose that your eyes miss. Make this systematic: read every AI-assisted piece aloud, mark phrases that don't sound like you, revise them immediately.
 
-Many people can get AI to draft text. Fewer develop the critical evaluation skills to recognise what preserves versus compromises their distinctive voice. This requires ethical awareness (maintaining scholarly integrity), critical evaluation (distinguishing genuine improvements from generic alternatives), and contextual judgement (knowing when your voice matters more than efficiency). These dimensions develop through practice with honest assessment, not through following rules.
-
-### Read aloud to catch generic patterns
-
-Reading your writing aloud is the single best test for voice preservation. Your ear catches formulaic phrases, awkward rhythm, and generic academic prose that your eyes miss. Make this systematic: read every AI-assisted piece aloud, mark phrases that don't sound like you, revise them immediately. With practice, you'll catch these patterns during writing rather than needing separate review.
-
-### Substitution works for bounded tasks, not core intellectual work
-
-Substitution-level writing support works for routine correspondence, overcoming blank page paralysis, clarity improvements on existing text, and generating alternative phrasings. It works less well for core arguments requiring your specific examples, sensitive communications needing careful relationship-aware tone, and complex scholarly claims where precision matters more than efficiency. Recognising this distinction is contextual judgement—understanding when AI serves your goals.
-
----
+- **Substitution works for bounded tasks, not core intellectual work:** Substitution-level writing support works for routine correspondence, overcoming blank page paralysis, clarity improvements on existing text, and generating alternative phrasings. It works less well for core arguments requiring your specific examples, sensitive communications needing careful relationship-aware tone, and complex scholarly claims where precision matters more than efficiency.
 
 ## Your commitment
 
-Based on this lesson, what's one writing task you'll try with AI assistance this week? How will you preserve your voice?
-
-[Text input box]
-
----
+> [!question] Pause and reflect
+> Based on this lesson, what's one writing task you'll try with AI assistance this week? How will you preserve your voice? Document this commitment in your Action Journal.
 
 ## Moving beyond substitution
 
@@ -614,25 +474,11 @@ The next lessons move beyond substitution to adaptation—where your practice be
 
 Adaptation requires the functional competence and critical evaluation you've built through substitution. You can't thoughtfully reshape practice without first developing baseline competence. Literacy develops through stages, not leaps.
 
----
-
 ## Resources
-
-### AI-assisted writing
 
 - Mollick, E. & Mollick, L. (2023). Assigning AI: Seven approaches for students, with prompts. SSRN Electronic Journal.
 - Fyfe, P. (2022). How to cheat on your final paper: Assigning AI for student writing. Notices of the AMS, 69(11).
-
-### Academic writing craft
-
 - Pinker, S. (2014). The sense of style: The thinking person's guide to writing in the 21st century. Penguin.
 - Sword, H. (2012). Stylish academic writing. Harvard University Press.
 - Silvia, P. (2007). How to write a lot: A practical guide to productive academic writing. APA.
-
-### Voice and style
-
 - Williams, J. & Bizup, J. (2017). Style: Lessons in clarity and grace. Pearson.
-
----
-
-**Share your experience:** How has AI assistance affected your writing process? What helps you preserve voice while using AI suggestions? When have you found AI most helpful versus most likely to compromise distinctiveness?

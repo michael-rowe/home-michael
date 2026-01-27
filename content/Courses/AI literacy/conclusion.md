@@ -6,6 +6,10 @@ description: Reflecting on your AI literacy development and planning for ongoing
 
 ## Sustaining and developing AI literacy
 
+> Education is not the filling of a pail, but the lighting of a fire.
+>
+> W.B. Yeats
+
 You've completed 11 lessons developing comprehensive AI literacy. You've worked through conceptual foundations, practical application across multiple domains, and frameworks for cultivating professional judgement. You've practiced with your actual academic work, reflected on what creates meaningful versus superficial engagement, and designed structural integration that makes literate practice sustainable.
 
 This marks the beginning of ongoing literacy development, not its completion.
@@ -143,9 +147,3 @@ More importantly, you've developed the foundations for ongoing literacy cultivat
 Go forth and practice AI literacy through structural integration that sustains thoughtful, critical, and ethical engagement in your scholarly work.
 
 This is the beginning. Continue developing.
-
----
-
-**Share your experience:** How has developing AI literacy changed your academic practice? What structural integrations are working in your context? What challenges are you navigating? Your insights help others developing literacy.
-
-**Stay connected:** Join the Head Space newsletter for ongoing resources on calm productivity and sustainable academic practice.
