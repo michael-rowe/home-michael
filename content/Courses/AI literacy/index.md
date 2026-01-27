@@ -5,6 +5,11 @@ cover: Media/AI_literacy_course.png
 status: In Development
 duration: 10-12 hours
 level: All levels
+modules:
+  Foundation: Conceptual understanding of what AI is and how to communicate effectively with it
+  Substitution: Integrating AI into existing workflows for routine tasks
+  Adaptation: Reshaping practice around AI capabilities for genuinely different approaches
+  Transformation: Making AI a permanent part of professional infrastructure
 ---
 
 > [!info] Course details

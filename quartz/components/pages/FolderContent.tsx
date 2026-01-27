@@ -93,10 +93,31 @@ export default ((opts?: Partial<FolderContentOptions>) => {
         .filter((page) => page !== undefined) ?? []
     const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
     const classes = cssClasses.join(" ")
+
+    // For course folders, get all nested files (not just direct children)
+    const isCourseFolder = fileData.slug?.startsWith("Courses/") && fileData.slug !== "Courses/index"
+
+    const getAllNestedFiles = (node: typeof folder): QuartzPluginData[] => {
+      const files: QuartzPluginData[] = []
+      for (const child of node.children) {
+        if (child.data) {
+          files.push(child.data)
+        }
+        if (child.isFolder) {
+          files.push(...getAllNestedFiles(child))
+        }
+      }
+      return files
+    }
+
+    const filesForListing = isCourseFolder
+      ? getAllNestedFiles(folder)
+      : allPagesInFolder
+
     const listProps = {
       ...props,
       sort: options.sort,
-      allFiles: allPagesInFolder,
+      allFiles: filesForListing,
     }
 
     const content = (
@@ -111,7 +132,6 @@ export default ((opts?: Partial<FolderContentOptions>) => {
 
     // Detect folder types
     const isNotesFolder = fileData.slug === "Notes/index"
-    const isCourseFolder = fileData.slug?.startsWith("Courses/") && fileData.slug !== "Courses/index"
 
     // Determine which list component to use
     let ListComponent = PageList
