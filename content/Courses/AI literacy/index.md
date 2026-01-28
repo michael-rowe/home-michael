@@ -44,5 +44,5 @@ AI literacy isn't about learning software or memorising prompts. It's about deve
 - **Contextual judgement:** Developing professional taste about when AI enhances versus undermines your work
 
 <div class="course-button-wrapper">
-<a href="introduction" class="course-button">Start Course <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+<a href="/Courses/AI-literacy/introduction" class="course-button">Start Course <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
 </div>
