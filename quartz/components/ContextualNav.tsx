@@ -65,9 +65,96 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
       )
     }
 
-    // Posts: Show related posts based on shared tags
+    // Posts: Show related content from frontmatter first, then fall back to tag matching
     if (isPosts) {
-      // Get current post's tags
+      const relatedSlugs = new Set<string>()
+
+      // Helper function to slugify text (convert spaces to hyphens, etc.)
+      const slugifyText = (text: string): string => {
+        return text
+          .replace(/\s/g, "-")
+          .replace(/&/g, "-and-")
+          .replace(/%/g, "-percent")
+          .replace(/\?/g, "")
+          .replace(/#/g, "")
+      }
+
+      // First, check the 'related' field from frontmatter (like Notes does)
+      const relatedField = fileData.frontmatter?.related
+      if (relatedField) {
+        const relatedList = Array.isArray(relatedField) ? relatedField : [relatedField]
+
+        for (const item of relatedList) {
+          // Extract slug from wikilink format [[slug]] or plain text
+          const match = typeof item === "string" ? item.match(/\[\[([^\]]+)\]\]/) : null
+          if (match) {
+            const linkText = match[1]
+            const slugifiedLink = slugifyText(linkText)
+
+            // Search across all files (Essays, Notes, Posts, etc.)
+            const relatedFile = allFiles.find(
+              (f) =>
+                f.frontmatter?.title === linkText ||
+                simplifySlug(f.slug!) === slugifiedLink ||
+                f.slug?.endsWith(`/${slugifiedLink}`)
+            )
+
+            if (relatedFile && relatedFile.slug !== currentSlug) {
+              relatedSlugs.add(relatedFile.slug!)
+            }
+          }
+        }
+      }
+
+      // Get explicit related items from frontmatter
+      const explicitRelated = Array.from(relatedSlugs)
+        .map((slug) => allFiles.find((f) => f.slug === slug))
+        .filter((f) => f !== undefined)
+
+      // Also find posts in the same category
+      const currentCategory = fileData.frontmatter?.category as string | undefined
+      const categoryMatches = currentCategory
+        ? allFiles
+            .filter((f) =>
+              f.slug?.startsWith("Posts/") &&
+              f.slug !== "Posts/index" &&
+              f.slug !== currentSlug &&
+              !relatedSlugs.has(f.slug!) && // Don't duplicate explicit related items
+              (f.frontmatter?.category as string)?.toLowerCase() === currentCategory.toLowerCase()
+            )
+            .sort(byDateAndAlphabetical(cfg))
+        : []
+
+      // Combine explicit related items with category matches
+      const combinedRelated = [
+        ...explicitRelated,
+        ...categoryMatches.filter(f => !explicitRelated.some(e => e?.slug === f.slug))
+      ].slice(0, options.postsLimit)
+
+      // If we have related items (explicit or category), show them
+      if (combinedRelated.length > 0) {
+        return (
+          <div class={classNames(displayClass, "contextual-nav")}>
+            <h3>Related</h3>
+            <ul>
+              {combinedRelated.map((item) => (
+                <li>
+                  <a href={resolveRelative(fileData.slug!, item!.slug!)} class="internal">
+                    {item!.frontmatter?.title}
+                  </a>
+                  {item!.dates && (
+                    <span class="date">
+                      <Date date={getDate(cfg, item!)!} locale={cfg.locale} />
+                    </span>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )
+      }
+
+      // Fall back to tag-based related posts
       const currentTags = fileData.frontmatter?.tags
       const currentTagSet = new Set<string>()
 
