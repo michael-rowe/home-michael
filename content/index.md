@@ -15,14 +15,11 @@ I'm also developing an [[Courses/AI literacy/index|AI literacy course]] for acad
 
 ## <i class="ph ph-star"></i> Featured
 
-- **Post**: [[content/Posts/2026-01-28-bitter-lesson-education.md|A bitter leson]]
-Why current approaches to AI in education are asking the wrong questions.
+**Post** - [[content/Posts/2026-01-28-bitter-lesson-education.md|A bitter lesson in education]]: Rich Sutton's "Bitter Lesson" showed that general computation beats human-crafted expertise in AI. Higher education faces a parallel lesson - our complex assessment frameworks, built on the difficulty of artifact generation, are collapsing now that AI makes production trivial.
 
-**Essay**: [[Essays/taste-and-judgement|Taste and judgement in human-AI systems]]
-What remains distinctly human when AI handles execution.
+**Essay** - [[Essays/taste-and-judgement|Taste and judgement in human-AI systems]]: This essay introduces *taste as a framework for cultivating contextual judgement* through iterative experimentation and reflection that enables discernment about when, how, and why to engage AI capabilities in service of personally meaningful purposes.
 
-**Course**: [[Courses/AI literacy/index|AI literacy for academics]]
-Developing practical capability with generative AI. *(In development)*
+**Course**: [[Courses/AI literacy/index|AI literacy for academics]]. This course develops comprehensive AI literacy across six interconnected dimensions, using a developmental framework that moves from basic competence through adaptation to transformation.
 
 ## <i class="ph ph-compass"></i> Explore
 

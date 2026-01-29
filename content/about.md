@@ -1,6 +1,12 @@
 ---
 title: About
 ---
+## About me
+<img src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" style="float: right; width: 191px; margin-left: 1rem; margin-bottom: 1rem;" />
+I am an Associate Professor and Director of Teaching and Learning in the School of Health and Care Sciences at the University of Lincoln in the United Kingdom.
+
+My scholarship focuses on the transformative potential of digital technologies in education, with a particular interest in how they influence relationships between teachers and students in learning environments. Drawing on critical pedagogy and complexity science, my work focuses on the use of technological innovation to enhance both education and practice while maintaining student-centred approaches to learning.
+
 ## About this project
 
 This site explores **emergent scholarship**—a framework for scholarly engagement that emphasises connection, adaptation, and ecological sustainability in knowledge work.
@@ -16,14 +22,6 @@ This digital space serves as:
 - A **conversation starter** for engaging with others interested in how we create, share, and apply knowledge
 
 The content here reflects ongoing learning and thinking-in-progress. You'll find notes, essays, reflections, and syntheses that represent different stages of development rather than polished final products.
-
-## About me
-
-I am an Associate Professor and Director of Digital Innovation in the School of Health and Care Sciences at the University of Lincoln in the United Kingdom.
-
-My early research led to a PhD investigating the impact of blended learning in health professions education, laying the foundation for ongoing work exploring the intersection of technology and pedagogy.
-
-My scholarship focuses on the transformative potential of digital technologies in education, with a particular interest in how they influence relationships between teachers and students in learning environments. Drawing on critical pedagogy and complexity science, my work focuses on the use of technological innovation to enhance both education and practice while maintaining student-centred approaches to learning.
 
 ## Online profiles
 

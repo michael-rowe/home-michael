@@ -40,7 +40,7 @@ cssclasses: []
 > - **Duration:** 10-12 hours
 > - **Level:** All levels
 > - **Format:** Self-paced with practical activities
-> - **Status:** In Development
+> - **Status:** In development
 > </div>
 > </div>
 
