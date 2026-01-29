@@ -1,10 +1,25 @@
 ---
 title: Time management for academics
+type: course
+aliases:
 description: Transform your workday with sustainable working practices and systematic time management
+author: "[[Michael Rowe]]"
+date: 2026-01-29
+updated: 2026-01-29
+tags:
+  - time-management
+  - productivity
+  - academic-practice
+category:
+  - Courses
+related:
 cover: Media/time_management_course_cover.png
 status: Published
 duration: 4-6 hours
 level: Beginner
+draft: false
+enableToc: true
+cssclasses: []
 ---
 
 > [!info] Course details

@@ -1,10 +1,25 @@
 ---
 title: Academic career development
+type: course
+aliases:
 description: Strategic planning and development for academic careers
+author: "[[Michael Rowe]]"
+date: 2026-01-29
+updated: 2026-01-29
+tags:
+  - career-development
+  - academic-career
+  - professional-development
+category:
+  - Courses
+related:
 cover: Media/career_development_course.png
 status: Published
 duration: 6-8 hours
 level: Advanced
+draft: false
+enableToc: true
+cssclasses: []
 ---
 
 > [!info] Course details
