@@ -20,7 +20,7 @@ A practical introduction to prompt engineering for academics and researchers —
 
 - Read [[Posts/2025-10-10-a-better-game|A better game]] for the philosophical foundation
 - Explore the [[Courses/AI literacy/index|AI literacy course]] *(in development)*
-- See [[Notes/prompt engineering|the note on prompt engineering]] for a brief overview
+- See [[prompt engineering|the note on prompt engineering]] for a brief overview
 
 ---
 

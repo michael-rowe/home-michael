@@ -31,6 +31,8 @@ Developing practical capability with generative AI. *(In development)*
 
 Browse by [[formats|format]] (essays, posts, notes, courses) or by [[topics|topic]].
 
+The graph view in the top right shows how ideas connect across the site. Each node is a page; lines show links between them. Click any node to navigate there, or use the global view to see the full network. It's a way to discover related ideas you might not find through linear browsing.
+
 ---
 
 This site works a bit like an open source project: I work in public, ideas develop through iteration, and the process is part of the output. If something here is useful, use it. If you want to respond, [[contact|get in touch]].

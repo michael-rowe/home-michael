@@ -1,17 +1,28 @@
 ---
 title: AI-forward
-description:
+type: note
 aliases:
-type:
-author:
-  - "[[Michael Rowe]]"
-created: 2025-12-26
-updated:
-status: Published
-needs_review: "true"
-tags: organisation
+  - AI forward institutions
+description: AI-forward describes institutions treating AI integration as ongoing strategic practice requiring active engagement, rather than fixed deployment of finished solutions.
+author: "[[Michael Rowe]]"
+date: 2025-12-26
+updated: 2025-12-26
+tags:
+  - organisation
+  - AI-literacy
+  - strategy
+category:
+  - AI literacy
 related:
+draft: false
+permalink: ""
+enableToc: true
+cssclasses:
+  - ""
 ---
+> [!tip] Process, not state
+> AI-forward signals directional orientation and strategic prioritisation rather than mere tool adoption. It describes institutions committed to evaluating emerging AI capabilities and iterating infrastructure as tools develop—a continuous process, not a destination.
+
 ## Definition
 
 **AI-forward** (adj.): Describing institutions or organizations treating AI integration as ongoing strategic practice requiring active engagement with evolving technologies, rather than fixed deployment of finished solutions. AI-forward entities commit to evaluating emerging AI capabilities, making informed technology choices aligned with institutional values, and iterating infrastructure as tools develop.

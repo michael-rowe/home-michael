@@ -111,7 +111,7 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
         .map((slug) => allFiles.find((f) => f.slug === slug))
         .filter((f) => f !== undefined)
 
-      // Also find posts in the same category
+      // Also find content in the same category (across Notes, Posts, Essays)
       // Handle category as either string or array
       const rawCategory = fileData.frontmatter?.category
       const currentCategories: string[] = Array.isArray(rawCategory)
@@ -123,12 +123,12 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
       const categoryMatches = currentCategories.length > 0
         ? allFiles
             .filter((f) => {
-              if (
-                !f.slug?.startsWith("Posts/") ||
-                f.slug === "Posts/index" ||
-                f.slug === currentSlug ||
-                relatedSlugs.has(f.slug!)
-              ) {
+              // Include Notes, Posts, and Essays - exclude index pages and current page
+              const isValidSection = f.slug?.startsWith("Notes/") ||
+                                     f.slug?.startsWith("Posts/") ||
+                                     f.slug?.startsWith("Essays/")
+              const isIndex = f.slug?.endsWith("/index")
+              if (!isValidSection || isIndex || f.slug === currentSlug || relatedSlugs.has(f.slug!)) {
                 return false
               }
               // Check if file has any matching category
@@ -260,7 +260,7 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
       )
     }
 
-    // Notes: Show related notes from frontmatter
+    // Notes: Show related content from frontmatter AND category matching
     if (isNotes) {
       const relatedSlugs = new Set<string>()
 
@@ -314,27 +314,64 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
         }
       }
 
-      const relatedNotes = Array.from(relatedSlugs)
+      // Get explicit related items from frontmatter
+      const explicitRelated = Array.from(relatedSlugs)
         .map((slug) => allFiles.find((f) => f.slug === slug))
         .filter((f) => f !== undefined)
-        .sort(byDateAndAlphabetical(cfg))
 
-      if (relatedNotes.length === 0) {
+      // Also find content in the same category (across Notes, Posts, Essays)
+      const rawCategory = fileData.frontmatter?.category
+      const currentCategories: string[] = Array.isArray(rawCategory)
+        ? rawCategory.map((c: string) => c.toLowerCase())
+        : typeof rawCategory === "string" && rawCategory
+          ? [rawCategory.toLowerCase()]
+          : []
+
+      const categoryMatches = currentCategories.length > 0
+        ? allFiles
+            .filter((f) => {
+              // Include Notes, Posts, and Essays - exclude index pages and current page
+              const isValidSection = f.slug?.startsWith("Notes/") ||
+                                     f.slug?.startsWith("Posts/") ||
+                                     f.slug?.startsWith("Essays/")
+              const isIndex = f.slug?.endsWith("/index")
+              if (!isValidSection || isIndex || f.slug === currentSlug || relatedSlugs.has(f.slug!)) {
+                return false
+              }
+              // Check if file has any matching category
+              const fileCategory = f.frontmatter?.category
+              const fileCategories: string[] = Array.isArray(fileCategory)
+                ? fileCategory.map((c: string) => c.toLowerCase())
+                : typeof fileCategory === "string" && fileCategory
+                  ? [fileCategory.toLowerCase()]
+                  : []
+              return fileCategories.some((fc) => currentCategories.includes(fc))
+            })
+            .sort(byDateAndAlphabetical(cfg))
+        : []
+
+      // Combine explicit related items with category matches
+      const combinedRelated = [
+        ...explicitRelated,
+        ...categoryMatches.filter(f => !explicitRelated.some(e => e?.slug === f.slug))
+      ].slice(0, options.postsLimit)
+
+      if (combinedRelated.length === 0) {
         return null
       }
 
       return (
         <div class={classNames(displayClass, "contextual-nav")}>
-          <h3>Related Notes</h3>
+          <h3>Related</h3>
           <ul>
-            {relatedNotes.map((note) => (
+            {combinedRelated.map((item) => (
               <li>
-                <a href={resolveRelative(fileData.slug!, note!.slug!)} class="internal">
-                  {note!.frontmatter?.title}
+                <a href={resolveRelative(fileData.slug!, item!.slug!)} class="internal">
+                  {item!.frontmatter?.title}
                 </a>
-                {note!.dates && (
+                {item!.dates && (
                   <span class="date">
-                    <Date date={getDate(cfg, note!)!} locale={cfg.locale} />
+                    <Date date={getDate(cfg, item!)!} locale={cfg.locale} />
                   </span>
                 )}
               </li>

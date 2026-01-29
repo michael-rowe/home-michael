@@ -40,9 +40,9 @@ Shorter pieces — reflections, observations, ideas.
 Brief reference notes on key concepts.
 
 - [[Notes/AI-forward|AI-forward]]
-- [[Notes/context engineering|Context engineering]]
-- [[Notes/context sovereignty|Context sovereignty]]
-- [[Notes/prompt engineering|Prompt engineering]]
+- [[context engineering|Context engineering]]
+- [[context sovereignty|Context sovereignty]]
+- [[prompt engineering|Prompt engineering]]
 
 [[Notes/index|See all notes →]]
 
