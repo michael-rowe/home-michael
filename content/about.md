@@ -2,9 +2,14 @@
 title: About
 ---
 ## About me
-<img src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" style="float: left; width: 191px; margin-right: 1rem; margin-bottom: 0.5rem;" />I am an Associate Professor and Director of Teaching and Learning in the School of Health and Care Sciences at the University of Lincoln in the United Kingdom.
+<img src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" style="float: left; width: 191px; margin-right: 1rem; margin-bottom: 0.5rem; margin-top: 5px;" />I am an Associate Professor and Director of Teaching and Learning in the School of Health and Care Sciences at the University of Lincoln in the United Kingdom.
 
 My scholarship focuses on the transformative potential of digital technologies in education, with a particular interest in how they influence relationships between teachers and students in learning environments. Drawing on critical pedagogy and complexity science, my work focuses on the use of technological innovation to enhance both education and practice while maintaining student-centred approaches to learning.
+
+Other places you can find me online:
+- [Google Scholar](https://scholar.google.com/citations?user=H6CN3yAAAAAJ&hl=en)
+- [LinkedIn](https://www.linkedin.com/in/michael-rowe-phd/)
+- [GitHub](https://github.com/michael-rowe/emergent-scholarship)
 
 ## About this project
 
@@ -21,12 +26,6 @@ This digital space serves as:
 - A **conversation starter** for engaging with others interested in how we create, share, and apply knowledge
 
 The content here reflects ongoing learning and thinking-in-progress. You'll find notes, essays, reflections, and syntheses that represent different stages of development rather than polished final products.
-
-## Online profiles
-
-- [Google Scholar](https://scholar.google.com/citations?user=H6CN3yAAAAAJ&hl=en)
-- [LinkedIn](https://www.linkedin.com/in/michael-rowe-phd/)
-- [GitHub](https://github.com/michael-rowe/emergent-scholarship)
 
 ## This site
 
