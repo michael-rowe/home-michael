@@ -23,6 +23,10 @@ export const CourseLessonList: QuartzComponent = ({
 
   for (const file of allFiles) {
     const slug = file.slug!
+    
+    // Only include lessons that are actually inside this course folder
+    if (!slug.startsWith(courseSlug + "/")) continue
+
     const relativePath = slug.replace(courseSlug + "/", "")
 
     // Skip folder index pages and introduction/conclusion at root level
