@@ -123,16 +123,19 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
 
       const categoryMatches = currentCategories.length > 0
         ? allFiles
-            .filter((f) => {
-              // Include Notes, Posts, and Essays - exclude index pages and current page
-              const isValidSection = f.slug?.startsWith("Notes/") ||
-                                     f.slug?.startsWith("Posts/") ||
-                                     f.slug?.startsWith("Essays/")
-              const isIndex = f.slug?.endsWith("/index")
-              if (!isValidSection || isIndex || f.slug === currentSlug || relatedSlugs.has(f.slug!)) {
-                return false
-              }
-              // Check if file has any matching category
+                          .filter((f) => {
+                            // Include Notes, Posts, Essays, and Course Indices
+                            const isValidSection = f.slug?.startsWith("Notes/") ||
+                                                  f.slug?.startsWith("Posts/") ||
+                                                  f.slug?.startsWith("Essays/") ||
+                                                  (f.slug?.startsWith("Courses/") && f.frontmatter?.type === "course")
+                            
+                            // Exclude standard index pages, but allow Course indices
+                            const isIndex = f.slug?.endsWith("/index") && f.frontmatter?.type !== "course"
+            
+                            if (!isValidSection || isIndex || f.slug === currentSlug || relatedSlugs.has(f.slug!)) {
+                              return false
+                            }              // Check if file has any matching category
               const fileCategory = f.frontmatter?.category
               const fileCategories: string[] = Array.isArray(fileCategory)
                 ? fileCategory.map((c: string) => c.toLowerCase())
@@ -330,16 +333,19 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
 
       const categoryMatches = currentCategories.length > 0
         ? allFiles
-            .filter((f) => {
-              // Include Notes, Posts, and Essays - exclude index pages and current page
-              const isValidSection = f.slug?.startsWith("Notes/") ||
-                                     f.slug?.startsWith("Posts/") ||
-                                     f.slug?.startsWith("Essays/")
-              const isIndex = f.slug?.endsWith("/index")
-              if (!isValidSection || isIndex || f.slug === currentSlug || relatedSlugs.has(f.slug!)) {
-                return false
-              }
-              // Check if file has any matching category
+                          .filter((f) => {
+                            // Include Notes, Posts, Essays, and Course Indices
+                            const isValidSection = f.slug?.startsWith("Notes/") ||
+                                                  f.slug?.startsWith("Posts/") ||
+                                                  f.slug?.startsWith("Essays/") ||
+                                                  (f.slug?.startsWith("Courses/") && f.frontmatter?.type === "course")
+                            
+                            // Exclude standard index pages, but allow Course indices
+                            const isIndex = f.slug?.endsWith("/index") && f.frontmatter?.type !== "course"
+            
+                            if (!isValidSection || isIndex || f.slug === currentSlug || relatedSlugs.has(f.slug!)) {
+                              return false
+                            }              // Check if file has any matching category
               const fileCategory = f.frontmatter?.category
               const fileCategories: string[] = Array.isArray(fileCategory)
                 ? fileCategory.map((c: string) => c.toLowerCase())
@@ -449,10 +455,15 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
         const categoryMatches = currentCategories.length > 0
           ? allFiles
               .filter((f) => {
+                // Include Notes, Posts, Essays, and Course Indices
                 const isValidSection = f.slug?.startsWith("Notes/") ||
                                       f.slug?.startsWith("Posts/") ||
-                                      f.slug?.startsWith("Essays/")
-                const isIndex = f.slug?.endsWith("/index")
+                                      f.slug?.startsWith("Essays/") ||
+                                      (f.slug?.startsWith("Courses/") && f.frontmatter?.type === "course")
+                
+                // Exclude standard index pages, but allow Course indices
+                const isIndex = f.slug?.endsWith("/index") && f.frontmatter?.type !== "course"
+
                 if (!isValidSection || isIndex || f.slug === currentSlug || relatedSlugs.has(f.slug!)) {
                   return false
                 }
