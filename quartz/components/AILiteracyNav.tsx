@@ -50,7 +50,7 @@ export default (() => {
     const currentSlug = simplifySlug(fileData.slug!)
     const isAILiteracy = currentSlug.startsWith("Courses/AI literacy")
 
-    if (!isAILiteracy) {
+    if (!isAILiteracy || fileData.frontmatter?.type === "course") {
       return null
     }
 

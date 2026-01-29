@@ -71,6 +71,10 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.CourseGrid(),
       condition: (page) => page.fileData.slug === "Courses/index",
     }),
+    Component.ConditionalRender({
+      component: Component.CourseLessonList(),
+      condition: (page) => page.fileData.frontmatter?.type === "course",
+    }),
     Component.CourseButton(),
     Component.LessonNav(),
     Component.Comments({
@@ -120,6 +124,10 @@ export const defaultListPageLayout: PageLayout = {
     Component.ConditionalRender({
       component: Component.CourseGrid(),
       condition: (page) => page.fileData.slug === "Courses/index",
+    }),
+    Component.ConditionalRender({
+      component: Component.CourseLessonList(),
+      condition: (page) => page.fileData.frontmatter?.type === "course",
     }),
     Component.CourseButton(),
     Component.LessonNav(),

@@ -1,4 +1,4 @@
-import { QuartzComponent, QuartzComponentProps } from "./types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { resolveRelative, isFolderPath } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 
@@ -245,3 +245,5 @@ CourseLessonList.css = `
   font-weight: 400;
 }
 `
+
+export default (() => CourseLessonList) satisfies QuartzComponentConstructor

@@ -27,7 +27,8 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
     const slug = simplifySlug(currentSlug)
 
     // Don't show ContextualNav for AI literacy course (has its own navigation)
-    if (currentSlug.startsWith("Courses/AI literacy/")) {
+    // But DO show it for the index page (type: course)
+    if (currentSlug.startsWith("Courses/AI literacy/") && fileData.frontmatter?.type !== "course") {
       return null
     }
 
@@ -381,8 +382,122 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
       )
     }
 
-    // Courses: Show course lessons when viewing a specific course
+    // Courses: Handle both Index (Related Content) and Lessons (Course Nav)
     if (isCourses) {
+      // 1. Course Index Page: Show Related Content (same logic as Notes)
+      if (fileData.frontmatter?.type === "course") {
+        const relatedSlugs = new Set<string>()
+        
+        // Helper function to slugify text
+        const slugifyText = (text: string): string => {
+          return text
+            .replace(/\s/g, "-")
+            .replace(/&/g, "-and-")
+            .replace(/%/g, "-percent")
+            .replace(/\?/g, "")
+            .replace(/#/g, "")
+        }
+
+        // Parse 'related' field
+        const relatedField = fileData.frontmatter?.related
+        if (relatedField) {
+          const relatedList = Array.isArray(relatedField) ? relatedField : [relatedField]
+          for (const item of relatedList) {
+            const match = typeof item === "string" ? item.match(/\[\[([^\]]+)\]\]/) : null
+            if (match) {
+              const linkText = match[1]
+              const slugifiedLink = slugifyText(linkText)
+              
+              // Search in Notes, then globally
+              let relatedFile = allFiles.find(
+                (f) =>
+                  f.slug?.startsWith("Notes/") &&
+                  (f.slug === `Notes/${slugifiedLink}` ||
+                    simplifySlug(f.slug!) === slugifiedLink ||
+                    f.slug?.endsWith(`/${slugifiedLink}`) ||
+                    f.frontmatter?.title === linkText)
+              )
+
+              if (!relatedFile) {
+                relatedFile = allFiles.find(
+                  (f) =>
+                    f.frontmatter?.title === linkText ||
+                    simplifySlug(f.slug!) === slugifiedLink ||
+                    f.slug?.endsWith(`/${slugifiedLink}`)
+                )
+              }
+
+              if (relatedFile && relatedFile.slug !== currentSlug) {
+                relatedSlugs.add(relatedFile.slug!)
+              }
+            }
+          }
+        }
+
+        const explicitRelated = Array.from(relatedSlugs)
+          .map((slug) => allFiles.find((f) => f.slug === slug))
+          .filter((f) => f !== undefined)
+
+        // Find content in same category
+        const rawCategory = fileData.frontmatter?.category
+        const currentCategories: string[] = Array.isArray(rawCategory)
+          ? rawCategory.map((c: string) => c.toLowerCase())
+          : typeof rawCategory === "string" && rawCategory
+            ? [rawCategory.toLowerCase()]
+            : []
+
+        const categoryMatches = currentCategories.length > 0
+          ? allFiles
+              .filter((f) => {
+                const isValidSection = f.slug?.startsWith("Notes/") ||
+                                      f.slug?.startsWith("Posts/") ||
+                                      f.slug?.startsWith("Essays/")
+                const isIndex = f.slug?.endsWith("/index")
+                if (!isValidSection || isIndex || f.slug === currentSlug || relatedSlugs.has(f.slug!)) {
+                  return false
+                }
+                const fileCategory = f.frontmatter?.category
+                const fileCategories: string[] = Array.isArray(fileCategory)
+                  ? fileCategory.map((c: string) => c.toLowerCase())
+                  : typeof fileCategory === "string" && fileCategory
+                    ? [fileCategory.toLowerCase()]
+                    : []
+                return fileCategories.some((fc) => currentCategories.includes(fc))
+              })
+              .sort(byDateAndAlphabetical(cfg))
+          : []
+
+        const combinedRelated = [
+          ...explicitRelated,
+          ...categoryMatches.filter(f => !explicitRelated.some(e => e?.slug === f.slug))
+        ].slice(0, options.postsLimit)
+
+        if (combinedRelated.length === 0) {
+          return null
+        }
+
+        return (
+          <div class={classNames(displayClass, "contextual-nav")}>
+            <h3>Related</h3>
+            <ul>
+              {combinedRelated.map((item) => (
+                <li>
+                  <a href={resolveRelative(fileData.slug!, item!.slug!)} class="internal">
+                    {item!.frontmatter?.title}
+                  </a>
+                  {item!.dates && (
+                    <span class="date">
+                      <Date date={getDate(cfg, item!)!} locale={cfg.locale} />
+                    </span>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )
+      }
+
+      // 2. Course Lesson Page: Show Course Lessons Navigation
       // Check if we're viewing a specific course (not the courses index)
       if (currentSlug === "Courses/index") {
         return null

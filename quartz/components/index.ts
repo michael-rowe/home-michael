@@ -34,7 +34,7 @@ import BookOverview from "./BookOverview"
 import NotesGrid from "./NotesGrid"
 import NotesByTag from "./NotesByTag"
 import AILiteracyNav from "./AILiteracyNav"
-import { CourseLessonList } from "./CourseLessonList"
+import CourseLessonList from "./CourseLessonList"
 
 export {
   ArticleTitle,
