@@ -16,7 +16,6 @@ category:
   - AI literacy
 related:
   - "[[AI literacy|AI literacy]]"
-  - "[[mapping lessons to AI literacy framework]]"
 draft: false
 permalink: ""
 enableToc: true
