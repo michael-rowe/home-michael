@@ -2,7 +2,6 @@
 title: A Better Game
 type: post
 aliases:
-  - A Better Game for AI Engagement
 description: I keep seeing posts cataloguing AI's failures and questioning tech companies' motives. That's one way to engage. Here's another - demonstrate thoughtful use, critique from practice, and amplify what matters to you. The question is what you choose to amplify as a practical alternative to performative critique.
 author: "[[Michael Rowe]]"
 date: 2025-10-10
@@ -19,6 +18,9 @@ enableToc: true
 cssclasses:
   - ""
 ---
+> [!tip] A different game
+> Technology amplifies human intention. Rather than cataloguing AI's failures, demonstrate thoughtful use, critique from practice, and amplify what matters to you. The question isn't whether AI is good or bad—it's what you choose to point it at.
+
 If your LinkedIn feed is anything like mine, you're seeing a steady stream of posts warning about the dangers of AI. They include critiques of tech companies' - and their CEOs - motives, videos with errors presented as evidence of failure, and moral panic about the dangers of misinformation.
 
 > Walk into any number of discussions about emerging technology and you'll find a predictable rhythm. New development announced. Immediate deconstruction follows. Corporate motives questioned. Potential harms catalogued. Limitations highlighted. Discussion concludes with knowing nods about capitalism, surveillance or inequality. *Carlo Iacono. [Wonder as Resistance](https://hybridhorizons.substack.com/p/wonder-as-resistance)*

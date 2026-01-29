@@ -35,15 +35,6 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.ContextualNav(),
-    Component.AILiteracyNav(),
-  ],
-  right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-  ],
-  afterBody: [
     Component.ConditionalRender({
       component: Component.RecentNotes({
         title: "Recent",
@@ -51,7 +42,6 @@ export const defaultContentPageLayout: PageLayout = {
         showTags: false,
         filter: (f) => {
           const slug = f.slug ?? ""
-          // Exclude templates, index pages, and non-content pages
           if (slug.includes("templates")) return false
           if (slug.endsWith("/index")) return false
           if (slug === "index") return false
@@ -68,6 +58,15 @@ export const defaultContentPageLayout: PageLayout = {
       }),
       condition: (page) => page.fileData.slug === "index",
     }),
+    Component.ContextualNav(),
+    Component.AILiteracyNav(),
+  ],
+  right: [
+    Component.Graph(),
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Backlinks(),
+  ],
+  afterBody: [
     Component.ConditionalRender({
       component: Component.CourseGrid(),
       condition: (page) => page.fileData.slug === "Courses/index",

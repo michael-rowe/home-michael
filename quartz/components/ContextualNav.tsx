@@ -112,16 +112,34 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
         .filter((f) => f !== undefined)
 
       // Also find posts in the same category
-      const currentCategory = fileData.frontmatter?.category as string | undefined
-      const categoryMatches = currentCategory
+      // Handle category as either string or array
+      const rawCategory = fileData.frontmatter?.category
+      const currentCategories: string[] = Array.isArray(rawCategory)
+        ? rawCategory.map((c: string) => c.toLowerCase())
+        : typeof rawCategory === "string" && rawCategory
+          ? [rawCategory.toLowerCase()]
+          : []
+
+      const categoryMatches = currentCategories.length > 0
         ? allFiles
-            .filter((f) =>
-              f.slug?.startsWith("Posts/") &&
-              f.slug !== "Posts/index" &&
-              f.slug !== currentSlug &&
-              !relatedSlugs.has(f.slug!) && // Don't duplicate explicit related items
-              (f.frontmatter?.category as string)?.toLowerCase() === currentCategory.toLowerCase()
-            )
+            .filter((f) => {
+              if (
+                !f.slug?.startsWith("Posts/") ||
+                f.slug === "Posts/index" ||
+                f.slug === currentSlug ||
+                relatedSlugs.has(f.slug!)
+              ) {
+                return false
+              }
+              // Check if file has any matching category
+              const fileCategory = f.frontmatter?.category
+              const fileCategories: string[] = Array.isArray(fileCategory)
+                ? fileCategory.map((c: string) => c.toLowerCase())
+                : typeof fileCategory === "string" && fileCategory
+                  ? [fileCategory.toLowerCase()]
+                  : []
+              return fileCategories.some((fc) => currentCategories.includes(fc))
+            })
             .sort(byDateAndAlphabetical(cfg))
         : []
 

@@ -2,61 +2,35 @@
 title: Emergent Scholarship
 ---
 
-> A framework for getting better at getting better
+I'm Michael Rowe. This is where I write and think about scholarship — how we learn, how we teach, how we create and share knowledge. I've spent my career exploring these questions, first in health professions education, now increasingly at the intersection of AI and academic practice.
 
-**For academics, researchers, and rigorous thinkers** who want to improve how they identify problems, learn systematically, and share knowledge in ways that matter.
+**Emergent scholarship** is both the name of this site and an ongoing inquiry: what does it mean to do scholarly work when the tools, contexts, and expectations keep shifting? I don't have answers so much as working notes, arguments in progress, and the occasional conviction.
 
-This isn't about publishing more. It's about working differently across the entire knowledge creation pipeline. It is about developing the adaptive expertise and critical consciousness needed to navigate an era of information abundance. By embracing networked thinking and augmented dialogue, we can transform the scholarly process into a more resilient, connected, and meaningful pursuit.
+## <i class="ph ph-pencil-simple"></i> What I'm working on
 
-<div class="homepage-cta">
+Right now I'm exploring how AI changes the nature of academic work — not just the tools we use, but what counts as expertise, how we assess learning, and what "scholarship" even means when generation becomes trivial.
 
-[[start-here|Start here]]
-
-</div>
-
-## <i class="ph ph-map-pin"></i> Find your path
-
-<div class="entry-cards">
-
-<div class="entry-card-wrapper">
-<a href="/learn" class="entry-card learn">
-<span class="entry-card-title">Learn</span>
-</a>
-<p class="entry-card-description">Structured courses and guides with practical exercises</p>
-</div>
-
-<div class="entry-card-wrapper">
-<a href="/topics" class="entry-card topic">
-<span class="entry-card-title">By topic</span>
-</a>
-<p class="entry-card-description">AI, productivity, scholarly practice, education</p>
-</div>
-
-<div class="entry-card-wrapper">
-<a href="/formats" class="entry-card format">
-<span class="entry-card-title">By format</span>
-</a>
-<p class="entry-card-description">Courses, essays, posts, notes</p>
-</div>
-
-</div>
-
-## <i class="ph ph-medal"></i> Quick win
-
-Read [[Posts/2025-10-10-a-better-game|A better game]] — a different way to think about engaging with AI in your practice.
+I'm also developing an [[Courses/AI literacy/index|AI literacy course]] for academics, and writing about [[Essays/learning-alignment|the alignment problem in education]].
 
 ## <i class="ph ph-star"></i> Featured
 
 <div class="featured-content">
 
-**Course**: [[Courses/Time management/index|Time management for academics]]
-The most practical starting point. Build a sustainable system for managing your time.
-
 **Essay**: [[Essays/learning-alignment|The learning alignment problem]]
 Why current approaches to AI in education are asking the wrong questions.
 
+**Essay**: [[Essays/taste-and-judgement|Taste and judgement in human-AI systems]]
+What remains distinctly human when AI handles execution.
+
+**Course**: [[Courses/AI literacy/index|AI literacy for academics]]
+Developing practical capability with generative AI. *(In development)*
+
 </div>
+
+## <i class="ph ph-compass"></i> Explore
+
+Browse by [[formats|format]] (essays, posts, notes, courses) or by [[topics|topic]].
 
 ---
 
-[[about|What is emergent scholarship?]] · [[principles|Core principles]]
+This site works a bit like an open source project: I work in public, ideas develop through iteration, and the process is part of the output. If something here is useful, use it. If you want to respond, [[contact|get in touch]].
