@@ -21,18 +21,18 @@ cssclasses:
   - ""
 ---
 > [!tip] More than prompting, more than ethics
-> AI literacy cannot be reduced to technical knowledge, operational skill, ethical awareness, or critical thinking alone. It requires integration across all six dimensions, with particular emphasis on judgement and metacognition because AI engagement is inherently contextual and rapidly evolving.
+> AI literacy cannot be reduced to technical knowledge, operational skill, ethical awareness, or critical thinking alone. It requires integration across six dimensions, with particular emphasis on judgement and metacognition because AI engagement is inherently contextual and rapidly evolving.
 
 AI literacy is the multidimensional capability to recognise AI systems, critically evaluate their outputs and limitations, use them effectively for appropriate purposes, create meaningful outcomes through collaboration with AI, understand the ethical implications of AI engagement, and develop contextual judgement about when and how AI serves professional goals.
 
-This definition applies the [[common architecture of literacy]] to artificial intelligence, recognising that AI literacy cannot be reduced to any single dimension:
+This definition applies a [[common architecture of literacy]] to artificial intelligence, recognising that AI literacy cannot be reduced to any single dimension:
 
 - Technical knowledge alone (understanding how LLMs work)
 - Operational skill alone (knowing how to write prompts)
 - Ethical awareness alone (recognising bias and limitations)
 - Critical thinking alone (evaluating AI outputs)
 
-Rather, AI literacy requires integration across all six dimensions, with particular emphasis on judgement and metacognition because AI engagement is inherently contextual and rapidly evolving.
+Rather, AI literacy requires integration across six dimensions, with particular emphasis on judgement and metacognition because AI engagement is inherently contextual and rapidly evolving.
 
 ## The six dimensions of AI literacy
 
