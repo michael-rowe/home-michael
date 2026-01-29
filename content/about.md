@@ -2,8 +2,7 @@
 title: About
 ---
 ## About me
-<img src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" style="float: right; width: 191px; margin-left: 1rem; margin-bottom: 1rem;" />
-I am an Associate Professor and Director of Teaching and Learning in the School of Health and Care Sciences at the University of Lincoln in the United Kingdom.
+<img src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" style="float: left; width: 191px; margin-right: 1rem; margin-bottom: 0.5rem;" />I am an Associate Professor and Director of Teaching and Learning in the School of Health and Care Sciences at the University of Lincoln in the United Kingdom.
 
 My scholarship focuses on the transformative potential of digital technologies in education, with a particular interest in how they influence relationships between teachers and students in learning environments. Drawing on critical pedagogy and complexity science, my work focuses on the use of technological innovation to enhance both education and practice while maintaining student-centred approaches to learning.
 
