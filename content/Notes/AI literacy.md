@@ -68,7 +68,7 @@ The research literature confirms this multidimensional view. Long and Magerko's 
 
 ---
 
-**Sources**
+## Sources
 
 - Allen, L. K., & Kendeou, P. (2023). ED-AI Lit: An Interdisciplinary Framework for AI Literacy in Education. *Policy Insights from the Behavioral and Brain Sciences*, 23727322231220339. https://doi.org/10.1177/23727322231220339
 - Association of College & Research Libraries. (2016). *Framework for information literacy for higher education*. Association of College & Research Libraries. https://www.ala.org/sites/default/files/acrl/content/issues/infolit/framework1.pdf

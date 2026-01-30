@@ -33,6 +33,7 @@ import CourseButton from "./CourseButton"
 import BookOverview from "./BookOverview"
 import NotesGrid from "./NotesGrid"
 import NotesByTag from "./NotesByTag"
+import NotesByCategory from "./NotesByCategory"
 import AILiteracyNav from "./AILiteracyNav"
 import CourseLessonList from "./CourseLessonList"
 
@@ -72,6 +73,7 @@ export {
   BookOverview,
   NotesGrid,
   NotesByTag,
+  NotesByCategory,
   AILiteracyNav,
   CourseLessonList,
 }
