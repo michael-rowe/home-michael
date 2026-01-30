@@ -36,6 +36,19 @@ The site structure should centre these questions (inspired by open source projec
 - Entry points by problem/need rather than author's categorisation
 - Simple starting points that reveal complexity as users go deeper
 
+## Target audience
+
+Content on this site is primarily for **health professions educators** and those involved in developing practitioners at any level. This includes:
+
+- Medical educators and health professions educators
+- Clinical supervisors and practice supervisors
+- Practice educators and placement coordinators
+- Faculty development professionals
+- Curriculum designers in health sciences
+- Anyone with an interest or role in developing health professionals (students, trainees, or practitioners)
+
+When creating or editing content, frame concepts, examples, and applications with this audience in mind. Use terminology familiar to health professions education contexts and draw on examples from clinical teaching, supervision, curriculum design, and professional development.
+
 ## Style guidelines
 
 When generating content for this site:
