@@ -2,7 +2,7 @@
 title: Browse by format
 ---
 
-Explore content by type.
+Content on this site is structured into distinct formats to suit different needs—from structured courses for deep learning to atomic notes for quick reference.
 
 ## Courses
 

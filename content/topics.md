@@ -1,8 +1,7 @@
 ---
 title: Browse by topic
 ---
-
-Explore content by subject area.
+This index organises content across the site by subject matter, helping you find resources relevant to specific domains of academic practice and digital innovation.
 
 ---
 

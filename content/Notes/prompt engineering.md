@@ -11,17 +11,11 @@ updated: 2026-01-30
 status: draft
 needs_review: false
 tags:
-  - generative-ai
-  - language-model
   - prompt-engineering
   - skills
-category: "artificial intelligence"
+category:
 related:
   - "[[context engineering]]"
-  - "[[problem formulation]]"
-  - "[[writing effective prompts for generative AI]]"
-  - "[[visual literacy]]"
-  - "[[media literacy]]"
 builds_on:
 leads_to:
   - "[[context engineering]]"
@@ -47,17 +41,9 @@ Prompt engineering emerged alongside the public release of large language models
 
 The practice sits within broader discourses about AI literacy, digital media literacy, and human-AI collaboration. As models improve and auto-prompting capabilities develop, the emphasis is shifting from prompt crafting toward problem formulation and context engineering.
 
-## Related concepts
-
-*[[Context engineering]]*: An evolution of prompt engineering that uses structured, relationship-aware knowledge representations rather than flat text retrieval. Enables multi-hop reasoning across connected concepts.
-
-*[[Problem formulation]]*: The ability to clearly define what problem generative AI should solve. Increasingly seen as more valuable than prompt engineering skills alone.
-
-*Auto-prompting*: Automated systems that generate optimal prompts, potentially reducing the need for human prompt engineering expertise.
-
 ## Distinctive characteristics
 
-Prompt engineering differs from context engineering in fundamental ways:
+Prompt engineering differs from [[context engineering]] in fundamental ways:
 
 | Prompt engineering | Context engineering |
 |-------------------|---------------------|
