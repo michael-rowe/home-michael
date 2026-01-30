@@ -1,18 +1,19 @@
 ---
-title: Cultivating taste in the age of capability
+title: "AI and judgement: Cultivating taste in the age of capability"
 type: post
 aliases:
   - Cultivating taste in the age of AI
 description: As AI makes creation and curation trivially easy, evaluative judgement about what should exist becomes the primary human contribution. Taste, not technical skill, is where value now lives.
 author: "[[Michael Rowe]]"
-date: 2025-10-15
-updated: 2025-10-15
+date: 2026-01-29
+updated: 2026-01-30
 tags:
   - artificial-intelligence
   - professional-development
   - taste
 category:
   - Professional practice
+  - AI fluency
 related:
   - "[[taste-and-judgement]]"
 draft: false
@@ -22,7 +23,7 @@ cssclasses:
   - ""
 ---
 > [!tip] Where human value now lives
-> AI can learn your patterns—what you typically choose. But it cannot judge whether those patterns produce outcomes worth amplifying. As creation and curation become trivial, evaluative judgement about what should exist becomes the primary human contribution.
+> AI can learn your patterns—what you typically choose. But it cannot judge whether those patterns produce outcomes worth amplifying. As creation and curation become trivial, evaluative judgement about what *should* exist becomes the primary human contribution.
 
 Content creation has become trivially easy and what used to take hours now takes minutes. The technical barrier to producing text, images, presentations, and video has collapsed in ways that seemed impossible just two years ago.
 
@@ -121,3 +122,6 @@ These are questions of taste. And unlike technical skill or learned patterns, ta
 This is the opportunity hidden in the slop crisis. Not just curating better content, but becoming people whose taste shapes better outcomes. People who understand what matters and can coordinate systems to realise it. People who add signal rather than noise.
 
 That's the work. That's what becomes possible when both creation and curation cost nothing, and evaluation becomes everything.
+
+> [!note] Provenance
+> This post is based on an earlier article, "[AI and judgement: Cultivating taste in an age of capability](https://www.mrowe.co.za/blog/2025/10/ai-and-judgement-cultivating-taste-in-an-age-of-capability/)", originally published on 15 October 2025.

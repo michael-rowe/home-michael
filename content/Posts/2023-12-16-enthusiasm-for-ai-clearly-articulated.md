@@ -5,8 +5,8 @@ aliases:
   - Enthusiasm for AI clearly articulated
 description: Despite the serious ethical concerns around generative AI, I believe it represents an enormous opportunity for learning at scale. Here's why I'm optimistic.
 author: "[[Michael Rowe]]"
-date: 2023-12-16
-updated: 2023-12-16
+date: 2026-01-29
+updated: 2026-01-30
 tags:
   - artificial-intelligence
   - higher-education
@@ -53,3 +53,6 @@ These models aren't perfect. Not even close. But I think it's misguided to hold 
 Of course, I might be wrong. I may have a ton of blind spots that mean I can't see what's obvious to everyone else. But I don't think I'm arguing from a position of ignorance. I am aware of the counterarguments.
 
 I just don't think they're relevant, given what I believe is at stake.
+
+> [!note] Provenance
+> This post is based on an earlier article, "[My biased enthusiasm for generative AI, clearly articulated](https://www.mrowe.co.za/blog/2023/12/my-biased-enthusiasm-for-generative-ai-clearly-articulated/)", originally published on 16 December 2023.

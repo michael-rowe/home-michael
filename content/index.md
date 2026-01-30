@@ -9,7 +9,7 @@ This site is where I write and think about scholarship — how we learn, how we 
 
 ## <i class="ph ph-pencil-simple"></i> What I'm working on
 
-Right now I'm exploring how AI changes the nature of academic work — not just the tools we use, but what counts as expertise, how we assess learning, and what "scholarship" even means when generation becomes trivial.
+Right now I'm exploring how AI changes the nature of academic work — not just the tools we use, but what counts as expertise, how we assess learning, and what "scholarship" even means when content generation is trivial.
 
 I'm also developing an [[Courses/AI literacy/index|AI literacy course]] for academics, and writing about [[Essays/learning-alignment|the alignment problem in education]].
 

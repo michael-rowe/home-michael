@@ -7,7 +7,7 @@ aliases:
 description: Scholarship is defined by the quality of thinking, not the format of output. Audio—podcasts, recorded dialogues, oral histories—deserves recognition as legitimate scholarly work.
 author: "[[Michael Rowe]]"
 date: 2026-01-27
-updated: 2026-01-27
+updated: 2026-01-30
 tags:
   - scholarship
   - podcasts
@@ -26,7 +26,7 @@ cssclasses:
 > [!tip] Scholarship is not defined by its format
 > Audio reveals dimensions of knowledge that text obscures—hesitation, emphasis, the way experts navigate uncertainty in real time. If scholarship involves rigorous investigation and contribution to knowledge, then the form matters less than the quality of thinking it embodies.
 
-The PDF remains the dominant format for scholarly communication. We write articles, format them for print, and distribute them as static documents—even when the work they describe is dynamic, evolving, and deeply human. But scholarship has always been more than text on a page. Before the journal article, there were letters, lectures, salons, and conversations. Knowledge has always moved through voice.
+The PDF is the dominant format for scholarly communication. We write articles, format them for print, and distribute them as static documents—even when the work they describe is dynamic, evolving, and deeply human. But [[Boyer's model of scholarship|scholarship]] has always been more than text on a page. Before the journal article, there were letters, lectures, salons, and conversations. Knowledge has always moved through voice.
 
 What if we took this seriously? What would it mean to recognise audio as a legitimate form of scholarly output?
 
@@ -114,3 +114,6 @@ The question is whether we can create systems that recognise this, that value th
 ## References
 
 - Boyer, E. L. (1990). *Scholarship reconsidered: Priorities of the professoriate*. Carnegie Foundation for the Advancement of Teaching.
+
+> [!note] Provenance
+> This post is based on an earlier article, "[What does scholarship sound like?](https://www.mrowe.co.za/blog/2019/04/what-does-scholarship-sound-like/)", originally published on 02 April 2019. It has been refined and updated to reflect changes in AI development.

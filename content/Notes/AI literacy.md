@@ -6,7 +6,7 @@ aliases:
 description: AI literacy is a multidimensional capability spanning recognition, critical evaluation, functional application, creation, ethical awareness, and contextual judgement—not reducible to any single dimension.
 author: "[[Michael Rowe]]"
 date: 2026-01-29
-updated: 2026-01-29
+updated: 2026-01-30
 tags:
   - AI-literacy
   - framework
@@ -65,3 +65,11 @@ The development of taste and professional judgement about meaningful AI engageme
 AI literacy is not binary—literate or illiterate—but developmental. People begin where they are and progress through increasing sophistication. Additionally, AI literacy is domain-specific. What constitutes meaningful AI engagement differs across contexts. Someone can be highly AI-literate in one domain while still developing literacy in another.
 
 The research literature confirms this multidimensional view. Long and Magerko's foundational 2020 framework identifies 17 competencies spanning recognition, understanding, evaluation, and critical engagement. UNESCO's 2024 framework emphasises knowledge, skills, and attitudes working together. Recent frameworks increasingly stress that AI literacy involves moving from consumer to interpreter to collaborator—a progression that requires developing all six dimensions.
+
+---
+
+**Sources**
+
+- Allen, L. K., & Kendeou, P. (2023). ED-AI Lit: An Interdisciplinary Framework for AI Literacy in Education. *Policy Insights from the Behavioral and Brain Sciences*, 23727322231220339. https://doi.org/10.1177/23727322231220339
+- Association of College & Research Libraries. (2016). *Framework for information literacy for higher education*. Association of College & Research Libraries. https://www.ala.org/sites/default/files/acrl/content/issues/infolit/framework1.pdf
+- Long, D., & Magerko, B. (2020). What is AI Literacy? Competencies and Design Considerations. *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems*, 1–16. https://doi.org/10.1145/3313831.3376727
