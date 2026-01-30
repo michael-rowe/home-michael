@@ -1,4 +1,5 @@
 ---
+type: essay
 title: "Context sovereignty for AI-supported learning: A human-centred approach"
 author:
   - "[[Michael Rowe]]"

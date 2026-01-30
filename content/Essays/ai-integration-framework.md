@@ -1,4 +1,5 @@
 ---
+type: essay
 title: "Avoiding innovation theatre: A framework for supporting institutional AI integration"
 author: "[[Michael Rowe]]"
 affiliation: University of Lincoln

@@ -1,4 +1,5 @@
 ---
+type: essay
 title: "Maximising utility through optimal accuracy: A model for  educational AI"
 author:
   - "[[Michael Rowe]]"

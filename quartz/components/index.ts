@@ -34,8 +34,8 @@ import BookOverview from "./BookOverview"
 import NotesGrid from "./NotesGrid"
 import NotesByTag from "./NotesByTag"
 import NotesByCategory from "./NotesByCategory"
+import NotesByType from "./NotesByType"
 import AILiteracyNav from "./AILiteracyNav"
-import CourseLessonList from "./CourseLessonList"
 
 export {
   ArticleTitle,
@@ -74,6 +74,7 @@ export {
   NotesGrid,
   NotesByTag,
   NotesByCategory,
+  NotesByType,
   AILiteracyNav,
   CourseLessonList,
 }

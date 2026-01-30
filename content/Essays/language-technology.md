@@ -1,4 +1,5 @@
 ---
+type: essay
 title: Technological nature of language and the implications for health professions education
 author: "[[Michael Rowe]]"
 affiliation: University of Lincoln

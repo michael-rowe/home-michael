@@ -1,4 +1,5 @@
 ---
+type: essay
 title: "Publishing with purpose: Using AI to enhance scientific discourse"
 author:
   - "[[Michael Rowe]]"

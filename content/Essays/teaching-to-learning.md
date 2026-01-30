@@ -1,4 +1,5 @@
 ---
+type: essay
 title: "From teaching to learning: How emergent scholarship disrupts traditional education hierarchies"
 author: Michael Rowe
 affiliation: University of Lincoln

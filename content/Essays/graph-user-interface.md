@@ -1,4 +1,5 @@
 ---
+type: essay
 title: "Beyond text boxes: Exploring a graph-based user interface for AI-supported learning"
 author:
   - "[[Michael Rowe]]"

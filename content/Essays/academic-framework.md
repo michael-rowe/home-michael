@@ -1,4 +1,5 @@
 ---
+type: essay
 title: A theoretical framework for integrating AI into health professions education
 author:
   - "[[Michael Rowe]]"

@@ -1,4 +1,5 @@
 ---
+type: essay
 title: Context engineering and the technical foundations of educational transformation
 author:
   - "[[Michael Rowe]]"

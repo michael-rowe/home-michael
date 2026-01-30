@@ -75,6 +75,10 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.NotesByCategory(),
       condition: (page) => page.fileData.slug === "topics",
     }),
+    Component.ConditionalRender({
+      component: Component.NotesByType(),
+      condition: (page) => page.fileData.slug === "formats",
+    }),
     Component.CourseButton(),
     Component.LessonNav(),
     Component.Comments({
@@ -128,6 +132,10 @@ export const defaultListPageLayout: PageLayout = {
     Component.ConditionalRender({
       component: Component.NotesByCategory(),
       condition: (page) => page.fileData.slug === "topics",
+    }),
+    Component.ConditionalRender({
+      component: Component.NotesByType(),
+      condition: (page) => page.fileData.slug === "formats",
     }),
     Component.CourseButton(),
     Component.LessonNav(),

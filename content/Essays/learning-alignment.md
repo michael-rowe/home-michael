@@ -1,4 +1,5 @@
 ---
+type: essay
 title: "The learning alignment problem: AI and the loss of control in higher education"
 author:
   - "[[Michael Rowe]]"

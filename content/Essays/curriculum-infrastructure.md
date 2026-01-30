@@ -1,4 +1,5 @@
 ---
+type: essay
 title: "Beyond document management: Graph infrastructure for professional education curricula"
 author:
   - "[[Michael Rowe]]"

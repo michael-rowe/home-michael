@@ -1,4 +1,5 @@
 ---
+type: essay
 title: Taste and judgement in human-AI systems
 author:
   - Michael Rowe

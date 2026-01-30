@@ -1,4 +1,5 @@
 ---
+type: essay
 title: "From journals to networks: How transparency transforms trust in scholarship"
 author: "[[Michael Rowe]]"
 affiliation: University of Lincoln
