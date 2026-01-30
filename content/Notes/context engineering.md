@@ -24,7 +24,6 @@ related:
   - "[[multi-hop reasoning]]"
   - "[[Model Context Protocol]]"
   - "[[retrieval augmented generation]]"
-  - "[[context engineering for academics]]"
 builds_on:
   - "[[prompt engineering]]"
 leads_to:
@@ -94,16 +93,21 @@ Context engineering differs fundamentally from [[prompt engineering]]:
 ## Applications
 
 Context engineering is essential for:
-- **Reliable AI agents**: Long-running agents require consistent context to perform effectively
 - **Complex knowledge domains**: Where relationships between concepts matter
 - **Multi-source integration**: Combining information from diverse knowledge bases
-- **Permission-controlled access**: Sophisticated access control over what information is surfaced
+- **Long-running AI workflows**: Agents that maintain coherent understanding across sessions
+- **Permission-controlled access**: Sophisticated control over what information is surfaced
 
-Choose context engineering when you need:
-- Complex reasoning requirements
-- Multi-source knowledge integration
-- Domain expertise requiring relationship understanding
-- Long-term knowledge management strategy
+### For academic work
+
+Context engineering transforms how scholars can work with AI by making your accumulated knowledge accessible:
+
+- **Literature synthesis**: Rather than asking about individual papers, query across your entire research library: "How do these three theoretical frameworks relate to each other? Where do they conflict?"
+- **Research development**: AI that understands your methodological commitments, theoretical positions, and ongoing arguments can offer substantive intellectual partnership rather than generic responses
+- **Teaching with depth**: Course materials that draw on your curated knowledge—your annotations, your connections between readings, your pedagogical insights
+- **Writing support**: Drafting that reflects your voice, your citations, your way of building arguments
+
+The key insight for academics: you've likely spent years building a personal knowledge system (whether in Zotero, Obsidian, or annotated PDFs). Context engineering makes that investment legible to AI.
 
 ### Core principles
 
@@ -112,31 +116,26 @@ Successful context engineering relies on three key elements:
 2. **Integration systems**: Bridging information sources and AI tools
 3. **Implementation strategy**: Deploying and measuring solutions
 
-> Making context engineering work comes down to three key elements: Knowledge Architecture, Integration Systems, Implementation Strategy. — Sean King
-
 ## Implications
 
-Context engineering positions knowledge architectures as equally important as information retrieval. Traditional chatbots force a choice: either work with the model's general knowledge or upload everything and hope it fits in context. Context engineering sidesteps this by building intelligent retrieval systems that surface exactly the relevant information when needed.
+Context engineering positions knowledge architectures as equally important as information retrieval. For scholars, this validates what we've always known: the value isn't just in having information, but in understanding how ideas connect.
 
-This is not simply adding more context (e.g., giving models access to emails and calendars)—that would be [[prompt engineering]] with more sources. True context engineering involves:
-- Dynamic retrieval from external sources
-- Robust memory management across interactions
-- Summarising previous conversations
-- Tracking user preferences
-- Integrating real-time data
+This is not simply adding more context (e.g., giving models access to your email). True context engineering involves building systems where your theoretical frameworks, methodological preferences, and conceptual relationships become part of how AI reasons about your work.
+
+The practical implication: the time you invest in connecting ideas—linking notes, mapping relationships between concepts, building your personal knowledge graph—becomes directly valuable for AI-assisted work.
 
 ## Questions and tensions
 
-- How do we balance implementation complexity against the benefits of sophisticated reasoning?
-- When is a hybrid approach (combining both paradigms) optimal?
-- How do we manage the longer development cycles context engineering requires?
-- What expertise is needed to architect effective knowledge ecosystems?
+- How do we maintain scholarly voice and intellectual ownership when AI has deep access to our thinking?
+- Does externalising knowledge structures change how we think?
+- What happens to tacit knowledge that resists explicit representation?
+- How do we handle contested or evolving relationships between concepts?
 
 ## My thinking
 
-The central insight is that "context is king"—it serves as the primary differentiator between a fragile demo and a robust, production-grade AI product. Even highly intelligent models cannot perform effectively without appropriate context about what they're being asked to do.
+The central insight is that "context is king"—even highly capable models cannot engage meaningfully with your scholarship without understanding how your ideas connect. This is why generic AI tools feel shallow for serious academic work: they lack access to the relational structure of your knowledge.
 
-The shift to context engineering represents a maturation of the field: from optimising individual prompts to architecting entire information ecosystems. This requires practitioners to think like information architects, not just prompt crafters.
+For academics, context engineering is really about making your intellectual infrastructure—the frameworks, connections, and commitments you've developed—available as context for AI reasoning. The linked notes, the annotated sources, the conceptual maps: these aren't just for your own reference anymore.
 
 ---
 

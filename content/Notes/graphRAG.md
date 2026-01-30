@@ -80,29 +80,40 @@ By constructing [[knowledge graph]]s from source materials, GraphRAG enables the
 ## Applications
 
 GraphRAG is particularly valuable for:
-- **Complex domains**: Where relationships between concepts matter (medicine, law, research)
+- **Complex domains**: Where relationships between concepts matter
 - **Multi-document synthesis**: Connecting information across many sources
 - **Reasoning tasks**: Questions requiring inference chains
-- **Knowledge management**: Building queryable representations of organisational knowledge
+- **Knowledge management**: Building queryable representations of accumulated knowledge
 
-GraphRAG can work with curated knowledge (e.g., manually built in Obsidian) or can automate the creation of knowledge graphs from unstructured documents.
+### For academic work
+
+GraphRAG addresses a fundamental challenge in scholarship: we accumulate vast libraries of PDFs, notes, and annotations, but this knowledge remains trapped in isolated documents.
+
+- **Research libraries**: Extract entities (authors, concepts, methods, findings) and relationships (critiques, builds-on, contradicts) from your Zotero library
+- **Literature synthesis**: Automatically map the intellectual landscape of a field—who cites whom, which concepts cluster together, where debates lie
+- **Personal knowledge bases**: Transform your Obsidian vault or note system into a queryable knowledge graph
+- **Collaborative research**: Build shared knowledge structures across research teams
+
+GraphRAG can work with curated knowledge (the links you've already built in Obsidian) or automate extraction from unstructured documents (your PDF library). The hybrid approach—automated extraction refined by scholarly judgement—often works best.
 
 ## Implications
 
-GraphRAG represents a shift from treating documents as bags of similar words to treating them as sources of structured knowledge. This enables AI systems to reason more like domain experts who understand how concepts connect, rather than search engines that find similar text.
+GraphRAG represents a shift from treating your research library as a collection of separate documents to treating it as a structured knowledge base. This enables AI to reason more like a knowledgeable colleague who understands how ideas in your field connect.
 
-The trade-off is implementation complexity: building and maintaining knowledge graphs requires more infrastructure than vector databases.
+For scholars, this means the years invested in reading, annotating, and thinking about literature can become computationally accessible. Your expertise isn't just in your head—it's encoded in the patterns of what you've read and how you've connected it.
 
 ## Questions and tensions
 
-- How do we handle errors in automated entity and relationship extraction?
+- How do we handle errors in automated extraction? Scholarly nuance is easily lost.
 - What's the right balance between automated extraction and human curation?
-- How do we keep knowledge graphs current as source documents change?
-- When does the complexity of GraphRAG justify itself over simpler RAG approaches?
+- How do we represent contested or evolving relationships between concepts?
+- How do we maintain knowledge graphs as new literature emerges?
 
 ## My thinking
 
-GraphRAG is the practical technique that makes [[context engineering]] possible. While the concept of using knowledge graphs for AI is straightforward, GraphRAG's contribution is automating the extraction process—making it feasible to build structured knowledge representations at scale without manual curation of every relationship.
+GraphRAG is what makes [[context engineering]] practical for scholars. The alternative—manually specifying every relationship between every concept—doesn't scale. GraphRAG lets you bootstrap a knowledge graph from your existing library, then refine it through use.
+
+The combination of automated extraction and manual curation mirrors how scholarship actually works: we inherit frameworks from the field, then refine them through our own reading and thinking.
 
 ---
 

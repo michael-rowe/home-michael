@@ -70,35 +70,45 @@ The capability becomes possible when knowledge is structured as a [[knowledge gr
 ## Applications
 
 Multi-hop reasoning is essential for:
-- **Complex queries**: "What authors influenced the people who influenced Einstein?"
-- **Inference chains**: Drawing conclusions that require multiple logical steps
+- **Complex queries**: Questions requiring synthesis across multiple sources
+- **Inference chains**: Drawing conclusions through multiple logical steps
 - **Cross-domain synthesis**: Connecting concepts from different knowledge areas
 - **Explanation generation**: Showing the reasoning path, not just the answer
 
-Example: To answer "Which treatments are effective for diseases caused by this gene mutation?", a system must:
-1. Identify diseases linked to the mutation
-2. Find treatments associated with those diseases
-3. Filter for effectiveness data
-4. Synthesise a response
+### For academic work
 
-This requires traversing gene → disease → treatment relationships.
+Multi-hop reasoning enables the kind of synthetic thinking central to scholarship:
+
+- **Literature review**: "Which methodological critiques of [Theory A] also apply to [Theory B]?" requires traversing theory → critiques → methodological assumptions → related theories
+- **Theoretical development**: "What concepts from [Field X] might address limitations in [Framework Y]?" requires understanding both domains and finding structural similarities
+- **Historiography**: "How did [Scholar A]'s critique of [Scholar B] influence [Scholar C]'s later work?" requires traversing intellectual lineages
+- **Interdisciplinary work**: Connecting concepts across fields where the relationships aren't obvious from keyword similarity
+
+Example: To answer "Which qualitative methods address the validity concerns raised about [specific approach]?", a system must:
+1. Identify the validity concerns for that approach
+2. Find methods that explicitly address those concerns
+3. Filter for qualitative methods
+4. Synthesise recommendations
+
+This is the kind of reasoning scholars do constantly—and that simple retrieval systems cannot support.
 
 ## Implications
 
-Multi-hop reasoning represents a qualitative shift in what AI systems can accomplish. Rather than sophisticated pattern matching, it enables genuine inference—the ability to derive new conclusions from existing knowledge.
+Multi-hop reasoning represents a qualitative shift in what AI systems can accomplish for scholarship. Rather than finding similar passages, it enables genuine inference—following chains of intellectual influence, methodological critique, and conceptual development.
 
-This capability is why [[context engineering]] requires [[knowledge graph]]s rather than [[vector database]]s: you cannot traverse relationships that aren't explicitly represented.
+This is why building explicit relationships between concepts matters: you cannot traverse connections that aren't represented. The time spent linking ideas in your notes becomes the infrastructure for sophisticated AI reasoning.
 
 ## Questions and tensions
 
-- How many "hops" can systems reliably traverse before accuracy degrades?
-- How do we validate reasoning chains for correctness?
-- What's the computational cost of multi-hop queries at scale?
-- When is the complexity of multi-hop infrastructure justified over simpler approaches?
+- How do we validate AI reasoning chains against scholarly standards of evidence?
+- Can multi-hop reasoning handle contested or ambiguous relationships between concepts?
+- How do we distinguish genuine inference from plausible-sounding but unfounded connections?
 
 ## My thinking
 
-Multi-hop reasoning is what makes [[context engineering]] genuinely different from sophisticated [[prompt engineering]]. It's not just about having more context—it's about having structured context that can be navigated. This is the difference between having a pile of documents and having a map showing how ideas connect.
+Multi-hop reasoning is what makes [[context engineering]] genuinely valuable for scholarship. Academic work is fundamentally relational—we build on predecessors, respond to critics, synthesise across traditions. AI that can only find similar text cannot participate in this kind of thinking. AI that can traverse conceptual relationships can.
+
+The practical implication: every link you create between notes, every relationship you make explicit, extends what AI can reason about.
 
 ---
 

@@ -58,13 +58,13 @@ Understanding the social, ethical, and professional implications of AI engagemen
 
 ### 6. Contextual judgement and metacognition
 
-The development of taste and professional judgement about meaningful AI engagement. This involves distinguishing genuine competence from mere familiarity, recognising when AI helps versus hinders, evaluating both outputs and processes, and developing domain-specific judgement that evolves with experience. An AI-literate person knows not just how to use AI but when its use is appropriate and valuable.
+The development of [[taste-and-judgement|taste and professional judgement]] about meaningful AI engagement. This involves distinguishing genuine competence from mere familiarity, recognising when AI helps versus hinders, evaluating both outputs and processes, and developing domain-specific judgement that evolves with experience. An AI-literate person knows not just how to use AI but when its use is appropriate and valuable.
 
 ## AI literacy is developmental
 
-AI literacy is not binary—literate or illiterate—but developmental. People begin where they are and progress through increasing sophistication. Additionally, AI literacy is domain-specific. What constitutes meaningful AI engagement differs across contexts. Someone can be highly AI-literate in one domain while still developing literacy in another.
+AI literacy is not binary—literate or illiterate—but [[qualifications for AI literacy#2. AI literacy is developmental and contextual|developmental]]. People begin where they are and progress through increasing sophistication. Additionally, AI literacy is domain-specific. What constitutes meaningful AI engagement differs across contexts. Someone can be highly AI-literate in one domain while still developing literacy in another.
 
-The research literature confirms this multidimensional view. Long and Magerko's foundational 2020 framework identifies 17 competencies spanning recognition, understanding, evaluation, and critical engagement. UNESCO's 2024 framework emphasises knowledge, skills, and attitudes working together. Recent frameworks increasingly stress that AI literacy involves moving from consumer to interpreter to collaborator—a progression that requires developing all six dimensions.
+The research literature confirms this multidimensional view. Long and Magerko's foundational 2020 framework identifies 17 competencies spanning recognition, understanding, evaluation, and critical engagement. UNESCO's 2024 framework emphasises knowledge, skills, and attitudes working together. Recent frameworks also increasingly stress that AI literacy involves moving from consumer to interpreter to collaborator—a progression that requires developing all six dimensions.
 
 ---
 

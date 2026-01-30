@@ -57,34 +57,38 @@ Prompt engineering differs from [[context engineering]] in fundamental ways:
 Approach language model prompting as a skilful conversation with a domain expert, not as a search query. Many people provide a few keywords and expect "the answer", but generative AI is not search. Your role is to extract valuable expertise from the model through dialogue.
 
 Common prompting techniques include:
-- Few-shot prompting
-- Zero-shot prompting
-- Chain-of-thought prompting
+- Few-shot prompting (providing examples of desired outputs)
+- Zero-shot prompting (direct instruction without examples)
+- Chain-of-thought prompting (requesting step-by-step reasoning)
 - Structured frameworks like CIDI (Context, Instruction, Details, Input)
 
-Choose prompt engineering when you need:
-- Simple question-answering
-- Fast deployment
-- Limited implementation resources
-- Mature, stable knowledge domains
+### For academic work
+
+Prompt engineering supports everyday scholarly tasks:
+- **Literature exploration**: "What are the key debates in [field] regarding [topic]? What methodological approaches dominate?"
+- **Writing assistance**: Drafting abstracts, summarising arguments, identifying gaps in reasoning
+- **Teaching preparation**: Generating discussion questions, creating worked examples, developing assessment rubrics
+- **Peer review**: Using AI as a first reader to identify unclear arguments or missing citations
+
+The limitation for scholarship is that prompt engineering treats your research as isolated queries rather than an interconnected body of knowledge. Each conversation starts fresh, without awareness of your theoretical commitments, methodological preferences, or the relationships between concepts you've developed over years of work.
 
 ## Implications
 
 Prompt engineering skills are fundamentally management skills: clearly understanding the task; explaining it to the AI; providing useful feedback to improve outputs; and generalising lessons into reusable processes.
 
-This framing suggests that effective prompting draws on the same competencies as effective delegation and collaboration—skills that transfer across many contexts beyond AI interaction.
+For academics, this maps directly to skills already developed through supervising research students and collaborating with colleagues; articulating what you need, providing context, and iterating toward better outputs. These skills [[qualifications for AI literacy#1. Literacy requires practice, not just instruction|develop through practice]] and the *Substitution* stage of the [[Courses/AI literacy/index|AI literacy course]] may help to learn their application across content creation, reading, and writing.
 
 ## Questions and tensions
 
-- Will auto-prompting make human prompt engineering obsolete?
-- Is the refinement process itself a form of creative practice, or merely technical optimisation?
-- How do we balance prompt engineering skills with deeper problem formulation abilities?
+- How do we maintain intellectual ownership when AI contributes to ideation?
+- Does reliance on prompt engineering flatten the complexity of scholarly thinking?
+- How do we teach students to use these tools without undermining their development of disciplinary expertise?
 
 ## My thinking
 
-The most significant insight here is Ethan Mollick's observation that prompt engineering is essentially management. This reframes it from a technical skill to a transferable competency. The emphasis should be on developing problem formulation abilities—understanding what you actually need from an AI system—rather than memorising prompt templates.
+The most significant insight is Ethan Mollick's observation that prompt engineering is essentially management. For academics, this is both empowering and limiting. It's empowering because scholars already have the skills—articulating complex ideas, providing context, iterating on drafts. It's limiting because academic knowledge work isn't a series of isolated tasks to be managed; it's a web of interconnected ideas that prompt engineering cannot represent.
 
-The evolution toward context engineering also suggests that prompt engineering represents an early, relatively crude approach to AI interaction that will be superseded by more sophisticated methods involving structured knowledge representation.
+This is why [[context engineering]] matters more than [[prompt engineering]] for serious scholarly work; it moves beyond task-by-task interactions toward systems that understand how your ideas connect.
 
 ---
 
