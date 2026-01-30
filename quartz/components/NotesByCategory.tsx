@@ -41,24 +41,36 @@ export const NotesByCategory: QuartzComponent = ({ cfg, fileData, allFiles }: Qu
   const sortedCategoryGroups: CategoryGroup[] = Array.from(categoryGroups.entries())
     .map(([category, notes]) => ({
       category,
-      notes: notes.sort(sorter), // No limit for topics page
+      notes: notes.sort(sorter),
     }))
     .sort((a, b) => a.category.localeCompare(b.category))
 
   return (
     <div class="notes-by-category">
       {sortedCategoryGroups.map(({ category, notes }) => {
+        const total = notes.length
+        const hasMore = total > 3
+        const displayedNotes = notes.slice(0, 3)
+
         return (
           <section class="category-section">
             <div class="category-header">
               <h2 class="category-title">
                 {category}
               </h2>
-              <span class="category-count">{notes.length} items</span>
+              {hasMore && (
+                <a
+                  href={resolveRelative(fileData.slug!, `tags/${category}` as FullSlug)}
+                  class="category-view-all"
+                >
+                  View all {total} →
+                </a>
+              )}
+              {!hasMore && <span class="category-count">{total} items</span>}
             </div>
 
             <ul class="category-notes-list">
-              {notes.map((note) => {
+              {displayedNotes.map((note) => {
                 const title = note.frontmatter?.title
                 const description = note.frontmatter?.description ?? note.description ?? ""
 
@@ -85,6 +97,15 @@ export const NotesByCategory: QuartzComponent = ({ cfg, fileData, allFiles }: Qu
                 )
               })}
             </ul>
+            
+            {hasMore && (
+              <a
+                href={resolveRelative(fileData.slug!, `tags/${category}` as FullSlug)}
+                class="category-show-more"
+              >
+                Show {total - 3} more items →
+              </a>
+            )}
           </section>
         )
       })}
@@ -128,6 +149,18 @@ NotesByCategory.css = `
 .category-count {
   font-size: 0.9rem;
   color: var(--gray);
+}
+
+.category-view-all {
+  font-size: 0.9rem;
+  color: var(--secondary);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.category-view-all:hover {
+  color: var(--tertiary);
 }
 
 .category-notes-list {
@@ -185,6 +218,19 @@ NotesByCategory.css = `
   font-size: 0.95rem;
   line-height: 1.6;
   color: var(--darkgray);
+}
+
+.category-show-more {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: var(--secondary);
+  text-decoration: none;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.category-show-more:hover {
+  color: var(--tertiary);
 }
 
 @media (max-width: 768px) {
