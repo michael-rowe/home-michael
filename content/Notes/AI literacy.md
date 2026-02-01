@@ -14,6 +14,7 @@ category:
   - AI literacy
 related:
   - "[[common architecture of literacy]]"
+  - "[[AI literacy development framework]]"
 draft: false
 permalink: ""
 enableToc: true

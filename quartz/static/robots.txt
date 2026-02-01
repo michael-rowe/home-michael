@@ -1,0 +1,11 @@
+# Robots.txt for Emergent Scholarship
+# Welcome to AI crawlers and search engines
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://michael-rowe.github.io/emergent-scholarship/sitemap.xml
+
+# LLM-specific context available at:
+# https://michael-rowe.github.io/emergent-scholarship/llms.txt

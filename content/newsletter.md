@@ -1,39 +1,19 @@
 ---
 title: Newsletter
+description: Subscribe to updates on emergent scholarship, AI literacy, and health professions education.
 ---
 
-## Subscribe to Updates
+## Subscribe to updates
 
-Stay connected with my latest thinking on emergent scholarship, networked knowledge, and collaborative research practices.
+Stay connected with my latest thinking on emergent scholarship, AI in education, and health professions education.
 
-### What to Expect
+### What to expect
 
-The newsletter includes:
-
-- **Curated insights** from recent notes and essays
+- **New essays and posts** as they're published
+- **Course updates** and new resources
 - **Reflections** on scholarly practice and knowledge work
-- **Resources** for digital scholarship and networked thinking
-- **Announcements** about new content, projects, and events
 
 Published monthly (or when there's something worth sharing).
 
-### Subscribe
+<script async data-uid="bdaa9a9cdf" src="https://michael-rowe.kit.com/bdaa9a9cdf/index.js"></script>
 
-[Add your newsletter signup form or service integration here]
-
-Options:
-- **Buttondown**: [Link to Buttondown signup]
-- **Substack**: [Link to Substack]
-- **Email list**: [Link to email signup form]
-
-### Previous Issues
-
-Browse the [newsletter archive](#) to see what you've missed.
-
-### Unsubscribe
-
-If you're already subscribed and want to unsubscribe, you can do so by clicking the unsubscribe link at the bottom of any newsletter email, or by contacting me directly at [your-email@example.com]
-
----
-
-*Your email address will never be shared with third parties. See my [privacy policy](#) for more information.*

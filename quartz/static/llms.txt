@@ -1,0 +1,41 @@
+# Emergent Scholarship
+
+> A framework for the entire knowledge creation pipeline: from identifying problems worth solving, to learning systematically, to sharing what you've learned in ways that matter.
+
+This site is maintained by Michael Rowe, an academic and researcher working on technology-enhanced scholarship and artificial intelligence in health professions education at the University of Lincoln.
+
+## What this site offers
+
+- **AI Literacy Framework**: A comprehensive approach to developing AI literacy across six dimensions (access/recognition, critical evaluation, functional application, creation/communication, ethical awareness, contextual judgement)
+- **AI Literacy Course**: A developmental course for academics moving from foundation through substitution, adaptation, to transformation
+- **Essays and Analysis**: Scholarly writing on AI in education, learning alignment, taste and judgement in human-AI systems
+- **Frameworks and Policies**: Practical resources including classroom AI policies and curriculum design frameworks
+
+## Primary audience
+
+Health professions educators and those involved in developing practitioners at any level, including medical educators, clinical supervisors, curriculum designers, and faculty development professionals.
+
+## Key resources
+
+- /Courses/AI-literacy/ - Full AI literacy course for academics
+- /Frameworks/AI-literacy-development-framework/ - Framework for embedding AI literacy into existing courses
+- /Policies/classroom-policy-AI-use/ - Template classroom policy for AI use
+- /Notes/AI-literacy/ - Core concepts of AI literacy
+- /Essays/taste-and-judgement/ - Essay on taste and judgement in human-AI systems
+
+## Content structure
+
+- **Essays**: Developed arguments and analysis
+- **Posts**: Shorter, timely pieces
+- **Notes**: Atomic concepts and working ideas
+- **Courses**: Structured learning sequences
+- **Frameworks**: Practical tools for educators
+
+## Licence and attribution
+
+Content is shared openly. Attribution appreciated. Academic citation format:
+Rowe, M. (2026). [Title]. Emergent Scholarship. https://michael-rowe.github.io/emergent-scholarship/
+
+## Contact
+
+For questions or collaboration: https://michael-rowe.github.io/emergent-scholarship/contact

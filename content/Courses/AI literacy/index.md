@@ -15,6 +15,7 @@ category:
 related:
   - "[[AI literacy]]"
   - "[[common architecture of literacy]]"
+  - "[[AI literacy development framework]]"
 cover: Media/AI_literacy_course.png
 status: In Development
 duration: 10-12 hours
@@ -48,11 +49,11 @@ cssclasses: []
 
 This course develops comprehensive AI literacy across six interconnected dimensions, using a developmental framework that moves from basic competence through adaptation to transformation. No prior AI experience required.
 
-## What AI literacy means
+### What AI literacy means
 
-[[AI literacy|AI literacy]] isn't about learning software or memorising prompts. It's about developing integrated capability across [[common architecture of literacy|six interconnected dimensions]]:
+[[AI literacy|AI literacy]] isn't about learning software or creating [[prompt engineering|better prompts]]. It's about developing integrated capability across [[common architecture of literacy|six interconnected dimensions]] of literacy:
 
-- **Access and recognition:** Understanding when and where AI is relevant to your work
+- **Access and recognition:** Understanding when, where, and how AI is relevant to your work
 - **Critical evaluation:** Assessing AI outputs for quality, reliability, and limitations
 - **Functional application:** Using AI effectively across diverse academic contexts
 - **Creation and communication:** Generating meaningful scholarly outputs while maintaining your distinctive voice
