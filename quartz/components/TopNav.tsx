@@ -29,6 +29,7 @@ const defaultOptions: TopNavOptions = {
       ],
     },
     { text: "About", slug: "about" },
+    { text: "Speaking", slug: "speaking" },
     { text: "Contact", slug: "contact" },
     { text: "Newsletter", slug: "newsletter" },
   ],
