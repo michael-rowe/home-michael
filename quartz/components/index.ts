@@ -36,6 +36,7 @@ import NotesByTag from "./NotesByTag"
 import NotesByCategory from "./NotesByCategory"
 import NotesByType from "./NotesByType"
 import AILiteracyNav from "./AILiteracyNav"
+import ShareLinks from "./ShareLinks"
 
 export {
   ArticleTitle,
@@ -77,4 +78,5 @@ export {
   NotesByType,
   AILiteracyNav,
   CourseLessonList,
+  ShareLinks,
 }

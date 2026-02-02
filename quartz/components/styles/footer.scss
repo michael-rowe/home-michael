@@ -4,6 +4,23 @@ footer {
   padding-top: 2rem;
   border-top: 1px solid var(--lightgray);
 
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    margin-bottom: 1.5rem;
+
+    a {
+      color: var(--darkgray);
+      text-decoration: none;
+      font-size: 0.9rem;
+
+      &:hover {
+        color: var(--secondary);
+      }
+    }
+  }
+
   .license-info {
     display: flex;
     align-items: center;

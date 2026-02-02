@@ -81,6 +81,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.CourseButton(),
     Component.LessonNav(),
+    Component.ShareLinks(),
     Component.Comments({
       provider: "giscus",
       options: {
