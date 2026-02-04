@@ -23,7 +23,7 @@ cssclasses:
   - ""
 ---
 > [!tip] The bitter lesson in education
-> AI researchers encoded what they understood about human intelligence, which felt right but couldn't scale. We encoded what we understood about "assessing learning," which felt rigorous but was actually optimising for surface features that AI can replicate trivially.
+> AI researchers encoded what they understood about human intelligence, which felt right but couldn't scale. We encoded what we understood about "assessing learning," which felt rigorous but was actually optimising for surface features that AI can replicate easily.
 
 In 2019, AI researcher Rich Sutton published ["The Bitter Lesson"](http://www.incompleteideas.net/IncIdeas/BitterLesson.html), reflecting on 70 years of artificial intelligence research. His observation was that researchers had repeatedly invested in encoding human knowledge into AI systems—chess strategies, speech recognition rules, computer vision features—only to find that simpler computational approaches eventually outperformed their carefully crafted expertise. The "bitter" lesson wasn't just that computation won; it was that decades of intuitive, satisfying work had been directed toward approaches that couldn't scale. Higher education now faces a parallel lesson about how we assess learning.
 
@@ -67,10 +67,12 @@ And it's particularly challenging because the system rewards specific capabiliti
 
 ## Accepting the bitter lesson
 
-The bitter lesson for AI research wasn't that researchers failed to implement good ideas; it was that their fundamental approach wouldn't scale regardless of implementation quality. The bitter lesson in higher education is similar: we can't salvage artifact-based assessment through better rubrics or stricter authentication. The foundation itself—measuring learning through artifact difficulty—was contingent on technological constraints that no longer apply.
+The bitter lesson in machine learning wasn't that researchers failed to implement good ideas; it was that their fundamental approach wouldn't scale regardless of implementation quality. The bitter lesson in higher education is similar: we can't salvage artifact-based assessment through better rubrics or stricter authentication. The foundation itself—measuring learning as a function of the difficulty of artifact creation—was contingent on technological constraints that no longer apply.
 
-This doesn't mean our previous work was worthless or that we were foolish. The assessment systems we built reflected genuine efforts to ensure fairness, maintain standards, and support student learning. But we mistook a contingent barrier (difficulty of generation) for a fundamental principle (validity of measurement). When the barrier disappeared, the principle collapsed.
+This doesn't mean our previous work was worthless or that we were foolish. The systems we built reflected genuine efforts to ensure fairness, maintain standards, and support student learning. But we mistook a contingent barrier (difficulty of content generation) for a fundamental principle (validity of measurement). When the barrier disappeared, the principle collapsed.
 
-Now we face a choice. We can continue spending energy trying to restore artificial scarcity by making artifact production difficult enough that the old system still appears to function. Or we can accept that computational abundance has revealed what was always true: artifacts were proxies for learning, and proxies are most convincing when they're difficult to fake. The question isn't how we make artifacts harder to generate. It's what learning actually looks like when we're not confusing it with artifact production.
+Now we face a choice. We can continue spending energy trying to restore artificial scarcity by making artifact production difficult enough that the old system still appears to function. Or we can accept that computational abundance has revealed what was always true: artifacts were proxies for learning, and proxies are most convincing when they're difficult to fake. The question isn't how to continue making artifacts difficult to generate. It's what learning actually looks like when we're not confusing it with content production.
 
-This acceptance is uncomfortable because it requires acknowledging that the frameworks we've refined over decades addressed the wrong question. They asked "how do we evaluate artifacts?" when we should have asked "how do we recognise learning?" These are fundamentally different questions. The former is now computationally trivial to game; the latter remains genuinely difficult (which, for me, suggests it might be the right question to pursue).
+This acceptance is uncomfortable because it requires acknowledging that the frameworks we've refined over decades addressed the wrong question. They asked "how do we evaluate artifacts?" when we should have asked "how do we recognise learning?" These are fundamentally different questions. The former is now computationally trivial to game; the latter remains genuinely difficult.
+
+Which, for me, suggests it might be the right question to ask.
