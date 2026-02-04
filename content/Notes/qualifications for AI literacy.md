@@ -30,7 +30,7 @@ A process that claims to develop [[AI literacy]] needs important qualifications.
 
 ## 1. Literacy requires practice, not just instruction
 
-Learning resources provide frameworks, techniques, and conceptual foundations, but literacy develops through sustained practice. [[content/Posts/2025-10-15-cultivating-taste-age-of-capability.md|Taste and judgement]] "develop through practice, reflection, and accumulated experience." A participant who passively reads lessons but does not apply them will not be AI literate, just as reading about information literacy does not make someone information literate.
+Learning resources provide frameworks, techniques, and conceptual foundations, but literacy develops through sustained practice. [[2026-01-29-AI-and-evaluative-judgement|Taste and judgement]] "develop through practice, reflection, and accumulated experience." A participant who passively reads lessons but does not apply them will not be AI literate, just as reading about information literacy does not make someone information literate.
 
 Effective course design anticipates this. Activities throughout should require actual AI engagement, reflection on outcomes, and iterative refinement. The progression from substitution through adaptation to transformation assumes participants are actively working with AI throughout, not just learning about it.
 

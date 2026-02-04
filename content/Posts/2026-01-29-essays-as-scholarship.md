@@ -3,10 +3,11 @@ title: Essays as scholarship
 type: post
 aliases:
   - Essays as a form of scholarship
-description: The peer-reviewed journal article has become the default unit of scholarly output, but essays deserve recognition as scholarship—enabling exploration, synthesis, and engagement that formal research cannot support.
+description: The peer-reviewed article dominates academia, but essays deserve recognition as scholarship—enabling exploration and synthesis that formal research cannot.
+keyphrase: essays as scholarship
 author: "[[Michael Rowe]]"
 date: 2026-01-29
-updated: 2026-01-29
+updated: 2026-02-04
 tags:
   - scholarship
   - research
@@ -17,7 +18,7 @@ category:
 related:
   - "[[2026-01-27-what-does-scholarship-sound-like|Podcasts as scholarship]]"
 draft: false
-permalink: ""
+slug: essays-as-scholarship
 enableToc: true
 cssclasses:
   - ""
@@ -25,7 +26,7 @@ cssclasses:
 > [!tip] A different form, not a lesser form
 > Essays deserve recognition as scholarship—not as a lesser form, but as a different form. One that enables exploration before formal investigation, synthesis across disciplinary boundaries, and engagement with audiences that traditional academic publishing fails to reach.
 
-What counts as scholarship? The question seems straightforward until you realise how much of academic practice depends on a remarkably narrow answer. We have converged on the peer-reviewed journal article as the default unit of scholarly output, a format so standardised that Mark Carrigan [described it as](https://markcarrigan.net/2021/12/06/so-you-dont-want-to-be-a-normal-journal-any-more/) the "sterile uniformity of journal formats." This uniformity serves important purposes—it enables comparison, facilitates peer review, and creates predictable expectations. But it also excludes entire modes of thinking and expression that might contribute meaningfully to knowledge.
+What counts as scholarship? The question seems straightforward until you realise how much of academic practice depends on a remarkably narrow answer. We have converged on the peer-reviewed journal article as the default unit of scholarly output, a format so standardised that Mark Carrigan [described it as](https://markcarrigan.net/2021/12/06/so-you-dont-want-to-be-a-normal-journal-any-more/) the "sterile uniformity of journal formats." This uniformity serves important purposes—it enables comparison, facilitates peer review, and creates predictable expectations. But it also excludes entire modes of thinking and expression that might contribute meaningfully to knowledge—including essays as scholarship.
 
 [[content/Notes/Boyer's model of scholarship.md|Boyer's (1990) framework]] remains useful here. He proposed four overlapping forms of scholarship:
 
@@ -38,7 +39,7 @@ Traditional academic journals focus almost exclusively on the first of these—t
 
 The essay offers something different. Where the research article asks "What did we find?", the essay asks "What might this mean?" Where empirical research seeks to close questions through evidence, the essay opens questions through exploration. The essay is a space for speculation, synthesis, and the kind of creative thinking that precedes formal investigation.
 
-As Sarah Kember [has argued](Kember, S. (2016). Why publish? _Learned Publishing_, _29_(S1), 348–353. https://doi.org/10/gnqs98) (2016):
+As Sarah Kember [has argued](https://doi.org/10/gnqs98) (2016):
 
 > We need to make contact with a sense of writing as something that evades and exceeds the possibility of measurement.
 

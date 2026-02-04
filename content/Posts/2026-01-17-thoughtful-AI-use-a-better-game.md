@@ -1,11 +1,13 @@
 ---
-title: A Better Game
+title: "A better game: Thoughtful AI use over performative critique"
 type: post
 aliases:
-description: I keep seeing posts cataloguing AI's failures and questioning tech companies' motives. That's one way to engage. Here's another - demonstrate thoughtful use, critique from practice, and amplify what matters to you. The question is what you choose to amplify as a practical alternative to performative critique.
+  - Thoughtful AI use over performative critique
+description: Rather than cataloguing AI's failures, demonstrate thoughtful use, critique from practice, and amplify what matters to you.
+keyphrase: thoughtful AI use
 author: "[[Michael Rowe]]"
 date: 2026-01-17
-updated: 2026-01-30
+updated: 2026-02-04
 tags:
   - critical-thinking
   - educational-technology
@@ -13,9 +15,9 @@ tags:
 category:
   - Learning
 related:
-  - "[[2025-10-15-cultivating-taste-age-of-capability|Cultivating taste in the age of AI]]"
+  - "[[2026-01-29-AI-and-evaluative-judgement|Cultivating taste in the age of AI]]"
 draft: false
-permalink: ""
+slug: thoughtful-ai-use
 enableToc: true
 cssclasses:
   - ""
@@ -23,7 +25,7 @@ cssclasses:
 > [!tip] A different game
 > Technology amplifies human intention. Rather than cataloguing AI's failures, demonstrate thoughtful use, critique from practice, and amplify what matters to you. The question isn't whether AI is good or bad—it's what you choose to point it at.
 
-If your LinkedIn feed is anything like mine, you're seeing a steady stream of posts warning about the dangers of AI. They include critiques of tech companies' - and their CEOs - motives, videos with errors presented as evidence of failure, and moral panic about the dangers of misinformation.
+If your LinkedIn feed is anything like mine, you're seeing a steady stream of posts warning about the dangers of AI. They include critiques of tech companies' - and their CEOs - motives, videos with errors presented as evidence of failure, and moral panic about the dangers of misinformation. This post argues for thoughtful AI use as an alternative to performative critique.
 
 > Walk into any number of discussions about emerging technology and you'll find a predictable rhythm. New development announced. Immediate deconstruction follows. Corporate motives questioned. Potential harms catalogued. Limitations highlighted. Discussion concludes with knowing nods about capitalism, surveillance or inequality. *Carlo Iacono. [Wonder as Resistance](https://hybridhorizons.substack.com/p/wonder-as-resistance)*
 
@@ -48,7 +50,7 @@ An alternative version of this game looks like this:
 
 **Expose systemic problems**. Use AI to reveal how existing systems are sub-optimal. Show how (most) current assessment practices don’t really measure learning. Demonstrate how publishing incentives in research are misaligned. Make visible the gatekeeping and access problems that existed long before AI. The technology can expose these issues and you can use that exposure productively.
 
-## What this looks like
+## What thoughtful AI use looks like
 I use AI daily. For brainstorming ideas and getting feedback on my thinking. For quick literature reviews and synthesising documentation. For peer-reviewing material before I share with others. For supporting my own learning when I’m trying to understand something complex. As an editor for my writing.
 
 I teach my students to use it the same way; as a thinking partner that supports their learning and research processes, helping them engage with ideas more effectively. While they *can* use it to generate outputs they submit as their own work, we talk about why [this misses the point](/essays/learning-alignment.md). The goal of them being in that classroom is to develop their capacity to think critically and learn independently. Insofar as AI can help move us collectively towards that goal, I try to work with my students to explore what that process looks like.
@@ -69,4 +71,4 @@ Next time you see a post describing AI’s failures or questioning tech companie
 The question then becomes, what will you choose to amplify?
 
 > [!note] Provenance
-> This post is based on an earlier article, "[A better game: Choosing what to amplify with AI]([LINK](https://www.mrowe.co.za/blog/2025/10/a-better-game-choosing-what-to-amplify-with-ai/))", originally published on 10 October 2025.
+> This post is based on an earlier article, "[A better game: Choosing what to amplify with AI](https://www.mrowe.co.za/blog/2025/10/a-better-game-choosing-what-to-amplify-with-ai/)", originally published on 10 October 2025.

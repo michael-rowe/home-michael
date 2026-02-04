@@ -15,7 +15,7 @@ I'm also developing an [[Courses/AI literacy/index|AI literacy course]] for acad
 
 ## <i class="ph ph-star"></i> Featured
 
-**Post** - [[content/Posts/2026-01-28-bitter-lesson-education.md|A bitter lesson in education]]: Rich Sutton's "Bitter Lesson" showed that general computation beats human-crafted expertise in AI. Higher education faces a parallel lesson - our complex assessment frameworks, built on the difficulty of artifact generation, are collapsing now that AI makes production trivial.
+**Post** - [[2026-01-28-bitter-lesson-higher-education|A bitter lesson in education]]: Rich Sutton's "Bitter Lesson" showed that general computation beats human-crafted expertise in AI. Higher education faces a parallel lesson - our complex assessment frameworks, built on the difficulty of artifact generation, are collapsing now that AI makes content production trivial.
 
 **Essay** - [[Essays/taste-and-judgement|Taste and judgement in human-AI systems]]: This essay introduces *taste as a framework for cultivating contextual judgement* through iterative experimentation and reflection that enables discernment about when, how, and why to engage AI capabilities in service of personally meaningful purposes.
 
@@ -25,7 +25,7 @@ I'm also developing an [[Courses/AI literacy/index|AI literacy course]] for acad
 
 Browse by [[formats|format]] (essays, posts, notes, courses) or by [[topics|topic]].
 
-The graph view in the top right shows how ideas connect across the site. Each node is a page; lines show links between them. Click any node to navigate there, or use the global view to see the full network. It's a way to discover related ideas you might not find through linear browsing.
+The **graph view** in the top right section shows how ideas connect across the site. The *local graph* updates depending on what you're currently looking at. Click any node to navigate there, or use the *global view* (small graph icon in the top right) to see the full network. It's a way to discover related ideas you might not find through linear browsing.
 
 ---
 

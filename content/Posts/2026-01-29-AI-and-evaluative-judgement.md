@@ -1,12 +1,13 @@
 ---
-title: "AI and judgement: Cultivating taste in the age of capability"
+title: "AI and evaluative judgement: Cultivating taste in the age of capability"
 type: post
 aliases:
   - Cultivating taste in the age of AI
-description: As AI makes creation and curation trivially easy, evaluative judgement about what should exist becomes the primary human contribution. Taste, not technical skill, is where value now lives.
+description: As AI makes creation and curation trivially easy, evaluative judgement about what should exist becomes the primary human contribution.
+keyphrase: evaluative judgement
 author: "[[Michael Rowe]]"
 date: 2026-01-29
-updated: 2026-01-30
+updated: 2026-02-04
 tags:
   - artificial-intelligence
   - professional-development
@@ -16,8 +17,9 @@ category:
   - AI fluency
 related:
   - "[[taste-and-judgement]]"
+  - "[[2026-01-28-bitter-lesson-higher-education]]"
 draft: false
-permalink: ""
+slug: evaluative-judgement
 enableToc: true
 cssclasses:
   - ""
@@ -29,7 +31,7 @@ Content creation has become trivially easy and what used to take hours now takes
 
 Unfortunately, the result is slop: low-effort output flooding every channel. The common response is to valorise curation—we tell ourselves that creation is cheap but curation is expensive, that the real skill is knowing what to make, not how to make it.
 
-But I think this framing misses something important, and this post is an attempt to explore the missing part and suggest a solution.
+But I think this framing misses something important—evaluative judgement about what should exist—and this post is an attempt to explore what that means.
 
 First, we need to distinguish between three different things:
 
@@ -83,7 +85,7 @@ Cultivating taste involves:
 - Building confidence to trust your judgement while staying open to being wrong
 - Exposing yourself to perspectives that challenge your default assumptions
 
-This is different from skill development. Skills have clear progression paths. Taste requires evaluative judgement, which means that sometimes you've going to be wrong. It demands caring enough to develop strong opinions while remaining open to revision.
+This is different from skill development. Skills have clear progression paths. Taste requires evaluative judgement, which means that sometimes you're going to be wrong. It demands caring enough to develop strong opinions while remaining open to revision.
 
 This is increasingly where human value lives. As AI handles more execution and pattern-matching, evaluation becomes the primary human contribution.
 

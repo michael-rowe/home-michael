@@ -1,12 +1,13 @@
 ---
-title: AI scribes, organisational memory, and new governance structures
+title: AI meeting scribes, organisational memory, and new governance structures
 type: post
 aliases:
   - AI meeting scribes and organisational memory
-description: AI meeting scribes have automated the control of organisational memory, making existing power dynamics both more powerful and more subtle. How should organisations respond?
+description: AI meeting scribes have automated the control of organisational memory, making existing power dynamics more powerful and less visible.
+keyphrase: AI meeting scribes
 author: "[[Michael Rowe]]"
 date: 2026-01-28
-updated: 2026-01-30
+updated: 2026-02-04
 tags:
   - artificial-intelligence
   - governance
@@ -14,8 +15,9 @@ tags:
 category:
   - Organisations
 related:
+  - "[[2026-01-28-bitter-lesson-higher-education]]"
 draft: false
-permalink: ""
+slug: ai-meeting-scribes
 enableToc: true
 cssclasses:
   - ""
@@ -50,4 +52,4 @@ Organisations will soon need governance across three domains:
 This isn't about preventing specific behaviours. It's about building organisations that remain healthy when adversarial dynamics gain new technological mechanisms. The technology didn't create the problem; it just made existing dynamics harder to ignore and more urgent to address.
 
 > [!note] Provenance
-> This post is based on an earlier article, "[Gaming AI meeting scribes: Why organisational memory needs new governance]([LINK)](https://www.mrowe.co.za/blog/2025/12/gaming-ai-meeting-scribes-organisational-memory-governance/)", originally published on 08 December 2025.
+> This post is based on an earlier article, "[Gaming AI meeting scribes: Why organisational memory needs new governance](https://www.mrowe.co.za/blog/2025/12/gaming-ai-meeting-scribes-organisational-memory-governance/)", originally published on 08 December 2025.

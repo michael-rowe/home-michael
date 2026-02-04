@@ -5,7 +5,6 @@ enableToc: false
 
 <section class="contact-section">
 <div class="contact-intro">
-<h2 class="contact-title">Get in touch</h2>
 <p class="contact-description">Fill out the form below and I'll get back to you as soon as possible.</p>
 </div>
 <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">

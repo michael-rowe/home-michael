@@ -4,10 +4,11 @@ type: post
 aliases:
   - Audio scholarship
   - Podcasts as scholarship
-description: Scholarship is defined by the quality of thinking, not the format of output. Audio—podcasts, recorded dialogues, oral histories—deserves recognition as legitimate scholarly work.
+description: Audio scholarship—podcasts, dialogues, oral histories—deserves recognition as legitimate scholarly work. The format matters less than the quality of thinking.
+keyphrase: audio scholarship
 author: "[[Michael Rowe]]"
 date: 2026-01-27
-updated: 2026-01-30
+updated: 2026-02-04
 tags:
   - scholarship
   - podcasts
@@ -18,7 +19,7 @@ category:
 related:
   - "[[2026-01-29-essays-as-scholarship]]"
 draft: false
-permalink: ""
+slug: audio-scholarship
 enableToc: true
 cssclasses:
   - ""
@@ -28,9 +29,9 @@ cssclasses:
 
 The PDF is the dominant format for scholarly communication. We write articles, format them for print, and distribute them as static documents—even when the work they describe is dynamic, evolving, and deeply human. But [[Boyer's model of scholarship|scholarship]] has always been more than text on a page. Before the journal article, there were letters, lectures, salons, and conversations. Knowledge has always moved through voice.
 
-What if we took this seriously? What would it mean to recognise audio as a legitimate form of scholarly output?
+What if we took this seriously? What would it mean to recognise audio scholarship—podcasts, recorded dialogues, oral histories—as legitimate scholarly output?
 
-## Creative work is scholarly work
+## The case for audio scholarship
 
 Research councils and funding bodies have begun recognising creative outputs as scholarly work. The logic is sound: if scholarship involves rigorous investigation, critical analysis, and contribution to knowledge, then the form of the output matters less than the quality of the thinking it embodies. A well-crafted documentary, a thoughtfully designed exhibition, or a carefully produced podcast can demonstrate scholarly rigour just as much as a journal article.
 
