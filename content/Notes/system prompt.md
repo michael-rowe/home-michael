@@ -14,11 +14,11 @@ tags:
   - generative-ai
   - prompt-engineering
   - context
-category: "AI interaction"
+category: AI interaction
 related:
   - "[[prompt engineering]]"
-  - "[[Model Context Protocol]]"
   - "[[context engineering]]"
+  - "[[model-context-protocol]]"
 builds_on:
   - "[[prompt engineering]]"
 leads_to:

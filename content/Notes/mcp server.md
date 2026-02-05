@@ -14,14 +14,14 @@ tags:
   - generative-ai
   - context-engineering
   - implementation
-category: "AI implementation"
+category: AI implementation
 related:
-  - "[[Model Context Protocol]]"
   - "[[context engineering]]"
   - "[[context sovereignty]]"
   - "[[contextual interoperability]]"
+  - "[[model-context-protocol]]"
 builds_on:
-  - "[[Model Context Protocol]]"
+  - "[[model-context-protocol]]"
 leads_to:
 contradicts:
 source: ""

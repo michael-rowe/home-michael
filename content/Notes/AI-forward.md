@@ -14,6 +14,10 @@ tags:
 category:
   - AI literacy
 related:
+  - "[[context sovereignty]]"
+  - "[[context engineering]]"
+  - "[[contextual interoperability]]"
+  - "[[intelligence-as-service]]"
 draft: false
 permalink: ""
 enableToc: true

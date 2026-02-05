@@ -14,13 +14,13 @@ tags:
   - context-engineering
   - standards
   - anthropic
-category: "AI standards"
+category: AI standards
 related:
   - "[[context engineering]]"
   - "[[context sovereignty]]"
-  - "[[MCP server]]"
-  - "[[intelligence as a service]]"
   - "[[contextual interoperability]]"
+  - "[[mcp server]]"
+  - "[[intelligence-as-service]]"
 builds_on:
   - "[[prompt engineering]]"
   - "[[retrieval augmented generation]]"
@@ -29,7 +29,7 @@ leads_to:
   - "[[MCP server]]"
 contradicts:
 source: ""
-source_url: "https://modelcontextprotocol.io"
+source_url: https://modelcontextprotocol.io
 ---
 
 > [!tip] Universal connector, not universal solution

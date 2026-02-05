@@ -15,15 +15,14 @@ tags:
   - context-sovereignty
   - knowledge-representation
   - personal-knowledge-management
-category: "knowledge representation"
+category: knowledge representation
 related:
   - "[[context sovereignty]]"
-  - "[[intelligence as a service]]"
   - "[[knowledge graph]]"
   - "[[context engineering]]"
+  - "[[intelligence-as-service]]"
 builds_on:
   - "[[knowledge graph]]"
-  - "[[personal knowledge management]]"
 leads_to:
   - "[[context sovereignty]]"
 contradicts:

@@ -15,11 +15,11 @@ tags:
   - context-sovereignty
   - privacy
   - architecture
-category: "AI architecture"
+category: AI architecture
 related:
   - "[[context sovereignty]]"
   - "[[contextual interoperability]]"
-  - "[[Model Context Protocol]]"
+  - "[[model-context-protocol]]"
 builds_on:
 leads_to:
   - "[[context sovereignty]]"

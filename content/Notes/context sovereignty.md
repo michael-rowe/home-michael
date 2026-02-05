@@ -16,17 +16,16 @@ tags:
   - model-context-protocol
   - language-model
   - personal-knowledge-management
-category: "AI and learning"
+category: AI and learning
 related:
   - "[[context engineering]]"
-  - "[[intelligence as a service]]"
   - "[[contextual interoperability]]"
-  - "[[personal knowledge management]]"
+  - "[[intelligence-as-service]]"
 builds_on:
   - "[[context engineering]]"
 leads_to:
-  - "[[intelligence as a service]]"
   - "[[contextual interoperability]]"
+  - "[[intelligence-as-service]]"
 contradicts:
 source: "Rowe, M., & Lynch, W. (2025). Context sovereignty for AI-supported learning: A human-centred approach."
 source_url: ""
