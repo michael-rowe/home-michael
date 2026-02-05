@@ -24,35 +24,49 @@ source: "Boyer, E. L. (1990). Scholarship Reconsidered: Priorities of the Profes
 source_url: ""
 ---
 
-## Definition
+> [!tip] Beyond the teaching-research binary
+> Academia's teaching versus research debate creates a false choice that diminishes both. Boyer's framework revealed what practitioners always knew: scholarship takes multiple forms, each requiring rigour and each deserving recognition. The question isn't whether you're a teacher or a researcher—it's which forms of scholarship serve your context and how they're valued.
 
-**Scholarship** (as proposed by Boyer, 1990) has four separate but overlapping meanings:
+## Boyer's model of scholarship
 
-1. The scholarship of discovery (research): original research or the search for new knowledge
-2. The scholarship of integration: putting isolated facts into context
-3. The scholarship of application or engagement (service): goes beyond the service duties of a faculty member to those within or outside the University and involves the rigour and application of disciplinary expertise with results that can be shared with and/or evaluated by peers
-4. The scholarship of teaching and learning: involves the systematic study of teaching and learning processes
+**One-sentence definition:** A framework identifying four distinct but overlapping forms of scholarship—discovery, integration, application, and teaching—that together constitute academic practice.
 
-Boyer's expanded conception of *scholarship* is an attempt to move beyond the teaching vs research debate in higher education and positions scholarly practice as a continuum between the two.
+The contribution wasn't inventing new categories but legitimising what many academics already did. Before Boyer, only discovery (traditional research) counted as "real" scholarship. Everything else—synthesising knowledge across fields, applying expertise to real-world problems, studying teaching practice—was service or teaching, separate from and lesser than research. Boyer challenged this hierarchy by asking a different question: what if these are all forms of scholarship, each requiring rigour and systematic inquiry?
 
-## Context and background
+## The four forms
 
-Boyer was looking to move *scholarship* away from the binary of 'teaching' or 'research' but it was still in the context of academia. This definition firmly positions scholarship within the academy i.e. as part of the role of academics, researchers, and practitioners.
+**Scholarship of discovery** is what most people mean by research: original investigation seeking new knowledge. This remains essential but isn't the only form that deserves recognition.
 
-## Distinctive characteristics
+**Scholarship of integration** puts isolated facts into context, makes connections across disciplines, interprets findings in broader frameworks. Literature reviews, theoretical syntheses, interdisciplinary work—these aren't merely preliminary to "real" research but scholarly contributions requiring deep expertise and intellectual synthesis.
 
-> The scholarly method or scholarship is the body of principles and practices used by scholars to make their claims about the subject as valid and trustworthy as possible and to make them known to the scholarly public… Scholarship…is creative, can be documented, can be replicated or elaborated, and is peer-reviewed. - Wikipedia (2020)
+**Scholarship of application** applies disciplinary expertise to consequential problems beyond the academy, with results that can be shared and evaluated by peers. This differs from service—it's rigorous work addressing real-world challenges using scholarly methods, producing knowledge that advances both practice and theory.
 
-This definition of scholarship does not address the question of quality of scholarly work.
+**Scholarship of teaching and learning** involves systematic study of teaching and learning processes. Not just good teaching but inquiry into how learning happens, what pedagogies work in which contexts, how students develop expertise. This legitimises educational scholarship as research rather than relegating it to service.
 
-## Implications
+## Why this matters
 
-> We need a reward system that reflects the diversity of our institutions and the breadth of scholarship, as well. The challenge is to strike a balance among teaching, research, and service...We need better ways, besides publication, to evaluate scholarly performance... - Ernest Boyer (1990)
+The model addresses a persistent dysfunction in academia: we claim to value both teaching and research, then structure rewards almost entirely around traditional discovery. This creates perverse incentives—researchers who'd rather teach feel pressured to publish, teachers who'd rather integrate knowledge across fields get evaluated on discovery alone, practitioners applying expertise to consequential problems find their work doesn't "count."
+
+Boyer's insight was that the problem isn't valuing research but limiting what counts as scholarship. Expand the definition, and you create space for multiple forms of contribution—each rigorous, each valuable, each deserving recognition.
+
+The practical implication: institutions need reward systems reflecting this diversity. We need ways besides publication counts to evaluate scholarly performance. We need recognition that different forms of scholarship serve different contexts and that balance among them varies appropriately by discipline, institution type, and career stage.
+
+## What remains unresolved
+
+Boyer's framework doesn't address quality—identifying four forms of scholarship says nothing about distinguishing good from mediocre work in any category. The model also doesn't solve the structural problem: even if we accept that integration, application, and teaching are scholarship, tenure committees still primarily reward discovery. Recognition without reward changes little.
+
+The question that Boyer raised but couldn't answer: how do we create reward structures that genuinely value multiple forms of scholarship? That challenge remains largely unaddressed thirty-five years later.
 
 ---
 
 ## Sources
 
 - Boyer, E. L. (1990). Scholarship Reconsidered: Priorities of the Professoriate. The Carnegie Foundation for the Advancement of Teaching
-- Glassick, C. E. (2000). Boyer’s Expanded Deﬁnitions of Scholarship, the Standards for Assessing Scholarship, and the Elusiveness of the Scholarship of Teaching. Academic Medicine, 75(9), 4
+- Glassick, C. E. (2000). Boyer's Expanded Definitions of Scholarship, the Standards for Assessing Scholarship, and the Elusiveness of the Scholarship of Teaching. Academic Medicine, 75(9), 4
 - Wikipedia contributors. (2020, September 26). Scholarly method. In Wikipedia, The Free Encyclopedia. Retrieved 09:02, December 8, 2020, from https://en.wikipedia.org/w/index.php?title=Scholarly_method&oldid=980453952
+
+---
+
+## Notes
+
+Boyer's four categories aren't equally developed across disciplines. Scientific fields have clearer traditions of application scholarship (engineering, clinical medicine). Humanities disciplines often struggle to fit their public-facing work into Boyer's framework—is public scholarship integration, application, or something else entirely?

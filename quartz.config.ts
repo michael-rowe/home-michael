@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "michael-rowe.github.io/emergent-scholarship",
-    ignorePatterns: ["private", "templates", ".obsidian", "drafts"],
+    ignorePatterns: ["private", "templates", ".obsidian", "drafts", "personas"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

@@ -29,96 +29,59 @@ source: ""
 source_url: ""
 ---
 
-## Definition
+> [!tip] From retrieval to inference
+> The limitation of traditional AI retrieval isn't that it finds the wrong chunks of text—it's that it can only find chunks of text. Multi-hop reasoning enables what scholars actually do: synthesising across sources, following chains of intellectual influence, identifying structural parallels between different domains. The difference between finding similar passages and genuine inference.
 
-**Multi-hop reasoning** (noun): The ability of an AI system to draw conclusions by traversing multiple connected concepts or relationships, rather than relying on direct question-answer patterns.
+## Multi-hop reasoning
 
-Multi-hop reasoning enables complex inference across linked information, following chains of relationships to arrive at answers that aren't explicitly stated in any single source.
+**One-sentence definition:** The ability of an AI system to draw conclusions by traversing multiple connected concepts or relationships, rather than relying on direct question-answer patterns.
 
-Key characteristics:
-- Traverses multiple nodes in a knowledge structure
-- Synthesises information from connected concepts
-- Enables answering questions that require combining facts
-- Depends on explicit relationship modelling
+When you ask a traditional retrieval system "which methodological critiques of Theory A also apply to Theory B?", it searches for text chunks that are statistically similar to your query. It might find passages discussing Theory A and passages discussing Theory B. It almost certainly won't answer your actual question, which requires understanding critiques of Theory A, identifying their methodological foundations, and recognising when those same foundations appear in critiques of Theory B. That's not retrieval. That's inference across connected concepts.
 
-## Context and background
+Multi-hop reasoning enables this kind of synthesis by traversing explicit relationships in a [[knowledge graph]] rather than matching statistical patterns in embedded text. This is why [[context engineering]] differs fundamentally from [[prompt engineering]]—it's not about writing better prompts but about structuring knowledge so AI can reason about relationships rather than merely retrieve similar content.
 
-Multi-hop reasoning emerged as a key capability distinguishing [[context engineering]] from [[prompt engineering]]. Traditional retrieval systems using vector databases and embeddings are limited to single-hop reasoning—finding text chunks that are statistically similar to a query. This works for direct questions but fails when answers require combining information across multiple sources.
+## How it works
 
-The capability becomes possible when knowledge is structured as a [[knowledge graph]] with explicit, typed relationships between entities. Systems can then traverse these relationships to construct complex answers.
+Traditional vector databases use embeddings—mathematical representations of text that cluster statistically similar content together. Query for "climate change impacts", and you'll find text chunks discussing climate change impacts. Query for something requiring synthesis across multiple sources, and the system struggles because similarity matching cannot construct chains of inference.
 
-## Related concepts
+Multi-hop reasoning becomes possible when knowledge is structured as a graph with explicit, typed relationships between entities. Now the system can traverse: Theory A → critiqued by → Critique X → based on → Methodological Assumption Y → also applies to → Theory B. These aren't implicit statistical associations but explicit logical connections.
 
-*[[Context engineering]]*: The system-level discipline that enables multi-hop reasoning through structured knowledge representations.
+The capability depends entirely on the quality of relationship modelling. You cannot traverse connections that aren't represented. This is why the time spent explicitly linking concepts in your notes becomes infrastructure for sophisticated AI reasoning—each relationship you make explicit extends what AI can infer.
 
-*[[Knowledge graph]]*: The data structure that makes multi-hop reasoning possible by explicitly modelling relationships between entities.
+## What this enables for scholarship
 
-*[[GraphRAG]]*: A technique that constructs the knowledge graphs enabling multi-hop traversal.
+Academic work is fundamentally relational. We build on predecessors, respond to critics, synthesise across traditions, identify structural parallels between different domains. Multi-hop reasoning lets AI participate in this kind of thinking rather than merely finding relevant passages.
 
-*Single-hop reasoning*: The simpler pattern where queries are matched directly to similar text chunks without relationship traversal.
+Consider these scholarly tasks that require multi-hop reasoning:
 
-## Distinctive characteristics
+**Literature review**: "Which methodological critiques of phenomenology also apply to grounded theory?" requires traversing phenomenology → critiques → methodological foundations → grounded theory → methodological foundations → comparison.
 
-| Single-hop reasoning | Multi-hop reasoning |
-|---------------------|---------------------|
-| Direct question → answer matching | Inference across connected concepts |
-| Finds similar text chunks | Traverses explicit relationships |
-| Limited to information in one source | Synthesises across multiple sources |
-| Statistical similarity-based | Relationship-aware |
-| Supported by [[prompt engineering]] | Enabled by [[context engineering]] |
+**Theoretical development**: "What concepts from complexity theory might address limitations in social constructivism?" requires understanding both frameworks, identifying specific limitations, finding structural parallels, and suggesting connections.
 
-## Applications
+**Historiography**: "How did Scholar A's critique of Scholar B influence Scholar C's later work?" requires following chains of intellectual influence across time and citation networks.
 
-Multi-hop reasoning is essential for:
-- **Complex queries**: Questions requiring synthesis across multiple sources
-- **Inference chains**: Drawing conclusions through multiple logical steps
-- **Cross-domain synthesis**: Connecting concepts from different knowledge areas
-- **Explanation generation**: Showing the reasoning path, not just the answer
+**Interdisciplinary synthesis**: Connecting concepts across fields where the relationships aren't obvious from keyword similarity but emerge from structural or functional parallels.
 
-### For academic work
+None of these reduce to finding similar text. All require constructing chains of inference across explicitly modelled relationships.
 
-Multi-hop reasoning enables the kind of synthetic thinking central to scholarship:
+## The practical implication
 
-- **Literature review**: "Which methodological critiques of [Theory A] also apply to [Theory B]?" requires traversing theory → critiques → methodological assumptions → related theories
-- **Theoretical development**: "What concepts from [Field X] might address limitations in [Framework Y]?" requires understanding both domains and finding structural similarities
-- **Historiography**: "How did [Scholar A]'s critique of [Scholar B] influence [Scholar C]'s later work?" requires traversing intellectual lineages
-- **Interdisciplinary work**: Connecting concepts across fields where the relationships aren't obvious from keyword similarity
+Multi-hop reasoning represents a qualitative shift in what AI can accomplish for knowledge work. Rather than sophisticated search, it enables genuine inference—following chains of critique, influence, and conceptual development.
 
-Example: To answer "Which qualitative methods address the validity concerns raised about [specific approach]?", a system must:
-1. Identify the validity concerns for that approach
-2. Find methods that explicitly address those concerns
-3. Filter for qualitative methods
-4. Synthesise recommendations
+But this capability isn't automatic. It depends on having explicit relationship structures to traverse. Vector databases with better embeddings won't get you there. You need knowledge graphs with typed relationships between entities.
 
-This is the kind of reasoning scholars do constantly—and that simple retrieval systems cannot support.
+This is the fundamental insight of [[context engineering]]: the sophistication of AI reasoning depends not on prompt quality but on knowledge structure quality. Build explicit relationships between concepts, and AI can reason across them. Rely on statistical similarity, and you're limited to retrieval no matter how clever your prompts.
 
-## Implications
-
-Multi-hop reasoning represents a qualitative shift in what AI systems can accomplish for scholarship. Rather than finding similar passages, it enables genuine inference—following chains of intellectual influence, methodological critique, and conceptual development.
-
-This is why building explicit relationships between concepts matters: you cannot traverse connections that aren't represented. The time spent linking ideas in your notes becomes the infrastructure for sophisticated AI reasoning.
-
-## Questions and tensions
-
-- How do we validate AI reasoning chains against scholarly standards of evidence?
-- Can multi-hop reasoning handle contested or ambiguous relationships between concepts?
-- How do we distinguish genuine inference from plausible-sounding but unfounded connections?
-
-## My thinking
-
-Multi-hop reasoning is what makes [[context engineering]] genuinely valuable for scholarship. Academic work is fundamentally relational—we build on predecessors, respond to critics, synthesise across traditions. AI that can only find similar text cannot participate in this kind of thinking. AI that can traverse conceptual relationships can.
-
-The practical implication: every link you create between notes, every relationship you make explicit, extends what AI can reason about.
+The time you spend linking ideas in your notes, making relationships explicit, and structuring knowledge graphs isn't overhead—it's the foundation that makes sophisticated AI reasoning possible. Every connection you create extends what AI can infer about your domain.
 
 ---
 
 ## Sources
 
 - Teki, S. (2025). Context Engineering: The 2025 Guide to Advanced AI Strategy and RAG.
-- engineering_paradigms_handover.md
 
 ---
 
 ## Notes
 
-Extracted as a distinct concept from context engineering notes where it appears as a key differentiating capability.
+Multi-hop reasoning is what makes [[context engineering]] valuable for scholarship specifically. Other knowledge work might benefit from better retrieval. Scholarship requires inference across connected concepts—exactly what multi-hop reasoning enables.

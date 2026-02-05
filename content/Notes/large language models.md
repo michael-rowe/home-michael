@@ -30,116 +30,54 @@ source: ""
 source_url: ""
 ---
 
-## Definition
+> [!tip] Scale driving emergence
+> LLMs represent a fundamental shift in how AI capabilities develop—not through careful engineering of specific skills but through emergent properties arising from scale. This has profound implications for education, where we've historically assumed that producing certain artifacts (essays, analyses, code) required and therefore demonstrated understanding.
 
-**Large language model** (noun): A deep learning model with billions or more parameters, trained on large quantities of unlabelled text using self-supervised learning, capable of general-purpose language understanding and generation tasks.
+## Large language models
 
-The term has no formal definition but typically refers to models with parameter counts in the billions or trillions. Unlike earlier NLP approaches that required specialised models for specific tasks, LLMs are general-purpose systems whose capabilities emerge from scale—the amount of data, parameter size, and computing power devoted to training.
+**One-sentence definition:** Deep learning models with billions of parameters, trained on vast text corpora using self-supervised learning, capable of general-purpose language understanding and generation tasks.
 
-Key characteristics:
-- Trained on vast text corpora using next-token prediction
-- Billions to trillions of parameters
-- General-purpose rather than task-specific
-- Emergent capabilities not explicitly programmed
-- Require significant computational infrastructure
+The defining characteristic of LLMs isn't what they can do but how their capabilities emerge. Earlier NLP approaches required building specialised models for specific tasks—one system for translation, another for summarisation, another for question-answering. LLMs are general-purpose systems whose capabilities arise from scale rather than explicit programming. Feed them enough data, give them enough parameters, provide enough computing power, and they develop abilities their creators didn't specifically design.
 
-## Context and background
+This emergence makes them simultaneously powerful and difficult to fully understand. We know they work. We're less certain about why specific capabilities appear at specific scales or how to predict what new abilities might emerge as models grow larger.
 
-LLMs emerged from the neural network renaissance of the 2010s, building on earlier statistical language modelling. The modern era began with Google's introduction of the Transformer architecture in 2017 ("Attention Is All You Need"), which enabled more efficient parallel processing of language data.
+## How they actually work
 
-OpenAI's GPT series, beginning in 2018, demonstrated that scaling model size and training data could yield dramatic improvements. The 2020 release of GPT-3 marked a pivotal moment, revealing emergent abilities arising from scale rather than explicit programming. The field accelerated after 2020 with models like BERT, T5, PaLM, Claude, and GPT-4 pushing boundaries of size, training methods, and capabilities.
+LLMs build on transformer architecture introduced by Google in 2017 ("Attention Is All You Need"), which enabled efficient parallel processing of language data through attention mechanisms—systems that weight the importance of different parts of input when generating output.
 
-LLMs developed in response to limitations of earlier NLP approaches that struggled with context, nuance, and generative capabilities. The shift represented a move from supervised learning on task-specific datasets to self-supervised pretraining on general corpora, followed by fine-tuning or instruction-tuning.
+The training process involves self-supervised learning through next-token prediction. Show the model billions of text sequences and teach it to predict what comes next. This sounds trivial but requires developing sophisticated internal representations of language structure, meaning, and context. The model learns patterns, relationships, and statistical regularities that enable it to generate coherent, contextually appropriate responses.
 
-## Distinctive characteristics
+After pretraining on general corpora, models undergo fine-tuning or instruction-tuning to follow directions, maintain helpful behaviour, and align with human values. Techniques like reinforcement learning from human feedback (RLHF) and constitutional AI help shape model behaviour without retraining from scratch.
 
-**Core architecture:**
-- Transformer models (encoder, decoder, or encoder-decoder configurations)
-- Attention mechanisms (self-attention, multi-head attention)
-- Tokenisation approaches (BPE, WordPiece, SentencePiece)
-- Massive parameter scales
+The result: systems that can perform tasks through prompting rather than requiring task-specific retraining. Want it to summarise? Ask it to summarise. Want it to translate? Ask it to translate. Want it to write code? Ask it to write code. This general-purpose capability represents a qualitative shift from earlier approaches.
 
-**Training methodology:**
-- Self-supervised learning through next-token prediction
-- Reinforcement learning from human feedback (RLHF)
-- Constitutional AI approaches
-- Fine-tuning for specific tasks or alignment goals
+## What this means for knowledge work
 
-**What distinguishes LLMs from earlier approaches:**
-- Scale as the primary driver of capability
-- Emergent abilities not present in smaller models
-- General-purpose rather than task-specific design
-- Ability to perform tasks through prompting rather than retraining
+LLMs make artifact production computationally trivial. Essays, analyses, code, summaries—tasks that previously required substantial human effort—can now be generated in seconds. This reveals an uncomfortable truth: many of our assessment practices were measuring artifact production rather than the understanding we claimed they demonstrated.
 
-## Applications
+The question isn't whether LLMs will transform knowledge work but how we adapt our practices—particularly in education—to a world where generation is easy. Traditional approaches assumed difficulty of production served as a reliable proxy for learning. That assumption no longer holds.
 
-**Operational processes:**
-- Pretraining: learning language patterns from vast corpora
-- Fine-tuning: adapting to specific tasks or alignment goals
-- Inference: generating responses to prompts
-- Context handling: processing and utilising context windows
+Three implications matter most:
 
-**Interaction patterns:**
-- Prompting techniques and prompt engineering
-- Chain-of-thought reasoning
-- Few-shot and zero-shot learning
-- Tool use and function calling
+**First**, we need to distinguish between what can be computationally generated and what requires human judgement. LLMs can produce fluent text, but they cannot determine whether that text serves a particular purpose in a particular context. They lack understanding of goals, values, constraints, and consequences.
 
-**Capability spectrum:**
-- Factual recall and question answering
-- Reasoning and analysis
-- Creative generation
-- Instruction following
-- Code generation and debugging
-- Translation and summarisation
+**Second**, the shift from creation to curation to taste represents a fundamental change in where human value lies. When AI can generate multiple options quickly, the valuable human skill becomes evaluating which option best serves the purpose. This is why developing [[taste-and-judgement]] becomes essential rather than peripheral.
 
-## Implications
+**Third**, LLMs exhibit complementary errors to humans—they make different kinds of mistakes. This creates opportunities for productive human-AI collaboration where each compensates for the other's limitations. But it also means we cannot simply delegate tasks to AI without oversight.
 
-**For knowledge work and education:**
-- Transformation of writing, research, and analysis tasks
-- New approaches to learning and assessment
-- Questions about academic integrity and AI-assisted work
-- Potential for personalised learning support
+## Known limitations
 
-**For society:**
-- Impact on labour markets and knowledge work
-- Content creation and media landscape transformation
-- Misinformation and synthetic content concerns
-- Accessibility of expertise and information
+LLMs hallucinate—generating plausible but false information with confidence. They have context window constraints limiting how much information they can process at once. Their knowledge has temporal cutoffs beyond which they cannot reliably answer questions. They struggle with precise reasoning and mathematics despite appearing fluent in these domains.
 
-**For technical development:**
-- Hardware architecture co-evolution
-- Significant energy and computational resource requirements
-- New evaluation and red-teaming methodologies
-- Data curation and quality control challenges
+These aren't merely technical limitations to be overcome with better engineering. Some reflect fundamental characteristics of how LLMs work. They're trained to predict plausible continuations, not to verify factual accuracy. This means fluency and accuracy don't correlate as strongly as we might intuitively expect.
 
-## Questions and tensions
+## What remains uncertain
 
-**Known limitations:**
-- Hallucinations: generating plausible but false information
-- Context window constraints
-- Temporal knowledge cutoffs
-- Difficulty with precise reasoning and mathematics
+How do emergent capabilities arise from scale and architecture? We observe that certain abilities appear at certain model sizes, but we don't fully understand the mechanisms. How will LLMs evolve to balance capabilities with safety, transparency, and alignment? The field moves faster than our ability to develop appropriate governance frameworks.
 
-**Open questions:**
-- How do emergent capabilities arise from scale and architecture?
-- How will LLMs evolve to balance capabilities with safety, transparency, and alignment?
-- What are the parallels and differences with human cognition?
-- How should governance frameworks develop alongside capabilities?
+What are the parallels and differences with human cognition? LLMs process language in ways that differ fundamentally from human understanding, yet they produce results that can be indistinguishable from human output. What does this tell us about language, thought, and intelligence?
 
-**Safety and alignment concerns:**
-- Interpretability and transparency
-- Value alignment techniques
-- Bias mitigation
-- Deployment safeguards
-
-## My thinking
-
-LLMs represent a significant shift in how we think about AI capabilities—from carefully engineered systems to emergent properties arising from scale. This has profound implications for education, where we've historically assumed that producing certain artifacts (essays, analyses, code) required and therefore demonstrated understanding.
-
-The question isn't whether LLMs will transform knowledge work but how we adapt our practices—particularly in education—to a world where generation is computationally trivial. This connects to the bitter lesson: we may have been measuring artifact production rather than learning itself.
-
-What remains unclear is how capabilities will continue to scale and whether current approaches have fundamental limits. The field moves faster than our ability to develop appropriate governance and educational responses.
+The practical implication for organisations: LLMs are not a finished technology to deploy but an evolving capability requiring continuous evaluation and adaptation. The question isn't "should we use LLMs?" but "how do we develop organisational capacity to make informed choices about LLM use as capabilities evolve?"
 
 ---
 
@@ -147,10 +85,9 @@ What remains unclear is how capabilities will continue to scale and whether curr
 
 - Vaswani, A. et al. (2017). Attention Is All You Need. *NeurIPS*.
 - Brown, T. et al. (2020). Language Models are Few-Shot Learners. *NeurIPS*.
-- Wikipedia contributors. (2023). Large language model.
 
 ---
 
 ## Notes
 
-This note synthesises foundational concepts about LLMs. As the field evolves rapidly, specific model capabilities and limitations may shift. The conceptual framework—scale driving emergent capabilities, self-supervised pretraining, alignment through RLHF—provides more durable understanding than specific model comparisons.
+This note focuses on what scholars and knowledge workers need to understand about LLMs rather than providing comprehensive technical coverage. The conceptual framework—scale driving emergent capabilities, self-supervised pretraining, alignment through RLHF—provides more durable understanding than specific model comparisons, which date quickly as the field evolves.

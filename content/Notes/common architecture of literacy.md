@@ -29,65 +29,60 @@ contradicts:
 source: ""
 source_url: ""
 ---
-## Definition
 
-**Common architecture of literacy**: A structural pattern of six dimensions shared across different literacy domains, including, for example, information, media, digital, data, and [[AI literacy]]. Despite disciplinary differences and varying emphases, these dimensions together constitute what it means to be literate in any domain.
+> [!tip] The pattern beneath the practice
+> Every few years, a "new literacy" emerges—information literacy, media literacy, digital literacy, data literacy, AI literacy. Each claims to address novel challenges. But examine their frameworks closely and you'll find the same six dimensions appearing again and again. What changes isn't the structure of literacy itself but the specific context where it's applied.
 
-The framework emerged from examining multiple literacy traditions and identifying their underlying commonalities. What changes across domains is the specific content—the technologies, sources, or media being engaged—not the structure of what it means to be literate.
+## Common architecture of literacy
+
+**One-sentence definition:** A structural pattern of six dimensions shared across different literacy domains—what changes between information, media, digital, data, and [[AI literacy]] is the content, not the underlying architecture of what it means to be literate.
+
+When information literacy emerged in the 1980s, it seemed tailored to library research. When media literacy developed in the 1990s, it appeared specific to understanding constructed messages. When digital literacy arose in the 2000s, it looked unique to technology. But map these frameworks and the pattern becomes clear: they're variations on the same six-dimensional structure.
+
+This isn't coincidence. It reveals something fundamental about literacy itself—not as domain-specific skill but as a consistent set of capabilities that applies across different contexts.
 
 ## The six dimensions
 
-### 1. Access and recognition
+These dimensions appear across every literacy framework, though emphasised differently by domain:
 
-The ability to identify when a technology, information source, or medium is present and relevant, and to locate or access what's needed. This includes recognising different types and formats, understanding where they appear, and knowing how to engage with them.
+**Access and recognition:** Identifying when something is present and relevant, knowing how to locate or engage with it. Information literacy emphasises library databases. Media literacy emphasises constructed messages. Digital literacy emphasises technology platforms. [[AI literacy]] emphasises AI systems. Same dimension, different context.
 
-### 2. Critical evaluation
+**Critical evaluation:** Assessing quality, reliability, limitations, and bias. Every literacy tradition centres this—questioning sources (information), understanding construction techniques (media), recognising algorithmic influence (digital), spotting hallucinations (AI). The specific criteria change. The imperative to evaluate remains constant.
 
-The capacity to assess quality, reliability, accuracy, bias, and limitations. This involves questioning sources, understanding how systems work, recognising manipulation or error, and distinguishing high-quality from poor-quality outputs.
+**Functional application:** Practical ability to use effectively for specific purposes. This is operational competence—the "how to" dimension. Often conflated with literacy itself, but it's only one piece.
 
-### 3. Functional application
+**Creation and communication:** Generating new outputs and sharing effectively. Moving beyond consumption to production. Every literacy includes this—writing research papers (information), creating media messages (media), building digital artifacts (digital), collaborating with AI (AI).
 
-The practical ability to use technologies or information effectively for specific purposes. This includes operational competence, understanding appropriate contexts for use, and deploying capabilities to achieve goals.
+**Ethical awareness and responsibility:** Understanding social, ethical, and civic implications. Recognising issues of privacy, equity, power, and impact. This dimension has grown more prominent in recent frameworks but appears even in early information literacy work.
 
-### 4. Creation and communication
+**Contextual judgement and metacognition:** Developing taste, professional judgement, and self-awareness about practice. Knowing when and how to apply capabilities appropriately. This dimension often receives least attention but may matter most—particularly for [[AI literacy]], where capabilities evolve rapidly and context determines value.
 
-The skill to generate new content, outputs, or solutions using the technology or medium, and to communicate effectively with or through it. This involves production, synthesis, and sharing of information or artefacts.
+## Why this pattern matters
 
-### 5. Ethical awareness and responsibility
+Recognising the common architecture does three things:
 
-Understanding the social, ethical, and civic implications of use. This includes recognising issues of privacy, equity, power, and impact on individuals and society, and making responsible choices that align with values.
+**First**, it reveals that developing "AI literacy" isn't starting from scratch. We already know how to teach literacy—the frameworks exist, tested across decades and domains. Apply the six dimensions to AI context and you have a coherent approach.
 
-### 6. Contextual judgement and metacognition
+**Second**, it suggests that literacy is genuinely transferable. Someone who developed information literacy has partial foundation for media literacy, digital literacy, AI literacy. The dimensions transfer; only the specific content changes.
 
-The development of taste, professional judgement, and self-awareness about one's own practice. This involves knowing when and how to apply capabilities appropriately, reflecting on effectiveness, and adapting practice based on context and experience.
+**Third**, it identifies where literacy development actually happens: not in acquiring knowledge (though that helps) but in integrating the six dimensions into contextually appropriate practice. You cannot be literate in dimension three (functional application) without dimension two (critical evaluation) or dimension six (contextual judgement). They work together.
 
-## Related concepts
+## The sixth dimension problem
 
-*Information literacy*: The oldest of the literacy traditions, focused on finding, evaluating, and using information effectively. Emphasises critical evaluation and ethical use.
+While all six dimensions matter, the sixth—contextual judgement and metacognition—deserves particular attention for [[AI literacy]]. As AI capabilities expand, the ability to know *when* and *whether* to use AI becomes more valuable than knowing *how* to use it.
 
-*Media literacy*: Extends to understanding how media messages are constructed, their persuasive techniques, and their social effects. Strong emphasis on critical evaluation and creation.
+This connects to ideas about [[taste-and-judgement|taste and judgement]] in human-AI systems. Technical competence without judgement is reckless. Ethical awareness without the ability to apply it contextually is impotent. The sixth dimension integrates the others into coherent, adaptive practice.
 
-*Digital literacy*: Encompasses functional competence with digital tools alongside critical understanding of digital environments. Often conflated with mere technical skill.
+This dimension is also hardest to teach because it develops through sustained practice and reflection rather than instruction. Which is precisely why recognising it as essential matters—it shifts focus from delivering content to creating conditions for practice.
 
-*Data literacy*: The ability to read, work with, analyse, and argue with data. Increasingly important as data-driven decision-making becomes ubiquitous.
+---
 
-## Implications
+## Sources
 
-This architecture reveals that literacy is not merely skill acquisition or knowledge accumulation. It is a multidimensional capability that integrates understanding, critical thinking, practical competence, creative application, ethical reasoning, and reflective judgement.
+- Association of College & Research Libraries. (2016). *Framework for information literacy for higher education*. Association of College & Research Libraries. https://www.ala.org/sites/default/files/acrl/content/issues/infolit/framework1.pdf
 
-The six dimensions are not sequential stages to be mastered in order. They develop together, each informing and reinforcing the others. Critical evaluation deepens through functional application. Ethical awareness shapes contextual judgement. Creation requires access and recognition. The dimensions form an integrated whole.
+---
 
-## Applications
+## Notes
 
-This framework provides a foundation for developing new literacy curricula, including AI literacy. Rather than starting from scratch, we can apply the six dimensions to the specific context of AI systems:
-
-- What does access and recognition mean for AI?
-- How do we critically evaluate AI outputs?
-- What functional application looks like with AI tools?
-- How do we create with and communicate through AI?
-- What ethical responsibilities accompany AI use?
-- What contextual judgement and metacognition matter for AI?
-
-## My thinking
-
-The sixth dimension—contextual judgement and metacognition—may be the most important for AI literacy specifically. As AI capabilities expand, the ability to know *when* and *whether* to use AI becomes more valuable than knowing *how* to use it. This connects to ideas about [[taste-and-judgement|taste and judgement]] in human-AI systems.
+The six-dimension framework isn't the only way to conceptualise literacy, but it effectively captures what multiple independent literacy traditions have converged on. Different frameworks use different terminology and emphasise different dimensions, but the underlying structure recurs consistently.

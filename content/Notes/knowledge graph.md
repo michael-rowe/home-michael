@@ -29,106 +29,80 @@ source: ""
 source_url: ""
 ---
 
-## Definition
+> [!tip] Relationships as first-class citizens
+> Academic knowledge is fundamentally relational—we understand concepts through their connections to other concepts, theories through their critiques and extensions, methods through their intellectual lineages. Knowledge graphs make this relational structure explicit and computable, treating connections between ideas as equally important as the ideas themselves.
 
-**Knowledge graph** (noun): A structured representation of knowledge that connects entities (concepts, people, places, things) through explicit, typed relationships.
+## Knowledge graph
 
-Knowledge graphs encode semantic information as networks of nodes (entities) and edges (relationships), enabling traversal, querying, and reasoning over structured knowledge.
+**One-sentence definition:** A structured representation of knowledge that connects entities through explicit, typed relationships, enabling traversal and reasoning over conceptual connections rather than statistical similarity.
 
-Key characteristics:
-- Entities represented as nodes with properties
-- Relationships represented as typed, directional edges
-- Supports traversal and path-based queries
-- Makes implicit connections explicit and navigable
+Scholars have always built knowledge graphs, even if we didn't call them that. The citation network showing who built on whose work. The conceptual map linking related theories. The methodological genealogy tracing intellectual traditions. These are knowledge graphs—networks of entities connected by meaningful relationships.
 
-## Context and background
+The difference now is making these structures computationally explicit so AI can reason about them. Not just recognising that Paper A and Paper B both discuss validity, but understanding that Paper A critiques Paper B's approach to validity, both draw on Methodology X, and this critique also applies to Framework Y.
 
-Knowledge graphs have roots in semantic web technologies and have been used by organisations like Google (Knowledge Graph), Facebook, and LinkedIn to structure information about entities and their relationships. In the context of [[context engineering]], knowledge graphs serve as the primary data structure enabling [[multi-hop reasoning]].
+## How they work
 
-Unlike [[vector database]]s that store embeddings for similarity matching, knowledge graphs preserve the explicit relationships between concepts—enabling systems to answer "how are X and Y connected?" rather than just "what is similar to X?"
+Knowledge graphs consist of nodes (entities) and edges (relationships):
 
-## Related concepts
+**Nodes** represent concepts, people, papers, methods, theories—any entity you want to reason about. Each node has properties: a scholar has affiliation and research interests, a paper has publication year and methodology, a concept has definition and domain.
 
-*[[Context engineering]]*: The discipline that uses knowledge graphs as its primary knowledge representation approach.
+**Edges** represent typed, directional relationships between nodes. Not just that Einstein and Bohr are connected, but specifically that Einstein influenced Bohr's thinking about quantum mechanics. Not just that Paper A relates to Paper B, but that Paper A extends while challenging certain assumptions in Paper B.
 
-*[[GraphRAG]]*: A technique that automates knowledge graph construction from unstructured documents.
+**Properties** can attach to both nodes and edges, enabling rich representation. A "critiques" relationship might have properties indicating the nature of the critique, the year it was published, whether it was acknowledged by the critiqued scholar.
 
-*[[Vector database]]*: An alternative storage approach using embeddings; supports similarity search but not relationship traversal.
+Example structure: `(Paper A) --[extends while challenging]--> (Paper B)`
 
-*[[Graph database]]*: The underlying technology for storing and querying knowledge graphs (e.g., Neo4j, Amazon Neptune).
+## Why this differs from embeddings
 
-## Distinctive characteristics
+[[Vector database]]s store numerical representations of text that enable similarity search. This works well for finding passages about similar topics. It cannot answer questions about how concepts relate because embeddings capture co-occurrence patterns, not explicit relationships.
 
-| Vector database | Knowledge graph |
-|----------------|-----------------|
-| Stores numerical embeddings | Stores entities and relationships |
-| Implicit relationships via statistical co-occurrence | Explicit, typed relationships |
-| Similarity search | Traversal and path queries |
-| "You know a word by the company it keeps" | "You know a concept by its connections" |
-| Supports single-hop reasoning | Enables [[multi-hop reasoning]] |
+The semantic difference matters:
 
-### Structure
+- **Embeddings** encode "you know a word by the company it keeps"—distributional semantics based on statistical patterns
+- **Knowledge graphs** encode "you know a concept by its connections"—structural semantics based on explicit relationships
 
-A knowledge graph consists of:
-- **Nodes**: Entities with properties (e.g., Person: name, birthdate)
-- **Edges**: Relationships with types (e.g., "authored", "influenced", "located_in")
-- **Properties**: Attributes on both nodes and edges
+When you query a vector database for "social constructivism," you'll find passages that frequently discuss social constructivism. When you query a knowledge graph, you can ask "which critiques of social constructivism also apply to phenomenology?"—a question requiring reasoning about shared methodological foundations, not just finding similar text.
 
-Example triple: `(Einstein) --[influenced]--> (Bohr)`
+This is why knowledge graphs enable [[multi-hop reasoning]] while vector databases support only single-hop retrieval.
 
-## Applications
+## What this enables for scholarship
 
-Knowledge graphs are essential for:
-- **Research synthesis**: Mapping relationships between concepts, papers, and authors
-- **Knowledge management**: Connecting information across projects and domains
-- **AI-assisted reasoning**: Providing structured context for [[context engineering]]
-- **Collaboration**: Sharing structured knowledge across research teams
+Making your implicit knowledge graphs explicit creates new capabilities:
 
-### For academic work
+**Literature synthesis** that traverses intellectual lineages rather than keyword matches. "How did Critic A's challenge to Scholar B influence Researcher C's later work?" requires following paths through a citation network with typed relationships: critiques, responds to, influenced by.
 
-Scholars have always built implicit knowledge graphs—the web of citations, influences, critiques, and conceptual relationships that constitute expertise in a field. Knowledge graphs make this structure explicit and computable.
+**Theoretical comparison** that identifies structural parallels. "Which theoretical frameworks share this epistemological assumption?" requires reasoning about shared conceptual foundations, not just finding frameworks discussed in similar passages.
 
-- **Citation networks**: Not just who cites whom, but *how*—critiques, extends, applies, contradicts
-- **Conceptual maps**: How theories relate, where they overlap, where they conflict
-- **Methodological genealogies**: Which methods derive from which traditions, what assumptions they share
-- **Research trajectories**: How your own thinking has developed, which ideas led to which
+**Methodological genealogy** that maps where methods come from, what assumptions they carry, how they've evolved. This requires explicit relationships between methods, traditions, and underlying commitments.
 
-In [[context engineering]], knowledge graphs enable:
-- Literature reviews that traverse intellectual lineages rather than keyword matches
-- Writing assistance that understands your theoretical commitments
-- Teaching materials that reflect the actual structure of disciplinary knowledge
+**Research trajectory mapping** that shows how your own thinking has developed—which ideas led to which, which readings influenced which arguments, which collaborations shaped which projects.
 
-## Implications
+In [[context engineering]], knowledge graphs provide the structure that enables AI to reason about your scholarship rather than merely retrieve similar content. The linked notes you build in Obsidian, the conceptual maps you sketch, the citation networks you trace—these are knowledge graphs. The question is whether to make them explicit enough for AI to traverse.
 
-Knowledge graphs represent a fundamentally different approach to knowledge representation than document-centric systems. They make the relationships between concepts first-class citizens, enabling queries like:
-- "What connects these two theorists?"
-- "Which critiques of this method also apply to related approaches?"
-- "Show me the intellectual path from this early work to current debates"
+## The curation challenge
 
-For scholars, this matters because academic knowledge *is* relational. Understanding a field means understanding how ideas connect—and that's precisely what knowledge graphs represent.
+Building knowledge graphs requires work. Automated extraction via [[graphRAG]] helps but makes errors. Scholarly nuance is easily lost—subtle distinctions collapsed, contested relationships stated as fact, contextual qualifications stripped away.
 
-## Questions and tensions
+This means knowledge graphs require active curation. The relationship between scholars isn't simply "cites" or "critiques"—it might be "extends while challenging certain assumptions" or "applies to a new context." Characterising relationships accurately requires scholarly judgement.
 
-- How do we represent contested or ambiguous relationships? Scholarly disagreement is productive, not a bug.
-- What granularity is right? Concepts, arguments, papers, authors?
-- How do we handle evolving understanding as our reading deepens?
-- When is explicit structure worth the effort versus trusting implicit knowledge?
+The investment makes sense when you're building knowledge infrastructure you'll use repeatedly—a research area you're committed to, a personal knowledge base supporting ongoing scholarship. For one-off literature reviews, manual reading may suffice. For building AI systems that can reason about your field, explicit knowledge graphs become essential.
 
-## My thinking
+## What remains difficult
 
-Knowledge graphs are to [[context engineering]] what [[vector database]]s are to [[prompt engineering]]. The choice of knowledge representation fundamentally shapes what AI can do with your work. Embeddings find similar passages. Knowledge graphs enable reasoning about connections.
+How do we represent contested or ambiguous relationships? Scholarly disagreement is productive, not a bug to fix. What granularity is right—concepts, arguments, papers, authors? How do we handle evolving understanding as our reading deepens? When is explicit structure worth the effort versus trusting implicit knowledge?
 
-The linked notes you build in Obsidian, the conceptual maps you sketch, the citation networks you trace—these are knowledge graphs. The question is whether to make them explicit enough for AI to traverse, and whether the investment pays off in richer intellectual partnership.
+Knowledge graphs work best for stabilised knowledge where relationships are relatively agreed upon. They struggle with emerging fields where every claim is contested, or with highly interpretive domains where relationships resist formalisation.
+
+The question isn't whether knowledge graphs are always better than other representations but when their benefits—enabling structured reasoning, making connections explicit, supporting collaborative knowledge building—outweigh their costs in curation and maintenance.
 
 ---
 
 ## Sources
 
 - Teki, S. (2025). Context Engineering: The 2025 Guide to Advanced AI Strategy and RAG.
-- engineering_paradigms_handover.md
 
 ---
 
 ## Notes
 
-Extracted as a distinct concept from context engineering notes where it appears as the primary data structure enabling structured reasoning.
+Knowledge graphs are to [[context engineering]] what [[vector database]]s are to [[prompt engineering]]. The choice of knowledge representation fundamentally shapes what AI can do with your work. Embeddings find similar passages. Knowledge graphs enable reasoning about connections.
