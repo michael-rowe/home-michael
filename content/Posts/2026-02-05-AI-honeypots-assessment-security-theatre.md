@@ -18,7 +18,7 @@ category: Assessment
 related:
   - "[[2026-01-28-bitter-lesson-higher-education|The Bitter Lesson for Education]]"
   - "[[arms race dynamics higher education]]"
-draft: true
+draft: false
 slug: ai-honeypots-assessment-security-theatre
 enableToc: true
 cssclasses:

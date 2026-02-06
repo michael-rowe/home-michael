@@ -19,7 +19,7 @@ const config: QuartzConfig = {
     locale: "en-US",
     baseUrl: "michael-rowe.github.io/emergent-scholarship",
     ignorePatterns: ["private", "templates", ".obsidian", "drafts", "personas"],
-    defaultDateType: "modified",
+    defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,

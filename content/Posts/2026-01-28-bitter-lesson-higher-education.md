@@ -6,7 +6,7 @@ aliases:
 description: "Rich Sutton's 'Bitter Lesson' applies to education: AI reveals that artifact-based assessment never truly measured learning."
 keyphrase: bitter lesson higher education
 author: "[[Michael Rowe]]"
-date: 2026-01-28
+date: 2026-02-03
 updated: 2026-02-04
 tags:
   - artificial-intelligence
