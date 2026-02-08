@@ -24,6 +24,12 @@ article a:not(.tag-link):not([role="anchor"]) {
   text-underline-offset: 0.2em;
 }
 
+// Indent quote callouts to visually distinguish as pull quotes
+.callout[data-callout="quote"] {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 // Heading sizes and weight
 h1 {
   font-size: 2rem;

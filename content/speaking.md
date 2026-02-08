@@ -43,23 +43,23 @@ If you're interested in having me speak at your event, run a workshop, or facili
 
 ### AI in health professions education
 
-How should we teach when students have access to AI? What does AI mean for assessment, clinical reasoning development, and professional identity formation? What should students learn as AI increasingly develops sophisticated expertise within and across professional domains? I explore practical approaches for educators navigating this transition.
+How should we teach when students have access to AI? What does AI mean for assessment, clinical reasoning development, and professional identity formation? What should students learn as AI increasingly develops sophisticated expertise within and across professional domains? These questions don't have settled answers yet, but educators can't wait for consensus before working on the issues. I explore practical approaches for curriculum design, administrative support, assessment redesign, and pedagogical decision-making that help educators navigate this transition with confidence rather than anxiety. Talks in this area are grounded in health professions education theory and draw on concrete examples from medicine, nursing, physiotherapy, and other allied health professions.
 
 ### AI for researchers
 
-Using AI as a thinking partner for literature review, analysis, writing, and research design. Not AI as shortcut, but AI as cognitive collaborator that amplifies scholarly judgement.
+Using AI as a thinking partner for literature review, analysis, writing, and research design — not as a shortcut, but as a cognitive collaborator that amplifies scholarly judgement. This includes practical guidance on integrating AI into systematic review workflows, qualitative analysis, grant writing, and manuscript development, alongside honest discussion of the risks: hallucination, bias, and the erosion of deep reading habits. Aimed at researchers at any career stage who want to work more effectively without compromising intellectual rigour.
 
 ### AI in clinical practice
 
-What AI tools are emerging for clinical decision support, documentation, and patient communication? How should practitioners evaluate and integrate these tools while maintaining professional responsibility?
+How do AI tools support clinical decision-making, documentation, and patient communication? How should practitioners evaluate and integrate these tools while maintaining professional responsibility and patient safety? How are patients starting to bring AI agents into their own health contexts, and how does this influence the therapist-patient relationship? I look at the evidence around AI-assisted diagnosis and decision support, how to critically appraise AI tools before adopting them, and what practitioners need to understand about the limitations of systems trained on data that may not reflect their patient population or clinical context.
 
 ### AI and practice management
 
-Practical applications of AI in healthcare administration, workflow optimisation, and service delivery—with honest assessment of what works and what doesn't.
+Practical applications of AI in healthcare administration, workflow optimisation, and service delivery, with an honest assessment of what works, what doesn't, and what the implementation challenges look like on the ground. This includes scheduling, documentation, administrative support, patient communication, and service planning, with attention to the organisational change management that determines whether AI adoption actually improves practice or just adds complexity.
 
 ### Making sense of this moment
 
-More theoretical and philosophical talks exploring what AI means for the health professions. How do we understand expertise, judgement, and human contribution when machines can generate fluent text and pass medical exams? These talks help audiences develop frameworks for thinking about AI rather than just reacting to it.
+More theoretical and philosophical talks exploring what AI means for the health professions. How do we understand expertise, judgement, and human contribution when machines can generate fluent text and pass medical exams? What happens to the value of experience and tacit knowledge when AI can simulate competence? These talks help audiences develop frameworks for thinking about AI at wider scales rather than just reacting to it, grounding the conversation in the history and values of the professions rather than in technology hype.
 
 ---
 

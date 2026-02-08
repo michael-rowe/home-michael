@@ -75,7 +75,8 @@ A common critique: LLMs are "just" pattern matchers. They identify statistical r
 
 Humans do this constantly. Most human reasoning is post-hoc rationalisation. We arrive at conclusions through pattern matching and then construct causal stories to explain them. [Split-brain experiments](https://www.nature.com/articles/483260a) demonstrate people confidently explaining decisions they didn't consciously make. We confabulate reasons for our choices after the pattern matching has already occurred. Superstition, conspiracy theories, spurious medical beliefs, and false historical narratives, all emerge from the same pattern-matching capabilities that produce genuine insights. 
 
- Humans are extraordinarily good at finding patterns, and terrible at determining whether those patterns are meaningful. In fact, the "reasoning" might be a post-hoc story we tell ourselves, rather than the actual mechanism of decision-making.
+ > [!quote]
+ > Humans are extraordinarily good at finding patterns, and terrible at determining whether those patterns are meaningful. In fact, "reasoning" might be a post-hoc story we tell ourselves, rather than the actual mechanism of decision-making.
 
 ## Why we resist AI human cognition comparisons
 
@@ -97,13 +98,17 @@ This isn't the first time human exceptionalism has been challenged. Copernicus d
 
 This LLM moment might be another step in this trajectory. Not because these systems are conscious or possess genuine intelligence in some special sense, but because they reveal that many of the capabilities we thought required consciousness or special intelligence can emerge from "mere" pattern matching and statistical correlation.
 
-Maybe the similarities don't reveal that LLMs are impressively human-like. ==Maybe they reveal that human cognition is disappointingly machine-like.== We're pattern-matching, probability-distributing, context-dependent generators of plausible outputs. We've just had millions of years to optimise the architecture and we're running on remarkably efficient biological hardware.
+
+> [!quote]
+> Maybe the similarities between language models and human cognition don't reveal that LLMs are impressively human-like. Maybe they reveal that human cognition is disappointingly machine-like.
+
+We're pattern-matching, probability-distributing, context-dependent generators of plausible outputs. We've just had millions of years to optimise the architecture and we're running on remarkably efficient biological hardware.
 
 This doesn't diminish human value unless we predicated that value entirely on cognitive uniqueness. But it does suggest we might need better foundations for what makes humans morally considerable. Relationality, perhaps. Vulnerability. The capacity to suffer. Our embeddedness in communities and ecosystems. These might be sturdier grounds than raw intelligence.
 
 For organisational leaders navigating AI integration, this matters practically. Those who can sit with the discomfort of similarity will better understand how to deploy these tools effectively, how to support people through transition, and where genuine [[taste-and-judgement|human judgement]] remains essential. Those who remain invested in trying to prove the existence of fundamental differences between humans and AI will miss strategic opportunities because they're defending professional identity rather than assessing capability.
 
-The question isn't whether AI thinks like us. The question is whether we've been thinking like AI all along, and what becomes possible when we stop defending against that recognition.
+The question isn't whether AI thinks like us. The question is whether we've been thinking like AI all along. And what becomes possible when we stop defending against that recognition.
 
 ---
 
