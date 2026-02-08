@@ -34,14 +34,14 @@ This site embodies several principles:
 
 ## AI-assisted development
 
-This site was developed in collaboration with AI (primarily Claude). This includes:
+This site was developed in collaboration with AI (primarily Claude Code). This includes:
 
 - Technical implementation and custom components
 - Content structure and navigation design
 - Debugging and problem-solving
-- Some initial drafting, always revised and verified
+- Some initial drafting, then revised and verified
 
-AI assists the work but doesn't replace judgement. Every piece of content reflects my thinking, verified against sources, and edited for voice.
+AI assists the work but doesn't replace judgement. Every piece of content reflects my thinking, verified against my principles and beliefs, and edited for voice.
 
 ## Accessibility
 
@@ -52,7 +52,7 @@ The site aims to be accessible:
 - Respects system dark mode preference
 - Readable typography and sufficient contrast
 
-If you encounter accessibility issues, please [let me know](/contact).
+If you encounter accessibility issues, please [[contact|let me know]].
 
 ## Licence
 
@@ -60,7 +60,7 @@ Content on this site is shared openly for non-commercial use with attribution. A
 
 > Rowe, M. (2026). [Title]. *Emergent Scholarship*. https://michael-rowe.github.io/emergent-scholarship/
 
-For other uses, [get in touch](/contact).
+For other uses, [[contact|get in touch]].
 
 ---
 

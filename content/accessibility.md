@@ -39,13 +39,10 @@ This site aims to conform to [WCAG 2.1](https://www.w3.org/WAI/WCAG21/quickref/)
 
 ## Known limitations
 
-I'm aware of these issues and working to address them:
-
 - **Graph view:** The interactive graph visualisation may be difficult to use with screen readers or keyboard alone. It's supplementary—all content is accessible through standard navigation.
 - **Some embedded content:** Third-party embeds (videos, diagrams) may have their own accessibility limitations outside my control.
-- **Older images:** Some images from earlier content may lack alt text. I'm progressively adding descriptions.
+- **Older images:** Some images may lack alt text. I'm progressively adding descriptions.
 - **PDF documents:** Any linked PDFs may not be fully accessible. I aim to provide HTML alternatives where possible.
-- **Mathematical notation:** LaTeX-rendered equations may not be fully accessible to screen readers.
 
 ## How I test
 
@@ -53,13 +50,12 @@ I'm aware of these issues and working to address them:
 - Browser accessibility inspection tools
 - Automated testing with axe and Lighthouse
 - Testing with system dark mode and text scaling
-- Occasional screen reader testing (VoiceOver)
 
 I don't currently have regular testing by users of assistive technologies. If you use assistive technology and encounter issues, your feedback is especially valuable.
 
 ## Feedback
 
-If you encounter any accessibility barriers on this site, please [contact me](/contact). Include:
+If you encounter any accessibility barriers on this site, please [[contact|contact me]]. Include:
 
 - The page URL where you encountered the issue
 - A description of the problem

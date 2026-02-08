@@ -6,19 +6,19 @@ aliases:
   - assessment arms race
 type: note
 author: "[[Michael Rowe]]"
-created: 2025-02-05
-updated: 2025-02-05
+created: 2026-02-05
+updated: 2026-02-05
 status: draft
 tags:
   - assessment
   - higher-education
   - institutional-dynamics
-category: 
+category:
 related:
   - "[[assessment as an arms race]]"
   - "[[how to create an AI arms race dynamics in university assessment]]"
   - "[[asymmetric power dynamics]]"
-keyphrase: "arms race dynamics higher education"
+keyphrase: arms race dynamics higher education
 slug: notes/arms-race-dynamics-higher-education
 ---
 

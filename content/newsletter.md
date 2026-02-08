@@ -2,7 +2,6 @@
 title: Newsletter
 description: Subscribe to updates on emergent scholarship, AI literacy, and health professions education.
 ---
-
 ## Subscribe to updates
 
 Stay connected with my latest thinking on emergent scholarship, AI in education, and health professions education.

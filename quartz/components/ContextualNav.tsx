@@ -7,11 +7,13 @@ import { Date, getDate } from "./Date"
 interface ContextualNavOptions {
   essaysLimit?: number
   postsLimit?: number
+  newslettersLimit?: number
 }
 
 const defaultOptions: ContextualNavOptions = {
   essaysLimit: 5,
   postsLimit: 5,
+  newslettersLimit: 5,
 }
 
 export default ((opts?: Partial<ContextualNavOptions>) => {
@@ -37,6 +39,7 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
     const isPosts = currentSlug.startsWith("Posts/")
     const isNotes = currentSlug.startsWith("Notes/")
     const isCourses = currentSlug.startsWith("Courses/")
+    const isNewsletters = currentSlug.startsWith("Newsletters/") || currentSlug === "newsletter"
 
     // Essays: Show 5 most recent essays
     if (isEssays) {
@@ -565,6 +568,38 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
                 </li>
               )
             })}
+          </ul>
+        </div>
+      )
+    }
+
+    // Newsletters: Show 5 most recent newsletters with "See all" link
+    if (isNewsletters) {
+      const newsletters = allFiles
+        .filter((f) => f.slug?.startsWith("Newsletters/") && f.slug !== "Newsletters/index")
+        .sort(byDateAndAlphabetical(cfg))
+        .slice(0, options.newslettersLimit)
+
+      if (newsletters.length === 0) {
+        return null
+      }
+
+      return (
+        <div class={classNames(displayClass, "contextual-nav")}>
+          <h3>Recent Newsletters</h3>
+          <ul>
+            {newsletters.map((newsletter) => (
+              <li>
+                <a href={resolveRelative(fileData.slug!, newsletter.slug!)} class="internal">
+                  {newsletter.frontmatter?.title}
+                </a>
+              </li>
+            ))}
+            <li>
+              <a href={resolveRelative(fileData.slug!, "Newsletters/index" as any)} class="internal">
+                See all
+              </a>
+            </li>
           </ul>
         </div>
       )

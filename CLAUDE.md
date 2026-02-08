@@ -84,13 +84,12 @@ npm run format
 npm test
 ```
 
-### CLI commands
-The main CLI is defined in `quartz/bootstrap-cli.mjs`:
-- `npx quartz create` - Initialize new Quartz site
-- `npx quartz update` - Get latest Quartz updates
-- `npx quartz restore` - Restore content folder from cache
-- `npx quartz sync` - Sync to/from GitHub
-- `npx quartz build` - Build static site
+### Newsletter generation
+A draft newsletter can be auto-generated based on the last 30 days of site activity (new posts, notes, and significant structural changes):
+```bash
+node scripts/generate-newsletter.mjs
+```
+The draft is saved to `content/Newsletters/YYYY-MM-DD-newsletter-draft.md`. It uses git commit history (subject and body) to identify significant work and filters out routine maintenance noise.
 
 ## Architecture
 

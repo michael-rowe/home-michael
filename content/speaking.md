@@ -4,10 +4,10 @@ description: Invited talks, workshops, and presentations on AI in health profess
 enableToc: true
 ---
 
-I speak at conferences, universities, and professional organisations about artificial intelligence in health professions education and clinical practice. My talks aim to help audiences make sense of this moment—cutting through the hype to understand what AI actually means for how we teach, learn, and practice.
+I speak at conferences, universities, and professional organisations about artificial intelligence in health professions education and clinical practice. My talks aim to help audiences make sense of this moment, helping to understand what AI actually means for how we teach, learn, and practice.
 ## Get in touch
 
-Interested in having me speak at your event, run a workshop, or facilitate a session? I'd be happy to discuss how I might contribute.
+If you're interested in having me speak at your event, run a workshop, or facilitate a session, I'd be happy to discuss how I might contribute.
 
 <section class="contact-section">
 <div class="contact-intro">
@@ -43,11 +43,11 @@ Interested in having me speak at your event, run a workshop, or facilitate a ses
 
 ### AI in health professions education
 
-How should we teach when students have access to AI? What does AI mean for assessment, clinical reasoning development, and professional identity formation? I explore practical approaches for educators navigating this transition.
+How should we teach when students have access to AI? What does AI mean for assessment, clinical reasoning development, and professional identity formation? What should students learn as AI increasingly develops sophisticated expertise within and across professional domains? I explore practical approaches for educators navigating this transition.
 
 ### AI for researchers
 
-Using AI as a thinking partner for literature review, analysis, writing, and research design. Not AI as shortcut, but AI as cognitive collaborator that amplifies rather than replaces scholarly judgement.
+Using AI as a thinking partner for literature review, analysis, writing, and research design. Not AI as shortcut, but AI as cognitive collaborator that amplifies scholarly judgement.
 
 ### AI in clinical practice
 

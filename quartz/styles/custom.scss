@@ -2,6 +2,58 @@
 
 // put your custom CSS here!
 
+// Typography: UI elements use Inter (headerFont), not Lora
+.sidebar,
+.top-nav,
+.mobile-nav,
+.breadcrumb-container,
+.content-meta,
+.tag-list,
+.search {
+  font-family: var(--headerFont);
+}
+
+// Increase article body text size
+article {
+  font-size: 1.1rem;
+}
+
+// Heading sizes and weight
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+h4, h5, h6 {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+// Reduce sidebar and nav link weight
+.sidebar a,
+.top-nav a {
+  font-weight: 400;
+}
+
+// Post listings: reduce title weight and increase description size
+.section h3 a {
+  font-weight: 400;
+}
+
+.section .description {
+  font-size: 1rem;
+}
+
 // Flip card styles (click to flip) - uses callout colors
 .flip-card {
   background-color: transparent;

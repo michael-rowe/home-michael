@@ -27,14 +27,14 @@ Comments are powered by [Giscus](https://giscus.app/), which uses GitHub Discuss
 - Your GitHub username and profile picture are displayed with your comment
 - Giscus does not track you beyond the comment functionality
 
-If you don't have a GitHub account or prefer not to use it, you can contact me directly instead.
+If you don't have a GitHub account or prefer not to use it, you can [[contact|contact me directly]] instead.
 
 ## Newsletter
 
 The newsletter is managed through [Kit](https://kit.com/) (formerly ConvertKit). When you subscribe:
 
 - Your email address is stored by Kit
-- You'll receive emails when I publish new content (typically monthly)
+- You'll receive emails when I publish the newsletter (typically monthly)
 - You can unsubscribe at any time via the link in any email
 - Your email is never shared with third parties
 - Kit's privacy policy applies: [kit.com/privacy](https://kit.com/privacy)
@@ -69,7 +69,7 @@ You have the right to:
 
 ## Contact
 
-If you have questions about this privacy policy, [get in touch](/contact).
+If you have questions about this privacy policy, [[contact|get in touch]].
 
 ---
 
