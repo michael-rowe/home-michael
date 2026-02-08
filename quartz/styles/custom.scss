@@ -18,6 +18,12 @@ article {
   font-size: 1.1rem;
 }
 
+// Underline body content links for accessibility (colour alone is insufficient)
+article a:not(.tag-link):not([role="anchor"]) {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 // Heading sizes and weight
 h1 {
   font-size: 2rem;
