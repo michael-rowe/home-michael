@@ -2,7 +2,8 @@
 title: "AI and human cognition: What if we're the language models?"
 type: post
 aliases:
-description: What LLM terminology reveals about human cognition, and why we resist acknowledging the extensive similarities between AI and human thinking.
+description: The discourse around AI and human cognition tends to focus on differences, but what happens when we invert the question and use LLM terminology to explore similarities? This post examines parallels between AI cognitive architecture and human thinking—context windows, training data bias, tokenisation, temperature, hallucination, and pattern matching—not to claim that humans are language models, but to ask what these similarities reveal about our own cognitive processes and why we are so invested in denying them.
+meta-description: What LLM terminology reveals about human cognition, and why we resist acknowledging the extensive similarities between AI and human thinking.
 keyphrase: AI human cognition
 author: "[[Michael Rowe]]"
 date: 2026-02-06

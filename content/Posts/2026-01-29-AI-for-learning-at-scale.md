@@ -4,7 +4,8 @@ type: post
 aliases:
   - Enthusiasm for AI clearly articulated
   - AI for learning at scale
-description: "Despite the ethical concerns, generative AI represents an enormous opportunity for learning at scale. Here's why I'm optimistic."
+description: Generative AI presents serious ethical challenges in education—to academic integrity, to equity, to the nature of learning itself. This post acknowledges these concerns while arguing that AI also represents an unprecedented opportunity for learning at scale, particularly for the kinds of personalised, adaptive learning that have always been theoretically desirable but practically impossible to deliver. For health professions educators committed to expanding access to quality education, this opportunity deserves serious, open-minded consideration.
+meta-description: "Despite the ethical concerns, generative AI represents an enormous opportunity for learning at scale. Here's why I'm optimistic."
 keyphrase: "AI for learning at scale"
 author: "[[Michael Rowe]]"
 date: 2026-01-29

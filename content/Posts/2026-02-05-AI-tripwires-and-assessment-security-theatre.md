@@ -5,7 +5,8 @@ aliases:
   - Assessment security theatre
   - AI detection tripwires
   - ai-honeypots-assessment-security-theatre
-description: AI tripwires in assessment create adversarial dynamics between educators and students while detecting carelessness rather than learning absence
+description: When educators embed hidden instructions in assessment materials to detect AI use, they import adversarial security thinking into educational relationships. This post examines what AI tripwires reveal about institutional assumptions—that assessment is about artifact authentication rather than learning measurement—and argues that this approach creates escalating countermeasure dynamics while only detecting carelessness, not genuine disengagement. The alternative requires rethinking what assessment is actually for in an era when artifact production has become trivially automatable.
+meta-description: AI tripwires in assessment create adversarial dynamics between educators and students while detecting carelessness rather than learning absence
 keyphrase: AI tripwires assessment
 author: "[[Michael Rowe]]"
 date: 2026-02-05

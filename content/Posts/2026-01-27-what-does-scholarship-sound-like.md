@@ -4,7 +4,8 @@ type: post
 aliases:
   - Audio scholarship
   - Podcasts as scholarship
-description: Audio scholarship—podcasts, dialogues, oral histories—deserves recognition as legitimate scholarly work. The format matters less than the quality of thinking.
+description: Academic publishing has converged on the written journal article as the dominant form of scholarly output, but knowledge has always been transmitted through conversation, dialogue, and oral communication. This post explores whether audio scholarship—podcasts, recorded dialogues, oral histories—deserves recognition as legitimate scholarly work. Drawing on Boyer's model of scholarship, it argues that format matters less than the rigour, intention, and intellectual contribution behind the work, and considers what it would take for academic culture to broaden its definition of what counts.
+meta-description: Audio scholarship—podcasts, dialogues, oral histories—deserves recognition as legitimate scholarly work. The format matters less than the quality of thinking.
 keyphrase: audio scholarship
 author: "[[Michael Rowe]]"
 date: 2026-01-27

@@ -3,7 +3,8 @@ title: "AI and evaluative judgement: Cultivating taste in the age of capability"
 type: post
 aliases:
   - Cultivating taste in the age of AI
-description: As AI makes creation and curation trivially easy, evaluative judgement about what should exist becomes the primary human contribution.
+description: When AI can generate text, images, and ideas at scale, what remains distinctively human? This post argues that evaluative judgement—the capacity to assess what is worth creating, what deserves attention, and what matters—becomes the core human contribution in knowledge work. Drawing on research into evaluative judgement in health professions education, it explores how educators can make this capacity explicit and deliberately develop it, rather than treating it as an invisible by-product of experience.
+meta-description: As AI makes creation and curation trivially easy, evaluative judgement about what should exist becomes the primary human contribution.
 keyphrase: evaluative judgement
 author: "[[Michael Rowe]]"
 date: 2026-01-29

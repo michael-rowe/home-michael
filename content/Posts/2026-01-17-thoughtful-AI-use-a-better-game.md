@@ -3,7 +3,8 @@ title: "A better game: Thoughtful AI use over performative critique"
 type: post
 aliases:
   - Thoughtful AI use over performative critique
-description: Rather than cataloguing AI's failures, demonstrate thoughtful use, critique from practice, and amplify what matters to you.
+description: Most commentary on AI in education focuses on what AI cannot do, or catalogues its failures as warnings. This post argues for a different approach—instead of performative critique, demonstrate thoughtful use in your own practice. By modelling considered, reflective engagement with AI tools, health professions educators can critique from experience rather than speculation, help shape how AI is integrated into professional education, and play a better game than the one they're currently losing.
+meta-description: Rather than cataloguing AI's failures, demonstrate thoughtful use, critique from practice, and amplify what matters to you.
 keyphrase: thoughtful AI use
 author: "[[Michael Rowe]]"
 date: 2026-01-17
