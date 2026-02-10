@@ -20,6 +20,13 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
+    Component.ConditionalRender({
+      component: Component.ContentType(),
+      condition: (page) => {
+        const type = page.fileData.frontmatter?.type as string | undefined
+        return type === "post" || type === "note" || type === "essay"
+      },
+    }),
     Component.TagList(),
   ],
   left: [
@@ -78,6 +85,13 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.CourseButton(),
     Component.LessonNav(),
+    Component.ConditionalRender({
+      component: Component.RelatedContent(),
+      condition: (page) => {
+        const type = page.fileData.frontmatter?.type as string | undefined
+        return type === "post" || type === "note" || type === "essay"
+      },
+    }),
     Component.ShareLinks(),
     Component.Comments({
       provider: "giscus",

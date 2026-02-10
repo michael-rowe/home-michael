@@ -1,0 +1,39 @@
+.content-type {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  padding: 0.2em 0.6em;
+  border-radius: 3px;
+  opacity: 0.85;
+
+  i {
+    font-size: 1em;
+  }
+
+  &.content-type--post {
+    color: var(--secondary);
+    background-color: color-mix(in srgb, var(--secondary) 12%, transparent);
+  }
+
+  &.content-type--note {
+    color: #2e7d6e;
+    background-color: color-mix(in srgb, #2e7d6e 12%, transparent);
+  }
+
+  &.content-type--essay {
+    color: var(--tertiary);
+    background-color: color-mix(in srgb, var(--tertiary) 12%, transparent);
+  }
+}
+
+:root[saved-theme="dark"] {
+  .content-type--note {
+    color: #4db6a8;
+    background-color: color-mix(in srgb, #4db6a8 12%, transparent);
+  }
+}

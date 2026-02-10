@@ -17,6 +17,9 @@ tags:
   - values
 category:
 related:
+  - "[[Essays/learning-alignment]]"
+  - "[[2026-01-28-bitter-lesson-higher-education|The Bitter Lesson for education]]"
+  - "[[AI literacy]]"
 draft: false
 slug: ai-for-learning-at-scale
 enableToc: true

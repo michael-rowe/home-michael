@@ -16,6 +16,9 @@ tags:
   - AI-integration
 category:
 related:
+  - "[[human cognition and LLM parallels]]"
+  - "[[context engineering]]"
+  - "[[large language models]]"
 draft: false
 slug: posts/ai-human-cognition-similarities
 enableToc: true

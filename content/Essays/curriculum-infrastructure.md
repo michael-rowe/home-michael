@@ -2,7 +2,7 @@
 type: essay
 title: "Beyond document management: Graph infrastructure for professional education curricula"
 slug: essays/curriculum-infrastructure
-description: "Professional curricula in regulated disciplines are extensively documented but not systematically queryable, creating artificial information scarcity. Current systems—manual review, spreadsheets, and basic curriculum management tools—fail to expose curriculum structure, making compliance reporting and quality assurance labor-intensive. This essay proposes an architecture where graph databases serve as the source of truth for curriculum structure, using typed relationships (e.g., REQUIRES, ADDRESSES, ASSESSES) to enable real-time structural queries. Complemented by vector databases for semantic content retrieval and the Model Context Protocol for accessible natural language interfaces, this infrastructure allows institutions to verify competency coverage and identify structural gaps in hours rather than weeks. The architecture is designed for AI-forward institutions that treat AI integration as an ongoing strategic practice. By inverting the relationship between staff and technology, the proposal argues for removing technical barriers to interrogating curriculum complexity while preserving the interpretive authority of educators in pedagogical decision-making and educational meaning-making."
+description: "Professional curricula are extensively documented but not systematically queryable, creating artificial information scarcity that makes compliance reporting and quality assurance labour-intensive. This essay proposes an architecture where graph databases serve as the source of truth for curriculum structure, enabling compliance verification in hours rather than weeks."
 meta-description: "Proposing a graph-based infrastructure to transform professional education curricula into queryable operational architecture."
 author:
   - "[[Michael Rowe]]"
@@ -30,6 +30,10 @@ tags:
   - model-context-protocol
   - vector-database
 doi:
+related:
+  - "[[Essays/documentation-as-infrastructure]]"
+  - "[[Essays/context-sovereignty]]"
+  - "[[Notes/model-context-protocol]]"
 ---
 > [!info] **About this essay**
 > - **Authors**: Michael Rowe 1 ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk) and Wesley Lynch 2 ([LinkedIn](https://www.linkedin.com/in/wesleylynch/); wesley@snapplify.com)
@@ -39,8 +43,6 @@ doi:
 > - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 > - **Keywords**: AI-forward, artificial intelligence, context engineering, curriculum development, curriculum infrastructure, education technology, graph database, human-AI collaboration, model context protocol, vector database
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-> - **Preprint DOI**: N/A
-> - **Peer reviewed**: No
 
 ## Abstract
 

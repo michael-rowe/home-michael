@@ -2,7 +2,7 @@
 type: essay
 title: Documentation becomes infrastructure when AI agents are the readers
 slug: essays/documentation-as-infrastructure
-description: "Documentation—broadly understood as any structured knowledge used to achieve goals—undergoes a category shift when AI agents consume it as operational input. It moves from reference material, where inaccuracies are inconvenient but tolerable, to operational architecture, where inaccuracies cause system failures. This essay examine this shift through three lenses: the rise of 'documentation debt' as the new technical debt; the transition from reference material to machine-executable infrastructure; and the removal of the safety net of charitable human interpretation in favor of literal machine execution. The primary bottleneck for institutional AI integration is not AI capability but information architecture. Documentation debt creates artificial information scarcity, making existing curriculum structure and institutional policies inaccessible for systematic querying. Well-structured operational architecture provides the trust and auditability that unstructured prose cannot. As AI accelerates the pace of institutional change, quality assurance mechanisms designed around periodic review cycles become structurally inadequate, making the transition to documentation-as-infrastructure not just an efficiency concern but a governance imperative."
+description: "When AI agents consume documentation as operational input, it undergoes a category shift from reference material to operational architecture—inaccuracies no longer inconvenience readers, they cause system failures. This essay argues that the primary bottleneck for institutional AI integration is not AI capability but information architecture, making the transition to documentation-as-infrastructure a governance imperative."
 meta-description: "Examining how documentation shifts from human reference material to machine-executable infrastructure when AI agents are the primary readers."
 author:
   - "[[Michael Rowe]]"
@@ -34,8 +34,6 @@ doi:
 > - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 > - **Keywords**: artificial intelligence, documentation debt, information architecture, infrastructure, knowledge management, operational architecture
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-> - **Preprint DOI**: N/A
-> - **Peer reviewed**: No
 
 **Abstract**
 

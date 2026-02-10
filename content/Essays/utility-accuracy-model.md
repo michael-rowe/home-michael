@@ -30,8 +30,6 @@ doi:
 > - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/content/Essays)
 > - **Keywords**: AI tutoring, educational technology, engagement, learning outcomes, accessibility paradox
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-> - **Preprint DOI**: N/A
-> - **Peer reviewed**: No
 
 ## Abstract
 

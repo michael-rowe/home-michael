@@ -8,7 +8,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-04
 updated: 2026-02-04
-status: draft
 needs_review: false
 tags:
   - generative-ai
@@ -61,7 +60,7 @@ Three implications matter most:
 
 **First**, we need to distinguish between what can be computationally generated and what requires human judgement. LLMs can produce fluent text, but they cannot determine whether that text serves a particular purpose in a particular context. They lack understanding of goals, values, constraints, and consequences.
 
-**Second**, the shift from creation to curation to taste represents a fundamental change in where human value lies. When AI can generate multiple options quickly, the valuable human skill becomes evaluating which option best serves the purpose. This is why developing [[taste-and-judgement]] becomes essential rather than peripheral.
+**Second**, the shift from creation to curation to taste represents a fundamental change in where human value lies. When AI can generate multiple options quickly, the valuable human skill becomes evaluating which option best serves the purpose. This is why developing [[taste-and-judgement|taste and judgement]] becomes essential rather than peripheral.
 
 **Third**, LLMs exhibit complementary errors to humans—they make different kinds of mistakes. This creates opportunities for productive human-AI collaboration where each compensates for the other's limitations. But it also means we cannot simply delegate tasks to AI without oversight.
 

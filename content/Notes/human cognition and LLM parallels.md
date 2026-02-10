@@ -8,7 +8,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2025-02-06
 updated: 2025-02-06
-status: draft
 tags:
   - cognitive-science
   - artificial-intelligence

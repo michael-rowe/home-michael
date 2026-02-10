@@ -7,7 +7,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-01-08
 updated: 2026-01-30
-status: draft
 needs_review: false
 tags:
   - context-engineering

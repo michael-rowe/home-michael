@@ -8,7 +8,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-10
 updated: 2026-02-10
-status: draft
 needs_review: false
 tags:
   - generative-ai

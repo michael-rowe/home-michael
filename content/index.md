@@ -7,14 +7,7 @@ This site is where I write and think about scholarship — how we learn, how we 
 
 **Emergent scholarship** is both the name of this site and an ongoing inquiry: what does it mean to do scholarly work when the tools, contexts, and expectations keep shifting? I don't have answers so much as working notes, arguments in progress, and the occasional conviction.
 
-> [!warning] **Under development**
-> This site is under heavy development. I'm frequently restructuring content and moving files, so you might encounter broken links or unfinished sections.
-
-## <i class="ph ph-pencil-simple"></i> What I'm working on
-
-Right now I'm exploring how AI changes the nature of academic work — not just the tools we use, but what counts as expertise, how we assess learning, and what "scholarship" even means when content generation is trivial.
-
-I'm also developing an [[Courses/AI literacy/index|AI literacy course]] for academics, and writing about how [[Essays/documentation-as-infrastructure|documentation becomes infrastructure]] when AI agents are the readers.
+New here? [[start-here|Start here]].
 
 ## <i class="ph ph-star"></i> Featured
 
@@ -24,11 +17,11 @@ I'm also developing an [[Courses/AI literacy/index|AI literacy course]] for acad
 
 **Course**: [[Courses/AI literacy/index|AI literacy for academics]]. This course develops comprehensive AI literacy across six interconnected dimensions, using a developmental framework that moves from basic competence through adaptation to transformation.
 
+**Stay updated**: [[newsletter|Subscribe]] to receive new essays, posts, and course updates.
+
 ## <i class="ph ph-compass"></i> Explore
 
-Browse by [[formats|format]] (essays, posts, notes, courses) or by [[topics|topic]].
-
-The **graph view** in the top right section shows how ideas connect across the site. The *local graph* updates depending on what you're currently looking at. Click any node to navigate there, or use the *global view* (small graph icon in the top right) to see the full network. It's a way to discover related ideas you might not find through linear browsing.
+Browse by [[formats|format]] or [[topics|topic]].
 
 ---
 

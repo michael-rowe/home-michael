@@ -42,3 +42,9 @@ Start with [[Courses/Time management/index|Time management for academics]]. It's
 ## Not sure where to start?
 
 [[contact|Get in touch]]. I'm happy to point you in the right direction.
+
+---
+
+## How to navigate this site
+
+The **graph view** in the top right section shows how ideas connect across the site. The *local graph* updates depending on what you're currently looking at. Click any node to navigate there, or use the *global view* (small graph icon in the top right) to see the full network. It's a way to discover related ideas you might not find through linear browsing.
