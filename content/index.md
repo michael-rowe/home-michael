@@ -11,13 +11,13 @@ This site is where I write and think about scholarship — how we learn, how we 
 
 Right now I'm exploring how AI changes the nature of academic work — not just the tools we use, but what counts as expertise, how we assess learning, and what "scholarship" even means when content generation is trivial.
 
-I'm also developing an [[Courses/AI literacy/index|AI literacy course]] for academics, and writing about [[Essays/learning-alignment|the alignment problem in education]].
+I'm also developing an [[Courses/AI literacy/index|AI literacy course]] for academics, and writing about [[Essays/learning-alignment|the alignment problem in education]] and how [[Essays/documentation-as-infrastructure|documentation becomes infrastructure]] when AI agents are the readers.
 
 ## <i class="ph ph-star"></i> Featured
 
 **Post** - [[2026-01-28-bitter-lesson-higher-education|A bitter lesson in education]]: Rich Sutton's "Bitter Lesson" showed that general computation beats human-crafted expertise in AI. Higher education faces a parallel lesson - our complex assessment frameworks, built on the difficulty of artifact generation, are collapsing now that AI makes content production trivial.
 
-**Essay** - [[Essays/taste-and-judgement|Taste and judgement in human-AI systems]]: This essay introduces *taste as a framework for cultivating contextual judgement* through iterative experimentation and reflection that enables discernment about when, how, and why to engage AI capabilities in service of personally meaningful purposes.
+**Essay** - [[Essays/curriculum-infrastructure|Beyond document management: Graph infrastructure for professional education curricula]]: This essay proposes an architecture where graph databases serve as the source of truth for curriculum structure, using typed relationships to enable real-time structural queries, transforming professional education curricula into queryable operational architecture.
 
 **Course**: [[Courses/AI literacy/index|AI literacy for academics]]. This course develops comprehensive AI literacy across six interconnected dimensions, using a developmental framework that moves from basic competence through adaptation to transformation.
 
