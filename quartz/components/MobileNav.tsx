@@ -222,28 +222,30 @@ export default ((opts?: Partial<MobileNavOptions>) => {
           </svg>
         </button>
         <nav class="mobile-nav-content">
-          <button
-            type="button"
-            class="mobile-nav-close"
-            aria-label="Close navigation menu"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+          <div class="mobile-nav-header">
+            <span class="mobile-nav-site-title">{cfg.pageTitle}</span>
+            <button
+              type="button"
+              class="mobile-nav-close"
+              aria-label="Close navigation menu"
             >
-              <line x1="18" y1="6" x2="6" y2="18"></line>
-              <line x1="6" y1="6" x2="18" y2="18"></line>
-            </svg>
-          </button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </button>
+          </div>
 
           {/* Site Navigation */}
           <div class="mobile-nav-section">
-            <h3>Navigate</h3>
             <ul>
               {options.links.map((link) => {
                 const href = resolveRelative(fileData.slug!, link.slug as FullSlug)
@@ -303,7 +305,7 @@ export default ((opts?: Partial<MobileNavOptions>) => {
   }
 
   .mobile-nav-toggle .menu-icon {
-    stroke: var(--darkgray);
+    stroke: var(--secondary);
     width: 24px;
     height: 24px;
   }
@@ -320,7 +322,7 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     transform: translateX(100%);
     transition: transform 0.3s ease;
     overflow-y: auto;
-    padding: 1rem;
+    padding: 1.5rem 1rem 1rem;
     box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
     z-index: 201;
   }
@@ -329,21 +331,42 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     transform: translateX(0);
   }
 
+  .mobile-nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--lightgray);
+  }
+
+  .mobile-nav-site-title {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--darkgray);
+    letter-spacing: 0.01em;
+  }
+
   .mobile-nav-close {
     background: transparent;
     border: none;
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 0.4rem;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 1rem;
+    justify-content: center;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+
+  .mobile-nav-close:hover {
+    background-color: var(--highlight);
   }
 
   .mobile-nav-close svg {
     stroke: var(--darkgray);
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
   }
 
   .mobile-nav-section {
@@ -358,7 +381,7 @@ export default ((opts?: Partial<MobileNavOptions>) => {
 
   .mobile-nav-section h3 {
     font-size: 0.9rem;
-    font-weight: 700;
+    font-weight: 600;
     margin: 0 0 0.75rem 0;
     color: var(--gray);
     text-transform: uppercase;
@@ -412,12 +435,11 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.35);
     z-index: 199;
   }
 
-  .mobile-nav.open ~ .mobile-nav-overlay,
-  .mobile-nav.open .mobile-nav-overlay {
+  body.mobile-nav-open .mobile-nav-overlay {
     display: block;
   }
 

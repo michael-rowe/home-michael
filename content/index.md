@@ -1,23 +1,46 @@
 ---
 title: Emergent Scholarship
 ---
-I'm Michael Rowe. I’m an academic and researcher working on technology-enhanced scholarship and artificial intelligence in health professions education. I’m also the [Director of Digital Innovation](https://staff.lincoln.ac.uk/8715fd15-a72b-46ba-8def-0ccc1e1670a4) in the School of Health and Care Sciences at the University of Lincoln.
+What does it mean to do scholarly work when the tools, contexts, and expectations keep shifting? This is where I work through that question — in essays, posts, and courses, at the intersection of AI and health professions education.
 
-This site is where I write and think about scholarship — how we learn, how we teach, how we create and share knowledge. I've spent my career exploring these questions, first in health professions education, now increasingly at the intersection of AI and academic practice.
+<div class="page-cta">
 
-**Emergent scholarship** is both the name of this site and an ongoing inquiry: what does it mean to do scholarly work when the tools, contexts, and expectations keep shifting? I don't have answers so much as working notes, arguments in progress, and the occasional conviction.
+[[start-here|Start here]] [[newsletter|Subscribe]]
 
-New here? [[start-here|Start here]].
+</div>
 
-## <i class="ph ph-star"></i> Featured
+## Featured
 
-**Post** - [[2026-02-06-LLM-similarities-human-cognition|AI and human cognition: What if we're the language models?]]: This post examines parallels between AI cognitive architecture and human thinking—context windows, training data bias, tokenisation, temperature, hallucination, and pattern matching—not to claim that humans are language models, but to ask what these similarities reveal about our own cognitive processes and why we are so invested in denying them.
+<div class="featured-cards">
 
-**Essay** - [[Essays/curriculum-infrastructure|Beyond document management: Graph infrastructure for professional education curricula]]: This essay proposes an architecture where graph databases serve as the source of truth for curriculum structure, using typed relationships to enable real-time structural queries, transforming professional education curricula into queryable operational architecture.
+<div class="featured-card">
+<div class="content-type content-type--post"><i class="ph ph-pencil-simple"></i><span>Post</span></div>
 
-**Course**: [[Courses/AI literacy/index|AI literacy for academics]]. This course develops comprehensive AI literacy across six interconnected dimensions, using a developmental framework that moves from basic competence through adaptation to transformation.
+[[2026-02-06-LLM-similarities-human-cognition|AI and human cognition: What if we're the language models?]]
 
-**Stay updated**: [[newsletter|Subscribe]] to receive new essays, posts, and course updates.
+What parallels between AI architecture and human thinking reveal about our cognitive processes — and why we resist acknowledging them.
+
+</div>
+
+<div class="featured-card">
+<div class="content-type content-type--essay"><i class="ph ph-file-text"></i><span>Essay</span></div>
+
+[[Essays/documentation-as-infrastructure|Documentation becomes infrastructure when AI agents are the readers]]
+
+When AI consumes documentation as operational input, information quality stops being a courtesy and becomes a governance imperative.
+
+</div>
+
+<div class="featured-card">
+<div class="content-type content-type--course"><i class="ph ph-graduation-cap"></i><span>Course</span></div>
+
+[[Courses/AI literacy/index|AI literacy for academics]]
+
+A developmental framework for building AI literacy across six dimensions, from basic competence to transformation.
+
+</div>
+
+</div>
 
 ## <i class="ph ph-compass"></i> Explore
 

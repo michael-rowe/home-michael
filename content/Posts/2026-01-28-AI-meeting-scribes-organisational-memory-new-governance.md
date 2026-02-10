@@ -20,8 +20,6 @@ related:
 draft: false
 slug: ai-meeting-scribes
 enableToc: true
-cssclasses:
-  - ""
 ---
 > [!tip] The real governance question
 > AI meeting scribes haven't created new power dynamics—they've automated existing ones, making them more technical, less visible, and more scalable. The question isn't how to stop gaming but how to govern dynamics that have always existed.

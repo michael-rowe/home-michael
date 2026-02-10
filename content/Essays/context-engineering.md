@@ -28,7 +28,6 @@ tags:
   - organisational-change
   - personal-knowledge-management
   - personal-learning
-doi:
 ---
 > [!info] **About this essay**
 > - **Authors**: Michael Rowe 1 ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk) and Wesley Lynch 2 ([LinkedIn](https://www.linkedin.com/in/wesleylynch/); wesley@snapplify.com)

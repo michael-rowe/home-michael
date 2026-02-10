@@ -14,14 +14,13 @@ tags:
   - higher-education
   - assessment
   - learning
-category: Assessment
+category:
+  - Assessment
 related:
   - "[[learning-alignment]]"
 draft: false
 slug: bitter-lesson-higher-education
 enableToc: true
-cssclasses:
-  - ""
 ---
 > [!tip] The bitter lesson in education
 > AI researchers encoded what they understood about human intelligence, which felt right but couldn't scale. We encoded what we understood about "assessing learning," which felt rigorous but was actually optimising for surface features that AI can replicate easily.

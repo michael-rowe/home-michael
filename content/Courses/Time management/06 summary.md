@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Summary
 lesson: 6
 description: Course conclusion that reviews key concepts, provides a complete bibliography, and helps consolidate learning for ongoing practice.
+author: "[[Michael Rowe]]"
 ---
 
 The aim of this course was to design a fixed working schedule that's planned effectively, with protected time to complete the rest of this course.

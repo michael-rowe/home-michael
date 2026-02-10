@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Sustaining AI literacy
 lesson: 11
 description: Make AI literacy practices automatic through workflow redesign rather than relying on willpower.
+author: "[[Michael Rowe]]"
 ---
 
 > [!info] Lesson overview

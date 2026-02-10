@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Introduction
 lesson: 0
 description: Explore the foundational philosophy of academic career development and why tying your work to a higher purpose matters.
+author: "[[Michael Rowe]]"
 ---
 
 > If you do not change direction, you may end up where you are heading.

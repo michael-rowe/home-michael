@@ -22,8 +22,6 @@ related:
 draft: false
 slug: evaluative-judgement
 enableToc: true
-cssclasses:
-  - ""
 ---
 > [!tip] Where human value now lives
 > AI can learn your patterns—what you typically choose. But it cannot judge whether those patterns produce outcomes worth amplifying. As creation and curation become trivial, evaluative judgement about what *should* exist becomes the primary human contribution.

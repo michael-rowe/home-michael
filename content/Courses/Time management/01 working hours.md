@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Working hours
 lesson: 1
 description: Learn to establish and maintain fixed working hours that protect your peak cognitive energy and create sustainable academic productivity.
+author: "[[Michael Rowe]]"
 ---
 
 > [!info] Lesson overview

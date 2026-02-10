@@ -20,8 +20,6 @@ related:
 draft: false
 slug: thoughtful-ai-use
 enableToc: true
-cssclasses:
-  - ""
 ---
 > [!tip] A different game
 > Technology amplifies human intention. Rather than cataloguing AI's failures, demonstrate thoughtful use, critique from practice, and amplify what matters to you. The question isn't whether AI is good or bad—it's what you choose to point it at.

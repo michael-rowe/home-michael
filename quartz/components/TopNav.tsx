@@ -40,7 +40,7 @@ export default ((opts?: Partial<TopNavOptions>) => {
 
   const TopNav: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
     return (
-      <nav class={`top-nav ${displayClass ?? ""}`}>
+      <nav class={`top-nav ${displayClass ?? ""}`} aria-label="Main navigation">
         <ul>
           {options.links.map((link) => {
             const href = resolveRelative(fileData.slug!, link.slug as FullSlug)
@@ -196,7 +196,7 @@ export default ((opts?: Partial<TopNavOptions>) => {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .top-nav {
     display: none;
   }

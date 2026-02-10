@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Context sovereignty
 lesson: 9
 description: Build persistent AI partnerships with accumulated context about your research, disciplinary conventions, and scholarly goals.
+author: "[[Michael Rowe]]"
 ---
 
 > [!info] Lesson overview

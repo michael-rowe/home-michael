@@ -4,9 +4,12 @@ title: "From teaching to learning: How emergent scholarship disrupts traditional
 slug: essays/teaching-to-learning
 description: "Traditional education systems are structured around teaching, assuming it inevitably produces learning. This paper argues that this unidirectional model—where knowledge flows from expert to novice—no longer suits a world of information abundance and AI disruption. Emergent scholarship offers an alternative, reconceptualising learning as a complex, networked process. By shifting from knowledge authority to learning facilitator, educators can create environments where diverse participants contribute to collective understanding, challenging hierarchies that position faculty as sole knowledge producers. This transformation is urgent as AI develops capabilities once exclusive to human experts. Rather than resisting technological change, emergent scholarship integrates AI into the learning ecosystem, focusing on uniquely human capabilities like critical reasoning and collaborative problem-solving. Reimagining institutional structures around learning networks rather than teaching hierarchies better prepares graduates for complexity and uncertainty while fostering more engaging experiences for all participants in the educational process."
 meta-description: "Shifting higher education from teaching hierarchies to learning networks to prepare for a world of AI and information abundance."
-author: Michael Rowe
-affiliation: University of Lincoln
-email: mrowe@lincoln.ac.uk
+author:
+  - "[[Michael Rowe]]"
+affiliation:
+  - University of Lincoln
+email:
+  - mrowe@lincoln.ac.uk
 abstract: "Traditional education systems are built on a paradox: institutions dedicated to learning are structured almost entirely around teaching. This fundamental misalignment has persisted for centuries, with higher education operating on the assumption that teaching inevitably produces learning. This paper argues that the traditional model, where knowledge flows unidirectionally from expert to novice, no longer serves a world of information abundance and technological disruption. Emergent scholarship offers an alternative approach that reconceptualises learning as a complex, networked process emerging from connections rather than transmission. By shifting from knowledge authority to learning facilitation, educators can create environments where diverse participants contribute to collective understanding, challenging hierarchies that position faculty as sole knowledge producers. This transformation is particularly urgent as artificial intelligence develops capabilities once exclusive to human experts, fundamentally altering the educational landscape. Rather than fighting these technological changes, emergent scholarship integrates them as participants in the learning ecosystem while focusing on uniquely human capabilities like critical thinking and collaborative problem-solving. The shift from teaching hierarchies to learning networks requires reimagining not just pedagogical approaches but institutional structures, potentially creating educational environments that better prepare graduates for complexity and uncertainty while fostering more engaging experiences for all participants. This transition demands a move from standardized teaching outcomes to rich learning ecologies that accommodate diverse needs and interests, ensuring that education remains relevant to the human beings it claims to serve."
 version: 0.5
 created: 2025-04-01
@@ -16,7 +19,6 @@ tags:
   - learning
   - higher-education
   - emergent-scholarship
-doi:
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))

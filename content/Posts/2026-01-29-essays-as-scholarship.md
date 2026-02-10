@@ -21,8 +21,6 @@ related:
 draft: false
 slug: essays-as-scholarship
 enableToc: true
-cssclasses:
-  - ""
 ---
 > [!tip] A different form, not a lesser form
 > Essays deserve recognition as scholarship—not as a lesser form, but as a different form. One that enables exploration before formal investigation, synthesis across disciplinary boundaries, and engagement with audiences that traditional academic publishing fails to reach.

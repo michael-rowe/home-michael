@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Summary
 lesson: 6
 description: Review the complete note-taking framework and reflect on how to maintain a sustainable, lifelong knowledge system.
+author: "[[Michael Rowe]]"
 ---
 
 The aim of this course was to **create a note-taking framework that provides an extension to your working and long-term memory,** enabling you to focus on what matters.

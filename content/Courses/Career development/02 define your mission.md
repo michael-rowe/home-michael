@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Define your mission
 lesson: 2
 description: Identify the pressing problems where you can make meaningful contributions and develop a clear sense of purpose for your academic career.
+author: "[[Michael Rowe]]"
 ---
 
 > [!info] Lesson overview

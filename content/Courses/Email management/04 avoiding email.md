@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Avoiding email
 lesson: 4
 description: Explore alternative communication channels that save time, preserve mental energy, and build better relationships.
+author: "[[Michael Rowe]]"
 ---
 
 > [!info] Lesson overview

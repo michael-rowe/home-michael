@@ -21,19 +21,27 @@
   }
 
   &.content-type--note {
-    color: #2e7d6e;
-    background-color: color-mix(in srgb, #2e7d6e 12%, transparent);
+    color: var(--note-color);
+    background-color: color-mix(in srgb, var(--note-color) 12%, transparent);
   }
 
   &.content-type--essay {
     color: var(--tertiary);
     background-color: color-mix(in srgb, var(--tertiary) 12%, transparent);
   }
+
+  &.content-type--course {
+    color: var(--course-color);
+    background-color: color-mix(in srgb, var(--course-color) 12%, transparent);
+  }
+}
+
+:root {
+  --note-color: #2e7d6e;
+  --course-color: #5b35a8;
 }
 
 :root[saved-theme="dark"] {
-  .content-type--note {
-    color: #4db6a8;
-    background-color: color-mix(in srgb, #4db6a8 12%, transparent);
-  }
+  --note-color: #4db6a8;
+  --course-color: #a78bfa;
 }

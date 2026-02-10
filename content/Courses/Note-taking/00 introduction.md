@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Introduction
 lesson: 0
 description: Understand why notes are the core of academic work and how to build a unified conceptual framework for your thinking.
+author: "[[Michael Rowe]]"
 ---
 
 > If you’re going to take notes on something, you might as well treat them as important. - Sönke Ahrens (2017)

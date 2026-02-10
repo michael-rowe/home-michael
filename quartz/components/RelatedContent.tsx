@@ -1,4 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { QuartzPluginData } from "../plugins/vfile"
 import { FullSlug, resolveRelative, simplifySlug } from "../util/path"
 import { byDateAndAlphabetical } from "./PageList"
 import { getDate } from "./Date"
@@ -162,14 +163,14 @@ const RelatedContent: QuartzComponent = ({
 }
 
 function renderSection(
-  items: ReturnType<typeof Array.prototype.filter>,
+  items: QuartzPluginData[],
   currentSlug: FullSlug,
 ) {
   return (
-    <section class="related-content">
+    <section class="related-content" aria-label="Related content">
       <h3>Continue reading</h3>
       <ul>
-        {items.map((item: any) => (
+        {items.map((item) => (
           <li>
             <a href={resolveRelative(currentSlug, item.slug!)} class="internal">
               {item.frontmatter?.title}

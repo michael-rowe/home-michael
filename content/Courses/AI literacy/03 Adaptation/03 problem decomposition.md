@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Problem decomposition
 lesson: 8
 description: Break down complex academic problems from multiple theoretical and methodological angles.
+author: "[[Michael Rowe]]"
 ---
 
 > [!info] Lesson overview

@@ -330,6 +330,101 @@ body[data-slug="index"] .recent-notes {
   }
 }
 
+// Page CTAs — primary (Start here) + secondary (Subscribe) side by side
+.page-cta {
+  margin: 1.5rem 0;
+
+  p {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+  // First link: filled primary button
+  a:first-of-type {
+    display: inline-block;
+    padding: 0.4em 1em;
+    background-color: var(--secondary);
+    color: #fff !important;
+    border: 1.5px solid var(--secondary);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none !important;
+    transition: background-color 0.15s ease;
+
+    &:hover {
+      background-color: var(--tertiary);
+      border-color: var(--tertiary);
+    }
+  }
+
+  // Second link: outline secondary button
+  a:last-of-type {
+    display: inline-block;
+    padding: 0.4em 1em;
+    background-color: transparent;
+    color: var(--secondary) !important;
+    border: 1.5px solid var(--secondary);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none !important;
+    transition: background-color 0.15s ease, color 0.15s ease;
+
+    &:hover {
+      background-color: var(--secondary);
+      color: #fff !important;
+    }
+  }
+}
+
+// Featured cards
+.featured-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 0.875rem;
+  margin: 1rem 0;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.featured-card {
+  flex: 1;
+  padding: 1rem 1.25rem;
+  background-color: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+
+  // Title: the paragraph immediately after the type badge
+  .content-type + p {
+    margin: 0.4rem 0 0.4rem;
+
+    a {
+      font-weight: 600;
+      font-size: 1.05rem;
+      color: var(--dark);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--secondary);
+      }
+    }
+  }
+
+  // Description: paragraph after the title
+  .content-type + p + p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--darkgray);
+    line-height: 1.5;
+  }
+}
+
 // Featured content section
 .featured-content {
   margin: 1.5rem 0;
@@ -520,5 +615,48 @@ a.course-button {
 
   &:hover svg {
     transform: translateX(4px);
+  }
+}
+
+// Respect reduced motion preferences
+@media (prefers-reduced-motion: reduce) {
+  // Disable mobile nav slide transition
+  .mobile-nav-content {
+    transition: none !important;
+  }
+
+  // Disable flip card animation
+  .flip-card-inner {
+    transition: none !important;
+  }
+
+  .flip-card.flipped .flip-card-inner {
+    // Show the back face without animation by using visibility instead of transform
+    transform: none !important;
+  }
+
+  .flip-card-back {
+    transform: none !important;
+    visibility: hidden;
+  }
+
+  .flip-card.flipped .flip-card-front {
+    visibility: hidden;
+  }
+
+  .flip-card.flipped .flip-card-back {
+    visibility: visible;
+  }
+
+  // Disable dropdown menu transitions
+  .top-nav .dropdown-menu {
+    transition: none !important;
+  }
+
+  // Disable button hover transitions
+  .mobile-nav-toggle,
+  .mobile-nav-close,
+  .mobile-nav-link {
+    transition: none !important;
   }
 }

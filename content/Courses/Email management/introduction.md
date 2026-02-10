@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Introduction
 lesson: 0
 description: Understand why email management matters for protecting your attention and how to build a sustainable relationship with your inbox.
+author: "[[Michael Rowe]]"
 ---
 
 > The basic idea of email has remained essentially unchanged since the first networked message was sent in 1971. And while email is great for one-on-one, formal correspondence, there are far better tools for collaboration.

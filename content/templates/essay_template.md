@@ -11,7 +11,6 @@ affiliation:
 email:
   - email@institution.edu
 abstract: "A comprehensive abstract (150-250 words) that summarizes the key argument, methodology, and contributions of the essay. This should be written in a single paragraph and provide readers with a clear understanding of the essay's purpose, main claims, and significance. Include the key concepts, theoretical frameworks, and conclusions that the essay develops."
-keyphrase: ""
 version: 0.1
 created: YYYY-MM-DD
 modified:
@@ -21,10 +20,10 @@ tags:
   - tag3
   - tag4
   - tag5
-doi:
-  live: ""
-  preprint: ""
-  journal: ""
+doi: ""  # Omit this field if no DOI exists yet
+related:
+  - "[[Related Content Title]]"
+draft: false
 ---
 # Essay Title: Subtitle Here
 

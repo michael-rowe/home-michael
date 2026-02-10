@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: AI as a cognitive partner
 lesson: 1
 description: Understand what generative AI is and how to approach it as language-based cognitive extension rather than software to operate.
+author: "[[Michael Rowe]]"
 ---
 
 > If you do not change direction, you may end up where you are heading.

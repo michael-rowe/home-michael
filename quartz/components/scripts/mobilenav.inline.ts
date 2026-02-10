@@ -118,6 +118,11 @@ function setupMobileNav() {
 
   // Close menu on page navigation (for SPA)
   window.addEventListener("popstate", closeMobileNav)
+
+  // Close menu with Escape key
+  document.addEventListener("keydown", (e: KeyboardEvent) => {
+    if (e.key === "Escape") closeMobileNav()
+  })
 }
 
 document.addEventListener("nav", setupMobileNav)

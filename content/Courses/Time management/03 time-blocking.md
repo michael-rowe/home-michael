@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Time-blocking
 lesson: 3
 description: Learn to use time-blocking to protect high-value work, reduce context-switching, and create intentional daily structure that supports meaningful academic progress.
+author: "[[Michael Rowe]]"
 ---
 
 > [!info] Lesson overview

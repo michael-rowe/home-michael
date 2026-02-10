@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Extracting information
 lesson: 3
 description: Extract high-value information from a variety of sources by establishing practices for systematic extraction that transforms captured sources into workable materials.
+author: "[[Michael Rowe]]"
 ---
 
 > [!info] Lesson overview

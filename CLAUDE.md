@@ -285,6 +285,143 @@ Content lives in `content/` directory (ignored by git per configuration):
 - Ignore patterns configurable in `quartz.config.ts`
 - Examples: `ignorePatterns: ["private", "templates", ".obsidian"]`
 
+### Content directories
+
+| Directory | Purpose |
+| --------- | ------- |
+| `content/Essays/` | Long-form academic essays with abstracts, versioning, DOIs |
+| `content/Posts/` | Shorter blog-style commentary and analysis |
+| `content/Notes/` | Concept notes and knowledge management entries |
+| `content/Courses/` | Course materials organised by course name, then lesson files |
+| `content/Bibliography/` | Annotated bibliography entries |
+| `content/Frameworks/` | Framework documents |
+| `content/Newsletters/` | Newsletter drafts and archives |
+| `content/templates/` | Content templates (excluded from build) |
+| `content/personas/` | AI reviewer persona files (excluded from build) |
+
+### Content types and required frontmatter
+
+Each piece of content requires a `type:` field. Valid types:
+
+**`type: post`** — Blog-style posts
+```yaml
+type: post
+title: ""
+description: ""          # 3-5 sentences for index listings
+meta-description: ""     # Under 155 chars; include keyphrase
+keyphrase: ""            # Realistic search phrase (not a topic word)
+author: "[[Michael Rowe]]"
+date: YYYY-MM-DD
+updated: YYYY-MM-DD
+tags: []
+category: []             # Always list format
+draft: false
+slug: ""
+```
+
+**`type: essay`** — Academic essays
+```yaml
+type: essay
+title: ""
+slug: essays/slug-here
+description: ""          # 100-150 word summary
+meta-description: ""     # Under 155 chars
+author:
+  - "[[Michael Rowe]]"
+affiliation:
+  - University of Lincoln
+email:
+  - mrowe@lincoln.ac.uk
+abstract: ""
+version: 0.1
+created: YYYY-MM-DD
+modified: YYYY-MM-DD
+tags: []
+doi: ""                  # Omit field entirely if no DOI exists
+related: []
+draft: false
+```
+
+**`type: note`** — Concept notes
+```yaml
+type: note
+title: ""
+description: ""
+author: "[[Michael Rowe]]"
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+status: draft
+keyphrase: ""
+slug: notes/slug-here
+category: ""             # Single category
+tags: []
+related: []
+```
+
+**`type: lesson`** — Course lessons (within `content/Courses/`)
+```yaml
+type: lesson
+title: ""
+lesson: 1                # Lesson number used for ordering
+description: ""          # 1-2 sentences: what learners will be able to do
+author: "[[Michael Rowe]]"
+course: ""               # Parent course name (e.g. "Time management")
+tags: []
+related: []
+```
+
+**`type: bib`** — Annotated bibliography entries (within `content/Bibliography/`)
+```yaml
+type: bib
+title: "Source Title Here"
+source-author: "Author Name(s)"
+source-year: YYYY
+source-type: book        # book | article | podcast | video | report | blog | tool
+source-url: ""
+topics:
+  - topic1
+tags: []
+date: YYYY-MM-DD
+draft: true
+slug: ""
+```
+
+### YAML conventions
+
+- **Author format**: Essays use list format (`author: ["[[Michael Rowe]]"]`); posts, notes, and lessons use scalar (`author: "[[Michael Rowe]]"`). Always wiki-link format.
+- **Date fields**: Essays use `created:`/`modified:`; posts use `date:`/`updated:`; lessons use `created:`/`updated:`. Quartz treats `created` and `date` as aliases, and `modified`, `updated`, `last-modified` as aliases — but follow existing conventions per type.
+- **Category**: Always list format (`category: [Assessment]`), never scalar string.
+- **DOI**: Omit the `doi:` field entirely if no DOI exists. Don't use empty `doi:`.
+- **cssclasses**: Don't add `cssclasses: [""]` — it has no effect and adds noise.
+- **`related` field**: Wiki-link format: `["[[Slug or Title]]"]`
+
+### Personas
+
+Reviewer personas live in `content/personas/` (excluded from build). Apply with:
+```
+Read personas/[name].md and apply it to [target]
+```
+
+Available personas:
+- `SEO_optimiser.md` — keyphrase strategy, meta-descriptions, slug optimisation
+- `writing_style.md` — generates new content in site voice
+- `copy_editor.md` — British English, sentence-level prose editing
+- `accessibility_reviewer.md` — WCAG 2.1 AA compliance
+- `content_strategist.md` — information architecture, content gaps
+- `newsletter_editor.md` — email-specific editorial review
+- `course_designer.md` — learning design, lesson structure
+
+## Component conventions
+
+Key design decisions to be aware of when modifying components:
+
+- **Responsive breakpoint**: Both `TopNav.tsx` and `MobileNav.tsx` use `800px`. TopNav hides at `≤800px`; MobileNav shows at `≤800px`. Don't change one without changing the other.
+- **CSS variables**: Note colour is `--note-color` (defined in `contentType.scss`); course colour is `--course-color`. Add new content-type colours as CSS variables there, not hardcoded hex values.
+- **Overlay pattern**: `MobileNav` appends its overlay to `<body>` via JS, so the show/hide rule is `body.mobile-nav-open .mobile-nav-overlay`, not a CSS sibling selector.
+- **JSON-LD / canonical**: `Head.tsx` emits `<link rel="canonical">` and `<script type="application/ld+json">` for `type: post`, `type: essay`, and course pages. Structured data uses Article schema for posts/essays, Course schema for courses.
+- **RelatedContent**: Uses a three-tier matching strategy — explicit `related` wikilinks first, then category matches, then tag-scored fallback. The `renderSection()` function takes `QuartzPluginData[]`, not `any[]`.
+- **`npm run check` failures**: There are pre-existing TypeScript errors in the codebase (multiple components). These do not block building — `npx quartz build` succeeds. Don't treat `npm run check` failures as blockers unless they're in files you've changed.
+
 ## Performance considerations
 
 - Worker threads used for parsing when >128 files

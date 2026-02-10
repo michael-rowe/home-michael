@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Build your networks
 lesson: 4
 description: Strategically position yourself within professional networks by understanding different roles and building meaningful relationships that create value for your communities.
+author: "[[Michael Rowe]]"
 ---
 
 > [!info] Lesson overview

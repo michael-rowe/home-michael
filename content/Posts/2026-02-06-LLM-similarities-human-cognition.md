@@ -22,8 +22,6 @@ related:
 draft: false
 slug: posts/ai-human-cognition-similarities
 enableToc: true
-cssclasses:
-  - ""
 ---
 > [!tip] The mirror we resist
 > The parallels between LLM cognition and human thinking are more extensive than we'd like to admit and the strength of our denials might tell us more about human psychology than any technical specification ever could.

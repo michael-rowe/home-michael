@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Take care of yourself
 lesson: 5
 description: Integrate sustainable self-care practices into your academic workflow to create the conditions for meaningful, high-value work.
+author: "[[Michael Rowe]]"
 ---
 
 > [!info] Lesson overview

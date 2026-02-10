@@ -32,6 +32,57 @@ export default (() => {
     const socialUrl =
       fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
 
+    // JSON-LD structured data
+    const contentType = fileData.frontmatter?.type as string | undefined
+    const authorRaw = fileData.frontmatter?.author
+    const authorName = Array.isArray(authorRaw)
+      ? (authorRaw[0] as string)?.replace(/\[\[|\]\]/g, "").split("|")[0] ?? "Michael Rowe"
+      : typeof authorRaw === "string"
+        ? (authorRaw as string).replace(/\[\[|\]\]/g, "").split("|")[0]
+        : "Michael Rowe"
+    const datePublished = fileData.dates?.created?.toISOString()
+    const dateModified = fileData.dates?.modified?.toISOString() ?? datePublished
+
+    let jsonLd: object | null = null
+
+    if (contentType === "post" || contentType === "essay") {
+      jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: fileData.frontmatter?.title ?? title,
+        description: description,
+        author: {
+          "@type": "Person",
+          name: authorName,
+          url: "https://orcid.org/0000-0002-1538-6052",
+          affiliation: {
+            "@type": "Organization",
+            name: "University of Lincoln",
+          },
+        },
+        ...(datePublished ? { datePublished } : {}),
+        ...(dateModified ? { dateModified } : {}),
+        url: socialUrl,
+        publisher: {
+          "@type": "Person",
+          name: "Michael Rowe",
+        },
+      }
+    } else if (contentType === "course" || fileData.slug?.startsWith("Courses/")) {
+      jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        name: fileData.frontmatter?.title ?? title,
+        description: description,
+        url: socialUrl,
+        provider: {
+          "@type": "Person",
+          name: "Michael Rowe",
+          url: `https://${cfg.baseUrl}`,
+        },
+      }
+    }
+
     const usesCustomOgImage = ctx.cfg.plugins.emitters.some(
       (e) => e.name === CustomOgImagesEmitterName,
     )
@@ -86,6 +137,15 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+        {cfg.baseUrl && fileData.slug !== "404" && (
+          <link rel="canonical" href={socialUrl} />
+        )}
+        {jsonLd && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          />
+        )}
         <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}

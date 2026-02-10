@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Processing information
 lesson: 4
 description: Convert information into something personally meaningful through the intellectual work of connecting, elaborating, questioning, and synthesising.
+author: "[[Michael Rowe]]"
 ---
 
 > [!info] Lesson overview

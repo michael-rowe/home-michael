@@ -1,7 +1,9 @@
 ---
+type: lesson
 title: Sharing information
 lesson: 5
 description: Increase your career capital by sharing what you learn through practices that demonstrate your thinking and create value for others.
+author: "[[Michael Rowe]]"
 ---
 
 > [!info] Lesson overview
