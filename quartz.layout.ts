@@ -42,18 +42,15 @@ export const defaultContentPageLayout: PageLayout = {
         showTags: false,
         filter: (f) => {
           const slug = f.slug ?? ""
+          const type = f.frontmatter?.type as string | undefined
+
+          // Exclude templates
           if (slug.includes("templates")) return false
-          if (slug.endsWith("/index")) return false
-          if (slug === "index") return false
-          if (slug === "about") return false
-          if (slug === "contact") return false
-          if (slug === "newsletter") return false
-          if (slug === "principles") return false
-          if (slug === "start-here") return false
-          if (slug === "learn") return false
-          if (slug === "topics") return false
-          if (slug === "formats") return false
-          return true
+
+          // Only show content with a type field (posts, notes, essays, etc.)
+          // This excludes static pages which don't have a type
+          const validTypes = ["post", "note", "essay", "framework", "policy", "course"]
+          return type !== undefined && validTypes.includes(type)
         },
       }),
       condition: (page) => page.fileData.slug === "index",
