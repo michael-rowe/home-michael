@@ -2,6 +2,8 @@
 title: "Essay Title: Subtitle Here"
 type: essay
 slug:
+description: "A 100-150 word description used for index pages and listings. It should be engaging and summarize the main argument and relevance of the essay for the target audience."
+meta-description: "A 15-20 word summary for SEO and social previews."
 author:
   - Author Name
 affiliation:
