@@ -1,6 +1,7 @@
 ---
 type: essay
 title: "Publishing with purpose: Using AI to enhance scientific discourse"
+slug: essays/publishing-with-purpose
 author:
   - "[[Michael Rowe]]"
 affiliation:
@@ -17,6 +18,7 @@ tags:
   - publication
 version: 1.1
 created: 2025-01-27
+modified: 2026-02-10
 doi: 10.31219/osf.io/d7hwf_v1
 ---
 > [!info] **About this essay**

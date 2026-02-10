@@ -1,6 +1,7 @@
 ---
 type: essay
 title: "Beyond document management: Graph infrastructure for professional education curricula"
+slug: essays/curriculum-infrastructure
 author:
   - "[[Michael Rowe]]"
   - "[[Wesley Lynch]]"
@@ -13,6 +14,7 @@ email:
 abstract: "Professional curricula are comprehensively documented but not systematically queryable, creating artificial information scarcity. This creates significant problems for institutions: regulatory compliance reporting consumes weeks of staff time, quality assurance requires exhaustive manual verification, and curriculum office teams cannot efficiently answer structural questions. Current approaches—manual document review, VLE keyword search, curriculum mapping spreadsheets, and purpose-built curriculum management systems—fail to expose curriculum structure in queryable form. We propose an architecture where graph databases become the source of truth for curriculum structure, with vector databases for content retrieval and the Model Context Protocol providing accessible interfaces. This makes documented curriculum structure explicitly queryable—prerequisite chains, competency mappings, and assessment coverage—enabling compliance verification in hours rather than weeks. The architecture suits AI-forward institutions—those treating AI integration as ongoing strategic practice requiring active engagement with evolving technologies. Technology handles structural verification; educators retain essential authority over educational meaning-making. The proposal argues for removing technical barriers to interrogating curriculum complexity rather than eliminating that complexity through technological solution."
 version: 0.6
 created: 2025-11-08
+modified: 2026-02-10
 tags:
   - AI-forward
   - artificial-intelligence
@@ -92,7 +94,7 @@ All these approaches share the limitation identified in Section 1: rich structur
 
 ## 3. Proposed architecture
 
-Professional curricula require infrastructure supporting queries over typed relationships, not merely content search. When quality assurance staff need to verify that prescribing safety competency has adequate assessment coverage across all prerequisite chains, they need to traverse explicit REQUIRES relationships between modules, explicit ADDRESSES relationships between learning outcomes and competencies, and explicit ASSESSES relationships between assessments and outcomes. Semantic similarity cannot answer this—finding content "about prescribing" doesn't verify structural coverage. Graph databases make relationships first-class entities that can be traversed, filtered, and aggregated, enabling the structural queries that compliance and quality assurance processes require. As Xiao and Yahya (2023) note, graph databases "enable complex relationships between entities to be processed effectively" in educational contexts, offering substantial advantages over relational databases as the number and depth of relationship traversals increases.
+Professional curricula require infrastructure supporting queries over typed relationships, not merely content search. When quality assurance staff need to verify that prescribing safety competency has adequate assessment coverage across all prerequisite chains, they need to traverse explicit REQUIRES relationships between modules, explicit ADDRESSES relationships between learning outcomes and competencies, and explicit ASSESSES relationships between assessments and outcomes. Semantic similarity cannot answer this—finding content "about prescribing" doesn't verify structural coverage. Graph databases make relationships first-class entities that can be traversed, filtered, and aggregated, enabling the structural queries that compliance and quality assurance processes require. As Xiao (2023) notes, graph databases "enable complex relationships between entities to be processed effectively" in educational contexts, offering substantial advantages over relational databases as the number and depth of relationship traversals increases.
 
 ### Three-layer infrastructure
 
@@ -237,4 +239,4 @@ UCISA. (2025). *Higher Education Reference Models*. https://www.ucisa.ac.uk/grou
 
 Wang, Q., Hou, S., Wan, S., Feng, X., & Feng, H. (2025). Applying Knowledge Graph to Interdisciplinary Higher Education. *European Journal of Education*, *60*(2), e70078. https://doi.org/10.1111/ejed.70078
 
-Xiao, G., & Yahya, A. (2023). A Personalized Learning Path for French Study in Colleges Based on a Big Data Knowledge Map. *Scientific Programming*, *2023*(1), 4359133. https://doi.org/10.1155/2023/4359133
+Xiao, G. (2023). A Personalized Learning Path for French Study in Colleges Based on a Big Data Knowledge Map. *Scientific Programming*, *2023*(1), 4359133. https://doi.org/10.1155/2023/4359133

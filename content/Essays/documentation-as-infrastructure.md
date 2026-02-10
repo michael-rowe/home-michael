@@ -1,6 +1,7 @@
 ---
 type: essay
 title: Documentation becomes infrastructure when AI agents are the readers
+slug: essays/documentation-as-infrastructure
 author:
   - "[[Michael Rowe]]"
 affiliation:
@@ -11,7 +12,7 @@ abstract: "Documentation — broadly understood as any structured knowledge used
 keyphrase: documentation as infrastructure
 version: 0.4
 created: 2026-02-09
-modified:
+modified: 2026-02-10
 tags:
   - artificial-information-scarcity
   - artificial-intelligence

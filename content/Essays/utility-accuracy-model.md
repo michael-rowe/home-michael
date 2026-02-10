@@ -1,6 +1,7 @@
 ---
 type: essay
 title: "Maximising utility through optimal accuracy: A model for  educational AI"
+slug: essays/utility-accuracy-model
 author:
   - "[[Michael Rowe]]"
 affiliation:
@@ -10,6 +11,7 @@ email:
 abstract: Educational support systems have long prioritised accuracy as the primary metric of quality, resulting in technically excellent resources that remain largely unused. We present a mathematical framework demonstrating that AI tutoring systems with 10-15% error rates might achieve superior learning outcomes through increased utility compared to more accurate but less accessible alternatives. We show that the multiplicative relationship between accuracy and utilisation creates an 'accessibility paradox' where imperfect-but-accessible systems outperform perfect-but-unused ones. Furthermore, we argue that education's inherent error correction mechanisms and the pedagogical value of critical evaluation make this domain particularly suited for moderate-accuracy AI deployment. Our framework provides quantitative thresholds for acceptable error rates and challenges the prevailing assumption that educational AI must meet the same accuracy standards as, for example, diagnostic AI in healthcare.
 version: 0.4
 created: 2025-10-19
+modified: 2026-02-10
 tags:
   - AI-tutoring
   - educational-technology

@@ -1,12 +1,14 @@
 ---
 type: essay
 title: "Avoiding innovation theatre: A framework for supporting institutional AI integration"
+slug: essays/ai-integration-framework
 author: "[[Michael Rowe]]"
 affiliation: University of Lincoln
 email: mrowe@lincoln.ac.uk
 abstract: "Higher education institutions face persistent pressure to demonstrate visible engagement with artificial intelligence, often resulting in what we characterise as innovation theatre - the performance of transformation without corresponding structural change. This paper presents a diagnostic framework that distinguishes between performative and structural integration through analysis of four operational domains: governance and accountability, resource architecture, learning systems, and boundary setting. Unlike maturity models that prescribe linear progression, this framework enables institutional leaders to assess whether organisational structures align with stated strategic intentions, revealing gaps between rhetoric and reality. The framework emerged from critical analysis of institutional AI responses but evolved toward practical utility for decision-makers operating within genuine constraints. We position this work as practitioner pattern recognition requiring subsequent empirical validation, outline specific validation pathways, and discuss implications for institutional strategy in contexts of technological disruption."
 version: 0.4
 created: 2025-12-05
+modified: 2026-02-10
 tags:
   - AI-forward
   - artificial-intelligence

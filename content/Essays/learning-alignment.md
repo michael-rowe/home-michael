@@ -1,6 +1,7 @@
 ---
 type: essay
 title: "The learning alignment problem: AI and the loss of control in higher education"
+slug: essays/learning-alignment
 author:
   - "[[Michael Rowe]]"
 affiliation:
@@ -10,6 +11,7 @@ email:
 abstract: "Higher education institutions have responded to AI technologies by emphasising prompt engineering—teaching students technical skills for crafting effective AI queries. This essay argues that a focus on interaction mechanics represents a fundamental misunderstanding of both AI engagement and learning itself. Rather than the outcome of technical skills, prompts emerge from students' personal meaning-making frameworks—their individual contexts for determining what questions matter and what constitutes intellectual exploration, or academic integrity. The institutional focus on prompt control reveals what I call the learning alignment problem, where educational systems optimise for measurable proxies (grades, compliance, technical proficiency) rather than authentic learning outcomes (for example, traits like curiosity, understanding, intellectual development). AI acts as a mirror, highlighting that students were already circumventing meaningful engagement in favour of strategic optimisation for institutional rewards. When students use AI to complete assignments without learning, they reveal that assignments were already completable without genuine intellectual work. This analysis draws parallels to the value alignment problem in AI safety research—the difficulty of creating systems that pursue intended goals instead of optimising for specified metrics. Educational institutions face similar challenges: we cannot directly measure what we say we value (learning), so we create proxies that students rationally optimise for, often moving further from authentic learning. The essay suggests that universities shift from control paradigms to cultivation paradigms—from teaching prompt engineering to fostering learning purpose, from managing student behaviour to creating conditions where thoughtful engagement emerges naturally. This means recognising that learning is inherently personal, contextual, and resistant to external specification. Educational environments must cultivate intellectual joy and curiosity rather than technical compliance, supporting students' meaning-making processes rather than standardising and seeking to control their interactions with AI."
 version: 0.5
 created: 2025-06-05
+modified: 2026-02-10
 tags:
   - AI-principles
   - higher-education
