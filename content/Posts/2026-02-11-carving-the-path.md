@@ -23,7 +23,7 @@ slug: posts/ai-collaboration-workflow
 enableToc: true
 ---
 
-> [!note] Building context, not issuing commands
+> [!info] Building context, not issuing commands
 > Working effectively with AI isn't about writing better prompts. It's about building the structured context — documentation, decision records, processing rules — that makes each working session more effective than the last. The "intelligence" in the system isn't only in the model. It's also in the architecture that surrounds it.
 
 Building an effective AI collaboration workflow isn't primarily about prompts. For the past few weeks I've been using [Claude Code](https://docs.anthropic.com/en/docs/claude-code) to help restructure years of scholarly output — presentations, conference notes, event records, project files — into something more organised and useful. I keep my working documents in [Obsidian](https://obsidian.md), a plain-text note-taking application that stores everything as markdown files. Claude Code is Anthropic's command-line tool that gives Claude direct access to my local filesystem; reading, creating, moving, and editing files rather than just generating text in a chat window.
@@ -36,7 +36,7 @@ Claude Code reads a file called `CLAUDE.md` at the start of every session. It's 
 
 The `CLAUDE.md` file doesn't work alone. Over the course of the project I've built a set of supporting files that function as external memory. A migration tracking file records which files have been processed, what decisions were made, and what's still outstanding. A processing instructions file captures the workflow Claude should follow: what metadata fields to populate, how to standardise structured values, what to do when a file doesn't fit the expected pattern, and how to handle edge cases that emerged from earlier sessions.
 
-> [!note] The memory is in the files, not the model
+> [!tip] The memory is in the files, not the model
 > Claude doesn't remember anything between sessions. But the files do. The "memory" in this system is architectural, not cognitive.
 
 Each session picks up where the last one left off because the documentation carries forward the accumulated understanding. This is what [[documentation-as-infrastructure|documentation as infrastructure]] looks like in practice.
@@ -77,7 +77,7 @@ This is a personal observation, not a general claim. But the discipline of makin
 
 This experience has shown me that the combination of a capable model and structured documentation has been more productive than either would be alone. The model brings processing speed, pattern consistency, and the ability to apply rules across hundreds of files without fatigue. The documentation brings persistent context, accumulated decisions, and a representation of the vision orienting the work.
 
-> [!note] The bottleneck is usually the documentation, not the model
+> [!tip] The bottleneck is usually the documentation, not the model
 > Most of the friction hasn't come from model limitations. It has come from gaps in my own documentation — places where I hadn't yet made a decision explicit, or where the relationship between two concepts was still fuzzy in my own thinking.
 
 I've started to wonder whether some of what gets described as AI "not being ready" for organisational use partly reflects the information environment it's being asked to operate in. Institutions that describe themselves as [[AI-forward]] may focus on deploying tools rather than on the information architecture those tools depend on. The pattern I've noticed in my own practice — that the bottleneck is more often in the clarity of the context than in the capability of the model — suggests the priority should be architecture first, tools second.
