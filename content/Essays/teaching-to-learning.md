@@ -6,21 +6,15 @@ title: >-
 slug: essays/teaching-to-learning
 description: >-
   Traditional education systems are structured around teaching, assuming it
-  inevitably produces learning. This paper argues that this unidirectional
-  model—where knowledge flows from expert to novice—no longer suits a world of
-  information abundance and AI disruption. Emergent scholarship offers an
-  alternative, reconceptualising learning as a complex, networked process. By
-  shifting from knowledge authority to learning facilitator, educators can
-  create environments where diverse participants contribute to collective
-  understanding, challenging hierarchies that position faculty as sole knowledge
-  producers. This transformation is urgent as AI develops capabilities once
-  exclusive to human experts. Rather than resisting technological change,
-  emergent scholarship integrates AI into the learning ecosystem, focusing on
-  uniquely human capabilities like critical reasoning and collaborative
-  problem-solving. Reimagining institutional structures around learning networks
-  rather than teaching hierarchies better prepares graduates for complexity and
-  uncertainty while fostering more engaging experiences for all participants in
-  the educational process.
+  inevitably produces learning. This essay argues that this unidirectional model —
+  knowledge flowing from expert to novice — no longer suits a world of information
+  abundance and AI disruption. Emergent scholarship offers an alternative,
+  reconceptualising learning as a complex, networked process where educators shift
+  from knowledge authority to learning facilitator, enabling diverse participants
+  to contribute to collective understanding. This transformation is urgent as AI
+  develops capabilities once exclusive to human experts, and requires reimagining
+  institutional structures around learning networks rather than teaching
+  hierarchies to prepare graduates for complexity and uncertainty.
 meta-description: >-
   Shifting higher education from teaching hierarchies to learning networks to
   prepare for a world of AI and information abundance.

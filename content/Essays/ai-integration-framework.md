@@ -5,24 +5,18 @@ title: >-
   integration
 slug: essays/ai-integration-framework
 description: >-
-  Higher education institutions face persistent pressure to demonstrate
-  engagement with artificial intelligence, often resulting in 'innovation
-  theatre'—the performance of transformation without corresponding structural
-  change. This essay presents a diagnostic framework that distinguishes between
-  performative and structural integration through the analysis of four
-  operational domains: governance and accountability, resource architecture,
-  learning systems, and boundary setting. Unlike linear maturity models, this
-  framework enables institutional leaders to assess whether organizational
-  structures align with stated strategic intentions, revealing gaps between
-  rhetoric and reality. By proposing three legitimate strategic
-  positions—incremental, selective, and transformative—the framework helps
-  institutions move beyond accidental drift toward conscious strategic choice.
-  Successful AI integration requires treating it as an ongoing strategic
-  practice rather than a fixed deployment of finished solutions. This analysis
-  positions AI integration as a governance imperative, requiring institutions to
-  build internal capability to evaluate emerging technologies and make informed
-  choices aligned with institutional values, ultimately ensuring that
-  institutional agency is preserved in an increasingly AI-mediated landscape.
+  Higher education institutions face persistent pressure to demonstrate AI
+  engagement, often resulting in 'innovation theatre' — the performance of
+  transformation without corresponding structural change. This essay presents a
+  diagnostic framework distinguishing between performative and structural AI
+  integration across four domains: governance and accountability, resource
+  architecture, learning systems, and boundary setting. Unlike linear maturity
+  models, it reveals gaps between institutional rhetoric and operational reality.
+  Three legitimate strategic positions — incremental, selective, and
+  transformative — help institutions move from accidental drift toward conscious
+  choice. Treating AI integration as ongoing strategic practice rather than fixed
+  deployment ensures institutions preserve agency over technology decisions
+  aligned with institutional values.
 meta-description: >-
   A framework for distinguishing between performative 'innovation theatre' and
   structural AI integration in higher education institutions.

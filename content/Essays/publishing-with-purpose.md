@@ -4,22 +4,17 @@ title: 'Publishing with purpose: Using AI to enhance scientific discourse'
 slug: essays/publishing-with-purpose
 description: >-
   The introduction of generative AI into scientific publishing presents both
-  opportunities and risks for the research ecosystem. While AI could enhance
-  knowledge creation, it may also amplify existing problems within the 'research
-  industrial complex'—a system prioritizing publication metrics over meaningful
-  progress. This viewpoint article argues that scientific journals must
-  transform from metrics-driven repositories into vibrant knowledge communities
-  using AI to facilitate discourse. AI can support this by surfacing connections
-  between research, making peer review more dialogic, and enabling multimodal
-  knowledge translation. Implementing this vision requires navigating entrenched
-  academic incentives where universities and funding bodies rely on quantitative
-  metrics for evaluation. Meaningful change requires coordinated action across
-  multiple stakeholders willing to prioritize scientific progress over
-  publication volume. By reimagining journals as AI-supported communities rather
-  than article-processing platforms, we can better serve the scientific
-  community and society, ensuring that AI enhances the thoughtful, professional
-  dialogue essential for advancing scientific knowledge and improving clinical
-  outcomes.
+  opportunities and risks for the research ecosystem. This essay argues that
+  scientific journals must transform from metrics-driven repositories —
+  prioritising publication volume over meaningful progress — into vibrant
+  knowledge communities using AI to facilitate discourse. AI can support this by
+  surfacing connections between research, making peer review more dialogic, and
+  enabling multimodal knowledge translation. Meaningful change requires
+  coordinated action across institutions, funding bodies, and journals willing to
+  prioritise scientific progress over quantitative metrics. By reimagining
+  journals as AI-supported communities rather than article-processing platforms,
+  the research ecosystem can better serve scientific knowledge development and
+  clinical outcomes.
 meta-description: >-
   Transforming scientific journals into AI-supported knowledge communities to
   enhance meaningful scholarly discourse and progress.

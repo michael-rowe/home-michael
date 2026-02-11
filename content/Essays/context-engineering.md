@@ -5,26 +5,19 @@ title: >-
   transformation
 slug: essays/context-engineering
 description: >-
-  Higher education institutions face a choice between prompt
-  engineering—teaching students interaction mechanics—and context
-  engineering—architecting persistent knowledge ecosystems. While prompt
-  engineering reinforces episodic, container-based education, context
-  engineering offers a paradigmatic alternative that builds persistent
-  understanding across AI interactions. This demands technical infrastructure
-  including knowledge graphs, federated intelligence protocols, and persistent
-  memory systems. These technologies enable epistemic transformations,
-  reconceptualising knowledge as interconnected networks rather than discrete
-  curricular containers. Dynamic integration of emerging research and
-  collaborative construction processes challenge traditional academic
-  gatekeeping, democratising knowledge validation involving multiple stakeholder
-  communities. The systemic implications are profound, requiring governance
-  reconceptualisation and substantial infrastructure investment. Context
-  engineering creates technical dependencies that make traditional approaches
-  untenable, establishing path dependencies for continued transformation. This
-  analysis reveals context engineering as a watershed moment for institutions
-  seeking educational relevance in rapidly evolving, AI-mediated environments
-  where traditional structures struggle to address the complexities of
-  contemporary professional practice and collaborative reasoning.
+  Higher education faces a choice between prompt engineering — teaching students
+  interaction mechanics — and context engineering — architecting persistent
+  knowledge ecosystems. While prompt engineering reinforces episodic,
+  container-based education, context engineering builds persistent understanding
+  across AI interactions, demanding technical infrastructure including knowledge
+  graphs and federated intelligence protocols. These enable epistemic
+  transformations, reconceptualising knowledge as interconnected networks rather
+  than discrete curricular containers. The systemic implications are profound:
+  governance reconceptualisation, substantial infrastructure investment, and new
+  path dependencies that make traditional approaches increasingly untenable. For
+  institutions seeking relevance in rapidly evolving, AI-mediated environments,
+  context engineering represents a watershed moment requiring commitment to
+  structural transformation.
 meta-description: >-
   Exploring context engineering as a technical and epistemic alternative to
   prompt engineering in higher education.

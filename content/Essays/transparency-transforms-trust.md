@@ -4,22 +4,16 @@ title: 'From journals to networks: How transparency transforms trust in scholars
 slug: essays/transparency-transforms-trust
 description: >-
   Academic trust has historically been outsourced to journals and publishers,
-  who served as proxies for validation and quality. While this system developed
-  important mechanisms like persistent identification and peer review, it often
-  privileges gatekeeping over dialogue. Drawing on emergent scholarship
-  principles, this essay argues for reclaiming trust by shifting from
-  institutional proxies to visible processes. It proposes a three-tier technical
-  framework: a live working environment for visible iteration, preprints with
-  DOIs for persistent citation, and traditional journal publication for
-  institutional recognition. This shift enhances scholarly autonomy,
-  transparency, and responsiveness, allowing for the recognition of diverse
-  contributions beyond traditional articles. While facing challenges like
-  technical barriers and entrenched incentive structures, this approach
-  transforms scholarship into a more connected, open, and engaged network. By
-  making the developmental dialogue of ideas transparent, scholarly communities
-  can build more robust and values-aligned trust infrastructures that leverage
-  technological possibilities to accelerate knowledge development and social
-  impact.
+  serving as proxies for validation and quality. While this system developed
+  important mechanisms like peer review, it often privileges gatekeeping over
+  dialogue. Drawing on emergent scholarship principles, this essay argues for
+  reclaiming trust by shifting from institutional proxies to visible processes,
+  proposing a three-tier framework: a live working environment for visible
+  iteration, preprints with DOIs for persistent citation, and traditional journal
+  publication for institutional recognition. This approach enhances scholarly
+  autonomy, transparency, and responsiveness, enabling recognition of diverse
+  contributions and building more robust trust infrastructures that leverage
+  technological possibilities to accelerate knowledge development.
 meta-description: >-
   Reimagining academic trust by shifting from institutional proxies to
   transparent, networked processes.

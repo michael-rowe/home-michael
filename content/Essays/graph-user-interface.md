@@ -5,23 +5,17 @@ title: >-
   learning
 slug: essays/graph-user-interface
 description: >-
-  The predominant interface paradigm for AI—text boxes and chronological chat
-  histories—reinforces outdated container-based metaphors that misalign with
+  The predominant AI interface paradigm — text boxes and chronological chat
+  histories — reinforces outdated container-based metaphors that misalign with
   professional expertise. Professional knowledge is inherently networked, yet
-  current interfaces segment information, creating cognitive load for
-  practitioners who must mentally reintegrate it. This essay explores
-  graph-based interfaces as a more authentic alternative where AI serves as both
-  conversational partner and network weaver. In this paradigm, conversations
-  occur within visual landscapes, spatially anchored to relevant concepts.
-  Multimodal nodes represent knowledge across dimensions, and multi-dimensional
-  navigation replaces simple scrolling. Progressive complexity management allows
-  for developmental learning, adapting the interface from simplified views for
-  novices to nuanced networks for experts. Current visualization technologies
-  and graph databases make this transition technologically feasible. By
-  reimagining learning interfaces around networks rather than containers,
-  institutions can better develop the integrative capabilities that define
-  professional expertise, reducing the persistent gap between education and
-  practice in complex domains like healthcare.
+  current interfaces segment information and create cognitive load for
+  practitioners who must mentally reintegrate it. This essay explores graph-based
+  interfaces as a more authentic alternative, where AI serves as both
+  conversational partner and network weaver, with conversations spatially anchored
+  to relevant concepts. Multimodal nodes, multi-dimensional navigation, and
+  progressive complexity management — adapting from simplified views for novices
+  to nuanced networks for experts — better develop the integrative capabilities
+  that define professional expertise in complex domains like healthcare.
 meta-description: >-
   Proposing a shift from text-based to graph-based user interfaces for more
   authentic AI-supported learning.

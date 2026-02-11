@@ -3,22 +3,17 @@ type: essay
 title: Taste and judgement in human-AI systems
 slug: essays/taste-and-judgement
 description: >-
-  Contemporary discourse surrounding AI often focuses on 'sanctuary
-  strategies'—defensive attempts to identify uniquely human capabilities like
-  creativity and empathy. This binary thinking positions humans and AI as
-  competitors for finite cognitive territory, diminishing human agency. This
-  essay reframes human-AI relationships as embedded within complex cognitive
-  ecologies where meaning emerges through interaction rather than isolation. It
-  introduces 'taste' as a framework for cultivating contextual
-  judgement—sophisticated discernment about when, how, and why to engage AI
-  capabilities in service of meaningful purposes. Unlike technical literacy,
-  taste development involves iterative experimentation and reflection,
-  preserving human agency over value determination. By moving from the question
-  'What can humans do that AI cannot?' to 'How might AI help us do more of what
-  we value?', we can build abundance-oriented partnerships. This repositioning
-  of human agency within collaborative systems offers a pathway toward
-  navigating complex technological landscapes while preserving human authorship
-  over purpose and meaning.
+  Contemporary AI discourse often focuses on 'sanctuary strategies' — defensive
+  attempts to identify uniquely human capabilities — positioning humans and AI as
+  competitors for finite cognitive territory. This essay reframes human-AI
+  relationships as embedded within complex cognitive ecologies where meaning
+  emerges through interaction, and introduces 'taste' as a framework for
+  cultivating contextual judgement: sophisticated discernment about when, how, and
+  why to engage AI in service of meaningful purposes. Unlike technical literacy,
+  taste development involves iterative experimentation and reflection, preserving
+  human agency over value determination. By shifting from 'What can humans do that
+  AI cannot?' to 'How might AI help us do more of what we value?', the essay
+  builds a case for abundance-oriented human-AI partnership.
 meta-description: >-
   Cultivating 'taste' as a framework for contextual judgement and meaningful
   human-AI collaboration.

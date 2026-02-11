@@ -4,11 +4,16 @@ title: 'Context sovereignty for AI-supported learning: A human-centred approach'
 slug: essays/context-sovereignty
 description: >-
   This essay proposes 'context sovereignty' as a framework for maintaining human
-  agency in AI-supported learning, arguing that context engineering—not just
-  prompting—is the key to meaningful human-AI collaboration. It offers a
-  paradigm based on persistent understanding, individual agency, and cognitive
-  extension that lets learners access sophisticated AI capabilities while
-  preserving authorship over their own cognitive development.
+  agency in AI-supported learning, arguing that context engineering — not just
+  prompting — is the key to meaningful human-AI collaboration. Context sovereignty
+  refers to learner control over what AI systems know, remember, and reason about:
+  ownership of the informational environment that shapes how AI engages with you.
+  Where institutional AI deployments often subordinate learner perspectives to
+  system defaults, context sovereignty centres individual agency over persistent
+  knowledge structures, offering a paradigm based on persistent understanding,
+  cognitive extension, and individual authorship that lets learners access
+  sophisticated AI capabilities while preserving authority over their own
+  intellectual development.
 meta-description: >-
   Proposing 'context sovereignty' as a framework for maintaining human agency in
   AI-supported learning environments.

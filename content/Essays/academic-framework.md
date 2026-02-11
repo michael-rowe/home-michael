@@ -3,24 +3,17 @@ type: essay
 title: A theoretical framework for integrating AI into health professions education
 slug: essays/academic-framework
 description: >-
-  Health professions education faces a significant challenge: graduates are
+  Health professions education faces a fundamental challenge: graduates are
   simultaneously overwhelmed with information yet under-prepared for complex
-  practice environments. Meanwhile, artificial intelligence (AI) tools are being
-  rapidly adopted by students, revealing fundamental gaps in traditional
-  educational approaches. This essay introduces the ACADEMIC framework, a
+  practice environments. This essay introduces the ACADEMIC framework, a
   theoretically grounded approach to integrating AI into health professions
-  education (HPE) that shifts focus from assessing outputs to supporting
-  learning processes. Drawing on social constructivism, critical pedagogy,
-  complexity theory, and connectivism, the framework analyses learning
-  interactions across dimensions such as power dynamics, knowledge
-  representation, agency, and identity formation. Seven principles
-  emerge—Augmented dialogue, Critical consciousness, Adaptive expertise
-  development, Dynamic contexts, Emergent curriculum design, Metacognitive
-  development, and Interprofessional Community knowledge building—to guide AI
-  integration. By reframing the relationship between students and AI, educators
-  can create learning environments that more authentically prepare professionals
-  for the complexity and uncertainty of contemporary healthcare practice, moving
-  beyond viewing AI as a threat to academic integrity.
+  education that shifts focus from assessing outputs to supporting learning
+  processes. Drawing on social constructivism, critical pedagogy, complexity
+  theory, and connectivism, seven principles emerge — Augmented dialogue, Critical
+  consciousness, Adaptive expertise development, Dynamic contexts, Emergent
+  curriculum design, Metacognitive development, and Interprofessional Community
+  knowledge building — to guide AI integration in ways that prepare professionals
+  for the complexity and uncertainty of contemporary healthcare practice.
 meta-description: >-
   A theoretical framework for integrating AI into health professions education
   by shifting focus from outputs to learning processes.

@@ -3,21 +3,18 @@ type: essay
 title: 'The learning alignment problem: AI and the loss of control in higher education'
 slug: essays/learning-alignment
 description: >-
-  Higher education's focus on prompt engineering—teaching technical skills for
-  crafting effective AI queries—represents a misunderstanding of learning. This
-  essay argues that prompts emerge from personal meaning-making frameworks, not
-  just technical mechanics. The institutional impulse to control interaction
-  reveals a 'learning alignment problem' where systems optimize for measurable
-  proxies like grades and compliance rather than authentic curiosity and
-  understanding. Drawing parallels to AI safety's value alignment problem, it
-  shows how AI acts as a mirror, exposing that many assignments were already
-  completable without genuine intellectual work. Universities must shift from
-  control paradigms to cultivation paradigms, fostering learning purpose rather
-  than managing student behavior. This requires recognizing that learning is
-  personal and resistant to external specification. By cultivating intellectual
-  joy and curiosity instead of technical compliance, educational environments
-  can support authentic meaning-making, ensuring that AI becomes a partner in
-  human flourishing rather than a tool for strategic performance optimization.
+  Higher education's focus on prompt engineering — teaching technical skills for
+  crafting AI queries — represents a misunderstanding of learning. This essay
+  argues that prompts emerge from personal meaning-making frameworks, not
+  technical mechanics, and that the institutional impulse to control AI
+  interaction reveals a 'learning alignment problem': systems optimising for
+  measurable proxies like grades rather than authentic curiosity. Drawing
+  parallels to AI safety's value alignment problem, it shows how AI exposes that
+  many assignments were already completable without genuine intellectual work.
+  Universities must shift from control to cultivation paradigms, recognising that
+  learning is personal and resistant to external specification, ensuring AI
+  becomes a partner in human flourishing rather than a tool for strategic
+  performance.
 meta-description: >-
   Addressing the learning alignment problem in higher education by shifting from
   control to curiosity-driven engagement with AI.

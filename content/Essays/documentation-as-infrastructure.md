@@ -4,11 +4,16 @@ title: Documentation becomes infrastructure when AI agents are the readers
 slug: essays/documentation-as-infrastructure
 description: >-
   When AI agents consume documentation as operational input, it undergoes a
-  category shift from reference material to operational
-  architecture—inaccuracies no longer inconvenience readers, they cause system
-  failures. This essay argues that the primary bottleneck for institutional AI
-  integration is not AI capability but information architecture, making the
-  transition to documentation-as-infrastructure a governance imperative.
+  category shift from reference material to operational architecture —
+  inaccuracies no longer merely inconvenience readers, they cause system failures.
+  This essay argues that the primary bottleneck for institutional AI integration
+  is not AI capability but information architecture: how institutional knowledge
+  is structured, maintained, and made available to AI systems. Documentation
+  written for human readers cannot function as reliable AI input without
+  deliberate restructuring around explicit relationships and rigorous maintenance
+  workflows. Treating this transition as a governance imperative — rather than a
+  technical afterthought — determines whether AI integration delivers on its
+  institutional promise.
 meta-description: >-
   Examining how documentation shifts from human reference material to
   machine-executable infrastructure when AI agents are the primary readers.

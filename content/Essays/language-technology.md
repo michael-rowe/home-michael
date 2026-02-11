@@ -5,24 +5,18 @@ title: >-
   education
 slug: essays/language-technology
 description: >-
-  Language is humanity's first general-purpose technology, a system developed to
-  extend cognitive capabilities far beyond biological limits. Large language
-  models (LLMs) represent the latest evolution in a continuum stretching from
-  spoken language through writing and printing to digital text. LLMs extend
-  language's fundamental capabilities through unprecedented scale, cross-domain
-  synthesis, and cognitive adaptability. This evolution presents challenges for
-  health professions education, where students navigate information overload
-  while remaining underprepared for complex practice. By viewing LLMs as
-  language technology rather than mere computing applications, educational
-  priorities shift from knowledge acquisition toward cognitive partnership and
-  adaptive expertise. This perspective demands a reconceptualisation of AI
-  literacy, moving beyond technical prompting to understand how these tools
-  shape reasoning. Assessment must also evolve, evaluating students' capacity to
-  leverage AI partnerships for collaborative problem-solving. Understanding LLMs
-  as part of language's ongoing evolution offers a middle path between
-  uncritical enthusiasm and reflexive resistance, ensuring that AI enhances
-  rather than diminishes the human dimensions of healthcare education and
-  reasoning.
+  Language is humanity's first general-purpose technology, developed to extend
+  cognitive capabilities beyond biological limits. Large language models represent
+  the latest evolution in a continuum stretching from spoken language through
+  writing and print to digital text, extending language's capabilities through
+  unprecedented scale, cross-domain synthesis, and cognitive adaptability. For
+  health professions education, this framing shifts priorities from knowledge
+  acquisition toward cognitive partnership and adaptive expertise. It demands a
+  reconceptualisation of AI literacy — moving beyond technical prompting to
+  understand how these tools shape reasoning — and requires assessment to evaluate
+  students' capacity for collaborative problem-solving. Understanding LLMs as
+  language technology offers a middle path between uncritical enthusiasm and
+  reflexive resistance.
 meta-description: >-
   Reconceptualising language as technology to understand the role of LLMs in
   health professions education.
