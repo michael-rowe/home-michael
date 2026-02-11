@@ -18,8 +18,8 @@ meta-description: >-
   for learning at scale. Here's why I'm optimistic.
 keyphrase: AI for learning at scale
 author: '[[Michael Rowe]]'
-date: 2026-01-29T00:00:00.000Z
-updated: 2026-01-30T00:00:00.000Z
+date: 2026-01-29
+updated: 2026-01-30
 tags:
   - higher-education
   - values

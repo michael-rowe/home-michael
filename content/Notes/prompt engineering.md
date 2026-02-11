@@ -8,8 +8,8 @@ aliases:
   - prompt design
 type: note
 author: '[[Michael Rowe]]'
-created: 2026-01-09T00:00:00.000Z
-updated: 2026-01-30T00:00:00.000Z
+created: 2026-01-09
+updated: 2026-01-30
 needs_review: false
 tags:
   - prompt-engineering

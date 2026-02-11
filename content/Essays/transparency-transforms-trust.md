@@ -21,8 +21,8 @@ author: '[[Michael Rowe]]'
 affiliation: University of Lincoln
 email: mrowe@lincoln.ac.uk
 version: 0.6
-created: 2025-03-29T00:00:00.000Z
-modified: 2026-02-11T00:00:00.000Z
+created: 2025-03-29
+modified: 2026-02-11
 tags:
   - trust
   - authorship

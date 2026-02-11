@@ -8,8 +8,8 @@ aliases:
   - Six dimensions of literacy
 type: note
 author: '[[Michael Rowe]]'
-created: 2026-01-29T00:00:00.000Z
-updated: 2026-01-29T00:00:00.000Z
+created: 2026-01-29
+updated: 2026-01-29
 status: working
 needs_review: false
 tags:

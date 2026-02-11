@@ -8,8 +8,8 @@ aliases:
   - contextual sovereignty
 type: note
 author: '[[Michael Rowe]]'
-created: 2026-01-08T00:00:00.000Z
-updated: 2026-02-05T00:00:00.000Z
+created: 2026-01-08
+updated: 2026-02-05
 needs_review: false
 tags:
   - context-engineering

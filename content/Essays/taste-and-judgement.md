@@ -23,8 +23,8 @@ affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
-created: 2025-07-08T00:00:00.000Z
-modified: 2026-02-11T00:00:00.000Z
+created: 2025-07-08
+modified: 2026-02-11
 version: 0.6
 tags:
   - complexity

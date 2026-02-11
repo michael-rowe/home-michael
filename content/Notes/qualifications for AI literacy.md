@@ -9,8 +9,8 @@ description: >-
   developmental and contextual, and cannot be fully assessed at course
   completion.
 author: '[[Michael Rowe]]'
-date: 2026-01-29T00:00:00.000Z
-updated: 2026-01-29T00:00:00.000Z
+date: 2026-01-29
+updated: 2026-01-29
 tags:
   - AI-literacy
 category:

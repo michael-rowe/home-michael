@@ -15,8 +15,8 @@ meta-description: >-
   acknowledging the extensive similarities between AI and human thinking.
 keyphrase: AI human cognition
 author: '[[Michael Rowe]]'
-date: 2026-02-06T00:00:00.000Z
-updated: 2026-02-06T00:00:00.000Z
+date: 2026-02-06
+updated: 2026-02-06
 tags:
   - cognitive-science
   - human-cognition

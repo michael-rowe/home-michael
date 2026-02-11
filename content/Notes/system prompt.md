@@ -8,8 +8,8 @@ aliases:
   - persistent context
 type: note
 author: '[[Michael Rowe]]'
-created: 2026-02-05T00:00:00.000Z
-updated: 2026-02-05T00:00:00.000Z
+created: 2026-02-05
+updated: 2026-02-05
 needs_review: false
 tags:
   - generative-ai

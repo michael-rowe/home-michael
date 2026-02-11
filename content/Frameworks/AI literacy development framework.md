@@ -9,8 +9,8 @@ description: >-
   courses, enabling students to develop AI capability while learning
   disciplinary content.
 author: '[[Michael Rowe]]'
-date: 2026-02-01T00:00:00.000Z
-updated: 2026-02-01T00:00:00.000Z
+date: 2026-02-01
+updated: 2026-02-01
 tags:
   - AI-literacy
   - curriculum-design

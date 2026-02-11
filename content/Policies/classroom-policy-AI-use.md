@@ -8,8 +8,8 @@ description: >-
   A template classroom policy for generative AI use that educators can adapt for
   their own modules and courses.
 author: '[[Michael Rowe]]'
-date: 2024-01-01T00:00:00.000Z
-updated: 2026-02-01T00:00:00.000Z
+date: 2024-01-01
+updated: 2026-02-01
 tags:
   - AI-literacy
   - policy

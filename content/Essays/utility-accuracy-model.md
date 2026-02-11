@@ -25,8 +25,8 @@ affiliation:
 email:
   - mrowe@lincoln.ac.uk
 version: 0.5
-created: 2025-10-19T00:00:00.000Z
-modified: 2026-02-11T00:00:00.000Z
+created: 2025-10-19
+modified: 2026-02-11
 tags:
   - AI-tutoring
   - educational-technology

@@ -8,8 +8,8 @@ description: >-
   practice requiring active engagement, rather than fixed deployment of finished
   solutions.
 author: '[[Michael Rowe]]'
-date: 2025-12-26T00:00:00.000Z
-updated: 2025-12-26T00:00:00.000Z
+date: 2025-12-26
+updated: 2025-12-26
 tags:
   - AI-literacy
   - strategy

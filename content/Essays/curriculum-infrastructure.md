@@ -2,18 +2,7 @@
 type: essay
 title: "Beyond document management: Graph infrastructure for professional education curricula"
 slug: essays/curriculum-infrastructure
-description: >-
-  Professional curricula are extensively documented but not systematically
-  queryable, creating artificial information scarcity that makes compliance
-  reporting and quality assurance labour-intensive. This essay proposes a
-  three-layer architecture — graph databases as the source of truth for curriculum
-  structure, vector databases for semantic content retrieval, and a Model Context
-  Protocol layer for stakeholder access — that transforms documentation into
-  operational infrastructure. The architecture incorporates temporal versioning
-  for longitudinal evidence, role-based access controls for multi-stakeholder
-  environments, and internal quality audit against institutional policy alongside
-  external regulatory compliance, enabling verification in hours rather than
-  weeks.
+description: Professional curricula are extensively documented but not systematically queryable, creating artificial information scarcity that makes compliance reporting and quality assurance labour-intensive. This essay proposes a three-layer architecture — graph databases as the source of truth for curriculum structure, vector databases for semantic content retrieval, and a Model Context Protocol layer for stakeholder access — that transforms documentation into operational infrastructure. The architecture incorporates temporal versioning for longitudinal evidence, role-based access controls for multi-stakeholder environments, and internal quality audit against institutional policy alongside external regulatory compliance, enabling verification in hours rather than weeks.
 meta-description: Proposing a graph-based infrastructure to transform professional education curricula into queryable operational architecture.
 author:
   - "[[Michael Rowe]]"
@@ -25,8 +14,8 @@ email:
   - mrowe@lincoln.ac.uk
   - wesley@snapplify.com
 version: 0.8
-created: 2025-11-08T00:00:00.000Z
-modified: 2026-02-11T00:00:00.000Z
+created: 2025-11-08
+modified: 2026-02-11
 tags:
   - AI-forward
   - context-engineering

@@ -9,8 +9,8 @@ aliases:
   - cognitive architecture parallels
 type: note
 author: '[[Michael Rowe]]'
-created: 2025-02-06T00:00:00.000Z
-updated: 2025-02-06T00:00:00.000Z
+created: 2025-02-06
+updated: 2025-02-06
 tags:
   - cognitive-science
   - learning-theory

@@ -17,8 +17,8 @@ meta-description: >-
   existing power dynamics more powerful and less visible.
 keyphrase: AI meeting scribes
 author: '[[Michael Rowe]]'
-date: 2026-01-28T00:00:00.000Z
-updated: 2026-02-04T00:00:00.000Z
+date: 2026-01-28
+updated: 2026-02-04
 tags:
   - governance
   - organisational-change

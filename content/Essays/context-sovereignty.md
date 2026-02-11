@@ -27,8 +27,8 @@ email:
   - mrowe@lincoln.ac.uk
   - wesley@snapplify.com
 version: 0.8
-created: 2025-05-23T00:00:00.000Z
-modified: 2026-02-11T00:00:00.000Z
+created: 2025-05-23
+modified: 2026-02-11
 tags:
   - complexity-theory
   - context-engineering

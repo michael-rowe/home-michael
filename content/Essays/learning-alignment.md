@@ -25,8 +25,8 @@ affiliation:
 email:
   - mrowe@lincoln.ac.uk
 version: 0.6
-created: 2025-06-05T00:00:00.000Z
-modified: 2026-02-11T00:00:00.000Z
+created: 2025-06-05
+modified: 2026-02-11
 tags:
   - AI-principles
   - higher-education

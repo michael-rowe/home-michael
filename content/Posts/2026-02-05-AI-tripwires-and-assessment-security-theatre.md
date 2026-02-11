@@ -19,8 +19,8 @@ meta-description: >-
   students while detecting carelessness rather than genuine learning absence.
 keyphrase: AI tripwires in assessment
 author: '[[Michael Rowe]]'
-date: 2026-02-05T00:00:00.000Z
-updated: 2026-02-05T00:00:00.000Z
+date: 2026-02-05
+updated: 2026-02-05
 tags:
   - higher-education
   - academic-integrity

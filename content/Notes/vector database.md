@@ -8,8 +8,8 @@ aliases:
   - vector DB
 type: note
 author: '[[Michael Rowe]]'
-created: 2026-02-10T00:00:00.000Z
-updated: 2026-02-10T00:00:00.000Z
+created: 2026-02-10
+updated: 2026-02-10
 needs_review: false
 tags:
   - generative-ai

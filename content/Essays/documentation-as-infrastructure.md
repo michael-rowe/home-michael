@@ -25,8 +25,8 @@ email:
   - mrowe@lincoln.ac.uk
 keyphrase: documentation as infrastructure
 version: 0.5
-created: 2026-02-09T00:00:00.000Z
-modified: 2026-02-11T00:00:00.000Z
+created: 2026-02-09
+modified: 2026-02-11
 tags:
   - artificial-information-scarcity
   - continuous-governance

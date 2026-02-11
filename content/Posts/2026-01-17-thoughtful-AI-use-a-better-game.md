@@ -16,8 +16,8 @@ meta-description: >-
   from practice, and amplify what matters to you.
 keyphrase: thoughtful AI use
 author: '[[Michael Rowe]]'
-date: 2026-01-17T00:00:00.000Z
-updated: 2026-02-04T00:00:00.000Z
+date: 2026-01-17
+updated: 2026-02-04
 tags:
   - critical-thinking
   - educational-technology

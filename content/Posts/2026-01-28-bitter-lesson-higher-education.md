@@ -17,8 +17,8 @@ meta-description: >-
   artifact-based assessment never truly measured learning.
 keyphrase: bitter lesson higher education
 author: '[[Michael Rowe]]'
-date: 2026-02-03T00:00:00.000Z
-updated: 2026-02-04T00:00:00.000Z
+date: 2026-02-03
+updated: 2026-02-04
 tags:
   - higher-education
 category:

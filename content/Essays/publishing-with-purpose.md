@@ -27,8 +27,8 @@ email:
 tags:
   - publishing
 version: 1.1
-created: 2025-01-27T00:00:00.000Z
-modified: 2026-02-11T00:00:00.000Z
+created: 2025-01-27
+modified: 2026-02-11
 doi: 10.31219/osf.io/d7hwf_v1
 category:
   - Scholarship

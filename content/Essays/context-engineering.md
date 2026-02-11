@@ -31,8 +31,8 @@ email:
   - mrowe@lincoln.ac.uk
   - wesley@snapplify.com
 version: 0.8
-created: 2025-07-04T00:00:00.000Z
-modified: 2026-02-11T00:00:00.000Z
+created: 2025-07-04
+modified: 2026-02-11
 tags:
   - context-engineering
   - educational-technology

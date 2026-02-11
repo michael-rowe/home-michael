@@ -8,8 +8,8 @@ description: >-
   evaluation, functional application, creation, ethical awareness, and
   contextual judgement—not reducible to any single dimension.
 author: '[[Michael Rowe]]'
-date: 2026-01-29T00:00:00.000Z
-updated: 2026-01-30T00:00:00.000Z
+date: 2026-01-29
+updated: 2026-01-30
 tags:
   - AI-literacy
 category:

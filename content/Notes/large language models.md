@@ -9,8 +9,8 @@ aliases:
   - LLMs
 type: note
 author: '[[Michael Rowe]]'
-created: 2026-02-04T00:00:00.000Z
-updated: 2026-02-04T00:00:00.000Z
+created: 2026-02-04
+updated: 2026-02-04
 needs_review: false
 tags:
   - generative-ai

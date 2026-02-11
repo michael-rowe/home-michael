@@ -24,8 +24,8 @@ author: '[[Michael Rowe]]'
 affiliation: University of Lincoln
 email: mrowe@lincoln.ac.uk
 version: 0.5
-created: 2025-12-05T00:00:00.000Z
-modified: 2026-02-11T00:00:00.000Z
+created: 2025-12-05
+modified: 2026-02-11
 tags:
   - AI-forward
   - leadership

@@ -4,8 +4,8 @@ type: course
 aliases: null
 description: Strategic planning and development for academic careers
 author: '[[Michael Rowe]]'
-date: 2026-01-29T00:00:00.000Z
-updated: 2026-01-29T00:00:00.000Z
+date: 2026-01-29
+updated: 2026-01-29
 tags:
   - career-development
   - academic-career

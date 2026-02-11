@@ -17,8 +17,8 @@ meta-description: >-
   as scholarship—enabling exploration and synthesis that formal research cannot.
 keyphrase: essays as scholarship
 author: '[[Michael Rowe]]'
-date: 2026-01-29T00:00:00.000Z
-updated: 2026-02-04T00:00:00.000Z
+date: 2026-01-29
+updated: 2026-02-04
 tags:
   - publishing
 category:
