@@ -73,6 +73,7 @@ export const defaultContentPageLayout: PageLayout = {
       localGraph: {
         scale: 1.6,
         opacityScale: 3,
+        showTags: false,
       },
     }),
     Component.Backlinks(),
@@ -143,6 +144,7 @@ export const defaultListPageLayout: PageLayout = {
       localGraph: {
         scale: 1.6,
         opacityScale: 3,
+        showTags: false,
       },
     }),
     Component.Backlinks(),
