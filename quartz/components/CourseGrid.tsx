@@ -17,35 +17,24 @@ export default ((opts?: Partial<CourseGridOptions>) => {
     fileData,
     allFiles,
     displayClass,
-    cfg,
   }: QuartzComponentProps) => {
-    // Find all course folders by looking for course landing pages or index files
-    // Note: Quartz converts "landing page.md" to "landing-page" in slugs
     const courseFolderPattern = new RegExp(`^${options.coursesFolder}/([^/]+)/(landing-page|index)$`)
 
     const courses = allFiles
-      .filter((file) => {
-        // Match files like "Courses/Course Name/landing page.md" or "Courses/Course Name/index.md"
-        const match = file.slug?.match(courseFolderPattern)
-        return match !== null
-      })
+      .filter((file) => file.slug?.match(courseFolderPattern) !== null)
       .map((file) => {
         const match = file.slug!.match(courseFolderPattern)
         const courseName = match?.[1] || ""
-
         return {
           slug: file.slug!,
           title: file.frontmatter?.title || courseName,
           description: file.frontmatter?.description || "",
-          cover: file.frontmatter?.cover as string | undefined,
           status: file.frontmatter?.status as string | undefined,
           duration: file.frontmatter?.duration as string | undefined,
           level: file.frontmatter?.level as string | undefined,
-          courseName: courseName,
         }
       })
       .sort((a, b) => {
-        // Sort by status first (Published > In Development > Coming Soon > others)
         const statusOrder: Record<string, number> = {
           Published: 0,
           "In Development": 1,
@@ -53,10 +42,7 @@ export default ((opts?: Partial<CourseGridOptions>) => {
         }
         const aStatus = statusOrder[a.status || ""] ?? 999
         const bStatus = statusOrder[b.status || ""] ?? 999
-        if (aStatus !== bStatus) {
-          return aStatus - bStatus
-        }
-        // Then sort alphabetically by title
+        if (aStatus !== bStatus) return aStatus - bStatus
         return a.title.localeCompare(b.title)
       })
 
@@ -72,52 +58,30 @@ export default ((opts?: Partial<CourseGridOptions>) => {
       <div class={classNames(displayClass, "course-grid")}>
         {courses.map((course) => {
           const href = resolveRelative(fileData.slug!, course.slug as FullSlug)
+          const statusSlug = course.status?.toLowerCase().replace(/\s+/g, "-")
 
           return (
             <a href={href} class="course-card">
-              <div class="course-card-image">
-                {course.cover ? (
-                  <img
-                    src={resolveRelative(fileData.slug!, course.cover as FullSlug)}
-                    alt={course.title}
-                    loading="lazy"
-                  />
-                ) : (
-                  <div class="course-card-placeholder">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-                      <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-                    </svg>
-                  </div>
-                )}
+              <div class="course-card-header">
+                <div class="content-type content-type--course">
+                  <i class="ph ph-graduation-cap"></i>
+                  <span>Course</span>
+                </div>
                 {course.status && (
-                  <span class={`course-status ${course.status.toLowerCase().replace(/\s+/g, '-')}`}>
+                  <span class={`course-status course-status--${statusSlug}`}>
                     {course.status}
                   </span>
                 )}
               </div>
-              <div class="course-card-content">
-                <h3 class="course-card-title">{course.title}</h3>
-                {course.description && (
-                  <p class="course-card-description">{course.description}</p>
-                )}
-                {(course.duration || course.level) && (
-                  <div class="course-card-meta">
-                    {course.duration && <span class="course-meta-item">{course.duration}</span>}
-                    {course.level && <span class="course-meta-item">{course.level}</span>}
-                  </div>
-                )}
-              </div>
+              <p class="course-card-title">{course.title}</p>
+              {course.description && (
+                <p class="course-card-description">{course.description}</p>
+              )}
+              {(course.duration || course.level) && (
+                <p class="course-card-meta">
+                  {[course.duration, course.level].filter(Boolean).join(" · ")}
+                </p>
+              )}
             </a>
           )
         })}
@@ -128,156 +92,78 @@ export default ((opts?: Partial<CourseGridOptions>) => {
   CourseGrid.css = `
 .course-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 260px));
-  gap: 1.5rem;
-  margin: 2rem 0;
-  justify-content: start;
-}
-
-@media (max-width: 800px) {
-  .course-grid {
-    grid-template-columns: repeat(auto-fit, 260px);
-    gap: 1.25rem;
-    justify-content: center;
-  }
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
 }
 
 .course-card {
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 1.25rem;
   background-color: var(--light);
   border: 1px solid var(--lightgray);
   border-radius: 8px;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  text-decoration: none;
+  text-decoration: none !important;
   color: inherit;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  max-width: 260px;
-  width: 260px;
+  transition: border-color 0.15s ease;
 }
 
 .course-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   border-color: var(--secondary);
 }
 
-.course-card-image {
-  position: relative;
-  width: 100%;
-  height: 160px;
-  overflow: hidden;
-  background-color: var(--lightgray);
+.course-card-header {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-.course-card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-.course-card:hover .course-card-image img {
-  transform: scale(1.05);
-}
-
-.course-card-placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  color: var(--gray);
+  justify-content: space-between;
+  gap: 0.5rem;
 }
 
 .course-status {
-  position: absolute;
-  top: 0.75rem;
-  right: 0.75rem;
-  padding: 0.25rem 0.75rem;
-  border-radius: 4px;
   font-size: 0.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  background-color: var(--light);
-  border: 1px solid var(--lightgray);
+  font-weight: 500;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  white-space: nowrap;
 }
 
-.course-status.published {
+.course-status--published {
   background-color: #d4edda;
-  border-color: #28a745;
   color: #155724;
 }
 
-.course-status.in-development {
+.course-status--in-development {
   background-color: #fff3cd;
-  border-color: #ffc107;
   color: #856404;
 }
 
-.course-status.coming-soon {
+.course-status--coming-soon {
   background-color: #d1ecf1;
-  border-color: #17a2b8;
   color: #0c5460;
 }
 
-.course-card-content {
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  flex-grow: 1;
-}
-
 .course-card-title {
-  margin: 0;
-  font-size: 1.25rem;
-  font-weight: 700;
+  margin: 0.25rem 0 0;
+  font-size: 1rem;
+  font-weight: 600;
   color: var(--dark);
   line-height: 1.3;
 }
 
 .course-card-description {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 0.875rem;
   color: var(--darkgray);
-  line-height: 1.5;
+  line-height: 1.4;
   flex-grow: 1;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .course-card-meta {
-  display: flex;
-  gap: 0.75rem;
-  margin-top: auto;
-  padding-top: 0.75rem;
-  border-top: 1px solid var(--lightgray);
-}
-
-.course-meta-item {
-  font-size: 0.85rem;
+  margin: 0;
+  font-size: 0.8rem;
   color: var(--gray);
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
-}
-
-.course-meta-item::before {
-  content: "•";
-  margin-right: 0.25rem;
-}
-
-.course-meta-item:first-child::before {
-  content: "";
-  margin-right: 0;
 }
 `
 
