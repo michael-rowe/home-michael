@@ -1,21 +1,21 @@
 ---
 title: AI literacy for academics
 type: course
-aliases:
+aliases: null
 description: Develop multidimensional capability with generative AI for academic work
-author: "[[Michael Rowe]]"
-date: 2026-01-29
-updated: 2026-01-29
+author: '[[Michael Rowe]]'
+date: 2026-01-29T00:00:00.000Z
+updated: 2026-01-29T00:00:00.000Z
 tags:
   - AI-literacy
   - academic-development
   - professional-learning
 category:
-  - AI literacy
+  - AI and technology
 related:
-  - "[[AI literacy]]"
-  - "[[common architecture of literacy]]"
-  - "[[AI literacy development framework]]"
+  - '[[AI literacy]]'
+  - '[[common architecture of literacy]]'
+  - '[[AI literacy development framework]]'
 cover: Media/AI_literacy_course.png
 status: In Development
 duration: 10-12 hours

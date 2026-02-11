@@ -1,21 +1,24 @@
 ---
 title: Human cognition and LLM parallels
-description: LLM terminology provides unexpectedly precise language for human cognitive constraints we've struggled to describe—revealing that the similarities might be more extensive than professional identity allows us to admit
+description: >-
+  LLM terminology provides unexpectedly precise language for human cognitive
+  constraints we've struggled to describe—revealing that the similarities might
+  be more extensive than professional identity allows us to admit
 aliases:
   - LLM human similarities
   - cognitive architecture parallels
 type: note
-author: "[[Michael Rowe]]"
-created: 2025-02-06
-updated: 2025-02-06
+author: '[[Michael Rowe]]'
+created: 2025-02-06T00:00:00.000Z
+updated: 2025-02-06T00:00:00.000Z
 tags:
   - cognitive-science
   - artificial-intelligence
   - learning-theory
   - human-cognition
-category: frameworks
+category: AI and technology
 related:
-  - "[[2026-02-06-LLM-similarities-human-cognition]]"
+  - '[[2026-02-06-LLM-similarities-human-cognition]]'
 ---
 
 > [!tip] Why this matters

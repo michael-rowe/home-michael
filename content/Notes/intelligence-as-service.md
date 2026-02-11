@@ -1,30 +1,35 @@
 ---
 title: Intelligence as a service
-description: A model for accessing AI capabilities while personal context remains private and under individual control, separating computational intelligence from data ownership.
+description: >-
+  A model for accessing AI capabilities while personal context remains private
+  and under individual control, separating computational intelligence from data
+  ownership.
 aliases:
   - IaaS model
   - AI as utility
 type: note
-author: "[[Michael Rowe]]"
-created: 2026-02-05
-updated: 2026-02-05
+author: '[[Michael Rowe]]'
+created: 2026-02-05T00:00:00.000Z
+updated: 2026-02-05T00:00:00.000Z
 needs_review: false
 tags:
   - artificial-intelligence
   - context-sovereignty
   - privacy
   - architecture
-category: AI architecture
+category: AI and technology
 related:
-  - "[[context sovereignty]]"
-  - "[[contextual interoperability]]"
-  - "[[model-context-protocol]]"
-builds_on:
+  - '[[context sovereignty]]'
+  - '[[contextual interoperability]]'
+  - '[[model-context-protocol]]'
+builds_on: null
 leads_to:
-  - "[[context sovereignty]]"
-contradicts:
-source: "Rowe, M., & Lynch, W. (2025). Context sovereignty for AI-supported learning: A human-centred approach."
-source_url: ""
+  - '[[context sovereignty]]'
+contradicts: null
+source: >-
+  Rowe, M., & Lynch, W. (2025). Context sovereignty for AI-supported learning: A
+  human-centred approach.
+source_url: ''
 ---
 
 > [!tip] The utility model for AI

@@ -1,33 +1,35 @@
 ---
 title: GraphRAG
-description: A technique that combines knowledge graphs with retrieval-augmented generation for structured reasoning
+description: >-
+  A technique that combines knowledge graphs with retrieval-augmented generation
+  for structured reasoning
 aliases:
   - graph RAG
   - graph-based RAG
 type: note
-author: "[[Michael Rowe]]"
-created: 2026-01-30
-updated: 2026-01-30
+author: '[[Michael Rowe]]'
+created: 2026-01-30T00:00:00.000Z
+updated: 2026-01-30T00:00:00.000Z
 needs_review: false
 tags:
   - artificial-intelligence
   - knowledge-graphs
   - retrieval-augmented-generation
   - context-engineering
-category: "artificial intelligence"
+category: AI and technology
 related:
-  - "[[context engineering]]"
-  - "[[knowledge graph]]"
-  - "[[retrieval augmented generation]]"
-  - "[[multi-hop reasoning]]"
-  - "[[vector database]]"
+  - '[[context engineering]]'
+  - '[[knowledge graph]]'
+  - '[[retrieval augmented generation]]'
+  - '[[multi-hop reasoning]]'
+  - '[[vector database]]'
 builds_on:
-  - "[[retrieval augmented generation]]"
-  - "[[knowledge graph]]"
-leads_to:
-contradicts:
-source: ""
-source_url: ""
+  - '[[retrieval augmented generation]]'
+  - '[[knowledge graph]]'
+leads_to: null
+contradicts: null
+source: ''
+source_url: ''
 ---
 
 > [!tip] From isolated documents to connected knowledge

@@ -1,24 +1,33 @@
 ---
-title: "AI and evaluative judgement: Cultivating taste in the age of capability"
+title: 'AI and evaluative judgement: Cultivating taste in the age of capability'
 type: post
 aliases:
   - Cultivating taste in the age of AI
-description: When AI can generate text, images, and ideas at scale, what remains distinctively human? This post argues that evaluative judgement—the capacity to assess what is worth creating, what deserves attention, and what matters—becomes the core human contribution in knowledge work. Drawing on research into evaluative judgement in health professions education, it explores how educators can make this capacity explicit and deliberately develop it, rather than treating it as an invisible by-product of experience.
-meta-description: As AI makes creation and curation trivially easy, evaluative judgement about what should exist becomes the primary human contribution.
+description: >-
+  When AI can generate text, images, and ideas at scale, what remains
+  distinctively human? This post argues that evaluative judgement—the capacity
+  to assess what is worth creating, what deserves attention, and what
+  matters—becomes the core human contribution in knowledge work. Drawing on
+  research into evaluative judgement in health professions education, it
+  explores how educators can make this capacity explicit and deliberately
+  develop it, rather than treating it as an invisible by-product of experience.
+meta-description: >-
+  As AI makes creation and curation trivially easy, evaluative judgement about
+  what should exist becomes the primary human contribution.
 keyphrase: evaluative judgement
-author: "[[Michael Rowe]]"
-date: 2026-01-29
-updated: 2026-02-04
+author: '[[Michael Rowe]]'
+date: 2026-01-29T00:00:00.000Z
+updated: 2026-02-04T00:00:00.000Z
 tags:
   - artificial-intelligence
   - professional-development
   - taste
 category:
-  - Professional practice
-  - AI fluency
+  - AI and technology
+  - Professional development
 related:
-  - "[[taste-and-judgement]]"
-  - "[[2026-01-28-bitter-lesson-higher-education]]"
+  - '[[taste-and-judgement]]'
+  - '[[2026-01-28-bitter-lesson-higher-education]]'
 draft: false
 slug: evaluative-judgement
 enableToc: true

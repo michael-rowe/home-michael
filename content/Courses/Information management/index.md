@@ -1,18 +1,18 @@
 ---
 title: Information management for researchers
 type: course
-aliases:
-description: Organizing research materials, references, and resources systematically
-author: "[[Michael Rowe]]"
-date: 2026-01-29
-updated: 2026-01-29
+aliases: null
+description: 'Organizing research materials, references, and resources systematically'
+author: '[[Michael Rowe]]'
+date: 2026-01-29T00:00:00.000Z
+updated: 2026-01-29T00:00:00.000Z
 tags:
   - information-management
   - research-skills
   - digital-literacy
 category:
-  - Courses
-related:
+  - Knowledge management
+related: null
 cover: Media/information_management_course.png
 status: Published
 duration: 4-5 hours

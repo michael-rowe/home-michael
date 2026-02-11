@@ -1,32 +1,35 @@
 ---
 title: Large language models
-description: "Large language models are deep learning models with billions of parameters, trained on vast text corpora using self-supervised learning, capable of general-purpose language tasks."
+description: >-
+  Large language models are deep learning models with billions of parameters,
+  trained on vast text corpora using self-supervised learning, capable of
+  general-purpose language tasks.
 aliases:
   - LLM
   - LLMs
 type: note
-author: "[[Michael Rowe]]"
-created: 2026-02-04
-updated: 2026-02-04
+author: '[[Michael Rowe]]'
+created: 2026-02-04T00:00:00.000Z
+updated: 2026-02-04T00:00:00.000Z
 needs_review: false
 tags:
   - generative-ai
   - machine-learning
   - artificial-intelligence
-category: "Technology"
+category: AI and technology
 related:
-  - "[[natural language processing]]"
-  - "[[deep learning]]"
-  - "[[AI alignment]]"
+  - '[[natural language processing]]'
+  - '[[deep learning]]'
+  - '[[AI alignment]]'
 builds_on:
-  - "[[Transformer models]]"
-  - "[[self-supervised learning]]"
+  - '[[Transformer models]]'
+  - '[[self-supervised learning]]'
 leads_to:
-  - "[[AI agents]]"
-  - "[[retrieval augmented generation]]"
-contradicts:
-source: ""
-source_url: ""
+  - '[[AI agents]]'
+  - '[[retrieval augmented generation]]'
+contradicts: null
+source: ''
+source_url: ''
 ---
 
 > [!tip] Scale driving emergence

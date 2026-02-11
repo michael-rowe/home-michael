@@ -1,32 +1,34 @@
 ---
 title: Single-hop reasoning
-description: Direct question-answer retrieval based on statistical similarity, the default reasoning pattern in RAG systems
+description: >-
+  Direct question-answer retrieval based on statistical similarity, the default
+  reasoning pattern in RAG systems
 aliases:
   - single-step reasoning
   - direct retrieval
 type: note
-author: "[[Michael Rowe]]"
-created: 2026-02-10
-updated: 2026-02-10
+author: '[[Michael Rowe]]'
+created: 2026-02-10T00:00:00.000Z
+updated: 2026-02-10T00:00:00.000Z
 needs_review: false
 tags:
   - artificial-intelligence
   - reasoning
   - information-retrieval
-category: "artificial intelligence"
+category: AI and technology
 related:
-  - "[[multi-hop reasoning]]"
-  - "[[retrieval augmented generation]]"
-  - "[[vector database]]"
-  - "[[prompt engineering]]"
-  - "[[embeddings]]"
+  - '[[multi-hop reasoning]]'
+  - '[[retrieval augmented generation]]'
+  - '[[vector database]]'
+  - '[[prompt engineering]]'
+  - '[[embeddings]]'
 builds_on:
-  - "[[embeddings]]"
-  - "[[vector database]]"
-leads_to:
-contradicts:
-source: ""
-source_url: ""
+  - '[[embeddings]]'
+  - '[[vector database]]'
+leads_to: null
+contradicts: null
+source: ''
+source_url: ''
 ---
 
 > [!tip] Finding answers versus constructing them

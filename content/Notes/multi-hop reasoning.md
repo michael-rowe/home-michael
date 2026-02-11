@@ -1,31 +1,33 @@
 ---
 title: Multi-hop reasoning
-description: AI reasoning capability that draws conclusions by traversing multiple connected concepts
+description: >-
+  AI reasoning capability that draws conclusions by traversing multiple
+  connected concepts
 aliases:
   - multi-step reasoning
   - chain reasoning
 type: note
-author: "[[Michael Rowe]]"
-created: 2026-01-30
-updated: 2026-01-30
+author: '[[Michael Rowe]]'
+created: 2026-01-30T00:00:00.000Z
+updated: 2026-01-30T00:00:00.000Z
 needs_review: false
 tags:
   - artificial-intelligence
   - reasoning
   - knowledge-graphs
   - context-engineering
-category: "artificial intelligence"
+category: AI and technology
 related:
-  - "[[context engineering]]"
-  - "[[knowledge graph]]"
-  - "[[graphRAG]]"
-  - "[[prompt engineering]]"
+  - '[[context engineering]]'
+  - '[[knowledge graph]]'
+  - '[[graphRAG]]'
+  - '[[prompt engineering]]'
 builds_on:
-  - "[[knowledge graph]]"
-leads_to:
-contradicts:
-source: ""
-source_url: ""
+  - '[[knowledge graph]]'
+leads_to: null
+contradicts: null
+source: ''
+source_url: ''
 ---
 
 > [!tip] From retrieval to inference

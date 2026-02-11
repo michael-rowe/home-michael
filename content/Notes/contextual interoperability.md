@@ -1,32 +1,37 @@
 ---
 title: Contextual interoperability
-description: The capacity to make human thoughts and knowledge machine-readable while preserving their human meaning, creating a cognitive interface between human and artificial intelligence.
+description: >-
+  The capacity to make human thoughts and knowledge machine-readable while
+  preserving their human meaning, creating a cognitive interface between human
+  and artificial intelligence.
 aliases:
   - context interoperability
   - cognitive interface
 type: note
-author: "[[Michael Rowe]]"
-created: 2026-02-05
-updated: 2026-02-05
+author: '[[Michael Rowe]]'
+created: 2026-02-05T00:00:00.000Z
+updated: 2026-02-05T00:00:00.000Z
 needs_review: false
 tags:
   - artificial-intelligence
   - context-sovereignty
   - knowledge-representation
   - personal-knowledge-management
-category: knowledge representation
+category: Knowledge management
 related:
-  - "[[context sovereignty]]"
-  - "[[knowledge graph]]"
-  - "[[context engineering]]"
-  - "[[intelligence-as-service]]"
+  - '[[context sovereignty]]'
+  - '[[knowledge graph]]'
+  - '[[context engineering]]'
+  - '[[intelligence-as-service]]'
 builds_on:
-  - "[[knowledge graph]]"
+  - '[[knowledge graph]]'
 leads_to:
-  - "[[context sovereignty]]"
-contradicts:
-source: "Rowe, M., & Lynch, W. (2025). Context sovereignty for AI-supported learning: A human-centred approach."
-source_url: ""
+  - '[[context sovereignty]]'
+contradicts: null
+source: >-
+  Rowe, M., & Lynch, W. (2025). Context sovereignty for AI-supported learning: A
+  human-centred approach.
+source_url: ''
 ---
 
 > [!tip] The translation challenge

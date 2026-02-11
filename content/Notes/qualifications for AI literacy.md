@@ -3,25 +3,29 @@ title: Qualifications for AI literacy
 type: note
 aliases:
   - AI literacy caveats
-description: Any claim that a course or programme of study develops AI literacy requires important qualifications—literacy develops through sustained practice, is developmental and contextual, and cannot be fully assessed at course completion.
-author: "[[Michael Rowe]]"
-date: 2026-01-29
-updated: 2026-01-29
+description: >-
+  Any claim that a course or programme of study develops AI literacy requires
+  important qualifications—literacy develops through sustained practice, is
+  developmental and contextual, and cannot be fully assessed at course
+  completion.
+author: '[[Michael Rowe]]'
+date: 2026-01-29T00:00:00.000Z
+updated: 2026-01-29T00:00:00.000Z
 tags:
   - AI-literacy
   - learning
   - practice
   - assessment
 category:
-  - AI literacy
+  - AI and technology
 related:
-  - "[[AI literacy|AI literacy]]"
-  - "[[AI literacy development framework]]"
+  - '[[AI literacy|AI literacy]]'
+  - '[[AI literacy development framework]]'
 draft: false
-permalink: ""
+permalink: ''
 enableToc: true
 cssclasses:
-  - ""
+  - ''
 ---
 > [!tip] Literacy is longitudinal
 > The true test of whether a course or programme develops AI literacy cannot be answered through end-of-course assessment. It requires observing whether participants continue to engage thoughtfully, adapt their practice as AI evolves, and develop increasingly sophisticated judgement—which is precisely what literacy means.

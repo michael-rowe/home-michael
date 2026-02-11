@@ -1,34 +1,36 @@
 ---
 title: Model Context Protocol
-description: An open standard enabling AI systems to access diverse data sources through standardised interfaces with fine-grained permission control.
+description: >-
+  An open standard enabling AI systems to access diverse data sources through
+  standardised interfaces with fine-grained permission control.
 aliases:
   - MCP
 type: note
-author: "[[Michael Rowe]]"
-created: 2026-02-05
-updated: 2026-02-05
+author: '[[Michael Rowe]]'
+created: 2026-02-05T00:00:00.000Z
+updated: 2026-02-05T00:00:00.000Z
 needs_review: false
 tags:
   - generative-ai
   - context-engineering
   - standards
   - anthropic
-category: AI standards
+category: AI and technology
 related:
-  - "[[context engineering]]"
-  - "[[context sovereignty]]"
-  - "[[contextual interoperability]]"
-  - "[[mcp server]]"
-  - "[[intelligence-as-service]]"
+  - '[[context engineering]]'
+  - '[[context sovereignty]]'
+  - '[[contextual interoperability]]'
+  - '[[mcp server]]'
+  - '[[intelligence-as-service]]'
 builds_on:
-  - "[[prompt engineering]]"
-  - "[[retrieval augmented generation]]"
+  - '[[prompt engineering]]'
+  - '[[retrieval augmented generation]]'
 leads_to:
-  - "[[context sovereignty]]"
-  - "[[MCP server]]"
-contradicts:
-source: ""
-source_url: https://modelcontextprotocol.io
+  - '[[context sovereignty]]'
+  - '[[MCP server]]'
+contradicts: null
+source: ''
+source_url: 'https://modelcontextprotocol.io'
 ---
 
 > [!tip] Universal connector, not universal solution

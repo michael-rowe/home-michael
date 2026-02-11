@@ -1,22 +1,32 @@
 ---
-title: AI meeting scribes, organisational memory, and new governance structures
+title: 'AI meeting scribes, organisational memory, and new governance structures'
 type: post
 aliases:
   - AI meeting scribes and organisational memory
-description: AI meeting scribes are increasingly being adopted as productivity tools, automatically transcribing and summarising organisational meetings. But who controls these records, and who benefits from perfect organisational memory? This post explores how AI meeting scribes can entrench existing power dynamics by giving those in authority unprecedented access to communication patterns, informal decision-making, and dissent—all rendered visible and retrievable without those present realising the implications for how organisations are governed.
-meta-description: AI meeting scribes have automated the control of organisational memory, making existing power dynamics more powerful and less visible.
+description: >-
+  AI meeting scribes are increasingly being adopted as productivity tools,
+  automatically transcribing and summarising organisational meetings. But who
+  controls these records, and who benefits from perfect organisational memory?
+  This post explores how AI meeting scribes can entrench existing power dynamics
+  by giving those in authority unprecedented access to communication patterns,
+  informal decision-making, and dissent—all rendered visible and retrievable
+  without those present realising the implications for how organisations are
+  governed.
+meta-description: >-
+  AI meeting scribes have automated the control of organisational memory, making
+  existing power dynamics more powerful and less visible.
 keyphrase: AI meeting scribes
-author: "[[Michael Rowe]]"
-date: 2026-01-28
-updated: 2026-02-04
+author: '[[Michael Rowe]]'
+date: 2026-01-28T00:00:00.000Z
+updated: 2026-02-04T00:00:00.000Z
 tags:
   - artificial-intelligence
   - governance
   - organisational-change
 category:
-  - Organisations
+  - Professional development
 related:
-  - "[[2026-01-28-bitter-lesson-higher-education]]"
+  - '[[2026-01-28-bitter-lesson-higher-education]]'
 draft: false
 slug: ai-meeting-scribes
 enableToc: true

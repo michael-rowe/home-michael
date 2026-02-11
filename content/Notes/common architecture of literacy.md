@@ -1,13 +1,15 @@
 ---
 title: The common architecture of literacy
-description: A six-dimension framework that underlies all forms of literacy—information, media, digital, data, and AI literacy share the same structural pattern.
+description: >-
+  A six-dimension framework that underlies all forms of literacy—information,
+  media, digital, data, and AI literacy share the same structural pattern.
 aliases:
   - Literacy framework
   - Six dimensions of literacy
 type: note
-author: "[[Michael Rowe]]"
-created: 2026-01-29
-updated: 2026-01-29
+author: '[[Michael Rowe]]'
+created: 2026-01-29T00:00:00.000Z
+updated: 2026-01-29T00:00:00.000Z
 status: working
 needs_review: false
 tags:
@@ -15,19 +17,18 @@ tags:
   - framework
   - education
 category:
-  - Frameworks
-  - AI literacy
+  - AI and technology
 related:
-  - "[[AI literacy]]"
-  - "[[information literacy]]"
-  - "[[media literacy]]"
-  - "[[digital literacy]]"
-builds_on:
+  - '[[AI literacy]]'
+  - '[[information literacy]]'
+  - '[[media literacy]]'
+  - '[[digital literacy]]'
+builds_on: null
 leads_to:
-  - "[[AI literacy]]"
-contradicts:
-source: ""
-source_url: ""
+  - '[[AI literacy]]'
+contradicts: null
+source: ''
+source_url: ''
 ---
 
 > [!tip] The pattern beneath the practice

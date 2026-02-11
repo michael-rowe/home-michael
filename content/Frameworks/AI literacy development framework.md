@@ -4,21 +4,24 @@ type: framework
 aliases:
   - AI literacy embedding framework
   - embedded AI literacy
-description: A framework for embedding AI literacy development into existing modules and courses, enabling students to develop AI capability while learning disciplinary content.
-author: "[[Michael Rowe]]"
-date: 2026-02-01
-updated: 2026-02-01
+description: >-
+  A framework for embedding AI literacy development into existing modules and
+  courses, enabling students to develop AI capability while learning
+  disciplinary content.
+author: '[[Michael Rowe]]'
+date: 2026-02-01T00:00:00.000Z
+updated: 2026-02-01T00:00:00.000Z
 tags:
   - AI-literacy
   - framework
   - curriculum-design
   - pedagogy
 category:
-  - AI literacy
+  - AI and technology
 related:
-  - "[[AI literacy]]"
-  - "[[AI literacy for academics]]"
-  - "[[common architecture of literacy]]"
+  - '[[AI literacy]]'
+  - '[[AI literacy for academics]]'
+  - '[[common architecture of literacy]]'
 draft: false
 enableToc: true
 ---

@@ -1,18 +1,18 @@
 ---
 title: Effective note-taking
 type: course
-aliases:
+aliases: null
 description: Building personal knowledge systems for research and learning
-author: "[[Michael Rowe]]"
-date: 2026-01-29
-updated: 2026-01-29
+author: '[[Michael Rowe]]'
+date: 2026-01-29T00:00:00.000Z
+updated: 2026-01-29T00:00:00.000Z
 tags:
   - note-taking
   - pkm
   - knowledge-management
 category:
-  - Courses
-related:
+  - Knowledge management
+related: null
 cover: Media/note_taking_course.png
 status: Published
 duration: 5-7 hours

@@ -1,18 +1,18 @@
 ---
 title: Email management for academics
 type: course
-aliases:
+aliases: null
 description: Systematic approaches to handling academic correspondence effectively
-author: "[[Michael Rowe]]"
-date: 2026-01-29
-updated: 2026-01-29
+author: '[[Michael Rowe]]'
+date: 2026-01-29T00:00:00.000Z
+updated: 2026-01-29T00:00:00.000Z
 tags:
   - email-management
   - communication
   - productivity
 category:
-  - Courses
-related:
+  - Professional development
+related: null
 cover: Media/email_management_course.png
 status: Published
 duration: 3-4 hours

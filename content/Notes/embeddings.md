@@ -1,32 +1,34 @@
 ---
 title: Embeddings
-description: Learned numerical representations of text that capture semantic meaning, enabling similarity-based search and retrieval
+description: >-
+  Learned numerical representations of text that capture semantic meaning,
+  enabling similarity-based search and retrieval
 aliases:
   - embedding
   - vector embeddings
   - semantic vectors
 type: note
-author: "[[Michael Rowe]]"
-created: 2026-02-10
-updated: 2026-02-10
+author: '[[Michael Rowe]]'
+created: 2026-02-10T00:00:00.000Z
+updated: 2026-02-10T00:00:00.000Z
 needs_review: false
 tags:
   - generative-ai
   - language-model
   - information-retrieval
-category: "artificial intelligence"
+category: AI and technology
 related:
-  - "[[vector database]]"
-  - "[[retrieval augmented generation]]"
-  - "[[knowledge graph]]"
-  - "[[single-hop reasoning]]"
-builds_on:
+  - '[[vector database]]'
+  - '[[retrieval augmented generation]]'
+  - '[[knowledge graph]]'
+  - '[[single-hop reasoning]]'
+builds_on: null
 leads_to:
-  - "[[vector database]]"
-  - "[[retrieval augmented generation]]"
-contradicts:
-source: ""
-source_url: ""
+  - '[[vector database]]'
+  - '[[retrieval augmented generation]]'
+contradicts: null
+source: ''
+source_url: ''
 ---
 
 > [!tip] Teaching computers what words mean

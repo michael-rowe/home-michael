@@ -1,32 +1,34 @@
 ---
 title: Vector database
-description: A database that stores embeddings for similarity-based retrieval, serving as the knowledge layer for RAG systems
+description: >-
+  A database that stores embeddings for similarity-based retrieval, serving as
+  the knowledge layer for RAG systems
 aliases:
   - vector store
   - vector DB
 type: note
-author: "[[Michael Rowe]]"
-created: 2026-02-10
-updated: 2026-02-10
+author: '[[Michael Rowe]]'
+created: 2026-02-10T00:00:00.000Z
+updated: 2026-02-10T00:00:00.000Z
 needs_review: false
 tags:
   - generative-ai
   - information-retrieval
   - knowledge-management
-category: "artificial intelligence"
+category: AI and technology
 related:
-  - "[[embeddings]]"
-  - "[[retrieval augmented generation]]"
-  - "[[graph database]]"
-  - "[[knowledge graph]]"
-  - "[[prompt engineering]]"
+  - '[[embeddings]]'
+  - '[[retrieval augmented generation]]'
+  - '[[graph database]]'
+  - '[[knowledge graph]]'
+  - '[[prompt engineering]]'
 builds_on:
-  - "[[embeddings]]"
+  - '[[embeddings]]'
 leads_to:
-  - "[[retrieval augmented generation]]"
-contradicts:
-source: ""
-source_url: ""
+  - '[[retrieval augmented generation]]'
+contradicts: null
+source: ''
+source_url: ''
 ---
 
 > [!tip] Organising knowledge by similarity rather than category
