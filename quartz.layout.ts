@@ -65,12 +65,11 @@ export const defaultContentPageLayout: PageLayout = {
       }),
       condition: (page) => page.fileData.slug === "index",
     }),
-    Component.ContextualNav(),
+    Component.DesktopOnly(Component.TableOfContents()),
     Component.AILiteracyNav(),
   ],
   right: [
     Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
   afterBody: [
@@ -136,7 +135,6 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [
     Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
   afterBody: [
