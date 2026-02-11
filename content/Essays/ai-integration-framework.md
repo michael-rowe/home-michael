@@ -44,9 +44,16 @@ category:
 > - **Keywords**: AI-forward, artificial intelligence, leadership, organisational infrastructure, risk management
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
-## Abstract
-
+### Abstract
 Higher education institutions face persistent pressure to demonstrate visible engagement with artificial intelligence, often resulting in what we characterise as \"innovation theatre\" - the performance of transformation without corresponding structural change. This paper presents a diagnostic framework that distinguishes between performative and structural integration through analysis of four operational domains: governance and accountability, resource architecture, learning systems, and boundary setting. Unlike maturity models that prescribe linear progression, this framework enables institutional leaders to assess whether organisational structures align with stated strategic intentions, revealing gaps between rhetoric and reality. The framework emerged from critical analysis of institutional AI responses but evolved toward practical utility for decision-makers operating within genuine constraints. We position this work as practitioner pattern recognition requiring subsequent empirical validation, outline specific validation pathways, and discuss implications for institutional strategy in contexts of technological disruption. This approach ensures that institutions can maintain the capacity to adjust as circumstances evolve, avoiding the dangerous illusions of preparedness created by purely performative responses. By focusing on structural enablers and constraints, the framework shifts planning attention from simple initiative lists toward long-term institutional capacity building and strategic coherence.
+
+
+> [!summary] Key takeaways
+> - 'Innovation theatre' — the active performance of AI transformation while maintaining structures that prevent genuine experimentation — is a distinct and nameable problem, not simply organisational inertia.
+> - Four operational domains determine whether genuine experimentation is structurally possible: governance and accountability, resource architecture, learning systems, and boundary setting.
+> - Incremental, selective, and transformative positions are all legitimate depending on institutional context — the problem is occupying a position accidentally rather than consciously.
+> - Institutions performing innovation theatre spend resources satisfying expectations for visible response without building the adaptive capacity needed when genuine transformation is required.
+> - Leaders can use this framework as analytical cover for difficult resource decisions, grounding choices in organisational theory rather than personal judgement alone.
 
 ## Introduction
 

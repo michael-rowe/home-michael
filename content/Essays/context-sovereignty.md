@@ -55,19 +55,15 @@ category:
 >       - Zenodo (legacy): [10.5281/zenodo.15772242](https://doi.org/10.5281/zenodo.15762588)
 > - **Peer reviewed**: No
 
-**Abstract**
-
+### Abstract
 The current discourse around artificial intelligence in education has become preoccupied with prompting strategies, overlooking more fundamental questions about the nature of context in human-AI collaboration. This paper explores the concept of *context engineering* as an operational framework that supports personal learning and the philosophical goal of *context sovereignty*. Drawing from complexity science and learning theory, we argue that context functions as a dynamic field of meaning-making rather than static background information, and that ownership of that context is an essential consideration. Current approaches to context-setting in AI-supported learning—primarily prompting and document uploading—create episodic burdens requiring learners to adapt to AI systems rather than insisting that AI systems adapt to learners. Context sovereignty offers an alternative paradigm based on three principles: persistent understanding, individual agency, and cognitive extension. This framework addresses concerns about privacy, intellectual challenge, and authentic assessment while enabling new forms of collaborative learning that preserve human agency. Rather than treating AI as an external tool requiring skilful manipulation, context sovereignty suggests AI can become a cognitive partner that understands and extends human thinking while respecting individual boundaries. The implications extend beyond technical implementation to fundamental questions about the nature of learning, assessment, and human-AI collaboration in educational settings. By centering personal context, the framework ensures that AI systems adapt to human thinking patterns rather than requiring human adaptation to AI constraints, facilitating a relationship of cognitive amplification where AI increases the reach and effectiveness of human reasoning.
 
-## Key takeaways
-
-- **Context engineering is a distinct discipline**: Context engineering is not simply an extension of prompt engineering, but a system-level approach focused on designing dynamic, state-aware information ecosystems for AI agents. The quality and structure of context are often the primary differentiators between fragile demos and robust, reliable AI-supported learning environments.
-- **Context is dynamic and relational**: Rather than static information to be uploaded, context functions as a complex adaptive system characterised by emergence, temporal evolution, and relational dynamics that continuously shape meaning-making processes.
-- **Current approaches create cognitive burdens**: Episodic prompting and document uploading require constant re-contextualisation, creating cognitive overhead while establishing power asymmetries where learners adapt to AI systems rather than vice versa.
-- **Three principles enable cognitive partnership**: Persistent understanding, individual agency, and cognitive extension work together to create conditions for genuine collaboration where AI systems adapt to human cognitive patterns while preserving individual control over personal context.
-- **Assessment should focus on collaborative problem-solving**: Rather than attempting to distinguish between human and AI contributions, assessment should examine learners' capacity to mobilise contextual knowledge through AI partnerships to solve meaningful problems.
-- **Privacy and functionality can coexist**: By separating intelligence and reasoning services from personal context, learners can access sophisticated AI capabilities while maintaining control over personal information and meaning-making processes.
-- **Implementation requires cultural transformation**: Realising context sovereignty's potential demands not just technical capability but fundamental shifts in educational practices, institutional frameworks, and cultural understanding of human-AI collaboration.
+> [!summary] Key takeaways
+> - The real problem with AI in education is not prompting mechanics but the stateless, episodic nature of current AI interactions, which places the entire burden of re-contextualisation on the learner every time.
+> - Context sovereignty proposes that AI systems should adapt to learners' established cognitive patterns, not the reverse: ownership of context means ownership of the informational environment shaping how AI engages with you.
+> - Three principles — persistent understanding, individual agency, and cognitive extension — shift AI from a generic tool requiring constant manipulation to a cognitive partner that accumulates knowledge of how an individual thinks.
+> - Assessment should shift from 'what can this student produce without AI?' to 'how effectively did this student mobilise contextual knowledge through an AI partnership to solve a meaningful problem?'
+> - For clinical educators, context sovereignty directly addresses concerns about echo chambers: a system with rich understanding of a learner's existing frameworks can provide precisely calibrated intellectual challenge.
 
 ## Beyond prompting
 

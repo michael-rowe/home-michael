@@ -56,11 +56,18 @@ category:
 > - **Keywords**: AI-forward, artificial intelligence, context engineering, curriculum development, curriculum infrastructure, education technology, graph database, human-AI collaboration, model context protocol, vector database
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
-## Abstract
-
+### Abstract
 Professional curricula are comprehensively documented but not systematically queryable, creating artificial information scarcity. This creates significant problems for institutions: regulatory compliance reporting consumes weeks of staff time, quality assurance requires exhaustive manual verification, and curriculum office teams cannot efficiently answer structural questions. Current approaches—manual document review, VLE keyword search, curriculum mapping spreadsheets, and purpose-built curriculum management systems—fail to expose curriculum structure in queryable form. We propose an architecture where graph databases become the source of truth for curriculum structure, with vector databases for content retrieval and the Model Context Protocol providing accessible interfaces. This makes documented curriculum structure explicitly queryable—prerequisite chains, competency mappings, and assessment coverage—enabling compliance verification in hours rather than weeks. The architecture suits AI-forward institutions—those treating AI integration as ongoing strategic practice requiring active engagement with evolving technologies. Technology handles structural verification; educators retain essential authority over educational meaning-making. The proposal argues for removing technical barriers to interrogating curriculum complexity rather than eliminating that complexity through technological solution. By transforming documentation into operational architecture, institutions can build trust and auditability into AI-mediated processes, ensuring that curriculum design and improvement are driven by analytical insight rather than administrative necessity.
 
 ---
+
+
+> [!summary] Key takeaways
+> - Professional curricula are extensively documented but not queryable: the structural knowledge exists in prose and staff heads, not as relationships that can be traversed — creating artificial information scarcity.
+> - A three-layer architecture — graph databases as source of truth for curriculum structure, vector databases for semantic retrieval, and a Model Context Protocol layer for role-specific access — can reduce compliance reporting from weeks to hours.
+> - The graph database inverts the current document-centric model: changes happen once in the graph and all derived artifacts are generated from it, eliminating the synchronisation failures that currently plague accreditation cycles.
+> - The same infrastructure supports internal quality audit against institutional policy as well as external regulatory compliance, enabling regular systematic checks rather than emergency reviews at accreditation points.
+> - The technology does not replace professional judgement about what curricula should contain; it removes technical barriers to interrogating what curricula actually do contain — freeing educators to focus on educational meaning.
 
 ## 1. An artificial scarcity problem
 

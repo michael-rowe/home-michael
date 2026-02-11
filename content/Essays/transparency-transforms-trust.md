@@ -30,7 +30,7 @@ doi: null
 category:
   - Scholarship
 ---
-[!info] **About this essay**
+> [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: March 29, 2025
@@ -41,9 +41,16 @@ category:
 > - **Preprint DOI**: [Why no DOI?](/notes/versions.md)
 > - **Peer reviewed**: No
 
-**Abstract**
-
+### Abstract
 This essay examines the shifting landscape of trust in academic scholarship, challenging the traditional model where trust has been outsourced to publishers and journals as proxies for validation and quality assessment. While this system developed important mechanisms for scholarly trust, including persistent identification, version control, peer feedback, and contextual placement, technological change offers an opportunity to reclaim and enhance these mechanisms. Drawing on principles of emergent scholarship, I explore how trust can be reimagined through knowledge connection, innovation through openness, identity through community, value through engagement, and meaning through medium. This approach does not reject traditional scholarship but builds bridges between established practices and new possibilities, enabling a shift from institutional proxies to visible processes. The essay proposes a three-tier technical framework that maintains compatibility with traditional academic structures while introducing new possibilities: a live working environment where scholarship evolves through visible iteration; preprints with DOIs enabling persistent citation; and journal publication connecting to established incentive structures. This framework offers significant benefits, including greater scholarly autonomy, enhanced transparency, increased responsiveness, and recognition of diverse contributions. However, it also presents challenges: technical barriers to participation, potential fragmentation, increased resource demands, and recognition within traditional contexts. The result is not a replacement for traditional scholarship but an evolution that shifts trust from institutional proxies to visible processes, creating scholarship that is more connected, open, engaged, and ultimately more trustworthy.
+
+
+> [!summary] Key takeaways
+> - Academic trust has been outsourced to publishers and journals as commercial proxies, creating misaligned incentives between publishing profit and scholarly progress that can now be addressed through technological alternatives.
+> - A three-tier framework — live working environment for visible iteration, preprint with DOI for persistent citation, and traditional journal publication for institutional recognition — bridges emergent and traditional models without demanding abandonment of existing structures.
+> - Making the developmental process of scholarship visible shifts trust from pre-publication gatekeeping to ongoing process verification — a more robust foundation that does not depend on any single institutional proxy.
+> - For health professions educators engaged in scholarship alongside practice, this framework provides a pathway to share and receive feedback on developing ideas without waiting for months-long journal cycles.
+> - The framework preserves the elements of traditional publishing worth keeping (persistent identification, peer feedback, contextual placement) while addressing what they cannot: transparency, diverse contribution recognition, and alignment with scholarly rather than commercial values.
 
 ## Introduction
 

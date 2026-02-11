@@ -37,7 +37,7 @@ category:
   - AI and technology
   - Scholarship
 ---
-[!info] **About this essay**
+> [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln
 > - **Created**: March 28, 2025
@@ -48,28 +48,17 @@ category:
 > - **Preprint DOI**: [Why no DOI?](/notes/versions.md)
 > - **Peer reviewed**: No
 
-**Abstract**
-
+### Abstract
 This essay reconceptualises language as humanity's first general purpose technology—a sophisticated system we developed to extend cognitive capabilities across domains and enable complementary innovations. Through this lens, large language models (LLMs) emerge not as novel digital tools but as the latest evolution in a continuum spanning spoken language, writing, printing, and digital text. LLMs extend language's fundamental capabilities through unprecedented scale, cross-domain synthesis, cognitive adaptability, and emerging multimodality. This technological evolution presents profound challenges for education, where students face information overload while remaining underprepared for complex practice environments that demand adaptive expertise.
 
 The essay examines how viewing LLMs as language technology rather than mere computing applications transforms educational priorities from knowledge acquisition toward cognitive partnership, from technical skill development toward contextual reasoning, and from individual assessment toward collaborative problem-solving. Drawing on complexity theory and distributed cognition research, I argue that language technologies have always mediated human thinking, and that LLMs represent a qualitative shift in this mediation that requires fundamental reconsideration of educational goals, methods, and assessments. The analysis addresses concerns about cognitive dependency, authentic learning, and power dynamics while proposing practical frameworks for educational transformation that enhance rather than diminish human capabilities.
 
-## Key takeaways
-
-- **Language is technology, not just biology**: Human language functions as a sophisticated technological system—humanity's first general purpose technology—that extends cognitive capabilities far beyond biological limitations through structured rule systems and symbolic representations.
-    
-- **LLMs represent technological evolution, not revolution**: Large language models constitute the latest stage in language technology's historical progression from speech through writing, printing, and digital text, each extending human cognitive reach in new dimensions.
-    
-- **Educational priorities must shift fundamentally**: Moving from knowledge transmission to cognitive partnership requires emphasising adaptive expertise, contextual reasoning, and collaborative intelligence over information acquisition and recall.
-    
-- **Assessment needs complete reconceptualisation**: Rather than testing individual knowledge without AI assistance, education should evaluate students' capacity to leverage AI partnerships for meaningful problem-solving and critical analysis.
-    
-- **Power dynamics and bias require explicit attention**: Language technologies, including LLMs, embed particular worldviews and power structures that educational institutions must critically examine rather than uncritically adopt.
-    
-- **Technical literacy demands deeper understanding**: "AI literacy" requires comprehending how language technologies shape thinking processes, not just developing prompting skills or tool manipulation capabilities.
-    
-- **Implementation requires systemic transformation**: Integrating LLMs effectively demands institutional change in curriculum design, faculty development, infrastructure, and fundamental educational philosophy.
-    
+> [!summary] Key takeaways
+> - Language is humanity's first general-purpose technology, not merely a biological endowment — recognising LLMs as the latest stage in this evolutionary continuum offers a more productive framing than treating them as unprecedented disruption.
+> - This evolutionary view suggests institutions should build on accumulated wisdom about integrating language technologies rather than constructing entirely new frameworks, because we have navigated each prior transition successfully.
+> - The shift from knowledge acquisition to cognitive partnership — from what you know to how effectively you can mobilise AI capabilities for contextual reasoning — is the central curriculum design challenge for health professions education.
+> - 'AI literacy' needs to mean more than prompt engineering: it requires understanding how language technologies shape thinking processes, embed power structures, and alter the nature of expertise itself.
+> - Assessment should evaluate students' capacity to leverage AI partnerships for meaningful clinical problem-solving, not test whether they can reproduce information without assistance.
 
 ## The technological nature of language
 

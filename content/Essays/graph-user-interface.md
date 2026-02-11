@@ -36,7 +36,7 @@ category:
   - AI and technology
   - Curriculum
 ---
-[!info] **About this essay**
+> [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: April 08, 2025
@@ -59,8 +59,7 @@ There are many ideas that inspired this essay, but these are the ones that most 
 - My own learning experiences using tools like [Obsidian](https://obsidian.md/) and [Hypothes.is](https://web.hypothes.is/)
 - The [emergent scholarship principles](/principles.md)
 
-**Abstract**
-
+### Abstract
 This essay critically examines the dominant interface paradigm for AI interaction today—text-entry fields, chronological chat histories, and project folders—arguing that these interfaces reinforce outdated container-based knowledge metaphors that are misaligned with how expertise develops in professional domains. Container-based approaches artificially segment knowledge that practitioners must mentally reintegrate, creating challenges in health professions education where practice demands integrative thinking across traditionally separated domains. The text-entry field, despite its ubiquity in AI interactions, simply recreates container thinking in conversational form, trapping information in linear streams that require scrolling rather than conceptual navigation.
 
 In this essay I explore graph-based interfaces as an alternative paradigm that better reflects how knowledge functions in professional contexts, and where AI serves as both conversational partner and network builder. In this environment, conversations occur within a visual landscape, spatially anchored to relevant concepts rather than isolated in chronological chat histories. Multimodal nodes represent knowledge across different modalities, while multi-dimensional navigation allows exploration beyond simple scrolling. Progressive complexity management addresses potential cognitive overload for novices while maintaining the graph as the fundamental organising metaphor.
@@ -70,6 +69,14 @@ Implementation opportunities include knowledge graph interfaces supported by cur
 > ...chatbots are an odd way to interact with an AI. It is as if the only way for us to do work is through texting an intern… except you are texting a different intern in every chat, one who forgets everything you had previously discussed, and whose memory starts to fail after just a couple of pages of text.
 > 
 > [Ethan Mollick](https://www.oneusefulthing.org/p/freeing-the-chatbot)
+
+
+> [!summary] Key takeaways
+> - Educational systems are trapped in a 'container' metaphor — from physical textbooks to digital folders to chronological chat histories — that artificially separates knowledge domains that practitioners must mentally reintegrate in clinical practice.
+> - Chat-based AI interfaces recreate container-based thinking in conversational form: related concepts separated by when they were discussed rather than how they relate, imposing the same cognitive reintegration burden.
+> - Graph-based interfaces — where AI conversations are spatially anchored to relevant concepts in a visual landscape — better reflect how professional expertise actually works: through navigating networks, not retrieving from containers.
+> - For health professions education, a patient with diabetes, depression, and chronic pain requires care spanning multiple knowledge domains simultaneously; graph interfaces make those interdependencies visible during learning, not just during practice.
+> - The barriers to implementation are less technological than conceptual and institutional — the necessary underlying technologies already exist; what needs to change is the collective attachment to container-based structures.
 
 ## The container crisis in professional education
 

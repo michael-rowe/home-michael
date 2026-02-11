@@ -48,18 +48,15 @@ category:
 > - **Keywords**: artificial intelligence, documentation debt, information architecture, infrastructure, knowledge management, operational architecture
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
-**Abstract**
-
+### Abstract
 Documentation — broadly understood as any structured knowledge used to achieve goals, including teaching materials, institutional policies, curriculum mapping documents, and assessment frameworks — undergoes a category shift when AI agents consume it as operational input. It moves from reference material, where inaccuracies are inconvenient but tolerable, to operational architecture, where inaccuracies cause system failures. This essay examines the shift through three conceptual lenses: from technical debt to documentation debt (the accumulated cost of outdated, ambiguous, or poorly structured information that becomes operationally consequential when AI agents depend on it); from reference material to operational architecture (a shift in function, not just quality); and from charitable human interpretation to literal machine execution. Drawing on personal experimentation with AI-integrated knowledge management and institutional analysis in higher education, the essay argues that the primary bottleneck for institutional AI integration is not AI capability but information architecture. Documentation debt creates artificial information scarcity: staff who created curriculum structure cannot efficiently query it, not because information is absent but because infrastructure makes it inaccessible. Well-structured operational architecture provides trust and auditability that unstructured approaches cannot, regardless of model capability. As AI accelerates the pace of institutional change, governance mechanisms designed around periodic review cycles become structurally inadequate, making this architectural shift not just an efficiency concern but a governance imperative.
 
-## Key takeaways
-
-1. **Documentation undergoes a category shift when AI agents are the readers.** It moves from reference material — where inaccuracies are inconvenient but tolerable — to operational architecture, where inaccuracies cause system failures. This is a change in what documentation *is*, not just how good it needs to be.
-2. **Documentation debt is the new technical debt.** Each instance of outdated content, ambiguous specification, or implicit assumption becomes a potential failure point when AI agents consume it literally, without the charitable interpretation that human readers provide.
-3. **The fundamental mismatch is between associative and typed knowledge.** Human cognition navigates through fuzzy connections and contextual inference; computational systems require typed relationships, explicit structure, and specified connections. This is not a limitation that better models will resolve.
-4. **The primary bottleneck for institutional AI integration is information architecture, not AI capability.** Most institutions already have access to models sophisticated enough to do genuinely useful work. What they lack is documentation structured in ways that allow those models to function reliably.
-5. **Well-structured operational architecture provides trust and auditability that unstructured approaches cannot.** A language model working with unstructured prose may produce plausible output, but typed relationships create a verification layer that makes AI reasoning auditable — a governance requirement at institutional scale.
-6. **When change becomes continuous, governance must become continuous too.** As AI accelerates the pace of curriculum change, quality assurance mechanisms designed around periodic review cycles become structurally inadequate. Documentation-as-infrastructure enables the real-time, continuous verification that responsive governance requires.
+> [!summary] Key takeaways
+> - When AI agents consume documentation as operational input, it undergoes a category shift: from reference material (where inaccuracies are tolerable) to operational architecture (where inaccuracies cause system failures).
+> - Documentation debt — the accumulated cost of outdated, ambiguous, or poorly structured institutional knowledge — becomes operationally consequential the moment AI agents depend on it literally, without the charitable interpretation human readers provide.
+> - The primary bottleneck for institutional AI integration is not AI capability but information architecture: whether institutional knowledge is structured in ways that allow models to function reliably.
+> - Typed, explicit relationships between entities create verifiable, auditable AI reasoning rather than just plausible output — a governance requirement that becomes increasingly important as AI takes on more operational roles.
+> - As AI accelerates the pace of institutional change, quality assurance mechanisms built for periodic review cycles become structurally inadequate; continuous governance requires continuously verifiable documentation.
 
 ## Introduction
 

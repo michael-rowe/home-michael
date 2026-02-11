@@ -49,17 +49,15 @@ category:
 > - **Preprint DOI**: [Why no DOI?](/notes/versions.md)
 > - **Peer reviewed**: No
 
-**Abstract**
-
+### Abstract
 Higher education institutions have responded to AI technologies by emphasising "prompt engineering"—teaching students technical skills for crafting effective AI queries. This essay argues that a focus on interaction mechanics represents a fundamental misunderstanding of both AI engagement and learning itself. Rather than the outcome of technical skills, prompts emerge from students' personal meaning-making frameworks—their individual contexts for determining what questions matter and what constitutes intellectual exploration, or 'academic integrity'. The institutional focus on prompt control reveals what I call the "learning alignment problem", where educational systems optimise for measurable proxies (grades, compliance, technical proficiency) rather than authentic learning outcomes (for example, traits like curiosity, understanding, intellectual development). AI acts as a mirror, highlighting that students were already circumventing meaningful engagement in favour of strategic optimisation for institutional rewards. When students use AI to complete assignments without learning, they reveal that assignments were already completable without genuine intellectual work. This analysis draws parallels to the value alignment problem in AI safety research—the difficulty of creating systems that pursue intended goals instead of optimising for specified metrics <!--Goodhart's Law-->. Educational institutions face similar challenges: we cannot directly measure what we say we value (learning), so we create proxies that students rationally optimise for, often moving further from authentic learning. The essay suggests that universities shift from control paradigms to cultivation paradigms - from teaching prompt engineering to fostering learning purpose, from managing student behaviour to creating conditions where thoughtful engagement emerges naturally. This means recognising that learning is inherently personal, contextual, and resistant to external specification. Educational environments must cultivate intellectual joy and curiosity rather than technical compliance, supporting students' meaning-making processes rather than standardising and seeking to control their interactions with AI.
 
-## Key takeaways
-
-1. **Prompt engineering misses the point**. Teaching students technical AI skills treats symptoms rather than causes. Instead, focus on helping students clarify their learning purposes rather than optimising their query construction.
-2. **AI exposes existing misalignment**. Student AI use highlights that educational systems were already optimising for performance over learning. The problem isn't the technology—it's the misaligned incentive structures.
-3. **Learning cannot be engineered**. Authentic learning is emergent, contextual, and personal—it resists external specification and control. Attempts to manage learning through detailed guidelines drive genuine intellectual engagement away.
-4. **Cultivate conditions, don't control behaviours**. Instead of restricting AI use, create educational environments where thoughtful AI partnership serves students' authentic learning goals. When learning feels genuinely valuable, students will naturally use AI to deepen their engagement with ideas.
-5. **Joy and curiosity drive sustainable learning**. Students who experience learning as joyful discovery engage with AI as thinking partners. Cultivating intellectual curiosity becomes crucial for preparing adaptive, lifelong learners.
+> [!summary] Key takeaways
+> - Institutions' focus on prompt engineering is a category error: it treats AI engagement as a technical skill to be managed, when prompts actually emerge from students' personal meaning-making frameworks — their sense of what questions matter.
+> - AI functions as a mirror that makes pre-existing misalignment visible: students were already optimising for grades over understanding; AI simply makes that optimisation more efficient and harder to ignore.
+> - The 'learning alignment problem' — educational systems optimising for measurable proxies rather than the outcomes they actually value — is structurally identical to the value alignment problem in AI safety research.
+> - For health professions educators, if students can generate patient care plans without developing care, or communication scenarios without developing interpersonal skills, the system is producing performative compliance rather than professional competence.
+> - The shift from control to cultivation — creating conditions where thoughtful AI engagement emerges naturally because learning feels genuinely valuable — is more effective than increasingly sophisticated detection and restriction systems.
 
 ## The prompting preoccupation
 

@@ -48,11 +48,18 @@ category:
 > - **Preprint DOI**: [Why no DOI?](/notes/versions.md)
 > - **Peer reviewed**: No
 
-**Abstract**
-
+### Abstract
 Contemporary discourse surrounding artificial intelligence demonstrates a persistent pattern of defensive positioning, characterised by attempts to identify capabilities that remain exclusively human. This sanctuary strategy creates increasingly fragile distinctions that position human and artificial intelligence as competitors for finite cognitive territory, establishing zero-sum relationships that constrain collaborative possibilities. Through critical analysis of binary thinking, this essay reveals how defensive approaches inadvertently diminish human agency while failing to address the practical challenges of navigating human-AI relationships. Drawing on systems thinking, the essay reframes human-AI relationships as embedded within complex cognitive ecologies where meaning emerges through interaction. This ecological perspective challenges our investment in human exceptionalism that privileges separation over collaborative participation, revealing how distinctiveness might emerge through sophisticated engagement rather than defensive isolation.
 
 The essay introduces **taste as a framework for cultivating contextual judgement** that transcends binary categorisation while preserving human agency over meaning-making and value determination. Unlike technical literacy that focuses on operational competency, taste involves iterative experimentation and reflection that enables sophisticated discernment about when, how, and why to engage AI capabilities in service of personally meaningful purposes. This approach transforms the limiting question, "What can humans do that AI cannot?" toward the more generative inquiry, "How might AI help us do more of what we value?" The essay describes how taste development enables abundance-oriented partnerships that expand rather than constrain human possibility through thoughtful collaboration with AI. The implications extend beyond individual capability to encompass potential transformations in professional practice, educational approaches, and cultural frameworks for understanding human-technological relationships. By repositioning human agency within collaborative systems, taste development offers a pathway toward more sophisticated and sustainable approaches to navigating increasingly complex technological landscapes while preserving human authorship over fundamental questions of purpose and meaning.
+
+
+> [!summary] Key takeaways
+> - The 'sanctuary strategy' — defending uniquely human capabilities as AI expands — creates an exhausting definitional retreat that positions humans as passive defenders of shrinking territory rather than architects of evolving partnerships.
+> - Reframing AI as part of a cognitive ecology dissolves the binary human-vs-AI competition and opens space for asking not 'what can humans do that AI cannot?' but 'how might AI help us do more of what we value?'
+> - 'Taste' — sophisticated contextual judgement about when, how, and why to engage AI in service of personally meaningful purposes — is the practical skill that replaces defensive positioning; it develops through iterative experimentation, not instruction.
+> - For health professions educators, this framework matters because it reframes the clinical educator's own relationship with AI: taste development preserves the professional judgement that defines clinical expertise while enabling productive partnership.
+> - Human distinctiveness in an AI age emerges through the quality of participation within collaborative systems, not through separation from them — a perspective that should inform how professional identity formation is taught.
 
 ## Introduction
 

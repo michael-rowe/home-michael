@@ -57,11 +57,18 @@ category:
 > - **Preprint DOI**: [Why no DOI?](/notes/versions.md)
 > - **Peer reviewed**: No
 
-**Abstract**
-
+### Abstract
 Higher education institutions face a fundamental choice in AI engagement that will determine whether they undergo genuine transformation or sophisticated preservation of existing paradigms. While institutional responses have centred on prompt engineering—teaching students to craft effective AI queries—this approach inadvertently reinforces hierarchical knowledge transmission models and container-based educational structures that increasingly misalign with professional practice. **Context engineering** emerges as a paradigmatic alternative that shifts focus from optimising individual AI interactions toward architecting persistent knowledge ecosystems. This demands sophisticated technical infrastructure including knowledge graphs capturing conceptual relationships, standardised protocols enabling federated intelligence, and persistent memory systems accumulating understanding over time. These technologies enable epistemic transformations that fundamentally reconceptualise how knowledge exists and operates within educational environments.
 
 Rather than discrete curricular containers, knowledge exists as interconnected networks where concepts gain meaning through relationships to broader understanding frameworks. Dynamic knowledge integration enables real-time incorporation of emerging research and community insights, while collaborative construction processes challenge traditional academic gatekeeping through democratic validation involving multiple stakeholder communities. The systemic implications prove profound, demanding governance reconceptualisation, substantial infrastructure investment, and operational transformation that most institutions currently lack capabilities to address effectively. Context engineering creates technical dependencies making traditional educational approaches increasingly untenable, establishing path dependencies favouring continued transformation over reversion to familiar paradigms. This analysis reveals context engineering as a potential watershed moment for higher education institutions seeking educational relevance and technological sophistication within rapidly evolving contexts that traditional academic structures struggle to address effectively. By enabling context sovereignty—the learner's ability to maintain control over their meaning-making frameworks—context engineering creates possibilities for educational partnerships that enhance rather than diminish human intellectual capacity.
+
+
+> [!summary] Key takeaways
+> - Prompt engineering — the dominant institutional response to AI — inadvertently preserves container-based education because it keeps every AI interaction stateless and episodic, placing the burden of re-contextualisation entirely on the learner.
+> - Context engineering shifts focus from optimising individual interactions to architecting persistent knowledge ecosystems: knowledge graphs, federated intelligence protocols, and memory systems that accumulate understanding across sessions.
+> - Infrastructure choices made now — knowledge graphs vs vector databases, local vs cloud models — are not neutral; they embed fundamentally different assumptions about what knowledge is and how expertise develops.
+> - For health professions education, networked knowledge architectures (where cardiovascular disease connects anatomy, pharmacology, and pathophysiology simultaneously) better reflect clinical reasoning than the modular containers that currently dominate curricula.
+> - The systemic implications are profound and path-dependent: institutions that build context engineering infrastructure make traditional container-based approaches increasingly untenable over time.
 
 ## Introduction
 

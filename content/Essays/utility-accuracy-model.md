@@ -47,9 +47,16 @@ category:
 > - **Keywords**: AI tutoring, educational technology, engagement, learning outcomes, accessibility paradox
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
-## Abstract
-
+### Abstract
 Educational support systems have long prioritised accuracy as the primary metric of quality, resulting in technically excellent resources that nonetheless may remain largely unused. We present a mathematical framework demonstrating that AI tutoring systems with 10-15% error rates might achieve superior learning outcomes through increased engagement compared to more accurate but less accessible alternatives. We show that the multiplicative relationship between accuracy and utilisation creates an "accessibility paradox" where imperfect-but-engaging systems outperform perfect-but-unused ones. Furthermore, we argue that education's inherent error correction mechanisms and the pedagogical value of critical evaluation make this domain particularly suited for moderate-accuracy AI deployment. Our framework provides quantitative thresholds for acceptable error rates and challenges the prevailing assumption that educational AI must meet the same accuracy standards as, for example, diagnostic AI in healthcare.
+
+
+> [!summary] Key takeaways
+> - Educational institutions demand near-perfect AI accuracy by conflating two fundamentally different contexts: diagnostic AI (where errors are high-stakes and irreversible) and educational AI (where errors are caught through practice, discussion, and instructor oversight).
+> - The 'accessibility paradox' shows mathematically that a 90% accurate AI tutor used by 70% of students produces better learning outcomes than a 99% accurate system used by 10% — because net benefit equals accuracy multiplied by utilisation, not accuracy alone.
+> - Education's natural error-correction mechanisms (feedback loops, peer discussion, cumulative assessment, instructor oversight) make moderate AI inaccuracy far more tolerable than in clinical settings — and properly framed, AI errors develop critical evaluation skills.
+> - The largest learning gains from AI tutoring appear in struggling students, suggesting accessible AI tutoring could reduce rather than exacerbate achievement gaps — a significant equity argument for health professions education pipelines.
+> - Policy should shift from asking 'is it accurate enough?' to 'what is the net benefit to student learning?' — a population-level, outcome-focused evaluation framework rather than a threshold-accuracy compliance model.
 
 ## 1. Introduction
 

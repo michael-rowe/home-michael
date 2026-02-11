@@ -44,9 +44,16 @@ category:
 > - **Preprint DOI**: [Why no DOI?](/notes/versions.md)
 > - **Peer reviewed**: No
 
-**Abstract**
-
+### Abstract
 Traditional education systems are built on a paradox: institutions dedicated to learning are structured almost entirely around teaching. This fundamental misalignment has persisted for centuries, with higher education operating on the assumption that teaching inevitably produces learning. This paper argues that the traditional model, where knowledge flows unidirectionally from expert to novice, no longer serves a world of information abundance and technological disruption. Emergent scholarship offers an alternative approach that reconceptualises learning as a complex, networked process emerging from connections rather than transmission. By shifting from knowledge authority to learning facilitation, educators can create environments where diverse participants contribute to collective understanding, challenging hierarchies that position faculty as sole knowledge producers. This transformation is particularly urgent as artificial intelligence develops capabilities once exclusive to human experts, fundamentally altering the educational landscape. Rather than fighting these technological changes, emergent scholarship integrates them as participants in the learning ecosystem while focusing on uniquely human capabilities like critical thinking and collaborative problem-solving. The shift from teaching hierarchies to learning networks requires reimagining not just pedagogical approaches but institutional structures, potentially creating educational environments that better prepare graduates for complexity and uncertainty while fostering more engaging experiences for all participants.
+
+
+> [!summary] Key takeaways
+> - Institutions dedicated to learning are structured almost entirely around teaching, on the assumption that teaching inevitably produces learning — an assumption that does not survive scrutiny in an age of information abundance.
+> - Information abundance and AI capability have undermined the knowledge-scarcity rationale for teaching hierarchies; the most valuable educational role is no longer transmitting information but helping learners navigate, evaluate, and connect it.
+> - Emergent scholarship positions educators as facilitators who create conditions for learning, contributing expertise as one node in a distributed network — a shift that expands rather than diminishes faculty impact.
+> - Diverse perspectives including lived experience, cultural context, and practical wisdom enrich knowledge creation in ways that credentialled expertise alone cannot; students are not just receivers but potential contributors.
+> - As AI develops capabilities once exclusive to human experts, health professions education must focus on what AI cannot readily replicate: ethical reasoning, collaborative problem-solving, and the professional identity formation that comes from navigating genuine uncertainty.
 
 ## The great inversion
 

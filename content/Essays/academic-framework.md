@@ -56,9 +56,16 @@ category:
 
 ---
 
-**Abstract**
-
+### Abstract
 Health professions education faces a significant challenge: graduates are simultaneously overwhelmed with information yet under-prepared for complex practice environments. Meanwhile, artificial intelligence (AI) tools are being rapidly adopted by students, revealing fundamental gaps in traditional educational approaches. This paper introduces the ACADEMIC framework, a theoretically grounded approach to integrating AI into health professions education (HPE) that shifts focus from assessing outputs to supporting learning processes. Drawing on social constructivism, critical pedagogy, complexity theory, and connectivism, I analysed learning interactions across six dimensions: power dynamics, knowledge representation, agency, contextual influence, identity formation, and temporality. From this comparative analysis emerged seven principles—Augmented dialogue, Critical consciousness, Adaptive expertise development, Dynamic contexts, Emergent curriculum design, Metacognitive development, and Interprofessional Community knowledge building—that guide the integration of AI into HPE. Rather than viewing AI as a tool for efficient content delivery or a threat to academic integrity, the ACADEMIC framework positions AI as a partner in learning that can address longstanding challenges. The framework emphasises that most students are not natural autodidacts and need guidance in learning with AI rather than simply using it to produce better outputs. By reframing the relationship between students and AI, educators can create learning environments that more authentically prepare professionals for the complexity, uncertainty, and collaborative demands of contemporary healthcare practice.
+
+
+> [!summary] Key takeaways
+> - Health professions graduates are simultaneously information-overloaded and underprepared for complex practice — AI adoption is already happening among students, making educator engagement unavoidable rather than optional.
+> - The ACADEMIC framework reframes AI not as a threat to academic integrity but as a potential dialogic partner supporting the social processes through which professional knowledge is actually constructed.
+> - Most students are not natural autodidacts: giving them AI access without pedagogical guidance risks producing outputs rather than developing the reasoning capabilities healthcare demands.
+> - The seven principles translate four learning theories into concrete design guidance, shifting focus from knowledge transmission to the relational conditions in which professional expertise grows.
+> - Assessment should move from products (essays, answers) toward observable learning behaviours and processes — better reflecting what clinical practice actually requires of graduates.
 
 ## Introduction
 
