@@ -42,7 +42,7 @@ A developmental framework for building AI literacy across six dimensions, from b
 
 </div>
 
-## <i class="ph ph-compass"></i> Explore
+## Explore
 
 Browse by [[formats|format]] or [[topics|topic]].
 

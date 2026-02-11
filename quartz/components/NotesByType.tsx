@@ -1,91 +1,99 @@
-import { FullSlug, resolveRelative } from "../util/path"
+import { resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { Date, getDate } from "./Date"
-import { QuartzComponent, QuartzComponentProps } from "./types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { byDateAndAlphabetical } from "./PageList"
 
-interface TypeGroup {
-  type: string
-  notes: QuartzPluginData[]
+interface TypeConfig {
+  label: string
+  description: string
+  icon: string
 }
+
+const typeConfigs: Record<string, TypeConfig> = {
+  post: {
+    label: "Posts",
+    description: "Short-form thinking — commentary and quick takes on emerging ideas.",
+    icon: "ph-pencil-simple",
+  },
+  essay: {
+    label: "Essays",
+    description: "Long-form academic writing — structured arguments with abstracts and citations.",
+    icon: "ph-file-text",
+  },
+  note: {
+    label: "Notes",
+    description: "Concept notes — atomic ideas and working definitions for quick reference.",
+    icon: "ph-note",
+  },
+  course: {
+    label: "Courses",
+    description: "Structured learning — multi-lesson programmes with sequenced content.",
+    icon: "ph-graduation-cap",
+  },
+}
+
+const typeOrder = ["post", "essay", "note", "course"]
 
 export const NotesByType: QuartzComponent = ({ cfg, fileData, allFiles }: QuartzComponentProps) => {
   const sorter = byDateAndAlphabetical(cfg)
 
-  // Group notes by type
   const typeGroups = new Map<string, QuartzPluginData[]>()
-
   for (const note of allFiles) {
     const type = note.frontmatter?.type
     if (type && typeof type === "string") {
-        const normalizedType = type.trim();
-        if (!typeGroups.has(normalizedType)) {
-          typeGroups.set(normalizedType, [])
-        }
-        typeGroups.get(normalizedType)!.push(note)
+      const normalizedType = type.trim()
+      if (!typeConfigs[normalizedType]) continue
+      if (!typeGroups.has(normalizedType)) typeGroups.set(normalizedType, [])
+      typeGroups.get(normalizedType)!.push(note)
     }
   }
 
-  // Sort notes within each type group and sort types alphabetically
-  // We might want a custom order, but alphabetical is a safe default.
-  // The user might want "Courses", "Essays", "Posts", "Notes" order.
-  // I'll stick to alphabetical for now, or move specific ones to top if needed.
-  const sortedTypeGroups: TypeGroup[] = Array.from(typeGroups.entries())
-    .map(([type, notes]) => ({
-      type,
-      notes: notes.sort(sorter),
-    }))
-    .sort((a, b) => a.type.localeCompare(b.type))
-
-  // Helper to pluralize/capitalize header
-  const getHeader = (type: string) => {
-     // Simple pluralization: add 's' if not ending in 's'
-     // Capitalize first letter
-     let header = type.charAt(0).toUpperCase() + type.slice(1);
-     if (!header.endsWith('s')) header += 's';
-     return header;
-  }
+  const sortedGroups = typeOrder
+    .filter((type) => typeGroups.has(type))
+    .map((type) => ({ type, notes: typeGroups.get(type)!.sort(sorter) }))
 
   return (
     <div class="notes-by-type">
-      {sortedTypeGroups.map(({ type, notes }) => {
-        const header = getHeader(type)
+      <div class="type-overview-grid">
+        {sortedGroups.map(({ type, notes }) => {
+          const config = typeConfigs[type]
+          return (
+            <a href={`#type-${type}`} class="type-overview-card">
+              <div class={`content-type content-type--${type}`}>
+                <i class={`ph ${config.icon}`}></i>
+                <span>{config.label}</span>
+              </div>
+              <p class="type-overview-description">{config.description}</p>
+              <span class="type-overview-count">
+                {notes.length} {notes.length === 1 ? "item" : "items"}
+              </span>
+            </a>
+          )
+        })}
+      </div>
+
+      {sortedGroups.map(({ type, notes }) => {
+        const config = typeConfigs[type]
         return (
-          <section class="type-section">
-            <div class="type-header">
-              <h2 class="type-title">
-                {header}
-              </h2>
-              <span class="type-count">{notes.length} items</span>
-            </div>
-
+          <section class="type-section" id={`type-${type}`}>
+            <h2 class="type-section-title">{config.label}</h2>
             <ul class="type-notes-list">
-              {notes.map((note) => {
-                const title = note.frontmatter?.title
-                const description = note.frontmatter?.description ?? note.description ?? ""
-
-                return (
-                  <li class="type-note-item">
-                    <div class="type-note-content">
-                      <div class="type-note-header">
-                        <h3 class="type-note-title">
-                          <a href={resolveRelative(fileData.slug!, note.slug!)} class="internal">
-                            {title}
-                          </a>
-                        </h3>
-                        {note.dates && (
-                          <time class="type-note-date">
-                            <Date date={getDate(cfg, note)!} locale={cfg.locale} />
-                          </time>
-                        )}
-                      </div>
-                      {description && (
-                        <p class="type-note-description">{description}</p>
-                      )}
-                    </div>
-                  </li>
-                )
-              })}
+              {notes.map((note) => (
+                <li class="type-note-item">
+                  <a
+                    href={resolveRelative(fileData.slug!, note.slug!)}
+                    class="type-note-link internal"
+                  >
+                    {note.frontmatter?.title}
+                  </a>
+                  {note.dates && (
+                    <time class="type-note-date">
+                      <Date date={getDate(cfg, note)!} locale={cfg.locale} />
+                    </time>
+                  )}
+                </li>
+              ))}
             </ul>
           </section>
         )
@@ -96,111 +104,92 @@ export const NotesByType: QuartzComponent = ({ cfg, fileData, allFiles }: Quartz
 
 NotesByType.css = `
 .notes-by-type {
+  margin-top: 1.5rem;
+}
+
+.type-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.type-overview-card {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
-  margin-top: 2rem;
+  gap: 0.5rem;
+  padding: 1rem 1.25rem;
+  background-color: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  text-decoration: none !important;
+  transition: border-color 0.15s ease;
+}
+
+.type-overview-card:hover {
+  border-color: var(--secondary);
+}
+
+.type-overview-description {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--darkgray);
+  line-height: 1.4;
+  flex-grow: 1;
+}
+
+.type-overview-count {
+  font-size: 0.8rem;
+  color: var(--gray);
 }
 
 .type-section {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  margin-bottom: 2.5rem;
+  scroll-margin-top: 2rem;
 }
 
-.type-header {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 1rem;
-  border-bottom: 2px solid var(--lightgray);
-  padding-bottom: 0.5rem;
-}
-
-.type-title {
-  margin: 0;
-  font-size: 1.5rem;
+.type-section-title {
+  font-size: 1.2rem;
   font-weight: 700;
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--lightgray);
   color: var(--dark);
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.type-count {
-  font-size: 0.9rem;
-  color: var(--gray);
 }
 
 .type-notes-list {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
 }
 
 .type-note-item {
-  margin: 0;
-  padding: 0;
-}
-
-.type-note-content {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.type-note-header {
   display: flex;
   align-items: baseline;
-  gap: 1rem;
-  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid var(--lightgray);
 }
 
-.type-note-title {
-  margin: 0;
-  font-size: 1.1rem;
-  font-weight: 600;
+.type-note-item:last-child {
+  border-bottom: none;
+}
+
+.type-note-link {
   flex-grow: 1;
+  color: var(--dark) !important;
+  text-decoration: none !important;
+  font-size: 0.95rem;
 }
 
-.type-note-title a {
-  color: var(--dark);
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.type-note-title a:hover {
-  color: var(--secondary);
+.type-note-link:hover {
+  color: var(--secondary) !important;
 }
 
 .type-note-date {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--gray);
   white-space: nowrap;
-}
-
-.type-note-description {
-  margin: 0;
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: var(--darkgray);
-}
-
-@media (max-width: 768px) {
-  .type-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
-  }
-
-  .type-note-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.25rem;
-  }
 }
 `
 
