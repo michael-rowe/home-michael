@@ -13,7 +13,7 @@ tags:
   - knowledge-graphs
   - information-architecture
   - context-engineering
-category: "knowledge management"
+category: Knowledge management
 related:
   - "[[context engineering]]"
   - "[[graphRAG]]"

@@ -15,7 +15,7 @@ tags:
   - policy
   - template
 category:
-  - AI literacy
+  - AI and technology
 related:
   - '[[AI literacy]]'
   - '[[AI literacy development framework]]'

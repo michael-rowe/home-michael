@@ -9,7 +9,7 @@ author: '[[Michael Rowe]]'
 category:
   - AI and technology
 tags:
-  - AI literacy
+  - AI and technology
   - prompting
   - communication
   - AI integration

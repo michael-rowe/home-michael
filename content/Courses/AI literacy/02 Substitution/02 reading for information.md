@@ -10,7 +10,7 @@ author: '[[Michael Rowe]]'
 category:
   - AI and technology
 tags:
-  - AI literacy
+  - AI and technology
   - AI integration
   - information retrieval
 ---
