@@ -6,12 +6,6 @@ description: >-
   Move beyond information extraction to developing genuine working competence in
   unfamiliar methodologies and theoretical frameworks.
 author: '[[Michael Rowe]]'
-category:
-  - AI and technology
-tags:
-  - AI and technology
-  - AI integration
-  - learning design
 ---
 
 > [!info] Lesson overview

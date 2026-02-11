@@ -6,12 +6,6 @@ description: >-
   Build persistent AI partnerships with accumulated context about your research,
   disciplinary conventions, and scholarly goals.
 author: '[[Michael Rowe]]'
-category:
-  - AI and technology
-tags:
-  - AI and technology
-  - context sovereignty
-  - context engineering
 ---
 
 > [!info] Lesson overview

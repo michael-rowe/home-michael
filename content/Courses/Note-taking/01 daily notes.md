@@ -6,11 +6,6 @@ description: >-
   Establish a reliable daily practice to externalise your working memory and
   reduce cognitive load.
 author: '[[Michael Rowe]]'
-category:
-  - Knowledge management
-tags:
-  - note-taking
-  - personal knowledge management
 ---
 > [!info] Lesson overview
 > **Objective:** Establish a habit of writing daily notes

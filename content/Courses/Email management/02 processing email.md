@@ -6,12 +6,6 @@ description: >-
   Develop a process-oriented approach to email that minimizes back-and-forth
   exchanges and creates mental clarity.
 author: '[[Michael Rowe]]'
-category:
-  - Professional development
-tags:
-  - email management
-  - productivity
-  - information management
 ---
 
 > [!info] Lesson overview

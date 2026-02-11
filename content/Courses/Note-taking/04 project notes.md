@@ -6,11 +6,6 @@ description: >-
   Create bounded spaces for complex, extended work to track meetings, tasks, and
   resources throughout a project's lifecycle.
 author: '[[Michael Rowe]]'
-category:
-  - Knowledge management
-tags:
-  - note-taking
-  - personal knowledge management
 ---
 > [!info] Lesson overview
 > **Objective:** Provide structure for projects through notes

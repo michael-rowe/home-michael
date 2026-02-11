@@ -7,12 +7,6 @@ description: >-
   knowledge work and why developing these skills matters for your academic
   career.
 author: '[[Michael Rowe]]'
-category:
-  - Knowledge management
-tags:
-  - information management
-  - personal knowledge management
-  - information architecture
 ---
 
 > Knowledge work is really craftsmanship. It's just that what you're crafting is information and not carved wood. You're crafting ideas. You're crafting knowledge out of raw material and the more you think about it like a craftsman, the happier and more satisfied you'll be.

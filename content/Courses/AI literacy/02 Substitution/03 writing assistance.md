@@ -6,12 +6,6 @@ description: >-
   Use AI as writing coach for overcoming blocks, receiving feedback, and
   collaborative drafting without losing your distinctive voice.
 author: '[[Michael Rowe]]'
-category:
-  - AI and technology
-tags:
-  - AI and technology
-  - AI integration
-  - academic writing
 ---
 
 > [!info] Lesson overview

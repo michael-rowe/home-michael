@@ -7,11 +7,6 @@ description: >-
   categories, energy levels, location, or projects to reduce context-switching
   and maintain calm productivity.
 author: '[[Michael Rowe]]'
-category:
-  - Professional development
-tags:
-  - time management
-  - productivity
 ---
 
 > [!info] Lesson overview

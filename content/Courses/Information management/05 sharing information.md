@@ -6,12 +6,6 @@ description: >-
   Increase your career capital by sharing what you learn through practices that
   demonstrate your thinking and create value for others.
 author: '[[Michael Rowe]]'
-category:
-  - Knowledge management
-tags:
-  - information management
-  - communication
-  - personal knowledge management
 ---
 
 > [!info] Lesson overview

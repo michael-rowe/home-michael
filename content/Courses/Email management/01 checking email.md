@@ -6,12 +6,6 @@ description: >-
   Create intentional boundaries around your email habits to protect your
   cognitive energy for high-value work.
 author: '[[Michael Rowe]]'
-category:
-  - Professional development
-tags:
-  - email management
-  - productivity
-  - communication
 ---
 
 > [!info] Lesson overview

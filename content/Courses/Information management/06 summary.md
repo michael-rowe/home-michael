@@ -8,11 +8,6 @@ description: >-
   put them into sustained practice.
 author: '[[Michael Rowe]]'
 course: Information management
-category:
-  - Knowledge management
-tags:
-  - information management
-  - personal knowledge management
 ---
 
 # Summary

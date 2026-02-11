@@ -6,13 +6,6 @@ description: >-
   Learn to communicate effectively with AI through structured prompting and
   context sovereignty.
 author: '[[Michael Rowe]]'
-category:
-  - AI and technology
-tags:
-  - AI and technology
-  - prompting
-  - communication
-  - AI integration
 ---
 
 > The single biggest problem in communication is the illusion that it has taken place.

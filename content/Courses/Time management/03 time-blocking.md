@@ -7,11 +7,6 @@ description: >-
   context-switching, and create intentional daily structure that supports
   meaningful academic progress.
 author: '[[Michael Rowe]]'
-category:
-  - Professional development
-tags:
-  - time management
-  - productivity
 ---
 
 > [!info] Lesson overview

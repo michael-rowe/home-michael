@@ -6,12 +6,6 @@ description: >-
   Integrate sustainable self-care practices into your academic workflow to
   create the conditions for meaningful, high-value work.
 author: '[[Michael Rowe]]'
-category:
-  - Professional development
-tags:
-  - career development
-  - professional development
-  - professional practice
 ---
 
 > [!info] Lesson overview

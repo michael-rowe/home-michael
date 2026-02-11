@@ -7,12 +7,6 @@ description: >-
   practices for systematic extraction that transforms captured sources into
   workable materials.
 author: '[[Michael Rowe]]'
-category:
-  - Knowledge management
-tags:
-  - information management
-  - information retrieval
-  - personal knowledge management
 ---
 
 > [!info] Lesson overview

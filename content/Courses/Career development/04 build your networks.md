@@ -7,12 +7,6 @@ description: >-
   different roles and building meaningful relationships that create value for
   your communities.
 author: '[[Michael Rowe]]'
-category:
-  - Professional development
-tags:
-  - career development
-  - professional development
-  - collaboration
 ---
 
 > [!info] Lesson overview

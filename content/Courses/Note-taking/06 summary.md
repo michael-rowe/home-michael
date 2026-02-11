@@ -6,11 +6,6 @@ description: >-
   Review the complete note-taking framework and reflect on how to maintain a
   sustainable, lifelong knowledge system.
 author: '[[Michael Rowe]]'
-category:
-  - Knowledge management
-tags:
-  - note-taking
-  - personal knowledge management
 ---
 
 The aim of this course was to **create a note-taking framework that provides an extension to your working and long-term memory,** enabling you to focus on what matters.

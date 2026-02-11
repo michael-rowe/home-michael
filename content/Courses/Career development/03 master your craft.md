@@ -7,12 +7,6 @@ description: >-
   systematically improved through deliberate practice and sustainable daily
   routines.
 author: '[[Michael Rowe]]'
-category:
-  - Professional development
-tags:
-  - career development
-  - professional development
-  - professional practice
 ---
 
 > [!info] Lesson overview

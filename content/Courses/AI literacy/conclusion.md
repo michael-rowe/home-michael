@@ -6,11 +6,6 @@ description: >-
   Reflecting on your AI literacy development and planning for ongoing
   cultivation of capability across all six dimensions.
 author: '[[Michael Rowe]]'
-category:
-  - AI and technology
-tags:
-  - AI and technology
-  - AI integration
 ---
 
 ## Sustaining and developing AI literacy

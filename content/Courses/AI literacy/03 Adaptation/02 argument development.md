@@ -6,12 +6,6 @@ description: >-
   Develop strong arguments through systematic pre-writing exploration—testing
   claims, surfacing assumptions, and anticipating counterarguments.
 author: '[[Michael Rowe]]'
-category:
-  - AI and technology
-tags:
-  - AI and technology
-  - academic writing
-  - critical thinking
 ---
 
 > [!info] Lesson overview

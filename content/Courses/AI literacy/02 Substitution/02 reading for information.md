@@ -7,12 +7,6 @@ description: >-
   critical reading practices and understanding the difference between extraction
   and competence.
 author: '[[Michael Rowe]]'
-category:
-  - AI and technology
-tags:
-  - AI and technology
-  - AI integration
-  - information retrieval
 ---
 
 > [!info] Lesson overview

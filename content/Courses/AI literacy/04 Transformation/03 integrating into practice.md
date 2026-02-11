@@ -6,12 +6,6 @@ description: >-
   Make AI literacy practices automatic through workflow redesign rather than
   relying on willpower.
 author: '[[Michael Rowe]]'
-category:
-  - AI and technology
-tags:
-  - AI and technology
-  - AI integration
-  - professional practice
 ---
 
 > [!info] Lesson overview
