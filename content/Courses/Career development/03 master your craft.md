@@ -2,8 +2,17 @@
 type: lesson
 title: Master your craft
 lesson: 3
-description: Break down complex academic work into specific capabilities that can be systematically improved through deliberate practice and sustainable daily routines.
-author: "[[Michael Rowe]]"
+description: >-
+  Break down complex academic work into specific capabilities that can be
+  systematically improved through deliberate practice and sustainable daily
+  routines.
+author: '[[Michael Rowe]]'
+category:
+  - Professional development
+tags:
+  - career development
+  - professional development
+  - professional practice
 ---
 
 > [!info] Lesson overview

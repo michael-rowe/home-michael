@@ -2,8 +2,15 @@
 type: lesson
 title: Introduction
 lesson: 0
-description: Understand why time management matters for protecting your focus and creating space for meaningful academic work.
-author: "[[Michael Rowe]]"
+description: >-
+  Understand why time management matters for protecting your focus and creating
+  space for meaningful academic work.
+author: '[[Michael Rowe]]'
+category:
+  - Professional development
+tags:
+  - time management
+  - productivity
 ---
 
 > A schedule defends from chaos and whim. It is a net for catching days…it is a peace and a haven set into the wreck of time.

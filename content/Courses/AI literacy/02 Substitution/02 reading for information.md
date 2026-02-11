@@ -2,8 +2,17 @@
 type: lesson
 title: Reading for information
 lesson: 4
-description: Extract information efficiently from academic papers while maintaining critical reading practices and understanding the difference between extraction and competence.
-author: "[[Michael Rowe]]"
+description: >-
+  Extract information efficiently from academic papers while maintaining
+  critical reading practices and understanding the difference between extraction
+  and competence.
+author: '[[Michael Rowe]]'
+category:
+  - AI and technology
+tags:
+  - AI literacy
+  - AI integration
+  - information retrieval
 ---
 
 > [!info] Lesson overview

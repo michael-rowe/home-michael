@@ -13,7 +13,9 @@ updated: 2026-02-05T00:00:00.000Z
 tags:
   - higher-education
   - institutional-dynamics
-category: null
+category:
+  - Assessment
+  - AI and technology
 related:
   - '[[assessment as an arms race]]'
   - '[[how to create an AI arms race dynamics in university assessment]]'

@@ -2,8 +2,17 @@
 type: lesson
 title: Prompting and communication
 lesson: 2
-description: Learn to communicate effectively with AI through structured prompting and context sovereignty.
-author: "[[Michael Rowe]]"
+description: >-
+  Learn to communicate effectively with AI through structured prompting and
+  context sovereignty.
+author: '[[Michael Rowe]]'
+category:
+  - AI and technology
+tags:
+  - AI literacy
+  - prompting
+  - communication
+  - AI integration
 ---
 
 > The single biggest problem in communication is the illusion that it has taken place.

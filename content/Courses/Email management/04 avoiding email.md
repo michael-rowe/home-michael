@@ -2,8 +2,16 @@
 type: lesson
 title: Avoiding email
 lesson: 4
-description: Explore alternative communication channels that save time, preserve mental energy, and build better relationships.
-author: "[[Michael Rowe]]"
+description: >-
+  Explore alternative communication channels that save time, preserve mental
+  energy, and build better relationships.
+author: '[[Michael Rowe]]'
+category:
+  - Professional development
+tags:
+  - email management
+  - productivity
+  - communication
 ---
 
 > [!info] Lesson overview

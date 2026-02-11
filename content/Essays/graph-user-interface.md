@@ -73,6 +73,9 @@ tags:
   - higher-education
   - user-interface
   - emergent-scholarship
+category:
+  - AI and technology
+  - Curriculum
 ---
 [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))

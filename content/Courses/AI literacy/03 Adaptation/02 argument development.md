@@ -2,8 +2,16 @@
 type: lesson
 title: Argument development
 lesson: 7
-description: Develop strong arguments through systematic pre-writing exploration—testing claims, surfacing assumptions, and anticipating counterarguments.
-author: "[[Michael Rowe]]"
+description: >-
+  Develop strong arguments through systematic pre-writing exploration—testing
+  claims, surfacing assumptions, and anticipating counterarguments.
+author: '[[Michael Rowe]]'
+category:
+  - AI and technology
+tags:
+  - AI literacy
+  - academic writing
+  - critical thinking
 ---
 
 > [!info] Lesson overview

@@ -2,8 +2,16 @@
 type: lesson
 title: Creating content efficiently
 lesson: 3
-description: Apply functional application literacy to routine content creation using structured prompting while developing critical evaluation skills.
-author: "[[Michael Rowe]]"
+description: >-
+  Apply functional application literacy to routine content creation using
+  structured prompting while developing critical evaluation skills.
+author: '[[Michael Rowe]]'
+category:
+  - AI and technology
+tags:
+  - AI literacy
+  - AI integration
+  - academic writing
 ---
 > [!info] Lesson overview
 > **Objective:** Apply functional application literacy to routine content creation—using structured prompting to streamline common academic tasks while developing critical evaluation skills

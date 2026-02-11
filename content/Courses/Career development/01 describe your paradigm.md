@@ -2,8 +2,16 @@
 type: lesson
 title: Describe your paradigm
 lesson: 1
-description: Examine the deeply held beliefs and assumptions that shape your academic practice and develop more intentional approaches.
-author: "[[Michael Rowe]]"
+description: >-
+  Examine the deeply held beliefs and assumptions that shape your academic
+  practice and develop more intentional approaches.
+author: '[[Michael Rowe]]'
+category:
+  - Professional development
+tags:
+  - career development
+  - professional identity
+  - professional practice
 ---
 
 > [!info] Lesson overview

@@ -62,6 +62,8 @@ modified: 2026-02-10T00:00:00.000Z
 tags:
   - higher-education
   - emergent-scholarship
+category:
+  - Pedagogy
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))

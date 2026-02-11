@@ -2,8 +2,17 @@
 type: lesson
 title: Cultivating taste
 lesson: 10
-description: Develop professional judgement about meaningful engagement that can't be reduced to rules.
-author: "[[Michael Rowe]]"
+description: >-
+  Develop professional judgement about meaningful engagement that can't be
+  reduced to rules.
+author: '[[Michael Rowe]]'
+category:
+  - AI and technology
+tags:
+  - AI literacy
+  - judgement
+  - taste
+  - discernment
 ---
 
 > [!info] Lesson overview

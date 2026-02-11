@@ -12,7 +12,10 @@ created: 2026-01-29T00:00:00.000Z
 updated: 2026-01-29T00:00:00.000Z
 status: working
 needs_review: false
-tags: []
+tags:
+  - AI literacy
+  - digital literacy
+  - learning design
 category:
   - AI and technology
 related:

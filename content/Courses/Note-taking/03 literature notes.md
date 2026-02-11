@@ -2,8 +2,16 @@
 type: lesson
 title: Literature notes
 lesson: 3
-description: Document your critical observations and questions as you engage with sources, moving beyond passive consumption to active intellectual engagement.
-author: "[[Michael Rowe]]"
+description: >-
+  Document your critical observations and questions as you engage with sources,
+  moving beyond passive consumption to active intellectual engagement.
+author: '[[Michael Rowe]]'
+category:
+  - Knowledge management
+tags:
+  - note-taking
+  - personal knowledge management
+  - research methods
 ---
 > [!info] Lesson overview
 > **Objective:** Write literature notes as part of your reading practice

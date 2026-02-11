@@ -2,8 +2,17 @@
 type: lesson
 title: Build your networks
 lesson: 4
-description: Strategically position yourself within professional networks by understanding different roles and building meaningful relationships that create value for your communities.
-author: "[[Michael Rowe]]"
+description: >-
+  Strategically position yourself within professional networks by understanding
+  different roles and building meaningful relationships that create value for
+  your communities.
+author: '[[Michael Rowe]]'
+category:
+  - Professional development
+tags:
+  - career development
+  - professional development
+  - collaboration
 ---
 
 > [!info] Lesson overview

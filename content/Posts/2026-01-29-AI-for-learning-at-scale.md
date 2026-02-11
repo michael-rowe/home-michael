@@ -23,7 +23,9 @@ updated: 2026-01-30T00:00:00.000Z
 tags:
   - higher-education
   - values
-category: null
+category:
+  - Pedagogy
+  - AI and technology
 related:
   - '[[Essays/learning-alignment]]'
   - >-

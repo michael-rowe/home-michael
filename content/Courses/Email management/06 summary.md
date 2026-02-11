@@ -2,8 +2,15 @@
 type: lesson
 title: Summary
 lesson: 6
-description: Review the strategies for email management and commit to an intentional approach that prioritises your attention.
-author: "[[Michael Rowe]]"
+description: >-
+  Review the strategies for email management and commit to an intentional
+  approach that prioritises your attention.
+author: '[[Michael Rowe]]'
+category:
+  - Professional development
+tags:
+  - email management
+  - productivity
 ---
 
 The aim of this course was to develop a healthier relationship with email, where your daily workload isn't determined by the order of the messages in your inbox.

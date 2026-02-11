@@ -2,8 +2,16 @@
 type: lesson
 title: Problem decomposition
 lesson: 8
-description: Break down complex academic problems from multiple theoretical and methodological angles.
-author: "[[Michael Rowe]]"
+description: >-
+  Break down complex academic problems from multiple theoretical and
+  methodological angles.
+author: '[[Michael Rowe]]'
+category:
+  - AI and technology
+tags:
+  - AI literacy
+  - AI integration
+  - critical thinking
 ---
 
 > [!info] Lesson overview

@@ -22,7 +22,8 @@ tags:
   - human-cognition
   - professional-identity
   - AI-integration
-category: null
+category:
+  - AI and technology
 related:
   - '[[human cognition and LLM parallels]]'
   - '[[context engineering]]'

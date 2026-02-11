@@ -2,8 +2,15 @@
 type: lesson
 title: Temporary notes
 lesson: 2
-description: Create a designated home for information that's important enough to capture but doesn't yet have a clear destination.
-author: "[[Michael Rowe]]"
+description: >-
+  Create a designated home for information that's important enough to capture
+  but doesn't yet have a clear destination.
+author: '[[Michael Rowe]]'
+category:
+  - Knowledge management
+tags:
+  - note-taking
+  - personal knowledge management
 ---
 > [!info]
 > **Objective:** Use temporary notes to capture fleeting information

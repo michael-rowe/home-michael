@@ -2,8 +2,17 @@
 type: lesson
 title: Weekly reviews
 lesson: 5
-description: Learn to conduct effective weekly reviews that close open loops, provide clarity on commitments, and enable true disconnection from work during rest periods.
-author: "[[Michael Rowe]]"
+description: >-
+  Learn to conduct effective weekly reviews that close open loops, provide
+  clarity on commitments, and enable true disconnection from work during rest
+  periods.
+author: '[[Michael Rowe]]'
+category:
+  - Professional development
+tags:
+  - time management
+  - productivity
+  - professional practice
 ---
 
 > [!info] Lesson overview

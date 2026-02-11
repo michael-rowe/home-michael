@@ -2,8 +2,15 @@
 type: lesson
 title: Introduction
 lesson: 0
-description: Course orientation covering how the course works, what you'll need, and how to approach developing AI literacy for academic practice.
-author: "[[Michael Rowe]]"
+description: >-
+  Course orientation covering how the course works, what you'll need, and how to
+  approach developing AI literacy for academic practice.
+author: '[[Michael Rowe]]'
+category:
+  - AI and technology
+tags:
+  - AI literacy
+  - AI integration
 ---
 
 ## Welcome to developing AI literacy for academic practice

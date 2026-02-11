@@ -13,7 +13,8 @@ updated: 2026-01-30T00:00:00.000Z
 needs_review: false
 tags:
   - prompt-engineering
-category: null
+category:
+  - AI and technology
 related:
   - '[[context engineering]]'
 builds_on: null

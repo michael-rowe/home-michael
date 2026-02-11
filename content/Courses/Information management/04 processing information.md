@@ -2,8 +2,16 @@
 type: lesson
 title: Processing information
 lesson: 4
-description: Convert information into something personally meaningful through the intellectual work of connecting, elaborating, questioning, and synthesising.
-author: "[[Michael Rowe]]"
+description: >-
+  Convert information into something personally meaningful through the
+  intellectual work of connecting, elaborating, questioning, and synthesising.
+author: '[[Michael Rowe]]'
+category:
+  - Knowledge management
+tags:
+  - information management
+  - personal knowledge management
+  - information architecture
 ---
 
 > [!info] Lesson overview

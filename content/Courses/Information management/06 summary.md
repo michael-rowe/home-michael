@@ -1,10 +1,18 @@
 ---
-title: "Summary"
+title: Summary
 type: lesson
 lesson: 6
-description: Review and consolidate the five core information management practices — filtering, capturing, extracting, processing, and sharing — and plan how to put them into sustained practice.
-author: "[[Michael Rowe]]"
-course: "Information management"
+description: >-
+  Review and consolidate the five core information management practices —
+  filtering, capturing, extracting, processing, and sharing — and plan how to
+  put them into sustained practice.
+author: '[[Michael Rowe]]'
+course: Information management
+category:
+  - Knowledge management
+tags:
+  - information management
+  - personal knowledge management
 ---
 
 # Summary

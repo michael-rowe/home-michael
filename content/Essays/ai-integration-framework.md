@@ -67,6 +67,8 @@ tags:
   - organisational-infrastructure
   - risk-management
 doi: null
+category:
+  - AI and technology
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk)

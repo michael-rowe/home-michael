@@ -2,8 +2,17 @@
 type: lesson
 title: Extracting information
 lesson: 3
-description: Extract high-value information from a variety of sources by establishing practices for systematic extraction that transforms captured sources into workable materials.
-author: "[[Michael Rowe]]"
+description: >-
+  Extract high-value information from a variety of sources by establishing
+  practices for systematic extraction that transforms captured sources into
+  workable materials.
+author: '[[Michael Rowe]]'
+category:
+  - Knowledge management
+tags:
+  - information management
+  - information retrieval
+  - personal knowledge management
 ---
 
 > [!info] Lesson overview

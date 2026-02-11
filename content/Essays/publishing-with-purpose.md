@@ -63,6 +63,8 @@ version: 1.1
 created: 2025-01-27T00:00:00.000Z
 modified: 2026-02-10T00:00:00.000Z
 doi: 10.31219/osf.io/d7hwf_v1
+category:
+  - Scholarship
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))

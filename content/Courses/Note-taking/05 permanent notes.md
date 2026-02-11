@@ -2,8 +2,16 @@
 type: lesson
 title: Permanent notes
 lesson: 5
-description: Preserve concepts and ideas that remain valuable throughout your career, building an external long-term memory that grows with your expertise.
-author: "[[Michael Rowe]]"
+description: >-
+  Preserve concepts and ideas that remain valuable throughout your career,
+  building an external long-term memory that grows with your expertise.
+author: '[[Michael Rowe]]'
+category:
+  - Knowledge management
+tags:
+  - note-taking
+  - personal knowledge management
+  - information architecture
 ---
 > [!info] Lesson overview
 > **Objective:** Create notes that you will keep for a lifetime

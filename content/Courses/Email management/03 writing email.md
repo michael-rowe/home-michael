@@ -2,8 +2,16 @@
 type: lesson
 title: Writing email
 lesson: 3
-description: Treat email as a deliberate writing genre with specific structures to improve clarity and reduce back-and-forth.
-author: "[[Michael Rowe]]"
+description: >-
+  Treat email as a deliberate writing genre with specific structures to improve
+  clarity and reduce back-and-forth.
+author: '[[Michael Rowe]]'
+category:
+  - Professional development
+tags:
+  - email management
+  - communication
+  - academic writing
 ---
 
 > [!info] Lesson overview
