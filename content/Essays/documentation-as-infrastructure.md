@@ -82,56 +82,48 @@ I maintain a knowledge base in Obsidian that serves as operational infrastructur
 
 The most revealing experiment involved adding machine-readable metadata to every operational document — meetings, projects, workstreams, events — using YAML frontmatter that makes explicit the relationships between entities. A meeting note carries metadata connecting it to its parent project, relevant workstream, and participants. A project note declares its status, phase, timeline, and relationships to other projects. These aren't conceptual associations between ideas. They are operational plumbing — typed relationships that connect meetings to projects, projects to workstreams, workstreams to areas of responsibility, and areas of responsibility to strategic priorities.
 
-<details>
-<summary><strong>How typed relationships work in practice: YAML frontmatter examples</strong></summary>
-
-A meeting note carries metadata that connects it to its parent project, relevant workstream, associated process cycle, and the people who attended:
-
-```yaml
-note_type: meeting
-start_date: 2026-01-24
-participants:
-  - "[[Sarah Johnson]]"
-  - "[[Tom Chen]]"
-project: "[[Project - Collaborative Professional Learning]]"
-workstream: "[[Teaching Quality]]"
-process: "[[Process - Validation (2025-2026)]]"
-needs_review: true
-```
-
-A project note, in turn, declares its domain, areas of responsibility, status, phase, timeline, and relationships to other projects:
-
-```yaml
-note_type: Project
-status: Active
-phase: Planning
-domain: Work
-area:
-  - Programme Development
-  - AI Integration
-project_start: 2026-01
-project_due: 2026-09
-related:
-  - "[[Project - AI Assessment Design]]"
-  - "[[Project - Institutional AI Governance]]"
-```
-
-The system also includes context files — what Anthropic calls CLAUDE.md files (Anthropic, 2024) — that sit at the root of a project and provide an AI agent with the operational information it needs to work within that environment. These aren't documentation *about* a project. They specify principles, constraints, file structures, naming conventions, and working methods. Traditional documentation explains; operational context enables.
-
-</details>
+> [!example]- How typed relationships work in practice: YAML frontmatter examples
+> A meeting note carries metadata that connects it to its parent project, relevant workstream, associated process cycle, and the people who attended:
+>
+> ```yaml
+> note_type: meeting
+> start_date: 2026-01-24
+> participants:
+>   - "[[Sarah Johnson]]"
+>   - "[[Tom Chen]]"
+> project: "[[Project - Collaborative Professional Learning]]"
+> workstream: "[[Teaching Quality]]"
+> process: "[[Process - Validation (2025-2026)]]"
+> needs_review: true
+> ```
+>
+> A project note, in turn, declares its domain, areas of responsibility, status, phase, timeline, and relationships to other projects:
+>
+> ```yaml
+> note_type: Project
+> status: Active
+> phase: Planning
+> domain: Work
+> area:
+>   - Programme Development
+>   - AI Integration
+> project_start: 2026-01
+> project_due: 2026-09
+> related:
+>   - "[[Project - AI Assessment Design]]"
+>   - "[[Project - Institutional AI Governance]]"
+> ```
+>
+> The system also includes context files — what Anthropic calls CLAUDE.md files (Anthropic, 2024) — that sit at the root of a project and provide an AI agent with the operational information it needs to work within that environment. These aren't documentation *about* a project. They specify principles, constraints, file structures, naming conventions, and working methods. Traditional documentation explains; operational context enables.
 
 When an AI agent can traverse these typed connections, it stops being a sophisticated search tool and starts functioning as something closer to a cognitive partner that understands the *structure* of the work, not just the *content* of individual documents. The practical consequences became vivid during a recent leadership meeting. The chair asked for an ad hoc progress report across my areas of responsibility. Because the operational architecture was in place — meetings linked to projects, projects linked to workstreams, workstreams carrying status updates and active tasks — an AI agent could traverse the entire system and produce a comprehensive, structured report in two minutes. Not a summary of documents, but a synthesis drawn from the typed relationships between them. That's what operational architecture enables — not because the AI is particularly clever, but because the information was structured in a way that made the work legible to a machine.
 
 As the operational architecture has matured, the proportion of professional work that can be reliably delegated has expanded substantially. Evidence-based persona files specify how an AI agent should behave in particular contexts — meeting summarisation, stakeholder analysis, lecture development — and function as executable specifications rather than reference documentation. The nature of the work shifts: less execution, more architecture, design, and verification. The value moves upstream.
 
-<details>
-<summary><strong>Persona files as executable specifications</strong></summary>
-
-A meeting summariser persona doesn't just describe what a good meeting summary looks like. It specifies the analysis process (extract actions first, then decisions, then relevant context), the output structure (actions, decisions, summary, notes), the metadata fields to populate, and the conventions to follow (British spelling, sentence case, link to parent project and workstream). A negotiation coach persona encodes an entire strategic framework — stakeholder analysis, tradeable variables, signal recognition — that an AI agent consumes as operational instructions.
-
-These aren't documentation *about* how to do things. They are executable specifications. The AI agent reads them and operates accordingly. This is the category change in miniature: the same information that might appear in a training manual or procedural guide, restructured so that it functions as infrastructure rather than reference material.
-
-</details>
+> [!example]- Persona files as executable specifications
+> A meeting summariser persona doesn't just describe what a good meeting summary looks like. It specifies the analysis process (extract actions first, then decisions, then relevant context), the output structure (actions, decisions, summary, notes), the metadata fields to populate, and the conventions to follow (British spelling, sentence case, link to parent project and workstream). A negotiation coach persona encodes an entire strategic framework — stakeholder analysis, tradeable variables, signal recognition — that an AI agent consumes as operational instructions.
+>
+> These aren't documentation *about* how to do things. They are executable specifications. The AI agent reads them and operates accordingly. This is the category change in miniature: the same information that might appear in a training manual or procedural guide, restructured so that it functions as infrastructure rather than reference material.
 
 ### Trust and auditability
 
@@ -139,23 +131,15 @@ A language model working with unstructured prose will still infer relationships 
 
 Retrieval-augmented generation on its own gives an AI access to your knowledge; operational architecture gives you reason to trust what it does with that knowledge. For personal workflows, this distinction is a convenience. For institutional documentation — where decisions affect students, regulatory compliance, and resource allocation — it becomes a governance requirement.
 
-<details>
-<summary><strong>Data governance, the architecture paradox, and local models</strong></summary>
+> [!example]- Data governance, the architecture paradox, and local models
+> Operational architecture of this kind inevitably contains personal data — not just the user's own information, but the names, roles, meeting attendance, and project involvement of colleagues and stakeholders. The better the architecture, the more useful this structured data becomes for AI agents, and the more sensitive it becomes from a governance perspective. This creates an architecture paradox: the same typed relationships that make AI trustworthy and auditable also make the system a more potent repository of personal information. At personal scale, this is managed through responsible practice and local storage decisions. At institutional scale, it intersects directly with data protection regulation and information governance frameworks. Infrastructure requires governance in a way that reference material never did.
+>
+> This governance concern points toward a practical architectural response. Local open-source models work for this use case precisely because well-structured operational architecture reduces the reasoning burden on the model itself. Traversing typed relationships, compiling structured reports, following explicit workflow specifications — these tasks require reliable instruction-following, not frontier-model reasoning. The architecture does the intellectual heavy lifting; the model executes against it. This inverts the common assumption that useful AI integration demands the most capable available model. When documentation functions as operational infrastructure, a less capable model operating locally on sensitive data can outperform a more capable model working with poorly structured information accessed through the cloud. Architecture and privacy become complementary design considerations rather than competing ones.
 
-Operational architecture of this kind inevitably contains personal data — not just the user's own information, but the names, roles, meeting attendance, and project involvement of colleagues and stakeholders. The better the architecture, the more useful this structured data becomes for AI agents, and the more sensitive it becomes from a governance perspective. This creates an architecture paradox: the same typed relationships that make AI trustworthy and auditable also make the system a more potent repository of personal information. At personal scale, this is managed through responsible practice and local storage decisions. At institutional scale, it intersects directly with data protection regulation and information governance frameworks. Infrastructure requires governance in a way that reference material never did.
-
-This governance concern points toward a practical architectural response. Local open-source models work for this use case precisely because well-structured operational architecture reduces the reasoning burden on the model itself. Traversing typed relationships, compiling structured reports, following explicit workflow specifications — these tasks require reliable instruction-following, not frontier-model reasoning. The architecture does the intellectual heavy lifting; the model executes against it. This inverts the common assumption that useful AI integration demands the most capable available model. When documentation functions as operational infrastructure, a less capable model operating locally on sensitive data can outperform a more capable model working with poorly structured information accessed through the cloud. Architecture and privacy become complementary design considerations rather than competing ones.
-
-</details>
-
-<details>
-<summary><strong>What resists formalisation, and the limits of personal knowledge systems</strong></summary>
-
-Not all knowledge should be formalised in this way, and premature formalisation can actively damage the associative thinking that generates insight in the first place. Early-stage ideas, emerging connections, half-formed arguments — these thrive precisely because their relationships are fuzzy and provisional. Forcing them into typed structures too early can crystallise thinking that needs to remain fluid. The question isn't whether to formalise but *when*, and for what purpose. Knowledge that AI agents will consume as operational input benefits enormously from structure. Knowledge that is still being developed may be harmed by it.
-
-The personal knowledge systems that have gained traction over the past several years — Tiago Forte's PARA method (Forte, 2022), the Zettelkasten tradition, and various "building a second brain" approaches — were all designed to optimise knowledge retrieval and connection for human cognition. They work well for that purpose. But they were not designed for a world in which AI agents are a second consumer of the same material. The design criteria are shifting, and the personal productivity community has only begun to reckon with what that means. Mintlify is addressing this for developer documentation (Li & Li, 2024). Equivalent thinking has barely emerged for personal knowledge management or institutional documentation, where the dual-audience design challenge is just as pressing.
-
-</details>
+> [!example]- What resists formalisation, and the limits of personal knowledge systems
+> Not all knowledge should be formalised in this way, and premature formalisation can actively damage the associative thinking that generates insight in the first place. Early-stage ideas, emerging connections, half-formed arguments — these thrive precisely because their relationships are fuzzy and provisional. Forcing them into typed structures too early can crystallise thinking that needs to remain fluid. The question isn't whether to formalise but *when*, and for what purpose. Knowledge that AI agents will consume as operational input benefits enormously from structure. Knowledge that is still being developed may be harmed by it.
+>
+> The personal knowledge systems that have gained traction over the past several years — Tiago Forte's PARA method (Forte, 2022), the Zettelkasten tradition, and various "building a second brain" approaches — were all designed to optimise knowledge retrieval and connection for human cognition. They work well for that purpose. But they were not designed for a world in which AI agents are a second consumer of the same material. The design criteria are shifting, and the personal productivity community has only begun to reckon with what that means. Mintlify is addressing this for developer documentation (Li & Li, 2024). Equivalent thinking has barely emerged for personal knowledge management or institutional documentation, where the dual-audience design challenge is just as pressing.
 
 ### The pattern revealed
 
@@ -172,14 +156,10 @@ Programme revalidation in regulated professions illustrates the problem concrete
 
 Institutions already possess something approaching a formal ontology: HERM defines standardised entities and the typed relationships between them (CAUDIT, 2025; UCISA, 2025). When institutional documentation functions as operational architecture, the implications cascade across stakeholder relationships. Regulatory compliance, currently operating through periodic human review of narrative PDFs, becomes a fundamentally different activity when curriculum documentation exists as structured data — compliance gaps become computationally identifiable rather than dependent on a reviewer's thoroughness. Student experience shifts similarly: when programme specifications exist as queryable data rather than static documents, an AI agent can navigate prerequisite chains, surface elective options, and flag timetable conflicts on a student's behalf. But this only works if the underlying architecture is sound.
 
-<details>
-<summary><strong>Process automation versus workflow automation</strong></summary>
-
-For most institutions, being AI-forward means deploying AI tools — chatbots for student queries, writing assistants for staff, automated marking for routine assessments. This is process automation: taking existing workflows and making individual steps faster. Institutions have attempted process automation for decades, with mixed results, because the approach is inherently brittle.
-
-What is emerging now is qualitatively different. Rather than automating individual steps within predetermined workflows, AI agents are beginning to execute complex, multi-step tasks with increasing autonomy — what might more accurately be called workflow automation. Process automation asks: which existing step can we make faster? Workflow automation asks: given a goal and access to structured information, can an agent determine and execute the steps required to reach it? The first is bounded by the imagination of whoever designed the process. The second is bounded by the quality of the information architecture the agent has access to.
-
-</details>
+> [!example]- Process automation versus workflow automation
+> For most institutions, being AI-forward means deploying AI tools — chatbots for student queries, writing assistants for staff, automated marking for routine assessments. This is process automation: taking existing workflows and making individual steps faster. Institutions have attempted process automation for decades, with mixed results, because the approach is inherently brittle.
+>
+> What is emerging now is qualitatively different. Rather than automating individual steps within predetermined workflows, AI agents are beginning to execute complex, multi-step tasks with increasing autonomy — what might more accurately be called workflow automation. Process automation asks: which existing step can we make faster? Workflow automation asks: given a goal and access to structured information, can an agent determine and execute the steps required to reach it? The first is bounded by the imagination of whoever designed the process. The second is bounded by the quality of the information architecture the agent has access to.
 
 ### The capability-architecture gap
 
@@ -187,12 +167,8 @@ Research from METR suggests that the length of tasks AI agents can complete auto
 
 The primary bottleneck for institutional AI integration is not AI capability but information architecture. Most institutions already have access to models sophisticated enough to do genuinely useful work. What they lack is documentation structured in ways that allow those models to function reliably. This is not merely a strategic observation — it is the lived experience of practitioners building AI-powered automation in higher education, who consistently report that the primary obstacle is the unpredictability of legacy document-based knowledge. The problem cannot be solved by technologists alone, because the relationships that need to be made explicit are domain-specific.
 
-<details>
-<summary><strong>How institutions ended up here: documentation as skeuomorph</strong></summary>
-
-Most institutional knowledge currently exists in human-readable but machine-opaque formats — narrative documents, PDF submissions, committee minutes, email chains. This is not an accident. When institutions moved from paper to digital in the 1990s and 2000s, they adopted formats that simulated paper: Word documents and PDFs that replicated the experience of printed pages. These were skeuomorphs — digital objects that preserved the conventions of the physical medium they replaced. The format made sense at the time, but it embedded a design assumption that has persisted long past its usefulness: that documentation exists to be read by humans, laid out on something resembling a page. What should have been structured data — curriculum specifications, programme regulations, module descriptors — was instead captured in narrative documents optimised for printing and reading, not for computation and traversal. Decades later, institutions are living with the consequences: information that is rich in content but impoverished in structure, readable by people but opaque to machines.
-
-</details>
+> [!example]- How institutions ended up here: documentation as skeuomorph
+> Most institutional knowledge currently exists in human-readable but machine-opaque formats — narrative documents, PDF submissions, committee minutes, email chains. This is not an accident. When institutions moved from paper to digital in the 1990s and 2000s, they adopted formats that simulated paper: Word documents and PDFs that replicated the experience of printed pages. These were skeuomorphs — digital objects that preserved the conventions of the physical medium they replaced. The format made sense at the time, but it embedded a design assumption that has persisted long past its usefulness: that documentation exists to be read by humans, laid out on something resembling a page. What should have been structured data — curriculum specifications, programme regulations, module descriptors — was instead captured in narrative documents optimised for printing and reading, not for computation and traversal. Decades later, institutions are living with the consequences: information that is rich in content but impoverished in structure, readable by people but opaque to machines.
 
 It is worth acknowledging that this bottleneck claim is bound to a particular moment in AI development. Future models may become substantially better at handling unstructured information. If that happens, the threshold at which poor architecture becomes the binding constraint will shift upward. But it will not disappear. Well-structured operational architecture will remain an advantage even if it ceases to be a strict requirement, because the trust and auditability arguments hold regardless of model capability. An AI agent that can work with messy data is not the same as an AI agent whose reasoning you can verify.
 
