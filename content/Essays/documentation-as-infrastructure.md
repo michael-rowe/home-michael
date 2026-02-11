@@ -2,29 +2,16 @@
 type: essay
 title: Documentation becomes infrastructure when AI agents are the readers
 slug: essays/documentation-as-infrastructure
-description: >-
-  When AI agents consume documentation as operational input, it undergoes a
-  category shift from reference material to operational architecture —
-  inaccuracies no longer merely inconvenience readers, they cause system failures.
-  This essay argues that the primary bottleneck for institutional AI integration
-  is not AI capability but information architecture: how institutional knowledge
-  is structured, maintained, and made available to AI systems. Documentation
-  written for human readers cannot function as reliable AI input without
-  deliberate restructuring around explicit relationships and rigorous maintenance
-  workflows. Treating this transition as a governance imperative — rather than a
-  technical afterthought — determines whether AI integration delivers on its
-  institutional promise.
-meta-description: >-
-  Examining how documentation shifts from human reference material to
-  machine-executable infrastructure when AI agents are the primary readers.
+description: "When AI agents consume documentation as operational input, it undergoes a category shift from reference material to operational architecture — inaccuracies no longer merely inconvenience readers, they cause system failures. This essay argues that the primary bottleneck for institutional AI integration is not AI capability but information architecture: how institutional knowledge is structured, maintained, and made available to AI systems. Documentation written for human readers cannot function as reliable AI input without deliberate restructuring around explicit relationships and rigorous maintenance workflows. Treating this transition as a governance imperative — rather than a technical afterthought — determines whether AI integration delivers on its institutional promise."
+meta-description: Examining how documentation shifts from human reference material to machine-executable infrastructure when AI agents are the primary readers.
 author:
-  - '[[Michael Rowe]]'
+  - "[[Michael Rowe]]"
 affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
 keyphrase: documentation as infrastructure
-version: 0.5
+version: 0.7
 created: 2026-02-09
 modified: 2026-02-11
 tags:

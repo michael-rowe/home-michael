@@ -13,7 +13,7 @@ affiliation:
 email:
   - mrowe@lincoln.ac.uk
   - wesley@snapplify.com
-version: 0.8
+version: 0.7
 created: 2025-11-08
 modified: 2026-02-11
 tags:

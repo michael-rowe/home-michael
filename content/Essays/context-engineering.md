@@ -1,36 +1,19 @@
 ---
 type: essay
-title: >-
-  Context engineering and the technical foundations of educational
-  transformation
+title: Context engineering and the technical foundations of educational transformation
 slug: essays/context-engineering
-description: >-
-  Higher education faces a choice between prompt engineering — teaching students
-  interaction mechanics — and context engineering — architecting persistent
-  knowledge ecosystems. While prompt engineering reinforces episodic,
-  container-based education, context engineering builds persistent understanding
-  across AI interactions, demanding technical infrastructure including knowledge
-  graphs and federated intelligence protocols. These enable epistemic
-  transformations, reconceptualising knowledge as interconnected networks rather
-  than discrete curricular containers. The systemic implications are profound:
-  governance reconceptualisation, substantial infrastructure investment, and new
-  path dependencies that make traditional approaches increasingly untenable. For
-  institutions seeking relevance in rapidly evolving, AI-mediated environments,
-  context engineering represents a watershed moment requiring commitment to
-  structural transformation.
-meta-description: >-
-  Exploring context engineering as a technical and epistemic alternative to
-  prompt engineering in higher education.
+description: "Higher education faces a choice between prompt engineering — teaching students interaction mechanics — and context engineering — architecting persistent knowledge ecosystems. While prompt engineering reinforces episodic, container-based education, context engineering builds persistent understanding across AI interactions, demanding technical infrastructure including knowledge graphs and federated intelligence protocols. These enable epistemic transformations, reconceptualising knowledge as interconnected networks rather than discrete curricular containers. The systemic implications are profound: governance reconceptualisation, substantial infrastructure investment, and new path dependencies that make traditional approaches increasingly untenable. For institutions seeking relevance in rapidly evolving, AI-mediated environments, context engineering represents a watershed moment requiring commitment to structural transformation."
+meta-description: Exploring context engineering as a technical and epistemic alternative to prompt engineering in higher education.
 author:
-  - '[[Michael Rowe]]'
-  - '[[Wesley Lynch]]'
+  - "[[Michael Rowe]]"
+  - "[[Wesley Lynch]]"
 affiliation:
   - University of Lincoln
   - Snapplify
 email:
   - mrowe@lincoln.ac.uk
   - wesley@snapplify.com
-version: 0.8
+version: 0.7
 created: 2025-07-04
 modified: 2026-02-11
 tags:

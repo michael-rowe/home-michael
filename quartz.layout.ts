@@ -69,7 +69,12 @@ export const defaultContentPageLayout: PageLayout = {
     Component.AILiteracyNav(),
   ],
   right: [
-    Component.Graph(),
+    Component.Graph({
+      localGraph: {
+        scale: 1.6,
+        opacityScale: 3,
+      },
+    }),
     Component.Backlinks(),
   ],
   afterBody: [
@@ -134,7 +139,12 @@ export const defaultListPageLayout: PageLayout = {
     Component.AILiteracyNav(),
   ],
   right: [
-    Component.Graph(),
+    Component.Graph({
+      localGraph: {
+        scale: 1.6,
+        opacityScale: 3,
+      },
+    }),
     Component.Backlinks(),
   ],
   afterBody: [
