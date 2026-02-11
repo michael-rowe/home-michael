@@ -1,7 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
 import style from "../styles/listPage.scss"
 import { PageList, SortFn } from "../PageList"
-import { FullSlug, getAllSegmentPrefixes, resolveRelative, simplifySlug } from "../../util/path"
+import { FullSlug, getAllSegmentPrefixes, resolveRelative, simplifySlug, slugTag } from "../../util/path"
 import { QuartzPluginData } from "../../plugins/vfile"
 import { Root } from "hast"
 import { htmlToJsx } from "../../util/jsx"
@@ -31,9 +31,17 @@ export default ((opts?: Partial<TagContentOptions>) => {
 
     const tag = simplifySlug(slug.slice("tags/".length) as FullSlug)
     const allPagesWithTag = (tag: string) =>
-      allFiles.filter((file) =>
-        (file.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes).includes(tag),
-      )
+      allFiles.filter((file) => {
+        const byTag = (file.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes).includes(tag)
+        const catRaw = file.frontmatter?.category
+        const cats: string[] = Array.isArray(catRaw)
+          ? catRaw
+          : typeof catRaw === "string"
+            ? [catRaw]
+            : []
+        const byCategory = cats.some((cat) => slugTag(cat) === tag)
+        return byTag || byCategory
+      })
 
     const content = (
       (tree as Root).children.length === 0
