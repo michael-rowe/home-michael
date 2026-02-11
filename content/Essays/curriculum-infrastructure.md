@@ -38,7 +38,6 @@ tags:
   - human-AI-collaboration
   - model-context-protocol
   - vector-database
-doi:
 related:
   - "[[Essays/documentation-as-infrastructure]]"
   - "[[Essays/context-sovereignty]]"

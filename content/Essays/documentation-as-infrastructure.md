@@ -34,7 +34,6 @@ tags:
   - information-architecture
   - infrastructure
   - operational-architecture
-doi: null
 category:
   - AI and technology
   - Knowledge management

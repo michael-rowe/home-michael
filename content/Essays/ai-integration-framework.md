@@ -31,7 +31,6 @@ tags:
   - leadership
   - organisational-infrastructure
   - risk-management
-doi: null
 category:
   - AI and technology
 ---
