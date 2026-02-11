@@ -2,15 +2,14 @@
 title: "Essay Title: Subtitle Here"
 type: essay
 slug:
-description: "A 100-150 word description used for index pages and listings. It should be engaging and summarize the main argument and relevance of the essay for the target audience."
-meta-description: "A 15-20 word summary for SEO and social previews."
+description: A 100-150 word description used for index pages and listings. It should be engaging and summarize the main argument and relevance of the essay for the target audience.
+meta-description: A 15-20 word summary for SEO and social previews.
 author:
   - Author Name
 affiliation:
   - Institution Name
 email:
   - email@institution.edu
-abstract: "A comprehensive abstract (150-250 words) that summarizes the key argument, methodology, and contributions of the essay. This should be written in a single paragraph and provide readers with a clear understanding of the essay's purpose, main claims, and significance. Include the key concepts, theoretical frameworks, and conclusions that the essay develops."
 version: 0.1
 created: YYYY-MM-DD
 modified:
@@ -20,7 +19,7 @@ tags:
   - tag3
   - tag4
   - tag5
-doi: ""  # Omit this field if no DOI exists yet
+doi: ""
 related:
   - "[[Related Content Title]]"
 draft: false

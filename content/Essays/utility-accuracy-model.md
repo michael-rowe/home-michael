@@ -29,31 +29,6 @@ affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
-abstract: >-
-  Educational support systems have long prioritised accuracy as the primary
-  metric of quality, resulting in technically excellent resources that
-  nonetheless may remain largely unused. We present a mathematical framework
-  demonstrating that AI tutoring systems with 10-15% error rates might achieve
-  superior learning outcomes through increased engagement compared to more
-  accurate but less accessible alternatives. We show that the multiplicative
-  relationship between accuracy and utilisation creates an "accessibility
-  paradox" where imperfect-but-engaging systems outperform perfect-but-unused
-  ones. Furthermore, we argue that education's inherent error correction
-  mechanisms and the pedagogical value of critical evaluation make this domain
-  particularly suited for moderate-accuracy AI deployment. Our framework
-  provides quantitative thresholds for acceptable error rates and challenges the
-  prevailing assumption that educational AI must meet the same accuracy
-  standards as, for example, diagnostic AI in healthcare. Population learning
-  benefit is the product of utilisation rate and per-use effectiveness; thus,
-  systems achieving 4-5× higher engagement can tolerate higher error rates while
-  still delivering significant net improvements in student mastery. This shift
-  from perfectionism to pragmatism transforms occasional AI errors into
-  teachable moments that develop critical evaluation skills, information
-  literacy, and epistemic humility—essential capabilities for navigating an
-  information-rich world where no source is infallible. The choice for
-  educational institutions is between waiting for perfect AI that may come too
-  late or deploying accessible, good-enough AI today to enhance learning for
-  millions.
 version: 0.4
 created: 2025-10-19T00:00:00.000Z
 modified: 2026-02-10T00:00:00.000Z

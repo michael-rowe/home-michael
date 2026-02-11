@@ -29,35 +29,6 @@ meta-description: >-
 author: '[[Michael Rowe]]'
 affiliation: University of Lincoln
 email: mrowe@lincoln.ac.uk
-abstract: >-
-  Higher education institutions face persistent pressure to demonstrate visible
-  engagement with artificial intelligence, often resulting in what we
-  characterise as innovation theatre - the performance of transformation without
-  corresponding structural change. This paper presents a diagnostic framework
-  that distinguishes between performative and structural integration through
-  analysis of four operational domains: governance and accountability, resource
-  architecture, learning systems, and boundary setting. Unlike maturity models
-  that prescribe linear progression, this framework enables institutional
-  leaders to assess whether organisational structures align with stated
-  strategic intentions, revealing gaps between rhetoric and reality. The
-  framework emerged from critical analysis of institutional AI responses but
-  evolved toward practical utility for decision-makers operating within genuine
-  constraints. We position this work as practitioner pattern recognition
-  requiring subsequent empirical validation, outline specific validation
-  pathways, and discuss implications for institutional strategy in contexts of
-  technological disruption. The four domains capture the essential structural
-  levers while remaining operationally actionable, allowing leaders to identify
-  which areas need attention and in what sequence. Governance patterns
-  fundamentally constrain what is possible in other domains, while resource
-  architecture enables or limits the infrastructure for learning. Success
-  depends on organisational commitment, realistic timelines acknowledging
-  substantial change management, and clear demonstration of efficiency gains.
-  Most fundamentally, the framework addresses institutional agency, helping
-  universities occupy their chosen strategic position consciously rather than
-  arriving there accidentally through drift between stated intentions and
-  structural reality. By providing analytical vocabulary and diagnostic
-  criteria, the framework creates conditions for genuine institutional learning
-  regardless of the adopted strategic stance.
 version: 0.4
 created: 2025-12-05T00:00:00.000Z
 modified: 2026-02-10T00:00:00.000Z

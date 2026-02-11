@@ -29,34 +29,6 @@ affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
-abstract: >-
-  The introduction of generative AI into scientific publishing presents both
-  opportunities and risks for the research ecosystem. While AI could enhance
-  knowledge creation and streamline research processes, it may also amplify
-  existing problems within the research industrial complex - a system that
-  prioritises publication metrics over meaningful scientific progress. In this
-  viewpoint article I suggest that generative AI is likely to reinforce harmful
-  processes unless scientific journals and editors use these technologies to
-  transform themselves into vibrant knowledge communities that facilitate
-  meaningful discourse and collaborative learning. I describe how AI could
-  support this transformation by surfacing connections between researchers'
-  work, making peer review more dialogic, enhancing post-publication discourse,
-  and enabling multimodal knowledge translation. However, implementing this
-  vision faces significant challenges, deeply rooted in the entrenched
-  incentives of the current academic publishing system. Universities evaluate
-  faculty based largely on publication metrics, funding bodies rely on those
-  metrics for grant decisions, and publishers benefit from maintaining existing
-  models. Making meaningful change therefore requires coordinated action across
-  multiple stakeholders who must be willing to accept short-term costs for
-  long-term systemic benefits. The key to success lies in consistently returning
-  to journals' core purpose: advancing scientific knowledge through thoughtful
-  research and professional dialogue. By reimagining journals as AI-supported
-  communities rather than metrics-driven repositories, we can better serve both
-  the scientific community and the broader society it aims to benefit. This
-  evolution represents not merely an adaptation to technological change, but a
-  return to the fundamental purpose of journals as forums for collaborative
-  engagement and collective learning at the cutting edge of scientific fields,
-  where real-world impact is valued over meaningless citation counts.
 tags:
   - publishing
 version: 1.1

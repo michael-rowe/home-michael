@@ -27,41 +27,6 @@ affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
-abstract: >-
-  Higher education institutions have responded to AI technologies by emphasising
-  prompt engineering—teaching students technical skills for crafting effective
-  AI queries. This essay argues that a focus on interaction mechanics represents
-  a fundamental misunderstanding of both AI engagement and learning itself.
-  Rather than the outcome of technical skills, prompts emerge from students'
-  personal meaning-making frameworks—their individual contexts for determining
-  what questions matter and what constitutes intellectual exploration, or
-  academic integrity. The institutional focus on prompt control reveals what I
-  call the learning alignment problem, where educational systems optimise for
-  measurable proxies (grades, compliance, technical proficiency) rather than
-  authentic learning outcomes (for example, traits like curiosity,
-  understanding, intellectual development). AI acts as a mirror, highlighting
-  that students were already circumventing meaningful engagement in favour of
-  strategic optimisation for institutional rewards. When students use AI to
-  complete assignments without learning, they reveal that assignments were
-  already completable without genuine intellectual work. This analysis draws
-  parallels to the value alignment problem in AI safety research—the difficulty
-  of creating systems that pursue intended goals instead of optimising for
-  specified metrics. Educational institutions face similar challenges: we cannot
-  directly measure what we say we value (learning), so we create proxies that
-  students rationally optimise for, often moving further from authentic
-  learning. The essay suggests that universities shift from control paradigms to
-  cultivation paradigms—from teaching prompt engineering to fostering learning
-  purpose, from managing student behaviour to creating conditions where
-  thoughtful engagement emerges naturally. This means recognising that learning
-  is inherently personal, contextual, and resistant to external specification.
-  Educational environments must cultivate intellectual joy and curiosity rather
-  than technical compliance, supporting students' meaning-making processes
-  rather than standardising and seeking to control their interactions with AI.
-  Ultimately, the institutions that thrive will be those that stop trying to
-  engineer student prompts and start cultivating student purposes, recognizing
-  that a student who uses AI thoughtfully in service of joyful discovery is
-  infinitely more valuable than one who creates technically perfect prompts in
-  service of compliance.
 version: 0.5
 created: 2025-06-05T00:00:00.000Z
 modified: 2026-02-10T00:00:00.000Z

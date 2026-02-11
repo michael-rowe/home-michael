@@ -31,41 +31,6 @@ affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
-abstract: >-
-  This essay critically examines the predominant interface paradigm for AI
-  interaction today—text-entry fields, chronological chat histories, and project
-  folders—arguing that these interfaces reinforce outdated container-based
-  knowledge metaphors that fundamentally misalign with how expertise develops in
-  professional domains. Container-based approaches artificially segment
-  knowledge that practitioners must mentally reintegrate, creating particular
-  challenges in health professions education where practice demands integrative
-  thinking across traditionally separated domains. The text-entry field, despite
-  its ubiquity in AI interactions, simply recreates container thinking in
-  conversational form, trapping information in linear streams that require
-  scrolling rather than conceptual navigation. I explore graph-based interfaces
-  as an alternative paradigm that better reflects how knowledge functions in
-  professional contexts, and where AI serves as both conversational partner and
-  network builder. In this environment, conversations occur within a visual
-  landscape, spatially anchored to relevant concepts rather than isolated in
-  chronological chat histories. Multimodal nodes represent knowledge across
-  different modalities, while multi-dimensional navigation allows exploration of
-  concepts beyond simple scrolling. Progressive complexity management addresses
-  potential cognitive overload for novices while maintaining the graph as the
-  fundamental organising metaphor. Implementation opportunities include
-  web-based knowledge graph interfaces supported by current visualisation
-  technologies and graph databases, with mobile extensions enabling contextual
-  learning in practice environments. Current AI capabilities, particularly
-  frontier language models, already demonstrate the pattern recognition needed
-  for suggesting meaningful connections across knowledge domains. The barriers
-  to implementing graph-based interfaces are less technological than conceptual
-  and institutional—our collective attachment to container-based thinking and
-  the organisational structures built around it. This reconceptualisation of
-  learning interfaces around networks rather than containers suggests an
-  alternative that may better develop the integrative capabilities that define
-  professional expertise and reduce the persistent gap between education and
-  practice. Ultimately, the future of professional education may depend on
-  moving beyond the text box to interfaces that mirror the networked reality of
-  professional reasoning and expertise.
 version: 0.5
 created: 2025-04-08T00:00:00.000Z
 modified: 2026-02-10T00:00:00.000Z

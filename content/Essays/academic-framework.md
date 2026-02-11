@@ -30,34 +30,6 @@ affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
-abstract: >-
-  Health professions education faces a significant challenge: graduates are
-  simultaneously overwhelmed with information yet under-prepared for complex
-  practice environments. Meanwhile, artificial intelligence (AI) tools are being
-  rapidly adopted by students, revealing fundamental gaps in traditional
-  educational approaches. This paper introduces the ACADEMIC framework, a
-  theoretically grounded approach to integrating AI into health professions
-  education (HPE) that shifts focus from assessing outputs to supporting
-  learning processes. Drawing on social constructivism, critical pedagogy,
-  complexity theory, and connectivism, I analysed learning interactions across
-  six dimensions: power dynamics, knowledge representation, agency, contextual
-  influence, identity formation, and temporality. From this comparative analysis
-  emerged seven principles—Augmented dialogue, Critical consciousness, Adaptive
-  expertise development, Dynamic contexts, Emergent curriculum design,
-  Metacognitive development, and Interprofessional Community knowledge
-  building—that guide the integration of AI into HPE. Rather than viewing AI as
-  a tool for efficient content delivery or a threat to academic integrity, the
-  ACADEMIC framework positions AI as a partner in learning that can address
-  longstanding challenges. The framework emphasises that most students are not
-  natural autodidacts and need guidance in learning with AI rather than simply
-  using it to produce better outputs. By reframing the relationship between
-  students and AI, educators can create learning environments that more
-  authentically prepare professionals for the complexity, uncertainty, and
-  collaborative demands of contemporary healthcare practice. This approach
-  ensures that AI enhances rather than diminishes the human aspects of learning,
-  preparing students for professional environments where expertise manifests
-  through sophisticated relationship recognition rather than discrete content
-  mastery alone.
 created: 2025-03-22T00:00:00.000Z
 modified: 2026-02-10T00:00:00.000Z
 version: 0.7
