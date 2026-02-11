@@ -44,7 +44,6 @@ category:
 > - **Affiliation**: University of Lincoln
 > - **Created**: Feb 09, 2026
 > - **Version**: 0.4
-> - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 > - **Keywords**: artificial intelligence, documentation debt, information architecture, infrastructure, knowledge management, operational architecture
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 

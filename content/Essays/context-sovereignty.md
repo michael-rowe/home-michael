@@ -47,7 +47,6 @@ category:
 > - **Affiliations**: 1) University of Lincoln; 2) [Snapplify](https://www.snapplify.com)
 > - **Created**: May 23, 2025
 > - **Version**: 0.9 (last updated: Jun 30, 2025)
-> - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 > - **Keywords**: artificial intelligence, cognitive extension, cognitive partnership, complexity theory, context engineering, context sovereignty, distributed cognition, educational technology, human-AI collaboration, personal learning
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**:

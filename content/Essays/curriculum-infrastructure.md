@@ -52,7 +52,6 @@ category:
 > - **Affiliations**: 1) University of Lincoln; 2) [Snapplify](https://www.snapplify.com)
 > - **Created**: Nov 08, 2025
 > - **Version**: 0.6 (last updated: Nov 09, 2025)
-> - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 > - **Keywords**: AI-forward, artificial intelligence, context engineering, curriculum development, curriculum infrastructure, education technology, graph database, human-AI collaboration, model context protocol, vector database
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 

@@ -38,7 +38,6 @@ category:
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: January 27, 2025
 > - **Version**: 1.1
-> - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 > - **Keywords**: editor, generative AI, journal, research, publication
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI** (Open Science Framework): [10.31219/osf.io/d7hwf_v1](https://doi.org/10.31219/osf.io/d7hwf_v1)

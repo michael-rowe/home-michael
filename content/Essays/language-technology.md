@@ -42,7 +42,6 @@ category:
 > - **Affiliation**: University of Lincoln
 > - **Created**: March 28, 2025
 > - **Version**: 0.6 (last updated: 29 Jun, 2025)
-> - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 > - **Keywords**: artificial intelligence, cognitive extension, educational technology, general purpose technology, language models, technological literacy
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**: [Why no DOI?](/notes/versions.md)

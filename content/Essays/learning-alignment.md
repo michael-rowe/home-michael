@@ -43,7 +43,6 @@ category:
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: June 05, 2025
 > - **Version**: 0.5 (updated 02 Jul, 2025)
-> - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 > - **Keywords**: AI principles, control, education, higher education, learning, learning alignment, professional education, prompt engineering, value alignment
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**: [Why no DOI?](/notes/versions.md)

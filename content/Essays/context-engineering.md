@@ -51,7 +51,6 @@ category:
 > - **Affiliations**: 1) University of Lincoln; 2) [Snapplify](https://www.snapplify.com)
 > - **Created**: 04 Jul, 2025
 > - **Version**: 0.7
-> - **Modified**: See [Github record](https://github.com/michael-rowe/emergent-scholarship/tree/main/docs/essays)
 > - **Keywords**: artificial intelligence, context engineering, educational technology, human-AI collaboration, information architecture, knowledge representation, learning theory, organisational change, personal knowledge management, personal learning
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**: [Why no DOI?](/notes/versions.md)
