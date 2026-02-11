@@ -24,9 +24,9 @@ enableToc: true
 ---
 
 > [!tip] Building context, not issuing commands
-> Working effectively with AI isn't about writing better prompts. It's about building the structured context — documentation, decision records, processing rules — that makes each working session more effective than the last. The "intelligence" in the system isn't only in the model. It's in the architecture that surrounds it.
+> Working effectively with AI isn't about writing better prompts. It's about building the structured context — documentation, decision records, processing rules — that makes each working session more effective than the last. The "intelligence" in the system isn't only in the model. It's also in the architecture that surrounds it.
 
-Building an effective AI collaboration workflow isn't primarily about prompts. For the past few weeks I've been using [Claude Code](https://docs.anthropic.com/en/docs/claude-code) to help restructure years of scholarly output — presentations, conference notes, event records, project files — into something more organised and useful. I keep my working documents in [Obsidian](https://obsidian.md), a plain-text note-taking application that stores everything as markdown files. Claude Code is Anthropic's command-line tool that gives Claude direct access to my local filesystem — reading, creating, moving, and editing files rather than just generating text in a chat window.
+Building an effective AI collaboration workflow isn't primarily about prompts. For the past few weeks I've been using [Claude Code](https://docs.anthropic.com/en/docs/claude-code) to help restructure years of scholarly output — presentations, conference notes, event records, project files — into something more organised and useful. I keep my working documents in [Obsidian](https://obsidian.md), a plain-text note-taking application that stores everything as markdown files. Claude Code is Anthropic's command-line tool that gives Claude direct access to my local filesystem; reading, creating, moving, and editing files rather than just generating text in a chat window.
 
 What's been interesting isn't the file management. It's what the process has revealed about what it means to *work with* AI, as opposed to asking it to produce things. If you're trying to build a reliable AI collaboration workflow, the bottleneck is rarely the model's capability. It's the quality of the context you give it to work within. This post describes what that looks like in practice.
 
@@ -36,7 +36,10 @@ Claude Code reads a file called `CLAUDE.md` at the start of every session. It's 
 
 The `CLAUDE.md` file doesn't work alone. Over the course of the project I've built a set of supporting files that function as external memory. A migration tracking file records which files have been processed, what decisions were made, and what's still outstanding. A processing instructions file captures the workflow Claude should follow: what metadata fields to populate, how to standardise structured values, what to do when a file doesn't fit the expected pattern, and how to handle edge cases that emerged from earlier sessions.
 
-Claude doesn't remember anything between sessions. But the files do. The "memory" in this system is architectural, not cognitive. Each session picks up where the last one left off because the documentation carries forward the accumulated understanding. This is what [[documentation-as-infrastructure]] looks like in practice.
+> [!tip] The memory is in the files, not the model
+> Claude doesn't remember anything between sessions. But the files do. The "memory" in this system is architectural, not cognitive.
+
+Each session picks up where the last one left off because the documentation carries forward the accumulated understanding. This is what [[documentation-as-infrastructure|documentation as infrastructure]] looks like in practice.
 
 ## The AI collaboration workflow in practice
 
@@ -58,7 +61,7 @@ I try an approach, then evaluate whether the output matches my sense of what the
 
 This cycle is ongoing. The project isn't approaching a finish line. Each session extends the infrastructure and occasionally forces me to revisit earlier decisions. Some of the most productive changes have come from returning to files I processed weeks ago and realising the rules have since evolved.
 
-Not all bottlenecks sit with Claude. Sometimes I hit a problem I can't yet articulate — a structural question about how two types of work relate to each other, or a decision about what information belongs in which vault. Those problems need to sit for a day or two before I can describe them clearly enough for Claude to act on. In those moments, the constraint isn't the model's capability. It's my own readiness to think the problem through.
+And sometimes I hit a problem I can't yet articulate; a structural question about how two types of work relate to each other, or a decision about what information belongs in which vault. Those problems need to sit for a day or two before I can describe them clearly enough for Claude to act on. In those moments, the constraint isn't the model's capability. It's my own readiness to think the problem through.
 
 ## Making the fuzzy explicit
 
@@ -66,20 +69,21 @@ This is the part that has surprised me most. For years I've had a loose, intuiti
 
 Building the structured architecture for these vaults has forced me to make those relationships explicit. What *type* of relationship does this presentation have to that project? Is this person a co-presenter, an organiser, or someone I met at the event? Is this file a presentation, an event record, or both? None of these distinctions had ever needed to be precise before. They matter when you're building something a machine needs to act on consistently — and making them explicit has clarified my own thinking in ways I didn't anticipate.
 
-I've [written elsewhere](taste-and-judgement-AI-systems) about the idea that taste and evaluative judgement are the core human contributions in AI collaboration. This project has made that idea concrete. Claude is capable. What it can't do is determine whether a particular output is right for the context — whether a naming convention serves the larger vision, whether a structural decision will hold when applied to a different category of work. That's my contribution: not generating content or moving files, but exercising judgement about whether each iteration moves closer to or further from what I'm trying to build.
+I've written before about the idea that [[taste-and-judgement|taste and evaluative judgement]] are the core human contributions in AI collaboration and it feels like this project has made that idea more concrete. Claude is extremely capable but what it can't do is determine whether a particular output is right for the context; whether a naming convention serves the larger vision, or whether a structural decision will hold when applied to a different category of work. That's my contribution: not generating content or moving files, but exercising judgement about whether each iteration moves closer to or further from what I'm trying to build.
 
 This is a personal observation, not a general claim. But the discipline of making my thinking explicit enough for Claude to act on has sharpened it.
 
 ## Architecture over tools
 
-In my experience, the combination of a capable model and structured documentation has been more productive than either would be alone. The model brings processing speed, pattern consistency, and the ability to apply rules across hundreds of files without fatigue. The documentation brings persistent context, accumulated decisions, and a representation of the vision orienting the work.
+This experience has shown me that the combination of a capable model and structured documentation has been more productive than either would be alone. The model brings processing speed, pattern consistency, and the ability to apply rules across hundreds of files without fatigue. The documentation brings persistent context, accumulated decisions, and a representation of the vision orienting the work.
 
-Most of the friction hasn't come from model limitations. It has come from gaps in my own documentation — places where I hadn't yet made a decision explicit, or where the relationship between two concepts was still fuzzy in my own thinking.
+> [!tip] The bottleneck is usually the documentation, not the model
+> Most of the friction hasn't come from model limitations. It has come from gaps in my own documentation — places where I hadn't yet made a decision explicit, or where the relationship between two concepts was still fuzzy in my own thinking.
 
-I've started to wonder whether some of what gets described as AI "not being ready" for organisational use partly reflects the information environment it's being asked to operate in. Institutions that describe themselves as [[AI-forward]] often focus on deploying tools rather than on the information architecture those tools depend on. The pattern I've noticed — that the bottleneck is more often in the clarity of the context than in the capability of the model — suggests the priority should be architecture first, tools second.
+I've started to wonder whether some of what gets described as AI "not being ready" for organisational use partly reflects the information environment it's being asked to operate in. Institutions that describe themselves as [[AI-forward]] may focus on deploying tools rather than on the information architecture those tools depend on. The pattern I've noticed in my own practice — that the bottleneck is more often in the clarity of the context than in the capability of the model — suggests the priority should be architecture first, tools second.
 
 ## Where this stands
 
-This project isn't finished. The vaults are still partial; I'm still refining the processing rules, and I'm still discovering problems that need to sit for a few days before I can articulate them. That's the point. An AI collaboration workflow built on structured documentation doesn't reach a fixed endpoint — it improves continuously as the context it works within becomes clearer and more complete. Not because the model has changed, but because the architecture surrounding it has.
+This project isn't finished and my Obsidian vaults remain partial. I'm still refining the processing rules, and still discovering problems that need to sit for a few days before I can articulate them. That's the point. An AI collaboration workflow built on structured documentation doesn't reach a fixed endpoint — it improves continuously as the context it works within becomes clearer and more complete. Not because the model has changed, but because the architecture surrounding it has.
 
 If you're building your own AI collaboration workflow, the question worth asking isn't "which model should I use?" It's "what does the model need to know, and how clearly have I documented it?"
