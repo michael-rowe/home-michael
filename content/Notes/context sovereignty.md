@@ -12,11 +12,10 @@ created: 2026-01-08T00:00:00.000Z
 updated: 2026-02-05T00:00:00.000Z
 needs_review: false
 tags:
-  - artificial-intelligence
   - context-engineering
   - context-sovereignty
   - model-context-protocol
-  - language-model
+  - large language models
   - personal-knowledge-management
 category: AI and technology
 related:

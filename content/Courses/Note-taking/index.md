@@ -8,8 +8,7 @@ date: 2026-01-29T00:00:00.000Z
 updated: 2026-01-29T00:00:00.000Z
 tags:
   - note-taking
-  - pkm
-  - knowledge-management
+  - personal knowledge management
 category:
   - Knowledge management
 related: null

@@ -12,7 +12,6 @@ created: 2026-02-10T00:00:00.000Z
 updated: 2026-02-10T00:00:00.000Z
 needs_review: false
 tags:
-  - artificial-intelligence
   - reasoning
   - information-retrieval
 category: AI and technology

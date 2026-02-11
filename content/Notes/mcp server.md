@@ -15,7 +15,6 @@ needs_review: false
 tags:
   - generative-ai
   - context-engineering
-  - implementation
 category: AI and technology
 related:
   - '[[context engineering]]'

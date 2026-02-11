@@ -1,23 +1,72 @@
 ---
 type: essay
-title: "Avoiding innovation theatre: A framework for supporting institutional AI integration"
+title: >-
+  Avoiding innovation theatre: A framework for supporting institutional AI
+  integration
 slug: essays/ai-integration-framework
-description: "Higher education institutions face persistent pressure to demonstrate engagement with artificial intelligence, often resulting in 'innovation theatre'—the performance of transformation without corresponding structural change. This essay presents a diagnostic framework that distinguishes between performative and structural integration through the analysis of four operational domains: governance and accountability, resource architecture, learning systems, and boundary setting. Unlike linear maturity models, this framework enables institutional leaders to assess whether organizational structures align with stated strategic intentions, revealing gaps between rhetoric and reality. By proposing three legitimate strategic positions—incremental, selective, and transformative—the framework helps institutions move beyond accidental drift toward conscious strategic choice. Successful AI integration requires treating it as an ongoing strategic practice rather than a fixed deployment of finished solutions. This analysis positions AI integration as a governance imperative, requiring institutions to build internal capability to evaluate emerging technologies and make informed choices aligned with institutional values, ultimately ensuring that institutional agency is preserved in an increasingly AI-mediated landscape."
-meta-description: "A framework for distinguishing between performative 'innovation theatre' and structural AI integration in higher education institutions."
-author: "[[Michael Rowe]]"
+description: >-
+  Higher education institutions face persistent pressure to demonstrate
+  engagement with artificial intelligence, often resulting in 'innovation
+  theatre'—the performance of transformation without corresponding structural
+  change. This essay presents a diagnostic framework that distinguishes between
+  performative and structural integration through the analysis of four
+  operational domains: governance and accountability, resource architecture,
+  learning systems, and boundary setting. Unlike linear maturity models, this
+  framework enables institutional leaders to assess whether organizational
+  structures align with stated strategic intentions, revealing gaps between
+  rhetoric and reality. By proposing three legitimate strategic
+  positions—incremental, selective, and transformative—the framework helps
+  institutions move beyond accidental drift toward conscious strategic choice.
+  Successful AI integration requires treating it as an ongoing strategic
+  practice rather than a fixed deployment of finished solutions. This analysis
+  positions AI integration as a governance imperative, requiring institutions to
+  build internal capability to evaluate emerging technologies and make informed
+  choices aligned with institutional values, ultimately ensuring that
+  institutional agency is preserved in an increasingly AI-mediated landscape.
+meta-description: >-
+  A framework for distinguishing between performative 'innovation theatre' and
+  structural AI integration in higher education institutions.
+author: '[[Michael Rowe]]'
 affiliation: University of Lincoln
 email: mrowe@lincoln.ac.uk
-abstract: "Higher education institutions face persistent pressure to demonstrate visible engagement with artificial intelligence, often resulting in what we characterise as innovation theatre - the performance of transformation without corresponding structural change. This paper presents a diagnostic framework that distinguishes between performative and structural integration through analysis of four operational domains: governance and accountability, resource architecture, learning systems, and boundary setting. Unlike maturity models that prescribe linear progression, this framework enables institutional leaders to assess whether organisational structures align with stated strategic intentions, revealing gaps between rhetoric and reality. The framework emerged from critical analysis of institutional AI responses but evolved toward practical utility for decision-makers operating within genuine constraints. We position this work as practitioner pattern recognition requiring subsequent empirical validation, outline specific validation pathways, and discuss implications for institutional strategy in contexts of technological disruption. The four domains capture the essential structural levers while remaining operationally actionable, allowing leaders to identify which areas need attention and in what sequence. Governance patterns fundamentally constrain what is possible in other domains, while resource architecture enables or limits the infrastructure for learning. Success depends on organisational commitment, realistic timelines acknowledging substantial change management, and clear demonstration of efficiency gains. Most fundamentally, the framework addresses institutional agency, helping universities occupy their chosen strategic position consciously rather than arriving there accidentally through drift between stated intentions and structural reality. By providing analytical vocabulary and diagnostic criteria, the framework creates conditions for genuine institutional learning regardless of the adopted strategic stance."
+abstract: >-
+  Higher education institutions face persistent pressure to demonstrate visible
+  engagement with artificial intelligence, often resulting in what we
+  characterise as innovation theatre - the performance of transformation without
+  corresponding structural change. This paper presents a diagnostic framework
+  that distinguishes between performative and structural integration through
+  analysis of four operational domains: governance and accountability, resource
+  architecture, learning systems, and boundary setting. Unlike maturity models
+  that prescribe linear progression, this framework enables institutional
+  leaders to assess whether organisational structures align with stated
+  strategic intentions, revealing gaps between rhetoric and reality. The
+  framework emerged from critical analysis of institutional AI responses but
+  evolved toward practical utility for decision-makers operating within genuine
+  constraints. We position this work as practitioner pattern recognition
+  requiring subsequent empirical validation, outline specific validation
+  pathways, and discuss implications for institutional strategy in contexts of
+  technological disruption. The four domains capture the essential structural
+  levers while remaining operationally actionable, allowing leaders to identify
+  which areas need attention and in what sequence. Governance patterns
+  fundamentally constrain what is possible in other domains, while resource
+  architecture enables or limits the infrastructure for learning. Success
+  depends on organisational commitment, realistic timelines acknowledging
+  substantial change management, and clear demonstration of efficiency gains.
+  Most fundamentally, the framework addresses institutional agency, helping
+  universities occupy their chosen strategic position consciously rather than
+  arriving there accidentally through drift between stated intentions and
+  structural reality. By providing analytical vocabulary and diagnostic
+  criteria, the framework creates conditions for genuine institutional learning
+  regardless of the adopted strategic stance.
 version: 0.4
-created: 2025-12-05
-modified: 2026-02-10
+created: 2025-12-05T00:00:00.000Z
+modified: 2026-02-10T00:00:00.000Z
 tags:
   - AI-forward
-  - artificial-intelligence
   - leadership
   - organisational-infrastructure
   - risk-management
-doi:
+doi: null
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk)

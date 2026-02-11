@@ -2,28 +2,76 @@
 type: essay
 title: Taste and judgement in human-AI systems
 slug: essays/taste-and-judgement
-description: "Contemporary discourse surrounding AI often focuses on 'sanctuary strategies'—defensive attempts to identify uniquely human capabilities like creativity and empathy. This binary thinking positions humans and AI as competitors for finite cognitive territory, diminishing human agency. This essay reframes human-AI relationships as embedded within complex cognitive ecologies where meaning emerges through interaction rather than isolation. It introduces 'taste' as a framework for cultivating contextual judgement—sophisticated discernment about when, how, and why to engage AI capabilities in service of meaningful purposes. Unlike technical literacy, taste development involves iterative experimentation and reflection, preserving human agency over value determination. By moving from the question 'What can humans do that AI cannot?' to 'How might AI help us do more of what we value?', we can build abundance-oriented partnerships. This repositioning of human agency within collaborative systems offers a pathway toward navigating complex technological landscapes while preserving human authorship over purpose and meaning."
-meta-description: "Cultivating 'taste' as a framework for contextual judgement and meaningful human-AI collaboration."
+description: >-
+  Contemporary discourse surrounding AI often focuses on 'sanctuary
+  strategies'—defensive attempts to identify uniquely human capabilities like
+  creativity and empathy. This binary thinking positions humans and AI as
+  competitors for finite cognitive territory, diminishing human agency. This
+  essay reframes human-AI relationships as embedded within complex cognitive
+  ecologies where meaning emerges through interaction rather than isolation. It
+  introduces 'taste' as a framework for cultivating contextual
+  judgement—sophisticated discernment about when, how, and why to engage AI
+  capabilities in service of meaningful purposes. Unlike technical literacy,
+  taste development involves iterative experimentation and reflection,
+  preserving human agency over value determination. By moving from the question
+  'What can humans do that AI cannot?' to 'How might AI help us do more of what
+  we value?', we can build abundance-oriented partnerships. This repositioning
+  of human agency within collaborative systems offers a pathway toward
+  navigating complex technological landscapes while preserving human authorship
+  over purpose and meaning.
+meta-description: >-
+  Cultivating 'taste' as a framework for contextual judgement and meaningful
+  human-AI collaboration.
 author:
-  - "[[Michael Rowe]]"
+  - '[[Michael Rowe]]'
 affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
-abstract: "Contemporary discourse surrounding artificial intelligence demonstrates a persistent pattern of defensive positioning, characterised by attempts to identify capabilities that remain exclusively human. This sanctuary strategy creates increasingly fragile distinctions that position human and artificial intelligence as competitors for finite cognitive territory, establishing zero-sum relationships that constrain collaborative possibilities. Through critical analysis of binary thinking frameworks, this essay reveals how defensive approaches inadvertently diminish human agency while failing to address the practical challenges of navigating human-AI relationships. Drawing on ecological systems thinking and cognitive science, the essay reframes human-AI relationships as embedded within complex cognitive ecologies where meaning emerges through interaction. This ecological perspective challenges our investment in human exceptionalism that privilege separation over collaborative participation, revealing how distinctiveness might emerge through sophisticated engagement rather than defensive isolation. The essay introduces taste as a framework for cultivating contextual judgement that transcends binary categorisation while preserving human agency over meaning-making and value determination. Unlike technical literacy that focuses on operational competency, taste development involves iterative experimentation and reflection that enables sophisticated discernment about when, how, and why to engage AI capabilities in service of personally meaningful purposes. This approach transforms the limiting question, What can humans do that AI cannot? toward the more generative inquiry, How might AI help us do more of what we value? The analysis demonstrates how taste development enables abundance-oriented partnerships that expand rather than constrain human possibility through thoughtful technological collaboration. The implications extend beyond individual capability to encompass potential transformations in professional practice, educational approaches, and cultural frameworks for understanding human-technological relationships. By repositioning human agency within collaborative intelligence systems, taste development offers a pathway toward more sophisticated and sustainable approaches to navigating increasingly complex technological landscapes while preserving human authorship over fundamental questions of purpose and meaning."
-created: 2025-07-08
-modified: 2026-02-10
+abstract: >-
+  Contemporary discourse surrounding artificial intelligence demonstrates a
+  persistent pattern of defensive positioning, characterised by attempts to
+  identify capabilities that remain exclusively human. This sanctuary strategy
+  creates increasingly fragile distinctions that position human and artificial
+  intelligence as competitors for finite cognitive territory, establishing
+  zero-sum relationships that constrain collaborative possibilities. Through
+  critical analysis of binary thinking frameworks, this essay reveals how
+  defensive approaches inadvertently diminish human agency while failing to
+  address the practical challenges of navigating human-AI relationships. Drawing
+  on ecological systems thinking and cognitive science, the essay reframes
+  human-AI relationships as embedded within complex cognitive ecologies where
+  meaning emerges through interaction. This ecological perspective challenges
+  our investment in human exceptionalism that privilege separation over
+  collaborative participation, revealing how distinctiveness might emerge
+  through sophisticated engagement rather than defensive isolation. The essay
+  introduces taste as a framework for cultivating contextual judgement that
+  transcends binary categorisation while preserving human agency over
+  meaning-making and value determination. Unlike technical literacy that focuses
+  on operational competency, taste development involves iterative
+  experimentation and reflection that enables sophisticated discernment about
+  when, how, and why to engage AI capabilities in service of personally
+  meaningful purposes. This approach transforms the limiting question, What can
+  humans do that AI cannot? toward the more generative inquiry, How might AI
+  help us do more of what we value? The analysis demonstrates how taste
+  development enables abundance-oriented partnerships that expand rather than
+  constrain human possibility through thoughtful technological collaboration.
+  The implications extend beyond individual capability to encompass potential
+  transformations in professional practice, educational approaches, and cultural
+  frameworks for understanding human-technological relationships. By
+  repositioning human agency within collaborative intelligence systems, taste
+  development offers a pathway toward more sophisticated and sustainable
+  approaches to navigating increasingly complex technological landscapes while
+  preserving human authorship over fundamental questions of purpose and meaning.
+created: 2025-07-08T00:00:00.000Z
+modified: 2026-02-10T00:00:00.000Z
 version: 0.5
 tags:
-- artificial-intelligence
-- complexity
-- collaboration
-- discernment
-- ecological-systems
-- human-ai-relationships
-- exceptionalism
-- judgement
-- taste
+  - complexity
+  - collaboration
+  - discernment
+  - human-ai-relationships
+  - judgement
+  - taste
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))

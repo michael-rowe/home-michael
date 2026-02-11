@@ -20,7 +20,6 @@ author: '[[Michael Rowe]]'
 date: 2026-01-28T00:00:00.000Z
 updated: 2026-02-04T00:00:00.000Z
 tags:
-  - artificial-intelligence
   - governance
   - organisational-change
 category:

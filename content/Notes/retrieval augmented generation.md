@@ -13,7 +13,7 @@ updated: 2026-02-10T00:00:00.000Z
 needs_review: false
 tags:
   - generative-ai
-  - language-model
+  - large language models
   - information-retrieval
 category: AI and technology
 related:

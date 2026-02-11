@@ -13,7 +13,6 @@ created: 2026-02-05T00:00:00.000Z
 updated: 2026-02-05T00:00:00.000Z
 needs_review: false
 tags:
-  - artificial-intelligence
   - context-sovereignty
   - knowledge-representation
   - personal-knowledge-management

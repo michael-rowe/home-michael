@@ -13,7 +13,6 @@ created: 2025-02-06T00:00:00.000Z
 updated: 2025-02-06T00:00:00.000Z
 tags:
   - cognitive-science
-  - artificial-intelligence
   - learning-theory
   - human-cognition
 category: AI and technology

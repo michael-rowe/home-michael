@@ -1,24 +1,69 @@
 ---
 type: essay
-title: Technological nature of language and the implications for health professions education
+title: >-
+  Technological nature of language and the implications for health professions
+  education
 slug: essays/language-technology
-description: "Language is humanity's first general-purpose technology, a system developed to extend cognitive capabilities far beyond biological limits. Large language models (LLMs) represent the latest evolution in a continuum stretching from spoken language through writing and printing to digital text. LLMs extend language's fundamental capabilities through unprecedented scale, cross-domain synthesis, and cognitive adaptability. This evolution presents challenges for health professions education, where students navigate information overload while remaining underprepared for complex practice. By viewing LLMs as language technology rather than mere computing applications, educational priorities shift from knowledge acquisition toward cognitive partnership and adaptive expertise. This perspective demands a reconceptualisation of AI literacy, moving beyond technical prompting to understand how these tools shape reasoning. Assessment must also evolve, evaluating students' capacity to leverage AI partnerships for collaborative problem-solving. Understanding LLMs as part of language's ongoing evolution offers a middle path between uncritical enthusiasm and reflexive resistance, ensuring that AI enhances rather than diminishes the human dimensions of healthcare education and reasoning."
-meta-description: "Reconceptualising language as technology to understand the role of LLMs in health professions education."
+description: >-
+  Language is humanity's first general-purpose technology, a system developed to
+  extend cognitive capabilities far beyond biological limits. Large language
+  models (LLMs) represent the latest evolution in a continuum stretching from
+  spoken language through writing and printing to digital text. LLMs extend
+  language's fundamental capabilities through unprecedented scale, cross-domain
+  synthesis, and cognitive adaptability. This evolution presents challenges for
+  health professions education, where students navigate information overload
+  while remaining underprepared for complex practice. By viewing LLMs as
+  language technology rather than mere computing applications, educational
+  priorities shift from knowledge acquisition toward cognitive partnership and
+  adaptive expertise. This perspective demands a reconceptualisation of AI
+  literacy, moving beyond technical prompting to understand how these tools
+  shape reasoning. Assessment must also evolve, evaluating students' capacity to
+  leverage AI partnerships for collaborative problem-solving. Understanding LLMs
+  as part of language's ongoing evolution offers a middle path between
+  uncritical enthusiasm and reflexive resistance, ensuring that AI enhances
+  rather than diminishes the human dimensions of healthcare education and
+  reasoning.
+meta-description: >-
+  Reconceptualising language as technology to understand the role of LLMs in
+  health professions education.
 author:
-  - "[[Michael Rowe]]"
+  - '[[Michael Rowe]]'
 affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
-abstract: "This essay explores the idea of language as humanity's first general purpose technology—a system we developed to extend human capabilities across a range of domains, which enabled complementary innovations. Through this conceptual lens, large language models (LLMs) emerge not merely as new digital tools, but as a significant evolution in the continuum of language technologies that stretches from spoken language through writing, printing, and digital text. The essay explores how LLMs extend language's core capabilities through unprecedented scale, cross-domain synthesis, adaptability, and emerging multimodality. These extensions are particularly relevant to health professions education, where students face the dual challenge of information overload and inadequate preparation for complex practice environments. By viewing LLMs as an evolution of our most fundamental technology rather than simply new applications, we can better understand their implications for clinical education. This perspective suggests shifting educational emphasis from knowledge acquisition to clinical reasoning and adaptive expertise, developing new forms of AI literacy specific to healthcare contexts, and reimagining assessment approaches. Understanding LLMs as part of language's ongoing evolution offers a nuanced middle path between uncritical enthusiasm and reflexive resistance, informing thoughtful integration that enhances rather than diminishes the human dimensions of healthcare education. The technological nature of language reminds us that humans have always been enhanced by the tools we create for thinking and communication, and LLMs represent the latest chapter in this story, offering tremendous potential for educational transformation if approached with both enthusiasm for new possibilities and commitment to enduring human values."
+abstract: >-
+  This essay explores the idea of language as humanity's first general purpose
+  technology—a system we developed to extend human capabilities across a range
+  of domains, which enabled complementary innovations. Through this conceptual
+  lens, large language models (LLMs) emerge not merely as new digital tools, but
+  as a significant evolution in the continuum of language technologies that
+  stretches from spoken language through writing, printing, and digital text.
+  The essay explores how LLMs extend language's core capabilities through
+  unprecedented scale, cross-domain synthesis, adaptability, and emerging
+  multimodality. These extensions are particularly relevant to health
+  professions education, where students face the dual challenge of information
+  overload and inadequate preparation for complex practice environments. By
+  viewing LLMs as an evolution of our most fundamental technology rather than
+  simply new applications, we can better understand their implications for
+  clinical education. This perspective suggests shifting educational emphasis
+  from knowledge acquisition to clinical reasoning and adaptive expertise,
+  developing new forms of AI literacy specific to healthcare contexts, and
+  reimagining assessment approaches. Understanding LLMs as part of language's
+  ongoing evolution offers a nuanced middle path between uncritical enthusiasm
+  and reflexive resistance, informing thoughtful integration that enhances
+  rather than diminishes the human dimensions of healthcare education. The
+  technological nature of language reminds us that humans have always been
+  enhanced by the tools we create for thinking and communication, and LLMs
+  represent the latest chapter in this story, offering tremendous potential for
+  educational transformation if approached with both enthusiasm for new
+  possibilities and commitment to enduring human values.
 version: 0.6
-created: 2025-03-28
-modified: 2026-02-10
+created: 2025-03-28T00:00:00.000Z
+modified: 2026-02-10T00:00:00.000Z
 tags:
   - language
-  - technology
-  - language-model
-  - education
+  - large language models
   - general-purpose-technology
 ---
 [!info] **About this essay**

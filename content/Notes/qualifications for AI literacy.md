@@ -13,9 +13,6 @@ date: 2026-01-29T00:00:00.000Z
 updated: 2026-01-29T00:00:00.000Z
 tags:
   - AI-literacy
-  - learning
-  - practice
-  - assessment
 category:
   - AI and technology
 related:

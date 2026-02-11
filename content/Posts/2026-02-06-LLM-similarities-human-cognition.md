@@ -1,24 +1,32 @@
 ---
-title: "AI and human cognition: What if we're the language models?"
+title: 'AI and human cognition: What if we''re the language models?'
 type: post
-aliases:
-description: The discourse around AI and human cognition tends to focus on differences, but what happens when we invert the question and use LLM terminology to explore similarities? This post examines parallels between AI cognitive architecture and human thinking—context windows, training data bias, tokenisation, temperature, hallucination, and pattern matching—not to claim that humans are language models, but to ask what these similarities reveal about our own cognitive processes and why we are so invested in denying them.
-meta-description: What LLM terminology reveals about human cognition, and why we resist acknowledging the extensive similarities between AI and human thinking.
+aliases: null
+description: >-
+  The discourse around AI and human cognition tends to focus on differences, but
+  what happens when we invert the question and use LLM terminology to explore
+  similarities? This post examines parallels between AI cognitive architecture
+  and human thinking—context windows, training data bias, tokenisation,
+  temperature, hallucination, and pattern matching—not to claim that humans are
+  language models, but to ask what these similarities reveal about our own
+  cognitive processes and why we are so invested in denying them.
+meta-description: >-
+  What LLM terminology reveals about human cognition, and why we resist
+  acknowledging the extensive similarities between AI and human thinking.
 keyphrase: AI human cognition
-author: "[[Michael Rowe]]"
-date: 2026-02-06
-updated: 2026-02-06
+author: '[[Michael Rowe]]'
+date: 2026-02-06T00:00:00.000Z
+updated: 2026-02-06T00:00:00.000Z
 tags:
-  - artificial-intelligence
   - cognitive-science
   - human-cognition
   - professional-identity
   - AI-integration
-category:
+category: null
 related:
-  - "[[human cognition and LLM parallels]]"
-  - "[[context engineering]]"
-  - "[[large language models]]"
+  - '[[human cognition and LLM parallels]]'
+  - '[[context engineering]]'
+  - '[[large language models]]'
 draft: false
 slug: posts/ai-human-cognition-similarities
 enableToc: true

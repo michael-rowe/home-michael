@@ -1,25 +1,67 @@
 ---
 type: essay
-title: "Beyond document management: Graph infrastructure for professional education curricula"
+title: >-
+  Beyond document management: Graph infrastructure for professional education
+  curricula
 slug: essays/curriculum-infrastructure
-description: "Professional curricula are extensively documented but not systematically queryable, creating artificial information scarcity that makes compliance reporting and quality assurance labour-intensive. This essay proposes an architecture where graph databases serve as the source of truth for curriculum structure, enabling compliance verification in hours rather than weeks."
-meta-description: "Proposing a graph-based infrastructure to transform professional education curricula into queryable operational architecture."
+description: >-
+  Professional curricula are extensively documented but not systematically
+  queryable, creating artificial information scarcity that makes compliance
+  reporting and quality assurance labour-intensive. This essay proposes an
+  architecture where graph databases serve as the source of truth for curriculum
+  structure, enabling compliance verification in hours rather than weeks.
+meta-description: >-
+  Proposing a graph-based infrastructure to transform professional education
+  curricula into queryable operational architecture.
 author:
-  - "[[Michael Rowe]]"
-  - "[[Wesley Lynch]]"
+  - '[[Michael Rowe]]'
+  - '[[Wesley Lynch]]'
 affiliation:
   - University of Lincoln
   - Snapplify
 email:
   - mrowe@lincoln.ac.uk
   - wesley@snapplify.com
-abstract: "Professional education curricula—in medicine, nursing, allied health, and other regulated disciplines—are comprehensively documented across hundreds of module specifications, teaching plans, and assessments. Yet when curriculum teams must demonstrate competency coverage for regulatory audits, answer questions about prerequisite chains, or identify assessment gaps, current systems require manual document review consuming days or weeks of staff time. Quality assurance processes involve collating spreadsheets from multiple module leads, manually cross-referencing teaching content against regulatory frameworks, and compiling evidence that specific competencies have adequate coverage. The core issue: curricula have explicit structure—hierarchical organisation, prerequisite relationships, competency mappings—that exists in documents and staff knowledge but not as queryable data. Current systems make structural information inaccessible through technical limitations, forcing staff to manually extract information from documents they themselves created. We propose a three-layer architecture: a graph database layer for curriculum structure, a vector database layer for content retrieval, and a Model Context Protocol layer for accessible interfaces. This makes documented curriculum structure explicitly queryable—prerequisite chains, competency mappings, and assessment coverage—enabling compliance verification in hours rather than weeks. The architecture suits AI-forward institutions—those treating AI integration as ongoing strategic practice requiring active engagement with evolving technologies. Technology handles structural verification; educators retain essential authority over educational meaning-making. This proposal argues for removing technical barriers to interrogating curriculum complexity rather than eliminating that complexity through technological solutions. Graph databases make relationships first-class entities that can be traversed, filtered, and aggregated, enabling the structural queries that compliance and quality assurance processes require. As regulatory frameworks update, institutions can immediately query affected elements, identifying where curriculum updates are required. Ultimately, this transforms compliance from reactive documentation to transparent structural verification, supporting constructive alignment and ensuring that learning outcomes, teaching activities, and assessments genuinely cohere across the entire educational ecosystem."
+abstract: >-
+  Professional education curricula—in medicine, nursing, allied health, and
+  other regulated disciplines—are comprehensively documented across hundreds of
+  module specifications, teaching plans, and assessments. Yet when curriculum
+  teams must demonstrate competency coverage for regulatory audits, answer
+  questions about prerequisite chains, or identify assessment gaps, current
+  systems require manual document review consuming days or weeks of staff time.
+  Quality assurance processes involve collating spreadsheets from multiple
+  module leads, manually cross-referencing teaching content against regulatory
+  frameworks, and compiling evidence that specific competencies have adequate
+  coverage. The core issue: curricula have explicit structure—hierarchical
+  organisation, prerequisite relationships, competency mappings—that exists in
+  documents and staff knowledge but not as queryable data. Current systems make
+  structural information inaccessible through technical limitations, forcing
+  staff to manually extract information from documents they themselves created.
+  We propose a three-layer architecture: a graph database layer for curriculum
+  structure, a vector database layer for content retrieval, and a Model Context
+  Protocol layer for accessible interfaces. This makes documented curriculum
+  structure explicitly queryable—prerequisite chains, competency mappings, and
+  assessment coverage—enabling compliance verification in hours rather than
+  weeks. The architecture suits AI-forward institutions—those treating AI
+  integration as ongoing strategic practice requiring active engagement with
+  evolving technologies. Technology handles structural verification; educators
+  retain essential authority over educational meaning-making. This proposal
+  argues for removing technical barriers to interrogating curriculum complexity
+  rather than eliminating that complexity through technological solutions. Graph
+  databases make relationships first-class entities that can be traversed,
+  filtered, and aggregated, enabling the structural queries that compliance and
+  quality assurance processes require. As regulatory frameworks update,
+  institutions can immediately query affected elements, identifying where
+  curriculum updates are required. Ultimately, this transforms compliance from
+  reactive documentation to transparent structural verification, supporting
+  constructive alignment and ensuring that learning outcomes, teaching
+  activities, and assessments genuinely cohere across the entire educational
+  ecosystem.
 version: 0.6
-created: 2025-11-08
-modified: 2026-02-10
+created: 2025-11-08T00:00:00.000Z
+modified: 2026-02-10T00:00:00.000Z
 tags:
   - AI-forward
-  - artificial-intelligence
   - context-engineering
   - context-sovereignty
   - curriculum-development
@@ -29,11 +71,11 @@ tags:
   - human-AI-collaboration
   - model-context-protocol
   - vector-database
-doi:
+doi: null
 related:
-  - "[[Essays/documentation-as-infrastructure]]"
-  - "[[Essays/context-sovereignty]]"
-  - "[[Notes/model-context-protocol]]"
+  - '[[Essays/documentation-as-infrastructure]]'
+  - '[[Essays/context-sovereignty]]'
+  - '[[Notes/model-context-protocol]]'
 ---
 > [!info] **About this essay**
 > - **Authors**: Michael Rowe 1 ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk) and Wesley Lynch 2 ([LinkedIn](https://www.linkedin.com/in/wesleylynch/); wesley@snapplify.com)

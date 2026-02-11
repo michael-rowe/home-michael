@@ -14,7 +14,6 @@ needs_review: false
 tags:
   - generative-ai
   - information-retrieval
-  - knowledge-management
 category: AI and technology
 related:
   - '[[embeddings]]'

@@ -14,7 +14,6 @@ tags:
   - generative-ai
   - context-engineering
   - standards
-  - anthropic
 category: AI and technology
 related:
   - '[[context engineering]]'

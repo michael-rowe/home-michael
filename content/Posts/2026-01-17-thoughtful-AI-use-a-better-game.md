@@ -21,7 +21,6 @@ updated: 2026-02-04T00:00:00.000Z
 tags:
   - critical-thinking
   - educational-technology
-  - learning
 category:
   - Pedagogy
 related:

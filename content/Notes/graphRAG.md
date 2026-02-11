@@ -12,7 +12,6 @@ created: 2026-01-30T00:00:00.000Z
 updated: 2026-01-30T00:00:00.000Z
 needs_review: false
 tags:
-  - artificial-intelligence
   - knowledge-graphs
   - retrieval-augmented-generation
   - context-engineering

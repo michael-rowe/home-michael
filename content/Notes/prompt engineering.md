@@ -1,26 +1,27 @@
 ---
 title: Prompt engineering
-description: Using natural language to produce desired responses from large language models through iterative refinement
+description: >-
+  Using natural language to produce desired responses from large language models
+  through iterative refinement
 aliases:
   - prompting
   - prompt design
 type: note
-author: "[[Michael Rowe]]"
-created: 2026-01-09
-updated: 2026-01-30
+author: '[[Michael Rowe]]'
+created: 2026-01-09T00:00:00.000Z
+updated: 2026-01-30T00:00:00.000Z
 needs_review: false
 tags:
   - prompt-engineering
-  - skills
-category:
+category: null
 related:
-  - "[[context engineering]]"
-builds_on:
+  - '[[context engineering]]'
+builds_on: null
 leads_to:
-  - "[[context engineering]]"
-contradicts:
-source: ""
-source_url: ""
+  - '[[context engineering]]'
+contradicts: null
+source: ''
+source_url: ''
 ---
 
 > [!tip] Management, not magic

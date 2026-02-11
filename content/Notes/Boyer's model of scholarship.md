@@ -1,26 +1,27 @@
 ---
 title: Boyer's model of scholarship
-description: A multidimensional framework for scholarship spanning discovery, integration, application, and teaching.
+description: >-
+  A multidimensional framework for scholarship spanning discovery, integration,
+  application, and teaching.
 aliases:
   - traditional scholarship
 type: note
-author: "[[Michael Rowe]]"
-created: 2026-01-30
-updated: 2026-01-30
+author: '[[Michael Rowe]]'
+created: 2026-01-30T00:00:00.000Z
+updated: 2026-01-30T00:00:00.000Z
 needs_review: false
-tags:
-  - scholarship
-  - research
-  - teaching
+tags: []
 category:
   - Scholarship
 related:
-  - "[[2026-01-27-what-does-scholarship-sound-like]]"
-builds_on:
-leads_to:
-contradicts:
-source: "Boyer, E. L. (1990). Scholarship Reconsidered: Priorities of the Professoriate."
-source_url: ""
+  - '[[2026-01-27-what-does-scholarship-sound-like]]'
+builds_on: null
+leads_to: null
+contradicts: null
+source: >-
+  Boyer, E. L. (1990). Scholarship Reconsidered: Priorities of the
+  Professoriate.
+source_url: ''
 ---
 
 > [!tip] Beyond the teaching-research binary

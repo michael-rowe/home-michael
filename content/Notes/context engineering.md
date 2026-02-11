@@ -13,7 +13,7 @@ needs_review: false
 tags:
   - context-engineering
   - generative-ai
-  - language-model
+  - large language models
   - information-architecture
   - knowledge-graphs
 category:

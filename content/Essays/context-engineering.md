@@ -1,24 +1,82 @@
 ---
 type: essay
-title: Context engineering and the technical foundations of educational transformation
+title: >-
+  Context engineering and the technical foundations of educational
+  transformation
 slug: essays/context-engineering
-description: "Higher education institutions face a choice between prompt engineering—teaching students interaction mechanics—and context engineering—architecting persistent knowledge ecosystems. While prompt engineering reinforces episodic, container-based education, context engineering offers a paradigmatic alternative that builds persistent understanding across AI interactions. This demands technical infrastructure including knowledge graphs, federated intelligence protocols, and persistent memory systems. These technologies enable epistemic transformations, reconceptualising knowledge as interconnected networks rather than discrete curricular containers. Dynamic integration of emerging research and collaborative construction processes challenge traditional academic gatekeeping, democratising knowledge validation involving multiple stakeholder communities. The systemic implications are profound, requiring governance reconceptualisation and substantial infrastructure investment. Context engineering creates technical dependencies that make traditional approaches untenable, establishing path dependencies for continued transformation. This analysis reveals context engineering as a watershed moment for institutions seeking educational relevance in rapidly evolving, AI-mediated environments where traditional structures struggle to address the complexities of contemporary professional practice and collaborative reasoning."
-meta-description: "Exploring context engineering as a technical and epistemic alternative to prompt engineering in higher education."
+description: >-
+  Higher education institutions face a choice between prompt
+  engineering—teaching students interaction mechanics—and context
+  engineering—architecting persistent knowledge ecosystems. While prompt
+  engineering reinforces episodic, container-based education, context
+  engineering offers a paradigmatic alternative that builds persistent
+  understanding across AI interactions. This demands technical infrastructure
+  including knowledge graphs, federated intelligence protocols, and persistent
+  memory systems. These technologies enable epistemic transformations,
+  reconceptualising knowledge as interconnected networks rather than discrete
+  curricular containers. Dynamic integration of emerging research and
+  collaborative construction processes challenge traditional academic
+  gatekeeping, democratising knowledge validation involving multiple stakeholder
+  communities. The systemic implications are profound, requiring governance
+  reconceptualisation and substantial infrastructure investment. Context
+  engineering creates technical dependencies that make traditional approaches
+  untenable, establishing path dependencies for continued transformation. This
+  analysis reveals context engineering as a watershed moment for institutions
+  seeking educational relevance in rapidly evolving, AI-mediated environments
+  where traditional structures struggle to address the complexities of
+  contemporary professional practice and collaborative reasoning.
+meta-description: >-
+  Exploring context engineering as a technical and epistemic alternative to
+  prompt engineering in higher education.
 author:
-  - "[[Michael Rowe]]"
-  - "[[Wesley Lynch]]"
+  - '[[Michael Rowe]]'
+  - '[[Wesley Lynch]]'
 affiliation:
   - University of Lincoln
   - Snapplify
 email:
   - mrowe@lincoln.ac.uk
   - wesley@snapplify.com
-abstract: "Higher education institutions face a fundamental choice in AI engagement that will determine whether they undergo genuine transformation or sophisticated preservation of existing paradigms. While institutional responses have centred on prompt engineering—teaching students to craft effective AI queries—this approach inadvertently reinforces hierarchical knowledge transmission models and container-based educational structures that increasingly misalign with professional practice. Context engineering emerges as a paradigmatic alternative that shifts focus from optimising individual AI interactions toward architecting persistent knowledge ecosystems. This demands sophisticated technical infrastructure including knowledge graphs capturing conceptual relationships, standardised protocols enabling federated intelligence, and persistent memory systems accumulating understanding over time. These technologies enable epistemic transformations that fundamentally reconceptualise how knowledge exists and operates within educational environments. Rather than discrete curricular containers, knowledge exists as interconnected networks where concepts gain meaning through relationships to broader understanding frameworks. Dynamic knowledge integration enables real-time incorporation of emerging research and community insights, while collaborative construction processes challenge traditional academic gatekeeping through democratic validation involving multiple stakeholder communities. The systemic implications prove profound, demanding governance reconceptualisation, substantial infrastructure investment, and operational transformation that most institutions currently lack capabilities to address effectively. Context engineering creates technical dependencies making traditional educational approaches increasingly untenable, establishing path dependencies favouring continued transformation over reversion to familiar paradigms. This analysis reveals context engineering as a potential watershed moment for higher education institutions seeking educational relevance and technological sophistication within rapidly evolving contexts that traditional academic structures struggle to address effectively. The shift from prompt-based interactions to context-engineered collaboration represents a fundamental reconceptualisation of how knowledge exists, evolves, and operates within educational environments, demanding sophisticated information architecture approaches bridging technical capabilities with educational effectiveness."
+abstract: >-
+  Higher education institutions face a fundamental choice in AI engagement that
+  will determine whether they undergo genuine transformation or sophisticated
+  preservation of existing paradigms. While institutional responses have centred
+  on prompt engineering—teaching students to craft effective AI queries—this
+  approach inadvertently reinforces hierarchical knowledge transmission models
+  and container-based educational structures that increasingly misalign with
+  professional practice. Context engineering emerges as a paradigmatic
+  alternative that shifts focus from optimising individual AI interactions
+  toward architecting persistent knowledge ecosystems. This demands
+  sophisticated technical infrastructure including knowledge graphs capturing
+  conceptual relationships, standardised protocols enabling federated
+  intelligence, and persistent memory systems accumulating understanding over
+  time. These technologies enable epistemic transformations that fundamentally
+  reconceptualise how knowledge exists and operates within educational
+  environments. Rather than discrete curricular containers, knowledge exists as
+  interconnected networks where concepts gain meaning through relationships to
+  broader understanding frameworks. Dynamic knowledge integration enables
+  real-time incorporation of emerging research and community insights, while
+  collaborative construction processes challenge traditional academic
+  gatekeeping through democratic validation involving multiple stakeholder
+  communities. The systemic implications prove profound, demanding governance
+  reconceptualisation, substantial infrastructure investment, and operational
+  transformation that most institutions currently lack capabilities to address
+  effectively. Context engineering creates technical dependencies making
+  traditional educational approaches increasingly untenable, establishing path
+  dependencies favouring continued transformation over reversion to familiar
+  paradigms. This analysis reveals context engineering as a potential watershed
+  moment for higher education institutions seeking educational relevance and
+  technological sophistication within rapidly evolving contexts that traditional
+  academic structures struggle to address effectively. The shift from
+  prompt-based interactions to context-engineered collaboration represents a
+  fundamental reconceptualisation of how knowledge exists, evolves, and operates
+  within educational environments, demanding sophisticated information
+  architecture approaches bridging technical capabilities with educational
+  effectiveness.
 version: 0.7
-created: 2025-07-04
-modified: 2026-02-10
+created: 2025-07-04T00:00:00.000Z
+modified: 2026-02-10T00:00:00.000Z
 tags:
-  - artificial-intelligence
   - context-engineering
   - educational-technology
   - human-AI-collaboration

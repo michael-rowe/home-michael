@@ -3,21 +3,28 @@ title: Essays as scholarship
 type: post
 aliases:
   - Essays as a form of scholarship
-description: Academic culture has converged on the peer-reviewed journal article as the default unit of scholarly output, creating a hierarchy that excludes many valuable forms of intellectual work. This post makes the case for essays as a legitimate form of scholarship—not as a lesser alternative to empirical research, but as a distinct mode that enables exploration, synthesis, and engagement with audiences that traditional publishing cannot reach. Drawing on Boyer's model of scholarship, it argues for a more generous conception of what counts as scholarly contribution.
-meta-description: The peer-reviewed article dominates academia, but essays deserve recognition as scholarship—enabling exploration and synthesis that formal research cannot.
+description: >-
+  Academic culture has converged on the peer-reviewed journal article as the
+  default unit of scholarly output, creating a hierarchy that excludes many
+  valuable forms of intellectual work. This post makes the case for essays as a
+  legitimate form of scholarship—not as a lesser alternative to empirical
+  research, but as a distinct mode that enables exploration, synthesis, and
+  engagement with audiences that traditional publishing cannot reach. Drawing on
+  Boyer's model of scholarship, it argues for a more generous conception of what
+  counts as scholarly contribution.
+meta-description: >-
+  The peer-reviewed article dominates academia, but essays deserve recognition
+  as scholarship—enabling exploration and synthesis that formal research cannot.
 keyphrase: essays as scholarship
-author: "[[Michael Rowe]]"
-date: 2026-01-29
-updated: 2026-02-04
+author: '[[Michael Rowe]]'
+date: 2026-01-29T00:00:00.000Z
+updated: 2026-02-04T00:00:00.000Z
 tags:
-  - scholarship
-  - research
   - publishing
-  - essays
 category:
   - Scholarship
 related:
-  - "[[2026-01-27-what-does-scholarship-sound-like|Podcasts as scholarship]]"
+  - '[[2026-01-27-what-does-scholarship-sound-like|Podcasts as scholarship]]'
 draft: false
 slug: essays-as-scholarship
 enableToc: true

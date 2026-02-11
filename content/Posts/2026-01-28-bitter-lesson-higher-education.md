@@ -3,21 +3,28 @@ title: A bitter lesson for higher education
 type: post
 aliases:
   - The Bitter Lesson for Education
-description: "Rich Sutton's 'Bitter Lesson' from AI research—that general methods leveraging computation outperform human-crafted knowledge—has a direct parallel in education. When AI can produce the kinds of artifacts that assessments have traditionally relied on, it exposes a fundamental problem we have long ignored: we were never really measuring learning, we were measuring the difficulty of producing certain artifacts. This post explores what the Bitter Lesson means for assessment design in health professions education, and why AI makes it impossible to continue pretending otherwise."
-meta-description: "Rich Sutton's 'Bitter Lesson' applies to education: AI reveals that artifact-based assessment never truly measured learning."
+description: >-
+  Rich Sutton's 'Bitter Lesson' from AI research—that general methods leveraging
+  computation outperform human-crafted knowledge—has a direct parallel in
+  education. When AI can produce the kinds of artifacts that assessments have
+  traditionally relied on, it exposes a fundamental problem we have long
+  ignored: we were never really measuring learning, we were measuring the
+  difficulty of producing certain artifacts. This post explores what the Bitter
+  Lesson means for assessment design in health professions education, and why AI
+  makes it impossible to continue pretending otherwise.
+meta-description: >-
+  Rich Sutton's 'Bitter Lesson' applies to education: AI reveals that
+  artifact-based assessment never truly measured learning.
 keyphrase: bitter lesson higher education
-author: "[[Michael Rowe]]"
-date: 2026-02-03
-updated: 2026-02-04
+author: '[[Michael Rowe]]'
+date: 2026-02-03T00:00:00.000Z
+updated: 2026-02-04T00:00:00.000Z
 tags:
-  - artificial-intelligence
   - higher-education
-  - assessment
-  - learning
 category:
   - Assessment
 related:
-  - "[[learning-alignment]]"
+  - '[[learning-alignment]]'
 draft: false
 slug: bitter-lesson-higher-education
 enableToc: true

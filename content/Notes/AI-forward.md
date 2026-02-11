@@ -11,7 +11,6 @@ author: '[[Michael Rowe]]'
 date: 2025-12-26T00:00:00.000Z
 updated: 2025-12-26T00:00:00.000Z
 tags:
-  - organisation
   - AI-literacy
   - strategy
 category:

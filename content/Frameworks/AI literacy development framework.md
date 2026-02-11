@@ -13,9 +13,7 @@ date: 2026-02-01T00:00:00.000Z
 updated: 2026-02-01T00:00:00.000Z
 tags:
   - AI-literacy
-  - framework
   - curriculum-design
-  - pedagogy
 category:
   - AI and technology
 related:

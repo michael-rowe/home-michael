@@ -15,7 +15,6 @@ needs_review: false
 tags:
   - generative-ai
   - machine-learning
-  - artificial-intelligence
 category: AI and technology
 related:
   - '[[natural language processing]]'
