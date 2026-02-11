@@ -19,7 +19,7 @@ related:
   - "[[documentation-as-infrastructure]]"
   - "[[taste-and-judgement]]"
 draft: false
-slug: posts/ai-collaboration-workflow
+slug: posts/building-ai-collaboration-workflow
 enableToc: true
 ---
 
@@ -77,7 +77,7 @@ This is a personal observation, not a general claim. But the discipline of makin
 
 This experience has shown me that the combination of a capable model and structured documentation has been more productive than either would be alone. The model brings processing speed, pattern consistency, and the ability to apply rules across hundreds of files without fatigue. The documentation brings persistent context, accumulated decisions, and a representation of the vision orienting the work.
 
-> [!tip] The bottleneck is usually the documentation, not the model
+> [!tip] The bottleneck is in the documentation, not the model
 > Most of the friction hasn't come from model limitations. It has come from gaps in my own documentation — places where I hadn't yet made a decision explicit, or where the relationship between two concepts was still fuzzy in my own thinking.
 
 I've started to wonder whether some of what gets described as AI "not being ready" for organisational use partly reflects the information environment it's being asked to operate in. Institutions that describe themselves as [[AI-forward]] may focus on deploying tools rather than on the information architecture those tools depend on. The pattern I've noticed in my own practice — that the bottleneck is more often in the clarity of the context than in the capability of the model — suggests the priority should be architecture first, tools second.
