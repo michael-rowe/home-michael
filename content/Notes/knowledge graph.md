@@ -28,7 +28,7 @@ source: ""
 source_url: ""
 ---
 
-> [!tip] Relationships as first-class citizens
+> [!info] Relationships as first-class citizens
 > Academic knowledge is fundamentally relational—we understand concepts through their connections to other concepts, theories through their critiques and extensions, methods through their intellectual lineages. Knowledge graphs make this relational structure explicit and computable, treating connections between ideas as equally important as the ideas themselves.
 
 ## Knowledge graph

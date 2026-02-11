@@ -29,7 +29,7 @@ source: ''
 source_url: ''
 ---
 
-> [!tip] From retrieval to inference
+> [!info] From retrieval to inference
 > The limitation of traditional AI retrieval isn't that it finds the wrong chunks of text—it's that it can only find chunks of text. Multi-hop reasoning enables what scholars actually do: synthesising across sources, following chains of intellectual influence, identifying structural parallels between different domains. The difference between finding similar passages and genuine inference.
 
 ## Multi-hop reasoning

@@ -31,7 +31,7 @@ draft: false
 slug: evaluative-judgement
 enableToc: true
 ---
-> [!tip] Where human value now lives
+> [!info] Where human value now lives
 > AI can learn your patterns—what you typically choose. But it cannot judge whether those patterns produce outcomes worth amplifying. As creation and curation become trivial, evaluative judgement about what *should* exist becomes the primary human contribution.
 
 Content creation has become trivially easy and what used to take hours now takes minutes. The technical barrier to producing text, images, presentations, and video has collapsed in ways that seemed impossible just two years ago.

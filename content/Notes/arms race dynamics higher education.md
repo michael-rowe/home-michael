@@ -24,7 +24,7 @@ keyphrase: arms race dynamics higher education
 slug: notes/arms-race-dynamics-higher-education
 ---
 
-> [!tip] Why this matters
+> [!info] Why this matters
 > Arms race dynamics in higher education reveal how well-intentioned institutional policies can transform educational relationships into adversarial ones. Understanding the structural conditions that create these dynamics shows why prohibition-focused responses to challenges like AI use tend to fail—and what might work instead.
 
 ## Arms race dynamics in higher education

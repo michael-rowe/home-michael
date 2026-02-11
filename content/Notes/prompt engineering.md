@@ -25,7 +25,7 @@ source: ''
 source_url: ''
 ---
 
-> [!tip] Management, not magic
+> [!info] Management, not magic
 > The most significant insight about prompt engineering is Ethan Mollick's observation that it's essentially management. You're articulating what you need, providing context, giving feedback, iterating toward better outputs. For academics, these are skills already developed through supervising research students and collaborating with colleagues—now applied to AI.
 
 ## Prompt engineering

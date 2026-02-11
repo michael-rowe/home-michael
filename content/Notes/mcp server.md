@@ -29,7 +29,7 @@ source: ''
 source_url: ''
 ---
 
-> [!tip] The adapter pattern for AI
+> [!info] The adapter pattern for AI
 > MCP servers solve a translation problem: your data exists in specific formats with particular access patterns, but AI systems need standardised interfaces. Rather than modifying your data sources or building custom integrations for each AI system, MCP servers act as adapters—translating between your data's native format and the protocol AI systems understand.
 
 ## MCP server

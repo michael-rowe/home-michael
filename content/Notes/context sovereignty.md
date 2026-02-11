@@ -34,7 +34,7 @@ source: >-
 source_url: ''
 ---
 
-> [!tip] Flipping the relationship
+> [!info] Flipping the relationship
 > Current AI interaction requires you to adapt to the system—explaining your context, repeating your background, fitting your work into generic prompts. Context sovereignty flips this: AI adapts to your established cognitive patterns while you maintain control over your personal context. The question shifts from "how do I explain this to AI?" to "how does AI understand my existing intellectual infrastructure?"
 
 ## Context sovereignty

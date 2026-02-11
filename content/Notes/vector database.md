@@ -30,7 +30,7 @@ source: ''
 source_url: ''
 ---
 
-> [!tip] Organising knowledge by similarity rather than category
+> [!info] Organising knowledge by similarity rather than category
 > We typically organise information in categories -- folders, tags, subject headings. Vector databases take a fundamentally different approach, organising content by meaning. Documents about similar topics cluster together regardless of how they are labelled, enabling search that finds conceptually related content even when the exact words differ.
 
 ## Vector database

@@ -31,7 +31,7 @@ draft: false
 slug: thoughtful-ai-use
 enableToc: true
 ---
-> [!tip] A different game
+> [!info] A different game
 > Technology amplifies human intention. Rather than cataloguing AI's failures, demonstrate thoughtful use, critique from practice, and amplify what matters to you. The question isn't whether AI is good or bad—it's what you choose to point it at.
 
 If your LinkedIn feed is anything like mine, you're seeing a steady stream of posts warning about the dangers of AI. They include critiques of tech companies' - and their CEOs - motives, videos with errors presented as evidence of failure, and moral panic about the dangers of misinformation. This post argues for thoughtful AI use as an alternative to performative critique.

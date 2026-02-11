@@ -33,7 +33,7 @@ source: ''
 source_url: ''
 ---
 
-> [!tip] Letting AI look things up before answering
+> [!info] Letting AI look things up before answering
 > Language models generate responses from patterns learned during training, which means they can be confidently wrong about specific facts. RAG addresses this by retrieving relevant information from external sources and including it in the prompt -- essentially letting AI consult reference material before responding, much as a student might consult their notes before answering a question.
 
 ## Retrieval augmented generation

@@ -28,7 +28,7 @@ source: ''
 source_url: ''
 ---
 
-> [!tip] The invisible context
+> [!info] The invisible context
 > Every AI interaction happens within an invisible frame—instructions about how to behave, what to prioritise, how to respond. System prompts define this frame, shaping interaction without users seeing the instructions. Understanding system prompts means understanding how AI responses are constrained and enabled before you even begin your conversation.
 
 ## System prompt

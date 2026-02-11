@@ -28,7 +28,7 @@ source: >-
 source_url: ''
 ---
 
-> [!tip] Beyond the teaching-research binary
+> [!info] Beyond the teaching-research binary
 > Academia's teaching versus research debate creates a false choice that diminishes both. Boyer's framework revealed what practitioners always knew: scholarship takes multiple forms, each requiring rigour and each deserving recognition. The question isn't whether you're a teacher or a researcher—it's which forms of scholarship serve your context and how they're valued.
 
 ## Boyer's model of scholarship

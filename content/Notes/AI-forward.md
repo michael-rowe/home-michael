@@ -27,7 +27,7 @@ cssclasses:
   - ''
 ---
 
-> [!tip] Process, not state
+> [!info] Process, not state
 > The question isn't whether your institution uses AI. The question is whether you're treating AI integration as an ongoing strategic practice or a fixed technology deployment. AI-forward signals the former—directional orientation toward continuous engagement with evolving capabilities.
 
 ## AI-forward

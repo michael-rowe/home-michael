@@ -36,7 +36,7 @@ draft: false
 slug: ai-for-learning-at-scale
 enableToc: true
 ---
-> [!tip] Why I'm optimistic
+> [!info] Why I'm optimistic
 > Despite the ethical concerns, I can't think of another time in human history when so many people have had access to advanced expertise at this scale. Generative AI represents an unprecedented opportunity for learning—and I don't see why we should assume it won't keep getting better.
 
 I understand the serious ethical concerns many have raised about generative AI. These are important issues that deserve thoughtful debate. I believe that I know something about these concerns and I know the critical position I'm meant to take as an academic working at the intersection of education and technology. I've spent 15 years in that position and I think I know what that side of the argument looks like. But this post makes the case for AI for learning at scale.

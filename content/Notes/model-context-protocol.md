@@ -32,7 +32,7 @@ source: ''
 source_url: 'https://modelcontextprotocol.io'
 ---
 
-> [!tip] Universal connector, not universal solution
+> [!info] Universal connector, not universal solution
 > MCP solves a real problem—fragmented integrations between AI and data sources—by providing a standard interface. But standardisation isn't transformation. MCP makes context integration technically cleaner without automatically making it pedagogically sound, ethically robust, or strategically wise. The protocol enables possibilities; it doesn't determine outcomes.
 
 ## Model Context Protocol

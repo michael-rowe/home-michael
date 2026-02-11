@@ -35,7 +35,7 @@ draft: false
 slug: ai-tripwires-assessment-security-theatre
 enableToc: true
 ---
-> [!tip] The security theatre problem
+> [!info] The security theatre problem
 > AI tripwires in assessment import adversarial security thinking into educational relationships. Measure-countermeasure escalation wastes resources while measuring the wrong thing.
 
 I recently heard about an academic offence case involving AI tripwires in assessment: a lecturer embedded hidden instructions in the source material that students were asked to summarise. The technique exploits prompt injection—where text containing instructions gets processed by an AI system, causing it to follow those instructions as commands. The hidden instructions told AI systems to include specific keywords in generated output (keywords unlikely to appear in genuine student work but not completely out of context). When those keywords appeared in a student's submission, the tripwire had been triggered: clear evidence the work was AI-generated. The student admitted the offence when confronted.

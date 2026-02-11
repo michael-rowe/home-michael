@@ -29,7 +29,7 @@ draft: false
 slug: essays-as-scholarship
 enableToc: true
 ---
-> [!tip] A different form, not a lesser form
+> [!info] A different form, not a lesser form
 > Essays deserve recognition as scholarship—not as a lesser form, but as a different form. One that enables exploration before formal investigation, synthesis across disciplinary boundaries, and engagement with audiences that traditional academic publishing fails to reach.
 
 What counts as scholarship? The question seems straightforward until you realise how much of academic practice depends on a remarkably narrow answer. We have converged on the peer-reviewed journal article as the default unit of scholarly output, a format so standardised that Mark Carrigan [described it as](https://markcarrigan.net/2021/12/06/so-you-dont-want-to-be-a-normal-journal-any-more/) the "sterile uniformity of journal formats." This uniformity serves important purposes—it enables comparison, facilitates peer review, and creates predictable expectations. But it also excludes entire modes of thinking and expression that might contribute meaningfully to knowledge—including essays as scholarship.

@@ -30,7 +30,7 @@ source: >-
 source_url: ''
 ---
 
-> [!tip] The utility model for AI
+> [!info] The utility model for AI
 > Electricity providers don't need to know what you're powering in your home to deliver electricity. Internet providers don't need to know what websites you're visiting to provide connectivity. Intelligence as a service applies the same principle to AI: you access computational capabilities while your personal context—what you're actually working on—remains private and under your control.
 
 ## Intelligence as a service

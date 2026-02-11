@@ -31,7 +31,7 @@ source: ''
 source_url: ''
 ---
 
-> [!tip] From isolated documents to connected knowledge
+> [!info] From isolated documents to connected knowledge
 > Scholars accumulate vast libraries of PDFs, notes, and annotations representing years of reading and thinking. But this knowledge remains trapped in isolated documents—inaccessible for synthesis, invisible for reasoning. GraphRAG solves this by extracting the entities and relationships that constitute scholarship, transforming document collections into queryable knowledge structures.
 
 ## GraphRAG

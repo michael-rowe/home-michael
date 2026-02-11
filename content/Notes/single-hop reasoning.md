@@ -30,7 +30,7 @@ source: ''
 source_url: ''
 ---
 
-> [!tip] Finding answers versus constructing them
+> [!info] Finding answers versus constructing them
 > Most AI retrieval works like a sophisticated search engine: you ask a question, the system finds the most relevant passages, and the model generates a response from those passages. This is single-hop reasoning -- one step from question to answer. It works well when the answer exists somewhere in your documents. It fails when answering requires connecting ideas across multiple sources.
 
 ## Single-hop reasoning

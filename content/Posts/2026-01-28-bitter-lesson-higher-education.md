@@ -29,7 +29,7 @@ draft: false
 slug: bitter-lesson-higher-education
 enableToc: true
 ---
-> [!tip] The bitter lesson in education
+> [!info] The bitter lesson in education
 > AI researchers encoded what they understood about human intelligence, which felt right but couldn't scale. We encoded what we understood about "assessing learning," which felt rigorous but was actually optimising for surface features that AI can replicate easily.
 
 In 2019, AI researcher Rich Sutton published ["The Bitter Lesson"](http://www.incompleteideas.net/IncIdeas/BitterLesson.html), reflecting on 70 years of artificial intelligence research. His observation was that researchers had repeatedly invested in encoding human knowledge into AI systems—chess strategies, speech recognition rules, computer vision features—only to find that simpler computational approaches eventually outperformed their carefully crafted expertise. The "bitter" lesson wasn't just that computation won; it was that decades of intuitive, satisfying work had been directed toward approaches that couldn't scale. Higher education now faces a parallel lesson about how we assess learning.

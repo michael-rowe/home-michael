@@ -24,7 +24,7 @@ cssclasses:
   - ''
 ---
 
-> [!tip] More than prompting, more than ethics
+> [!info] More than prompting, more than ethics
 > When people ask "are you AI literate?", they often mean "can you write effective prompts?" That's like asking if someone is information literate and only checking whether they can use Google. AI literacy cannot be reduced to technical knowledge, operational skill, ethical awareness, or critical thinking alone—it requires integration across all of these, with particular emphasis on developing contextual judgement.
 
 ## AI literacy

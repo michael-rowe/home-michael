@@ -20,7 +20,7 @@ related:
   - '[[2026-02-06-LLM-similarities-human-cognition]]'
 ---
 
-> [!tip] Why this matters
+> [!info] Why this matters
 > Most AI discourse focuses on proving categorical differences between large language models and human cognition. But LLM terminology offers diagnostic precision for learning challenges we've observed in people but often describe in vague terms. A student who "loses track" during long explanations hasn't failed—they've exceeded their context window. A novice struggling with expert discourse isn't unintelligent—they're using different tokenisation. This conceptual framework reveals that many "learning problems" are actually architecture constraints, not student deficits. It also exposes why knowledge workers resist acknowledging AI capabilities so vehemently: these parallels threaten a professional identity that's built on cognitive uniqueness.
 
 ## Human cognition and LLM parallels

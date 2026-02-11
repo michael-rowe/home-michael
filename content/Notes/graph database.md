@@ -29,7 +29,7 @@ source: ""
 source_url: ""
 ---
 
-> [!tip] Storing how things connect, not just what things are
+> [!info] Storing how things connect, not just what things are
 > Most databases store records in rows and columns -- effective for structured data but awkward for representing relationships. Graph databases treat relationships as first-class citizens, storing not just entities but the explicit, typed connections between them. This architectural choice enables the kind of traversal and reasoning that [[knowledge graph]]s require.
 
 ## Graph database

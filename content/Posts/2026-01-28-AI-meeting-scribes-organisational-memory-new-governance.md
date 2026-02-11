@@ -30,7 +30,7 @@ draft: false
 slug: ai-meeting-scribes
 enableToc: true
 ---
-> [!tip] The real governance question
+> [!info] The real governance question
 > AI meeting scribes haven't created new power dynamics—they've automated existing ones, making them more technical, less visible, and more scalable. The question isn't how to stop gaming but how to govern dynamics that have always existed.
 
 Years ago, I realised that when you take notes during meetings and share them with attendees, you control the narrative for that meeting. Your notes become the canonical reference for what was discussed, what was decided, and who's responsible for what happens next. It's not manipulation; this is just how organisational memory works. Now AI meeting scribes have automated this process, making the dynamic both more powerful and more subtle.

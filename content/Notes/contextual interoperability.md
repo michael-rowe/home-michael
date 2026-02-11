@@ -33,7 +33,7 @@ source: >-
 source_url: ''
 ---
 
-> [!tip] The translation challenge
+> [!info] The translation challenge
 > Your notes make perfect sense to you. The connections you've drawn between concepts, the frameworks you've developed, the questions you're pursuing—these form a rich intellectual infrastructure. But to AI, they're just text. Contextual interoperability solves the translation problem: making your thinking machine-readable without losing what makes it meaningful.
 
 ## Contextual interoperability

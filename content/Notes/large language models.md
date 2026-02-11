@@ -31,7 +31,7 @@ source: ''
 source_url: ''
 ---
 
-> [!tip] Scale driving emergence
+> [!info] Scale driving emergence
 > LLMs represent a fundamental shift in how AI capabilities develop—not through careful engineering of specific skills but through emergent properties arising from scale. This has profound implications for education, where we've historically assumed that producing certain artifacts (essays, analyses, code) required and therefore demonstrated understanding.
 
 ## Large language models

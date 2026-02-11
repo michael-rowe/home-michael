@@ -31,7 +31,7 @@ source: ''
 source_url: ''
 ---
 
-> [!tip] The pattern beneath the practice
+> [!info] The pattern beneath the practice
 > Every few years, a "new literacy" emerges—information literacy, media literacy, digital literacy, data literacy, AI literacy. Each claims to address novel challenges. But examine their frameworks closely and you'll find the same six dimensions appearing again and again. What changes isn't the structure of literacy itself but the specific context where it's applied.
 
 ## Common architecture of literacy

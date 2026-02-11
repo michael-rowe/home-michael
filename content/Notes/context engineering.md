@@ -34,7 +34,7 @@ source: ''
 source_url: ''
 ---
 
-> [!tip] Context is king
+> [!info] Context is king
 > The most capable AI models consistently underperform not because of their limitations but because they're provided with incomplete or poorly structured context. [[Prompt engineering]] optimises what you say to AI. Context engineering optimises what AI knows about your work—and that difference matters more than most people realise.
 
 ## Context engineering

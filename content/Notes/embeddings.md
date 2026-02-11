@@ -31,7 +31,7 @@ source: ''
 source_url: ''
 ---
 
-> [!tip] Teaching computers what words mean
+> [!info] Teaching computers what words mean
 > Humans understand that "doctor" and "physician" mean roughly the same thing. Computers see them as entirely different strings of characters. Embeddings bridge this gap by converting text into arrays of numbers where similar meanings produce similar patterns -- giving machines a workable approximation of semantic understanding.
 
 ## Embeddings

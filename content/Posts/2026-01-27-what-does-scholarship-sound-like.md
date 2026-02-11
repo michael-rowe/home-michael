@@ -31,7 +31,7 @@ draft: false
 slug: audio-scholarship
 enableToc: true
 ---
-> [!tip] Scholarship is not defined by its format
+> [!info] Scholarship is not defined by its format
 > Audio reveals dimensions of knowledge that text obscures—hesitation, emphasis, the way experts navigate uncertainty in real time. If scholarship involves rigorous investigation and contribution to knowledge, then the form matters less than the quality of thinking it embodies.
 
 The PDF is the dominant format for scholarly communication. We write articles, format them for print, and distribute them as static documents—even when the work they describe is dynamic, evolving, and deeply human. But [[Boyer's model of scholarship|scholarship]] has always been more than text on a page. Before the journal article, there were letters, lectures, salons, and conversations. Knowledge has always moved through voice.
