@@ -13,6 +13,7 @@ category:
   - Knowledge management
 related: null
 cover: Media/note_taking_course.png
+color: "#059669"
 status: Published
 duration: 5-7 hours
 level: Intermediate

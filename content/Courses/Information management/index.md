@@ -14,6 +14,7 @@ category:
   - Knowledge management
 related: null
 cover: Media/information_management_course.png
+color: "#3b82f6"
 status: Published
 duration: 4-5 hours
 level: Intermediate

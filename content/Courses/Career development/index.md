@@ -14,6 +14,7 @@ category:
   - Professional development
 related: null
 cover: Media/career_development_course.png
+color: "#0d9488"
 status: Published
 duration: 6-8 hours
 level: Advanced

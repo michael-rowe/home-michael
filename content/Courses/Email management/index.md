@@ -14,6 +14,7 @@ category:
   - Professional development
 related: null
 cover: Media/email_management_course.png
+color: "#d97706"
 status: Published
 duration: 3-4 hours
 level: Beginner

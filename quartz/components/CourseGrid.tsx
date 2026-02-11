@@ -32,6 +32,7 @@ export default ((opts?: Partial<CourseGridOptions>) => {
           status: file.frontmatter?.status as string | undefined,
           duration: file.frontmatter?.duration as string | undefined,
           level: file.frontmatter?.level as string | undefined,
+          color: file.frontmatter?.color as string | undefined,
         }
       })
       .sort((a, b) => {
@@ -59,21 +60,22 @@ export default ((opts?: Partial<CourseGridOptions>) => {
         {courses.map((course) => {
           const href = resolveRelative(fileData.slug!, course.slug as FullSlug)
           const statusSlug = course.status?.toLowerCase().replace(/\s+/g, "-")
+          const accentColor = course.color || "var(--secondary)"
 
           return (
-            <a href={href} class="course-card">
-              <div class="course-card-header">
-                <div class="content-type content-type--course">
-                  <i class="ph ph-graduation-cap"></i>
-                  <span>Course</span>
-                </div>
-                {course.status && (
-                  <span class={`course-status course-status--${statusSlug}`}>
-                    {course.status}
-                  </span>
-                )}
-              </div>
-              <p class="course-card-title">{course.title}</p>
+            <a
+              href={href}
+              class="course-card"
+              style={`border-top-color: ${accentColor}`}
+            >
+              {course.status && (
+                <span class={`course-status course-status--${statusSlug}`}>
+                  {course.status}
+                </span>
+              )}
+              <p class="course-card-title" style={`color: ${accentColor}`}>
+                {course.title}
+              </p>
               {course.description && (
                 <p class="course-card-description">{course.description}</p>
               )}
@@ -104,6 +106,7 @@ export default ((opts?: Partial<CourseGridOptions>) => {
   padding: 1rem 1.25rem;
   background-color: var(--light);
   border: 1px solid var(--lightgray);
+  border-top: 3px solid var(--secondary);
   border-radius: 8px;
   text-decoration: none !important;
   color: inherit;
@@ -111,14 +114,8 @@ export default ((opts?: Partial<CourseGridOptions>) => {
 }
 
 .course-card:hover {
-  border-color: var(--secondary);
-}
-
-.course-card-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
+  border-color: currentColor;
+  border-top-width: 3px;
 }
 
 .course-status {
@@ -127,6 +124,7 @@ export default ((opts?: Partial<CourseGridOptions>) => {
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
   white-space: nowrap;
+  align-self: flex-start;
 }
 
 .course-status--published {
@@ -145,10 +143,9 @@ export default ((opts?: Partial<CourseGridOptions>) => {
 }
 
 .course-card-title {
-  margin: 0.25rem 0 0;
+  margin: 0;
   font-size: 1rem;
   font-weight: 600;
-  color: var(--dark);
   line-height: 1.3;
 }
 

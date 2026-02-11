@@ -17,6 +17,7 @@ related:
   - '[[common architecture of literacy]]'
   - '[[AI literacy development framework]]'
 cover: Media/AI_literacy_course.png
+color: "#4338ca"
 status: In Development
 duration: 10-12 hours
 level: All levels

@@ -16,6 +16,7 @@ category:
   - Professional development
 related: null
 cover: Media/time_management_course_cover.png
+color: "#e11d48"
 status: Published
 duration: 4-6 hours
 level: Beginner
