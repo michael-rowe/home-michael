@@ -395,6 +395,31 @@ slug: ""
 - **cssclasses**: Don't add `cssclasses: [""]` — it has no effect and adds noise.
 - **`related` field**: Wiki-link format: `["[[Slug or Title]]"]`
 
+### Taxonomy (categories and tags)
+
+Approved vocabulary is defined in `content/personas/taxonomy.md`. **Always choose values from this list** — do not invent new terms when an existing one covers the concept.
+
+**Categories** (7 approved, pick 1–2 per piece):
+`AI and technology` · `Assessment` · `Curriculum` · `Pedagogy` · `Scholarship` · `Knowledge management` · `Professional development`
+
+**Tags** (110 approved): see `content/personas/taxonomy.md` for the full list with groupings. Key clusters:
+- AI: `large language models`, `AI literacy`, `AI agents`, `AI integration`, `generative AI`, `context engineering`, `retrieval augmented generation`, `machine learning`, `model context protocol`, `vector database`, `graph database`
+- Scholarship: `academic writing`, `academic practice`, `open scholarship`, `publishing`, `peer review`, `research methods`, `emergent scholarship`
+- Teaching/learning: `learning design`, `feedback`, `learning theory`, `critical thinking`, `educational technology`, `prompting`, `supervision`
+- Health professions: `health professions education`, `clinical education`, `competency frameworks`, `workplace learning`
+- Knowledge: `note-taking`, `information architecture`, `documentation`, `personal knowledge management`, `knowledge graphs`
+
+**Adding new terms**: run `node scripts/validate-taxonomy.mjs` — it flags any unknown values and shows the exact line to add to `taxonomy.md`. Add the term there first, then use it in content.
+
+**Tags to avoid** (too broad, or duplicate a category): `ai`, `technology`, `learning`, `knowledge`, `teaching`, `education`, `practice`, `skills`, `scholarship`, `pedagogy`, `assessment` — use the category field or a more specific tag instead.
+
+**Validate at any time:**
+```bash
+node scripts/validate-taxonomy.mjs           # full report with file paths
+node scripts/validate-taxonomy.mjs --summary # counts only
+node scripts/validate-taxonomy.mjs --path content/Posts  # single directory
+```
+
 ### Personas
 
 Reviewer personas live in `content/personas/` (excluded from build). Apply with:
@@ -410,6 +435,7 @@ Available personas:
 - `content_strategist.md` — information architecture, content gaps
 - `newsletter_editor.md` — email-specific editorial review
 - `course_designer.md` — learning design, lesson structure
+- `taxonomy.md` — approved categories and tags (controlled vocabulary reference, not a reviewer persona)
 
 ## Component conventions
 
