@@ -29,6 +29,7 @@ export default ((opts?: Partial<CourseGridOptions>) => {
           slug: file.slug!,
           title: file.frontmatter?.title || courseName,
           description: file.frontmatter?.description || "",
+          cover: file.frontmatter?.cover as string | undefined,
           status: file.frontmatter?.status as string | undefined,
           duration: file.frontmatter?.duration as string | undefined,
           level: file.frontmatter?.level as string | undefined,
@@ -60,30 +61,41 @@ export default ((opts?: Partial<CourseGridOptions>) => {
         {courses.map((course) => {
           const href = resolveRelative(fileData.slug!, course.slug as FullSlug)
           const statusSlug = course.status?.toLowerCase().replace(/\s+/g, "-")
-          const accentColor = course.color || "var(--secondary)"
+          const placeholderColor = course.color || "#6b7280"
 
           return (
-            <a
-              href={href}
-              class="course-card"
-              style={`border-top-color: ${accentColor}`}
-            >
-              {course.status && (
-                <span class={`course-status course-status--${statusSlug}`}>
-                  {course.status}
-                </span>
-              )}
-              <p class="course-card-title" style={`color: ${accentColor}`}>
-                {course.title}
-              </p>
-              {course.description && (
-                <p class="course-card-description">{course.description}</p>
-              )}
-              {(course.duration || course.level) && (
-                <p class="course-card-meta">
-                  {[course.duration, course.level].filter(Boolean).join(" · ")}
-                </p>
-              )}
+            <a href={href} class="course-card">
+              <div
+                class="course-card-image"
+                style={!course.cover ? `background-color: ${placeholderColor}` : ""}
+              >
+                {course.cover ? (
+                  <img
+                    src={resolveRelative(fileData.slug!, course.cover as FullSlug)}
+                    alt={course.title}
+                    loading="lazy"
+                  />
+                ) : (
+                  <i class="ph ph-graduation-cap course-card-placeholder-icon"></i>
+                )}
+                {course.status && (
+                  <span class={`course-status course-status--${statusSlug}`}>
+                    {course.status}
+                  </span>
+                )}
+              </div>
+              <div class="course-card-content">
+                <h3 class="course-card-title">{course.title}</h3>
+                {course.description && (
+                  <p class="course-card-description">{course.description}</p>
+                )}
+                {(course.duration || course.level) && (
+                  <div class="course-card-meta">
+                    {course.duration && <span class="course-meta-item">{course.duration}</span>}
+                    {course.level && <span class="course-meta-item">{course.level}</span>}
+                  </div>
+                )}
+              </div>
             </a>
           )
         })}
@@ -94,37 +106,58 @@ export default ((opts?: Partial<CourseGridOptions>) => {
   CourseGrid.css = `
 .course-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
   margin: 1.5rem 0;
 }
 
 .course-card {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  padding: 1rem 1.25rem;
   background-color: var(--light);
   border: 1px solid var(--lightgray);
-  border-top: 3px solid var(--secondary);
   border-radius: 8px;
+  overflow: hidden;
   text-decoration: none !important;
   color: inherit;
   transition: border-color 0.15s ease;
 }
 
 .course-card:hover {
-  border-color: currentColor;
-  border-top-width: 3px;
+  border-color: var(--secondary);
+}
+
+.course-card-image {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  background-color: var(--lightgray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.course-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.course-card-placeholder-icon {
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .course-status {
-  font-size: 0.75rem;
-  font-weight: 500;
-  padding: 0.2rem 0.5rem;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  padding: 0.25rem 0.6rem;
   border-radius: 4px;
-  white-space: nowrap;
-  align-self: flex-start;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .course-status--published {
@@ -142,25 +175,50 @@ export default ((opts?: Partial<CourseGridOptions>) => {
   color: #0c5460;
 }
 
+.course-card-content {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-grow: 1;
+}
+
 .course-card-title {
   margin: 0;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--dark);
   line-height: 1.3;
 }
 
 .course-card-description {
   margin: 0;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   color: var(--darkgray);
-  line-height: 1.4;
+  line-height: 1.5;
   flex-grow: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .course-card-meta {
-  margin: 0;
+  display: flex;
+  gap: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--lightgray);
+  flex-wrap: wrap;
+}
+
+.course-meta-item {
   font-size: 0.8rem;
   color: var(--gray);
+}
+
+.course-meta-item + .course-meta-item::before {
+  content: "·";
+  margin-right: 0.5rem;
 }
 `
 
