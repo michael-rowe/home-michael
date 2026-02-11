@@ -5,7 +5,7 @@ import BodyConstructor from "../../components/Body"
 import { pageResources, renderPage } from "../../components/renderPage"
 import { ProcessedContent, QuartzPluginData, defaultProcessedContent } from "../vfile"
 import { FullPageLayout } from "../../cfg"
-import { FullSlug, getAllSegmentPrefixes, joinSegments, pathToRoot } from "../../util/path"
+import { FullSlug, getAllSegmentPrefixes, joinSegments, pathToRoot, slugTag } from "../../util/path"
 import { defaultListPageLayout, sharedPageComponents } from "../../../quartz.layout"
 import { TagContent } from "../../components"
 import { write } from "./helpers"
@@ -29,12 +29,30 @@ function computeTagInfo(
   // add base tag
   tags.add("index")
 
+  // Collect categories (stored as human-readable strings) and add their slugified forms
+  const categoryTitles: Map<string, string> = new Map()
+  for (const data of allFiles) {
+    const catRaw = data.frontmatter?.category
+    const cats: string[] = Array.isArray(catRaw)
+      ? catRaw
+      : typeof catRaw === "string"
+        ? [catRaw]
+        : []
+    for (const cat of cats) {
+      const slug = slugTag(cat)
+      tags.add(slug)
+      categoryTitles.set(slug, cat)
+    }
+  }
+
   const tagDescriptions: Record<string, ProcessedContent> = Object.fromEntries(
     [...tags].map((tag) => {
       const title =
         tag === "index"
           ? i18n(locale).pages.tagContent.tagIndex
-          : `${i18n(locale).pages.tagContent.tag}: ${tag}`
+          : categoryTitles.has(tag)
+            ? categoryTitles.get(tag)!
+            : `${i18n(locale).pages.tagContent.tag}: ${tag}`
       return [
         tag,
         defaultProcessedContent({
@@ -149,6 +167,15 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
         // If a file with tags changed, we need to update those tag pages
         const fileTags = changeEvent.file.data.frontmatter?.tags ?? []
         fileTags.flatMap(getAllSegmentPrefixes).forEach((tag) => affectedTags.add(tag))
+
+        // If a file with categories changed, update those tag pages too
+        const fileCatRaw = changeEvent.file.data.frontmatter?.category
+        const fileCats: string[] = Array.isArray(fileCatRaw)
+          ? fileCatRaw
+          : typeof fileCatRaw === "string"
+            ? [fileCatRaw]
+            : []
+        fileCats.map(slugTag).forEach((slug) => affectedTags.add(slug))
 
         // Always update the index tag page if any file changes
         affectedTags.add("index")
