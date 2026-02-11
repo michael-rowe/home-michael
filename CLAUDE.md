@@ -394,6 +394,11 @@ slug: ""
 - **DOI**: Omit the `doi:` field entirely if no DOI exists. Don't use empty `doi:`.
 - **cssclasses**: Don't add `cssclasses: [""]` — it has no effect and adds noise.
 - **`related` field**: Wiki-link format: `["[[Slug or Title]]"]`
+- **Essay `version` field**: Follows a semantic versioning scheme indicating publication stage:
+  - `0.1`–`0.6`: Working draft / in development
+  - `0.7`–`0.8`: Preprint deposited
+  - `0.9`: Submitted to a peer-reviewed journal
+  - `1.0`+: Published in a peer-reviewed venue; minor revisions increment the minor number (e.g. `1.1`)
 
 ### Taxonomy (categories and tags)
 

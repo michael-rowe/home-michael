@@ -26,7 +26,7 @@ affiliation:
 email:
   - mrowe@lincoln.ac.uk
   - wesley@snapplify.com
-version: 0.10
+version: 0.8
 created: 2025-05-23T00:00:00.000Z
 modified: 2026-02-11T00:00:00.000Z
 tags:
@@ -46,7 +46,7 @@ category:
 > - **Authors**: Michael Rowe 1 ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk) and Wesley Lynch 2 ([LinkedIn](https://www.linkedin.com/in/wesleylynch/); wesley@snapplify.com)
 > - **Affiliations**: 1) University of Lincoln; 2) [Snapplify](https://www.snapplify.com)
 > - **Created**: May 23, 2025
-> - **Version**: 0.10 (last updated: Feb 11, 2026)
+> - **Version**: 0.8 (last updated: Feb 11, 2026)
 > - **Keywords**: artificial intelligence, cognitive extension, cognitive partnership, complexity theory, context engineering, context sovereignty, distributed cognition, educational technology, human-AI collaboration, personal learning
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**:

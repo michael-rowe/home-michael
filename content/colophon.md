@@ -54,6 +54,17 @@ The site aims to be accessible:
 
 If you encounter accessibility issues, please [[contact|let me know]].
 
+## Essay versioning
+
+Essays carry a version number that indicates their publication stage:
+
+- **0.1–0.6** — Working draft; ideas under development, subject to significant change
+- **0.7–0.8** — Preprint deposited; sufficiently complete to share, awaiting formal review
+- **0.9** — Submitted to a peer-reviewed journal
+- **1.0+** — Published in a peer-reviewed venue; minor revisions increment the decimal (e.g. 1.1)
+
+Version numbers appear in the frontmatter of each essay and are visible in the "About this essay" section.
+
 ## Licence
 
 Content on this site is shared openly for non-commercial use with attribution. Academic citation format:
