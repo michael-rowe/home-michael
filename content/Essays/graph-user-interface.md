@@ -25,9 +25,9 @@ affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
-version: 0.5
+version: 0.6
 created: 2025-04-08T00:00:00.000Z
-modified: 2026-02-10T00:00:00.000Z
+modified: 2026-02-11T00:00:00.000Z
 tags:
   - higher-education
   - user-interface
@@ -40,7 +40,7 @@ category:
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: April 08, 2025
-> - **Version**: 0.6
+> - **Version**: 0.6 (last updated: Feb 11, 2026)
 > - **Keywords**: emergent scholarship, knowledge, learning, professional education, university, user interface
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**: [Why no DOI?](/notes/versions.md)

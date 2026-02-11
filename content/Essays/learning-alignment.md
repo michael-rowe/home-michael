@@ -24,9 +24,9 @@ affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
-version: 0.5
+version: 0.6
 created: 2025-06-05T00:00:00.000Z
-modified: 2026-02-10T00:00:00.000Z
+modified: 2026-02-11T00:00:00.000Z
 tags:
   - AI-principles
   - higher-education
@@ -42,7 +42,7 @@ category:
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: June 05, 2025
-> - **Version**: 0.5 (updated 02 Jul, 2025)
+> - **Version**: 0.6 (last updated: Feb 11, 2026)
 > - **Keywords**: AI principles, control, education, higher education, learning, learning alignment, professional education, prompt engineering, value alignment
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**: [Why no DOI?](/notes/versions.md)

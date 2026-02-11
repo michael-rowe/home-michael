@@ -24,8 +24,8 @@ affiliation:
 email:
   - mrowe@lincoln.ac.uk
 created: 2025-07-08T00:00:00.000Z
-modified: 2026-02-10T00:00:00.000Z
-version: 0.5
+modified: 2026-02-11T00:00:00.000Z
+version: 0.6
 tags:
   - complexity
   - collaboration
@@ -41,7 +41,7 @@ category:
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: 08 Jul, 2025
-> - **Version**: 0.5
+> - **Version**: 0.6 (last updated: Feb 11, 2026)
 > - **Keywords**: artificial intelligence, collaboration, complexity, discernment, ecological-systems, exceptionalism, judgement, taste, human-AI relationships
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**: [Why no DOI?](/notes/versions.md)

@@ -23,9 +23,9 @@ meta-description: >-
 author: '[[Michael Rowe]]'
 affiliation: University of Lincoln
 email: mrowe@lincoln.ac.uk
-version: 0.4
+version: 0.5
 created: 2025-12-05T00:00:00.000Z
-modified: 2026-02-10T00:00:00.000Z
+modified: 2026-02-11T00:00:00.000Z
 tags:
   - AI-forward
   - leadership
@@ -39,7 +39,7 @@ category:
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk)
 > - **Affiliation**: University of Lincoln
 > - **Created**: Dec 05, 2025
-> - **Version**: 0.4
+> - **Version**: 0.5 (last updated: Feb 11, 2026)
 > - **Keywords**: AI-forward, artificial intelligence, leadership, organisational infrastructure, risk management
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 

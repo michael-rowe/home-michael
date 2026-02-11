@@ -24,9 +24,9 @@ affiliation:
 email:
   - mrowe@lincoln.ac.uk
   - wesley@snapplify.com
-version: 0.7
+version: 0.8
 created: 2025-11-08T00:00:00.000Z
-modified: 2026-02-11
+modified: 2026-02-11T00:00:00.000Z
 tags:
   - AI-forward
   - context-engineering
@@ -51,7 +51,7 @@ category:
 > - **Authors**: Michael Rowe 1 ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk) and Wesley Lynch 2 ([LinkedIn](https://www.linkedin.com/in/wesleylynch/); wesley@snapplify.com)
 > - **Affiliations**: 1) University of Lincoln; 2) [Snapplify](https://www.snapplify.com)
 > - **Created**: Nov 08, 2025
-> - **Version**: 0.6 (last updated: Nov 09, 2025)
+> - **Version**: 0.8 (last updated: Feb 11, 2026)
 > - **Keywords**: AI-forward, artificial intelligence, context engineering, curriculum development, curriculum infrastructure, education technology, graph database, human-AI collaboration, model context protocol, vector database
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 

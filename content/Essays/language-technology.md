@@ -26,9 +26,9 @@ affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
-version: 0.6
+version: 0.7
 created: 2025-03-28T00:00:00.000Z
-modified: 2026-02-10T00:00:00.000Z
+modified: 2026-02-11T00:00:00.000Z
 tags:
   - language
   - large language models
@@ -41,7 +41,7 @@ category:
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln
 > - **Created**: March 28, 2025
-> - **Version**: 0.6 (last updated: 29 Jun, 2025)
+> - **Version**: 0.7 (last updated: Feb 11, 2026)
 > - **Keywords**: artificial intelligence, cognitive extension, educational technology, general purpose technology, language models, technological literacy
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**: [Why no DOI?](/notes/versions.md)

@@ -26,9 +26,9 @@ email:
   - mrowe@lincoln.ac.uk
 tags:
   - publishing
-version: 1.1
+version: 1.2
 created: 2025-01-27T00:00:00.000Z
-modified: 2026-02-10T00:00:00.000Z
+modified: 2026-02-11T00:00:00.000Z
 doi: 10.31219/osf.io/d7hwf_v1
 category:
   - Scholarship
@@ -37,7 +37,7 @@ category:
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: January 27, 2025
-> - **Version**: 1.1
+> - **Version**: 1.2 (last updated: Feb 11, 2026)
 > - **Keywords**: editor, generative AI, journal, research, publication
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI** (Open Science Framework): [10.31219/osf.io/d7hwf_v1](https://doi.org/10.31219/osf.io/d7hwf_v1)

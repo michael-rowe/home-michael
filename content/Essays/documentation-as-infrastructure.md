@@ -24,9 +24,9 @@ affiliation:
 email:
   - mrowe@lincoln.ac.uk
 keyphrase: documentation as infrastructure
-version: 0.4
+version: 0.5
 created: 2026-02-09T00:00:00.000Z
-modified: 2026-02-10T00:00:00.000Z
+modified: 2026-02-11T00:00:00.000Z
 tags:
   - artificial-information-scarcity
   - continuous-governance
@@ -43,7 +43,7 @@ category:
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk)
 > - **Affiliation**: University of Lincoln
 > - **Created**: Feb 09, 2026
-> - **Version**: 0.4
+> - **Version**: 0.5 (last updated: Feb 11, 2026)
 > - **Keywords**: artificial intelligence, documentation debt, information architecture, infrastructure, knowledge management, operational architecture
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 

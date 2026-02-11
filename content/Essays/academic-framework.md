@@ -24,8 +24,8 @@ affiliation:
 email:
   - mrowe@lincoln.ac.uk
 created: 2025-03-22T00:00:00.000Z
-modified: 2026-02-10T00:00:00.000Z
-version: 0.7
+modified: 2026-02-11T00:00:00.000Z
+version: 0.8
 tags:
   - complexity
   - connectivism
@@ -42,7 +42,7 @@ category:
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: March 29, 2025
-> - **Version**: 0.7
+> - **Version**: 0.8 (last updated: Feb 11, 2026)
 > - **Keywords**: artificial intelligence, complexity, connectivism, critical pedagogy, emergent scholarship, health professions education, learning theory, social constructivism
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**:

@@ -20,9 +20,9 @@ meta-description: >-
 author: '[[Michael Rowe]]'
 affiliation: University of Lincoln
 email: mrowe@lincoln.ac.uk
-version: 0.5
+version: 0.6
 created: 2025-03-29T00:00:00.000Z
-modified: 2026-02-10T00:00:00.000Z
+modified: 2026-02-11T00:00:00.000Z
 tags:
   - trust
   - authorship
@@ -34,7 +34,7 @@ category:
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: March 29, 2025
-> - **Version**: 0.5
+> - **Version**: 0.6 (last updated: Feb 11, 2026)
 > - **Keywords**: emergent scholarship, journals, publishing, transparency, trust
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**: [Why no DOI?](/notes/versions.md)
