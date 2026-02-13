@@ -1,37 +1,34 @@
 ---
 title: Context engineering
-description: >-
-  A system-level discipline focused on building dynamic, state-aware information
-  ecosystems for AI agents
+description: A system-level discipline focused on building dynamic, state-aware information ecosystems for AI agents
 aliases:
   - context design
 type: note
-author: '[[Michael Rowe]]'
+author: "[[Michael Rowe]]"
 created: 2026-01-08
 updated: 2026-01-30
 needs_review: false
 tags:
   - context-engineering
   - generative-ai
-  - large language models
   - information-architecture
   - knowledge-graphs
 category:
   - AI and technology
 related:
-  - '[[prompt engineering]]'
-  - '[[knowledge graph]]'
-  - '[[graphRAG]]'
-  - '[[multi-hop reasoning]]'
-  - '[[retrieval augmented generation]]'
-  - '[[model-context-protocol]]'
+  - "[[prompt engineering]]"
+  - "[[knowledge graph]]"
+  - "[[graphRAG]]"
+  - "[[multi-hop reasoning]]"
+  - "[[retrieval augmented generation]]"
+  - "[[model-context-protocol]]"
 builds_on:
-  - '[[prompt engineering]]'
+  - "[[prompt engineering]]"
 leads_to:
   - AI agents
-contradicts: null
-source: ''
-source_url: ''
+contradicts:
+source: ""
+source_url: ""
 ---
 
 > [!info] Context is king

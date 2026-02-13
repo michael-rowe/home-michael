@@ -36,8 +36,6 @@ category:
 > - **Version**: 0.8 (last updated: Feb 11, 2026)
 > - **Keywords**: artificial intelligence, context engineering, educational technology, human-AI collaboration, information architecture, knowledge representation, learning theory, organisational change, personal knowledge management, personal learning
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-> - **Preprint DOI**: [Why no DOI?](/notes/versions.md)
-> - **Peer reviewed**: No
 
 ### Abstract
 Higher education institutions face a fundamental choice in AI engagement that will determine whether they undergo genuine transformation or sophisticated preservation of existing paradigms. While institutional responses have centred on prompt engineering—teaching students to craft effective AI queries—this approach inadvertently reinforces hierarchical knowledge transmission models and container-based educational structures that increasingly misalign with professional practice. **Context engineering** emerges as a paradigmatic alternative that shifts focus from optimising individual AI interactions toward architecting persistent knowledge ecosystems. This demands sophisticated technical infrastructure including knowledge graphs capturing conceptual relationships, standardised protocols enabling federated intelligence, and persistent memory systems accumulating understanding over time. These technologies enable epistemic transformations that fundamentally reconceptualise how knowledge exists and operates within educational environments.

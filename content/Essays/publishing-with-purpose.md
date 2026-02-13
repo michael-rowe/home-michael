@@ -41,7 +41,7 @@ category:
 > - **Keywords**: editor, generative AI, journal, research, publication
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI** (Open Science Framework): [10.31219/osf.io/d7hwf_v1](https://doi.org/10.31219/osf.io/d7hwf_v1)
-> - **Peer reviewed**: Yes
+
 > - **Journal publication**: [Using AI to enhance scientific discourse by transforming journals into learning communities](https://www.archivesofphysiotherapy.com/index.php/aop/article/view/3442). Archives of Physiotherapy, 15(1): 90-96. DOI: 10.33393/aop.2025.3442
 
 ### Abstract

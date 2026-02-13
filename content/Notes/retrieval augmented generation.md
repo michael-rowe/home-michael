@@ -1,36 +1,33 @@
 ---
 title: Retrieval augmented generation
-description: >-
-  A technique that improves LLM responses by retrieving relevant information
-  from external sources and including it in the prompt
+description: A technique that improves LLM responses by retrieving relevant information from external sources and including it in the prompt
 aliases:
   - RAG
   - baseline RAG
 type: note
-author: '[[Michael Rowe]]'
+author: "[[Michael Rowe]]"
 created: 2026-02-10
 updated: 2026-02-10
 needs_review: false
 tags:
   - generative-ai
-  - large language models
   - information-retrieval
 category: AI and technology
 related:
-  - '[[prompt engineering]]'
-  - '[[context engineering]]'
-  - '[[vector database]]'
-  - '[[embeddings]]'
-  - '[[graphRAG]]'
-  - '[[single-hop reasoning]]'
+  - "[[prompt engineering]]"
+  - "[[context engineering]]"
+  - "[[vector database]]"
+  - "[[embeddings]]"
+  - "[[graphRAG]]"
+  - "[[single-hop reasoning]]"
 builds_on:
-  - '[[embeddings]]'
-  - '[[vector database]]'
+  - "[[embeddings]]"
+  - "[[vector database]]"
 leads_to:
-  - '[[graphRAG]]'
-contradicts: null
-source: ''
-source_url: ''
+  - "[[graphRAG]]"
+contradicts:
+source: ""
+source_url: ""
 ---
 
 > [!info] Letting AI look things up before answering

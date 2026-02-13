@@ -44,8 +44,6 @@ category:
 > - **Version**: 0.6 (last updated: Feb 11, 2026)
 > - **Keywords**: artificial intelligence, collaboration, complexity, discernment, ecological-systems, exceptionalism, judgement, taste, human-AI relationships
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-> - **Preprint DOI**: [Why no DOI?](/notes/versions.md)
-> - **Peer reviewed**: No
 
 ### Abstract
 Contemporary discourse surrounding artificial intelligence demonstrates a persistent pattern of defensive positioning, characterised by attempts to identify capabilities that remain exclusively human. This sanctuary strategy creates increasingly fragile distinctions that position human and artificial intelligence as competitors for finite cognitive territory, establishing zero-sum relationships that constrain collaborative possibilities. Through critical analysis of binary thinking, this essay reveals how defensive approaches inadvertently diminish human agency while failing to address the practical challenges of navigating human-AI relationships. Drawing on systems thinking, the essay reframes human-AI relationships as embedded within complex cognitive ecologies where meaning emerges through interaction. This ecological perspective challenges our investment in human exceptionalism that privileges separation over collaborative participation, revealing how distinctiveness might emerge through sophisticated engagement rather than defensive isolation.

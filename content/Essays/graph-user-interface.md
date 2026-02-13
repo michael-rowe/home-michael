@@ -43,8 +43,6 @@ category:
 > - **Version**: 0.6 (last updated: Feb 11, 2026)
 > - **Keywords**: emergent scholarship, knowledge, learning, professional education, university, user interface
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-> - **Preprint DOI**: [Why no DOI?](/notes/versions.md)
-> - **Peer reviewed**: No
 
 There are many ideas that inspired this essay, but these are the ones that most clearly stand out for me:
 

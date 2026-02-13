@@ -27,8 +27,6 @@ category:
 > - **Version**: 0.7 (last updated: Feb 11, 2026)
 > - **Keywords**: artificial intelligence, cognitive extension, educational technology, general purpose technology, language models, technological literacy
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-> - **Preprint DOI**: [Why no DOI?](/notes/versions.md)
-> - **Peer reviewed**: No
 
 ### Abstract
 This essay reconceptualises language as humanity's first general purpose technology—a sophisticated system we developed to extend cognitive capabilities across domains and enable complementary innovations. Through this lens, large language models (LLMs) emerge not as novel digital tools but as the latest evolution in a continuum spanning spoken language, writing, printing, and digital text. LLMs extend language's fundamental capabilities through unprecedented scale, cross-domain synthesis, cognitive adaptability, and emerging multimodality. This technological evolution presents profound challenges for education, where students face information overload while remaining underprepared for complex practice environments that demand adaptive expertise.

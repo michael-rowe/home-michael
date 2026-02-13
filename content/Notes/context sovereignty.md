@@ -1,13 +1,10 @@
 ---
 title: Context sovereignty
-description: >-
-  A framework positioning personal context—knowledge, values, goals, thinking
-  patterns—as central to human-AI collaboration, with individuals maintaining
-  control over their cognitive environment while accessing AI capabilities.
+description: A framework positioning personal context—knowledge, values, goals, thinking patterns—as central to human-AI collaboration, with individuals maintaining control over their cognitive environment while accessing AI capabilities.
 aliases:
   - contextual sovereignty
 type: note
-author: '[[Michael Rowe]]'
+author: "[[Michael Rowe]]"
 created: 2026-01-08
 updated: 2026-02-05
 needs_review: false
@@ -15,23 +12,20 @@ tags:
   - context-engineering
   - context-sovereignty
   - model-context-protocol
-  - large language models
   - personal-knowledge-management
 category: AI and technology
 related:
-  - '[[context engineering]]'
-  - '[[contextual interoperability]]'
-  - '[[intelligence-as-service]]'
+  - "[[context engineering]]"
+  - "[[contextual interoperability]]"
+  - "[[intelligence-as-service]]"
 builds_on:
-  - '[[context engineering]]'
+  - "[[context engineering]]"
 leads_to:
-  - '[[contextual interoperability]]'
-  - '[[intelligence-as-service]]'
-contradicts: null
-source: >-
-  Rowe, M., & Lynch, W. (2025). Context sovereignty for AI-supported learning: A
-  human-centred approach.
-source_url: ''
+  - "[[contextual interoperability]]"
+  - "[[intelligence-as-service]]"
+contradicts:
+source: "Rowe, M., & Lynch, W. (2025). Context sovereignty for AI-supported learning: A human-centred approach."
+source_url: ""
 ---
 
 > [!info] Flipping the relationship
