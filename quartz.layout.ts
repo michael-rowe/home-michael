@@ -21,7 +21,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ConditionalRender({
       component: Component.ContentMeta(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => {
+        const type = page.fileData.frontmatter?.type as string | undefined
+        return type === "post" || type === "note" || type === "essay" || type === "lesson" || type === "bib"
+      },
     }),
     Component.ConditionalRender({
       component: Component.ContentType(),
