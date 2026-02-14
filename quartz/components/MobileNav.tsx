@@ -264,10 +264,12 @@ export default ((opts?: Partial<MobileNavOptions>) => {
           {contextualContent}
 
           {/* Page Navigation (TOC) - handled by script */}
-          <div class="mobile-nav-section mobile-nav-toc" style="display: none;">
-            <h3>On This Page</h3>
-            <ul id="mobile-toc-list"></ul>
-          </div>
+          {currentSlug !== "index" && (
+            <div class="mobile-nav-section mobile-nav-toc" style="display: none;">
+              <h3>On This Page</h3>
+              <ul id="mobile-toc-list"></ul>
+            </div>
+          )}
         </nav>
       </div>
     )

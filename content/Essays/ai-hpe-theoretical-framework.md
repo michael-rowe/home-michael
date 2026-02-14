@@ -1,8 +1,11 @@
 ---
 type: essay
 title: A theoretical framework for integrating AI into health professions education
-slug: essays/academic-framework
-description: "Health professions education faces a fundamental challenge: graduates are simultaneously overwhelmed with information yet under-prepared for complex practice environments. This essay introduces the ACADEMIC framework, a theoretically grounded approach to integrating AI into health professions education that shifts focus from assessing outputs to supporting learning processes. Drawing on social constructivism, critical pedagogy, complexity theory, and connectivism, seven principles emerge — Augmented dialogue, Critical consciousness, Adaptive expertise development, Dynamic contexts, Emergent curriculum design, Metacognitive development, and Interprofessional Community knowledge building — to guide AI integration in ways that prepare professionals for the complexity and uncertainty of contemporary healthcare practice."
+slug: essays/ai-hpe-theoretical-framework
+aliases:
+  - essays/academic-framework
+  - essays/ai-integration-hpe-framework
+description: "Health professions education faces a fundamental challenge: graduates are simultaneously overwhelmed with information yet under-prepared for complex practice environments. This essay introduces a theoretically grounded framework for integrating AI into health professions education that shifts focus from assessing outputs to supporting learning processes. Drawing on social constructivism, critical pedagogy, complexity theory, and connectivism, six principles emerge — dialogic knowledge construction, critical consciousness, adaptive expertise, contextual authenticity, metacognitive development, and networked knowledge building — to guide AI integration in ways that prepare professionals for the complexity and uncertainty of contemporary healthcare practice."
 meta-description: A theoretical framework for integrating AI into health professions education by shifting focus from outputs to learning processes.
 author:
   - "[[Michael Rowe]]"

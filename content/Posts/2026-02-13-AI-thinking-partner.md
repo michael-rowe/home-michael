@@ -16,7 +16,7 @@ category:
   - AI and technology
 related:
   - "[[taste-and-judgement]]"
-  - "[[academic-framework]]"
+  - "[[ai-hpe-theoretical-framework]]"
   - "[[2026-02-11-building-AI-collaboration-workflow]]"
 draft: false
 slug: posts/ai-intellectual-partner
