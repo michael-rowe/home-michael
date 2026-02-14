@@ -12,10 +12,10 @@ author: "[[Michael Rowe]]"
 date: 2026-02-14
 updated: 2026-02-14
 tags:
-  - context engineering
-  - context sovereignty
   - infrastructure
-  - organisational infrastructure
+  - context-engineering
+  - context-sovereignty
+  - organisational-infrastructure
 category:
   - AI and technology
 related:
