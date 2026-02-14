@@ -10,14 +10,19 @@ created: 2026-02-14
 updated: 2026-02-14
 status: published
 tags:
-  - generative-ai
-  - language-model
+  - large language models
+  - AI agents
   - context
+  - reasoning
 category:
+  - AI and technology
 related:
   - "[[context compression and filtering are essential for large context windows]]"
   - "[[tokens are a type of text compression used in LLMs]]"
-keyphrase: "LLM context drift"
+  - "[[context engineering]]"
+  - "[[context sovereignty]]"
+  - "[[model-context-protocol]]"
+keyphrase: LLM context drift
 slug: notes/llm-context-drift
 ---
 
