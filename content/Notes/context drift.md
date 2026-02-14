@@ -28,12 +28,12 @@ slug: notes/llm-context-drift
 
 **One-sentence definition:** LLM context drift (or "context rot") is the progressive degradation of a language model's output quality as its context window fills with a mix of relevant data, distractions, and discarded reasoning.
 
-The technical ability to "read" a million tokens does not guarantee the ability to reason across them effectively. Even with sophisticated models like Gemini 2.5, there is a noticeable fall-off in coherence as the conversation nears the 100,000-token mark. This is not just a matter of forgetting; it is a matter of the context becoming "poisoned" by the model's own prior outputs, dead ends, and irrelevant details.
+The technical ability to "read" a million tokens does not guarantee the ability to reason across them effectively. Even with sophisticated frontier models, there is a noticeable fall-off in coherence as the conversation grows longer. This is not just a matter of forgetting; it is a matter of the context becoming "poisoned" by the model's own prior outputs, dead ends, and irrelevant details.
 
 ### The mechanics of LLM context drift
-In multi-agent systems or complex decision-making loops, the risk is particularly acute. When models are tasked with taking actions based on previous steps, a single error or distraction can propagate through the context. The model begins to "cross its wires", losing the thread of the original intent in favour of the noise generated during the process. 
+In multi-agent systems or complex decision-making loops, the risk is particularly acute. When models are tasked with taking actions based on previous steps, a single error or distraction can propagate through the context. This is essentially a form of **compounding error**: just as a one-degree deviation in a ship’s heading leads to a vast miss over a long voyage, a minor distraction in the early context compounds with every subsequent generation. 
 
-This suggests that context is not a neutral container. It is an active environment that becomes increasingly cluttered and contradictory over time. The problem is not the size of the window, but the model's inability to distinguish between the signal of the original prompt and the noise of the subsequent interaction.
+The model begins to "cross its wires", losing the thread of the original intent in favour of the noise generated during the process. This suggests that context is not a neutral container. It is an active environment that becomes increasingly cluttered and contradictory over time. The problem is not the size of the window, but the model's inability to distinguish between the signal of the original prompt and the noise of the subsequent interaction.
 
 ### Strategies for preservation
 Since we cannot yet ask models to "forget" specific parts of their history, we must manage the context manually. 
