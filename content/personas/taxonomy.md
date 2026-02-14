@@ -27,107 +27,107 @@ categories:
 
 tags:
   # AI and machine learning
-  - large language models
-  - AI literacy
-  - AI agents
-  - AI integration
-  - context engineering
-  - generative AI
-  - machine learning
-  - retrieval augmented generation
-  - model context protocol
-  - vector database
-  - graph database
-  - human cognition
-  - human-AI collaboration
-  - value alignment
-  - AI forward
+  - large-language-models
+  - ai-literacy
+  - ai-agents
+  - ai-integration
+  - context-engineering
+  - generative-ai
+  - machine-learning
+  - retrieval-augmented-generation
+  - model-context-protocol
+  - vector-database
+  - graph-database
+  - human-cognition
+  - human-ai-collaboration
+  - value-alignment
+  - ai-forward
   # Scholarship and academic practice
-  - academic writing
-  - academic practice
-  - academic integrity
-  - open scholarship
+  - academic-writing
+  - academic-practice
+  - academic-integrity
+  - open-scholarship
   - publishing
-  - peer review
-  - research methods
-  - research skills
+  - peer-review
+  - research-methods
+  - research-skills
   - citation
   - authorship
-  - emergent scholarship
+  - emergent-scholarship
   # Knowledge and information
   - note-taking
-  - information architecture
-  - information management
-  - information retrieval
+  - information-architecture
+  - information-management
+  - information-retrieval
   - documentation
-  - knowledge representation
-  - personal knowledge management
-  - knowledge graphs
-  - operational architecture
-  - documentation debt
+  - knowledge-representation
+  - personal-knowledge-management
+  - knowledge-graphs
+  - operational-architecture
+  - documentation-debt
   # Teaching and learning
-  - learning design
-  - learning outcomes
-  - learning theory
-  - learning alignment
+  - learning-design
+  - learning-outcomes
+  - learning-theory
+  - learning-alignment
   - feedback
-  - active learning
+  - active-learning
   - supervision
-  - clinical supervision
+  - clinical-supervision
   - mentoring
-  - critical thinking
-  - critical pedagogy
-  - digital literacy
+  - critical-thinking
+  - critical-pedagogy
+  - digital-literacy
   - constructivism
   - connectivism
-  - cognitive science
-  - distributed cognition
-  - educational technology
+  - cognitive-science
+  - distributed-cognition
+  - educational-technology
   - prompting
-  - prompt engineering
+  - prompt-engineering
   # Health professions education
-  - health professions education
-  - clinical education
-  - workplace learning
-  - professional identity
-  - professional practice
-  - professional education
+  - health-professions-education
+  - clinical-education
+  - workplace-learning
+  - professional-identity
+  - professional-practice
+  - professional-education
   # Curriculum and programme design
-  - curriculum mapping
-  - curriculum design
-  - curriculum development
-  - programme design
-  - competency frameworks
-  - learning outcomes
+  - curriculum-mapping
+  - curriculum-design
+  - curriculum-development
+  - programme-design
+  - competency-frameworks
+  - learning-outcomes
   # Professional and organisational
-  - faculty development
-  - professional development
-  - professional learning
-  - academic development
+  - faculty-development
+  - professional-development
+  - professional-learning
+  - academic-development
   - leadership
-  - organisational change
+  - organisational-change
   - governance
-  - risk management
-  - higher education
-  - time management
+  - risk-management
+  - higher-education
+  - time-management
   - productivity
-  - career development
+  - career-development
   # Concepts and frameworks
   - judgement
   - discernment
   - taste
   - trust
   - context
-  - context sovereignty
+  - context-sovereignty
   - complexity
-  - complexity theory
+  - complexity-theory
   - infrastructure
-  - curriculum infrastructure
-  - organisational infrastructure
-  - continuous governance
-  - institutional dynamics
-  - general purpose technology
-  - artificial information scarcity
+  - curriculum-infrastructure
+  - organisational-infrastructure
+  - continuous-governance
+  - institutional-dynamics
+  - general-purpose-technology
+  - artificial-information-scarcity
   - standards
   - strategy
   - reasoning
@@ -138,14 +138,14 @@ tags:
   - communication
   - privacy
   - accessibility
-  - human-AI relationships
+  - human-ai-relationships
   # Specialist tools and methods
-  - email management
-  - user interface
-  - personal learning
-  - academic career
-  - AI tutoring
-  - AI principles
+  - email-management
+  - user-interface
+  - personal-learning
+  - academic-career
+  - ai-tutoring
+  - ai-principles
 ---
 
 # Site taxonomy
@@ -206,10 +206,10 @@ Keep this list short and stable. Categories are like sections of a library — b
 
 ## Tags (specific concepts)
 
-Tags are more granular than categories and describe the specific concepts a piece engages with. A post about AI feedback tools might have `category: Assessment` and tags `large language models`, `feedback`, `AI integration`.
+Tags are more granular than categories and describe the specific concepts a piece engages with. A post about AI feedback tools might have `category: Assessment` and tags `large-language-models`, `feedback`, `ai-integration`.
 
 Tags to avoid (too broad — use the category instead, or a more specific tag):
 - **Duplicates categories**: `scholarship`, `pedagogy`, `assessment`, `knowledge management` — use the category field instead
 - **Too broad to be useful**: `ai`, `technology`, `learning`, `knowledge`, `teaching`, `education`, `practice`, `skills`, `research`, `architecture`, `framework`, `professional`, `literacy`, `generative`
-- **Use the canonical term instead**: `language model` → `large language models`; `pkm` → `personal knowledge management`; `publication` → `publishing`; `artificial intelligence` → `large language models` or `AI integration`
+- **Use the canonical term instead**: `language-model` → `large-language-models`; `pkm` → `personal-knowledge-management`; `publication` → `publishing`; `artificial-intelligence` → `large-language-models` or `ai-integration`
 - **Metadata/format, not topics**: `editor`, `journal`, `audio`, `podcasts`, `essays`, `anthropic`

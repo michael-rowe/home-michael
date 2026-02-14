@@ -10,10 +10,10 @@ created: 2026-02-14
 updated: 2026-02-14
 status: published
 tags:
-  - large language models
-  - AI agents
   - context
   - reasoning
+  - large-language-models
+  - ai-agents
 category:
   - AI and technology
 related:
