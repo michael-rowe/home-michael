@@ -57,12 +57,12 @@ Professional curricula are comprehensively documented but not systematically que
 > 2. **A three-layer architecture addresses this**. Graph databases as source of truth for curriculum structure, vector databases for semantic retrieval, and a Model Context Protocol layer for role-specific access can reduce compliance reporting from weeks to hours.
 > 3. **The graph inverts the document-centric model**. Changes happen once in the graph and all derived artefacts — module specifications, programme handbooks, VLE structures — are generated from it, eliminating the synchronisation failures that currently plague accreditation cycles.
 > 4. **The same infrastructure supports internal and external quality assurance**. Not only regulatory compliance but also systematic checks against an institution's own design principles, run regularly rather than only at accreditation points.
-> 5. **Technology supports professional judgement rather than replacing it**. The architecture removes technical barriers to interrogating what curricula actually contain; educators retain full authority over what that structure should be and how to interpret it.
+> 5. **Technology supports professional judgement rather than replacing it**. The architecture removes technical barriers to interrogating what curricula actually contain; educators retain full authority over what that structure should be and how to interpret it, supporting the competencies required of teachers to design and enact effective feedback and assessment processes (Carless & Winstone, 2023).
 
 
 ## Artificial scarcity in curriculum structure
 
-Professional education curricula — in medicine, nursing, allied health, and other regulated disciplines — are comprehensively documented across hundreds of module specifications, teaching plans, and assessments. Yet when curriculum teams must demonstrate competency coverage for regulatory audits, answer questions about prerequisite chains, or identify assessment gaps, current systems require manual document review consuming days or weeks of staff time.
+Professional education curricula — in medicine, nursing, allied health, and other regulated disciplines — are comprehensively documented across hundreds of module specifications, teaching plans, and assessments. Yet when curriculum teams must demonstrate competency coverage for regulatory audits, answer questions about prerequisite chains, or identify assessment gaps, current systems require manual document review consuming days or weeks of staff time. This reflects a lack of curriculum agility—the capacity for institutions to act responsibly and rapidly on change and expectations (Brink et al., 2021).
 
 The core issue is a mismatch between what exists and what is accessible. Curricula have explicit structure: hierarchical organisation (programmes → modules → sessions → learning outcomes), prerequisite relationships, competency mappings, comprehensive content documentation. This structure exists in documents and staff knowledge, but not as queryable data. Staff who created this structure cannot efficiently access it for verification or compliance reporting. A companion essay examines this pattern in broader institutional terms, arguing that documentation undergoes a category shift — from reference material to operational architecture — when AI agents become consumers of institutional knowledge (Rowe, 2026). This essay focuses on the specific architectural response for professional curricula.
 
@@ -70,7 +70,7 @@ Professional education in regulated disciplines presents this problem in its sha
 
 Current systems make this structural information inaccessible through technical limitations. Document-based approaches cannot expose relationships between curriculum elements. Even purpose-built curriculum management systems focus on documentation workflow rather than enabling structural queries. Staff cannot ask "show me all assessment touchpoints for prescribing safety competency across prerequisite chains" because infrastructure does not support relationship traversal. The structure exists — module specifications list prerequisites, learning outcomes map to competencies — but exists in prose requiring human interpretation rather than computational querying.
 
-This architecture particularly suits what we term [[AI-forward]] institutions — those treating AI integration as ongoing strategic practice requiring active engagement with evolving technologies, rather than fixed deployment of finished solutions. The infrastructure proposed here enables such institutions to control their technological direction while acknowledging the ongoing engagement this requires.
+This reflects a broader need to move from ad hoc tool use toward curriculum models that leverage learning technologies as a foundational component of higher education infrastructure (Gosper & Ifenthaler, 2013). This architecture particularly suits what we term [[AI-forward]] institutions — those treating AI integration as ongoing strategic practice requiring active engagement with evolving technologies, rather than fixed deployment of finished solutions. The infrastructure proposed here enables such institutions to control their technological direction while acknowledging the ongoing engagement this requires.
 
 
 ## Current approaches and their limitations
@@ -92,7 +92,7 @@ The common thread across all these approaches is that rich structural knowledge 
 
 The solution requires infrastructure supporting queries over typed relationships, not merely content search. To understand why, consider what a quality assurance officer actually needs to do when verifying that a prescribing safety competency has adequate assessment coverage across a programme. They need to identify which learning outcomes address that competency, then trace which assessments test those outcomes, then check whether the modules containing those assessments have appropriate prerequisites. This is a *traversal* problem — following a chain of typed relationships from competency through outcomes through assessments through modules — and it is fundamentally different from a *search* problem. Finding content "about prescribing" through keyword or semantic search does not verify structural coverage. It tells you where prescribing is mentioned; it does not tell you whether the structural chain from competency to assessment is complete.
 
-Graph databases make relationships first-class entities that can be traversed, filtered, and aggregated, enabling precisely these structural queries. As Xiao (2023) notes, graph databases "enable complex relationships between entities to be processed effectively" in educational contexts, offering substantial advantages over relational databases as the number and depth of relationship traversals increases.
+Graph databases make relationships first-class entities that can be traversed, filtered, and aggregated, enabling precisely these structural queries. By integrating diverse information sources and making relationships explicit, knowledge graphs provide a common vision for institutional data (Ehrlinger & Wöß, 2016). As Xiao (2023) notes, graph databases "enable complex relationships between entities to be processed effectively" in educational contexts, offering substantial advantages over relational databases as the number and depth of relationship traversals increases.
 
 ### Three-layer infrastructure
 
@@ -143,7 +143,7 @@ The same infrastructure supports internal quality assurance against an instituti
 
 Educators gain comprehensive curriculum visibility enabling more effective design and collaboration. A module lead can query "where else is anticoagulation taught?" and receive definitive answers across all programmes and years, revealing integration opportunities or unnecessary duplication. They can ask "what prerequisite knowledge about cardiovascular physiology can I assume?" and see exactly which prior modules addressed relevant learning outcomes and whether assessments verified student attainment.
 
-This supports constructive alignment — ensuring learning outcomes, teaching activities, and assessments genuinely cohere. An educator designing a clinical prescribing module can verify that learning outcomes align with regulatory competencies, that teaching sessions adequately address those outcomes, and that assessments appropriately test them. When alignment gaps appear — an outcome without corresponding teaching, an assessment testing content not in the learning outcomes — the graph makes them explicit rather than requiring retrospective discovery during curriculum reviews.
+This supports constructive alignment — ensuring learning outcomes, teaching activities, and assessments genuinely cohere (Biggs & Tang, 2011). An educator designing a clinical prescribing module can verify that learning outcomes align with regulatory competencies, that teaching sessions adequately address those outcomes, and that assessments appropriately test them. When alignment gaps appear — an outcome without corresponding teaching, an assessment testing content not in the learning outcomes — the graph makes them explicit rather than requiring retrospective discovery during curriculum reviews.
 
 Just-in-time access to prerequisite information enables appropriately pitched teaching. Understanding what students have actually studied (and what they have been assessed on) helps educators calibrate expectations. The distinction matters: a topic appearing in Year 1 lectures but not assessed differs from a topic with multiple assessment touchpoints. Graph queries distinguish these, providing educators with actionable intelligence about prior knowledge they can genuinely assume versus content requiring review.
 
@@ -179,7 +179,7 @@ This flexibility carries responsibilities. Institutions adopting this architectu
 
 Institutions do not start from nothing. They have existing curriculum management systems, documents in repositories, VLE structures, and spreadsheet-based mappings. The transition involves extracting structured data from current systems, transforming it to graph-compatible format, validating extracted relationships through faculty review, and gradually shifting workflows to graph-native tools.
 
-This requires phased implementation over 18–24 months. Early phases focus on data extraction and populating the graph database while existing systems continue operating normally. Middle phases introduce query interfaces for staff to explore curriculum structure without changing their working practices. Later phases shift curriculum modification workflows to graph-native tools, making the graph the source of truth with documents generated from it. Parallel operation during transition is essential — staff will not abandon familiar systems until new infrastructure demonstrably improves their work.
+This requires phased implementation over 18–24 months, following a defined process for knowledge graph development that includes extraction, transformation, and validation (Tamašauskaitė & Groth, 2023). Early phases focus on data extraction and populating the graph database while existing systems continue operating normally. Middle phases introduce query interfaces for staff to explore curriculum structure without changing their working practices. Later phases shift curriculum modification workflows to graph-native tools, making the graph the source of truth with documents generated from it. Parallel operation during transition is essential — staff will not abandon familiar systems until new infrastructure demonstrably improves their work.
 
 *The phases and timelines for transition are necessarily institution-specific, depending on existing systems, data quality, and technical capacity; the 18–24 month arc described here is indicative rather than prescriptive.*
 
@@ -215,11 +215,23 @@ Abu-Salih, B., & Alotaibi, S. (2024). A systematic literature review of knowledg
 
 Anthropic. (2024, November 25). Introducing the Model Context Protocol. https://www.anthropic.com/news/model-context-protocol
 
+Biggs, J. B., & Tang, C. (2011). *Teaching for quality learning at university* (4th ed.). Society for Research into Higher Education & Open University Press.
+
+Brink, S., Ehrlinger, L., & Wöß, W. (2021). Curriculum Agility: Responsive Organization, Dynamic Content, and Flexible Education. *IEEE Frontiers in Education Conference (FIE)*. https://doi.org/10.1109/FIE49875.2021.9637255
+
+Carless, D., & Winstone, N. (2023). What feedback literate teachers do: an empirically-derived competency framework. *Higher Education*, *86*(6), 1433–1451. https://doi.org/10.1007/s10734-022-00979-5
+
 CAUDIT. (2025). *Higher Education Reference Models (HERM), version 3.2.0*. https://www.caudit.edu.au/communities/caudit-higher-education-reference-models/
+
+Ehrlinger, L., & Wöß, W. (2016). Towards a Definition of Knowledge Graphs. *SEMANTiCS*.
+
+Gosper, M., & Ifenthaler, D. (Eds.). (2013). *Curriculum models for the 21st century: using learning technologies in higher education*. Springer Science & Business Media.
 
 Hilliger, I., Miranda, C., Celis, S., & Perez-Sanagustin, M. (2024). Curriculum analytics adoption in higher education: A multiple case study engaging stakeholders in different phases of design. *British Journal of Educational Technology*, *55*(3), 785–801. https://doi.org/10.1111/bjet.13374
 
 Rowe, M. (2026). Documentation becomes infrastructure when AI agents are the readers. https://michael-rowe.github.io/emergent-scholarship/Essays/documentation-as-infrastructure/
+
+Tamašauskaitė, R., & Groth, P. (2023). Defining a Knowledge Graph Development Process Through a Systematic Review. *ACM Computing Surveys*. https://doi.org/10.1145/3592624
 
 UCISA. (2025). *Higher Education Reference Models*. https://www.ucisa.ac.uk/groups/enterprise-architecture/herm
 
