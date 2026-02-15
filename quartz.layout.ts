@@ -110,7 +110,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Comments({
       provider: "giscus",
       options: {
-        repo: "michael-rowe/emergent-scholarship",
+        repo: "michael-rowe/home-michael",
         repoId: "R_kgDOOHzPWg",
         category: "Announcements",
         categoryId: "DIC_kwDOOHzPWs4Cw5Jj",

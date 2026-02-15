@@ -34,7 +34,7 @@ A living document of the tools and systems I use for academic work, writing, and
 
 **[Quartz](https://quartz.jzhao.xyz/)** — A static site generator designed for publishing [digital gardens](https://maggieappleton.com/garden-history). Transforms my writing about scholarship into this website with graph view, backlinks, and full-text search.
 
-**[GitHub](https://github.com/michael-rowe/emergent-scholarship)** — Version control and free hosting via GitHub Pages. The entire site is open source.
+**[GitHub](https://github.com/michael-rowe/home-michael)** — Version control and free hosting via GitHub Pages. The entire site is open source.
 
 **[Giscus](https://giscus.app/)** — Comments on the site are powered by GitHub Discussions. No separate account is needed if you have GitHub.
 

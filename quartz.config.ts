@@ -17,7 +17,7 @@ const config: QuartzConfig = {
       websiteId: "77390f7b-08ec-4c18-b306-0b03e2dafc81",
     },
     locale: "en-US",
-    baseUrl: "michael-rowe.github.io/emergent-scholarship",
+    baseUrl: "michael-rowe.github.io/home-michael",
     ignorePatterns: ["private", "templates", ".obsidian", "drafts", "personas"],
     defaultDateType: "created",
     theme: {

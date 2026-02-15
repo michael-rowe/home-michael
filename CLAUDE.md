@@ -407,12 +407,14 @@ Approved vocabulary is defined in `content/personas/taxonomy.md`. **Always choos
 **Categories** (7 approved, pick 1–2 per piece):
 `AI and technology` · `Assessment` · `Curriculum` · `Pedagogy` · `Scholarship` · `Knowledge management` · `Professional development`
 
-**Tags** (110 approved): see `content/personas/taxonomy.md` for the full list with groupings. Key clusters:
-- AI: `large language models`, `AI literacy`, `AI agents`, `AI integration`, `generative AI`, `context engineering`, `retrieval augmented generation`, `machine learning`, `model context protocol`, `vector database`, `graph database`
-- Scholarship: `academic writing`, `academic practice`, `open scholarship`, `publishing`, `peer review`, `research methods`, `emergent scholarship`
-- Teaching/learning: `learning design`, `feedback`, `learning theory`, `critical thinking`, `educational technology`, `prompting`, `supervision`
-- Health professions: `health professions education`, `clinical education`, `competency frameworks`, `workplace learning`
-- Knowledge: `note-taking`, `information architecture`, `documentation`, `personal knowledge management`, `knowledge graphs`
+**Tags must use hyphens** — Obsidian does not support tags with spaces. Always use hyphenated form: `ai-agents` not `AI agents`, `context-engineering` not `context engineering`. The canonical forms are defined in `content/personas/taxonomy.md`.
+
+**Tags** (approved): see `content/personas/taxonomy.md` for the full list. Key clusters:
+- AI: `large-language-models`, `ai-literacy`, `ai-agents`, `ai-integration`, `generative-ai`, `context-engineering`, `retrieval-augmented-generation`, `machine-learning`, `model-context-protocol`, `vector-database`, `graph-database`
+- Scholarship: `academic-writing`, `academic-practice`, `open-scholarship`, `publishing`, `peer-review`, `research-methods`, `emergent-scholarship`
+- Teaching/learning: `learning-design`, `feedback`, `learning-theory`, `critical-thinking`, `educational-technology`, `prompting`, `supervision`
+- Health professions: `health-professions-education`, `clinical-education`, `competency-frameworks`, `workplace-learning`
+- Knowledge: `note-taking`, `information-architecture`, `documentation`, `personal-knowledge-management`, `knowledge-graphs`
 
 **Adding new terms**: run `node scripts/validate-taxonomy.mjs` — it flags any unknown values and shows the exact line to add to `taxonomy.md`. Add the term there first, then use it in content.
 

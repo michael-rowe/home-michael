@@ -28,7 +28,7 @@ const monthEndDate = new Date(targetYear, targetMonth, 1);
 const OUTPUT_DIR = 'content/Newsletters';
 const DATE_STR = `${targetYear}-${String(targetMonth).padStart(2, '0')}`;
 const MONTH_NAME = monthStartDate.toLocaleString('en-GB', { month: 'long', year: 'numeric' });
-const BASE_URL = 'https://michael-rowe.github.io/emergent-scholarship';
+const BASE_URL = 'https://michael-rowe.github.io/home-michael';
 const SINCE_DATE = monthStartDate.toISOString();
 const UNTIL_DATE = monthEndDate.toISOString();
 

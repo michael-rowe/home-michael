@@ -34,7 +34,7 @@ This site embodies several principles:
 
 **Plain text, open formats** — Everything is markdown. No proprietary formats, no lock-in. The entire site can be rebuilt from plain text files.
 
-**Own your platform** — Self-hosted on GitHub Pages rather than a platform that could disappear or change terms. The [source is public](https://github.com/michael-rowe/emergent-scholarship).
+**Own your platform** — Self-hosted on GitHub Pages rather than a platform that could disappear or change terms. The [source is public](https://github.com/michael-rowe/home-michael).
 
 ## AI-assisted development
 
@@ -73,7 +73,7 @@ Version numbers appear in the frontmatter of each essay and are visible in the "
 
 Content on this site is shared openly for non-commercial use with attribution. Academic citation format:
 
-> Rowe, M. (2026). [Title]. */home/michael*. https://michael-rowe.github.io/emergent-scholarship/
+> Rowe, M. (2026). [Title]. */home/michael*. https://michael-rowe.github.io/home-michael/
 
 For other uses, [[contact|get in touch]].
 

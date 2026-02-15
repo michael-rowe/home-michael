@@ -34,8 +34,8 @@ Health professions educators and those involved in developing practitioners at a
 ## Licence and attribution
 
 Content is shared openly. Attribution appreciated. Academic citation format:
-Rowe, M. (2026). [Title]. /home/michael. https://michael-rowe.github.io/emergent-scholarship/
+Rowe, M. (2026). [Title]. /home/michael. https://michael-rowe.github.io/home-michael/
 
 ## Contact
 
-For questions or collaboration: https://michael-rowe.github.io/emergent-scholarship/contact
+For questions or collaboration: https://michael-rowe.github.io/home-michael/contact

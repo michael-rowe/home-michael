@@ -23,7 +23,7 @@ You cannot be identified from the analytics data collected.
 Comments are powered by [Giscus](https://giscus.app/), which uses GitHub Discussions. When you comment:
 
 - You authenticate through your GitHub account
-- Your comment is stored in the [site's GitHub repository](https://github.com/michael-rowe/emergent-scholarship)
+- Your comment is stored in the [site's GitHub repository](https://github.com/michael-rowe/home-michael)
 - Your GitHub username and profile picture are displayed with your comment
 - Giscus does not track you beyond the comment functionality
 

@@ -5,7 +5,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://michael-rowe.github.io/emergent-scholarship/sitemap.xml
+Sitemap: https://michael-rowe.github.io/home-michael/sitemap.xml
 
 # LLM-specific context available at:
-# https://michael-rowe.github.io/emergent-scholarship/llms.txt
+# https://michael-rowe.github.io/home-michael/llms.txt

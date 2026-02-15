@@ -229,7 +229,7 @@ Gosper, M., & Ifenthaler, D. (Eds.). (2013). *Curriculum models for the 21st cen
 
 Hilliger, I., Miranda, C., Celis, S., & Perez-Sanagustin, M. (2024). Curriculum analytics adoption in higher education: A multiple case study engaging stakeholders in different phases of design. *British Journal of Educational Technology*, *55*(3), 785–801. https://doi.org/10.1111/bjet.13374
 
-Rowe, M. (2026). Documentation becomes infrastructure when AI agents are the readers. https://michael-rowe.github.io/emergent-scholarship/Essays/documentation-as-infrastructure/
+Rowe, M. (2026). Documentation becomes infrastructure when AI agents are the readers. https://michael-rowe.github.io/home-michael/Essays/documentation-as-infrastructure/
 
 Tamašauskaitė, R., & Groth, P. (2023). Defining a Knowledge Graph Development Process Through a Systematic Review. *ACM Computing Surveys*. https://doi.org/10.1145/3592624
 
