@@ -6,7 +6,7 @@ aliases:
   - Context engineering for clinical educators
   - Context engineering what health professions educators need to know
 description: "Most universities have responded to AI by rewriting assessment policies and running prompt-writing workshops. Context engineering demands something different: infrastructure decisions that commit institutions to a direction. This post explains what context engineering involves, why it matters for health professions education, and why the gap between changing words and changing structures is where most institutions are stuck."
-meta-description: Context engineering for educators means infrastructure, not AI policies. What the technology stack shaping AI-supported learning demands.
+meta-description: Context engineering for educators means infrastructure, not AI policies. This is what the technology stack shaping AI-supported learning demands.
 keyphrase: context engineering for educators
 author: "[[Michael Rowe]]"
 date: 2026-02-14
@@ -16,6 +16,8 @@ tags:
   - context-engineering
   - context-sovereignty
   - organisational-infrastructure
+  - health-professions-education
+  - ai-agents
 category:
   - AI and technology
 related:
@@ -35,7 +37,7 @@ Universities have not ignored AI. Assessment policies have been rewritten, [[AI 
 
 Strikingly, little changes. Adding reflective statements to assessment briefs does not alter what is assessed, how it is assessed, or the supporting infrastructure. It changes the words while leaving the structure intact — a discursive response that is common in higher education but insufficient for what is coming.
 
-Context engineering builds the information systems that shape AI reasoning. Unlike policy adjustments, it demands architectural decisions: how information is structured, how AI connects to data, how a learner's progress is represented. These choices create long-term commitments rather than reversible guidelines.
+[[context engineering|Context engineering]] builds the information systems that shape AI reasoning. Unlike policy adjustments, it demands architectural decisions: how information is structured, how AI connects to data, how a learner's progress is represented. These choices create long-term commitments rather than reversible guidelines.
 
 ## What context engineering is
 
@@ -51,7 +53,7 @@ Context engineering for educators does not mean becoming a software engineer. Bu
 
 ### System prompts and instructions
 
-Invisible system prompts define an AI's role, tone, and constraints. They differentiate a generic chatbot from a tutor that follows institutional guidelines and handles sensitive clinical content appropriately. Designing these prompts is an infrastructure decision with deep pedagogical consequences; while invisible to the learner, their effects on the quality of advice and professional boundaries are profound.
+Invisible [[system prompt|system prompts]] define an AI's role, tone, and constraints. They differentiate a generic chatbot from a tutor that follows institutional guidelines and handles sensitive clinical content appropriately. Designing these prompts is an infrastructure decision with deep pedagogical consequences; they are invisible to learners, yet their effects are profound.
 
 ### Memory and state management
 
@@ -75,7 +77,7 @@ AI is moving toward systems that plan multi-step tasks and coordinate with other
 
 ## Why context engineering matters
 
-Clinical reasoning is integrative. A pharmacology question often involves anatomy, pathophysiology, and ethics. This connectivity *is* clinical competence. Context engineering determines whether AI reinforces siloed, modular curricula or supports integrated reasoning — a function of architecture, not model intelligence.
+Clinical reasoning is integrative. A pharmacology question often involves anatomy, pathophysiology, and ethics. This connectivity *is* clinical competence. Whether AI can support that integration is an architectural decision, not a matter of model capability.
 
 Clinical education is also longitudinal. Students develop over years, not sessions. Without context engineering, AI resets to baseline with every interaction, unable to provide the developmentally appropriate challenges that human educators deliver intuitively.
 
