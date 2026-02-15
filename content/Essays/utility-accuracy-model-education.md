@@ -15,10 +15,15 @@ version: 0.7
 created: 2026-02-12
 modified: 2026-02-14
 tags:
+  - large-language-models
+  - health-professions-education
+  - AI-integration
+  - generative-AI
+  - educational-technology
 related:
   - "[[AI literacy]]"
   - "[[large language models]]"
-  - "[[learning alignment]]"
+  - "[[learning-alignment]]"
 category:
   - AI and technology
   - Pedagogy
@@ -36,13 +41,13 @@ draft: false
 
 Educational support systems have long prioritised accuracy as the primary metric of quality, producing technically excellent resources that remain largely unused. We present a mathematical framework demonstrating that AI tutoring systems with 10–15% error rates can achieve superior learning outcomes through dramatically increased engagement—but only with appropriate pedagogical scaffolding and oversight. Drawing on evidence from health professions education, we show that the multiplicative relationship between accuracy and utilisation creates an "accessibility paradox" where imperfect-but-engaging systems outperform perfect-but-unused ones. This outcome is not automatic. We identify three critical qualifications insufficiently addressed in current discourse: first, errors vary in consequence—rational verification behaviour depends on the interaction between probability of incorrectness and criticality of correctness; second, generative AI poses distinctive epistemic challenges, lacking the accountability, traceability, and questionability of traditional information sources, that may reduce the effectiveness of education's conventional error correction mechanisms; and third, engagement is necessary but not sufficient for learning, with superficial use patterns capable of nullifying predicted benefits entirely. The framework provides context-specific thresholds for acceptable error rates while acknowledging what remains uncertain.
 
-## 1. Introduction
+## Introduction
 
-A clinical decision support system achieves 92% accuracy in identifying drug interactions for patients with renal impairment. After six months, an audit reveals it has been consulted in only 18% of eligible cases. The primary reason cited by prescribers: concern about the 8% error rate. Meanwhile, studies consistently find that a substantial proportion of medications requiring renal dose adjustment are not appropriately modified—estimates range from a quarter to over half of cases across settings (Goyal et al., 2024; Saad et al., 2019). The system, despite its imperfections, would have improved outcomes for thousands of patients had it been widely adopted.
+Clinical decision support (CDS) tools demonstrate a counterintuitive pattern: the more comprehensive the system—the more interactions it flags, the more workflow it interrupts—the more reliably it gets overridden. Alert fatigue, in which clinicians habituate to decision support prompts and dismiss them without attending to content, is well documented. Van der Sijs et al. (2006) found that 91% of drug safety alerts in a computerised prescribing system were overridden, the majority without clinical justification. Meanwhile, failure to appropriately adjust drug doses in patients with renal impairment remains common across settings, with estimates ranging from a quarter to over half of cases (Goyal et al., 2024; Saad et al., 2019). A system optimised for completeness trains clinicians to dismiss rather than engage. The accuracy–adoption trade-off is not a quirk of clinical informatics.
 
-The same logic applies in education. Clinical decision support tools like BMJ Best Practice achieve high accuracy in their recommendations, yet most health professions students do not meaningfully engage with available clinical resources outside mandatory assignments. The volume of assigned reading far exceeds what students can realistically complete (Klatt & Klatt, 2011). Attendance at optional learning opportunities remains low (Griffin et al., 2014). We have optimised for content quality while ignoring the primary determinant of learning outcomes—actual use.
+The pattern repeats in education. Clinical decision support tools like BMJ Best Practice achieve high accuracy in their recommendations, yet most health professions students do not meaningfully engage with available clinical resources outside mandatory assignments. The volume of assigned reading far exceeds what students can realistically complete (Klatt & Klatt, 2011). Attendance at optional learning opportunities remains low (Griffin et al., 2014). We have optimised for content quality while ignoring the primary determinant of learning outcomes—actual use.
 
-AI tutoring systems intensify this tension. They provide personalised, interactive learning support at scale, but at accuracy levels many educators consider unacceptable (Singhal et al., 2023). The demand for near-perfect accuracy before deployment reflects a conflation of two fundamentally different AI paradigms.
+AI tutoring systems in health professions education intensify this tension. They provide personalised, interactive learning support at scale, but at accuracy levels many educators consider unacceptable (Singhal et al., 2023). The demand for near-perfect accuracy before deployment reflects a conflation of two fundamentally different AI paradigms.
 
 Diagnostic AI—radiology, pathology, clinical decision support—compresses vast amounts of data into critical decisions. Output is trusted as definitive, with limited opportunity for error correction and high stakes for individual errors. This paradigm demands very high accuracy. Generative or educational AI—tutoring, feedback, explanation—does something different. It expands simple queries into rich learning experiences. Output is meant to be evaluated and questioned, not accepted as truth, with multiple opportunities for error correction through the learning process. These systems can provide net benefit at moderate accuracy (85–90%).
 
@@ -50,7 +55,11 @@ Conflating these paradigms means demanding diagnostic-level accuracy from system
 
 Even this distinction oversimplifies. Recent evidence reveals stark variability in outcomes. In a randomised controlled trial, students using an AI physics tutor learned more in less time than those in active-learning classes, with higher engagement and motivation (Kestin et al., 2025). Conversely, Thoeni and Fryer (2025) deployed a generative AI tutor across multiple undergraduate classes for a full semester and found no significant differences in engagement, self-efficacy, or achievement compared to controls. AI tutors are pedagogical tools, not pedagogical solutions. The accessibility paradox resolves in students' favour only when implementation is thoughtful.
 
-## 2. The accessibility paradox
+The argument that follows proceeds in two moves. First, a mathematical framework establishes the structural relationship between accuracy and utilisation. Second, critical analysis identifies three conditions under which that framework breaks down. The evidence base draws on published trials, meta-analyses, and observational studies in health professions and higher education. This is not a systematic review; it is a structured argument that uses evidence to test reasoning, intended to be useful in the interval before definitive empirical trials exist.
+
+A positionality note: I write as a health professions educator with a prior commitment to the view that engagement is a necessary condition for learning, and a scepticism toward approaches that sacrifice reach in pursuit of perfect standards. Those commitments shape the framework's starting assumptions and may bias the analysis toward optimism about engagement benefits. Where that risk is greatest, I have tried to flag it explicitly.
+
+## The accessibility paradox
 
 The core mathematical insight is straightforward:
 
@@ -62,11 +71,13 @@ Population-level benefit is multiplicative. A 95% accurate clinical resource use
 
 The realistic alternative to an AI tutor is not a textbook. It is whatever students actually turn to when they disengage from formal resources: a tired resident on a busy ward, peer explanations of variable quality, unvetted internet searches. The relevant accuracy comparison is not AI versus textbook but AI versus the information ecology students inhabit when they stop using the textbook.
 
-**Worked example—pharmacology tutoring.** An AI tutor supports pharmacology students with drug dosing calculations. Baseline mastery on standardised assessments sits at 62%. The AI achieves 87% accuracy on dosing guidance, with 68% of students using it regularly and a combined mastery multiplier of 1.15× from increased practice. After accounting for error introduction (13% error rate × 68% utilisation × 20% error persistence = 1.8 percentage points degradation) and engagement-amplified correct guidance, projected mastery reaches approximately 71%, a 9 percentage point gain. Even under pessimistic assumptions (engagement multiplier only 1.05×, error persistence 35%, utilisation 50%), improvement remains positive at roughly 4 points.
+**Worked example—pharmacology tutoring.** An AI tutor supports pharmacology students with drug dosing calculations. Baseline mastery on standardised assessments sits at 62%. The AI achieves 87% accuracy on dosing guidance, with 68% of students using it regularly and a combined mastery multiplier of 1.15× from increased practice. After accounting for error introduction (13% error rate × 68% utilisation × 20% error persistence = 1.8 percentage points degradation) and engagement-amplified correct guidance, projected mastery reaches approximately 71%, a 9 percentage point gain.
+
+Even under pessimistic assumptions (engagement multiplier only 1.05×, error persistence 35%, utilisation 50%), improvement remains positive at roughly 4 points.
 
 Three dependencies qualify these predictions. Utilisation must be productive: students using AI as an "answer vending machine" may show high U but gain little benefit. Error correction is probabilistic, not guaranteed. Some errors persist. And lower baseline performance increases both potential benefit and potential risk, since novice learners lack the domain knowledge to detect plausibility failures in AI output.
 
-## 3. Why education tolerates imperfection
+## Why education tolerates imperfection
 
 Clinical decisions can have immediate, irreversible consequences. Educational environments are different. They contain multiple layers of error correction: subsequent problem-solving reveals inconsistencies, practice and assessment progressively reduce retained misconceptions (Butterfield & Metcalfe, 2001; Kendeou et al., 2014), and peer discussion and instructor oversight provide additional correction. In one study, researchers deliberately seeded an AI tutor with known misconceptions; by term's end, students' performance on those concepts was no worse than peers who did not use the AI (Choi, 2024).
 
@@ -74,7 +85,7 @@ Traditional education has always contained errors. Reviews of widely-used scienc
 
 But correction rates describe probability of eventual correction, not the effort required. Research on the continued influence effect shows that unlearning an established misconception is cognitively costlier than learning the correct information in the first place: the original error creates a mental representation that persists even after correction and resurfaces under cognitive load (Lewandowsky et al., 2012). Cost_wrong in the framework is not simply the inverse of correction probability. It must also account for the additional effort required to overwrite incorrect knowledge. That cost varies substantially: correcting a misunderstanding about communication frameworks is straightforward; correcting an incorrectly learned drug mechanism of action may require repeated, effortful retrieval practice to displace the original error.
 
-The baseline against which we evaluate AI tutoring is not perfection. It is current educational reality. A 90% accurate AI is more reliable than the average learner's current knowledge state. The tutor provides net benefit by correcting misunderstandings students would otherwise retain, even while occasionally introducing new ones. Evidence from productive failure research shows that students with initially low achievement tend to gain more than high-performing peers (Kapur, 2014; Sinha & Kapur, 2021), which means AI tutoring could narrow achievement gaps, provided struggling students actually engage.
+The baseline against which we evaluate AI tutoring is not perfection. It is current educational reality. A 90% accurate AI is more reliable than the average learner's current knowledge state. The tutor provides net benefit by correcting misunderstandings students would otherwise retain, even as it occasionally introduces new ones. Evidence from productive failure research shows that students with initially low achievement tend to gain more than high-performing peers (Kapur, 2014; Sinha & Kapur, 2021), which means AI tutoring could narrow achievement gaps, provided struggling students actually engage.
 
 ### Error criticality: quality, not just quantity
 
@@ -86,7 +97,7 @@ The rational decision about whether to verify AI-generated information depends o
 
 The binary error rate E in the model should therefore be understood as a severity-weighted quantity. In practice, AI systems should maintain very high accuracy (>95%) for safety-critical content—drug dosages, contraindications, diagnostic criteria—even where moderate accuracy (85–90%) is acceptable for conceptual explanations and learning guidance. Students need training not just in error detection but in error triage: learning to identify which information warrants verification regardless of how confident the AI appears.
 
-## 4. Why AI errors resist correction
+## Why AI errors resist correction
 
 The argument that educational error correction makes moderate AI inaccuracy tolerable rests on an implicit assumption: that AI-sourced errors behave like errors from traditional sources. They may not.
 
@@ -102,7 +113,7 @@ The error correction rates reported in Section 3 were measured in contexts where
 
 This accountability gap does not invalidate the accessibility paradox. But it means the "errors as features" argument requires more careful qualification than is sometimes offered. The pedagogical benefits of encountering errors depend on students having the tools and training to detect and correct them. When the error source actively undermines traditional verification strategies, additional scaffolding is essential. Whether such scaffolding can be reliably provided at scale remains an open empirical question.
 
-## 5. AI as a learning companion
+## AI as a learning companion
 
 Much of the preceding analysis—including the mathematical framework—implicitly frames AI tutoring as a replacement for traditional instruction. The question becomes whether AI delivers content more or less accurately than a textbook or lecturer, and whether increased engagement compensates for reduced accuracy.
 
@@ -118,7 +129,7 @@ A critical caveat follows. The companion model only functions if the AI adopts a
 
 None of this resolves accuracy concerns for high-criticality content. But it suggests the debate about acceptable error rates is partly a debate about what role we want AI to play in education. If the role is instruction delivery, accuracy is paramount. If the role is learning companionship, evaluation criteria should include the quality of the learning process, not just the accuracy of the content transmitted.
 
-## 6. When the paradox fails
+## When the paradox fails
 
 The accessibility paradox is not self-executing. Several conditions can prevent its predicted benefits from materialising, and intellectual honesty requires foregrounding these rather than treating them as footnotes.
 
@@ -130,9 +141,9 @@ Over-reliance poses a different risk. Gerlich (2025) found a strong negative cor
 
 There is also an equity problem that cuts against the framework's most optimistic predictions. While struggling students show the largest potential gains, research on feedback usage finds that a substantial minority of students do not engage with feedback at all, and roughly half of those who do engage fail to improve as a result (Niepel et al., 2025). High-performing students tend to exploit optional resources more than struggling students (Winstone et al., 2017). Without mandatory integration and targeted outreach, AI tutors could widen rather than narrow achievement gaps. The students most in need of support may be least likely to benefit.
 
-## 7. Safety standards and professional certification
+## Safety standards and professional certification
 
-Some stakeholders in health professions education hold a position worth engaging with seriously: they would rather produce a graduate with less but factually correct knowledge than one with broader knowledge containing harmful errors. This reflects the dual function of professional education: developing autonomous learners while certifying that graduates meet minimum safety standards for patient care.
+The gatekeeping concern raised in Section 3 deserves more than a paragraph. Professional education has a dual function: developing autonomous learners and certifying that graduates meet minimum safety standards for patient care. These functions can pull in opposite directions, and the accessibility paradox is most contested precisely at this intersection.
 
 The question is not whether this concern is valid. It is. The question is what comparison it assumes. "Would you prefer a graduate who knows 100 correct things or one who knows 110 things of which 11 are wrong?" is the wrong framing. The accessibility paradox makes the real question explicit: "Would you prefer 30% of students who engaged deeply with perfect resources, or 70% who engaged deeply with 90%-accurate resources?" The gatekeeping concern implicitly assumes accuracy and utilisation are independent: that you can have both perfect accuracy and universal engagement. You often cannot.
 
@@ -140,15 +151,15 @@ Disengaged students do not avoid acquiring errors. They fill knowledge gaps with
 
 That said, the gatekeeping concern imposes legitimate constraints. Certain knowledge in health professions education is non-negotiable: correct drug dosages, contraindications, emergency identification. For this content, AI systems should be held to very high accuracy standards (>95%), or it should be delivered and assessed through traditional, verified channels. The framework's contribution is not that all accuracy standards should be relaxed, but that accuracy requirements should be calibrated to context and consequence.
 
-A genuine philosophical tension remains between the structure that degree programmes require and the personalisation that AI-powered learning enables. A structured clinical curriculum says "here is what you need to know, in this order, to these standards." An AI learning companion says "let's explore whatever clinical question interests you, in whatever order works for you." Both have value. Combining them is not straightforward, especially when professional assessments must determine whether students have met specific competency thresholds. Institutions that dismiss teacher concerns about this tension as mere resistance to change risk either implementation failure or a genuine loss of educational quality.
+A philosophical tension remains between the structure that degree programmes require and the personalisation that AI-powered learning enables. A structured clinical curriculum says "here is what you need to know, in this order, to these standards." An AI learning companion says "let's explore whatever clinical question interests you, in whatever order works for you." Both have value. Combining them is not straightforward, especially when professional assessments must determine whether students have met specific competency thresholds. Institutions that dismiss teacher concerns about this tension as mere resistance to change risk either implementation failure or a genuine loss of educational quality.
 
-## 8. Limitations and future directions
+## Limitations and future directions
 
 Several limitations constrain the framework's current application. The binary correct/incorrect treatment of errors, while mathematically tractable, oversimplifies a reality where errors vary enormously in consequence; the discussion of error criticality addresses this qualitatively, but it is not yet incorporated into the formal model. The error correction rates drawn on were measured for traditionally-sourced errors; whether they apply to AI-sourced errors, given the epistemic accountability gap, is an open empirical question. Most engagement studies measure outcomes over weeks to months, leaving unresolved whether the engagement multiplier reflects durable behavioural change or partly novelty effects. The evidence base is skewed toward STEM subjects and Western educational contexts, limiting generalisability.
 
 Several questions demand direct empirical attention. RCTs isolating accuracy-utilisation trade-offs in health professions education are largely absent from the current literature. Longitudinal studies are needed to determine whether engagement gains persist into clinical practice or fade with familiarity. Whether error correction rates differ for AI-sourced versus traditionally-sourced errors remains unmeasured—the assumption that they are equivalent is the framework's most significant empirical gap. Developing metrics that distinguish productive from superficial engagement would transform the quality of future research, as would better models for integrating personalised AI learning into structured curricula without compromising the competency thresholds that professional certification requires.
 
-## 9. Conclusion
+## Conclusion
 
 The mathematics is clear: a 90% accurate AI tutor used by 70% of students outperforms a 99% accurate system used by 10%, provided it exceeds baseline student performance. The pursuit of perfect accuracy, while well-intentioned, creates an accessibility paradox that harms learning.
 
@@ -158,6 +169,8 @@ What this means in practice is calibration, not capitulation. The highest accura
 
 The choice is not between perfect AI and imperfect AI. It is between imperfect-but-monitored AI that reaches most students and perfectionism paralysis that reaches none, while students fill the gap with unmonitored sources of unknown accuracy.
 
+The harder question—how to design the monitoring, scaffolding, and verification practices that make that comparison hold in varied institutional contexts and at scale—remains largely unanswered. That is where the work needs to go.
+
 ## References
 
 Buchanan, J., Hill, S., & Shapoval, O. (2024). ChatGPT hallucinates non-existent citations: Evidence from economics. *Kyklos*, 77(3), 702–716. https://doi.org/10.1177/05694345231218454
@@ -166,7 +179,7 @@ Butterfield, B., & Metcalfe, J. (2001). Errors committed with high confidence ar
 
 Chen, Q., Zhu, J., Lee, J., Xu, S., Yoo, K. M., & Jiang, N. (2025). When helpfulness backfires: LLMs and the risk of false medical information due to sycophantic behavior. *npj Digital Medicine*, 8, 278. https://doi.org/10.1038/s41746-025-02008-z
 
-Choi, S. (2024). Effects of AI tutor misconceptions on student learning outcomes. [Conference paper/preprint—verify for final submission.]
+Choi, S. (2024). Effects of AI tutor misconceptions on student learning outcomes. ⚠️ *Source details unconfirmed — locate full citation before submission.*
 
 Dahl, M., Magesh, V., Suzgun, M., & Ho, D. E. (2025). Large legal fictions: Profiling legal hallucinations in large language models. *Journal of Empirical Legal Studies*, 0, 1–27. https://doi.org/10.1111/jels.12393
 
@@ -205,6 +218,8 @@ Singhal, K., Azizi, S., Tu, T., Mahdavi, S. S., Wei, J., Chung, H. W., ... Natar
 Sinha, T., & Kapur, M. (2021). When problem solving followed by instruction works: Evidence for productive failure. *Review of Educational Research*, 91(4), 505–542. https://doi.org/10.3102/0034654321990180
 
 Steenbergen-Hu, S., & Cooper, H. (2014). A meta-analysis of the effectiveness of intelligent tutoring systems on college students' academic learning. *Journal of Educational Psychology*, 106(2), 331–347. https://doi.org/10.1037/a0034752
+
+Van der Sijs, H., Aarts, J., Vulto, A., & Berg, M. (2006). Overriding of drug safety alerts in computerized physician order entry. *Journal of the American Medical Informatics Association*, 13(2), 138–147. https://doi.org/10.1197/jamia.M1809
 
 Thoeni, A., & Fryer, L. K. (2025). AI tutors in higher education: Comparing expectations to evidence. [Preprint]. https://www.researchgate.net/publication/390576465
 

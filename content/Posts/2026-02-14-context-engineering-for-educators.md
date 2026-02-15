@@ -29,17 +29,17 @@ enableToc: true
 ---
 
 > [!info] Policies are not infrastructure
-> Universities are rewriting assessment briefs and drafting guidelines, but context engineering is the structural layer most haven't engaged with because it is where the most consequential decisions are being made.
+> Universities are rewriting assessment briefs and drafting guidelines. Context engineering is the structural layer most haven't reached — where the most consequential decisions get made.
 
 Universities have not ignored AI. Assessment policies have been rewritten, [[AI literacy]] workshops commissioned, and guidelines circulated. Across most institutions, the pattern is the same: change the language, adjust student instructions, and clarify rules.
 
 Strikingly, little changes. Adding reflective statements to assessment briefs does not alter what is assessed, how it is assessed, or the supporting infrastructure. It changes the words while leaving the structure intact — a discursive response that is common in higher education but insufficient for what is coming.
 
-Context engineering builds the information systems that shape AI reasoning. Unlike policy adjustments, it demands architectural decisions: how knowledge is structured, how AI connects to data, how a learner's progress is represented. These choices create long-term commitments rather than reversible guidelines.
+Context engineering builds the information systems that shape AI reasoning. Unlike policy adjustments, it demands architectural decisions: how information is structured, how AI connects to data, how a learner's progress is represented. These choices create long-term commitments rather than reversible guidelines.
 
 ## What context engineering is
 
-Context engineering builds dynamic systems that provide language models with the information and structure needed for effective reasoning (Rowe, 2026). It is about systems, not better prompts; it focuses on designing the information environment.
+Context engineering builds dynamic systems that provide language models with the information and structure needed for effective reasoning (Rowe, 2026). It is about systems, not better prompts.
 
 A prompt is an instruction. Context is everything else: background knowledge, tools, persistent memory, and the data shaping reasoning. [[Prompt engineering]] prioritises the instruction; context engineering prioritises the environment.
 

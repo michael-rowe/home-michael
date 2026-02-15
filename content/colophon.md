@@ -4,6 +4,10 @@ description: How this site is built, designed, and maintained.
 enableToc: false
 ---
 
+## The name
+
+`/home/michael` is a path in the Linux filesystem — the home directory for a user named michael. It's a small declaration of where I live on a computer, repurposed as a site name. It reflects an unashamed love of technology and the belief that the tools we use shape how we think. It's also deliberately personal: not a brand, not a project name, just a location.
+
 ## How this site is made
 
 This site is built with [Quartz](https://quartz.jzhao.xyz/), a static site generator created by [Jacky Zhao](https://jzhao.xyz/) for publishing digital gardens and interconnected notes.
