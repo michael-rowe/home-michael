@@ -212,7 +212,7 @@ status: draft
 ---
 
 > [!info] Project Status
-> This site was launched just over two months ago as a home for **Emergent Scholarship**. Since then, it has been under aggressive development—not just in terms of the content being published, but in the evolution of the site's architecture and the frameworks that support it. This update captures the significant velocity of the past 30 days.
+> This site was launched just over two months ago as a home for **/home/michael**. Since then, it has been under aggressive development—not just in terms of the content being published, but in the evolution of the site's architecture and the frameworks that support it. This update captures the significant velocity of the past 30 days.
 
 > [!tip] Subscriber Context
 > [Write 1-2 paragraphs here about the 'Why' behind this month's work.]

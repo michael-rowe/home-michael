@@ -1,5 +1,5 @@
 ---
-title: Emergent Scholarship
+title: /home/michael
 ---
 What does it mean to do scholarly work when the tools, contexts, and expectations keep shifting? This is where I work through that question — in essays, posts, and courses, at the intersection of AI and health professions education.
 

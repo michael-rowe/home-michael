@@ -1,4 +1,4 @@
-# Emergent Scholarship
+# /home/michael
 
 > A framework for getting better at getting better
 

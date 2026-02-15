@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this site is
 
-This is the home of **Emergent Scholarship** - a framework for the entire knowledge creation pipeline: from identifying problems worth solving, to learning systematically, to sharing what you've learned in ways that matter.
+This is ***/home/michael*** — a framework for the entire knowledge creation pipeline: from identifying problems worth solving, to learning systematically, to sharing what you've learned in ways that matter. (The site was formerly called Emergent Scholarship.)
 
 It's not just about publishing differently. It's about working differently as someone who creates and shares knowledge. The framework helps users get better at getting better.
 
@@ -433,14 +433,31 @@ Read personas/[name].md and apply it to [target]
 ```
 
 Available personas:
-- `SEO_optimiser.md` — keyphrase strategy, meta-descriptions, slug optimisation
 - `writing_style.md` — generates new content in site voice
-- `copy_editor.md` — British English, sentence-level prose editing
-- `accessibility_reviewer.md` — WCAG 2.1 AA compliance
-- `content_strategist.md` — information architecture, content gaps
+- `essay_writer.md` — academic essay structure, methodology, positionality
+- `blog_writer.md` — blog post structure, narrative velocity, signal-to-noise
+- `note_writer.md` — concept note structure, definition clarity, retrieval fitness
+- `copy_editor.md` — British English, sentence-level prose editing, cross-section coherence
+- `SEO_optimiser.md` — keyphrase strategy, meta-descriptions, slug optimisation
+- `course_designer.md` — learning design, lesson and course structure
 - `newsletter_editor.md` — email-specific editorial review
-- `course_designer.md` — learning design, lesson structure
+- `web_designer.md` — minimalist layout, visual hierarchy, cognitive load
+- `accessibility_reviewer.md` — WCAG 2.1 AA compliance (periodic site-level review)
+- `content_strategist.md` — information architecture, content gaps (periodic site-level review)
 - `taxonomy.md` — approved categories and tags (controlled vocabulary reference, not a reviewer persona)
+- `content-review-queue.md` — tracks persona review pipeline across all content
+
+### Content review order
+
+When working through the persona review pipeline across the site, process content in this order:
+
+1. **Blog posts** (`content/Posts/`) — shorter, faster to sense-check; good for iterating on the instruction set
+2. **Essays** (`content/Essays/`) — longer and more complex; review after the workflow is stable
+3. **Lessons** (`content/Courses/`) — course materials last
+
+### Editorial principle for persona reviews
+
+Treat every piece as a solid starting point. Persona reviews are refinements — structural fine-tuning, sentence-level editing, template compliance — not rewrites. Preserve the author's framing, examples, and voice unless there is a clear reason to change them. The bar for changing a sentence is "this is unclear or incorrect", not "I could write this differently".
 
 ## Component conventions
 

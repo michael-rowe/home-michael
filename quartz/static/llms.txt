@@ -1,4 +1,4 @@
-# Emergent Scholarship
+# /home/michael
 
 > A framework for the entire knowledge creation pipeline: from identifying problems worth solving, to learning systematically, to sharing what you've learned in ways that matter.
 
@@ -34,7 +34,7 @@ Health professions educators and those involved in developing practitioners at a
 ## Licence and attribution
 
 Content is shared openly. Attribution appreciated. Academic citation format:
-Rowe, M. (2026). [Title]. Emergent Scholarship. https://michael-rowe.github.io/emergent-scholarship/
+Rowe, M. (2026). [Title]. /home/michael. https://michael-rowe.github.io/emergent-scholarship/
 
 ## Contact
 

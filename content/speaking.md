@@ -15,8 +15,8 @@ If you're interested in having me speak at your event, run a workshop, or facili
 </div>
 <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
 <input type="hidden" name="access_key" value="98885db0-631f-4540-8f05-97902fa66a38" />
-<input type="hidden" name="subject" value="Speaking Inquiry from Emergent Scholarship" />
-<input type="hidden" name="from_name" value="Emergent Scholarship" />
+<input type="hidden" name="subject" value="Speaking Inquiry from /home/michael" />
+<input type="hidden" name="from_name" value="/home/michael" />
 <div class="form-group-container">
 <div class="form-group">
 <label for="name" class="form-label">Name</label>

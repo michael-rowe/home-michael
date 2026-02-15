@@ -69,7 +69,7 @@ Version numbers appear in the frontmatter of each essay and are visible in the "
 
 Content on this site is shared openly for non-commercial use with attribution. Academic citation format:
 
-> Rowe, M. (2026). [Title]. *Emergent Scholarship*. https://michael-rowe.github.io/emergent-scholarship/
+> Rowe, M. (2026). [Title]. */home/michael*. https://michael-rowe.github.io/emergent-scholarship/
 
 For other uses, [[contact|get in touch]].
 
