@@ -17,7 +17,7 @@ category:
 related:
   - "[[taste-and-judgement]]"
   - "[[ai-hpe-theoretical-framework]]"
-  - "[[2026-02-11-building-AI-collaboration-workflow]]"
+  - "[[2026-02-11-building-AI-workflow-academics]]"
 draft: false
 slug: posts/ai-thinking-partner
 reviewed:
@@ -96,7 +96,7 @@ The prior beliefs reframing, the decision to drop the acronym, and the distincti
 
 ## From architecture to argument
 
-In an [[2026-02-11-building-AI-collaboration-workflow|earlier post]] I described the architecture layer of AI collaboration; building structured documentation to make AI-supported workflows more effective. That work follows a try-evaluate-lock cycle where the human contribution is taste and [[taste-and-judgement|evaluative judgement]] about whether the output matches a vision.
+In an earlier post I described the [[2026-02-11-building-AI-workflow-academics|architecture layer of AI collaboration]]; building structured documentation to make AI-supported workflows more effective. That work follows a try-evaluate-lock cycle where the human contribution is taste and [[taste-and-judgement|evaluative judgement]] about whether the output matches a vision.
 
 The experience I'm describing here operates at a different level. The question isn't "does this output match my vision?" but "is my vision sound?" When your analytical positions are challenged—when a partner points out that your methodology cannot survive the scrutiny you are claiming for it—the judgement required isn't whether the output is right. It is whether *you* are right.
 

@@ -24,7 +24,7 @@ related:
   - "[[context sovereignty]]"
   - "[[context engineering]]"
   - "[[prompt engineering]]"
-  - "[[model-context-protocol]]"
+  - "[[model context protocol]]"
 draft: false
 slug: posts/context-engineering-for-educators
 enableToc: true
@@ -85,7 +85,7 @@ Finally, clinical practice involves values. Decisions are shaped by evidence, pa
 
 ## What structural commitment looks like
 
-The gap between discursive and structural responses is the difference between changing words and changing infrastructure. A discursive response adds a line to an [[assessment]] policy; a structural response redesigns the assessment so that reasoning and judgement cannot be produced by AI alone. In this model, AI collaboration becomes a feature of the task rather than a threat.
+The gap between discursive and structural responses is the difference between changing words and changing infrastructure. A discursive response adds a line to an assessment policy; a structural response redesigns the assessment so that reasoning and judgement cannot be produced by AI alone. In this model, AI collaboration becomes a feature of the task rather than a threat.
 
 Similarly, a discursive response runs a workshop on prompt engineering. A structural response invests in the architecture that determines what AI can access and how learner context persists, then builds faculty capability to work within that system.
 

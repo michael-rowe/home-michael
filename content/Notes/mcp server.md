@@ -1,14 +1,11 @@
 ---
 title: MCP server
-description: >-
-  A lightweight programme that exposes specific data sources or capabilities
-  through the Model Context Protocol standard, acting as an adapter between AI
-  systems and diverse data sources.
+description: A lightweight programme that exposes specific data sources or capabilities through the Model Context Protocol standard, acting as an adapter between AI systems and diverse data sources.
 aliases:
   - Model Context Protocol server
   - context server
 type: note
-author: '[[Michael Rowe]]'
+author: "[[Michael Rowe]]"
 created: 2026-02-05
 updated: 2026-02-05
 needs_review: false
@@ -17,16 +14,16 @@ tags:
   - context-engineering
 category: AI and technology
 related:
-  - '[[context engineering]]'
-  - '[[context sovereignty]]'
-  - '[[contextual interoperability]]'
-  - '[[model-context-protocol]]'
+  - "[[context engineering]]"
+  - "[[context sovereignty]]"
+  - "[[contextual interoperability]]"
+  - "[[model context protocol]]"
 builds_on:
-  - '[[model-context-protocol]]'
-leads_to: null
-contradicts: null
-source: ''
-source_url: ''
+  - "[[model context protocol]]"
+leads_to:
+contradicts:
+source: ""
+source_url: ""
 ---
 
 > [!info] The adapter pattern for AI

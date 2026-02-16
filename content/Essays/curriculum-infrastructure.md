@@ -32,7 +32,7 @@ doi: ""
 related:
   - "[[Essays/documentation-as-infrastructure]]"
   - "[[Essays/context-sovereignty]]"
-  - "[[Notes/model-context-protocol]]"
+  - "[[model context protocol]]"
   - "[[Notes/higher-education-reference-model]]"
   - "[[Notes/AI-forward]]"
 draft: false

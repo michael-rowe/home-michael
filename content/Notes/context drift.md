@@ -21,7 +21,7 @@ related:
   - "[[tokens are a type of text compression used in LLMs]]"
   - "[[context engineering]]"
   - "[[context sovereignty]]"
-  - "[[model-context-protocol]]"
+  - "[[model context protocol]]"
 keyphrase: LLM context drift
 slug: notes/llm-context-drift
 ---

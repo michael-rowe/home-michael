@@ -76,26 +76,39 @@ Brief description of the talk.
 [Event link](#) · [Register](#)
 -->
 
-### Beyond document management: Graph infrastructure for professional education curricula
-**Advance HE AI symposium** | Online | 10 February 2026
-
-We propose a three-layer architecture using graph databases as the source of truth for curriculum structure, supported by vector databases for content retrieval and the Model Context Protocol for stakeholder interfaces. This approach makes curriculum structure explicitly queryable while preserving essential pedagogical mediation.
-
 ### AI in nursing education: Benefits, opportunities and challenges
 **Royal College of Nursing Education Conference** | Exeter | 15 April 2026
 
 *Session in development*
+
+### Keynote: Beyond the dataset — engaging people, powering change
+**Physiotherapy Research Society Annual Conference** | Hatfield | 24 April 2026
+
+*Keynote in development*
 
 ### Context sovereignty: Building human-AI coalitions in physiotherapy
 **Association of Trauma and Orthopaedic Chartered Physiotherapists conference** | London | 24 September 2026
 
 As AI systems become more capable at diagnosis, empathy, and clinical reasoning, practitioners who control their context more effectively will also control the meaning of their AI interactions. The therapeutic relationship will transform into negotiation between patient-AI and clinician-AI coalitions, requiring ongoing work to bring context to practice.
 
+### AI masterclass for private practice clinicians
+**Canadian Physiotherapy Association — Private Practice Education Committee** | Online | 24 October 2026
+
+*Workshop in development* — A practical workshop for private practice clinicians across physiotherapy, occupational therapy, and allied health on using AI tools for clinical communication, professional content creation, and business tasks, alongside ethical and safe AI use.
+
+### AI in nursing education (webinar series)
+**Global Research Nursing Education Network** | Online | TBD
+
+*Session in development* — An invited webinar or workshop for GRNEN's international network of nursing educators on AI literacy, AI in clinical nursing education, and navigating international regulatory considerations.
+
 ---
 
 ## Past talks (selected)
 
-*Coming soon — I'm compiling highlights from previous presentations.*
+### Beyond document management: Graph infrastructure for professional education curricula
+**Advance HE AI symposium** | Online | 10 February 2026
+
+We propose a three-layer architecture using graph databases as the source of truth for curriculum structure, supported by vector databases for content retrieval and the Model Context Protocol for stakeholder interfaces. This approach makes curriculum structure explicitly queryable while preserving essential pedagogical mediation.
 
 <!--
 Example format for past talks:

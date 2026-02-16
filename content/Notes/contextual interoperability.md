@@ -40,7 +40,7 @@ In traditional systems, AI treats your notes as disconnected chunks of text. Con
 - **[[Notes/context sovereignty|Context sovereignty]]:** Structured context can be shared temporarily with AI models, allowing them to reason within your framework without requiring you to hand over your entire intellectual history.
 
 ### Strategic significance
-Contextual interoperability is the bridge between personal knowledge management and effective AI collaboration. It requires making the implicit relationships in our work explicit through tools like [[Notes/knowledge graph|knowledge graphs]] and [[Notes/model-context-protocol|MCP]]. By designing our documentation as "machine-readable meaning," we create the infrastructure necessary for AI to act as a genuine partner in scholarship rather than just a sophisticated search tool.
+Contextual interoperability is the bridge between personal knowledge management and effective AI collaboration. It requires making the implicit relationships in our work explicit through tools like [[Notes/knowledge graph|knowledge graphs]] and [[model context protocol|MCP]]. By designing our documentation as "machine-readable meaning," we create the infrastructure necessary for AI to act as a genuine partner in scholarship rather than just a sophisticated search tool.
 
 ---
 

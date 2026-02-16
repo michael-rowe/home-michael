@@ -1,13 +1,11 @@
 ---
 title: System prompt
-description: >-
-  Persistent context included in every message to an AI model, establishing
-  consistent behaviour, knowledge, or constraints across interactions.
+description: Persistent context included in every message to an AI model, establishing consistent behaviour, knowledge, or constraints across interactions.
 aliases:
   - system message
   - persistent context
 type: note
-author: '[[Michael Rowe]]'
+author: "[[Michael Rowe]]"
 created: 2026-02-05
 updated: 2026-02-05
 needs_review: false
@@ -17,15 +15,15 @@ tags:
   - context
 category: AI and technology
 related:
-  - '[[prompt engineering]]'
-  - '[[context engineering]]'
-  - '[[model-context-protocol]]'
+  - "[[prompt engineering]]"
+  - "[[context engineering]]"
+  - "[[model context protocol]]"
 builds_on:
-  - '[[prompt engineering]]'
-leads_to: null
-contradicts: null
-source: ''
-source_url: ''
+  - "[[prompt engineering]]"
+leads_to:
+contradicts:
+source: ""
+source_url: ""
 ---
 
 > [!info] The invisible context

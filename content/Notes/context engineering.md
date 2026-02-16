@@ -21,7 +21,7 @@ related:
   - "[[graphRAG]]"
   - "[[multi-hop reasoning]]"
   - "[[retrieval augmented generation]]"
-  - "[[model-context-protocol]]"
+  - "[[model context protocol]]"
 builds_on:
   - "[[prompt engineering]]"
 leads_to:

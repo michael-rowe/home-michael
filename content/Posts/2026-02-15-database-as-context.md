@@ -27,7 +27,7 @@ I've been using [[Claude code|Claude Code]] to read files on my computer for a c
 
 Then I realised something that should have been obvious: it can read *any* file I have access to. Including databases.
 
-Specifically, it can read my Zotero library. Not just the PDFs I've collected over the years, but the database file itself—zotero.sqlite. The entire structure: metadata, tags, collections, notes, reading dates. Fifteen years of research decisions encoded in queryable form.
+Specifically, it can read my Zotero library. Not just the PDFs I've collected over the years, but the database file itself, at `zotero.sqlite`. The entire structure: metadata, tags, collections, notes, reading dates. Fifteen years of research decisions encoded in queryable form.
 
 It changes what's possible. It also creates problems I hadn't anticipated.
 
@@ -54,7 +54,7 @@ But the fundamental capability works. The database was always there on my filesy
 
 Zotero is one database. An academic's computer typically contains several more, each recording a different dimension of intellectual work.
 
-Browser history lives in places.sqlite if you use Firefox. Every search query, every reading sequence, every rabbit hole you've gone down. The messy, non-linear process of discovery that precedes the cleaned-up citations in your final paper.
+Browser history lives in `places.sqlite` if you use Firefox. Every search query, every reading sequence, every rabbit hole you've gone down. The messy, non-linear process of discovery that precedes the cleaned-up citations in your final paper.
 
 Email archives, if you use Thunderbird, are stored locally in SQLite format. Institutional communications, collaboration threads, decision trails. The social and administrative infrastructure through which research actually gets done.
 

@@ -17,10 +17,10 @@ tags:
 category: Technology
 related:
   - "[[Notes/large language models]]"
-  - "[[Notes/model-context-protocol]]"
+  - "[[model context protocol]]"
   - "[[Notes/system prompt]]"
   - "[[Notes/mcp server]]"
-keyphrase: "AI agents for curriculum management"
+keyphrase: AI agents for curriculum management
 slug: notes/claude-code
 ---
 
@@ -39,7 +39,7 @@ Unlike a standard web-based interface where a user must manually provide context
 - **Verification and "Tests":** In software development, we use "tests" to verify that code works as intended. In a curriculum context, Claude code can run similar checks—verifying that every learning outcome is mapped to a competency or that no internal links are broken—acting as an automated layer of quality assurance.
 
 ### The Agentic Shift
-Claude code exemplifies the shift toward [[Notes/model-context-protocol|MCP]]-enabled agents that can interact with institutional data. It requires the user to move from being a "writer" to being a "director" or "reviewer." The challenge for the educator is developing the **evaluative judgement** necessary to oversee an agent that can make hundreds of changes to a digital workspace in seconds, ensuring that the agent's actions align with the overarching pedagogical goals.
+Claude code exemplifies the shift toward [[model context protocol|MCP]]-enabled agents that can interact with institutional data. It requires the user to move from being a "writer" to being a "director" or "reviewer." The challenge for the educator is developing the **evaluative judgement** necessary to oversee an agent that can make hundreds of changes to a digital workspace in seconds, ensuring that the agent's actions align with the overarching pedagogical goals.
 
 ---
 
