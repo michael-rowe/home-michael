@@ -37,11 +37,10 @@ What this looks like in practice is deceptively simple. I'm working on a draft s
 
 In Claude Code, that means referencing the database file directly alongside your draft:
 
-```
-The Zotero database is at ~/Zotero/zotero.sqlite — treat it as read-only.
-Here is a draft paragraph: [paste text].
-Query the database for the most relevant items and return titles, authors, and any notes I've added.
-```
+> [!prompt] Prompt
+> The Zotero database is at ~/Zotero/zotero.sqlite — treat it as read-only.
+> Here is a draft paragraph: [paste text].
+> Query the database for the most relevant items and return titles, authors, and any notes I've added.
 
 Claude constructs the SQL queries needed to navigate the schema; you don't write them yourself.
 
