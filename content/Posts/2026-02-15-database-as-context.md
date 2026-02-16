@@ -35,6 +35,16 @@ It changes what's possible. It also creates problems I hadn't anticipated.
 
 What this looks like in practice is deceptively simple. I'm working on a draft section about assessment design. Instead of manually searching my Zotero library, selecting relevant papers, and then asking Claude to read those specific PDFs, I can prompt: "Read this draft section. Query my Zotero database to identify the most likely supporting evidence aligned with the claims I'm making."
 
+In Claude Code, that means referencing the database file directly alongside your draft:
+
+```
+The Zotero database is at ~/Zotero/zotero.sqlite — treat it as read-only.
+Here is a draft paragraph: [paste text].
+Query the database for the most relevant items and return titles, authors, and any notes I've added.
+```
+
+Claude constructs the SQL queries needed to navigate the schema; you don't write them yourself.
+
 The agent queries the entire bibliography at once. It knows what I have, when I acquired it, how I tagged it, what collections I grouped it into. The [[context engineering|context window]] expands from individual documents to the entire research infrastructure.
 
 There are technical requirements that make this more involved than it sounds. The access must be read-only—writing to databases carries real corruption risk, and there's no scenario where an AI agent should be modifying your reference library directly. You need some understanding of the database schema, which Zotero doesn't document for end users. The agent needs to construct valid SQL queries, which means [[prompt engineering|prompt design]] matters more than it does for simple file reading.
