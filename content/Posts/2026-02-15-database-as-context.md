@@ -20,8 +20,6 @@ draft: false
 slug: posts/claude-code-zotero-database
 ---
 
-# The database as context: what I learned when Claude Code read my Zotero library
-
 > [!info] The database was always there
 > The most valuable data for AI-assisted research isn't in the cloud—it's already on your filesystem, encoded in the databases you've been managing for years. Querying your Zotero library directly shifts the context available to an AI agent from individual documents to your entire research history. Access is the easy part; what breaks immediately reveals how much your metadata practices actually matter.
 
