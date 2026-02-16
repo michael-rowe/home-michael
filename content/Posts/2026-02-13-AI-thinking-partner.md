@@ -2,13 +2,13 @@
 title: "The quality of the challenge: AI as a thinking partner"
 type: post
 description: Most discussions of AI in writing focus on output. This post describes a different experience—using AI as a thinking partner to challenge my choices and claims during a writing session.
-meta-description: What using AI as a thinking partner looks like when the collaboration is intellectual rather than operational; thinking through arguments, not just producing text.
+meta-description: What using AI as a thinking partner looks like when the collaboration is intellectual rather than operational.
 keyphrase: AI thinking partner
 author: "[[Michael Rowe]]"
 date: 2026-02-13
 updated: 2026-02-14
 tags:
-  - AI-integration
+  - ai-integration
   - academic-writing
   - emergent-scholarship
   - evaluative-judgement
@@ -20,25 +20,29 @@ related:
   - "[[2026-02-11-building-AI-collaboration-workflow]]"
 draft: false
 slug: posts/ai-thinking-partner
+reviewed:
+  - writing_style
+  - blog_writer
+  - copy_editor
+  - SEO_optimiser
 enableToc: true
 ---
 
-> [!info] The most valuable AI contribution was the quality of the challenge
-> The most valuable thing AI did during this writing process wasn't producing text. It was asking questions I hadn't thought to ask myself, and being wrong in ways that clarified what I actually meant. Using AI as a thinking partner isn't about getting it to agree with you; it's about exploring disagreement and tension in productive ways.
+> [!info] The most valuable AI contribution is the quality of the challenge
+> The most valuable thing AI did during this writing process wasn't producing text. It was asking questions I hadn't thought to ask myself, and being wrong in ways that forced me to clarify what I actually meant. Using AI as a thinking partner isn't about getting it to agree with you; it's about exploring disagreement and tension in productive ways.
 
 Most discussions of AI in writing focus on output. Can it draft a paragraph? Summarise a paper? Generate a first version? These are reasonable questions, but they leave a harder problem untouched.
 
 The harder problem is the thinking that precedes writing — and particularly the blind spots that accumulate when you've worked on something long enough to stop seeing it clearly. Over the past year, I've been revising a [[ai-hpe-theoretical-framework|theoretical framework for integrating AI into health professions education]], drawing on four learning theories and a structured conceptual analysis. I had an [early preprint](https://osf.io/preprints/osf/c764f_v1) but knew it needed serious revision before journal submission. The problem was I could no longer see its weaknesses.
 
-This post describes what happened when I used Claude to address that problem — not to produce text, but to challenge positions, surface contradictions, and push the argument further than I could reach alone. What followed wasn't a writing exercise. It was a thinking exercise, and it changed the paper in ways I hadn't anticipated.
+This post describes what happened when I used Claude as an AI thinking partner to address that problem — not to produce text, but to challenge positions, surface contradictions, and push the argument further than I could reach alone. What followed wasn't a writing exercise. It was a thinking exercise, and it changed the paper in ways I hadn't anticipated.
 
 ## Why critique matters more than generation
 
 I started by asking Claude for an honest assessment of the draft using a fairly basic prompt. It responded as a good colleague would: pinpointing what worked and what didn't with enough specificity to be useful.
 
-
 > [!prompt] Prompt
-> I've uploaded a draft article that I'd like to get ready for submitting for publication. I want you to analyse the draft and let me know your thoughts. We might want to split the analysis into two; 1) the paper itself and it's premise, and 2) the data analysis where the data are the learning theories.
+> I've uploaded a draft article that I'd like to get ready for submitting for publication. I want you to analyse the draft and let me know your thoughts. We might want to split the analysis into two; 1) the paper itself and its premise, and 2) the data analysis where the data are the learning theories.
 
 Some of the feedback confirmed existing suspicions. The methodology section claimed to be "thematic synthesis" when it was actually a structured conceptual analysis (a distinction that would matter for peer review). The theoretical foundations were thorough but too long for the work they were doing; an academic audience doesn't need extended summaries of Vygotsky or Freire.
 
@@ -53,7 +57,7 @@ This felt uncomfortable because it was obviously true. I had been talked into th
 
 The most productive exchange addressed a quiet concern: what I'd described to Claude as the problem of prior beliefs. The paper analyses four learning theories to identify themes, which then become design principles. But over my fifteen years of experience teaching and researching technology in professional education, I'd developed a strong sense of what "good" technology-enhanced education looks like. I was worried that I'd simply driven the results toward conclusions I had already reached.
 
-When I raised this, Claude reframed it. What I was describing wasn't a methodological flaw but *[theoretical sensitivity](https://pubmed.ncbi.nlm.nih.gov/39262150/)*, a concept from grounded theory. Deep domain knowledge is what enables a researcher to recognise meaningful patterns rather than superficial ones and is a *[feature, not a bug](https://en.wikipedia.org/wiki/Bug_(engineering)#%22It's_not_a_bug,_it's_a_feature%22)*. It's only a problem if you pretend the analysis was purely inductive when it was actually shaped by informed judgement. The solution wasn't to hide my prior beliefs or pretend they didn't exist, but to own them through a positionality statement (excerpt below) that acknowledges my personal commitments, explains how they shaped the analysis, and lets the reader evaluate accordingly.
+When I raised this, Claude reframed it. What I was describing wasn't a methodological flaw but *[theoretical sensitivity](https://pubmed.ncbi.nlm.nih.gov/39262150/)*, a concept from grounded theory. Deep domain knowledge enables a researcher to recognise meaningful patterns rather than superficial ones, and it is a *[feature, not a bug](https://en.wikipedia.org/wiki/Bug_(engineering)#%22It's_not_a_bug,_it's_a_feature%22)*. It's only a problem if you pretend the analysis was purely inductive when it was actually shaped by informed judgement. The solution wasn't to hide my prior beliefs or pretend they didn't exist, but to own them through a positionality statement (excerpt below) that acknowledges my personal commitments, explains how they shaped the analysis, and lets the reader evaluate accordingly.
 
 > I should be direct about what I brought to this analysis. Fifteen years of teaching and researching the use of technology in professional education has left me with commitments about what effective technology-enhanced learning looks like. In qualitative research terms, this is theoretical sensitivity (Glaser & Strauss, 1967) — the capacity to recognise meaningful patterns because you have deep domain knowledge.
 
@@ -80,7 +84,7 @@ After the structural revisions, I asked Claude to apply my writing style persona
 
 Reading the output, I wasn't asking "is this correct?" but "does this sound like me?" — and, more precisely, "does this say what I mean?" Some transformations landed immediately. The abstract's opening, reframed to lead with the problem AI has exposed rather than a methodological summary, felt right. And the positionality statement's directness captured what I had been trying to say, only more clearly.
 
-Other moves required adjustment. The voice persona emphasises analytical commitment — my tendency to locate general patterns in specific instances. In places, Claude had pushed that commitment too far, taking positions more starkly than the evidence warranted. These moments were informative and showed me the line between confident directness and the overreach I needed to avoid. The back-and-forth also refined the various personas and other [[documentation-as-infrastructure|structured documentation]] I'm building. That Claude could overreach without embarrassment points to something important about why this kind of collaboration works at all.
+Other moves required adjustment. The voice persona emphasises analytical commitment — my tendency to locate general patterns in specific instances. In places, Claude had pushed that commitment too far, taking positions more starkly than the evidence warranted. These moments showed me exactly where confident directness tips into overreach. The back-and-forth also refined the various personas and other [[documentation-as-infrastructure|structured documentation]] I'm building. That Claude could overreach without embarrassment points to something important about why this kind of collaboration works at all.
 
 ## Why the asymmetry matters
 
