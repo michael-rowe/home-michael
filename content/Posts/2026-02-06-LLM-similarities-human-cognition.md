@@ -1,11 +1,10 @@
 ---
-title: 'AI and human cognition: What if we''re the language models?'
+title: 'Similarities between AI and human thinking: What if we''re the language models?'
 type: post
-aliases: null
 description: >-
   The discourse around AI and human cognition tends to focus on differences, but
   what happens when we invert the question and use LLM terminology to explore
-  similarities? This post examines parallels between AI cognitive architecture
+  the similarities between AI and human thinking? This post examines parallels between AI cognitive architecture
   and human thinking—context windows, training data bias, tokenisation,
   temperature, hallucination, and pattern matching—not to claim that humans are
   language models, but to ask what these similarities reveal about our own
@@ -13,7 +12,7 @@ description: >-
 meta-description: >-
   What LLM terminology reveals about human cognition, and why we resist
   acknowledging the extensive similarities between AI and human thinking.
-keyphrase: AI human cognition
+keyphrase: similarities between AI and human thinking
 author: '[[Michael Rowe]]'
 date: 2026-02-06
 updated: 2026-02-06
@@ -21,7 +20,7 @@ tags:
   - cognitive-science
   - human-cognition
   - professional-identity
-  - AI-integration
+  - ai-integration
 category:
   - AI and technology
 related:
@@ -29,19 +28,26 @@ related:
   - '[[context engineering]]'
   - '[[large language models]]'
 draft: false
-slug: posts/ai-human-cognition-similarities
+slug: posts/similarities-ai-human-thinking
+aliases:
+  - posts/ai-human-cognition-similarities
 enableToc: true
+reviewed:
+  - writing_style
+  - blog_writer
+  - copy_editor
+  - SEO_optimiser
 ---
 > [!info] The mirror we resist
-> The parallels between LLM cognition and human thinking are more extensive than we'd like to admit and the strength of our denials might tell us more about human psychology than any technical specification ever could.
+> The parallels between LLM cognition and human thinking are more extensive than we'd like to admit, and the strength of our denials might tell us more about human psychology than any technical specification ever could.
 
-The discourse around AI and human cognition seems to have settled into a familiar pattern. Academics, technologists, and knowledge workers are quick to explain why LLMs are fundamentally different from human thinking. "[They don't really learn](https://theconversation.com/ai-doesnt-really-learn-and-knowing-why-will-help-you-use-it-more-responsibly-250923)," we insist. Or, "They [don't understand the world](https://news.harvard.edu/gazette/story/2025/07/does-ai-understand/)." "It's all statistical correlation without reasoning." The subtext is clear: whatever these systems are doing, it's categorically different from what happens in human minds.
+The discourse around AI and human cognition seems to have settled into a familiar pattern. Academics, technologists, and knowledge workers are quick to explain why [[large language models|LLMs]] are fundamentally different from human thinking. "[They don't really learn](https://theconversation.com/ai-doesnt-really-learn-and-knowing-why-will-help-you-use-it-more-responsibly-250923)," we insist. Or, "They [don't understand the world](https://news.harvard.edu/gazette/story/2025/07/does-ai-understand/)." "It's all statistical correlation without reasoning." The subtext is clear: whatever these systems are doing, it's categorically different from what happens in human minds.
 
-The aim of this post isn't to disprove the assertion that LLMs don't think or learn like we do. It also isn't an attempt to say the differences don't matter. What I want to do here instead is invert the question. Instead of describing all the ways that LLMs fail to measure up to human cognition, what if we used LLM terminology to explore their [[human cognition and LLM parallels|similarities to human thinking]]? Not to claim that humans are literally language models, but to explore what the similarities might reveal about our own cognitive architecture, and why we're so invested in denying them.
+This post isn't concerned with disproving that claim, or with denying that the differences matter. What I want to do instead is invert the question. Instead of describing all the ways that LLMs fail to measure up to human cognition, what if we used LLM terminology to explore the [[human cognition and LLM parallels|similarities between AI and human thinking]]? Not to claim that humans are literally language models, but to explore what the similarities might reveal about our own cognitive architecture, and why we're so invested in denying them.
 
 ## Context windows and the limits of working memory
 
-LLMs have context windows; a finite amount of text they can attend to when generating responses. Extend the conversation too long and they lose track of earlier content, prioritising recent information over older context.
+LLMs have context windows — a finite amount of text they can attend to when generating responses. Extend the conversation too long and they lose track of earlier content, prioritising recent information over older context.
 
 Humans do this constantly. We forget earlier parts of conversations. We lose the thread in long discussions. We ask "wait, what were we talking about?" when someone circles back to a point from twenty minutes ago. This isn't a failing; it's a cognitive constraint. Working memory is severely limited. We literally run out of space to hold all the relevant context, so we compress, discard, and prioritise recent information. The experience of cognitive overload in a complex discussion maps precisely to context window limitations.
 
@@ -53,17 +59,17 @@ This also describes most human expertise. Each of us is trained on wildly non-re
 
 ## Tokenisation and the structure of expertise
 
-LLMs process language by breaking it into tokens; meaningful chunks rather than individual characters. What counts as a "chunk" shapes how efficiently the model can process information.
+LLMs process language by breaking it into tokens — meaningful chunks rather than individual characters. What counts as a "chunk" shapes how efficiently the model can process information.
 
 Humans do this too, and your expertise level changes your tokeniser. A novice piano student sees individual notes on a page; an expert sees chord progressions and phrases as single perceptual units. Chess masters famously perceive board positions as meaningful configurations rather than individual piece placements. This isn't just about pattern recognition; it's about how information gets chunked for processing.
 
-Similarly, jargon isn't just shorthand; it's literally more efficient tokenisation for domain experts. Reading "CEO" consumes less cognitive effort than processing "Chief Executive Officer" because we've compressed it into a single retrievable unit. When you encounter unfamiliar technical terminology, you're forced to process it more granularly—letter by letter or syllable by syllable—which is why jargon is genuinely harder to process for outsiders. And different domains use different tokenisers, carving up conceptual space in distinct ways.
+Similarly, jargon isn't just shorthand — it's literally more efficient tokenisation for domain experts. Reading "CEO" consumes less cognitive effort than processing "Chief Executive Officer" because we've compressed it into a single retrievable unit. When you encounter unfamiliar technical terminology, you're forced to process it more granularly — letter by letter or syllable by syllable — which is why jargon is genuinely harder to process for outsiders. And different domains use different tokenisers, carving up conceptual space in distinct ways.
 
 ## Temperature and the control of randomness
 
 LLMs have a "temperature" parameter that controls randomness in their outputs. *Low temperature* produces conservative, predictable responses, while *high temperature* introduces more variation and creativity, at the cost of occasional incoherence.
 
-Human cognition exhibits the same dynamic. People operating in high-stakes environments (e.g. exams, job interviews, or formal presentations) demonstrably reduce their cognitive "temperature." We become more conservative, more predictable, more risk-averse in our thinking and we stick to safe, well-rehearsed responses.
+Human cognition exhibits the same dynamic. People operating in high-stakes environments (e.g. exams, job interviews, or formal presentations) demonstrably reduce their cognitive "temperature." We become more conservative, more predictable, more risk-averse in our thinking, and we stick to safe, well-rehearsed responses.
 
 And more creative work requires us to increase randomness. Brainstorming sessions, experimental art, and theoretical speculation all involve consciously loosening cognitive constraints, allowing more unusual combinations and associations. We even have techniques for this: free writing, lateral thinking exercises, and deliberately looking for strange analogies. We're just manually adjusting our temperature parameter.
 
@@ -83,24 +89,21 @@ Humans have these too: cultural norms, professional conditioning, childhood soci
 
 A common critique: LLMs are "just" pattern matchers. They identify statistical regularities without genuine causal understanding, confusing correlation with causation.
 
-Humans do this constantly. Most human reasoning is post-hoc rationalisation. We arrive at conclusions through pattern matching and then construct causal stories to explain them. [Split-brain experiments](https://www.nature.com/articles/483260a) demonstrate people confidently explaining decisions they didn't consciously make. We confabulate reasons for our choices after the pattern matching has already occurred. Superstition, conspiracy theories, spurious medical beliefs, and false historical narratives, all emerge from the same pattern-matching capabilities that produce genuine insights. 
+Humans do this constantly. Most human reasoning is post-hoc rationalisation. We arrive at conclusions through pattern matching and then construct causal stories to explain them. [Split-brain experiments](https://www.nature.com/articles/483260a) demonstrate people confidently explaining decisions they didn't consciously make. We confabulate reasons for our choices after the pattern matching has already occurred. Superstition, conspiracy theories, spurious medical beliefs, and false historical narratives all emerge from the same pattern-matching capabilities that produce genuine insights.
 
- > [!quote]
- > Humans are extraordinarily good at finding patterns, and terrible at determining whether those patterns are meaningful. In fact, "reasoning" might be a post-hoc story we tell ourselves, rather than the actual mechanism of decision-making.
-
-## Why we resist AI human cognition comparisons
+## What the resistance reveals
 
 If the similarities are this extensive, why do we resist them so fiercely? Why the insistence that LLMs are fundamentally, categorically different?
 
 Three possibilities come to mind, each more uncomfortable than the last.
 
-**Maybe we don't "really understand" either.** When we insist LLMs lack true understanding, we're assuming we possess it. But if you push someone to define what understanding actually is (beyond appeals to subjective feeling or consciousness) they struggle. We can't clearly articulate the difference between our pattern matching and theirs. The understanding we claim might be another pattern we've learned to recognise, rather than a categorically different phenomenon.
+**Maybe we don't "really understand" either.** When we insist LLMs lack true understanding, we're assuming we possess it. But if you push someone to define what understanding actually is (beyond appeals to subjective feeling or consciousness), they struggle. We can't clearly articulate the difference between our pattern matching and theirs. The understanding we claim might be another pattern we've learned to recognise, rather than a categorically different phenomenon.
 
-**Maybe our expertise is less special than we thought.** If LLMs can perform cognitive work previously reserved for trained professionals (e.g. writing, analysis, synthesis, or problem-solving) what unique value do knowledge workers provide? The *resistance to AI seems to be strongest precisely among those whose professional identity depends on cognitive uniqueness*. This is why, when someone insists "AI will never replace X," I tend to hear "my professional identity requires that AI not replace X."
+**Maybe our expertise is less special than we thought.** If LLMs can perform cognitive work previously reserved for trained professionals (e.g. writing, analysis, synthesis, or problem-solving), what unique value do knowledge workers provide? The *resistance to AI seems to be strongest precisely among those whose professional identity depends on cognitive uniqueness*. This is why, when someone insists "AI will never replace X," I tend to hear "my professional identity requires that AI not replace X."
 
 **Maybe cognitive uniqueness was never a stable foundation for human moral status.** We've used our supposedly special intelligence to justify everything from environmental exploitation to the ethical treatment of other species. If intelligence isn't the clean categorical boundary we thought, the entire edifice starts to wobble.
 
-As [David Wiley has noted](https://opencontent.org/blog/archives/7788), the dismissive framing we use to diminish AI capabilities—they "just do prediction"—seems to reveal our own insecurities. For a while, people used the phrase "[stochastic parrot](https://en.wikipedia.org/wiki/Stochastic_parrot)" in the same way. What I find fascinating is that human cognition seems to operate on similar principles. We produce conventional responses in predictable contexts and we seem to be fluent pattern matchers who've internalised statistical regularities about what tends to follow what.
+As [David Wiley has noted](https://opencontent.org/blog/archives/7788), the dismissive framing we use to diminish AI capabilities — they "just do prediction" — seems to reveal our own insecurities. For a while, people used the phrase "[stochastic parrot](https://en.wikipedia.org/wiki/Stochastic_parrot)" in the same way. What I find fascinating is that human cognition seems to operate on similar principles. We produce conventional responses in predictable contexts and we seem to be fluent pattern matchers who've internalised statistical regularities about what tends to follow what.
 
 ## A familiar deflation
 
@@ -108,15 +111,11 @@ This isn't the first time human exceptionalism has been challenged. Copernicus d
 
 This LLM moment might be another step in this trajectory. Not because these systems are conscious or possess genuine intelligence in some special sense, but because they reveal that many of the capabilities we thought required consciousness or special intelligence can emerge from "mere" pattern matching and statistical correlation.
 
-
-> [!quote]
-> Maybe the similarities between language models and human cognition don't reveal that LLMs are impressively human-like. Maybe they reveal that human cognition is disappointingly machine-like.
-
 We're pattern-matching, probability-distributing, context-dependent generators of plausible outputs. We've just had millions of years to optimise the architecture and we're running on remarkably efficient biological hardware.
 
 This doesn't diminish human value unless we predicated that value entirely on cognitive uniqueness. But it does suggest we might need better foundations for what makes humans morally considerable. Relationality, perhaps. Vulnerability. The capacity to suffer. Our embeddedness in communities and ecosystems. These might be sturdier grounds than raw intelligence.
 
-For organisational leaders navigating AI integration, this matters practically. Those who can sit with the discomfort of similarity will better understand how to deploy these tools effectively, how to support people through transition, and where genuine [[taste-and-judgement|human judgement]] remains essential. Those who remain invested in trying to prove the existence of fundamental differences between humans and AI will miss strategic opportunities because they're defending professional identity rather than assessing capability.
+For anyone navigating AI integration in their institution, this matters practically. Those who can sit with the discomfort of similarity will better understand how to deploy these tools effectively, how to support people through transition, and where genuine [[taste-and-judgement|human judgement]] remains essential. Those who remain invested in trying to prove the existence of fundamental differences between humans and AI will miss strategic opportunities because they're defending professional identity rather than assessing capability.
 
 The question isn't whether AI thinks like us. The question is whether we've been thinking like AI all along. And what becomes possible when we stop defending against that recognition.
 
