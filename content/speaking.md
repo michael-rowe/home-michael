@@ -61,7 +61,7 @@ Practical applications of AI in healthcare administration, workflow optimisation
 
 More theoretical and philosophical talks exploring what AI means for the health professions. How do we understand expertise, judgement, and human contribution when machines can generate fluent text and pass medical exams? What happens to the value of experience and tacit knowledge when AI can simulate competence? These talks help audiences develop frameworks for thinking about AI at wider scales rather than just reacting to it, grounding the conversation in the history and values of the professions rather than in technology hype.
 
----
+<div class="section-break"></div>
 
 ## Upcoming talks
 
@@ -69,7 +69,7 @@ More theoretical and philosophical talks exploring what AI means for the health 
 Example format for upcoming talks:
 
 ### Talk title
-**Event name** · Location · Date
+**DD Month YYYY** · Event name — Location
 
 Brief description of the talk.
 
@@ -77,27 +77,35 @@ Brief description of the talk.
 -->
 
 ### AI in nursing education: Benefits, opportunities and challenges
-**Royal College of Nursing Education Conference** | Exeter | 15 April 2026
+**15 April 2026** · Royal College of Nursing Education Conference — Exeter
 
 *Session in development*
 
+---
+
 ### Keynote: Beyond the dataset — engaging people, powering change
-**Physiotherapy Research Society Annual Conference** | Hatfield | 24 April 2026
+**24 April 2026** · Physiotherapy Research Society Annual Conference — Hatfield
 
 *Keynote in development*
 
+---
+
 ### Context sovereignty: Building human-AI coalitions in physiotherapy
-**Association of Trauma and Orthopaedic Chartered Physiotherapists conference** | London | 24 September 2026
+**24 September 2026** · Association of Trauma and Orthopaedic Chartered Physiotherapists conference — London
 
 As AI systems become more capable at diagnosis, empathy, and clinical reasoning, practitioners who control their context more effectively will also control the meaning of their AI interactions. The therapeutic relationship will transform into negotiation between patient-AI and clinician-AI coalitions, requiring ongoing work to bring context to practice.
 
+---
+
 ### AI masterclass for private practice clinicians
-**Canadian Physiotherapy Association — Private Practice Education Committee** | Online | 24 October 2026
+**24 October 2026** · Canadian Physiotherapy Association, Private Practice Education Committee — Online
 
 *Workshop in development* — A practical workshop for private practice clinicians across physiotherapy, occupational therapy, and allied health on using AI tools for clinical communication, professional content creation, and business tasks, alongside ethical and safe AI use.
 
+---
+
 ### AI in nursing education (webinar series)
-**Global Research Nursing Education Network** | Online | TBD
+**TBD** · Global Research Nursing Education Network — Online
 
 *Session in development* — An invited webinar or workshop for GRNEN's international network of nursing educators on AI literacy, AI in clinical nursing education, and navigating international regulatory considerations.
 

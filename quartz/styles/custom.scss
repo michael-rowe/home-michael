@@ -618,6 +618,14 @@ a.course-button {
   }
 }
 
+// Section break: heavier visual separator between major page sections
+// Distinct from the 1px --lightgray hr used between individual content entries
+.section-break {
+  border: none;
+  border-top: 2px solid var(--darkgray);
+  margin: 3rem 0;
+}
+
 // Respect reduced motion preferences
 @media (prefers-reduced-motion: reduce) {
   // Disable mobile nav slide transition
