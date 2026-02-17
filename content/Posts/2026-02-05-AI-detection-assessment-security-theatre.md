@@ -1,25 +1,12 @@
 ---
-title: "AI detection in assessment: the security theatre of tripwires"
+title: "AI detection in assessment: The security theatre of prompt injection"
 type: post
 aliases:
   - Assessment security theatre
-  - AI detection tripwires
-  - ai-honeypots-assessment-security-theatre
-  - ai-tripwires-assessment-security-theatre
-description: >-
-  When educators embed hidden instructions in assessment materials to detect AI
-  use, they import adversarial security thinking into educational relationships.
-  This post examines what AI tripwires reveal about institutional
-  assumptions—that assessment is about artifact authentication rather than
-  learning measurement—and argues that this approach creates escalating
-  countermeasure dynamics while only detecting carelessness, not genuine
-  disengagement. The alternative requires rethinking what assessment is actually
-  for in an era when artifact production has become trivially automatable.
-meta-description: >-
-  AI detection in assessment creates adversarial dynamics between educators and
-  students, detecting carelessness rather than the absence of learning.
+description: When educators embed hidden instructions in assessment materials to detect AI use, they import adversarial security thinking into educational relationships. This post examines what AI tripwires reveal about institutional assumptions—that assessment is about artifact authentication rather than learning measurement—and argues that this approach creates escalating countermeasure dynamics while only detecting carelessness, not genuine disengagement. The alternative requires rethinking what assessment is actually for in an era when artifact production has become trivially automatable.
+meta-description: AI detection in assessment creates adversarial dynamics between educators and students, often detecting carelessness rather than the absence of learning.
 keyphrase: AI detection in assessment
-author: '[[Michael Rowe]]'
+author: "[[Michael Rowe]]"
 date: 2026-02-05
 updated: 2026-02-05
 tags:
@@ -32,10 +19,8 @@ category:
   - Assessment
   - AI and technology
 related:
-  - >-
-    [[2026-01-28-bitter-lesson-higher-education|The Bitter Lesson for
-    Education]]
-  - '[[arms race dynamics higher education]]'
+  - "[[2026-01-28-bitter-lesson-higher-education|The Bitter Lesson for Education]]"
+  - "[[arms race dynamics higher education]]"
 draft: false
 slug: ai-detection-assessment-security-theatre
 enableToc: true
@@ -48,7 +33,7 @@ reviewed:
 > [!info] Tripwires detect carelessness, not the absence of learning
 > AI tripwires in assessment import adversarial security thinking into educational relationships. The result is a detection arms race that wastes resources while the underlying measurement problem goes unsolved.
 
-I recently heard about an academic offence case involving AI detection in assessment: a lecturer embedded hidden instructions in the source material that students were asked to summarise. The technique exploits [[prompt injection]]—where an AI system processes text containing instructions and follows them as commands. In security terms, this makes the lecturer the attacker: deliberately embedding adversarial instructions to manipulate AI output. The hidden instructions told AI systems to include specific keywords in generated output (keywords unlikely to appear in genuine student work but not completely out of context). When those keywords appeared in a student's submission, the tripwire had been triggered: clear evidence the work was AI-generated. The student admitted the offence when confronted.
+I recently heard about an academic offence case involving AI detection in assessment: a lecturer embedded hidden instructions in the source material that students were asked to summarise. The technique exploits [[prompt injection]], where an AI system processes text containing instructions and follows them as commands. In security terms, this makes the lecturer the attacker: deliberately embedding adversarial instructions to manipulate AI output. The hidden instructions told AI systems to include specific keywords in generated output (keywords unlikely to appear in genuine student work but not completely out of context). When those keywords appeared in a student's submission, the tripwire had been triggered: clear evidence the work was AI-generated. The student admitted the offence when confronted.
 
 The technique seems clever, or even elegant. You're tired of reading submissions that sound plausibly academic but somehow miss the point entirely, or that have perfect grammar but no real engagement with the ideas. You suspect AI use but can't prove it. Detection software gives unreliable results. You're spending hours marking work you're increasingly certain wasn't produced by the student. Then someone suggests embedding a few instructions that AI will follow but humans won't notice. Finally—a way to catch what you already know is happening.
 
