@@ -24,7 +24,7 @@ const CONTENT_DIR   = 'content'
 const IGNORE_DIRS = new Set(['private', 'templates', '.obsidian', 'drafts', 'personas'])
 
 // Content types that are expected to have category/tags (skip structural pages)
-const TYPED_CONTENT = new Set(['post', 'essay', 'note', 'course', 'lesson', 'framework', 'bib'])
+const TYPED_CONTENT = new Set(['post', 'essay', 'note', 'course', 'lesson', 'framework', 'bib', 'presentation'])
 
 // ── Args ───────────────────────────────────────────────────────────────────
 
