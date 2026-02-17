@@ -23,7 +23,7 @@ status: draft
 ### Notes
 - **[[arms race dynamics higher education|Arms race dynamics in higher education]]** (2026-02-05): How arms race dynamics in higher education create adversarial relationships between institutions and students, and what drives these cycles
 - **[[contextual interoperability|Contextual interoperability]]** (2026-02-05): The capacity to make human thoughts and knowledge machine-readable while preserving their human meaning, creating a cognitive interface between human and artificial intelligence.
-- **[[intelligence-as-service|Intelligence as a service]]** (2026-02-05): A model for accessing AI capabilities while personal context remains private and under individual control, separating computational intelligence from data ownership.
+- **[[intelligence as a service|Intelligence as a service]]** (2026-02-05): A model for accessing AI capabilities while personal context remains private and under individual control, separating computational intelligence from data ownership.
 - **[[mcp server|MCP server]]** (2026-02-05): A lightweight programme that exposes specific data sources or capabilities through the Model Context Protocol standard, acting as an adapter between AI systems and diverse data sources.
 - **[[model context protocol|Model Context Protocol]]** (2026-02-05): An open standard enabling AI systems to access diverse data sources through standardised interfaces with fine-grained permission control.
 - **[[system prompt|System prompt]]** (2026-02-05): Persistent context included in every message to an AI model, establishing consistent behaviour, knowledge, or constraints across interactions.

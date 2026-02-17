@@ -1,12 +1,10 @@
 ---
 title: Model Context Protocol
-description: >-
-  An open standard enabling AI systems to access diverse data sources through
-  standardised interfaces with fine-grained permission control.
+description: An open standard enabling AI systems to access diverse data sources through standardised interfaces with fine-grained permission control.
 aliases:
   - MCP
 type: note
-author: '[[Michael Rowe]]'
+author: "[[Michael Rowe]]"
 created: 2026-02-05
 updated: 2026-02-05
 needs_review: false
@@ -16,20 +14,20 @@ tags:
   - standards
 category: AI and technology
 related:
-  - '[[context engineering]]'
-  - '[[context sovereignty]]'
-  - '[[contextual interoperability]]'
-  - '[[mcp server]]'
-  - '[[intelligence-as-service]]'
+  - "[[context engineering]]"
+  - "[[context sovereignty]]"
+  - "[[contextual interoperability]]"
+  - "[[mcp server]]"
+  - "[[intelligence as a service]]"
 builds_on:
-  - '[[prompt engineering]]'
-  - '[[retrieval augmented generation]]'
+  - "[[prompt engineering]]"
+  - "[[retrieval augmented generation]]"
 leads_to:
-  - '[[context sovereignty]]'
-  - '[[MCP server]]'
-contradicts: null
-source: ''
-source_url: 'https://modelcontextprotocol.io'
+  - "[[context sovereignty]]"
+  - "[[MCP server]]"
+contradicts:
+source: ""
+source_url: https://modelcontextprotocol.io
 ---
 
 > [!info] Universal connector, not universal solution
@@ -89,7 +87,7 @@ MCP provides technical infrastructure supporting [[context sovereignty]]—the f
 
 Rather than uploading all context to AI providers, MCP enables temporary, controlled access. Your data stays in your systems (exposed through MCP servers), AI accesses it only as needed (through MCP clients), and you control permissions (through the host application).
 
-This supports [[intelligence-as-service|intelligence as a service]]—accessing AI capabilities without surrendering context ownership. MCP separates where intelligence lives from where your data lives, enabling the architectural separation that makes context sovereignty practical.
+This supports [[intelligence as a service|intelligence as a service]]—accessing AI capabilities without surrendering context ownership. MCP separates where intelligence lives from where your data lives, enabling the architectural separation that makes context sovereignty practical.
 
 ## Critical perspectives
 

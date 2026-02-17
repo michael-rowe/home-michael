@@ -19,7 +19,7 @@ related:
   - "[[context sovereignty]]"
   - "[[knowledge graph]]"
   - "[[context engineering]]"
-  - "[[intelligence-as-service]]"
+  - "[[intelligence as a service]]"
   - "[[2026-02-12-contextual-interoperability-AI-scholarship]]"
 keyphrase: making thinking machine-readable
 slug: notes/contextual-interoperability

@@ -17,12 +17,12 @@ category: AI and technology
 related:
   - "[[context engineering]]"
   - "[[contextual interoperability]]"
-  - "[[intelligence-as-service]]"
+  - "[[intelligence as a service]]"
 builds_on:
   - "[[context engineering]]"
 leads_to:
   - "[[contextual interoperability]]"
-  - "[[intelligence-as-service]]"
+  - "[[intelligence as a service]]"
 contradicts:
 source: "Rowe, M., & Lynch, W. (2025). Context sovereignty for AI-supported learning: A human-centred approach."
 source_url: ""

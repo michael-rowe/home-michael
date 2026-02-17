@@ -3,11 +3,8 @@ title: AI-forward
 type: note
 aliases:
   - AI forward institutions
-description: >-
-  AI-forward describes institutions treating AI integration as ongoing strategic
-  practice requiring active engagement, rather than fixed deployment of finished
-  solutions.
-author: '[[Michael Rowe]]'
+description: AI-forward describes institutions treating AI integration as ongoing strategic practice requiring active engagement, rather than fixed deployment of finished solutions.
+author: "[[Michael Rowe]]"
 date: 2025-12-26
 updated: 2025-12-26
 tags:
@@ -16,15 +13,15 @@ tags:
 category:
   - AI and technology
 related:
-  - '[[context sovereignty]]'
-  - '[[context engineering]]'
-  - '[[contextual interoperability]]'
-  - '[[intelligence-as-service]]'
+  - "[[context sovereignty]]"
+  - "[[context engineering]]"
+  - "[[contextual interoperability]]"
+  - "[[intelligence as a service]]"
 draft: false
-permalink: ''
+permalink: ""
 enableToc: true
 cssclasses:
-  - ''
+  - ""
 ---
 
 > [!info] Process, not state
