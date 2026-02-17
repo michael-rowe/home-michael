@@ -10,7 +10,7 @@ const RelatedContent: QuartzComponent = ({
   cfg,
 }: QuartzComponentProps) => {
   const type = fileData.frontmatter?.type as string | undefined
-  const validTypes = ["post", "note", "essay"]
+  const validTypes = ["post", "note", "essay", "presentation"]
   if (!type || !validTypes.includes(type)) return null
 
   const currentSlug = fileData.slug!

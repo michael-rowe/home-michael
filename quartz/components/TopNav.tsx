@@ -26,6 +26,7 @@ const defaultOptions: TopNavOptions = {
         { text: "Essays", slug: "Essays/index" },
         { text: "Posts", slug: "Posts/index" },
         { text: "Notes", slug: "Notes/index" },
+        { text: "Presentations", slug: "Presentations/index" },
       ],
     },
     { text: "About", slug: "about" },

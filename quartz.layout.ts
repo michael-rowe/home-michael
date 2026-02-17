@@ -62,7 +62,7 @@ export const defaultContentPageLayout: PageLayout = {
 
           // Only show content with a type field (posts, notes, essays, etc.)
           // This excludes static pages which don't have a type
-          const validTypes = ["post", "note", "essay", "framework", "policy", "course"]
+          const validTypes = ["post", "note", "essay", "framework", "policy", "course", "presentation"]
           return type !== undefined && validTypes.includes(type)
         },
       }),
@@ -103,7 +103,7 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.RelatedContent(),
       condition: (page) => {
         const type = page.fileData.frontmatter?.type as string | undefined
-        return type === "post" || type === "note" || type === "essay"
+        return type === "post" || type === "note" || type === "essay" || type === "presentation"
       },
     }),
     Component.ShareLinks(),

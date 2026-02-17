@@ -7,7 +7,7 @@ meta-description: "A contributed presentation at the Advance HE AI Symposium 202
 author:
   - "[[Michael Rowe]]"
   - "[[Wesley Lynch]]"
-date: 2026-02-10
+date: 2026-02-17
 event: Advance HE AI Symposium
 host: Advance HE
 location: Online
