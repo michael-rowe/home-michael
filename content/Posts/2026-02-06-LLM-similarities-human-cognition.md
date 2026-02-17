@@ -95,11 +95,11 @@ Humans do this constantly. Most human reasoning is post-hoc rationalisation. We 
 
 If the similarities are this extensive, why do we resist them so fiercely? Why the insistence that LLMs are fundamentally, categorically different?
 
-Three possibilities come to mind, each more uncomfortable than the last.
+Three possibilities come to mind, each more uncomfortable than the previous.
 
-**Maybe we don't "really understand" either.** When we insist LLMs lack true understanding, we're assuming we possess it. But if you push someone to define what understanding actually is (beyond appeals to subjective feeling or consciousness), they struggle. We can't clearly articulate the difference between our pattern matching and theirs. The understanding we claim might be another pattern we've learned to recognise, rather than a categorically different phenomenon.
+**Maybe we don't "really understand" either.** When we insist LLMs lack true understanding, we're assuming we possess it. But if you push someone to define what understanding actually is (beyond appeals to subjective feeling or consciousness), many will struggle. We can't clearly articulate the difference between our pattern matching and the pattern matching of language models. The understanding we claim to have might just be another pattern we've learned to recognise, rather than a categorically different phenomenon.
 
-**Maybe our expertise is less special than we thought.** If LLMs can perform cognitive work previously reserved for trained professionals (e.g. writing, analysis, synthesis, or problem-solving), what unique value do knowledge workers provide? The *resistance to AI seems to be strongest precisely among those whose professional identity depends on cognitive uniqueness*. This is why, when someone insists "AI will never replace X," I tend to hear "my professional identity requires that AI not replace X."
+**Maybe our expertise is less special than we thought.** If LLMs can perform cognitive work previously reserved for trained professionals (e.g. writing, analysis, synthesis, or problem-solving), what unique value do knowledge workers provide? The *resistance to AI seems to be strongest precisely among those whose professional identity depends on cognitive uniqueness*. This is why, when someone proclaims that "AI will never replace X," I tend to hear "my professional identity requires that AI not replace X."
 
 **Maybe cognitive uniqueness was never a stable foundation for human moral status.** We've used our supposedly special intelligence to justify everything from environmental exploitation to the ethical treatment of other species. If intelligence isn't the clean categorical boundary we thought, the entire edifice starts to wobble.
 
@@ -107,21 +107,20 @@ As [David Wiley has noted](https://opencontent.org/blog/archives/7788), the dism
 
 ## A familiar deflation
 
-This isn't the first time human exceptionalism has been challenged. Copernicus displaced us from the cosmic centre. Darwin revealed we weren't specially created. Freud argued we weren't even in conscious control of our own minds. Each of these deflations met fierce, emotional resistance, not because the evidence was weak, but because the psychological stakes were enormous.
+This isn't the first time human exceptionalism has been challenged. Copernicus moved us away from the cosmic centre. Darwin revealed we weren't specially created. Freud argued we weren't even in conscious control of our own minds. Each of these deflations met fierce, emotional resistance, not because the evidence was weak, but because the psychological stakes were enormous.
 
-This LLM moment might be another step in this trajectory. Not because these systems are conscious or possess genuine intelligence in some special sense, but because they reveal that many of the capabilities we thought required consciousness or special intelligence can emerge from "mere" pattern matching and statistical correlation.
+This LLM moment might be another step in this trajectory. Not because these systems are conscious or possess "real" intelligence in some special sense, but because they reveal that many of the capabilities we thought required consciousness or special intelligence can emerge from "mere" pattern matching and statistical correlation.
 
-We're pattern-matching, probability-distributing, context-dependent generators of plausible outputs. We've just had millions of years to optimise the architecture and we're running on remarkably efficient biological hardware.
+> [!INFO]
+> We're pattern-matching, probability-distributing, context-dependent generators of plausible outputs. We've just had millions of years to optimise the architecture and we're running on remarkably efficient biological hardware.
 
-This doesn't diminish human value unless we predicated that value entirely on cognitive uniqueness. But it does suggest we might need better foundations for what makes humans morally considerable. Relationality, perhaps. Vulnerability. The capacity to suffer. Our embeddedness in communities and ecosystems. These might be sturdier grounds than raw intelligence.
+This doesn't diminish human value unless we predicated that value entirely on cognitive uniqueness. But it does suggest we might need better foundations for what makes humans morally considerable. Relationality, perhaps? Vulnerability or the capacity to suffer? Our embeddedness in communities and ecosystems? These might all be sturdier grounds than raw intelligence for the question of why we matter.
 
-For anyone navigating AI integration in their institution, this matters practically. Those who can sit with the discomfort of similarity will better understand how to deploy these tools effectively, how to support people through transition, and where genuine [[taste-and-judgement|human judgement]] remains essential. Those who remain invested in trying to prove the existence of fundamental differences between humans and AI will miss strategic opportunities because they're defending professional identity rather than assessing capability.
+For anyone navigating AI integration in their institution, this has real practical relevance. Those who can sit with the discomfort of similarity will better understand how to deploy these tools effectively, how to support people through transition, and where genuine [[taste-and-judgement|human judgement]] remains essential. Those who remain invested in trying to prove the existence of fundamental differences between humans and large language models will miss strategic opportunities because they're defending professional identity rather than assessing capability.
 
 The question isn't whether AI thinks like us. The question is whether we've been thinking like AI all along. And what becomes possible when we stop defending against that recognition.
 
----
-
-**References**
+## References
 
 - Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell. ‘On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜’. _Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency_, 3 March 2021, 610–23. [https://doi.org/10.1145/3442188.3445922](https://doi.org/10.1145/3442188.3445922). [[Bender-et-al-2021-on-the-dangers-of-stochastic-parrots|Annotation]]
 - Boles, S. (2025, July 16). _Does AI understand?_ Harvard Gazette. https://news.harvard.edu/gazette/story/2025/07/does-ai-understand/

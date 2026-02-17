@@ -22,7 +22,3 @@ slug: "a-systematic-literature-review-of-knowledge-graph-construction"
 ## Abstract
 
 In the dynamic landscape of modern education, the search for improved pedagogical methods, enriched learning experiences, and empowered educators remains a perpetual pursuit. In recent years, a remarkable technological innovation has asserted its dominance in education: Knowledge Graphs (KGs). These structured representations of knowledge are increasingly proving to be indispensable tools, fostering advancements driven by the growing recognition of their essential role in enriching personalised learning, curriculum design, concept mapping, and educational content recommendation systems. In this paper, a systematic literature review (SLR) has been conducted to comprehensively examine KG construction methodologies and their applications across five key domains in education. In each examined study, we highlight the specific KG functionalities, knowledge extraction techniques, knowledge base characteristics, resource requirements, evaluation criteria, and limitations. This paper distinguishes itself by offering a broad overview of KGs in education, analyzing state-of-the-art methodologies, and identifying research gaps and limitations, paving the way for future advancements.
-
-## Annotations
-
-Write your annotation here. 2–4 sentences is usually enough: what the source is, what's valuable about it, and any caveats. Include your evaluative judgment — not just what it says, but why it matters and for whom.

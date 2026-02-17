@@ -19,10 +19,4 @@ slug: "how-can-we-develop-transformative-tools-for-thought"
 > [!info] Source details
 > Matuschak, A., & Nielsen, M. (2019). *How can we develop transformative tools for thought?* https://numinous.productions/ttft
 
-## Abstract
 
-(Abstract not available in database)
-
-## Annotations
-
-Write your annotation here. 2–4 sentences is usually enough: what the source is, what's valuable about it, and any caveats. Include your evaluative judgment — not just what it says, but why it matters and for whom.
