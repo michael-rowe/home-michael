@@ -296,6 +296,7 @@ Content lives in `content/` directory (ignored by git per configuration):
 | `content/Bibliography/` | Annotated bibliography entries |
 | `content/Frameworks/` | Framework documents |
 | `content/Newsletters/` | Newsletter drafts and archives |
+| `content/Presentations/` | Conference and invited presentation pages with embedded slides |
 | `content/templates/` | Content templates (excluded from build) |
 | `content/personas/` | AI reviewer persona files (excluded from build) |
 
@@ -369,6 +370,28 @@ course: ""               # Parent course name (e.g. "Time management")
 tags: []
 related: []
 ```
+
+**`type: presentation`** — Conference and invited presentations (within `content/Presentations/`)
+```yaml
+type: presentation
+title: ""
+slug: presentations/slug-here
+description: ""          # 3-5 sentences for index listings
+meta-description: ""     # Under 155 chars
+author:
+  - "[[Michael Rowe]]"
+date: YYYY-MM-DD         # Date published to site (use event: for the event date)
+event: ""                # Event name
+host: ""                 # Organising body
+location: ""             # Online | City
+presentation_type: contributed  # keynote | invited | contributed | workshop
+credential: ""           # URL to verified digital credential, if issued
+tags: []
+category: []
+related: []              # Wiki-link format: ["[[slug]]"]
+draft: false
+```
+*Slides are generated with Marp CLI and stored in `quartz/static/presentations/` to preserve the `.html` extension. The iframe `src` uses the full production URL (`https://michael-rowe.github.io/home-michael/static/presentations/…`) to prevent Quartz's link transformer from stripping the extension.*
 
 **`type: bib`** — Annotated bibliography entries (within `content/Bibliography/`)
 ```yaml
