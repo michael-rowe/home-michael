@@ -38,7 +38,7 @@ reviewed:
   - copy_editor
   - SEO_optimiser
 ---
-> [!info] The mirror we resist
+> [!info] Human cognition has the same limitations we criticise in LLMs
 > The parallels between LLM cognition and human thinking are more extensive than we'd like to admit, and the strength of our denials might tell us more about human psychology than any technical specification ever could.
 
 The discourse around AI and human cognition seems to have settled into a familiar pattern. Academics, technologists, and knowledge workers are quick to explain why [[large language models|LLMs]] are fundamentally different from human thinking. "[They don't really learn](https://theconversation.com/ai-doesnt-really-learn-and-knowing-why-will-help-you-use-it-more-responsibly-250923)," we insist. Or, "They [don't understand the world](https://news.harvard.edu/gazette/story/2025/07/does-ai-understand/)." "It's all statistical correlation without reasoning." The subtext is clear: whatever these systems are doing, it's categorically different from what happens in human minds.

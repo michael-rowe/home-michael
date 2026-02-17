@@ -110,6 +110,8 @@ As AI systems become more capable at diagnosis, empathy, and clinical reasoning,
 
 We propose a three-layer architecture using graph databases as the source of truth for curriculum structure, supported by vector databases for content retrieval and the Model Context Protocol for stakeholder interfaces. This approach makes curriculum structure explicitly queryable while preserving essential pedagogical mediation.
 
+[[Presentations/2026-beyond-document-management|Slides and abstract]] · [Credential](https://credentials.advance-he.ac.uk/995f0284-63df-4d04-bd17-eb9b38b7020d#acc.Rjn76Vxr)
+
 <!--
 Example format for past talks:
 
