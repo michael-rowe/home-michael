@@ -34,14 +34,21 @@
     color: var(--course-color);
     background-color: color-mix(in srgb, var(--course-color) 12%, transparent);
   }
+
+  &.content-type--presentation {
+    color: var(--presentation-color);
+    background-color: color-mix(in srgb, var(--presentation-color) 12%, transparent);
+  }
 }
 
 :root {
   --note-color: #2e7d6e;
   --course-color: #5b35a8;
+  --presentation-color: #b45309;
 }
 
 :root[saved-theme="dark"] {
   --note-color: #4db6a8;
   --course-color: #a78bfa;
+  --presentation-color: #fbbf24;
 }

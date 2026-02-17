@@ -30,7 +30,7 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.ContentType(),
       condition: (page) => {
         const type = page.fileData.frontmatter?.type as string | undefined
-        return type === "post" || type === "note" || type === "essay"
+        return type === "post" || type === "note" || type === "essay" || type === "presentation"
       },
     }),
     Component.TagList(),
