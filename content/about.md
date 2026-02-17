@@ -9,9 +9,9 @@ My scholarship focuses on the transformative potential of digital technologies i
 
 ## About this project
 
-This site explores **emergent scholarship**—a framework for scholarly engagement that emphasises connection, adaptation, and ecological sustainability in knowledge work.
+This site is a framework for the entire knowledge creation pipeline — from identifying problems worth solving, to learning systematically, to sharing what you've learned in ways that matter. It's not just about publishing differently; it's about working differently as someone who creates and shares knowledge.
 
-Rather than treating knowledge as a static commodity, emergent scholarship recognises that understanding develops through relationships, networks, and dynamic interactions within complex systems. This approach is particularly relevant in our current era of rapid technological change, information abundance, and interconnected global challenges.
+The content here reflects a commitment to open scholarly practice: understanding develops through relationships, networks, and dynamic interactions. This approach is particularly relevant in an era of rapid technological change, information abundance, and interconnected challenges in health professions education.
 
 ## Purpose
 

@@ -149,5 +149,5 @@ When customising this policy for your module, consider:
 This policy template draws on:
 
 - Mollick, E. (2023). Why all our classes suddenly became AI classes. *Harvard Business Publishing Education*.
-- Rowe, M. (2026). [[AI literacy development framework]]. Emergent Scholarship.
+- Rowe, M. (2026). [[AI literacy development framework]]. /home/michael.
 - Long, D., & Magerko, B. (2020). What is AI Literacy? Competencies and Design Considerations. *CHI '20*.

@@ -86,13 +86,13 @@ AI-generated audio that summarises existing papers is useful but not itself scho
 
 ## The form shapes the knowledge
 
-The emergent scholarship principle of "meaning through medium" applies directly here. The format of expression is not neutral. It shapes what can be said and how it is understood.
+The principle that meaning emerges through medium applies directly here. The format of expression is not neutral. It shapes what can be said and how it is understood.
 
 Audio reveals dimensions of knowledge that text obscures. A recorded conversation shows how experts navigate uncertainty, change their minds, and build on each other's ideas in real time. It preserves the tentativeness that written prose often edits out. It demonstrates that knowledge is produced by people thinking together, not delivered fully-formed from authoritative sources.
 
 This matters pedagogically. Students and early-career researchers often encounter scholarship only as polished, finished products. Audio can show them the process—the false starts, the productive disagreements, the moments where understanding shifts.
 
-It also matters epistemologically. If we believe that knowledge is socially constructed through interaction and exchange—as emergent scholarship suggests—then formats that preserve interaction have something to offer that monologic formats cannot.
+It also matters epistemologically. If we believe that knowledge is socially constructed through interaction and exchange, then formats that preserve interaction have something to offer that monologic formats cannot.
 
 ## Accreditation without centralisation
 

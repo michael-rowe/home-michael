@@ -54,7 +54,7 @@ The discipline serves you as much as it does the machine. Articulating relations
 
 ## From notebook to cognitive interface
 
-Personal knowledge management has moved through distinct phases. The notebook began as a memory aid; a filing cabinet for things we might otherwise forget. Then it became a [thinking tool](https://numinous.productions/ttft/) (Matuschak & Nielsen, 2019), a space for writing to discover what we think. The third phase is different in kind: the notebook as a cognitive interface, the infrastructure through which human and artificial intelligence collaborate.
+Personal knowledge management has moved through distinct phases. The notebook began as a memory aid; a filing cabinet for things we might otherwise forget. Then it became a [thinking tool](https://numinous.productions/ttft/) (Matuschak & Nielsen, 2019 [[Matuschak-Nielsen-2019-how-can-we-develop-transformative-tools-for-thought|Annotation]]), a space for writing to discover what we think. The third phase is different in kind: the notebook as a cognitive interface, the infrastructure through which human and artificial intelligence collaborate.
 
 In this third phase, your knowledge base does more than store ideas. It moves the "intelligence" of the system out of the model and into the architecture of the data. When contextual interoperability is high, the AI isn't a tool you use; it's a partner reasoning within the boundaries and commitments of your established intellectual framework. And it can do this because you've described *how* you think about certain things.
 
@@ -68,4 +68,4 @@ This is a new kind of literacy; the ability to design the digital environments w
 
 ## References
 
-- Matuschak, A., & Nielsen, M. (2019). _How can we develop transformative tools for thought?_ [https://numinous.productions/ttft](https://numinous.productions/ttft)
+- Matuschak, A., & Nielsen, M. (2019). _How can we develop transformative tools for thought?_ [https://numinous.productions/ttft](https://numinous.productions/ttft) [[Matuschak-Nielsen-2019-how-can-we-develop-transformative-tools-for-thought|Annotation]]

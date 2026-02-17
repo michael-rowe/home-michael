@@ -120,7 +120,7 @@ Effective context has four components. Each requires reflection about what matte
 - Where you need support
 
 > [!example]- Example: Documenting current work
-> "Current projects: (1) Interview study on workload allocation—20 interviews completed, analysis phase, exploring how formal models relate to actual practice. (2) Conceptual paper on emergent scholarship—arguing for new framework, draft stage, struggling with positioning against existing concepts."
+> "Current projects: (1) Interview study on workload allocation—20 interviews completed, analysis phase, exploring how formal models relate to actual practice. (2) Conceptual paper on open scholarly practice—arguing for new framework, draft stage, struggling with positioning against existing concepts."
 
 **Why this matters:** AI connects responses to your actual work rather than providing generic advice. But this requires ethical judgement about boundaries.
 

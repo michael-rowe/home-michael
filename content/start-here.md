@@ -4,7 +4,7 @@ title: Start here
 
 Welcome. This site is built on a simple premise: **you can get better at getting better**.
 
-Emergent scholarship is a framework for the entire knowledge creation process — from noticing problems worth solving, to learning what you need to learn, to sharing what you've discovered in ways that create value.
+This site is a framework for the entire knowledge creation process — from noticing problems worth solving, to learning what you need to learn, to sharing what you've discovered in ways that create value.
 
 Whether you're an academic navigating institutional pressures, a researcher trying to stay current, or an independent thinker committed to rigorous work — there's something here for you.
 
@@ -35,7 +35,8 @@ Start with [[Courses/Time management/index|Time management for academics]]. It's
 → [[Essays/learning-alignment|The learning alignment problem]]
 
 **"I want to rethink my entire approach to scholarship"**
-→ [[principles|Core principles]]
+→ [[Essays/publishing-with-purpose|Publishing with purpose]]
+→ [[Essays/taste-and-judgement|Taste and judgement]]
 
 ---
 

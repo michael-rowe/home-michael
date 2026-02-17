@@ -46,7 +46,7 @@ category:
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: April 08, 2025
 > - **Version**: 0.7 (last updated: Feb 13, 2026)
-> - **Keywords**: cognitive metaphor, container schema, emergent scholarship, graph-based interface, knowledge networks, learning, professional education
+> - **Keywords**: cognitive metaphor, container schema, graph-based interface, knowledge networks, learning, professional education
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
 ### Abstract
@@ -153,7 +153,7 @@ This progressive approach addresses the legitimate concern that network complexi
 
 ### Feasibility with current technology
 
-While this vision might appear aspirational, many of its components could be implemented with technologies available today. Knowledge graphs have already been deployed in educational contexts for concept mapping, personalised learning recommendations, and curriculum design, demonstrating the viability of the core approach (Abu-Salih & Alotaibi, 2024). Contemporary web technologies already support sophisticated graph visualisations; modern graph databases provide back-end infrastructure for representing complex knowledge relationships; progressive web applications can deliver consistent experiences across devices; and current AI capabilities — particularly frontier language models — demonstrate the pattern recognition needed for suggesting meaningful connections. Mobile extensions using capabilities like camera-based augmented reality could extend knowledge graphs into practice contexts, helping bridge the theory-practice gap. The barriers to exploring this direction are less technological than conceptual and institutional — our collective attachment to the container schema and the organisational structures built around it.
+While this vision might appear aspirational, many of its components could be implemented with technologies available today. Knowledge graphs have already been deployed in educational contexts for concept mapping, personalised learning recommendations, and curriculum design, demonstrating the viability of the core approach (Abu-Salih & Alotaibi, 2024 [[Abu-Salih-et-al-2024-a-systematic-literature-review-of-knowledge-graph-construction|Annotation]]). Contemporary web technologies already support sophisticated graph visualisations; modern graph databases provide back-end infrastructure for representing complex knowledge relationships; progressive web applications can deliver consistent experiences across devices; and current AI capabilities — particularly frontier language models — demonstrate the pattern recognition needed for suggesting meaningful connections. Mobile extensions using capabilities like camera-based augmented reality could extend knowledge graphs into practice contexts, helping bridge the theory-practice gap. The barriers to exploring this direction are less technological than conceptual and institutional — our collective attachment to the container schema and the organisational structures built around it.
 
 ## Opening up the question
 
@@ -177,7 +177,7 @@ This is an exercise in pedagogical imagination more than technological prescript
 
 ## References
 
-Abu-Salih, B., & Alotaibi, S. (2024). A systematic literature review of knowledge graph construction and application in education. *Heliyon*, *10*(3), e25383.
+Abu-Salih, B., & Alotaibi, S. (2024). A systematic literature review of knowledge graph construction and application in education. *Heliyon*, *10*(3), e25383. [[Abu-Salih-et-al-2024-a-systematic-literature-review-of-knowledge-graph-construction|Annotation]]
 
 Collins, A., Brown, J. S., & Holum, A. (1991). Cognitive apprenticeship: Making thinking visible. *American Educator*.
 

@@ -2,7 +2,9 @@
 title: Home
 tab-title: /home/michael
 ---
-What does it mean to do scholarly work when the tools, contexts, and expectations keep shifting? This is where I work through that question — in essays, posts, and courses, at the intersection of AI and health professions education.
+What does it mean to do scholarly work when the tools, contexts, and expectations keep shifting? This is my active platform for working through that question — in blog posts, courses, and newsletters, at the intersection of AI and health professions education.
+
+This site is an independent scholarly initiative—an intentional commitment to building something of value in the long term: an approach to scholarship that leverages collective intelligence, AI integration, and open-source methods to foster meaningful collaboration and knowledge creation.
 
 <div class="page-cta">
 
@@ -49,4 +51,4 @@ Browse by [[formats|format]] or [[topics|topic]].
 
 ---
 
-This site works a bit like an open source project: I work in public, ideas develop through iteration, and the process is part of the output. If something here is useful, use it. If you want to respond, [[contact|get in touch]].
+This site is an act of scholarly resistance: a demonstration that independent academics can publish, share, and track the impact of their work without institutional publishers or platform dependency. If something here is useful, use it. If you want to respond, [[contact|get in touch]].

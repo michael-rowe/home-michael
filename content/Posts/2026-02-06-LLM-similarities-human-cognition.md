@@ -41,29 +41,29 @@ reviewed:
 > [!info] Human cognition has the same limitations we criticise in LLMs
 > The parallels between LLM cognition and human thinking are more extensive than we'd like to admit, and the strength of our denials might tell us more about human psychology than any technical specification ever could.
 
-The discourse around AI and human cognition seems to have settled into a familiar pattern. Academics, technologists, and knowledge workers are quick to explain why [[large language models|LLMs]] are fundamentally different from human thinking. "[They don't really learn](https://theconversation.com/ai-doesnt-really-learn-and-knowing-why-will-help-you-use-it-more-responsibly-250923)," we insist. Or, "They [don't understand the world](https://news.harvard.edu/gazette/story/2025/07/does-ai-understand/)." "It's all statistical correlation without reasoning." The subtext is clear: whatever these systems are doing, it's categorically different from what happens in human minds.
+The discourse around AI and human cognition seems to have settled into a familiar pattern. Academics, technologists, and knowledge workers are quick to explain why [[large language models|LLMs]] are fundamentally different from human thinking. [They don't really learn](https://theconversation.com/ai-doesnt-really-learn-and-knowing-why-will-help-you-use-it-more-responsibly-250923), we insist (Riemer & Peter, 2025). Or, they [don't understand the world](https://news.harvard.edu/gazette/story/2025/07/does-ai-understand/) (Boles, 2025). Or, it's all statistical correlation without reasoning (Bender, et al., 2019). The subtext is clear: whatever these systems are doing, it's categorically different from what happens in human minds.
 
-This post isn't concerned with disproving that claim, or with denying that the differences matter. What I want to do instead is invert the question. Instead of describing all the ways that LLMs fail to measure up to human cognition, what if we used LLM terminology to explore the [[human cognition and LLM parallels|similarities between AI and human thinking]]? Not to claim that humans are literally language models, but to explore what the similarities might reveal about our own cognitive architecture, and why we're so invested in denying them.
+In this post I'm not concerned with disproving those claims, or in denying that the differences matter. Instead, I want to invert the question. Instead of describing all the ways that LLMs fail to measure up to human cognition, I want to use the terminology of language models to explore the [[human cognition and LLM parallels|similarities between AI and human thinking]]. Not to claim that human brains literally work like language models, but to explore what the similarities might reveal about our own cognitive architecture, and why we're so invested in denying that they exist.
 
 ## Context windows and the limits of working memory
 
-LLMs have context windows — a finite amount of text they can attend to when generating responses. Extend the conversation too long and they lose track of earlier content, prioritising recent information over older context.
+LLMs have context windows; a finite amount of text they can attend to when generating responses. If we extend the conversation for too long they lose track of earlier content, prioritising recent information over older context.
 
-Humans do this constantly. We forget earlier parts of conversations. We lose the thread in long discussions. We ask "wait, what were we talking about?" when someone circles back to a point from twenty minutes ago. This isn't a failing; it's a cognitive constraint. Working memory is severely limited. We literally run out of space to hold all the relevant context, so we compress, discard, and prioritise recent information. The experience of cognitive overload in a complex discussion maps precisely to context window limitations.
+Humans do this constantly. We forget earlier parts of conversations. We lose the thread in long discussions. We ask "wait, what were we talking about?" when someone circles back to a point from twenty minutes ago. This isn't a failing; it's a cognitive constraint because working memory is limited. We literally run out of space to hold all the relevant context, so we compress, discard, and prioritise recent information. The experience of cognitive overload in a complex discussion maps precisely to context window limitations.
 
 ## Training data quality and bias
 
 LLMs are also criticised for bias in their training data. They reflect the patterns, prejudices, and blind spots present in the text they learned from. And they generalise confidently from non-representative samples.
 
-This also describes most human expertise. Each of us is trained on wildly non-representative samples of human experience: specific family structure, cultural context, historical moment, socioeconomic position, geographical location. From this narrow training set, we confidently generalise to make claims about "how people are" or "how the world works." The bias critique of LLMs is just a precise description of how human knowledge formation has always worked. Objective training data doesn't exist, only whatever fragments of experience we happened to encounter.
+This also describes most human expertise. Each of us is trained on wildly non-representative samples of human experience: specific family structure, cultural context, historical moment, socioeconomic position, geographical location, and so on. From this narrow training set, we confidently generalise to make claims about "how people are" or "how the world works." The bias critique of LLMs is just a precise description of how human knowledge formation has always worked. Objective training data doesn't exist, only whatever fragments of experience we happened to encounter.
 
 ## Tokenisation and the structure of expertise
 
-LLMs process language by breaking it into tokens — meaningful chunks rather than individual characters. What counts as a "chunk" shapes how efficiently the model can process information.
+LLMs process language by breaking it into tokens, which are meaningful chunks rather than individual characters. What counts as a "chunk" shapes how efficiently the model can process information.
 
 Humans do this too, and your expertise level changes your tokeniser. A novice piano student sees individual notes on a page; an expert sees chord progressions and phrases as single perceptual units. Chess masters famously perceive board positions as meaningful configurations rather than individual piece placements. This isn't just about pattern recognition; it's about how information gets chunked for processing.
 
-Similarly, jargon isn't just shorthand — it's literally more efficient tokenisation for domain experts. Reading "CEO" consumes less cognitive effort than processing "Chief Executive Officer" because we've compressed it into a single retrievable unit. When you encounter unfamiliar technical terminology, you're forced to process it more granularly — letter by letter or syllable by syllable — which is why jargon is genuinely harder to process for outsiders. And different domains use different tokenisers, carving up conceptual space in distinct ways.
+Similarly, jargon isn't just shorthand. It's literally more efficient tokenisation for domain experts. Reading "CEO" consumes less cognitive effort than processing "Chief Executive Officer" because we've compressed it into a single retrievable unit. When you encounter unfamiliar technical terminology, you're forced to process it more granularly — letter by letter or syllable by syllable — which is why jargon is genuinely harder to process for outsiders. And different domains use different tokenisers, carving up conceptual space in distinct ways.
 
 ## Temperature and the control of randomness
 
@@ -123,5 +123,6 @@ The question isn't whether AI thinks like us. The question is whether we've been
 
 **References**
 
-- Riemer, K., & Peter, S. (2025). _AI doesn’t really “learn” – and knowing why will help you use it more responsibly_. https://doi.org/10.64628/aa.we96s45cj
+- Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell. ‘On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜’. _Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency_, 3 March 2021, 610–23. [https://doi.org/10.1145/3442188.3445922](https://doi.org/10.1145/3442188.3445922). [[Bender-et-al-2021-on-the-dangers-of-stochastic-parrots|Annotation]]
 - Boles, S. (2025, July 16). _Does AI understand?_ Harvard Gazette. https://news.harvard.edu/gazette/story/2025/07/does-ai-understand/
+- Riemer, K., & Peter, S. (2025). _AI doesn’t really “learn” – and knowing why will help you use it more responsibly_. https://doi.org/10.64628/aa.we96s45cj

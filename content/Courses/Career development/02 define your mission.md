@@ -40,7 +40,7 @@ As you advance in your career, you might find yourself drawn to what scholars ca
 
 For instance, an early-career health scientist might focus on improving specific diagnostic techniques (a 'normal' problem), while a senior researcher might tackle healthcare inequity (a 'wicked' problem) that involves medical, social, economic, and political dimensions.
 
-Emergent scholarship thrives at these intersections, where patterns and connections form across traditional boundaries. Your most impactful work may arise not from rigid plans but from remaining responsive to evolving challenges and unexpected insights.
+The most generative work often thrives at these intersections, where patterns and connections form across traditional boundaries. Your most impactful work may arise not from rigid plans but from remaining responsive to evolving challenges and unexpected insights.
 
 Consider these perspectives when shaping your mission:
 
@@ -101,7 +101,7 @@ Here are some examples of vague mission statements that can be enhanced.
 > [!question] Pause and reflect
 > Be cautious about advice to "follow your passion." Meaningful work typically comes from developing expertise that contributes to significant problems, though you should still avoid committing to work you find uninspiring.
 >
-> Rather than rigidly adhering to predetermined career paths, emergent scholarship embraces adaptability and responsiveness to evolving problems. Your mission should serve as a guiding star, not a constraining box. As you develop expertise, remain attentive to unexpected connections and emerging opportunities that may reshape your understanding of how your unique contributions can address pressing problems.
+> Rather than rigidly adhering to predetermined career paths, embrace adaptability and responsiveness to evolving problems. Your mission should serve as a guiding star, not a constraining box. As you develop expertise, remain attentive to unexpected connections and emerging opportunities that may reshape your understanding of how your unique contributions can address pressing problems.
 >
 > If you're struggling to identify a clear mission, consider focusing first on developing mastery in your field. As you approach the boundaries of current knowledge, promising directions will become more apparent. Remember that your mission will evolve. What you write today is a starting point—a direction rather than a destination.
 

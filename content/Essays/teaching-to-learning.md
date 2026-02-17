@@ -1,15 +1,15 @@
 ---
 type: essay
 title: >-
-  From teaching to learning: How emergent scholarship disrupts traditional
-  education hierarchies
+  From teaching to learning: Rethinking education for a world of information
+  abundance
 slug: essays/teaching-to-learning
 description: >-
   Traditional education systems are structured around teaching, assuming it
   inevitably produces learning. This essay argues that this unidirectional model —
   knowledge flowing from expert to novice — no longer suits a world of information
-  abundance and AI disruption. Emergent scholarship offers an alternative,
-  reconceptualising learning as a complex, networked process where educators shift
+  abundance and AI disruption. A networked, learner-centred approach offers an
+  alternative, reconceptualising learning as a complex process where educators shift
   from knowledge authority to learning facilitator, enabling diverse participants
   to contribute to collective understanding. This transformation is urgent as AI
   develops capabilities once exclusive to human experts, and requires reimagining
@@ -29,7 +29,7 @@ created: 2025-04-01
 modified: 2026-02-11
 tags:
   - higher-education
-  - emergent-scholarship
+  - open-scholarship
 category:
   - Pedagogy
 ---
@@ -38,17 +38,17 @@ category:
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: April 01, 2025
 > - **Version**: 0.6 (last updated: Feb 11, 2026)
-> - **Keywords**: emergent scholarship, higher education learning, teaching, university
+> - **Keywords**: networked learning, higher education, teaching hierarchies, information abundance
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
 ### Abstract
-Traditional education systems are built on a paradox: institutions dedicated to learning are structured almost entirely around teaching. This fundamental misalignment has persisted for centuries, with higher education operating on the assumption that teaching inevitably produces learning. This paper argues that the traditional model, where knowledge flows unidirectionally from expert to novice, no longer serves a world of information abundance and technological disruption. Emergent scholarship offers an alternative approach that reconceptualises learning as a complex, networked process emerging from connections rather than transmission. By shifting from knowledge authority to learning facilitation, educators can create environments where diverse participants contribute to collective understanding, challenging hierarchies that position faculty as sole knowledge producers. This transformation is particularly urgent as artificial intelligence develops capabilities once exclusive to human experts, fundamentally altering the educational landscape. Rather than fighting these technological changes, emergent scholarship integrates them as participants in the learning ecosystem while focusing on uniquely human capabilities like critical thinking and collaborative problem-solving. The shift from teaching hierarchies to learning networks requires reimagining not just pedagogical approaches but institutional structures, potentially creating educational environments that better prepare graduates for complexity and uncertainty while fostering more engaging experiences for all participants.
+Traditional education systems are built on a paradox: institutions dedicated to learning are structured almost entirely around teaching. This fundamental misalignment has persisted for centuries, with higher education operating on the assumption that teaching inevitably produces learning. This paper argues that the traditional model, where knowledge flows unidirectionally from expert to novice, no longer serves a world of information abundance and technological disruption. A networked, learner-centred approach offers an alternative that reconceptualises learning as a complex process emerging from connections rather than transmission. By shifting from knowledge authority to learning facilitation, educators can create environments where diverse participants contribute to collective understanding, challenging hierarchies that position faculty as sole knowledge producers. This transformation is particularly urgent as artificial intelligence develops capabilities once exclusive to human experts, fundamentally altering the educational landscape. Rather than fighting these technological changes, this approach integrates them as participants in the learning ecosystem while focusing on uniquely human capabilities like critical thinking and collaborative problem-solving. The shift from teaching hierarchies to learning networks requires reimagining not just pedagogical approaches but institutional structures, potentially creating educational environments that better prepare graduates for complexity and uncertainty while fostering more engaging experiences for all participants.
 
 
 > [!summary] Key takeaways
 > - Institutions dedicated to learning are structured almost entirely around teaching, on the assumption that teaching inevitably produces learning — an assumption that does not survive scrutiny in an age of information abundance.
 > - Information abundance and AI capability have undermined the knowledge-scarcity rationale for teaching hierarchies; the most valuable educational role is no longer transmitting information but helping learners navigate, evaluate, and connect it.
-> - Emergent scholarship positions educators as facilitators who create conditions for learning, contributing expertise as one node in a distributed network — a shift that expands rather than diminishes faculty impact.
+> - A learner-centred approach positions educators as facilitators who create conditions for learning, contributing expertise as one node in a distributed network — a shift that expands rather than diminishes faculty impact.
 > - Diverse perspectives including lived experience, cultural context, and practical wisdom enrich knowledge creation in ways that credentialled expertise alone cannot; students are not just receivers but potential contributors.
 > - As AI develops capabilities once exclusive to human experts, health professions education must focus on what AI cannot readily replicate: ethical reasoning, collaborative problem-solving, and the professional identity formation that comes from navigating genuine uncertainty.
 
@@ -58,7 +58,7 @@ The university lecture hall embodies an ancient belief system: knowledge flows d
 
 The traditional approach positions teaching as the active force and learning as its natural, almost inevitable result. But anyone who has sat through a brilliantly delivered lecture only to forget its contents days later knows that the relationship between teaching and learning is far more complex. What if we've been looking at education from the wrong end of the telescope? What if, instead of organising our institutions around the activities of teachers, we built them around the experiences of learners?
 
-This shift in perspective lies at the heart of emergent scholarship, an approach that recognises learning as a complex, networked process that emerges from connections rather than transmission. It challenges us to reconsider long-established hierarchies and reimagine the relationships between all participants in the educational enterprise.
+This shift in perspective lies at the heart of a learning-centred approach — one that recognises learning as a complex, networked process that emerges from connections rather than transmission. It challenges us to reconsider long-established hierarchies and reimagine the relationships between all participants in the educational enterprise.
 
 ## When the map no longer matches the territory
 
@@ -70,7 +70,7 @@ This mismatch becomes even more pronounced as artificial intelligence systems de
 
 ## From knowledge authority to learning facilitator
 
-Emergent scholarship doesn't diminish the importance of academic expertise but transforms how it functions within the educational ecosystem. Rather than positioning faculty as authoritative sources who determine what's worth knowing and how it should be learned, it reframes their role as facilitators who help create environments where meaningful learning can emerge.
+This approach doesn't diminish the importance of academic expertise but transforms how it functions within the educational ecosystem. Rather than positioning faculty as authoritative sources who determine what's worth knowing and how it should be learned, it reframes their role as facilitators who help create environments where meaningful learning can emerge.
 
 This shift isn't about reducing faculty status or responsibility but expanding their impact. Instead of spending energy perfecting the transmission of content that learners can now access elsewhere, educators can focus on designing rich learning contexts where participants connect with resources, ideas, and each other in ways that generate deeper understanding.
 
@@ -78,17 +78,17 @@ In this model, faculty expertise becomes one valuable node in a broader learning
 
 ## Democratising knowledge creation
 
-Perhaps the most radical aspect of emergent scholarship is its recognition that valuable knowledge can come from anywhere in the network, not just from designated experts. It disrupts the traditional model where faculty produce knowledge through research and students consume it through instruction, instead positioning all participants as potential contributors to a collective understanding.
+Perhaps the most radical aspect of this learning-centred approach is its recognition that valuable knowledge can come from anywhere in the network, not just from designated experts. It disrupts the traditional model where faculty produce knowledge through research and students consume it through instruction, instead positioning all participants as potential contributors to a collective understanding.
 
 This doesn't mean all contributions are equally valuable or that expertise doesn't matter. Rather, it acknowledges that diverse perspectives and experiences enrich the knowledge creation process in ways that expertise alone cannot. A student whose family has experienced homelessness might bring insights to a discussion of housing policy that no amount of research expertise can provide. An international student might introduce cultural contexts that transform understanding of seemingly universal principles.
 
-By creating spaces where these diverse forms of knowledge can interact, emergent scholarship enables richer, more nuanced understanding to emerge than any single perspective—even the most expert one—could generate alone. This approach doesn't replace rigorous research or disciplinary knowledge but contextualises them within a more expansive view of how understanding develops.
+By creating spaces where these diverse forms of knowledge can interact, this approach enables richer, more nuanced understanding to emerge than any single perspective—even the most expert one—could generate alone. This approach doesn't replace rigorous research or disciplinary knowledge but contextualises them within a more expansive view of how understanding develops.
 
 ## Navigating information abundance
 
 When information was scarce, education naturally emphasised content acquisition and retention. But in today's information-rich environment, the value of education shifts from providing content toward developing capabilities for evaluating, connecting, and applying information from diverse sources. The most valuable skill becomes not what you know but how you learn.
 
-Emergent scholarship focuses on building these navigation capabilities by engaging learners in authentic knowledge-seeking processes. Rather than simply presenting students with curated resources, educators might involve them in developing research questions, identifying and evaluating information sources, and constructing knowledge collaboratively. The goal isn't just finding answers but developing sophisticated understanding of how knowledge is created, evaluated, and applied.
+A learning-centred approach focuses on building these navigation capabilities by engaging learners in authentic knowledge-seeking processes. Rather than simply presenting students with curated resources, educators might involve them in developing research questions, identifying and evaluating information sources, and constructing knowledge collaboratively. The goal isn't just finding answers but developing sophisticated understanding of how knowledge is created, evaluated, and applied.
 
 This approach prepares learners for a world where the half-life of specific information grows ever shorter. When today's cutting-edge knowledge may be obsolete within years or even months, education must focus less on transmitting current content and more on developing enduring capabilities for continuous learning and adaptation.
 
@@ -96,7 +96,7 @@ This approach prepares learners for a world where the half-life of specific info
 
 Traditional educational hierarchies rest on the assumption that faculty possess comprehensive expertise in their fields. But as knowledge expands exponentially and problems grow increasingly complex, this model becomes less tenable. No single individual—regardless of credentials—can master the entirety of a contemporary academic discipline, much less the interdisciplinary understanding needed to address complex challenges.
 
-Emergent scholarship acknowledges this reality by embracing distributed expertise networks where learning happens through engagement with diverse knowledge sources. In this model, different participants contribute different strengths to a collective intelligence that exceeds what any individual could provide. A professor might offer theoretical frameworks and historical context, while practitioners contribute practical wisdom, students bring fresh perspectives, and community members add lived experience.
+This approach acknowledges this reality by embracing distributed expertise networks where learning happens through engagement with diverse knowledge sources. In this model, different participants contribute different strengths to a collective intelligence that exceeds what any individual could provide. A professor might offer theoretical frameworks and historical context, while practitioners contribute practical wisdom, students bring fresh perspectives, and community members add lived experience.
 
 This distributed approach more accurately reflects how knowledge actually develops and circulates in professional contexts. Few practitioners resolve challenges by recalling lectures; most navigate information ecosystems, consult colleagues, and adapt existing knowledge to new situations. By engaging with distributed expertise networks during their education, learners develop the very capabilities they'll need in professional practice.
 
@@ -104,7 +104,7 @@ This distributed approach more accurately reflects how knowledge actually develo
 
 Technologies like artificial intelligence fundamentally challenge traditional hierarchies by providing immediate access to information and capabilities once mediated exclusively by experts. When AI can generate sophisticated essays, solve complex problems, and synthesise vast research literatures in seconds, the traditional role of faculty as information providers and assessment administrators comes into question.
 
-Rather than fighting these tools or pretending they don't exist, emergent scholarship integrates them as participants in the learning ecosystem. This doesn't mean uncritically embracing technology but recognising how it transforms the educational landscape and focusing instead on uniquely human capabilities like critical thinking, ethical reasoning, creative synthesis, and collaborative problem-solving.
+Rather than fighting these tools or pretending they don't exist, a learning-centred approach integrates them as participants in the learning ecosystem. This doesn't mean uncritically embracing technology but recognising how it transforms the educational landscape and focusing instead on uniquely human capabilities like critical thinking, ethical reasoning, creative synthesis, and collaborative problem-solving.
 
 By incorporating AI and other technologies as tools within the learning process rather than threats to be mitigated, educators can help learners develop sophisticated understanding of when to rely on technological capabilities, when to question them, and how to use them to extend rather than replace human judgment. This approach prepares graduates for a world where technological and human intelligence increasingly collaborate rather than compete.
 
@@ -112,7 +112,7 @@ By incorporating AI and other technologies as tools within the learning process 
 
 Traditional approaches focus on standardised teaching outcomes where success means students demonstrate mastery of predetermined content in prescribed ways. This model provides administrative clarity but often fails to recognise the complex, non-linear nature of meaningful learning or accommodate the diverse needs and interests of learners.
 
-Emergent scholarship shifts toward creating rich learning ecologies where diverse outcomes can emerge based on learners' contexts, interests, and future trajectories. Rather than forcing all students through identical paths, it creates environments where individuals can develop along different but equally valuable routes while still achieving core competencies. This approach recognises that the most meaningful learning often happens in unexpected ways that standardised outcomes can't anticipate or measure.
+A learner-centred approach shifts toward creating rich learning ecologies where diverse outcomes can emerge based on learners' contexts, interests, and future trajectories. Rather than forcing all students through identical paths, it creates environments where individuals can develop along different but equally valuable routes while still achieving core competencies. This approach recognises that the most meaningful learning often happens in unexpected ways that standardised outcomes can't anticipate or measure.
 
 This ecological view doesn't abandon standards or coherence but approaches them differently. Like natural ecosystems that maintain overall balance while allowing for infinite variation at the individual level, learning ecologies can foster essential capabilities while accommodating diverse expressions of understanding and achievement.
 
@@ -120,6 +120,6 @@ This ecological view doesn't abandon standards or coherence but approaches them 
 
 The shift from teaching hierarchies to learning networks won't happen overnight. It challenges deep-seated assumptions about educational authority, professional identity, and institutional structure. It requires reimagining not just pedagogical approaches but promotion criteria, course structures, classroom designs, and the fundamental relationship between educational institutions and the broader society.
 
-Yet this transformation may be essential if higher education is to remain relevant in a rapidly changing world. By centering learning rather than teaching, embracing distributed expertise, and focusing on capabilities rather than content, emergent scholarship offers a vision of education that better prepares graduates for the complex challenges they'll face while creating more engaging experiences for all participants in the educational process.
+Yet this transformation may be essential if higher education is to remain relevant in a rapidly changing world. By centering learning rather than teaching, embracing distributed expertise, and focusing on capabilities rather than content, this approach offers a vision of education that better prepares graduates for the complex challenges they'll face while creating more engaging experiences for all participants in the educational process.
 
 The future of higher education lies not in perfecting our teaching methods but in creating environments where learning can flourish in all its complexity, emergence, and unpredictability. By letting go of our need to control the learning process, we may discover that we can facilitate something far more powerful, enduring, and transformative than our teaching alone could ever produce.

@@ -28,13 +28,15 @@ related:
 draft: false
 slug: essays-as-scholarship
 enableToc: true
+reviewed:
+  - writing_style
 ---
 > [!info] A different form, not a lesser form
 > Essays deserve recognition as scholarship—not as a lesser form, but as a different form. One that enables exploration before formal investigation, synthesis across disciplinary boundaries, and engagement with audiences that traditional academic publishing fails to reach.
 
 What counts as scholarship? The question seems straightforward until you realise how much of academic practice depends on a remarkably narrow answer. We have converged on the peer-reviewed journal article as the default unit of scholarly output, a format so standardised that Mark Carrigan [described it as](https://markcarrigan.net/2021/12/06/so-you-dont-want-to-be-a-normal-journal-any-more/) the "sterile uniformity of journal formats." This uniformity serves important purposes—it enables comparison, facilitates peer review, and creates predictable expectations. But it also excludes entire modes of thinking and expression that might contribute meaningfully to knowledge—including essays as scholarship.
 
-[[content/Notes/Boyer's model of scholarship.md|Boyer's (1990) framework]] remains useful here. He proposed four overlapping forms of scholarship:
+[[Boyer's model of scholarship|Boyer's (1990) framework]] remains useful here. He proposed four overlapping forms of scholarship:
 
 1. **The scholarship of discovery**: original research or the search for new knowledge.
 2. **The scholarship of integration**: putting isolated facts into context, making connections across fields.
@@ -51,23 +53,21 @@ As Sarah Kember [has argued](https://doi.org/10/gnqs98) (2016):
 
 This matters because not all valuable intellectual work can be captured by citation metrics or measured through impact factors. Some ideas need room to breathe before they can be tested. Some connections only become visible when we step outside the constraints of hypothesis-driven inquiry.
 
-## Essays and emergent scholarship
+## Essays in an open scholarly practice
 
-The case for essays as scholarship becomes stronger when viewed through the lens of emergent scholarship—an approach that reimagines how scholarly work might function in a complex, interconnected world.
+The case for essays as scholarship becomes stronger when viewed through a more open, networked conception of scholarly work — one that reimagines how knowledge creation might function in a complex, interconnected world.
 
-One of the [[content/principles.md|core principles]] of emergent scholarship is that **meaning emerges through medium**. The form of expression fundamentally shapes how knowledge is understood. Different formats reveal different aspects of complex phenomena. The medium itself contains meaning beyond the explicit content.
+Central to this view is the principle that **meaning emerges through medium**. The form of expression fundamentally shapes how knowledge is understood. Different formats reveal different aspects of complex phenomena. The medium itself contains meaning beyond the explicit content.
 
 The essay embodies this principle. Its form—discursive, exploratory, personal—enables a kind of thinking that the structured research article does not support. Essays allow scholars to write their way toward understanding rather than reporting conclusions already reached. They make space for uncertainty, for provisional claims, for the tentative connections that might later become research questions.
 
 ## What essays can do
 
-This is not an argument for placing reflective essays in the same category as randomised controlled trials. Different forms of scholarship serve different purposes. But well-crafted essays deserve recognition as scholarly work because they:
+This is not an argument for placing reflective essays in the same category as randomised controlled trials. Different forms of scholarship serve different purposes. But well-crafted essays deserve recognition as scholarly work.
 
-- **Explore ideas that don't yet exist as testable hypotheses**. Essays can articulate emerging intuitions, identify gaps in current thinking, and propose framings that later research might examine.
-- **Synthesise across boundaries**. The essay can bring together insights from disparate fields, integrating knowledge in ways that disciplinary silos resist.
-- **Engage broader audiences**. Scholarship that remains locked within academic journals fails to fulfil its potential for societal impact. Essays offer a bridge.
-- **Model intellectual humility**. The essay's provisional quality—its acknowledgement that these are thoughts-in-progress—demonstrates a mode of scholarly engagement that complements the confident claims of empirical research.
-- **Preserve the humanity of scholarship**. In an era of increasing automation and AI-generated content, essays written with genuine voice and perspective maintain the fundamentally human character of intellectual inquiry.
+Essays can articulate emerging intuitions, identify gaps in current thinking, and propose framings that later research might examine — exploring ideas before they exist as testable hypotheses. They can bring together insights from disparate fields, integrating knowledge in ways that disciplinary silos resist.
+
+Scholarship that remains locked within academic journals fails to fulfil its potential for societal impact; essays offer a bridge to broader audiences. Their provisional quality — the acknowledgement that these are thoughts-in-progress — models a mode of scholarly engagement that complements the confident claims of empirical research. And in an era of increasing automation and AI-generated content, essays written with genuine voice and perspective maintain the fundamentally human character of intellectual inquiry.
 
 ## Essays in a scholarly ecosystem
 
@@ -77,7 +77,7 @@ A more generous conception of scholarship would recognise multiple valid forms, 
 
 The sterile uniformity of traditional publication formats has served us reasonably well for standardising knowledge production. But standardisation comes at a cost. When we optimise for one kind of output, we systematically undervalue others. We create incentives that push scholars toward conformity rather than creativity, toward measurement rather than meaning.
 
-Essays—thoughtful, well-designed, intellectually rigorous essays—deserve to be incorporated into the corpus of scholarly work. Not as a lesser form of scholarship, but as a different form. One that enables us to explore ideas and practices that don't yet exist, to make connections that formal research cannot yet test, and to engage audiences that traditional academic publishing fails to reach.
+Essays—thoughtful, well-designed, intellectually rigorous essays—deserve to be incorporated into the corpus of scholarly work. The current hierarchy doesn't just exclude a format; it narrows the questions we can ask, the audiences we can reach, and the kinds of thinking we can legitimately pursue.
 
 ---
 

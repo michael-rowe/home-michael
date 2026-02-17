@@ -30,11 +30,13 @@ tags:
   - vector-database
 doi: ""
 related:
-  - "[[Essays/documentation-as-infrastructure]]"
-  - "[[Essays/context-sovereignty]]"
   - "[[model context protocol]]"
-  - "[[Notes/higher-education-reference-model]]"
-  - "[[Notes/AI-forward]]"
+  - "[[higher education reference model|Higher Education Reference Model]]"
+  - "[[AI-forward]]"
+  - "[[documentation-as-infrastructure]]"
+  - "[[context-sovereignty]]"
+  - "[[context sovereignty]]"
+  - "[[2026-beyond-document-management]]"
 draft: false
 category:
   - Curriculum
@@ -62,15 +64,15 @@ Professional curricula are comprehensively documented but not systematically que
 
 ## Artificial scarcity in curriculum structure
 
-Professional education curricula — in medicine, nursing, allied health, and other regulated disciplines — are comprehensively documented across hundreds of module specifications, teaching plans, and assessments. Yet when curriculum teams must demonstrate competency coverage for regulatory audits, answer questions about prerequisite chains, or identify assessment gaps, current systems require manual document review consuming days or weeks of staff time. This reflects a lack of curriculum agility—the capacity for institutions to act responsibly and rapidly on change and expectations (Brink et al., 2021).
+Professional education curricula — in medicine, nursing, allied health, and other regulated disciplines — are comprehensively documented across hundreds of module specifications, teaching plans, and assessments. Yet when curriculum teams must demonstrate competency coverage for regulatory audits, answer questions about prerequisite chains, or identify assessment gaps, current systems require manual document review consuming days or weeks of staff time. This reflects a lack of curriculum agility—the capacity for institutions to act responsibly and rapidly on change and expectations (Brink et al., 2021 [[Brink-et-al-2021-curriculum-agility|Annotation]]).
 
 The core issue is a mismatch between what exists and what is accessible. Curricula have explicit structure: hierarchical organisation (programmes → modules → sessions → learning outcomes), prerequisite relationships, competency mappings, comprehensive content documentation. This structure exists in documents and staff knowledge, but not as queryable data. Staff who created this structure cannot efficiently access it for verification or compliance reporting. A companion essay examines this pattern in broader institutional terms, arguing that documentation undergoes a category shift — from reference material to operational architecture — when AI agents become consumers of institutional knowledge (Rowe, 2026). This essay focuses on the specific architectural response for professional curricula.
 
-Professional education in regulated disciplines presents this problem in its sharpest form. Regulatory bodies require institutions to demonstrate — with specific evidence — that every mandated competency receives adequate teaching and assessment coverage. The hierarchical structure, typed relationships (prerequisite dependencies, competency mappings, assessment coverage), and compliance requirements make professional curricula naturally suited to graph-based representation where relationships are first-class entities rather than implicit connections buried in prose. Knowledge graphs are increasingly recognised as tools for curriculum design, enabling institutions to map learning objectives to competencies and identify structural gaps (Abu-Salih & Alotaibi, 2024), and have been characterised as "pivotal tools for connecting knowledge points across courses" in higher education (Wang et al., 2025).
+Professional education in regulated disciplines presents this problem in its sharpest form. Regulatory bodies require institutions to demonstrate — with specific evidence — that every mandated competency receives adequate teaching and assessment coverage. The hierarchical structure, typed relationships (prerequisite dependencies, competency mappings, assessment coverage), and compliance requirements make professional curricula naturally suited to graph-based representation where relationships are first-class entities rather than implicit connections buried in prose. Knowledge graphs are increasingly recognised as tools for curriculum design, enabling institutions to map learning objectives to competencies and identify structural gaps (Abu-Salih & Alotaibi, 2024 [[Abu-Salih-et-al-2024-a-systematic-literature-review-of-knowledge-graph-construction|Annotation]]), and have been characterised as "pivotal tools for connecting knowledge points across courses" in higher education (Wang et al., 2025).
 
 Current systems make this structural information inaccessible through technical limitations. Document-based approaches cannot expose relationships between curriculum elements. Even purpose-built curriculum management systems focus on documentation workflow rather than enabling structural queries. Staff cannot ask "show me all assessment touchpoints for prescribing safety competency across prerequisite chains" because infrastructure does not support relationship traversal. The structure exists — module specifications list prerequisites, learning outcomes map to competencies — but exists in prose requiring human interpretation rather than computational querying.
 
-This reflects a broader need to move from ad hoc tool use toward curriculum models that leverage learning technologies as a foundational component of higher education infrastructure (Gosper & Ifenthaler, 2013). This architecture particularly suits what we term [[AI-forward]] institutions — those treating AI integration as ongoing strategic practice requiring active engagement with evolving technologies, rather than fixed deployment of finished solutions. The infrastructure proposed here enables such institutions to control their technological direction while acknowledging the ongoing engagement this requires.
+This reflects a broader need to move from ad hoc tool use toward curriculum models that leverage learning technologies as a foundational component of higher education infrastructure (Gosper & Ifenthaler, 2013 [[Gosper-Ifenthaler-2013-curriculum-models-for-the-21st-century|Annotation]]). This architecture particularly suits what we term [[AI-forward]] institutions — those treating AI integration as ongoing strategic practice requiring active engagement with evolving technologies, rather than fixed deployment of finished solutions. The infrastructure proposed here enables such institutions to control their technological direction while acknowledging the ongoing engagement this requires.
 
 
 ## Current approaches and their limitations
@@ -92,7 +94,7 @@ The common thread across all these approaches is that rich structural knowledge 
 
 The solution requires infrastructure supporting queries over typed relationships, not merely content search. To understand why, consider what a quality assurance officer actually needs to do when verifying that a prescribing safety competency has adequate assessment coverage across a programme. They need to identify which learning outcomes address that competency, then trace which assessments test those outcomes, then check whether the modules containing those assessments have appropriate prerequisites. This is a *traversal* problem — following a chain of typed relationships from competency through outcomes through assessments through modules — and it is fundamentally different from a *search* problem. Finding content "about prescribing" through keyword or semantic search does not verify structural coverage. It tells you where prescribing is mentioned; it does not tell you whether the structural chain from competency to assessment is complete.
 
-Graph databases make relationships first-class entities that can be traversed, filtered, and aggregated, enabling precisely these structural queries. By integrating diverse information sources and making relationships explicit, knowledge graphs provide a common vision for institutional data (Ehrlinger & Wöß, 2016). As Xiao (2023) notes, graph databases "enable complex relationships between entities to be processed effectively" in educational contexts, offering substantial advantages over relational databases as the number and depth of relationship traversals increases.
+Graph databases make relationships first-class entities that can be traversed, filtered, and aggregated, enabling precisely these structural queries. By integrating diverse information sources and making relationships explicit, knowledge graphs provide a common vision for institutional data (Ehrlinger & Wöß, 2016 [[Ehrlinger-Woss-2016-towards-a-definition-of-knowledge-graphs|Annotation]]). As Xiao (2023) notes, graph databases "enable complex relationships between entities to be processed effectively" in educational contexts, offering substantial advantages over relational databases as the number and depth of relationship traversals increases.
 
 ### Three-layer infrastructure
 
@@ -179,7 +181,7 @@ This flexibility carries responsibilities. Institutions adopting this architectu
 
 Institutions do not start from nothing. They have existing curriculum management systems, documents in repositories, VLE structures, and spreadsheet-based mappings. The transition involves extracting structured data from current systems, transforming it to graph-compatible format, validating extracted relationships through faculty review, and gradually shifting workflows to graph-native tools.
 
-This requires phased implementation over 18–24 months, following a defined process for knowledge graph development that includes extraction, transformation, and validation (Tamašauskaitė & Groth, 2023). Early phases focus on data extraction and populating the graph database while existing systems continue operating normally. Middle phases introduce query interfaces for staff to explore curriculum structure without changing their working practices. Later phases shift curriculum modification workflows to graph-native tools, making the graph the source of truth with documents generated from it. Parallel operation during transition is essential — staff will not abandon familiar systems until new infrastructure demonstrably improves their work.
+This requires phased implementation over 18–24 months, following a defined process for knowledge graph development that includes extraction, transformation, and validation (Tamašauskaitė & Groth, 2023 [[Tamasauskaite-Groth-2023-defining-a-knowledge-graph-development-process|Annotation]]). Early phases focus on data extraction and populating the graph database while existing systems continue operating normally. Middle phases introduce query interfaces for staff to explore curriculum structure without changing their working practices. Later phases shift curriculum modification workflows to graph-native tools, making the graph the source of truth with documents generated from it. Parallel operation during transition is essential — staff will not abandon familiar systems until new infrastructure demonstrably improves their work.
 
 *The phases and timelines for transition are necessarily institution-specific, depending on existing systems, data quality, and technical capacity; the 18–24 month arc described here is indicative rather than prescriptive.*
 
@@ -211,27 +213,27 @@ This requires the kind of sustained institutional commitment that goes beyond de
 
 ## References
 
-Abu-Salih, B., & Alotaibi, S. (2024). A systematic literature review of knowledge graph construction and application in education. *Heliyon*, *10*(3), e25383. https://doi.org/10.1016/j.heliyon.2024.e25383
+Abu-Salih, B., & Alotaibi, S. (2024). A systematic literature review of knowledge graph construction and application in education. *Heliyon*, *10*(3), e25383. https://doi.org/10.1016/j.heliyon.2024.e25383 [[Abu-Salih-et-al-2024-a-systematic-literature-review-of-knowledge-graph-construction|Annotation]]
 
 Anthropic. (2024, November 25). Introducing the Model Context Protocol. https://www.anthropic.com/news/model-context-protocol
 
 Biggs, J. B., & Tang, C. (2011). *Teaching for quality learning at university* (4th ed.). Society for Research into Higher Education & Open University Press.
 
-Brink, S., Ehrlinger, L., & Wöß, W. (2021). Curriculum Agility: Responsive Organization, Dynamic Content, and Flexible Education. *IEEE Frontiers in Education Conference (FIE)*. https://doi.org/10.1109/FIE49875.2021.9637255
+Brink, S., Ehrlinger, L., & Wöß, W. (2021). Curriculum Agility: Responsive Organization, Dynamic Content, and Flexible Education. *IEEE Frontiers in Education Conference (FIE)*. https://doi.org/10.1109/FIE49875.2021.9637255 [[Brink-et-al-2021-curriculum-agility|Annotation]]
 
 Carless, D., & Winstone, N. (2023). What feedback literate teachers do: an empirically-derived competency framework. *Higher Education*, *86*(6), 1433–1451. https://doi.org/10.1007/s10734-022-00979-5
 
 CAUDIT. (2025). *Higher Education Reference Models (HERM), version 3.2.0*. https://www.caudit.edu.au/communities/caudit-higher-education-reference-models/
 
-Ehrlinger, L., & Wöß, W. (2016). Towards a Definition of Knowledge Graphs. *SEMANTiCS*.
+Ehrlinger, L., & Wöß, W. (2016). Towards a Definition of Knowledge Graphs. *SEMANTiCS*. [[Ehrlinger-Woss-2016-towards-a-definition-of-knowledge-graphs|Annotation]]
 
-Gosper, M., & Ifenthaler, D. (Eds.). (2013). *Curriculum models for the 21st century: using learning technologies in higher education*. Springer Science & Business Media.
+Gosper, M., & Ifenthaler, D. (Eds.). (2013). *Curriculum models for the 21st century: using learning technologies in higher education*. Springer Science & Business Media. [[Gosper-Ifenthaler-2013-curriculum-models-for-the-21st-century|Annotation]]
 
 Hilliger, I., Miranda, C., Celis, S., & Perez-Sanagustin, M. (2024). Curriculum analytics adoption in higher education: A multiple case study engaging stakeholders in different phases of design. *British Journal of Educational Technology*, *55*(3), 785–801. https://doi.org/10.1111/bjet.13374
 
 Rowe, M. (2026). Documentation becomes infrastructure when AI agents are the readers. https://michael-rowe.github.io/home-michael/Essays/documentation-as-infrastructure/
 
-Tamašauskaitė, R., & Groth, P. (2023). Defining a Knowledge Graph Development Process Through a Systematic Review. *ACM Computing Surveys*. https://doi.org/10.1145/3592624
+Tamašauskaitė, R., & Groth, P. (2023). Defining a Knowledge Graph Development Process Through a Systematic Review. *ACM Computing Surveys*. https://doi.org/10.1145/3592624 [[Tamasauskaite-Groth-2023-defining-a-knowledge-graph-development-process|Annotation]]
 
 UCISA. (2025). *Higher Education Reference Models*. https://www.ucisa.ac.uk/groups/enterprise-architecture/herm
 

@@ -3,11 +3,8 @@ title: AI literacy
 type: note
 aliases:
   - AI literacy framework
-description: >-
-  AI literacy is a multidimensional capability spanning recognition, critical
-  evaluation, functional application, creation, ethical awareness, and
-  contextual judgement—not reducible to any single dimension.
-author: '[[Michael Rowe]]'
+description: AI literacy is a multidimensional capability spanning recognition, critical evaluation, functional application, creation, ethical awareness, and contextual judgement, and is not reducible to any single dimension.
+author: "[[Michael Rowe]]"
 date: 2026-01-29
 updated: 2026-01-30
 tags:
@@ -15,13 +12,13 @@ tags:
 category:
   - AI and technology
 related:
-  - '[[common architecture of literacy]]'
-  - '[[AI literacy development framework]]'
+  - "[[common architecture of literacy]]"
+  - "[[AI literacy development framework]]"
 draft: false
-permalink: ''
+permalink: ""
 enableToc: true
 cssclasses:
-  - ''
+  - ""
 ---
 
 > [!info] More than prompting, more than ethics
