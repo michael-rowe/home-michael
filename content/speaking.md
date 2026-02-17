@@ -103,23 +103,7 @@ As AI systems become more capable at diagnosis, empathy, and clinical reasoning,
 
 ---
 
-## Past talks (selected)
+## Past presentations
 
-### Beyond document management: Graph infrastructure for professional education curricula
-**Advance HE AI symposium** | Online | 10 February 2026
-
-We propose a three-layer architecture using graph databases as the source of truth for curriculum structure, supported by vector databases for content retrieval and the Model Context Protocol for stakeholder interfaces. This approach makes curriculum structure explicitly queryable while preserving essential pedagogical mediation.
-
-[[Presentations/2026-beyond-document-management|Slides and abstract]] · [Credential](https://credentials.advance-he.ac.uk/995f0284-63df-4d04-bd17-eb9b38b7020d#acc.Rjn76Vxr)
-
-<!--
-Example format for past talks:
-
-### Talk title
-**Event name** · Location · Date
-
-Brief description or key themes.
-
-[Slides](#) · [Recording](#) · [Write-up](#)
--->
+A full list of past presentations, with slides and abstracts where available, is on the [[Presentations/index|presentations page]].
 
