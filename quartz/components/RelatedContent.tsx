@@ -4,6 +4,14 @@ import { FullSlug, resolveRelative, simplifySlug } from "../util/path"
 import { byDateAndAlphabetical } from "./PageList"
 import { getDate } from "./Date"
 
+const typeConfig: Record<string, { icon: string }> = {
+  post: { icon: "ph-pencil-simple" },
+  note: { icon: "ph-note" },
+  essay: { icon: "ph-file-text" },
+  presentation: { icon: "ph-presentation" },
+  lesson: { icon: "ph-book-open" },
+}
+
 const RelatedContent: QuartzComponent = ({
   fileData,
   allFiles,
@@ -170,16 +178,21 @@ function renderSection(
     <section class="related-content" aria-label="Related content">
       <h3>Continue reading</h3>
       <ul>
-        {items.map((item) => (
+        {items.map((item) => {
+          const itemType = item.frontmatter?.type as string | undefined
+          const iconClass = itemType && typeConfig[itemType] ? typeConfig[itemType].icon : null
+          return (
           <li>
             <a href={resolveRelative(currentSlug, item.slug!)} class="internal">
+              {iconClass && <i class={`ph ${iconClass} related-type-icon related-type-icon--${itemType}`}></i>}
               {item.frontmatter?.title}
             </a>
             {item.frontmatter?.description && (
               <p class="related-description">{item.frontmatter.description as string}</p>
             )}
           </li>
-        ))}
+          )
+        })}
       </ul>
     </section>
   )
@@ -187,9 +200,8 @@ function renderSection(
 
 RelatedContent.css = `
 .related-content {
-  margin-top: 2rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--lightgray);
+  margin-top: 1rem;
+  padding-top: 0;
 
   h3 {
     font-size: 0.9rem;
@@ -214,9 +226,23 @@ RelatedContent.css = `
       font-weight: 500;
       color: var(--secondary);
       text-decoration: none;
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0.3em;
 
       &:hover {
         text-decoration: underline;
+      }
+
+      .related-type-icon {
+        font-size: 0.9em;
+        flex-shrink: 0;
+        opacity: 0.7;
+
+        &.related-type-icon--note { color: var(--note-color); }
+        &.related-type-icon--essay { color: var(--tertiary); }
+        &.related-type-icon--presentation { color: var(--presentation-color); }
+        &.related-type-icon--lesson { color: var(--course-color); }
       }
     }
 
