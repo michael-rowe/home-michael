@@ -1,9 +1,10 @@
 ---
-title: What does scholarship sound like?
+title: "Podcasts as scholarship: what does it sound like?"
 type: post
 aliases:
   - Audio scholarship
   - Podcasts as scholarship
+  - posts/audio-scholarship
 description: >-
   Academic publishing has converged on the written journal article as the
   dominant form of scholarly output, but knowledge has always been transmitted
@@ -15,21 +16,29 @@ description: >-
   considers what it would take for academic culture to broaden its definition of
   what counts.
 meta-description: >-
-  Audio scholarship—podcasts, dialogues, oral histories—deserves recognition as
-  legitimate scholarly work. Format matters less than quality of thinking.
-keyphrase: audio scholarship
+  Podcasts as scholarship deserve recognition as legitimate scholarly work.
+  Format matters less than the quality of thinking behind it.
+keyphrase: podcasts as scholarship
 author: '[[Michael Rowe]]'
 date: 2026-01-27
 updated: 2026-02-04
 tags:
   - publishing
+  - open-scholarship
+  - academic-practice
+  - peer-review
 category:
   - Scholarship
 related:
-  - '[[2026-01-29-essays-as-scholarship]]'
+  - '[[Essays as scholarship]]'
 draft: false
-slug: audio-scholarship
+slug: posts/podcasts-as-scholarship
 enableToc: true
+reviewed:
+  - writing_style
+  - blog_writer
+  - copy_editor
+  - SEO_optimiser
 ---
 > [!info] Scholarship is not defined by its format
 > Audio reveals dimensions of knowledge that text obscures—hesitation, emphasis, the way experts navigate uncertainty in real time. If scholarship involves rigorous investigation and contribution to knowledge, then the form matters less than the quality of thinking it embodies.
@@ -38,15 +47,15 @@ The PDF is the dominant format for scholarly communication. We write articles, f
 
 What if we took this seriously? What would it mean to recognise audio scholarship—podcasts, recorded dialogues, oral histories—as legitimate scholarly output?
 
-## The case for audio scholarship
+## The case for podcasts as scholarship
 
-Research councils and funding bodies have begun recognising creative outputs as scholarly work. The logic is sound: if scholarship involves rigorous investigation, critical analysis, and contribution to knowledge, then the form of the output matters less than the quality of the thinking it embodies. A well-crafted documentary, a thoughtfully designed exhibition, or a carefully produced podcast can demonstrate scholarly rigour just as much as a journal article.
+Research councils and funding bodies have begun recognising creative outputs as scholarly work. The logic is sound: what matters is the quality of the thinking, not the format through which it's communicated. A well-crafted documentary, a thoughtfully designed exhibition, or a carefully produced podcast can demonstrate scholarly rigour just as much as a journal article.
 
 This recognition opens space for formats that have been historically marginalised. Audio scholarship—podcasts, recorded lectures, oral histories, sound-based research—deserves consideration as part of this broader rethinking of what counts.
 
 There are good reasons to take audio seriously as a scholarly medium:
 
-1. **Access**: Audio enables scholars to contribute who, for legitimate reasons, may not write traditional academic papers. Some ideas are better spoken than written. Some voices are excluded by the conventions of academic prose.
+1. **Access**: Audio enables scholars who, for legitimate reasons, may not write traditional academic papers to contribute. Some ideas are better spoken than written. Some voices are excluded by the conventions of academic prose.
 2. **Diversity**: Audio can be produced in any language, preserving the cadence, idiom, and cultural texture that translation often loses. It can include voices that academic writing typically filters out.
 3. **Conversation as knowledge creation**: Dialogue generates ideas that neither participant would have reached alone. The best scholarly conversations are genuinely generative—new understanding emerges from the interaction itself.
 4. **Reach**: Well-produced audio can engage audiences far beyond those who read academic papers. This matters if we believe scholarship should contribute to public understanding.
@@ -76,17 +85,17 @@ Each of these can be realised through audio:
 
 ## Audio in an age of AI
 
-The landscape has shifted dramatically. AI can now generate podcast-style discussions from documents, complete with synthetic voices that sound remarkably human. Services can transcribe and summarise audio instantly. The technical barriers to producing and consuming audio scholarship have largely dissolved.
+The landscape has shifted dramatically. [[large language models|AI]] can now generate podcast-style discussions from documents, complete with synthetic voices that sound remarkably human. Services can transcribe and summarise audio instantly. The technical barriers to producing and consuming audio scholarship have largely dissolved.
 
 This creates both opportunities and risks. On one hand, the tools for creating audio scholarship are more accessible than ever. Scholars can record, edit, publish, and distribute without expensive equipment or specialised skills. AI can assist with transcription, translation, and discoverability.
 
-On the other hand, the ease of production raises questions about quality. If anyone can generate a podcast in minutes, what distinguishes scholarly audio from content? The answer lies where it always has: in the rigour of the thinking, the depth of engagement, and the accountability to a scholarly community.
+On the other hand, the ease of production raises questions about quality. If anyone can generate a podcast in minutes, what distinguishes scholarly audio from mere content? The answer lies where it always has: in the rigour of the thinking, the depth of engagement, and the accountability to a scholarly community.
 
 AI-generated audio that summarises existing papers is useful but not itself scholarship. Genuine audio scholarship involves original thought, critical engagement, and contribution to knowledge—regardless of what tools were used to produce it.
 
 ## The form shapes the knowledge
 
-The principle that meaning emerges through medium applies directly here. The format of expression is not neutral. It shapes what can be said and how it is understood.
+The format of expression is not neutral. It shapes what can be said and how it is understood.
 
 Audio reveals dimensions of knowledge that text obscures. A recorded conversation shows how experts navigate uncertainty, change their minds, and build on each other's ideas in real time. It preserves the tentativeness that written prose often edits out. It demonstrates that knowledge is produced by people thinking together, not delivered fully-formed from authoritative sources.
 
@@ -109,9 +118,9 @@ A workflow might look like this:
 
 This model respects the distributed nature of audio publishing while providing the quality signals that institutions currently require. It could extend to other formats too—video essays, interactive visualisations, annotated datasets.
 
-The point is not to force new formats into old structures but to find ways of recognising quality across formats. Peer review adapted for audio might look different from peer review for articles—perhaps more dialogic, perhaps involving response episodes rather than written comments. The principle remains: scholarly work is work that can be evaluated by a community of peers.
+The point is not to force new formats into old structures but to find ways of recognising quality across different media. Peer review adapted for audio might look different from peer review for articles—perhaps more dialogic, perhaps involving response episodes rather than written comments. The principle remains: scholarly work is work that can be evaluated by a community of peers.
 
-## Conclusion
+## What scholarship sounds like
 
 What does scholarship sound like? It sounds like experts thinking together. It sounds like uncertainty navigated in real time. It sounds like knowledge in the making rather than knowledge already made.
 

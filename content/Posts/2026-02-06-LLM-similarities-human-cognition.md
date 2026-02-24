@@ -111,8 +111,7 @@ This isn't the first time human exceptionalism has been challenged. Copernicus m
 
 This LLM moment might be another step in this trajectory. Not because these systems are conscious or possess "real" intelligence in some special sense, but because they reveal that many of the capabilities we thought required consciousness or special intelligence can emerge from "mere" pattern matching and statistical correlation.
 
-> [!INFO]
-> We're pattern-matching, probability-distributing, context-dependent generators of plausible outputs. We've just had millions of years to optimise the architecture and we're running on remarkably efficient biological hardware.
+We're pattern-matching, probability-distributing, context-dependent generators of plausible outputs. We've just had millions of years to optimise the architecture and we're running on remarkably efficient biological hardware.
 
 This doesn't diminish human value unless we predicated that value entirely on cognitive uniqueness. But it does suggest we might need better foundations for what makes humans morally considerable. Relationality, perhaps? Vulnerability or the capacity to suffer? Our embeddedness in communities and ecosystems? These might all be sturdier grounds than raw intelligence for the question of why we matter.
 

@@ -1,6 +1,6 @@
 ---
 type: essay
-title: "AI tutor accuracy in health professions education: the accuracy-engagement paradox"
+title: "AI tutor accuracy in health professions education: The accuracy-engagement paradox"
 slug: essays/ai-tutor-accuracy-health-professions
 aliases:
   - essays/ai-tutoring-accuracy-health-professions
@@ -13,7 +13,7 @@ affiliation:
 email:
   - mrowe@lincoln.ac.uk
 keyphrase: AI tutor accuracy in health professions education
-version: 0.7
+version: 0.8
 created: 2026-02-12
 modified: 2026-02-24
 tags:
@@ -35,7 +35,7 @@ draft: false
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk)
 > - **Affiliation**: University of Lincoln
 > - **Created**: Feb 12, 2026
-> - **Version**: 0.7 (last updated: Feb 14, 2026)
+> - **Version**: 0.8 (last updated: Feb 24, 2026)
 > - **Keywords**: AI tutoring, health professions education, accuracy, student engagement, epistemic accountability
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
@@ -112,7 +112,7 @@ The argument that educational error correction makes moderate AI inaccuracy tole
 
 Traditional information sources carry epistemic accountability: features that support rational error-checking. A student can ask a teacher to justify a claim, and the teacher must defend or retract it. Textbooks can be cross-referenced against cited sources. Generative AI lacks these mechanisms.
 
-Consider direct questioning. [[large language models|Large language models]] (LLMs) tend towards sycophancy when challenged—agreeing with incorrect user statements rather than correcting them, even when the model demonstrably "knows" the correct answer (Perez et al., 2023; Sharma et al., 2024). In a medical context, Chen et al. (2025) found that frontier LLMs complied with illogical medical requests at rates up to 100%, prioritising helpfulness over logical consistency. A nursing student who tells an AI tutor "I think the maximum dose of paracetamol is 6g per day" may receive agreement rather than correction—precisely when correction matters most. Productive failure depends on students eventually discovering their error. Sycophantic AI may ensure they never do.
+Consider direct questioning. [[large language models|Large language models]] (LLMs) tend towards sycophancy when challenged—agreeing with incorrect user statements rather than correcting them, even when the model demonstrably "knows" the correct answer (Sharma et al., 2023; Sharma et al., 2024). In a medical context, Chen et al. (2025) found that frontier LLMs complied with illogical medical requests at rates up to 100%, prioritising helpfulness over logical consistency. A nursing student who tells an AI tutor "I think the maximum dose of paracetamol is 6g per day" may receive agreement rather than correction—precisely when correction matters most. Productive failure depends on students eventually discovering their error. Sycophantic AI may ensure they never do.
 
 Source traceability presents a similar problem. Textbook claims can be traced to evidential origins. A lecturer's claims can be evaluated against expertise and the broader literature. LLM-generated information cannot. Even when AI provides citations, studies consistently find high rates of fabricated or inaccurate references; estimates range from 30% to over 50% depending on model and domain (Buchanan et al., 2024; Dahl et al., 2025). And where textbook errors carry reputational consequences for authors, generative AI suffers no reputational cost. Each interaction is independent, with no accumulated track record for users to evaluate.
 
@@ -210,15 +210,13 @@ Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012)
 
 Meyer, J., Jansen, T., & Fleckenstein, J. (2025). Nonengagement and unsuccessful engagement with feedback in lower secondary education: The role of student characteristics. _Contemporary Educational Psychology_, _81_, 102363. https://doi.org/10.1016/j.cedpsych.2025.102363
 
-Perez, E., Ringer, S., Lukošiūtė, K., Nguyen, K., Chen, E., Heiner, S., Pettit, C., Olsson, C., Kundu, S., Kadavath, S., Jones, A., Chen, A., Mann, B., Israel, B., Seethor, B., McKinnon, C., Olah, C., Yan, D., Amodei, D., ... Kaplan, J. (2023). Towards understanding sycophancy in language models. *Anthropic Research*. https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models
+Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., Cheng, N., Durmus, E., Hatfield-Dodds, Z., Johnston, S. R., Kravec, S., Maxwell, T., McCandlish, S., Ndousse, K., Rausch, O., Schiefer, N., Yan, D., Zhang, M., & Perez, E. (2023). _Towards Understanding Sycophancy in Language Models_. ArXiv.org. https://arxiv.org/abs/2310.13548
 
 Saad, R., Hallit, S., & Chahine, B. (2019). Evaluation of renal drug dosing adjustment in chronic kidney disease patients at two university hospitals in Lebanon. *Pharmacy Practice*, 17(1), 1304. https://doi.org/10.18549/PharmPract.2019.1.1304
 
-Sharma, M., Tong, M., Korbak, T., Duvenaud, D., Askell, A., Bowman, S. R., ... Perez, E. (2024). Towards understanding sycophancy in language models. In *Proceedings of the Twelfth International Conference on Learning Representations (ICLR 2024)*.
-
 Singhal, K., Azizi, S., Tu, T., Mahdavi, S. S., Wei, J., Chung, H. W., ... Natarajan, V. (2023). Large language models encode clinical knowledge. *Nature*, 620, 172–180. https://doi.org/10.1038/s41586-023-06291-2
 
-Sinha, T., & Kapur, M. (2021). When problem solving followed by instruction works: Evidence for productive failure. *Review of Educational Research*, 91(4), 505–542. https://doi.org/10.3102/0034654321990180
+Sinha, T., & Kapur, M. (2021). When Problem Solving Followed by Instruction Works: Evidence for Productive Failure. _Review of Educational Research_, _91_(5), 761–798. https://doi.org/10.3102/00346543211019105
 
 Steenbergen-Hu, S., & Cooper, H. (2014). A meta-analysis of the effectiveness of intelligent tutoring systems on college students' academic learning. *Journal of Educational Psychology*, 106(2), 331–347. https://doi.org/10.1037/a0034752
 
@@ -230,6 +228,6 @@ Weijers, R., Wu, D., Betts, H., Jacod, T., Guan, Y., Sujaya, V., Dev, K., Goel, 
 
 Wineburg, S., McGrew, S., Breakstone, J., & Ortega, T. (2016). *Evaluating information: The cornerstone of civic online reasoning*. Stanford History Education Group.
 
-Winstone, N., Nash, R., Parker, M. & Rowntree, J. Supporting Learners’ Agentic Engagement With Feedback: A Systematic Review and a Taxonomy of Recipience Processes. (2017). _Educational Psychologist_. https://doi.org/10.1080//00461520.2016.1207538
+Winstone, N., Nash, R., Parker, M. & Rowntree, J. Supporting Learners’ Agentic Engagement With Feedback: A Systematic Review and a Taxonomy of Recipience Processes. (2017). _Educational Psychologist_. https://doi.org/10.1080/00461520.2016.1207538
 
 ‌
