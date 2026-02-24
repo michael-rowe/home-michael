@@ -30,6 +30,11 @@ category:
   - AI and technology
   - Pedagogy
 draft: false
+reviewed:
+  - writing_style
+  - essay_writer
+  - copy_editor
+  - SEO_optimiser
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk)
