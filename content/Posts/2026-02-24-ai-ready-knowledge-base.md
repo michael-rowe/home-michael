@@ -1,7 +1,7 @@
 ---
 type: post
 title: Building an AI-ready knowledge base
-description: A detailed account of a week-long project to restructure 5,819 Obsidian notes using AI as a working partner. The project involved building a 23-category taxonomy, migrating thousands of legacy notes to a consistent metadata structure, and generating AI-written descriptions for every note in the collection. The piece describes not just what was done, but how extended planning conversations, external project documentation, and careful human review at each phase made the work tractable. The most unexpected outcome was that building infrastructure for a note collection required articulating, for the first time, how the author thinks about their academic field.
+description: A detailed account of a week-long project to restructure 5,819 Obsidian notes using AI as a working partner. The project involved building a 23-category taxonomy, migrating thousands of legacy notes to a consistent metadata structure, and generating AI-written descriptions for every note in the collection. The piece describes not just what was done, but how extended planning conversations, external project documentation, and careful human review at each phase made the work tractable. The most unexpected outcome was that building infrastructure for a note collection required articulating, for the first time, precisely how I think about my academic field.
 meta-description: "How I built an AI-ready knowledge base from 5,819 unstructured Obsidian notes: five phases, ten hours, and an unexpected outcome."
 keyphrase: AI-ready knowledge base
 author: "[[Michael Rowe]]"
