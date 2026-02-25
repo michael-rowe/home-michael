@@ -21,6 +21,11 @@ enableToc: true
 slug: posts/ai-collaboration-principles
 aliases:
   - posts/seven-principles-ai-collaboration
+reviewed:
+  - writing_style
+  - blog_writer
+  - copy_editor
+  - SEO_optimiser
 ---
 
 > [!info] Effective AI collaboration rewards habits you won't discover by accident.
