@@ -24,7 +24,8 @@ slug: posts/ai-agents-academic-workflow
 
 For the last few months, my working environment has looked roughly like this: [Obsidian](https://obsidian.md), the note-taking application where most of my writing and thinking lives, takes up about two-thirds of my screen. The remaining third is a terminal; the space where [[ai-agents|AI agents]] handle a significant portion of my academic workflow.
 
-![[terminal_window_split.png]]
+![[terminal_window_split.png|Split-screen working environment: Obsidian notes on the left, a terminal running AI agents on the right]]
+*Split-screen working environment: Obsidian on the left, a terminal running AI agents on the right.*
 
 A terminal is a text-based interface where you type instructions directly to a computer, or in this case, an AI agent; no menus, no buttons, no clicking through options. This is actually how I first learned to use a computer (i.e. before Windows existed), and it's interesting to reflect that this is now where a significant portion of my academic work gets done.
 
