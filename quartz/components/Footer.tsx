@@ -1,6 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { pathToRoot } from "../util/path"
 import style from "./styles/footer.scss"
+import { version } from "../../package.json"
 
 interface Options {
   author?: string
@@ -42,6 +43,15 @@ export default ((opts?: Options) => {
               Creative Commons Attribution 4.0 International License
             </a>
             .
+          </p>
+        </div>
+        <div class="quartz-attribution">
+          <p>
+            Created with{" "}
+            <a href="https://quartz.jzhao.xyz" target="_blank" rel="noopener noreferrer">
+              Quartz
+            </a>{" "}
+            v{version}
           </p>
         </div>
       </footer>
