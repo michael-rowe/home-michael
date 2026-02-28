@@ -23,7 +23,7 @@ slug: posts/claude-code-zotero-database
 > [!info] The database was always there
 > The most valuable data for AI-assisted research isn't in the cloud—it's already on your filesystem, encoded in the databases you've been managing for years. Querying your Zotero library directly shifts the context available to an AI agent from individual documents to your entire research history. Access is the easy part; what breaks immediately reveals how much your metadata practices actually matter.
 
-I've been using [[Claude code|Claude Code]] to read files on my computer for a couple of months now—mostly PDFs, markdown notes, and text files. Point it at a document, ask it to analyse, summarise, or cross-reference against something I'm writing. Useful, but not particularly remarkable.
+I've been using [[Claude Code|Claude Code]] to read files on my computer for a couple of months now—mostly PDFs, markdown notes, and text files. Point it at a document, ask it to analyse, summarise, or cross-reference against something I'm writing. Useful, but not particularly remarkable.
 
 Then I realised something that should have been obvious: it can read *any* file I have access to. Including databases.
 

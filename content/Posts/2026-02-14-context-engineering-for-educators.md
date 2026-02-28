@@ -73,7 +73,7 @@ The [[Model Context Protocol]] (MCP) is an open standard for connecting AI to ex
 
 ### Agentic systems
 
-AI is moving toward systems that plan multi-step tasks and coordinate with other agents. An agentic system might break a complex patient scenario into component tasks, retrieve guidelines, and identify reasoning gaps — all within one interaction. The challenge is not technical possibility, but how to design and govern the infrastructure supporting these systems.
+AI is moving toward systems that plan multi-step tasks and coordinate with other [[ai-agents|AI agents]]. An agentic system might break a complex patient scenario into component tasks, retrieve guidelines, and identify reasoning gaps — all within one interaction. The challenge is not technical possibility, but how to design and govern the infrastructure supporting these systems.
 
 ## Why context engineering matters
 

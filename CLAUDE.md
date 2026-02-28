@@ -428,18 +428,20 @@ slug: ""
 Approved vocabulary is defined in `content/personas/taxonomy.md`. **Always choose values from this list** — do not invent new terms when an existing one covers the concept.
 
 **Categories** (7 approved, pick 1–2 per piece):
-`AI and technology` · `Assessment` · `Curriculum` · `Pedagogy` · `Scholarship` · `Knowledge management` · `Professional development`
+`Technology` · `Assessment` · `Education` · `Teaching` · `Scholarship` · `Information management` · `Professional development`
 
 **Tags must use hyphens** — Obsidian does not support tags with spaces. Always use hyphenated form: `ai-agents` not `AI agents`, `context-engineering` not `context engineering`. The canonical forms are defined in `content/personas/taxonomy.md`.
 
 **Tags** (approved): see `content/personas/taxonomy.md` for the full list. Key clusters:
-- AI: `large-language-models`, `ai-literacy`, `ai-agents`, `ai-integration`, `generative-ai`, `context-engineering`, `retrieval-augmented-generation`, `machine-learning`, `model-context-protocol`, `vector-database`, `graph-database`
+- AI: `language-model`, `ai-literacy`, `agent`, `ai-integration`, `generative-ai`, `context-engineering`, `retrieval-augmented-generation`, `machine-learning`, `model-context-protocol`, `vector-database`, `graph-database`
 - Scholarship: `academic-writing`, `academic-practice`, `open-scholarship`, `publishing`, `peer-review`, `research-methods`, `emergent-scholarship`
-- Teaching/learning: `learning-design`, `feedback`, `learning-theory`, `critical-thinking`, `educational-technology`, `prompting`, `supervision`
+- Teaching/learning: `learning-design`, `feedback`, `learning-theory`, `critical-thinking`, `educational-technology`, `prompt-engineering`, `supervision`
 - Health professions: `health-professions-education`, `clinical-education`, `competency-frameworks`, `workplace-learning`
-- Knowledge: `note-taking`, `information-architecture`, `documentation`, `personal-knowledge-management`, `knowledge-graphs`
+- Knowledge: `note-taking`, `information-architecture`, `documentation`, `information-management`, `knowledge-graphs`
 
 **Adding new terms**: run `node scripts/validate-taxonomy.mjs` — it flags any unknown values and shows the exact line to add to `taxonomy.md`. Add the term there first, then use it in content.
+
+**Use canonical forms** (not these): `large-language-models` → `language-model`; `ai-agents` → `agent`; `personal-knowledge-management` → `information-management`; `curriculum-development` → `curriculum-design`; `research-methodology` → `research-methods`; `complexity-theory` → `complex-systems`; `career-strategy` → `career-development`; `prompting` → `prompt-engineering`. Full merge rules in `content/personas/taxonomy.md`.
 
 **Tags to avoid** (too broad, or duplicate a category): `ai`, `technology`, `learning`, `knowledge`, `teaching`, `education`, `practice`, `skills`, `scholarship`, `pedagogy`, `assessment` — use the category field or a more specific tag instead.
 
