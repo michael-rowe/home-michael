@@ -16,3 +16,9 @@ Published monthly (or when there's something worth sharing).
 
 <script async data-uid="bdaa9a9cdf" src="https://michael-rowe.kit.com/bdaa9a9cdf/index.js"></script>
 
+### Free guide for new subscribers
+
+<img src="Media/6_habits_guide.png" alt="Cover of Head Space: 6 Habits for Calm Academic Productivity" style="float: left; width: 30%; margin: 0 1.5rem 1rem 0;" />
+
+When you confirm your subscription, you'll get access to **6 Habits for Calm Academic Productivity**: A short, practical guide to the habits that support sustained academic work. No productivity-culture noise — just six things that actually help.
+
