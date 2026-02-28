@@ -2,9 +2,9 @@
 title: Home
 tab-title: /home/michael
 ---
-What does it mean to do scholarly work when the tools, contexts, and expectations keep shifting? This is my active platform for working through that question, through blog posts, essays, courses, and newsletters, at the intersection of AI and health professions education.
+What does it mean to do scholarly work when the tools, contexts, and expectations keep shifting? This is where I work through that question — through posts, essays, courses, and newsletters — mostly at the intersection of AI and health professions education.
 
-This site is an independent scholarly initiative—an intentional commitment to building something of value in the long term: an approach to scholarship that leverages collective intelligence, AI integration, and open-source methods to foster meaningful collaboration and knowledge creation.
+I'm an Associate Professor and Director of Teaching and Learning at the University of Lincoln, and this site is my attempt to build something of independent value: a long-term commitment to open scholarship that doesn't depend on institutional publishers or academic platforms.
 
 <div class="page-cta">
 
@@ -19,9 +19,9 @@ This site is an independent scholarly initiative—an intentional commitment to 
 <div class="featured-card">
 <div class="content-type content-type--post"><i class="ph ph-pencil-simple"></i><span>Post</span></div>
 
-[[2026-02-06-LLM-similarities-human-cognition|AI and human cognition: What if we're the language models?]]
+[[2026-02-24-ai-ready-knowledge-base|Building an AI-ready knowledge base]]
 
-What parallels between AI architecture and human thinking reveal about our cognitive processes — and why we resist acknowledging them.
+How I restructured 5,819 Obsidian notes using AI as a working partner — five phases, ten hours, and an outcome I didn't expect.
 
 </div>
 
@@ -51,4 +51,4 @@ Browse by [[formats|format]] or [[topics|topic]].
 
 ---
 
-This site is also a small act of resistance: a demonstration that independent academics can publish, share, and track the impact of their work without institutional publishers or platform dependency. If something here is useful, use it. If you want to respond, [[contact|get in touch]].
+If something here is useful, use it. If you want to respond to any of it, [[contact|get in touch]].

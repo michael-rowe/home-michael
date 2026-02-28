@@ -20,7 +20,7 @@ A living document of the tools and systems I use for academic work, writing, and
 
 ## Research and reading
 
-**[Vivaldi](https://vivaldi.com/)** — My primary browser. Highly customisable with good tab management and built-in features. I keep [Firefox](https://www.mozilla.org/firefox/) and [Chrome](https://www.google.com/chrome/) as alternatives, and occasionally experiment with [Brave](https://brave.com/).
+**[Zen](https://zen-browser.app/welcome/)** — My current primary browser, recently switched from Vivaldi. Firefox-based, minimal, and opinionated in ways I like. Still settling in.
 
 **[Ecosia](https://www.ecosia.org/)** — Search engine that plants trees. Good enough for almost all searches, and I like supporting the model.
 
