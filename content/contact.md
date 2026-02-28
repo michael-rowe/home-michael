@@ -5,12 +5,13 @@ enableToc: false
 
 <section class="contact-section">
 <div class="contact-intro">
-<p class="contact-description">Fill out the form below and I'll get back to you as soon as possible.</p>
+<p class="contact-description">Complete the form below and I'll get back to you as soon I can.</p>
 </div>
 <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
 <input type="hidden" name="access_key" value="98885db0-631f-4540-8f05-97902fa66a38" />
-<input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
-<input type="hidden" name="from_name" value="My Website" />
+<input type="hidden" name="subject" value="New contact form submission" />
+<input type="hidden" name="redirect" value="https://michael-rowe.github.io/home-michael/message-received" />
+<input type="hidden" name="from_name" value="/home/michael/" />
 <div class="form-group-container">
 <div class="form-group">
 <label for="name" class="form-label">Name</label>
@@ -19,10 +20,6 @@ enableToc: false
 <div class="form-group">
 <label for="email" class="form-label">Email</label>
 <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
-</div>
-<div class="form-group">
-<label for="phone" class="form-label">Phone</label>
-<input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
 </div>
 <div class="form-group">
 <label for="message" class="form-label">Message</label>
