@@ -16,6 +16,8 @@ Published monthly (or when there's something worth sharing).
 
 <script async data-uid="bdaa9a9cdf" src="https://michael-rowe.kit.com/bdaa9a9cdf/index.js"></script>
 
+*If the form doesn't appear (some Firefox-based browsers don't load the script), you can [subscribe directly here](https://michael-rowe.kit.com/bdaa9a9cdf).*
+
 ### Free guide for new subscribers
 
 <img src="Media/6_habits_guide.png" alt="Cover of Head Space: 6 Habits for Calm Academic Productivity" style="float: left; width: 30%; margin: 0 1.5rem 1rem 0;" />
