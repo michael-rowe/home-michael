@@ -1,12 +1,12 @@
 ---
-title: "Getting there from here: what AI agent workflows actually require"
+title: "Getting there from here: working effectively with AI agents"
 type: post
 author: "[[Michael Rowe]]"
 date: 2026-03-01
 updated: 2026-03-01
 description: "What does it actually take to work with AI agents in a disciplined way, and how does someone get there from where they are now? This post draws on thinking from developers who've been working through this question longer than most academic knowledge workers have, and translates the hard-won lessons across. Three prerequisites emerge: planning before handoff, documentation treated as infrastructure rather than record, and domain expertise sufficient to evaluate what agents produce. The path in isn't a course or a tutorial — it's building something real with stakes attached."
-meta-description: "What AI agent workflows actually require: planning before handoff, documentation as infrastructure, and domain expertise that can't be outsourced."
-keyphrase: what AI agent workflows actually require
+meta-description: "Working effectively with AI agents requires planning before handoff, documentation as infrastructure, and domain expertise that can't be outsourced."
+keyphrase: working effectively with AI agents
 enableToc: true
 draft: false
 tags:
@@ -16,7 +16,9 @@ tags:
   - academic-practice
 category:
   - Technology
-slug: posts/what-ai-agent-workflows-require
+slug: posts/working-effectively-with-ai-agents
+aliases:
+  - posts/what-ai-agent-workflows-require
 ---
 
 > [!info] The bottleneck in agent-first work is almost never the model
@@ -24,7 +26,7 @@ slug: posts/what-ai-agent-workflows-require
 
 The [previous post](posts/something-has-changed) described a shift in how I work: agents handling the execution layer, me operating at the direction layer, attentional bandwidth rather than model capability as the binding constraint. It ended by naming this as agent-first workflows and noting, briefly, that the conditions enabling it took years to accumulate — not as preparation for AI, but as a consequence of how I'd come to work.
 
-That observation raises an obvious question: what do AI agent workflows actually require, and how does someone get there from where they are now?
+That observation raises an obvious question: what does working effectively with AI agents actually require, and how does someone get there from where they are now?
 
 The honest answer is that the software world reached this question before academic knowledge workers did, and has been working out answers worth paying attention to. Not because academic knowledge work is the same as software development — it isn't — but because the structural challenge is similar enough that the hard-won lessons translate.
 
@@ -74,7 +76,7 @@ One concrete consequence is the collapse of waiting points. Tasks that previousl
 
 ---
 
-## Where to start with AI agent workflows
+## Where to start with AI agents
 
 Build something real. Not a demonstration, not an isolated experiment with no stakes attached — a project you actually need to complete, with outputs you will be accountable for. A piece of writing you've been deferring. A course redesign that's overdue. A literature review with a genuine deadline. The investment in context-building only makes sense when the project justifies it, and the learning that comes from real constraint is qualitatively different from what comes from tinkering.
 

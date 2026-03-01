@@ -1,6 +1,6 @@
 ---
-title: "Vibe coding"
-description: "Vibe coding describes using AI tools without maintaining genuine accountability for what they produce — accepting outputs without the scrutiny, direction, or judgment needed to evaluate and improve them. Simon Willison drew the key distinction: vibe coding versus vibe engineering, where the latter uses the same tools while remaining genuinely accountable for every output."
+title: Vibe coding
+description: "Vibe coding describes using AI tools without maintaining genuine accountability for what they produce; accepting outputs without the scrutiny, direction, or judgement needed to evaluate and improve them. Simon Willison drew the key distinction: vibe coding versus vibe engineering, where the latter uses the same tools while remaining genuinely accountable for every output."
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-03-01
@@ -16,8 +16,8 @@ category:
   - Technology
 related:
   - "[[context-engineering]]"
-  - "[[what-ai-agent-workflows-require]]"
-keyphrase: "vibe coding"
+  - "[[2026-03-01-what-ai-agent-workflows-require]]"
+keyphrase: vibe coding
 slug: notes/vibe-coding
 ---
 
