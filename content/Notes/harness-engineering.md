@@ -18,8 +18,8 @@ related:
   - "[[agentic workflows]]"
   - "[[vibe-coding]]"
   - "[[2026-02-26-ai-agents-academic-workflow]]"
-  - "[[ai-agent-governance-higher-education]]"
-keyphrase: "harness engineering"
+  - "[[2026-03-03-ai-agent-governance-higher-education]]"
+keyphrase: harness engineering
 slug: notes/harness-engineering
 ---
 
@@ -56,7 +56,7 @@ At the individual level, the three prerequisites for effective agent-first workf
 
 At institutional scale, that breaks. Multiple people directing agents without shared constraints produce compounding drift that no individual reviewer can track. The institutional equivalent requires the harness to be externalised: shared documentation structured for agent consumption, quality criteria written as computable rules, and feedback mechanisms that close the loop across parallel workstreams rather than within a single working session.
 
-This is what [[ai-agent-governance-higher-education|computable governance]] points toward: governance structured so it can be computed against, not just interpreted by committees. It is an architectural question, not a policy question.
+This is what [[2026-03-03-ai-agent-governance-higher-education|computable governance]] points toward: governance structured so it can be computed against, not just interpreted by committees. It is an architectural question, not a policy question.
 
 ---
 
