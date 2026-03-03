@@ -5,7 +5,7 @@ description: "For the last few months, my screen has been split between Obsidian
 meta-description: How AI agents for academic workflow change what the work actually is — less executing, more directing — and what made that shift possible.
 keyphrase: AI agents for academic workflow
 author: "[[Michael Rowe]]"
-date: 2026-02-26
+date: 2026-02-27
 updated: 2026-02-27
 tags:
   - agent
@@ -43,7 +43,7 @@ A few days ago I came across a thread on X by [Andrej Karpathy](https://x.com/ka
 
 Reading it, I had the experience of something clicking into focus that had been sitting just out of view. The point about "ascending the layers of abstraction" — moving up from executing tasks directly, to directing agents, to eventually orchestrating agents that themselves coordinate other agents — maps precisely onto what has been happening in my own practice, in a domain that has nothing to do with code.
 
-He made a another point that was equally useful: the bottleneck in this mode of working isn't model capability; it's attentional bandwidth i.e. your ability to maintain coherent direction across multiple parallel workstreams. Two agents running simultaneously feels natural. Three is manageable. Four starts to feel like I'm losing the thread. The constraint isn't what the models can do. It's how much I can hold in mind at once.
+Karpathy made another point that was equally insightful: the bottleneck in this mode of working isn't model capability. It's attentional bandwidth — your ability to maintain coherent direction across multiple parallel workstreams. Two agents running simultaneously feels natural. Three is manageable. Four starts to feel like I'm losing the thread. The constraint isn't what the models can do. It's how much I can hold in mind at once.
 
 ## The shift from doing to directing
 
@@ -73,7 +73,7 @@ The implication is worth stating directly: the same tools, brought to a differen
 
 ## A different structure for academic workflow
 
-I'm thinking of this shift as *[agent-first workflows](notes/agent-first-workflows)*; a mode of working where agents handle the execution layer and I provide the direction, rather than having AI assist at the margins of work I'm still doing myself.
+I'm thinking of this shift as *[agent-first workflows](agentic%20workflows.md)*; a mode of working where agents handle the execution layer and I provide the direction, rather than having AI assist at the margins of work I'm still doing myself.
 
 This is not an entirely new structure. Delegation has always existed, and the distinction between directing work and doing it has been part of every management layer in every organisation. What feels new is that this structure is now available to anyone working alone — not as a team, not with administrative support, but as one person coordinating the functional equivalent of several capable collaborators working in parallel across different projects, all under coherent human direction.
 

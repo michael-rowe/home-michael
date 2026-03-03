@@ -1,13 +1,13 @@
 ---
 type: note
-title: "AI agents"
-description: "An AI agent is a system that autonomously executes multi-step tasks using language model reasoning — distinct from an AI assistant, which responds to individual prompts. Agents plan, act, observe results, and adapt, using tools such as file access, code execution, and web search. They perform best when given clear goals, explicit constraints, and well-prepared context."
+title: AI agents
+description: An AI agent is a system that autonomously executes multi-step tasks using language model reasoning — distinct from an AI assistant, which responds to individual prompts. Agents plan, act, observe results, and adapt, using tools such as file access, code execution, and web search. They perform best when given clear goals, explicit constraints, and well-prepared context.
 author: "[[Michael Rowe]]"
 created: 2026-02-27
 updated: 2026-02-27
 status: draft
 draft: false
-keyphrase: "how AI agents work"
+keyphrase: how AI agents work
 slug: notes/ai-agents
 category: Technology
 tags:
@@ -15,7 +15,7 @@ tags:
   - language-model
   - ai-integration
 related:
-  - "[[agent-first-workflows]]"
+  - "[[agentic workflows]]"
   - "[[context-engineering]]"
 ---
 

@@ -16,7 +16,7 @@ category:
   - Technology
 related:
   - "[[context-engineering]]"
-  - "[[2026-03-01-what-ai-agent-workflows-require]]"
+  - "[[2026-03-01-working-effectively-with-ai-agents]]"
 keyphrase: vibe coding
 slug: notes/vibe-coding
 ---
