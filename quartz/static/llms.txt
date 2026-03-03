@@ -8,8 +8,10 @@ This site is maintained by Michael Rowe, an academic and researcher working on t
 
 - **AI Literacy Framework**: A comprehensive approach to developing AI literacy across six dimensions (access/recognition, critical evaluation, functional application, creation/communication, ethical awareness, contextual judgement)
 - **AI Literacy Course**: A developmental course for academics moving from foundation through substitution, adaptation, to transformation
-- **Essays and Analysis**: Scholarly writing on AI in education, learning alignment, taste and judgement in human-AI systems
+- **Essays and Analysis**: Scholarly writing on AI in education, learning alignment, taste and judgement in human-AI systems, institutional AI governance, and documentation as infrastructure
+- **Agentic workflow series**: Three posts on what changes when AI agents handle execution and humans operate at the direction layer — covering individual practice, prerequisites for effective delegation, and institutional governance
 - **Frameworks and Policies**: Practical resources including classroom AI policies and curriculum design frameworks
+- **Concept notes**: Atomic definitions of key ideas including agentic workflows, harness engineering, context engineering, vibe coding, and AI agents
 
 ## Primary audience
 
@@ -22,6 +24,15 @@ Health professions educators and those involved in developing practitioners at a
 - /Policies/classroom-policy-AI-use/ - Template classroom policy for AI use
 - /Notes/AI-literacy/ - Core concepts of AI literacy
 - /Essays/taste-and-judgement/ - Essay on taste and judgement in human-AI systems
+- /Essays/documentation-as-infrastructure/ - Essay on documentation as the infrastructure that makes agentic delegation coherent
+- /Essays/institutional-ai-governance/ - Essay on AI governance in higher education institutions
+- /posts/ai-agents-academic-workflow/ - Post 1: what agentic workflows look like in academic practice
+- /posts/working-effectively-with-ai-agents/ - Post 2: three prerequisites for effective agent-first work (plan, documentation as infrastructure, domain expertise)
+- /posts/ai-agent-governance-higher-education/ - Post 3: what AI agent governance requires at institutional scale; the harness concept
+- /Notes/agentic-workflows/ - Concept note: agentic workflows
+- /Notes/harness-engineering/ - Concept note: harness engineering (the architecture that makes delegation coherent)
+- /Notes/context-engineering/ - Concept note: context engineering
+- /Notes/vibe-coding/ - Concept note: vibe coding and its disciplined alternative
 
 ## Content structure
 
