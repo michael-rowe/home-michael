@@ -1,8 +1,8 @@
 ---
-title: "AI dependency in practice: when the tools become infrastructure"
+title: "AI dependency in practice: When the tools become infrastructure"
 type: post
 description: A field note on what the recent Claude outage revealed about where I am on the dependency curve, and what the difference between a session limit and an outage tells you about infrastructure.
-meta-description: The recent Claude outage exposed what AI dependency in practice actually means — not that I couldn't work, but that I couldn't plan.
+meta-description: The recent Claude outage exposed what AI dependency in practice actually means. It wasn't that I couldn't work, but that I couldn't plan.
 keyphrase: AI dependency in practice
 author: "[[Michael Rowe]]"
 date: 2026-03-04
@@ -25,7 +25,7 @@ aliases:
 subtype: field-note
 enableToc: false
 ---
-![[content/Media/claude_outage.png|Screenshot of the Claude status page during the March 2026 outage — the disruption that revealed what AI dependency in practice looks like when you can no longer plan your work]]
+![[claude_outage.png|Screenshot of the Claude status page during the March 2026 outage — the disruption that revealed what AI dependency in practice looks like when you can no longer plan your work]]
 
 Claude had intermittent outages over a couple of days this week; not a single dramatic failure, but hours at a time where it was unreliable or unavailable. Each time, I switched to Gemini, carried on working, and got through what I needed to. But the experience made something clear about AI dependency in practice: I'd crossed a threshold without noticing.
 
