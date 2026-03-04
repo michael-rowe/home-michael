@@ -51,4 +51,4 @@ Browse by [[formats|format]] or [[topics|topic]].
 
 ---
 
-If something here is useful, use it. If you want to respond to any of it, [[contact|get in touch]].
+If something here is useful, use it. If you spot a gap, an error, or something worth adding, [open an issue on GitHub](https://github.com/michael-rowe/home-michael/issues/new). If you want to respond to any of it, [[contact|get in touch]].
