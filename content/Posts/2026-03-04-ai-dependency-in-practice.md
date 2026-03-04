@@ -25,7 +25,7 @@ aliases:
 subtype: field-note
 enableToc: false
 ---
-![[claude_outage.png|Screenshot of the Claude status page during the March 2026 outage — the disruption that revealed what AI dependency in practice looks like when you can no longer plan your work]]
+![[claude_outage.png|Screenshot of the Claude status page during the March 2026 outage — the disruption that revealed what AI dependency in practice looks like when you can no longer plan your work|500]]
 
 Claude had intermittent outages over a couple of days this week; not a single dramatic failure, but hours at a time where it was unreliable or unavailable. Each time, I switched to Gemini, carried on working, and got through what I needed to. But the experience made something clear about AI dependency in practice: I'd crossed a threshold without noticing.
 

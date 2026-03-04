@@ -668,3 +668,8 @@ a.course-button {
     transition: none !important;
   }
 }
+
+// Centre images that are the sole content of a paragraph
+article p:has(> img:only-child) {
+  text-align: center;
+}
