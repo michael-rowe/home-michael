@@ -25,7 +25,7 @@ enableToc: false
 
 Yesterday Claude deleted a file. As per my instruction. Except I didn't want it to. My prompt was clear; I just hadn't thought carefully enough about what I was asking.
 
-I'd asked Claude to export a slide deck as a PDF and place it in the same folder as the source Markdown file. But the Markdown file shared a filename with an existing PDF, so when the conversion script ran, the script wrote over the original. As you can see in the screenshot below, I asked if the original could be recovered but because there was no git history, no trash, and no backup, the file was gone.
+I'd asked Claude to [[2026-03-05-ai-agents-lecture-slides|export a slide deck as a PDF]] and place it in the same folder as the source Markdown file. But the Markdown file shared a filename with an existing PDF, so when the conversion script ran, the output overwrote the original. As you can see in the screenshot below, I asked if the original could be recovered but because there was no git history, no trash, and no backup, the file was gone.
 
 ![[agent_overwrites_file.png|Claude Code terminal showing Claude confirming a deleted file is unrecoverable — no git history, no trash, no backup|400]]
 
