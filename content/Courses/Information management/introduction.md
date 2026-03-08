@@ -6,7 +6,9 @@ description: >-
   Understand how systematic information management forms the foundation of
   knowledge work and why developing these skills matters for your academic
   career.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > Knowledge work is really craftsmanship. It's just that what you're crafting is information and not carved wood. You're crafting ideas. You're crafting knowledge out of raw material and the more you think about it like a craftsman, the happier and more satisfied you'll be.

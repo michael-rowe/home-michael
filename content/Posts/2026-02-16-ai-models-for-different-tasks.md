@@ -23,6 +23,8 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
+linkedin-status: "—"
+
 ---
 > [!info] AI effectiveness is an architecture problem, not a capability problem
 > The constraint on effective AI use isn't model capability — it's whether we've structured our work so that the right capabilities handle the right tasks. Matching models to tasks is infrastructure thinking, not tool selection.

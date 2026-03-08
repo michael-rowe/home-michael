@@ -32,6 +32,8 @@ modified: 2026-02-11
 doi: 10.31219/osf.io/d7hwf_v1
 category:
   - Scholarship
+linkedin-status: "—"
+
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))

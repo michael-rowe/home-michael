@@ -14,7 +14,9 @@ tags:
 related: []
 date: 2026-02-17
 draft: false
-slug: "on-the-dangers-of-stochastic-parrots"
+slug: "on-the-dangers-of-stochastic-parrots"linkedin:
+  status: "—"
+
 ---
 > [!info] Source details
 > Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜. *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency*, 610–623. https://doi.org/10.1145/3442188.3445922

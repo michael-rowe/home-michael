@@ -20,7 +20,9 @@ duration: 6-8 hours
 level: Advanced
 draft: false
 enableToc: true
-cssclasses: []
+cssclasses: []linkedin:
+  status: "—"
+
 ---
 
 > [!info] Course details

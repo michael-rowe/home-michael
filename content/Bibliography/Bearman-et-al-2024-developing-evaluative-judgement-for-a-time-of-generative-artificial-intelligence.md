@@ -16,7 +16,9 @@ tags:
 related: []
 date: 2026-02-17
 draft: false
-slug: "developing-evaluative-judgement-for-a-time-of-generative-artificial-intelligence"
+slug: "developing-evaluative-judgement-for-a-time-of-generative-artificial-intelligence"linkedin:
+  status: "—"
+
 ---
 > [!info] Source details
 > Bearman, M., Tai, J., Dawson, P., Boud, D., & Ajjawi, R. (2024). Developing evaluative judgement for a time of generative artificial intelligence. *Assessment & Evaluation in Higher Education*, 1–13. https://doi.org/10.1080/02602938.2024.2335321

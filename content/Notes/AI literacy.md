@@ -18,7 +18,9 @@ draft: false
 permalink: ""
 enableToc: true
 cssclasses:
-  - ""
+  - ""linkedin:
+  status: "—"
+
 ---
 
 > [!info] More than prompting, more than ethics

@@ -5,7 +5,9 @@ lesson: 5
 description: >-
   Integrate sustainable self-care practices into your academic workflow to
   create the conditions for meaningful, high-value work.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > [!info] Lesson overview

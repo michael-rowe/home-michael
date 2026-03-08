@@ -23,7 +23,9 @@ leads_to:
   - "[[AI literacy]]"
 contradicts:
 source: ""
-source_url: ""
+source_url: ""linkedin:
+  status: "—"
+
 ---
 
 > [!info] The pattern beneath the practice

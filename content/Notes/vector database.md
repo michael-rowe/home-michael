@@ -27,7 +27,9 @@ leads_to:
   - '[[retrieval augmented generation]]'
 contradicts: null
 source: ''
-source_url: ''
+source_url: ''linkedin:
+  status: "—"
+
 ---
 
 > [!info] Organising knowledge by similarity rather than category

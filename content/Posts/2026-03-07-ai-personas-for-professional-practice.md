@@ -20,6 +20,8 @@ related:
 draft: false
 slug: posts/ai-personas-for-professional-practice
 enableToc: true
+linkedin-status: "—"
+
 ---
 
 > [!info] The real leverage from AI isn't prompt engineering — it's professional self-knowledge

@@ -41,6 +41,8 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
+linkedin-status: "—"
+
 ---
 > [!info] Creation is trivial. Evaluation is not.
 > AI can learn your patterns—what you typically choose. But it cannot judge whether those patterns produce outcomes worth amplifying. As creation and curation become trivial, evaluative judgement about what *should* exist becomes the primary human contribution.

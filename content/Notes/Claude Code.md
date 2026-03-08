@@ -22,6 +22,8 @@ related:
   - "[[Notes/mcp server]]"
 keyphrase: AI agents for curriculum management
 slug: notes/claude-code
+linkedin-status: "—"
+
 ---
 
 > [!info] From chatbot to operator

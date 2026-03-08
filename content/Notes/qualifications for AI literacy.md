@@ -22,7 +22,9 @@ draft: false
 permalink: ''
 enableToc: true
 cssclasses:
-  - ''
+  - ''linkedin:
+  status: "—"
+
 ---
 > [!info] Literacy is longitudinal
 > The true test of whether a course or programme develops AI literacy cannot be answered through end-of-course assessment. It requires observing whether participants continue to engage thoughtfully, adapt their practice as AI evolves, and develop increasingly sophisticated judgement—which is precisely what literacy means.

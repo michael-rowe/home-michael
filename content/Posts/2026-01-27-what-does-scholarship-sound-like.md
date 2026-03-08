@@ -39,6 +39,8 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
+linkedin-status: "—"
+
 ---
 > [!info] Scholarship is not defined by its format
 > Audio reveals dimensions of knowledge that text obscures—hesitation, emphasis, the way experts navigate uncertainty in real time. If scholarship involves rigorous investigation and contribution to knowledge, then the form matters less than the quality of thinking it embodies.

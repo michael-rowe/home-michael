@@ -5,7 +5,9 @@ lesson: 6
 description: >-
   Move beyond information extraction to developing genuine working competence in
   unfamiliar methodologies and theoretical frameworks.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > [!info] Lesson overview

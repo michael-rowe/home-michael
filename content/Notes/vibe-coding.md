@@ -19,6 +19,8 @@ related:
   - "[[2026-03-01-working-effectively-with-ai-agents]]"
 keyphrase: vibe coding
 slug: notes/vibe-coding
+linkedin-status: "—"
+
 ---
 
 > [!info] Vibe coding outsources judgment along with execution

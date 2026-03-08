@@ -19,6 +19,8 @@ category:
 slug: posts/working-effectively-with-ai-agents
 aliases:
   - posts/what-ai-agent-workflows-require
+linkedin-status: "—"
+
 ---
 
 > [!info] The bottleneck in agent-first work is almost never the model

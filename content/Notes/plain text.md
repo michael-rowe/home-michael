@@ -20,6 +20,8 @@ related:
   - "[[Notes/contextual interoperability]]"
 keyphrase: "future-proofing educational materials with plain text"
 slug: notes/plain-text
+linkedin-status: "—"
+
 ---
 
 > [!info] The universal solvent of computing

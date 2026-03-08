@@ -17,7 +17,9 @@ tags:
   - human-cognition
 category: AI and technology
 related:
-  - '[[2026-02-06-LLM-similarities-human-cognition]]'
+  - '[[2026-02-06-LLM-similarities-human-cognition]]'linkedin:
+  status: "—"
+
 ---
 
 > [!info] Why this matters

@@ -24,6 +24,8 @@ related:
   - "[[Notes/markdown]]"
 keyphrase: agentic workflows in academic practice
 slug: notes/agentic-workflows
+linkedin-status: "—"
+
 ---
 
 > [!info] Direction, not execution

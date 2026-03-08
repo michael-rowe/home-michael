@@ -5,7 +5,9 @@ lesson: 12
 description: >-
   Reflecting on your AI literacy development and planning for ongoing
   cultivation of capability across all six dimensions.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 ## Sustaining and developing AI literacy

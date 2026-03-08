@@ -5,7 +5,9 @@ lesson: 1
 description: >-
   Reduce the volume of information competing for your attention by becoming more
   selective about which sources you allow into your attention field.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > [!info] Lesson overview

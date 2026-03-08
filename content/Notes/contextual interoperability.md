@@ -23,6 +23,8 @@ related:
   - "[[2026-02-12-contextual-interoperability-AI-scholarship]]"
 keyphrase: making thinking machine-readable
 slug: notes/contextual-interoperability
+linkedin-status: "—"
+
 ---
 
 > [!info] The translation layer

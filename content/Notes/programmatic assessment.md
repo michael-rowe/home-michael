@@ -22,6 +22,8 @@ related:
   - "[[Notes/AI literacy]]"
 keyphrase: "competency-based assessment in the digital age"
 slug: notes/programmatic-assessment
+linkedin-status: "—"
+
 ---
 
 > [!info] From "knowledge about" to "capability with"

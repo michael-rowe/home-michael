@@ -35,6 +35,8 @@ reviewed:
   - essay_writer
   - copy_editor
   - SEO_optimiser
+linkedin-status: "—"
+
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk)
@@ -105,7 +107,7 @@ The binary error rate E in the model should therefore be understood as a severit
 
 ## Why AI errors resist correction
 
-The argument that educational error correction makes moderate AI inaccuracy tolerable rests on an implicit assumption: that AI-sourced errors behave like errors from traditional sources. They may not. Traditional information sources carry epistemic accountability: features that support rational error-checking. A student can ask a teacher to justify a claim, and the teacher must defend or retract it. Textbooks can be cross-referenced against cited sources. Generative AI lacks these mechanisms.
+The argument that educational error correction makes moderate AI inaccuracy tolerable rests on an implicit assumption: that AI-sourced errors behave like errors from traditional sources. They may not. What distinguishes traditional information sources is not just their accuracy but their interrogability — the structural features that enable a knowledge claim to be challenged, traced back to evidence, and evaluated against its source. Call this [[epistemic accountability]] — a concern that has been independently framed at the systems level as a requirement for trustworthy AI agents to provide falsifiable, auditable reasoning chains (Marchal et al., 2026). Traditional information sources carry it: a student can ask a teacher to justify a claim, and the teacher must defend or retract it. Textbooks can be cross-referenced against cited sources. Generative AI lacks these mechanisms.
 
 Consider direct questioning. [[large language models|Large language models]] (LLMs) tend towards sycophancy when challenged—agreeing with incorrect user statements rather than correcting them, even when the model demonstrably "knows" the correct answer (Sharma et al., 2023; Sharma et al., 2024). In a medical context, Chen et al. (2025) found that frontier LLMs complied with illogical medical requests at rates up to 100%, prioritising helpfulness over logical consistency. A nursing student who tells an AI tutor "I think the maximum dose of paracetamol is 6g per day" may receive agreement rather than correction—precisely when correction matters most. Productive failure depends on students eventually discovering their error. Sycophantic AI may ensure they never do.
 
@@ -192,6 +194,8 @@ Klatt, E. C., & Klatt, C. A. (2011). How Much Is Too Much Reading for Medical St
 Kulik, J. A., & Fletcher, J. D. (2016). Effectiveness of intelligent tutoring systems: A meta-analytic review. *Review of Educational Research*, 86(1), 42–78. https://doi.org/10.3102/0034654315581420
 
 Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012). Misinformation and its correction: Continued influence and successful debiasing. *Psychological Science in the Public Interest*, 13(3), 106–131. https://doi.org/10.1177/1529100612451018
+
+Marchal, N., Chan, S., Franklin, M., Revel, M., Keeling, G., Fischli, R., Chandra, B., & Gabriel, I. (2026). Architecting trust in artificial epistemic agents. *arXiv*. https://arxiv.org/abs/2603.02960
 
 Meyer, J., Jansen, T., & Fleckenstein, J. (2025). Nonengagement and unsuccessful engagement with feedback in lower secondary education: The role of student characteristics. _Contemporary Educational Psychology_, _81_, 102363. https://doi.org/10.1016/j.cedpsych.2025.102363
 

@@ -26,6 +26,8 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
+linkedin-status: "—"
+
 ---
 
 > [!info] Effective AI collaboration rewards habits you won't discover by accident.

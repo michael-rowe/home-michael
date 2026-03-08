@@ -23,7 +23,9 @@ builds_on:
 leads_to:
 contradicts:
 source: ""
-source_url: ""
+source_url: ""linkedin:
+  status: "—"
+
 ---
 
 > [!info] The adapter pattern for AI

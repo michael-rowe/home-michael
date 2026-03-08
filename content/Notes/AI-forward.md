@@ -21,7 +21,9 @@ draft: false
 permalink: ""
 enableToc: true
 cssclasses:
-  - ""
+  - ""linkedin:
+  status: "—"
+
 ---
 
 > [!info] Process, not state

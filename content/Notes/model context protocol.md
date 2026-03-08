@@ -28,6 +28,8 @@ leads_to:
 contradicts:
 source: ""
 source_url: https://modelcontextprotocol.io
+linkedin-status: "—"
+
 ---
 
 > [!info] Universal connector, not universal solution

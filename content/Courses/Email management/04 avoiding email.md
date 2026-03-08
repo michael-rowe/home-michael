@@ -5,7 +5,9 @@ lesson: 4
 description: >-
   Explore alternative communication channels that save time, preserve mental
   energy, and build better relationships.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > [!info] Lesson overview

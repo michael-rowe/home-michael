@@ -22,7 +22,9 @@ duration: 4-6 hours
 level: Beginner
 draft: false
 enableToc: true
-cssclasses: []
+cssclasses: []linkedin:
+  status: "—"
+
 ---
 
 > [!info] Course details

@@ -22,7 +22,9 @@ leads_to:
   - '[[context engineering]]'
 contradicts: null
 source: ''
-source_url: ''
+source_url: ''linkedin:
+  status: "—"
+
 ---
 
 > [!info] Management, not magic

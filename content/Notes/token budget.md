@@ -23,6 +23,8 @@ reviewed:
   - note_writer
   - copy_editor
   - SEO_optimiser
+linkedin-status: "—"
+
 ---
 
 > [!info] Not all AI tasks cost the same

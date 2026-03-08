@@ -6,7 +6,9 @@ description: >-
   Learn to organise your week using day-theming approaches based on task
   categories, energy levels, location, or projects to reduce context-switching
   and maintain calm productivity.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > [!info] Lesson overview

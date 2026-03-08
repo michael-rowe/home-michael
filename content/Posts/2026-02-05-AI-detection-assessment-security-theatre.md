@@ -29,6 +29,8 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
+linkedin-status: "—"
+
 ---
 > [!info] Tripwires detect carelessness, not the absence of learning
 > AI tripwires in assessment import adversarial security thinking into educational relationships. The result is a detection arms race that wastes resources while the underlying measurement problem goes unsolved.

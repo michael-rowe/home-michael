@@ -28,7 +28,9 @@ leads_to:
   - AI agents
 contradicts:
 source: ""
-source_url: ""
+source_url: ""linkedin:
+  status: "—"
+
 ---
 
 > [!info] Context is king

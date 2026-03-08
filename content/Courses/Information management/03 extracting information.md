@@ -6,7 +6,9 @@ description: >-
   Extract high-value information from a variety of sources by establishing
   practices for systematic extraction that transforms captured sources into
   workable materials.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > [!info] Lesson overview

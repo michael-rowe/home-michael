@@ -25,6 +25,7 @@ related:
 category:
   - Category Name
 draft: false
+linkedin-status: "—"
 ---
 > [!info] **About this essay**
 > - **Author**: Author Name ([ORCID](https://orcid.org/XXXX-XXXX-XXXX-XXXX); email@institution.edu)

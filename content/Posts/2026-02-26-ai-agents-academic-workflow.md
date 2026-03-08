@@ -17,6 +17,8 @@ category:
 draft: false
 enableToc: true
 slug: posts/ai-agents-academic-workflow
+linkedin-status: "—"
+
 ---
 
 > [!info] Working with AI agents changes what the work is, not just how fast it gets done

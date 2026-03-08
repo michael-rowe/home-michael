@@ -26,6 +26,8 @@ related:
   - "[[documentation-as-infrastructure]]"
   - "[[curriculum-infrastructure]]"
 draft: false
+linkedin-status: "—"
+
 ---
 
 **Advance HE AI Symposium** · Online · 10 February 2026

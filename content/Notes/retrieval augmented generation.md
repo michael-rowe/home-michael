@@ -27,7 +27,9 @@ leads_to:
   - "[[graphRAG]]"
 contradicts:
 source: ""
-source_url: ""
+source_url: ""linkedin:
+  status: "—"
+
 ---
 
 > [!info] Letting AI look things up before answering

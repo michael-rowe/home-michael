@@ -23,6 +23,8 @@ reviewed:
   - note_writer
   - copy_editor
   - SEO_optimiser
+linkedin-status: "—"
+
 ---
 
 > [!info] Inference is where AI costs are actually incurred

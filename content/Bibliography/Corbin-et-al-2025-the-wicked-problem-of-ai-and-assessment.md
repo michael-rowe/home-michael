@@ -16,7 +16,9 @@ tags:
 related: []
 date: 2026-02-17
 draft: false
-slug: "the-wicked-problem-of-ai-and-assessment"
+slug: "the-wicked-problem-of-ai-and-assessment"linkedin:
+  status: "—"
+
 ---
 > [!info] Source details
 > Corbin, T., Bearman, M., Boud, D., & Dawson, P. (2025). The wicked problem of AI and assessment. *Assessment & Evaluation in Higher Education*, 1–17. https://doi.org/10.1080/02602938.2025.2553340

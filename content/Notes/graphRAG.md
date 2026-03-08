@@ -28,7 +28,9 @@ builds_on:
 leads_to: null
 contradicts: null
 source: ''
-source_url: ''
+source_url: ''linkedin:
+  status: "—"
+
 ---
 
 > [!info] From isolated documents to connected knowledge

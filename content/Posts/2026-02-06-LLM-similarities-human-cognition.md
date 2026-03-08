@@ -37,6 +37,8 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
+linkedin-status: "—"
+
 ---
 > [!info] Human cognition has the same limitations we criticise in LLMs
 > The parallels between LLM cognition and human thinking are more extensive than we'd like to admit, and the strength of our denials might tell us more about human psychology than any technical specification ever could.

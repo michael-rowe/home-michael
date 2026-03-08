@@ -23,7 +23,9 @@ duration: 10-12 hours
 level: All levels
 draft: false
 enableToc: true
-cssclasses: []
+cssclasses: []linkedin:
+  status: "—"
+
 ---
 > [!info] Course details
 > <div class="comparison-grid">

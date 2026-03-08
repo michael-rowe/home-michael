@@ -27,6 +27,8 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
+linkedin-status: "—"
+
 ---
 
 > [!info] The bottleneck is translating your thinking into something AI can navigate

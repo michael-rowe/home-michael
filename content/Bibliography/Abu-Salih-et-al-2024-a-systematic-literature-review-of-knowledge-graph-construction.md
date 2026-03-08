@@ -14,7 +14,9 @@ tags:
 related: []
 date: 2026-02-17
 draft: false
-slug: "a-systematic-literature-review-of-knowledge-graph-construction"
+slug: "a-systematic-literature-review-of-knowledge-graph-construction"linkedin:
+  status: "—"
+
 ---
 > [!info] Source details
 > Abu-Salih, B., & Alotaibi, S. (2024). A systematic literature review of knowledge graph construction and application in education. *Heliyon*, 10(3), e25383. https://doi.org/10.1016/j.heliyon.2024.e25383

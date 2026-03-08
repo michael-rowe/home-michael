@@ -26,6 +26,8 @@ reviewed:
   - copy_editor
   - SEO_optimiser
 enableToc: true
+linkedin-status: "—"
+
 ---
 
 > [!info] The most valuable AI contribution is the quality of the challenge

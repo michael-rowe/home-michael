@@ -5,7 +5,9 @@ lesson: 1
 description: >-
   Establish a reliable daily practice to externalise your working memory and
   reduce cognitive load.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 > [!info] Lesson overview
 > **Objective:** Establish a habit of writing daily notes

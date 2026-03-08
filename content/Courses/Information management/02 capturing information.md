@@ -5,7 +5,9 @@ lesson: 2
 description: >-
   Save and organise information in a personal library using a three-stage
   capture process that reduces anxiety while building a curated collection.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > [!info] Lesson overview

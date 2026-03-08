@@ -28,6 +28,8 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
+linkedin-status: "—"
+
 ---
 
 > [!info] Building context, not issuing commands

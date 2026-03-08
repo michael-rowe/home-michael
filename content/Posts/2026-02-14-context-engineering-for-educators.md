@@ -28,6 +28,8 @@ related:
 draft: false
 slug: posts/context-engineering-for-educators
 enableToc: true
+linkedin-status: "—"
+
 ---
 
 > [!info] Policies are not infrastructure

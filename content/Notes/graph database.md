@@ -26,7 +26,9 @@ leads_to:
   - "[[graphRAG]]"
 contradicts:
 source: ""
-source_url: ""
+source_url: ""linkedin:
+  status: "—"
+
 ---
 
 > [!info] Storing how things connect, not just what things are

@@ -6,7 +6,9 @@ description: >-
   Extract information efficiently from academic papers while maintaining
   critical reading practices and understanding the difference between extraction
   and competence.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > [!info] Lesson overview

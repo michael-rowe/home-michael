@@ -37,6 +37,8 @@ reviewed:
   - SEO_optimiser
 slug: posts/thoughtful-ai-use
 enableToc: true
+linkedin-status: "—"
+
 ---
 > [!info] Technology amplifies what you choose to point it at
 > Rather than cataloguing AI's failures, demonstrate thoughtful use in your own practice. Ground your concerns in actual experience rather than speculation. The question isn't whether AI is good or bad — it's what you choose to amplify.

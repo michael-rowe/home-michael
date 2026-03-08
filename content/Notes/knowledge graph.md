@@ -25,7 +25,9 @@ leads_to:
   - "[[context engineering]]"
 contradicts:
 source: ""
-source_url: ""
+source_url: ""linkedin:
+  status: "—"
+
 ---
 
 > [!info] Relationships as first-class citizens

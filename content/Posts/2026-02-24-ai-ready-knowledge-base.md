@@ -28,6 +28,8 @@ reviewed:
 slug: posts/ai-ready-knowledge-base
 aliases:
   - posts/building-the-scaffold
+linkedin-status: "—"
+
 ---
 
 > [!info] Before AI can work with your notes, you have to know what your notes mean.

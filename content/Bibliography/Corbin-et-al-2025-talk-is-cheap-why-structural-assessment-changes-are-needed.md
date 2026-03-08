@@ -16,7 +16,9 @@ tags:
 related: []
 date: 2026-02-17
 draft: false
-slug: "talk-is-cheap-why-structural-assessment-changes-are-needed"
+slug: "talk-is-cheap-why-structural-assessment-changes-are-needed"linkedin:
+  status: "—"
+
 ---
 > [!info] Source details
 > Corbin, T., Dawson, P., & Liu, D. (2025). Talk is cheap: why structural assessment changes are needed for a time of GenAI. *Assessment & Evaluation in Higher Education*, 1–11. https://doi.org/10.1080/02602938.2025.2503964

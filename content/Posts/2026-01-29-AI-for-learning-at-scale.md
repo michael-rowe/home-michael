@@ -41,6 +41,8 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
+linkedin-status: "—"
+
 ---
 > [!info] We've never had access to expertise at this scale
 > Despite the ethical concerns, I can't think of another time in human history when so many people have had access to advanced expertise at this scale. Generative AI represents an unprecedented opportunity for learning—and I don't see why we should assume it won't keep getting better.

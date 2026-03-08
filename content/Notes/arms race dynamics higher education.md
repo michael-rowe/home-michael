@@ -22,6 +22,8 @@ related:
   - '[[asymmetric power dynamics]]'
 keyphrase: arms race dynamics higher education
 slug: notes/arms-race-dynamics-higher-education
+linkedin-status: "—"
+
 ---
 
 > [!info] Why this matters

@@ -6,7 +6,9 @@ description: >-
   Strategically position yourself within professional networks by understanding
   different roles and building meaningful relationships that create value for
   your communities.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > [!info] Lesson overview

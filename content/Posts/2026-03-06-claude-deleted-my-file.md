@@ -21,6 +21,8 @@ draft: false
 slug: posts/claude-deleted-my-file
 subtype: field-note
 enableToc: false
+linkedin-status: "—"
+
 ---
 
 Yesterday Claude deleted a file. As per my instruction. Except I didn't want it to. My prompt was clear; I just hadn't thought carefully enough about what I was asking.

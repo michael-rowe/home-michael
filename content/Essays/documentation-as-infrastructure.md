@@ -28,6 +28,8 @@ related:
 category:
   - AI and technology
   - Knowledge management
+linkedin-status: "—"
+
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk)

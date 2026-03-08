@@ -19,6 +19,8 @@ related:
   - "[[large language models]]"
 keyphrase: "prompt injection attack"
 slug: notes/prompt-injection
+linkedin-status: "—"
+
 ---
 
 > [!info] Hidden instructions in text can hijack an AI system's behaviour

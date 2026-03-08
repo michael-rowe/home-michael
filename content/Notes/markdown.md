@@ -21,6 +21,8 @@ related:
   - "[[Notes/documentation debt]]"
 keyphrase: "writing in markdown for portability"
 slug: notes/markdown
+linkedin-status: "—"
+
 ---
 
 > [!info] Structure over styling

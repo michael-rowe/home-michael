@@ -27,6 +27,8 @@ tags:
 doi: 10.31219/osf.io/c764f_v1
 category:
   - AI and technology
+linkedin-status: "—"
+
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))

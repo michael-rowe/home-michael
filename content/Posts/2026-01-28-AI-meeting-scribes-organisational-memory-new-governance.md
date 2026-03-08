@@ -38,6 +38,8 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
+linkedin-status: "—"
+
 ---
 > [!info] AI meeting scribes haven't created new power dynamics — they've automated existing ones
 > This automation makes existing dynamics more technical, less visible, and more scalable. The question isn't how to stop gaming but how to govern dynamics that have always existed.

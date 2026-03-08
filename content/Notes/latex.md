@@ -19,6 +19,8 @@ related:
   - "[[Notes/pandoc]]"
 keyphrase: "professional document design for educators"
 slug: notes/latex
+linkedin-status: "—"
+
 ---
 
 > [!info] Logical structure over visual layout

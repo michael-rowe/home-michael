@@ -17,6 +17,8 @@ draft: false
 slug: posts/switching-to-claude-sonnet-4-6
 subtype: field-note
 enableToc: false
+linkedin-status: "—"
+
 ---
 
 Anthropic released [Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6) yesterday and I switched this morning, moving from Opus 4.6 as my default in Claude Code. I'd been using Opus because it handled complex, multi-step tasks better, but I've always preferred Sonnet's writing register. More direct, less padded.

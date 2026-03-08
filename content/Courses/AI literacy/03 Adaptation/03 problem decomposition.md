@@ -5,7 +5,9 @@ lesson: 8
 description: >-
   Break down complex academic problems from multiple theoretical and
   methodological angles.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > [!info] Lesson overview

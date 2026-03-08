@@ -20,6 +20,8 @@ related:
   - "[[Notes/plain text]]"
 keyphrase: "converting teaching materials between formats"
 slug: notes/pandoc
+linkedin-status: "—"
+
 ---
 
 > [!info] The universal translator for text

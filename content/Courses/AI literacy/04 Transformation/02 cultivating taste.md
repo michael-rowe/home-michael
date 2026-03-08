@@ -5,7 +5,9 @@ lesson: 10
 description: >-
   Develop professional judgement about meaningful engagement that can't be
   reduced to rules.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > [!info] Lesson overview

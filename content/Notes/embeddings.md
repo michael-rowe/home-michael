@@ -25,7 +25,9 @@ leads_to:
   - "[[retrieval augmented generation]]"
 contradicts:
 source: ""
-source_url: ""
+source_url: ""linkedin:
+  status: "—"
+
 ---
 
 > [!info] Teaching computers what words mean

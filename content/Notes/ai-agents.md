@@ -16,7 +16,9 @@ tags:
   - ai-integration
 related:
   - "[[agentic workflows]]"
-  - "[[context-engineering]]"
+  - "[[context-engineering]]"linkedin:
+  status: "—"
+
 ---
 
 > [!info] An AI agent acts on the world; an AI assistant responds to prompts

@@ -5,7 +5,9 @@ lesson: 5
 description: >-
   Learn to distinguish between emails that require your attention and those that
   distract you, reclaiming your time for what matters.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > [!info] Lesson overview

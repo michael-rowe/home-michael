@@ -6,7 +6,9 @@ description: >-
   Learn to conduct effective weekly reviews that close open loops, provide
   clarity on commitments, and enable true disconnection from work during rest
   periods.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > [!info] Lesson overview

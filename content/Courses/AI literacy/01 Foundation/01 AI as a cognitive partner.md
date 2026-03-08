@@ -5,7 +5,9 @@ lesson: 1
 description: >-
   Understand what generative AI is and how to approach it as language-based
   cognitive extension rather than software to operate.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > If you do not change direction, you may end up where you are heading.

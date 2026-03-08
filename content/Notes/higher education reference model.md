@@ -24,6 +24,8 @@ related:
   - "[[Notes/documentation-debt]]"
 keyphrase: "higher education reference model"
 slug: notes/higher-education-reference-model
+linkedin-status: "—"
+
 ---
 
 > [!info] Why this matters

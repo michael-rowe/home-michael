@@ -18,6 +18,8 @@ category:
   - Knowledge management
 draft: false
 slug: posts/claude-code-zotero-database
+linkedin-status: "—"
+
 ---
 
 > [!info] The database was always there

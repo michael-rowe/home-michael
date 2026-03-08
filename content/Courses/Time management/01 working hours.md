@@ -5,7 +5,9 @@ lesson: 1
 description: >-
   Learn to establish and maintain fixed working hours that protect your peak
   cognitive energy and create sustainable academic productivity.
-author: '[[Michael Rowe]]'
+author: '[[Michael Rowe]]'linkedin:
+  status: "—"
+
 ---
 
 > [!info] Lesson overview

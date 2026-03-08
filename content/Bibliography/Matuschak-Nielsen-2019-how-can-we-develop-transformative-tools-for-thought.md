@@ -14,7 +14,9 @@ tags:
 related: []
 date: 2026-02-17
 draft: false
-slug: "how-can-we-develop-transformative-tools-for-thought"
+slug: "how-can-we-develop-transformative-tools-for-thought"linkedin:
+  status: "—"
+
 ---
 > [!info] Source details
 > Matuschak, A., & Nielsen, M. (2019). *How can we develop transformative tools for thought?* https://numinous.productions/ttft
