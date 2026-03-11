@@ -14,8 +14,8 @@ tags:
 related: []
 date: 2026-02-17
 draft: false
-slug: "how-can-we-develop-transformative-tools-for-thought"linkedin:
-  status: "—"
+slug: "how-can-we-develop-transformative-tools-for-thought"
+linkedin:
 
 ---
 > [!info] Source details

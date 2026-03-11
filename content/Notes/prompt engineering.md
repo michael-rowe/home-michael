@@ -22,8 +22,8 @@ leads_to:
   - '[[context engineering]]'
 contradicts: null
 source: ''
-source_url: ''linkedin:
-  status: "—"
+source_url: ''
+linkedin:
 
 ---
 

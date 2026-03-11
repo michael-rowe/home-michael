@@ -24,7 +24,7 @@ related:
   - "[[model context protocol]]"
 keyphrase: LLM context drift
 slug: notes/llm-context-drift
-linkedin-status: "—"
+linkedin:
 
 ---
 

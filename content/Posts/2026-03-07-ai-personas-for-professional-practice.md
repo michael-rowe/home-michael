@@ -20,7 +20,7 @@ related:
 draft: false
 slug: posts/ai-personas-for-professional-practice
 enableToc: true
-linkedin-status: "—"
+linkedin:
 
 ---
 

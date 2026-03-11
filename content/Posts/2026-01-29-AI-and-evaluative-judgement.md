@@ -41,7 +41,7 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
-linkedin-status: "—"
+linkedin:
 
 ---
 > [!info] Creation is trivial. Evaluation is not.

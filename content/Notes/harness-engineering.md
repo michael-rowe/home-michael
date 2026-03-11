@@ -21,7 +21,7 @@ related:
   - "[[2026-03-03-ai-agent-governance-higher-education]]"
 keyphrase: harness engineering
 slug: notes/harness-engineering
-linkedin-status: "—"
+linkedin:
 
 ---
 

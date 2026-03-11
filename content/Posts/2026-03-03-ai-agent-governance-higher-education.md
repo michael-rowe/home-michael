@@ -20,8 +20,7 @@ category:
 slug: posts/ai-agent-governance-higher-education
 aliases:
   - posts/what-happens-when-agent-first-workflows-scale
-linkedin-status: posted
-linkedin-date: 2026-03-04
+linkedin: 2026-03-04
 
 ---
 

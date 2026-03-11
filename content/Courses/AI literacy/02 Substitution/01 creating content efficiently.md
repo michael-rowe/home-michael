@@ -5,8 +5,8 @@ lesson: 3
 description: >-
   Apply functional application literacy to routine content creation using
   structured prompting while developing critical evaluation skills.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 > [!info] Lesson overview

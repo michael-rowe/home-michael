@@ -5,8 +5,8 @@ lesson: 6
 description: >-
   Course conclusion that reviews key concepts, provides a complete bibliography,
   and helps consolidate learning for ongoing practice.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

@@ -3,7 +3,7 @@ title: Annotated bibliography
 type: bibliography-index
 description: "A curated and annotated collection of books, articles, podcasts, and other resources relevant to health professions education. Each entry includes a brief evaluation of what makes the source useful, and for whom."
 draft: false
-linkedin-status: "—"
+linkedin:
 
 ---
 

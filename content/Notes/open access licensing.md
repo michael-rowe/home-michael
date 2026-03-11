@@ -21,7 +21,7 @@ related:
   - "[[Notes/AI literacy]]"
 keyphrase: "sharing educational resources legally"
 slug: notes/open-access-licensing
-linkedin-status: "—"
+linkedin:
 
 ---
 

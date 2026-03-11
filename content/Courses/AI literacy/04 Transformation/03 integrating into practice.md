@@ -5,8 +5,8 @@ lesson: 11
 description: >-
   Make AI literacy practices automatic through workflow redesign rather than
   relying on willpower.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

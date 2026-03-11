@@ -5,8 +5,8 @@ lesson: 0
 description: >-
   Understand why notes are the core of academic work and how to build a unified
   conceptual framework for your thinking.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

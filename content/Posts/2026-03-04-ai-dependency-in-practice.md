@@ -24,7 +24,7 @@ aliases:
   - posts/when-ai-becomes-infrastructure
 subtype: field-note
 enableToc: false
-linkedin-status: "—"
+linkedin:
 
 ---
 ![[claude_outage.png|Screenshot of the Claude status page during the March 2026 outage — the disruption that revealed what AI dependency in practice looks like when you can no longer plan your work|500]]

@@ -5,8 +5,8 @@ lesson: 2
 description: >-
   Learn to categorize academic tasks strategically to protect peak cognitive
   hours for high-value work while managing routine responsibilities effectively.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

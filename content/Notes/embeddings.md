@@ -25,8 +25,8 @@ leads_to:
   - "[[retrieval augmented generation]]"
 contradicts:
 source: ""
-source_url: ""linkedin:
-  status: "—"
+source_url: ""
+linkedin:
 
 ---
 

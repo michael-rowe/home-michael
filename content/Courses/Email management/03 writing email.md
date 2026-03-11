@@ -5,8 +5,8 @@ lesson: 3
 description: >-
   Treat email as a deliberate writing genre with specific structures to improve
   clarity and reduce back-and-forth.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

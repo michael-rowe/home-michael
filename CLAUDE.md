@@ -318,6 +318,7 @@ tags: []
 category: []             # Always list format
 draft: false
 slug: ""
+linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
 ```
 
 **`type: essay`** — Academic essays
@@ -341,6 +342,7 @@ tags: []
 doi: ""                  # Omit field entirely if no DOI exists
 related: []
 draft: false
+linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
 ```
 
 **`type: note`** — Concept notes
@@ -357,6 +359,7 @@ slug: notes/slug-here
 category: ""             # Single category
 tags: []
 related: []
+linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
 ```
 
 **`type: lesson`** — Course lessons (within `content/Courses/`)
@@ -369,6 +372,7 @@ author: "[[Michael Rowe]]"
 course: ""               # Parent course name (e.g. "Time management")
 tags: []
 related: []
+linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
 ```
 
 **`type: presentation`** — Conference and invited presentations (within `content/Presentations/`)
@@ -390,6 +394,7 @@ tags: []
 category: []
 related: []              # Wiki-link format: ["[[slug]]"]
 draft: false
+linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
 ```
 *Slides are generated with Marp CLI and stored in `quartz/static/presentations/` to preserve the `.html` extension. The iframe `src` uses the full production URL (`https://michael-rowe.github.io/home-michael/static/presentations/…`) to prevent Quartz's link transformer from stripping the extension.*
 
@@ -407,6 +412,7 @@ tags: []
 date: YYYY-MM-DD
 draft: true
 slug: ""
+linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
 ```
 
 ### YAML conventions
@@ -417,6 +423,7 @@ slug: ""
 - **DOI**: Omit the `doi:` field entirely if no DOI exists. Don't use empty `doi:`.
 - **cssclasses**: Don't add `cssclasses: [""]` — it has no effect and adds noise.
 - **`related` field**: Wiki-link format: `["[[Slug or Title]]"]`
+- **`linkedin` field**: Use `linkedin: YYYY-MM-DD` when a post has been shared to LinkedIn; leave as `linkedin:` (empty) if not yet posted. Never use the old `linkedin-status`/`linkedin-date` fields.
 - **Essay `version` field**: Follows a semantic versioning scheme indicating publication stage:
   - `0.1`–`0.6`: Working draft / in development
   - `0.7`–`0.8`: Preprint deposited

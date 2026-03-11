@@ -16,8 +16,8 @@ tags:
 related: []
 date: 2026-02-17
 draft: false
-slug: "developing-evaluative-judgement-for-a-time-of-generative-artificial-intelligence"linkedin:
-  status: "—"
+slug: "developing-evaluative-judgement-for-a-time-of-generative-artificial-intelligence"
+linkedin:
 
 ---
 > [!info] Source details

@@ -2,7 +2,7 @@
 title: Courses
 description: "Practical courses for developing academic and professional skills"
 enableToc: false
-linkedin-status: "—"
+linkedin:
 
 ---
 Practical, self-paced courses for developing systematic approaches to academic and professional work.

@@ -16,8 +16,8 @@ tags:
 related: []
 date: 2026-02-17
 draft: false
-slug: "the-wicked-problem-of-ai-and-assessment"linkedin:
-  status: "—"
+slug: "the-wicked-problem-of-ai-and-assessment"
+linkedin:
 
 ---
 > [!info] Source details

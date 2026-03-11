@@ -28,7 +28,7 @@ related:
 category:
   - AI and technology
   - Knowledge management
-linkedin-status: "—"
+linkedin:
 
 ---
 > [!info] **About this essay**

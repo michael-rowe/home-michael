@@ -32,7 +32,7 @@ tags:
   - open-scholarship
 category:
   - Pedagogy
-linkedin-status: "—"
+linkedin:
 
 ---
 > [!info] **About this essay**

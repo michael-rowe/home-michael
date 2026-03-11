@@ -28,7 +28,7 @@ tags:
   - authorship
 category:
   - Scholarship
-linkedin-status: "—"
+linkedin:
 
 ---
 > [!info] **About this essay**

@@ -37,7 +37,7 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
-linkedin-status: "—"
+linkedin:
 
 ---
 > [!info] Human cognition has the same limitations we criticise in LLMs

@@ -26,7 +26,7 @@ reviewed:
   - copy_editor
   - SEO_optimiser
 enableToc: true
-linkedin-status: "—"
+linkedin:
 
 ---
 

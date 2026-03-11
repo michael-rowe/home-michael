@@ -21,8 +21,7 @@ slug: posts/ai-agents-lecture-slides
 aliases:
   - posts/teaching-materials-document-infrastructure
   - posts/plain-text-teaching-materials
-linkedin-status: posted
-linkedin-date: 2026-03-06
+linkedin: 2026-03-06
 
 ---
 

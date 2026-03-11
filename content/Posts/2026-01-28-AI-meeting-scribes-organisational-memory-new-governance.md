@@ -38,7 +38,7 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
-linkedin-status: "—"
+linkedin:
 
 ---
 > [!info] AI meeting scribes haven't created new power dynamics — they've automated existing ones

@@ -22,7 +22,7 @@ related:
   - "[[Notes/mcp server]]"
 keyphrase: AI agents for curriculum management
 slug: notes/claude-code
-linkedin-status: "—"
+linkedin:
 
 ---
 

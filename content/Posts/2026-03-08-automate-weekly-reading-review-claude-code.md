@@ -20,7 +20,7 @@ aliases:
   - posts/using-the-right-model-for-the-right-job
 enableToc: false
 subtype: field-note
-linkedin-status: "—"
+linkedin:
 ---
 
 Every week I read articles in Zotero and Reader, and listen to podcasts in Snipd, all of which include some form of annotation. All of this — notes, summaries, metadata, timestamps — syncs automatically to Obsidian. By Friday I have a week's worth of notes from my reading and listening sitting in my vault, tagged and structured, but unreviewed.

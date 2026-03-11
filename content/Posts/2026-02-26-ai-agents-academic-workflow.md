@@ -17,7 +17,7 @@ category:
 draft: false
 enableToc: true
 slug: posts/ai-agents-academic-workflow
-linkedin-status: "—"
+linkedin:
 
 ---
 

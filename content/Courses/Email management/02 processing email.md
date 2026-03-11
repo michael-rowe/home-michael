@@ -5,8 +5,8 @@ lesson: 2
 description: >-
   Develop a process-oriented approach to email that minimizes back-and-forth
   exchanges and creates mental clarity.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

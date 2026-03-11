@@ -5,8 +5,8 @@ lesson: 5
 description: >-
   Use AI as writing coach for overcoming blocks, receiving feedback, and
   collaborative drafting without losing your distinctive voice.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

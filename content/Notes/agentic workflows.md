@@ -24,7 +24,7 @@ related:
   - "[[Notes/markdown]]"
 keyphrase: agentic workflows in academic practice
 slug: notes/agentic-workflows
-linkedin-status: "—"
+linkedin:
 
 ---
 

@@ -5,8 +5,8 @@ lesson: 1
 description: >-
   Examine the deeply held beliefs and assumptions that shape your academic
   practice and develop more intentional approaches.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

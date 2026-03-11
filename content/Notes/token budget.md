@@ -23,7 +23,7 @@ reviewed:
   - note_writer
   - copy_editor
   - SEO_optimiser
-linkedin-status: "—"
+linkedin:
 
 ---
 

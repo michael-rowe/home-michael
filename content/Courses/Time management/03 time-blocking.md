@@ -6,8 +6,8 @@ description: >-
   Learn to use time-blocking to protect high-value work, reduce
   context-switching, and create intentional daily structure that supports
   meaningful academic progress.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

@@ -28,7 +28,7 @@ reviewed:
 slug: posts/ai-ready-knowledge-base
 aliases:
   - posts/building-the-scaffold
-linkedin-status: "—"
+linkedin:
 
 ---
 

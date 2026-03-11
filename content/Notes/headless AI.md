@@ -18,7 +18,7 @@ category: Technology
 related:
 keyphrase: "headless AI model"
 slug: notes/headless-ai
-linkedin-status: "—"
+linkedin:
 ---
 
 > [!info] Headless AI tools behave like Unix commands — composable by design

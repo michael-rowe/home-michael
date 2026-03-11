@@ -6,8 +6,8 @@ description: >-
   Understand how systematic information management forms the foundation of
   knowledge work and why developing these skills matters for your academic
   career.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

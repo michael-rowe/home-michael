@@ -23,7 +23,7 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
-linkedin-status: "—"
+linkedin:
 
 ---
 > [!info] AI effectiveness is an architecture problem, not a capability problem

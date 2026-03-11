@@ -38,7 +38,7 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
-linkedin-status: "—"
+linkedin:
 
 ---
 > [!info] A different form, not a lesser form

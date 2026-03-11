@@ -40,7 +40,7 @@ tags:
 category:
   - AI and technology
   - Curriculum
-linkedin-status: "—"
+linkedin:
 
 ---
 > [!info] **About this essay**

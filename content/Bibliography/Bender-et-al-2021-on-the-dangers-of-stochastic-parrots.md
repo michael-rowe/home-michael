@@ -14,8 +14,8 @@ tags:
 related: []
 date: 2026-02-17
 draft: false
-slug: "on-the-dangers-of-stochastic-parrots"linkedin:
-  status: "—"
+slug: "on-the-dangers-of-stochastic-parrots"
+linkedin:
 
 ---
 > [!info] Source details

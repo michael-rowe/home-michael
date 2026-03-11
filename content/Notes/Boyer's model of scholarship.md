@@ -17,8 +17,8 @@ builds_on:
 leads_to:
 contradicts:
 source: "Boyer, E. L. (1990). Scholarship Reconsidered: Priorities of the Professoriate."
-source_url: ""linkedin:
-  status: "—"
+source_url: ""
+linkedin:
 
 ---
 

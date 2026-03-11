@@ -19,7 +19,7 @@ related:
   - "[[large language models]]"
 keyphrase: "prompt injection attack"
 slug: notes/prompt-injection
-linkedin-status: "—"
+linkedin:
 
 ---
 

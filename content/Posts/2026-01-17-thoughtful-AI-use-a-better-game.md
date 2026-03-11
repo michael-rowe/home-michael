@@ -37,7 +37,7 @@ reviewed:
   - SEO_optimiser
 slug: posts/thoughtful-ai-use
 enableToc: true
-linkedin-status: "—"
+linkedin:
 
 ---
 > [!info] Technology amplifies what you choose to point it at

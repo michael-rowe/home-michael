@@ -37,7 +37,7 @@ tags:
 category:
   - Pedagogy
   - AI and technology
-linkedin-status: "—"
+linkedin:
 
 ---
 > [!info] **About this essay**

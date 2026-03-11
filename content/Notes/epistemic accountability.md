@@ -22,7 +22,7 @@ related:
   - "[[human cognition and LLM parallels]]"
 keyphrase: "epistemic accountability"
 slug: notes/epistemic-accountability
-linkedin-status: "—"
+linkedin:
 
 ---
 

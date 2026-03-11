@@ -26,8 +26,8 @@ leads_to:
   - "[[graphRAG]]"
 contradicts:
 source: ""
-source_url: ""linkedin:
-  status: "—"
+source_url: ""
+linkedin:
 
 ---
 

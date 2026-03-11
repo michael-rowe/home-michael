@@ -14,8 +14,8 @@ tags:
 related: []
 date: 2026-02-17
 draft: false
-slug: "a-systematic-literature-review-of-knowledge-graph-construction"linkedin:
-  status: "—"
+slug: "a-systematic-literature-review-of-knowledge-graph-construction"
+linkedin:
 
 ---
 > [!info] Source details

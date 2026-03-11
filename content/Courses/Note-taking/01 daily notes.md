@@ -5,8 +5,8 @@ lesson: 1
 description: >-
   Establish a reliable daily practice to externalise your working memory and
   reduce cognitive load.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 > [!info] Lesson overview

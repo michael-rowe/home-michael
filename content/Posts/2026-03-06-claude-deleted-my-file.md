@@ -21,7 +21,7 @@ draft: false
 slug: posts/claude-deleted-my-file
 subtype: field-note
 enableToc: false
-linkedin-status: "—"
+linkedin:
 
 ---
 

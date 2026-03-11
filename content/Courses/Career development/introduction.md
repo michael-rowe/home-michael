@@ -5,8 +5,8 @@ lesson: 0
 description: >-
   Explore the foundational philosophy of academic career development and why
   tying your work to a higher purpose matters.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

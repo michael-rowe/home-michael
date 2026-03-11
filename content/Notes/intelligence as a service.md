@@ -22,8 +22,8 @@ leads_to:
   - "[[context sovereignty]]"
 contradicts:
 source: "Rowe, M., & Lynch, W. (2025). Context sovereignty for AI-supported learning: A human-centred approach."
-source_url: ""linkedin:
-  status: "—"
+source_url: ""
+linkedin:
 
 ---
 

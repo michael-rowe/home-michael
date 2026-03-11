@@ -6,8 +6,8 @@ description: >-
   Break down complex academic work into specific capabilities that can be
   systematically improved through deliberate practice and sustainable daily
   routines.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

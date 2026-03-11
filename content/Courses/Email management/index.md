@@ -20,8 +20,8 @@ duration: 3-4 hours
 level: Beginner
 draft: false
 enableToc: true
-cssclasses: []linkedin:
-  status: "—"
+cssclasses: []
+linkedin:
 
 ---
 

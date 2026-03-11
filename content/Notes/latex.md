@@ -19,7 +19,7 @@ related:
   - "[[Notes/pandoc]]"
 keyphrase: "professional document design for educators"
 slug: notes/latex
-linkedin-status: "—"
+linkedin:
 
 ---
 

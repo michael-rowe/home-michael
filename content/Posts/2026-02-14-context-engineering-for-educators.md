@@ -28,7 +28,7 @@ related:
 draft: false
 slug: posts/context-engineering-for-educators
 enableToc: true
-linkedin-status: "—"
+linkedin:
 
 ---
 

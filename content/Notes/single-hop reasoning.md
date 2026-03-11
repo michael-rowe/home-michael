@@ -27,8 +27,8 @@ builds_on:
 leads_to: null
 contradicts: null
 source: ''
-source_url: ''linkedin:
-  status: "—"
+source_url: ''
+linkedin:
 
 ---
 

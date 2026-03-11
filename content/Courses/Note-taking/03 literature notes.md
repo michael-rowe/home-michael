@@ -5,8 +5,8 @@ lesson: 3
 description: >-
   Document your critical observations and questions as you engage with sources,
   moving beyond passive consumption to active intellectual engagement.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 > [!info] Lesson overview

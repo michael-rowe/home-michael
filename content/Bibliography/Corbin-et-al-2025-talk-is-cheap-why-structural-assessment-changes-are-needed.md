@@ -16,8 +16,8 @@ tags:
 related: []
 date: 2026-02-17
 draft: false
-slug: "talk-is-cheap-why-structural-assessment-changes-are-needed"linkedin:
-  status: "—"
+slug: "talk-is-cheap-why-structural-assessment-changes-are-needed"
+linkedin:
 
 ---
 > [!info] Source details

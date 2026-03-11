@@ -25,7 +25,7 @@ related:
 category:
   - Category Name
 draft: false
-linkedin-status: "—"
+linkedin:  # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
 ---
 > [!info] **About this essay**
 > - **Author**: Author Name ([ORCID](https://orcid.org/XXXX-XXXX-XXXX-XXXX); email@institution.edu)

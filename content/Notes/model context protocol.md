@@ -28,7 +28,7 @@ leads_to:
 contradicts:
 source: ""
 source_url: https://modelcontextprotocol.io
-linkedin-status: "—"
+linkedin:
 
 ---
 

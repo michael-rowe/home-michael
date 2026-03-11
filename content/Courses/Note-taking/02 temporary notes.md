@@ -5,8 +5,8 @@ lesson: 2
 description: >-
   Create a designated home for information that's important enough to capture
   but doesn't yet have a clear destination.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 > [!info]

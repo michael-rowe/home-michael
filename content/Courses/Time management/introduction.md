@@ -5,8 +5,8 @@ lesson: 0
 description: >-
   Understand why time management matters for protecting your focus and creating
   space for meaningful academic work.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

@@ -5,8 +5,8 @@ lesson: 6
 description: >-
   Review the complete note-taking framework and reflect on how to maintain a
   sustainable, lifelong knowledge system.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

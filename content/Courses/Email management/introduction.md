@@ -5,8 +5,8 @@ lesson: 0
 description: >-
   Understand why email management matters for protecting your attention and how
   to build a sustainable relationship with your inbox.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

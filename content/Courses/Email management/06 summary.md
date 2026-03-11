@@ -5,8 +5,8 @@ lesson: 6
 description: >-
   Review the strategies for email management and commit to an intentional
   approach that prioritises your attention.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

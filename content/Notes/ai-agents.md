@@ -16,8 +16,8 @@ tags:
   - ai-integration
 related:
   - "[[agentic workflows]]"
-  - "[[context-engineering]]"linkedin:
-  status: "—"
+  - "[[context-engineering]]"
+linkedin:
 
 ---
 

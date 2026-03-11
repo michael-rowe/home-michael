@@ -18,8 +18,8 @@ draft: false
 permalink: ""
 enableToc: true
 cssclasses:
-  - ""linkedin:
-  status: "—"
+  - ""
+linkedin:
 
 ---
 

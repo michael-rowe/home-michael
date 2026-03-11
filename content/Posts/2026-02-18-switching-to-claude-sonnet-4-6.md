@@ -17,7 +17,7 @@ draft: false
 slug: posts/switching-to-claude-sonnet-4-6
 subtype: field-note
 enableToc: false
-linkedin-status: "—"
+linkedin:
 
 ---
 

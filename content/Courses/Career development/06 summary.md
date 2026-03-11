@@ -5,8 +5,8 @@ lesson: 6
 description: >-
   Review the core principles of academic career development and reflect on how
   to integrate these systematic approaches into your ongoing scholarly practice.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

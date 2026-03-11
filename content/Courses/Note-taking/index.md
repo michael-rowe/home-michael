@@ -19,8 +19,8 @@ duration: 5-7 hours
 level: Intermediate
 draft: false
 enableToc: true
-cssclasses: []linkedin:
-  status: "—"
+cssclasses: []
+linkedin:
 
 ---
 

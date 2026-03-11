@@ -27,7 +27,7 @@ tags:
 doi: 10.31219/osf.io/c764f_v1
 category:
   - AI and technology
-linkedin-status: "—"
+linkedin:
 
 ---
 > [!info] **About this essay**

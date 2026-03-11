@@ -20,7 +20,7 @@ related:
   - "[[Notes/context sovereignty]]"
 keyphrase: "collaborative development in education"
 slug: notes/open-source-software
-linkedin-status: "—"
+linkedin:
 
 ---
 

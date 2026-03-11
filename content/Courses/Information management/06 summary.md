@@ -8,7 +8,7 @@ description: >-
   put them into sustained practice.
 author: '[[Michael Rowe]]'
 course: Information management
-linkedin-status: "—"
+linkedin:
 
 ---
 

@@ -5,8 +5,8 @@ lesson: 9
 description: >-
   Build persistent AI partnerships with accumulated context about your research,
   disciplinary conventions, and scholarly goals.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 

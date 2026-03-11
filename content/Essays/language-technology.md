@@ -19,7 +19,7 @@ tags:
 category:
   - AI and technology
   - Scholarship
-linkedin-status: "—"
+linkedin:
 
 ---
 > [!info] **About this essay**

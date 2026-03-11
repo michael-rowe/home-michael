@@ -23,8 +23,8 @@ leads_to:
   - "[[AI literacy]]"
 contradicts:
 source: ""
-source_url: ""linkedin:
-  status: "—"
+source_url: ""
+linkedin:
 
 ---
 

@@ -26,7 +26,7 @@ related:
   - "[[documentation-as-infrastructure]]"
   - "[[curriculum-infrastructure]]"
 draft: false
-linkedin-status: "—"
+linkedin:
 
 ---
 

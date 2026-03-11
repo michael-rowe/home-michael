@@ -5,8 +5,8 @@ lesson: 4
 description: >-
   Create bounded spaces for complex, extended work to track meetings, tasks, and
   resources throughout a project's lifecycle.
-author: '[[Michael Rowe]]'linkedin:
-  status: "—"
+author: '[[Michael Rowe]]'
+linkedin:
 
 ---
 > [!info] Lesson overview
