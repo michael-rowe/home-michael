@@ -6,15 +6,19 @@ aliases:
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-01-08
-updated: 2026-01-30
-needs_review: false
+updated: 2026-03-12
+status: active
+draft: false
+keyphrase: "context engineering for AI systems"
+slug: notes/context-engineering
 tags:
   - context-engineering
   - generative-ai
   - information-architecture
   - knowledge-graphs
 category:
-  - AI and technology
+  - Technology
+  - Information management
 related:
   - "[[prompt engineering]]"
   - "[[knowledge graph]]"
@@ -27,8 +31,6 @@ builds_on:
 leads_to:
   - AI agents
 contradicts:
-source: ""
-source_url: ""
 linkedin:
 
 ---
@@ -51,6 +53,17 @@ Context engineering solves this by making your intellectual infrastructure—the
 The distinction matters because academic work isn't a series of isolated tasks to be optimised one prompt at a time. It's an interconnected body of knowledge where understanding depends on grasping how ideas relate. Prompt engineering treats each query as independent. Context engineering treats your work as a structured knowledge system.
 
 Consider the difference: with prompt engineering, you ask "what are the key debates about social constructivism?" and get a generic overview. With context engineering, AI that understands your theoretical position, your previous work on constructivism, your critiques of particular approaches, and how constructivism relates to other frameworks you engage with—that AI can offer substantive intellectual partnership rather than encyclopaedic summaries.
+
+## What context engineering includes
+
+Context engineering encompasses the full range of techniques for shaping what an AI system knows and how it reasons. Promptingguide.ai (2025) catalogues the components:
+
+- **Prompt and instruction design**: tuning system prompts, structuring inputs and outputs (delimiters, JSON schema), managing dynamic elements such as user inputs and date/time
+- **Retrieval and knowledge preparation**: searching and preparing relevant knowledge ([[retrieval augmented generation|RAG]]), query augmentation, short-term memory (managing conversational state), long-term memory via [[vector database|vector]] or [[graph database|graph]] stores
+- **Demonstrations**: preparing and optimising few-shot examples that show the model how to perform a task
+- **Agentic scaffolding**: tool definitions and instructions, prompt chains, and orchestration logic for [[multi-hop reasoning|multi-step systems]]
+
+This scope clarifies the relationship between context engineering and prompt engineering. Prompt engineering is a component of context engineering — specifically the craft of writing effective individual instructions. Context engineering designs the full information architecture that shapes every interaction.
 
 ## How it actually works
 
@@ -94,6 +107,7 @@ These questions don't have settled answers. Context engineering is valuable prec
 
 ## Sources
 
+- Promptingguide.ai. (2025). Context Engineering Guide.
 - Chalef, D. (2025). What is Context Engineering, Anyway?
 - Chase, H. (2025). The rise of context engineering.
 - King, S. (2025). Context Engineering: Why Feeding AI the Right Context Matters.
