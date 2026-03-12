@@ -2,6 +2,10 @@
 title: Home
 tab-title: /home/michael
 ---
+
+> [!NOTE] Previous writing
+> This is my new online home for all my writing and projects. My previous work can be found at [mrowe.co.za](https://www.mrowe.co.za/blog/) (AI and technology-enhanced scholarship) and [Head Space](https://academic-headspace.com/) (calm productivity and sustainable scholarship). Those sites are now legacy archives and all new content will be published here.
+
 What does it mean to do scholarly work when the tools, contexts, and expectations keep shifting? This is where I work through that question — through posts, essays, courses, and newsletters — mostly at the intersection of AI and health professions education.
 
 I'm an Associate Professor and Director of Teaching and Learning at the University of Lincoln, and this site is my attempt to build something of independent value: a long-term commitment to open scholarship that doesn't depend on institutional publishers or academic platforms.

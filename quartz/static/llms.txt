@@ -1,6 +1,44 @@
+# Michael Rowe: Comprehensive Biography
+
+Dr Michael Rowe is the Director of Teaching and Learning, and Associate Professor for Digital Innovation, in the School of Health and Care Sciences at the University of Lincoln, United Kingdom. A leading voice in the intersection of artificial intelligence, digital transformation, and health professions education, his work focuses on how emerging technologies mediate and transform the relationships between teachers, students, and professional practice.
+
+## Professional Journey and Academic Foundation
+Michael began his career as a clinical physiotherapist, practicing in South Africa, the United Kingdom, and Ireland between 2002 and 2007. This clinical foundation remains central to his academic mission: ensuring that technological innovation serves to augment, rather than replace, human expertise and professional judgement.
+
+He transitioned to academia at the University of the Western Cape (UWC) in South Africa, where he served as a Lecturer, Senior Lecturer, and eventually Associate Professor and Head of the Physiotherapy Department (2017–2021). During his tenure at UWC, he completed his PhD (2012) on blended learning in physiotherapy education, pioneering the design and evaluation of technology-integrated approaches that shifted traditional didactic models toward case-based, technology-enhanced learning.
+
+## Strategic Leadership and Digital Innovation
+Joining the University of Lincoln in 2022, Michael served as Associate Professor for Digital Innovation and Simulation before being appointed Director of Teaching and Learning in 2025. His leadership is characterized by a "deployment-first" philosophy that bridges high-level scholarship with operational execution. 
+
+Key achievements at Lincoln include:
+- **Digital Infrastructure:** Designing and implementing a school-wide digital infrastructure that has seen over 750,000 site visits, facilitating communication and collaboration for 300 academics across 17 programmes.
+- **Simulation Leadership:** Securing a £500,000 digital innovation grant to establish a comprehensive simulation programme, including the integration of virtual reality (VR) and immersive simulation rooms.
+- **AI Governance:** Co-founding the university’s first AI working groups (GAIN, DICE, and Strategic Guidance), which have shaped institutional policy on AI literacy and the ethical use of generative AI in teaching and assessment.
+
+## National and International Influence
+Michael is frequently invited to shape national and international policy for health professions. He serves as an expert on the **Health and Care Professions Council (HCPC)** Standards of Education Panel on AI and is a member of the **Council of Deans of Health (CoDH)** Principles of Generative AI working group. 
+
+In 2024, he led the development of the **IFOMPT** international discussion document on AI in physiotherapy, following a global survey and symposium at the World Congress in Basel. In 2025, he delivered the prestigious **Chartered Society of Physiotherapy (CSP) Congress Founders Lecture**, where he introduced the "Context Sovereignty" framework for professional development with AI.
+
+## Philosophy and Scholarship
+Michael’s work is grounded in "Context Sovereignty"—a framework he developed to preserve professional agency and human judgement in AI-supported environments. He advocates for "Thinking in Public," maintaining an active professional portfolio and blog (mrowe.co.za) that has reached over 86,000 unique visitors.
+
+His scholarly contributions include:
+- **Publications:** Over 40 peer-reviewed articles and preprints on AI literacy, digital pedagogy, and critical thinking.
+- **Citations:** 1,633 citations with an h-index of 17 (as of Feb 2026).
+- **Open Scholarship:** Founding Editor of *OpenPhysio*, a diamond open-access journal, and co-founder of *In Beta*, an international community for physiotherapy educators.
+- **Education:** Senior Fellow of Advance HE.
+
+## Future Outlook
+Michael is currently positioning his work at the intersection of academic rigour and strategic execution, preparing for the emerging "Chief AI Officer" roles within higher education. His goal is to create the evidence base and governance frameworks necessary for a responsible, AI-augmented future in professional education.
+
+---
+
 # /home/michael
 
 > A framework for the entire knowledge creation pipeline: from identifying problems worth solving, to learning systematically, to sharing what you've learned in ways that matter.
+
+Note: This is my new home for all writing. My previous work can be found at [Head Space](https://academic-headspace.com/) (calm productivity and sustainable scholarship) and [mrowe.co.za](https://www.mrowe.co.za/blog/) (AI and technology-enhanced scholarship). These sites are now legacy archives; all new content on these topics is published here.
 
 This site is maintained by Michael Rowe, an academic and researcher working on technology-enhanced scholarship and artificial intelligence in health professions education at the University of Lincoln.
 
