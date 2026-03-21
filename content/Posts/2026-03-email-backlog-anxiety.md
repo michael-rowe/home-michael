@@ -1,11 +1,11 @@
 ---
-title: It's not the backlog that drains you — it's not knowing its shape
+title: "Email backlog anxiety: it's not the emails — it's not knowing their shape"
 type: post
 aliases:
-  - Clearing the drift
-description: Dense periods leave a residue — not the urgent things, which get handled, but everything else that quietly accumulates. The anxiety this produces isn't about workload. It's about the unbounded unknown. Understanding the difference changes how you approach the clearance.
-meta-description: Backlog anxiety isn't about workload — it's about not knowing the shape of what's accumulated. Here's how to think about inbox clearance differently.
-keyphrase: "inbox anxiety and focus restoration"
+  - posts/backlog-anxiety-unbounded-unknowns
+description: Dense periods leave a residue — not the urgent things, which get handled, but everything else that quietly accumulates. The email backlog anxiety this produces isn't about workload. It's about the unbounded unknown. Understanding the difference changes how you approach the clearance.
+meta-description: Email backlog anxiety isn't about volume — it's about not knowing the shape of what's accumulated. Here's how to approach inbox clearance differently.
+keyphrase: email backlog anxiety
 author: "[[Michael Rowe]]"
 date: 2026-03-18
 updated: 2026-03-18
@@ -14,10 +14,12 @@ tags:
   - time-management
   - information-management
   - cognition
-category: [Information management, Professional development]
+category:
+  - Information management
+  - Professional development
 related:
 draft: true
-slug: "posts/backlog-anxiety-unbounded-unknowns"
+slug: posts/email-backlog-anxiety
 subtype: ""
 enableToc: true
 linkedin:
@@ -28,11 +30,11 @@ linkedin:
 
 Dense periods leave a residue. During the last three unusually full weeks — teaching-heavy, multiple concurrent projects, significant background work that produces no visible output — everything urgent gets handled immediately. The problem is everything else. Emails go unread. Meeting actions sit unprocessed. Small threads stay open. Nothing is on fire. But something accumulates.
 
-This is the Drift: the accumulation of debris and clutter that impedes working context. I can usually keep on top of it. But sometimes it builds until it feels overwhelming. Anyone who runs clinical placements, manages student cohorts, or carries a mixed teaching-and-research load will recognise the shape of it.
+This is the Drift: the accumulation of debris and clutter that drives email backlog anxiety. I can usually keep on top of it. But sometimes it builds until it feels overwhelming. Anyone who runs clinical placements, manages student cohorts, or carries a mixed teaching-and-research load will recognise the shape of it.
 
 When a gap finally appears, the instinct is to treat what follows as routine admin: a clearance session, like tidying up before getting back to real work. That framing is wrong. What you're clearing for changes how you go about it.
 
-## Two reasons to clear a backlog
+## Two reasons email backlog anxiety builds
 
 There are two distinct reasons to run a clearance session.
 
