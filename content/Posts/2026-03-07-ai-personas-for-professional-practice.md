@@ -47,17 +47,17 @@ Most educators hold positions like these, even if they haven't articulated them 
 
 ## From self-knowledge to structured context
 
-To make these commitments operational, I use a three-stage process. First, I commission deep research reports, seeded with my values, preferred scholars, and professional notes. The reports aren't neutral literature reviews — they're rigorous syntheses of the evidence as understood through my professional lens. Second, I layer the reports: the learning research becomes an input for a report on teaching, so that pedagogical recommendations are grounded in cognitive science rather than floating free. Third, I distil the applied research into structured personas that AI agents like [[Claude Code]] can use in practice.
+To make these commitments operational, I sometimes use a three-stage process. First, I commission deep research reports - typically from Gemini - seeded with my values, preferred scholars, and professional notes. This means that the reports aren't neutral literature reviews; they're syntheses of the evidence as understood through my professional lens. Then, I might layer the reports, for example, the deep research report becomes an input for a second report on teaching, so that pedagogical recommendations are grounded in cognitive science rather than floating free. Finally, I distil the applied research into structured personas that AI agents like [[Claude Code]] can use in practice.
 
 The distillation stage is worth pausing on, because it's easy to misread as reductive, as if I'm stripping away nuance to produce a simplified checklist. It's closer to the opposite. The persona compresses thousands of words of evidence into an actionable framework, but the richness is preserved in the structure. Every element in the persona traces back to the research. When the `classroom-teacher` persona asks "is cognitive load managed?", that question carries the weight of Sweller's framework, Cowan's working memory research, and the practical implications I've worked through across both reports. The persona is compact, but it's dense.
 
 The learning research report opens by establishing the evidence base:
 
-> **Learning is the residue of thought.** This elegant formulation from cognitive scientist Daniel Willingham captures what decades of research have established: durable learning emerges not from exposure to information but from active mental engagement with it. If no change has occurred in long-term memory, nothing has truly been learned.
+> **Learning is the residue of thought.** This formulation from cognitive scientist Daniel Willingham captures what decades of research have established: durable learning emerges not from exposure to information but from active mental engagement with it. If no change has occurred in long-term memory, nothing has truly been learned.
 
 ## What an AI persona looks like
 
-The `classroom-teacher` persona that emerged from this process evaluates teaching through five interconnected lenses:
+The `classroom-teacher` persona that emerged from the process described above evaluates teaching through five interconnected lenses:
 
 > - **Cognitive architecture**: is working memory load managed, and are students helped to build organised knowledge structures?
 > - **Memory and retention**: are there opportunities for retrieval practice, spaced review, and interleaved problem types?
@@ -65,7 +65,7 @@ The `classroom-teacher` persona that emerged from this process evaluates teachin
 > - **Motivation and engagement**: do students have autonomy, appropriately calibrated challenge, and a sense of belonging?
 > - **Metacognition and self-regulation**: are students helped to understand how learning works, and prompted to monitor their own understanding?
 
-Each of those lenses traces directly back to the research reports. The persona is the operational surface; the evidence is the foundation. And because the evidence is filtered through my professional commitments, the persona doesn't just reflect "what research says" in the abstract — it reflects what *I believe* good teaching looks like, with the research to support it. Of course, this also means that your `classroom-teacher` persona will likely look different to mine, because your research reports, professional commitments, and preferences, will reflect different values and beliefs.
+Each of those lenses traces directly back to the research reports. The persona is the operational surface; the evidence is the foundation. And because the evidence is filtered through my professional commitments, the persona doesn't just reflect "what research says" in the abstract; it reflects what *I believe* good teaching looks like, with the research to support it. Of course, this also means that *your* `classroom-teacher` persona will likely look different to mine, because your research reports, professional commitments, and preferences, will reflect different values and beliefs.
 
 This isn't a one-off. The same pattern produces personas for other aspects of my work. The `accessibility reviewer` goes beyond automated WCAG checkers to include cognitive accessibility, plain language, and inclusive design.
 
@@ -91,6 +91,6 @@ I also use personas in sequence. This post, for example, went through the `copy-
 
 ## Start with yourself, not the technology
 
-If you're an educator thinking about how AI might support your practice, I'd encourage you to start not with the technology but with yourself. What do you actually believe about your domain? Which frameworks have shaped your thinking? What are your non-negotiables? Where does your professional judgement come from, and can you articulate it clearly enough that someone else — or something else — could act on it?
+If you're an educator thinking about how AI might support your practice, don't start with the technology but with yourself. What do you actually believe about your domain? Which frameworks have shaped your thinking? What are your non-negotiables? Where does your professional judgement come from, and can you articulate it clearly enough that someone else — or in this case, some*thing* else — could act on it?
 
-That articulation, even if you never build a formal persona, will make every AI interaction more productive. The quality of what you get out depends on the quality of the thinking you put in — not the cleverness of your prompt, but the depth of your professional self-knowledge.
+That articulation, even if you never build a formal persona, will make every AI interaction more productive. The quality of what you get out depends on the quality of the thinking you put in. Not the cleverness of your prompt, but the depth of your professional self-knowledge.
