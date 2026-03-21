@@ -1,13 +1,14 @@
 ---
-title: The writing was never the point
+title: "The writing was never the point: AI and academic writing identity"
 type: post
 author: "[[Michael Rowe]]"
-date: 2026-03-13
-updated: 2026-03-13
+date: 2026-03-22
+updated: 2026-03-22
 description: "When AI could write everything I'd ever written, I had to ask: what had I been doing all this time? The answer changed how I understand both writing and AI — and what it means to be a scholar in a world where words are cheap."
-meta-description: "AI didn't threaten my writing. It revealed what my writing was always actually for."
-keyphrase: writing with AI
+meta-description: When AI could write everything I'd written, I had to ask what that revealed about academic writing identity. The answer was clarifying.
+keyphrase: AI and academic writing identity
 draft: true
+enableToc: true
 tags:
   - academic-writing
   - academic-practice
@@ -15,13 +16,15 @@ tags:
   - ai-integration
 category:
   - Scholarship
-slug: posts/the-writing-was-never-the-point
+slug: posts/ai-academic-writing-identity
 linkedin:
 ---
+> [!info] AI didn't threaten my writing — it revealed what it was always actually for
+> When AI could produce the kind of prose I'd spent years learning to write, I had to ask what I'd actually been doing. The answer wasn't comfortable, but it was clarifying: the writing was never the distinctive part. The glimpse upstream of it — the thing that needed to be worked out and made visible — always was.
 
 I used to say I was compelled to write. Not that I enjoyed it — compelled. There's a difference. Enjoyment is about the process. Compulsion is about something that won't let you rest until it's done.
 
-Then AI arrived, and I discovered it could write. Not badly, either. Given the right prompt, it could produce an essay with the shape and register of something I might write. Structured arguments, reasonable prose, the kind of hedged academic confidence I'd spent years cultivating. And when I saw that, something unsettled me — not the quality of the output, but the question it raised. If AI could produce that, what had I actually been doing all this time?
+Then AI arrived, and I discovered it could write. Not badly, either. Given the right prompt, it could produce an essay with the shape and register of something I might write. Structured arguments, reasonable prose, the kind of hedged academic confidence I'd spent years cultivating. And when I saw that, it unsettled me — not the quality of the output, but the question it raised. If AI could produce that, what had I actually been doing all this time?
 
 ## The identity trap
 
@@ -29,15 +32,15 @@ The answer I first reached for was the wrong one. I told myself the output wasn'
 
 The real issue was simpler and more uncomfortable: I had built my identity around a particular tool. "I'm a writer" was load-bearing in how I understood myself as an academic. The writing was the most visible part of the process, so it had become the identity. And now the tool was threatened, which felt like the identity was threatened.
 
-Jussupow, Heinzl and Spohrer (2018) studied this pattern in medical professionals facing AI: when a technology challenges the knowledge that defines your professional identity, the threat lands not just as inconvenience but as something closer to existential. The framework they developed identifies five dimensions of professional identity threat. The most relevant here is threat to *expertise* — the sense that what made you distinctively you is no longer distinctively yours.
+Jussupow, Heinzl and Spohrer (2018) studied this pattern in medical professionals facing AI: when a technology challenges the knowledge that defines your [[professional identity]], the threat lands not just as inconvenience but as something closer to existential. The most relevant dimension they identify is threat to *expertise* — the sense that what made you distinctively you is no longer distinctively yours.
 
-What I eventually worked out is that I had misidentified the expertise. The words were never the distinctive part. They were always reproducible — by me, on a good day, and it turns out by AI, on most days. The thing that wasn't reproducible was upstream of the words entirely.
+What I worked out is that I had misidentified the expertise. The words were never the distinctive part. They were always reproducible — by me, on a good day, and it turns out by AI, on most days. The thing that wasn't reproducible was upstream of the words entirely.
 
 ## The glimpse
 
 Before any piece of writing that mattered to me, there was a moment. Not an idea fully formed, but something more like a direction — a brief clarity about a relationship between two things that convention kept separate, or a hidden assumption that everyone was treating as a fact, or the core of something complex that had been obscured by its own accretions. A glimpse, before any words attached to it.
 
-This is what the compulsion was actually responding to. The glimpse of something as-yet-unseen, felt as urgent, as needing to be got out of my head and made solid before the fog closed again. The writing was how I anchored it — turned the ephemeral into something I could then mould into a coherent thought.
+This is what the compulsion was actually responding to. The glimpse of something as-yet-unseen, felt urgent — needing to be got out of my head and made solid before the fog closed again. The writing was how I anchored it — turned the ephemeral into something I could then mould into a coherent thought.
 
 Paul Graham (2022) put a version of this precisely: good writing isn't about demonstrating what you already understand, it's about discovering new ideas. The French etymology helps too — the word *essai* means to try. An essay is an attempt, a working-toward, not a demonstration of arrival. The compulsion I was describing was the compulsion to attempt — to work the glimpse out, and then to make it visible to someone else.
 
@@ -47,7 +50,7 @@ That's what I was doing. Not writing, in the narrow sense. Making something visi
 
 Feynman described writing as not merely a record of what he thought, but the medium *through* which he thought — the thing that made conscious thinking possible. That framing holds for me, and it's what survived the AI transition intact. Writing is still thinking. What's changed is what I mean by "writing."
 
-I used to write with a pen. Then with a word processor. Now with AI. But I want to be careful here, because there's an asymmetry worth naming. A pen and a word processor are passive — they transcribe, they don't participate. AI is categorically different because it *contributes*: it offers framings I hadn't considered, surfaces connections I'd missed, pushes back in ways that force me to drill into the idea more precisely. It's closer to a colleague than a tool.
+I used to write with a pen. Then with a word processor. Now with AI. But there's an asymmetry worth naming. A pen and a word processor are passive — they transcribe; they don't participate. AI is categorically different because it *contributes*: it offers framings I hadn't considered, surfaces connections I'd missed, pushes back in ways that force me to drill into the idea more precisely. It's closer to a colleague than a tool.
 
 That participation is exactly what makes it generative — and exactly what makes it risky if you're not careful about how you use it.
 
@@ -71,7 +74,7 @@ I'm a scholar. And scholarship, in its everyday form, is messy, personal, and pu
 
 The glimpse is still mine. The compulsion is still mine. What's changed is that the medium for working it out has become richer and stranger than anything I expected.
 
-And if that doesn't feel like writing, I think that's because we've been using "writing" as a shorthand for something that was always bigger than words.
+And if that doesn't feel like writing, it's because we've been using "writing" as a shorthand for something that was always bigger than words.
 
 ---
 
