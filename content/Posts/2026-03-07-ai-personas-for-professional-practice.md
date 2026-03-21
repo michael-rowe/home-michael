@@ -25,23 +25,23 @@ linkedin:
 ---
 
 > [!info] The real leverage from AI isn't prompt engineering — it's professional self-knowledge
-> Generic AI roles give generic outputs. The model has no way to distinguish between your understanding of good practice and anyone else's. The way to close that gap isn't to find better prompts — it's to articulate what you actually believe, grounded in evidence, clearly enough that an AI can work within that context.
+> Generic AI roles give generic outputs. The model has no way to distinguish between your understanding of good practice and anyone else's. The way to close that gap isn't to find better prompts; it's to articulate what you actually believe, grounded in evidence, clearly enough that an AI can work within that context.
 
 Most advice on using AI effectively focuses on [[prompt engineering]]: how to phrase your request, what role to assign, or which magic words unlock better outputs. There's a place for that. But I've found that the real leverage comes from something less glamorous: knowing yourself and your field well enough to articulate what "good" actually means to you. That's what building effective AI personas for professional practice actually requires.
 
 ## The problem with "you are an expert"
 
-When you assign a language model a generic expert role, you're relying on whatever the model absorbed during training about what that expertise looks like. That's a broad, undifferentiated average across everything ever written on the topic — the thoughtful and the terrible, the evidence-based and the anecdotal. Your professional judgement is invisible to it.
+When you assign a language model a generic expert role, you're relying on whatever the model absorbed during training about what that expertise looks like. That's a broad, undifferentiated average across everything ever written on the topic, including the thoughtful and the terrible, the evidence-based and the anecdotal. And your professional judgement is invisible to to this undifferentiated average.
 
-This matters because professional domains are full of contested ground. In teaching, there are genuine disagreements about what "good" looks like. Over the course of my career, I've made specific commitments — to cognitive load theory, to retrieval practice, to constructive alignment, to Freirean critical pedagogy — that shape how I plan sessions and evaluate my own practice. These aren't neutral positions. They're a professional identity, built over time.
+This matters because professional domains are full of contested ground. In teaching, there are real, intellectually honest disagreements about what "good" looks like. Over the course of my career, I've made specific commitments — to cognitive load theory, to retrieval practice, to constructive alignment, to Freirean critical pedagogy — that shape how I plan sessions and evaluate my own practice. These aren't neutral positions. They're a professional identity, built over time. And it's specific to me. Others may have similar commitments to similar positions, but the exact way that I think about them is unique.
 
-If I want an AI to help me with my work, it needs to understand those commitments. And that means I need to be able to articulate them clearly — not just as vague preferences, but as a coherent set of values, beliefs, and assumptions that I can defend with evidence. And I shouldn't have to do it every time I interact with the model in certain contexts.
+If I want an AI to help me with my work, it needs to understand those commitments. And that means I need to be able to articulate them clearly, not just as vague preferences, but as a coherent set of values, beliefs, and assumptions I can defend with evidence. And I shouldn't have to do it every time I interact with the model.
 
 ## Knowing yourself well enough to describe what you value
 
-The real prerequisite for effective AI use isn't technical. It's reflective: being able to say which scholars and frameworks have shaped your thinking, what assumptions you're comfortable making, and where your professional judgement comes from.
+Therefore, the real prerequisite for effective AI use isn't technical. It's reflective: being able to say which scholars and frameworks have shaped your thinking, what assumptions you're comfortable making, and where your professional judgement comes from.
 
-For me, that means naming Willingham on memory, Bjork on desirable difficulties, Biggs on constructive alignment, and Freire on the purpose of education — and being clear about why each one matters to how I work.
+For me, that means doing things like naming Willingham on memory, Bjork on desirable difficulties, Biggs on constructive alignment, Freire on the purpose of education, and being clear about why each one matters to me.
 
 Most educators hold positions like these, even if they haven't articulated them recently. The difference AI makes is that articulation becomes directly productive. The clearer you can be about what you value and why, the richer the context you can construct for an AI to work within.
 

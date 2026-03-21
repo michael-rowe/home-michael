@@ -2,6 +2,7 @@
 title: You're subscribed
 description: Thank you for confirming your subscription to the newsletter.
 enableToc: false
+noBacklink: true
 ---
 
 Thanks for confirming. I'll only send newsletters out when I think there's genuinely something worth sharing.
