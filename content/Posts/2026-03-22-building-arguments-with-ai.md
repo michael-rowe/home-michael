@@ -35,7 +35,7 @@ The format is simple. I write a few lines — half-formed, provisional — and C
 
 The key mechanic is that Claude re-reads the full note each time it responds, rather than treating this as a linear back-and-forth. I can add to the note anywhere — at the end, or as bullet points slotted between earlier responses — and all of it becomes context for the next reply. The conversation branches: different threads pull in different directions before eventually converging on the core idea.
 
-Here's a short excerpt from a recent session. I opened with a loose thought about writing:
+Here's a short excerpt from a recent session. I opened with a loose thought about writing (the bullet points inbetween Claude's paragraphs are my responses to that paragraph):
 
 ---
 
@@ -78,16 +78,18 @@ Later in the same session, I asked it to search my vault and Zotero for relevant
 
 ---
 
-That last move — surfacing three things I'd written or read separately and hadn't yet connected — is what makes this different from a conversation I'd have in a browser. The command has context. It knows what's in my vault.
+That last move — surfacing three things I'd written or read separately and hadn't yet connected — is what makes this different from a conversation I'd have in a browser. The command has context because it knows what's in my Obsidian vault and my Zotero library.
 
-Once I feel like I've explored the idea sufficiently and moved the thread towards something resembling closure, Claude generates new permanent notes based on the discussion, and adds a conclusion that wraps up the discussion.
+Once I feel like I've explored the idea sufficiently and moved the thread towards something resembling closure, Claude first generates new permanent notes based on the discussion, integrating them into my existing set of notes, and adds a conclusion to wrap things up. For example, this is the conclusion to the writing session described above:
 
 ![[conclave_conclusion.png]]
 
 ## Why this matters
 
-Most AI interaction happens in a chat interface: you type, the model responds, you close the tab, the conversation disappears. If something useful emerged, you have to copy it somewhere manually, or it's gone.
+Most AI interaction happens in a chat interface: you type, the model responds, you close the tab, the conversation disappears. If you want to add context, you have to search for it yourself (I do this as well, when I know what the connection is). If something useful emerged, you have to copy it somewhere manually.
+
+In addition, I can swap out models in the background. I can switch between Claude Opus, Sonnet, and Haiku, or experiment with Codex, Gemini, or Qwen. Having a system that's AI-agnostic means I'm not reliant on any provider and can switch to a completely different model at any point, without losing any context. It also means I can run a local, open-source model, although none are at a point right now where I'd do this permanently.
 
 A session like this one is a markdown file on my machine from the moment it starts. It's in my vault, alongside everything else, searchable, linkable, and available as context to any future session. When I asked the command to search my notes, it could find this session in a future search, surface what came out of it, and build on it. The thinking accumulates rather than evaporating.
 
-That's not a minor convenience. It's a different relationship with the tool. The conversation isn't a transaction — ask, receive, close. It's a record of thinking, in the same place as the rest of my thinking, that compounds over time.
+That's not a minor convenience. It's a different relationship with the tool. The conversation isn't a transaction — ask, receive, close. It's a record of thinking, saved in the same place as the rest of my thinking, that compounds over time.
