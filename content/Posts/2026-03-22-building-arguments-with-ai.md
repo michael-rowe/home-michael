@@ -1,12 +1,12 @@
 ---
-title: The session that produced an argument
+title: Building arguments with AI
 type: post
 author: "[[Michael Rowe]]"
 date: 2026-03-22
 updated: 2026-03-22
-description: "Raw material accumulates — reading summaries, transcripts, book annotations. This is a field note on the brainstorming command I use to engage with any source, with an excerpt showing what a session looks like: the format, Claude surfacing vault notes and Zotero sources, and why the conversation living in markdown matters."
-meta-description: "A field note on AI-assisted brainstorming in Claude Code: what a session looks like, how it surfaces connected notes, and why the conversation stays in your vault."
-keyphrase: developing ideas with AI
+description: "A field note on building arguments with AI: the brainstorming command I use to engage with any source, with an excerpt showing what a session looks like — Claude surfacing vault notes and Zotero sources, and why the conversation living in markdown matters."
+meta-description: "A field note on building arguments with AI: what a session looks like, how it surfaces connected notes, and why the conversation stays in your vault."
+keyphrase: building arguments with AI
 draft: false
 enableToc: false
 subtype: field-note
@@ -17,19 +17,23 @@ tags:
   - context-engineering
 category:
   - Scholarship
-slug: posts/the-session-that-produced-an-argument
+slug: posts/building-arguments-with-ai
+aliases:
+  - posts/the-session-that-produced-an-argument
 linkedin:
 ---
 
-Raw material accumulates in different forms. Sometimes it's the weekly synthesis of reading and listening produced by my [weekly review command](posts/review-reading-notes-ai). Sometimes it's a transcript, a set of book annotations, or a cluster of notes that haven't resolved into anything coherent. The material is there; what's missing is a structured way to engage with it.
+Raw material accumulates in different forms. Sometimes it's the weekly synthesis of reading and listening produced by my [[2026-03-21-review-reading-notes-with-ai|weekly review process]]. Sometimes it's a transcript, a set of book annotations, or a cluster of notes that haven't resolved into anything coherent. The material is there; what I've been missing is a structured way to make sense of it.
 
-I have a brainstorming command for this — I call it `/conclave`. It runs inside [Claude Code](https://claude.ai/code), a terminal-based AI interface, and you can point it at any source. It creates or opens a daily note in my writing vault, loads context from my recent work, and begins a conversation. Through a local server it has access to my full vault and Zotero library — it can search notes, surface connections, and pull in sources directly.
+Recently I built a brainstorming command called `/conclave`. It runs inside [Claude Code](https://claude.ai/code), a terminal-based AI interface. Point it at any source and it creates or opens a daily note in my writing vault, loads context from my recent work, and begins a conversation. Through a local server it has access to my full vault and Zotero library, giving it the ability to search notes, surface connections, and pull in sources directly.
 
-The instruction behind the command tells Claude to push back rather than validate, to steelman positions before testing them, to ask one sharp question rather than a battery of gentle ones. It's explicitly not a summarisation tool. The point is to have something to think against.
+The instruction behind the command tells Claude to push back rather than validate, to steelman positions before testing them, to ask one sharp question rather than a battery of gentle ones. It's explicitly not a summarisation tool — building arguments with AI requires friction, not agreement.
 
 ## What a session looks like
 
 The format is simple. I write a few lines — half-formed, provisional — and Claude responds. I reply in bullet points. Claude asks something sharper. The session builds as a running transcript in the note.
+
+The key mechanic is that Claude re-reads the full note each time it responds, rather than treating this as a linear back-and-forth. I can add to the note anywhere — at the end, or as bullet points slotted between earlier responses — and all of it becomes context for the next reply. The conversation branches: different threads pull in different directions before eventually converging on the core idea.
 
 Here's a short excerpt from a recent session. I opened with a loose thought about writing:
 
@@ -66,20 +70,24 @@ Later in the same session, I asked it to search my vault and Zotero for relevant
 
 **Claude**:
 
-> The most directly useful vault note is the Feynman quote in [[writing is thinking]]: "writing was not merely a record or trace of what he thought, but rather the *medium through which he thought* that enabled him to think more consciously." That's almost exactly the claim you're making about AI — except the medium has shifted from inscription to dialogue.
+> The most directly useful vault note is the Feynman quote in [writing is thinking]: "writing was not merely a record or trace of what he thought, but rather the *medium through which he thought* that enabled him to think more consciously." That's almost exactly the claim you're making about AI — except the medium has shifted from inscription to dialogue.
 >
 > From Zotero, Nguyen, Hong, Dang & Huang (2024, *Studies in Higher Education*) studied doctoral students working with AI and found that those who engaged in iterative, highly interactive back-and-forth with the tool outperformed those who used it as a supplementary information source. The empirical finding maps directly onto your practice: the collaboration is the thing, not the offloading.
 >
-> [[scarcity inversion when words become cheap]] is also worth pulling in here. When generation becomes cheap, discernment becomes the scarce and valuable thing. Carlo Iacono: "when words get cheaper, meaning gets more expensive." The vibe coder has outsourced the expensive part.
+> [scarcity inversion when words become cheap] is also worth pulling in here. When generation becomes cheap, discernment becomes the scarce and valuable thing. Carlo Iacono: "when words get cheaper, meaning gets more expensive." The vibe coder has outsourced the expensive part.
 
 ---
 
 That last move — surfacing three things I'd written or read separately and hadn't yet connected — is what makes this different from a conversation I'd have in a browser. The command has context. It knows what's in my vault.
 
+Once I feel like I've explored the idea sufficiently and moved the thread towards something resembling closure, Claude generates new permanent notes based on the discussion, and adds a conclusion that wraps up the discussion.
+
+![[conclave_conclusion.png]]
+
 ## Why this matters
 
 Most AI interaction happens in a chat interface: you type, the model responds, you close the tab, the conversation disappears. If something useful emerged, you have to copy it somewhere manually, or it's gone.
 
-A session like this one is a markdown file on my machine from the moment it starts. It's in my vault, alongside everything else — searchable, linkable, and available as context to any future session. When I asked the command to search my notes, it could find this session in a future search, surface what came out of it, and build on it. The thinking accumulates rather than evaporating.
+A session like this one is a markdown file on my machine from the moment it starts. It's in my vault, alongside everything else, searchable, linkable, and available as context to any future session. When I asked the command to search my notes, it could find this session in a future search, surface what came out of it, and build on it. The thinking accumulates rather than evaporating.
 
 That's not a minor convenience. It's a different relationship with the tool. The conversation isn't a transaction — ask, receive, close. It's a record of thinking, in the same place as the rest of my thinking, that compounds over time.
