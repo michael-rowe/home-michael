@@ -7,7 +7,7 @@ updated: 2026-03-22
 description: "When AI could write everything I'd ever written, I had to ask: what had I been doing all this time? The answer changed how I understand both writing and AI — and what it means to be a scholar in a world where words are cheap."
 meta-description: When AI could write everything I'd written, I had to ask what that revealed about academic writing identity. The answer was clarifying.
 keyphrase: AI and academic writing identity
-draft: false
+draft: true
 enableToc: true
 tags:
   - academic-writing
