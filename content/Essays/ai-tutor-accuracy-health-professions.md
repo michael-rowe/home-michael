@@ -8,14 +8,17 @@ description: "A mathematical framework demonstrating that AI tutoring systems wi
 meta-description: AI tutor accuracy in health professions education needn't be perfect to be effective — it needs to be calibrated to context and consequence.
 author:
   - "[[Michael Rowe]]"
+  - "[[Lambert Schuwirth]]"
 affiliation:
   - University of Lincoln
+  - Flinders University
 email:
   - mrowe@lincoln.ac.uk
+  - schuwirthconsulting@gmail.com
 keyphrase: AI tutor accuracy in health professions education
 version: 0.8
 created: 2026-02-12
-modified: 2026-02-24
+modified: 2026-03-22
 tags:
   - large-language-models
   - health-professions-education
@@ -36,13 +39,12 @@ reviewed:
   - copy_editor
   - SEO_optimiser
 linkedin:
-
 ---
 > [!info] **About this essay**
-> - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk)
+> - **Authors**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk); Lambert Schuwirth ([ORCID](https://orcid.org/0000-0002-6279-5158))
 > - **Affiliation**: University of Lincoln
 > - **Created**: Feb 12, 2026
-> - **Version**: 0.8 (last updated: Feb 24, 2026)
+> - **Version**: 0.8 (last updated: March 22, 2026)
 > - **Keywords**: AI tutoring, health professions education, accuracy, student engagement, epistemic accountability
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
