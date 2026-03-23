@@ -7,8 +7,8 @@ description: Dense periods leave a residue — not the urgent things, which get 
 meta-description: Email backlog anxiety isn't about volume — it's about not knowing the shape of what's accumulated. Here's how to approach inbox clearance differently.
 keyphrase: email backlog anxiety
 author: "[[Michael Rowe]]"
-date: 2026-03-25
-updated: 2026-03-25
+date: 2026-03-24
+updated: 2026-03-24
 tags:
   - productivity
   - time-management

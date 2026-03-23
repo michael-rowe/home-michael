@@ -6,10 +6,10 @@ aliases:
   - posts/working-notes-as-database
 description: Most academics accumulate meeting notes, project files, and output records without realising these documents could function as a queryable database. When structured with consistent metadata, they become something AI can reason across — producing perspectives on your own scholarly life that no single document, annual review, or institutional system can provide. This post argues for treating operational documentation as infrastructure, not housekeeping.
 meta-description: "Structured notes for academic productivity: learn how consistent metadata turns your working notes into a database AI can reason across."
-keyphrase: "structured notes for academic productivity"
+keyphrase: structured notes for academic productivity
 author: "[[Michael Rowe]]"
-date: 2026-03-21
-updated: 2026-03-21
+date: 0001-01-01
+updated: 0001-01-01
 tags:
   - documentation
   - information-architecture

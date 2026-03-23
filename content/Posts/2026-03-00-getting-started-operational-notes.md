@@ -5,10 +5,10 @@ aliases:
   - Operational notes getting started
 description: A practical starting point for academics who want to structure their working notes so AI can reason across them. This post covers what to install, what a first meeting note template looks like, how to build the habit before adding any complexity, and when to bring AI into the process. No prior technical experience required.
 meta-description: "A practical guide to structuring your academic working notes for AI: what to install, what your first template looks like, and where to start."
-keyphrase: "structured academic notes for AI"
+keyphrase: structured academic notes for AI
 author: "[[Michael Rowe]]"
-date: 2026-03-21
-updated: 2026-03-21
+date: 0001-01-01
+updated: 0001-01-01
 tags:
   - documentation
   - information-architecture
@@ -19,7 +19,7 @@ category:
   - Information management
   - Scholarship
 related:
-  - "[[2026-03-21-structured-notes-academic-productivity]]"
+  - "[[2026-03-00-structured-notes-academic-productivity]]"
   - "[[2026-02-24-ai-ready-knowledge-base]]"
 draft: true
 slug: posts/getting-started-operational-notes
