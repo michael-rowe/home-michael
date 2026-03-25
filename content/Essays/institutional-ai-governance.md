@@ -4,8 +4,6 @@ title: >-
   Avoiding innovation theatre: A framework for supporting institutional AI
   integration
 slug: essays/institutional-ai-governance
-aliases:
-  - essays/ai-integration-framework
 description: >-
   Higher education institutions face persistent pressure to demonstrate AI
   engagement, often resulting in 'innovation theatre' — the performance of

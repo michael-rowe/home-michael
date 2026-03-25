@@ -16,8 +16,6 @@ email:
 version: 0.9
 created: 2025-05-23
 modified: 2026-02-13
-aliases:
-  - essays/context-sovereignty
 tags:
   - context-engineering
   - context-sovereignty
