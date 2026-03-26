@@ -1,6 +1,6 @@
 ---
 type: post
-title: Designing AI out of assessment is an academic offence
+title: Designing AI out of assessment should be an academic offence
 description: Academic offences committees are investigating the wrong party. When AI is integral to authentic professional practice, assessment that excludes it does not protect rigour — it tests performance in a professional context that no longer exists. Valid assessment measures what graduates will actually need to do; for most health professions graduates in 2025, that includes thinking well with AI. The accountability for assessment design lies with educators, not students.
 meta-description: Designing AI out of health professions assessment is a validity failure, not a principled stance. The academic offence belongs to the assessment designer.
 keyphrase: AI assessment academic offence
@@ -23,7 +23,7 @@ enableToc: true
 linkedin:
 ---
 
-> [!info] Designing AI out of assessment is an academic offence
+> [!info] Designing AI out of assessment should be an academic offence
 > When AI is integral to authentic professional practice, assessment that excludes it is not rigorous — it tests performance in a professional context that no longer exists. The problem is not students who use AI, but educators who have designed assessments without accounting for the world their graduates are entering. Academic offences committees are investigating the wrong party.
 
 Academic offences committees are busy. Across higher education, academics are reviewing submitted work for signs of AI involvement, triangulating output against detection software, and deliberating over whether a student used a language model to write their essay. The driving question is: *did the student use AI to produce this artefact?* But it's the wrong question, and the fact that we're asking it says something important about where we've located the problem.
