@@ -9,7 +9,7 @@ date: 2026-02-15
 updated: 2026-02-15
 tags:
   - ai-agents
-  - AI-integration
+  - ai-integration
   - personal-knowledge-management
   - academic-practice
   - context-engineering

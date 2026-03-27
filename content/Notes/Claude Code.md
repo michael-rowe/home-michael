@@ -10,7 +10,6 @@ updated: 2026-02-12
 status: draft
 draft: false
 tags:
-  - AI
   - agents
   - automation
   - CLI

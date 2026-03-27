@@ -28,7 +28,7 @@ version: 0.6
 created: 2025-06-05
 modified: 2026-02-11
 tags:
-  - AI-principles
+  - ai-principles
   - higher-education
   - learning-alignment
   - value-alignment

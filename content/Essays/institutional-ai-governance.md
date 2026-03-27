@@ -27,7 +27,7 @@ version: 0.5
 created: 2025-12-05
 modified: 2026-02-11
 tags:
-  - AI-forward
+  - ai-forward
   - leadership
   - organisational-infrastructure
   - risk-management

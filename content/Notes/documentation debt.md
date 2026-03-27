@@ -12,7 +12,7 @@ draft: false
 tags:
   - documentation
   - information-architecture
-  - AI-integration
+  - ai-integration
   - knowledge-management
 category:
   - AI and technology

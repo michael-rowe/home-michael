@@ -10,7 +10,6 @@ updated: 2026-02-26
 status: draft
 draft: false
 tags:
-  - AI
   - agents
   - workflows
   - knowledge-work

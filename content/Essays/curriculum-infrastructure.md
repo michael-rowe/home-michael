@@ -18,7 +18,7 @@ version: 0.9
 created: 2025-11-08
 modified: 2026-02-12
 tags:
-  - AI-forward
+  - ai-forward
   - context-engineering
   - context-sovereignty
   - curriculum-development

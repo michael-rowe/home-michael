@@ -29,7 +29,7 @@ related:
 builds_on:
   - "[[prompt engineering]]"
 leads_to:
-  - AI agents
+  - agent
 contradicts:
 linkedin:
 
