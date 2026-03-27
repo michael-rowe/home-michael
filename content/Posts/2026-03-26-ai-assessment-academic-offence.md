@@ -20,7 +20,7 @@ related:
 draft: false
 slug: designing-ai-out-of-assessment
 enableToc: true
-linkedin:
+linkedin: 2026-03-26
 ---
 
 > [!info] Designing AI out of assessment should be an academic offence

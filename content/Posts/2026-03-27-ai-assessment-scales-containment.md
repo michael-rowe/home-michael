@@ -21,7 +21,7 @@ category:
 draft: false
 slug: posts/ai-assessment-scales-higher-education
 enableToc: true
-linkedin:
+linkedin: 2026-03-27
 ---
 
 > [!info] Containment is not a strategy

@@ -1,10 +1,10 @@
 ---
-title: "AI fluency is noise to be filtered out"
+title: AI fluency is noise to be filtered out
 type: post
 subtype: field-note
 description: "AI-generated text is fluent regardless of whether its content is accurate or well-reasoned. Fluency was once a reasonable trace of genuine thinking — a student who wrote clearly had usually thought clearly. That relationship no longer holds. Worse, the AI literacy response of teaching output evaluation is a temporary fix: as models improve, output quality converges on expert-level across every artefact we care to measure. The question isn't how to spot current failure modes. It's what you'll do when those failure modes are gone."
-meta-description: "AI fluency is noise, not signal. The cognitive habits that once made fluency a proxy for quality are now a liability for anyone evaluating AI-generated content."
-keyphrase: "AI fluency is noise"
+meta-description: AI fluency is noise, not signal. The cognitive habits that once made fluency a proxy for quality are now a liability for anyone evaluating AI-generated content.
+keyphrase: AI fluency is noise
 author: "[[Michael Rowe]]"
 date: 2026-03-25
 updated: 2026-03-27
@@ -20,7 +20,7 @@ related:
 draft: false
 slug: posts/ai-fluency-is-noise
 enableToc: false
-linkedin:
+linkedin: 2026-03-27
 ---
 
 > [!info] Fluency is not evidence of quality

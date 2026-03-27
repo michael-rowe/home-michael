@@ -40,7 +40,7 @@ linkedin:
 ---
 > [!info] **About this essay**
 > - **Authors**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk); Lambert Schuwirth ([ORCID](https://orcid.org/0000-0002-6279-5158))
-> - **Affiliation**: University of Lincoln
+> - **Affiliation**: University of Lincoln; NewMed
 > - **Created**: Feb 12, 2026
 > - **Version**: 0.8 (last updated: March 22, 2026)
 > - **Keywords**: AI tutoring, health professions education, accuracy, student engagement, epistemic accountability
