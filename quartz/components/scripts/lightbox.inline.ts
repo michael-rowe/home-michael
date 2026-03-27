@@ -13,5 +13,18 @@ document.addEventListener("nav", () => {
     margin: 24,
   })
 
-  window.addCleanup(() => zoom.detach())
+  const closeBtn = document.createElement("button")
+  closeBtn.className = "lightbox-close"
+  closeBtn.setAttribute("aria-label", "Close image")
+  closeBtn.innerHTML = "&#x2715;"
+  document.body.appendChild(closeBtn)
+
+  zoom.on("open", () => closeBtn.classList.add("lightbox-close--visible"))
+  zoom.on("close", () => closeBtn.classList.remove("lightbox-close--visible"))
+  closeBtn.addEventListener("click", () => zoom.close())
+
+  window.addCleanup(() => {
+    zoom.detach()
+    closeBtn.remove()
+  })
 })
