@@ -8,7 +8,7 @@ author: "[[Michael Rowe]]"
 date: 2025-12-26
 updated: 2025-12-26
 tags:
-  - AI-literacy
+  - ai-literacy
   - strategy
 category:
   - AI and technology

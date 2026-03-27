@@ -12,7 +12,7 @@ author: '[[Michael Rowe]]'
 date: 2026-02-01
 updated: 2026-02-01
 tags:
-  - AI-literacy
+  - ai-literacy
   - curriculum-design
 category:
   - AI and technology

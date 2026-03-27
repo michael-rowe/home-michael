@@ -7,7 +7,7 @@ author: '[[Michael Rowe]]'
 date: 2026-01-29
 updated: 2026-01-29
 tags:
-  - AI-literacy
+  - ai-literacy
   - academic-development
   - professional-learning
 category:

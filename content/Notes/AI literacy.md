@@ -8,7 +8,7 @@ author: "[[Michael Rowe]]"
 date: 2026-01-29
 updated: 2026-01-30
 tags:
-  - AI-literacy
+  - ai-literacy
 category:
   - AI and technology
 related:
