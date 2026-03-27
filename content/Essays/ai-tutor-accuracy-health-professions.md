@@ -9,7 +9,7 @@ author:
   - "[[Lambert Schuwirth]]"
 affiliation:
   - University of Lincoln
-  - Flinders University
+  - NewMed
 email:
   - mrowe@lincoln.ac.uk
   - schuwirthconsulting@gmail.com
