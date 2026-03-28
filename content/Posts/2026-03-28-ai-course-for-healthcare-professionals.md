@@ -1,11 +1,11 @@
 ---
-title: "AI course for healthcare professionals: Ten thousand learners later"
+title: AI Masterclass for Healthcare Professionals
 type: post
 aliases:
   - ten-thousand-learners
   - physiopedia-course-promotion
-description: More than 10,000 healthcare professionals have now taken an AI course I've created for Physiopedia Plus. This post introduces the AI Masterclass for Healthcare Professionals Programme — a practical introduction to AI in clinical practice, education, and research. Physiopedia Plus members get full access, and a 30% discount code is included for new sign-ups.
-meta-description: An AI course for healthcare professionals, built for clinical contexts. 10,000+ learners, 4.5 stars. Get 30% off Physiopedia Plus with code MICHAEL30.
+description: More than 10,000 healthcare professionals have taken one the courses I've created for Physiopedia Plus. This post focuses on the AI Masterclass for Healthcare Professionals Programme — a practical introduction to AI in clinical practice, education, and research. Physiopedia Plus members get full access, and a 30% discount code is included for new sign-ups.
+meta-description: A selection of courses for healthcare professionals, built for clinical contexts. 10,000+ learners, 4.5 stars. Get 30% off Physiopedia Plus with code MICHAEL30.
 keyphrase: AI course for healthcare professionals
 author: "[[Michael Rowe]]"
 date: 2026-03-28
@@ -25,11 +25,9 @@ linkedin:
 ---
 
 > [!info] AI literacy for healthcare professionals is now a practical need
-> More than 10,000 people have now completed courses I've created for Physiopedia Plus. The one that keeps drawing people in is the AI Masterclass, because it meets healthcare professionals where they are: uncertain about AI, aware they can't ignore it, and looking for something concrete. If that's you, there's a 30% discount code below.
+> More than 10,000 people have now completed courses I've created for Physiopedia Plus. The one that keeps drawing people in is the AI Masterclass, because it meets healthcare professionals where they are: uncertain about AI, aware they can't ignore it, and looking for something concrete. If that's you, there's a **30% discount code below**.
 
-More than 10,000 healthcare professionals have now taken my courses on Physiopedia Plus. The most popular is an AI course for healthcare professionals: the AI Masterclass for Healthcare Professionals.
-
-## The AI Masterclass for Healthcare Professionals
+## AI Masterclass for Healthcare Professionals
 
 ![[physiopedia_ai_masterclass.png|AI Masterclass for Healthcare Professionals course on Physiopedia Plus]]
 
@@ -62,11 +60,11 @@ More than 2,000 people have completed it, with an average rating of 4.5 stars.
 
 The AI Masterclass is the most popular programme I've created for Physiopedia, but not the only one. The [Optimising Learning Programme](https://members.physio-pedia.com/learn/optimising-learning-programme-promopage/) covers the foundations of deliberate learning: building habits, managing focus, note-taking, reading comprehension, writing, memory, time management, and wellbeing. It's aimed at students and early-career professionals who want to become more intentional about how they develop.
 
+Browse [all my Physiopedia courses](https://members.physio-pedia.com/instructor/michael-rowe/).
+
 ![[Physiopedia_AI_course_testimonial.png|Learner testimonial for AI course for healthcare professionals on Physiopedia Plus]]
 
 ![[Physiopedia_AI_course_testimonial-2.png|Learner testimonial for AI course for healthcare professionals on Physiopedia Plus]]
-
-You can browse [all my Physiopedia courses](https://members.physio-pedia.com/instructor/michael-rowe/).
 
 ## How to get started
 
