@@ -381,6 +381,18 @@ body[data-slug="index"] .recent-notes {
   }
 }
 
+// Single-link page-cta: always render as filled primary (overrides :last-of-type outline)
+.page-cta a:only-of-type {
+  background-color: var(--secondary) !important;
+  color: #fff !important;
+  border-color: var(--secondary) !important;
+
+  &:hover {
+    background-color: var(--tertiary) !important;
+    border-color: var(--tertiary) !important;
+  }
+}
+
 // Featured cards
 .featured-cards {
   display: flex;
