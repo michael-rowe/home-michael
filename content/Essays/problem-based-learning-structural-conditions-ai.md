@@ -1,6 +1,7 @@
 ---
 type: essay
 title: Problem-based learning and the structural conditions for productive AI integration
+title-highlight: "structural conditions"
 slug: essays/problem-based-learning-structural-conditions-ai
 description: "Higher education's response to AI has focused on the artefact: detecting it, restricting it, and restoring confidence in what students produce. This essay argues that the structural features of problem-based learning — problem-driven inquiry, collaborative knowledge construction, facilitation over instruction, and metacognitive reflection — are the same conditions under which AI integration becomes educationally productive rather than substitutive. The alignment is structural, not retrospective: PBL was designed around these conditions before AI existed. The argument extends further: AI shifts what category of problem PBL can engage with, expanding access to wicked problems previously beyond students' reach. Investing in PBL's structural conditions is simultaneously investing in AI readiness."
 meta-description: Why PBL's structural features — collaborative inquiry, facilitation, metacognition — make AI integration educationally productive rather than substitutive.
@@ -50,7 +51,7 @@ doi:
 > - **DOI**: 
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
-### Abstract {.unnumbered}
+### Abstract
 
 Higher education's response to AI has focused on the artefact: detecting it, restricting it, and restoring confidence in what students produce. This essay argues for a different focus. The structural features of problem-based learning — problem-driven inquiry, collaborative knowledge construction, facilitation over instruction, and metacognitive reflection — are the same conditions under which AI integration becomes educationally productive rather than substitutive. This alignment is structural, not retrospective: PBL was designed around these conditions before AI existed, rooted in the recognition that professional competence requires adaptive judgement rather than routine execution. The argument extends beyond compatibility. AI shifts what category of problem PBL can engage with, expanding access to complex, wicked problems that were previously beyond students' reach. Investing in PBL's structural conditions is simultaneously investing in AI readiness, whether or not institutions recognise it that way.
 

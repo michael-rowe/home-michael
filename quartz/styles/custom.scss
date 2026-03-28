@@ -2,6 +2,11 @@
 
 // put your custom CSS here!
 
+// Base font size — cascades to all components; Crimson Pro reads well at 18px
+html {
+  font-size: 18px;
+}
+
 // Typography: UI elements use Inter (headerFont), not Lora
 .sidebar,
 .top-nav,
@@ -14,9 +19,14 @@ footer {
   font-family: var(--headerFont);
 }
 
-// Increase article body text size
+// Article body: Crimson Pro reads well at 1.05rem/18px base; override base.scss's
+// fixed 1.6rem line-height on p/li so paragraphs and lists breathe properly
 article {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
+
+  p, li, td {
+    line-height: 1.75;
+  }
 }
 
 // Underline body content links for accessibility (colour alone is insufficient)

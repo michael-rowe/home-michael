@@ -21,7 +21,7 @@ related:
 draft: false
 slug: ai-course-for-healthcare-professionals
 enableToc: true
-linkedin:
+linkedin: 2026-03-28
 ---
 
 > [!info] AI literacy for healthcare professionals is now a practical need
