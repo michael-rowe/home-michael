@@ -87,9 +87,15 @@ export default ((opts?: Partial<TopNavOptions>) => {
 
   TopNav.css = `
 .top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
   width: 100%;
   background-color: var(--light);
   border-bottom: 1px solid var(--lightgray);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
   padding: 0 0 0.5rem 0;
   margin-bottom: 1rem;
 }
@@ -101,7 +107,7 @@ export default ((opts?: Partial<TopNavOptions>) => {
   display: flex;
   flex-wrap: wrap;
   gap: 0;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .top-nav > ul > li {

@@ -5,6 +5,7 @@
 // Base font size — cascades to all components; Crimson Pro reads well at 18px
 html {
   font-size: 18px;
+  line-height: 1.5;
 }
 
 // Typography: UI elements use Inter (headerFont), not Lora
@@ -25,7 +26,7 @@ article {
   font-size: 1.05rem;
 
   p, li, td {
-    line-height: 1.75;
+    line-height: 1.55;
   }
 }
 
@@ -41,31 +42,80 @@ article a:not(.tag-link):not([role="anchor"]) {
   margin-right: 15%;
 }
 
-// Heading sizes and weight
+// Heading sizes, weight, and colour
 h1 {
   font-size: 2rem;
   font-weight: 400;
+  color: var(--secondary);
 }
 
 h2 {
   font-size: 1.6rem;
   font-weight: 400;
+  color: var(--dark);
 }
 
 h3 {
   font-size: 1.3rem;
   font-weight: 400;
+  color: var(--dark);
 }
 
 h4, h5, h6 {
   font-size: 1.1rem;
   font-weight: 400;
+  color: var(--dark);
 }
 
 // Reduce sidebar and nav link weight
 .sidebar a,
 .top-nav a {
   font-weight: 400;
+}
+
+// Breadcrumb: regular weight (base.scss makes all links semi-bold)
+.breadcrumb-container a {
+  font-weight: 400;
+}
+
+// TOC entries: smaller than body text
+ul.toc-content a {
+  font-size: 0.8rem;
+}
+
+// Callout titles: use header font (Outfit), regular weight
+.callout-title-inner {
+  font-family: var(--headerFont);
+  font-weight: 400 !important;
+}
+
+// Content meta (date, reading time): smaller and muted
+.content-meta {
+  font-size: 0.82rem;
+}
+
+// Content type badges: distinct colours that don't clash with terracotta accent
+// post and essay previously used --secondary/--tertiary (both terracotta)
+.content-type--post {
+  color: #4a6fa5 !important;
+  background-color: rgba(74, 111, 165, 0.12) !important;
+}
+
+.content-type--essay {
+  color: #2a7a72 !important;
+  background-color: rgba(42, 122, 114, 0.12) !important;
+}
+
+:root[saved-theme="dark"] {
+  .content-type--post {
+    color: #7aa0d4 !important;
+    background-color: rgba(122, 160, 212, 0.15) !important;
+  }
+
+  .content-type--essay {
+    color: #4db8ae !important;
+    background-color: rgba(77, 184, 174, 0.15) !important;
+  }
 }
 
 // Post listings: reduce title weight and increase description size
