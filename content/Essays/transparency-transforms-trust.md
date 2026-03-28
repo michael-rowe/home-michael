@@ -17,19 +17,27 @@ description: >-
 meta-description: >-
   Reimagining academic trust by shifting from institutional proxies to
   transparent, networked processes.
-author: '[[Michael Rowe]]'
-affiliation: University of Lincoln
-email: mrowe@lincoln.ac.uk
+author:
+  - "[[Michael Rowe]]"
+affiliation:
+  - University of Lincoln
+email:
+  - mrowe@lincoln.ac.uk
+keyphrase: transparency trust scholarly publishing
 version: 0.6
 created: 2025-03-29
 modified: 2026-02-11
+orcid: 0000-0002-1538-6052
+doi:
 tags:
   - trust
   - authorship
+related:
 category:
   - Scholarship
+draft: false
+reviewed:
 linkedin:
-
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))

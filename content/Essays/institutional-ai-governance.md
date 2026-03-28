@@ -20,21 +20,29 @@ description: >-
 meta-description: >-
   A framework for distinguishing between performative 'innovation theatre' and
   structural AI integration in higher education institutions.
-author: '[[Michael Rowe]]'
-affiliation: University of Lincoln
-email: mrowe@lincoln.ac.uk
+author:
+  - "[[Michael Rowe]]"
+affiliation:
+  - University of Lincoln
+email:
+  - mrowe@lincoln.ac.uk
+keyphrase: institutional AI governance higher education
 version: 0.5
 created: 2025-12-05
 modified: 2026-02-11
+orcid: 0000-0002-1538-6052
+doi:
 tags:
   - ai-forward
   - leadership
   - organisational-infrastructure
   - risk-management
+related:
 category:
   - AI and technology
+draft: false
+reviewed:
 linkedin:
-
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk)

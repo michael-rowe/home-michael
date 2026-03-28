@@ -24,16 +24,20 @@ affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
-tags:
-  - publishing
+keyphrase: AI scientific publishing knowledge communities
 version: 1.1
 created: 2025-01-27
 modified: 2026-02-11
+orcid: 0000-0002-1538-6052
 doi: 10.31219/osf.io/d7hwf_v1
+tags:
+  - publishing
+related:
 category:
   - Scholarship
+draft: false
+reviewed:
 linkedin:
-
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))

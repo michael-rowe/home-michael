@@ -10,9 +10,12 @@ affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
+keyphrase: AI integration health professions education theoretical framework
+version: 0.9
 created: 2025-03-22
 modified: 2026-02-13
-version: 0.9
+orcid: 0000-0002-1538-6052
+doi: 10.31219/osf.io/c764f_v1
 tags:
   - complexity
   - connectivism
@@ -21,11 +24,12 @@ tags:
   - health-professions-education
   - learning-theory
   - emergent-scholarship
-doi: 10.31219/osf.io/c764f_v1
+related:
 category:
   - AI and technology
+draft: false
+reviewed:
 linkedin:
-
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))

@@ -23,9 +23,12 @@ affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
+keyphrase: taste judgement human-AI collaboration
+version: 0.6
 created: 2025-07-08
 modified: 2026-02-11
-version: 0.6
+orcid: 0000-0002-1538-6052
+doi:
 tags:
   - complexity
   - collaboration
@@ -33,11 +36,13 @@ tags:
   - human-ai-relationships
   - judgement
   - taste
+related:
 category:
   - Scholarship
   - AI and technology
+draft: false
+reviewed:
 linkedin:
-
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))

@@ -24,9 +24,12 @@ affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
+keyphrase: learning alignment problem AI higher education
 version: 0.6
 created: 2025-06-05
 modified: 2026-02-11
+orcid: 0000-0002-1538-6052
+doi:
 tags:
   - ai-principles
   - higher-education
@@ -34,11 +37,13 @@ tags:
   - value-alignment
   - professional-education
   - prompt-engineering
+related:
 category:
   - Pedagogy
   - AI and technology
+draft: false
+reviewed:
 linkedin:
-
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))

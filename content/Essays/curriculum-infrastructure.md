@@ -1,6 +1,6 @@
 ---
-title: "Beyond document management: Graph infrastructure for professional education curricula"
 type: essay
+title: "Beyond document management: Graph infrastructure for professional education curricula"
 slug: essays/curriculum-infrastructure
 description: Professional curricula are extensively documented but not systematically queryable, creating artificial information scarcity that makes compliance reporting and quality assurance labour-intensive. This essay proposes a three-layer architecture — graph databases as the source of truth for curriculum structure, vector databases for semantic content retrieval, and a Model Context Protocol layer for stakeholder access — that transforms documentation into operational infrastructure. The architecture incorporates temporal versioning for longitudinal evidence, role-based access controls for multi-stakeholder environments, and internal quality audit against institutional policy alongside external regulatory compliance, enabling verification in hours rather than weeks.
 meta-description: Proposing a graph-based infrastructure to transform professional education curricula into queryable operational architecture.
@@ -17,6 +17,8 @@ keyphrase: graph infrastructure for professional education curricula
 version: 0.9
 created: 2025-11-08
 modified: 2026-02-12
+orcid: 0000-0002-1538-6052
+doi:
 tags:
   - ai-forward
   - context-engineering
@@ -28,7 +30,6 @@ tags:
   - human-AI-collaboration
   - model-context-protocol
   - vector-database
-doi: ""
 related:
   - "[[model context protocol]]"
   - "[[higher education reference model|Higher Education Reference Model]]"
@@ -37,12 +38,12 @@ related:
   - "[[context-sovereignty]]"
   - "[[context sovereignty]]"
   - "[[2026-beyond-document-management]]"
-draft: false
 category:
   - Curriculum
   - AI and technology
+draft: false
+reviewed:
 linkedin:
-
 ---
 > [!info] **About this essay**
 > - **Authors**: Michael Rowe 1 ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk) and Wesley Lynch 2 ([LinkedIn](https://www.linkedin.com/in/wesleylynch/); wesley@snapplify.com)

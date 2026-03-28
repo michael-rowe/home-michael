@@ -13,9 +13,12 @@ affiliation:
 email:
   - mrowe@lincoln.ac.uk
   - wesley@snapplify.com
+keyphrase: context engineering educational transformation
 version: 0.7
 created: 2025-07-04
 modified: 2026-02-11
+orcid: 0000-0002-1538-6052
+doi:
 tags:
   - context-engineering
   - educational-technology
@@ -26,10 +29,12 @@ tags:
   - organisational-change
   - personal-knowledge-management
   - personal-learning
+related:
 category:
   - AI and technology
+draft: false
+reviewed:
 linkedin:
-
 ---
 > [!info] **About this essay**
 > - **Authors**: Michael Rowe 1 ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk) and Wesley Lynch 2 ([LinkedIn](https://www.linkedin.com/in/wesleylynch/); wesley@snapplify.com)

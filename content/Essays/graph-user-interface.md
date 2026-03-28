@@ -33,15 +33,19 @@ email:
 version: 0.7
 created: 2025-04-08
 modified: 2026-02-13
+orcid: 0000-0002-1538-6052
+doi:
 tags:
   - higher-education
   - user-interface
   - emergent-scholarship
+related:
 category:
   - AI and technology
   - Curriculum
+draft: false
+reviewed:
 linkedin:
-
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))

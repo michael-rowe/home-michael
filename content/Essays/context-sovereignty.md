@@ -13,9 +13,12 @@ affiliation:
 email:
   - mrowe@lincoln.ac.uk
   - wesley@snapplify.com
+keyphrase: context sovereignty AI-supported learning
 version: 0.9
 created: 2025-05-23
 modified: 2026-02-13
+orcid: 0000-0002-1538-6052
+doi: 10.31219/osf.io/8czva_v1
 tags:
   - context-engineering
   - context-sovereignty
@@ -23,12 +26,15 @@ tags:
   - educational-technology
   - human-AI-collaboration
   - personal-learning
-doi: 10.31219/osf.io/8czva_v1
+related:
 category:
   - AI and technology
   - Pedagogy
+doclicense: "Creative Commons Attribution 4.0 International"
+doclicenseurl: "https://creativecommons.org/licenses/by/4.0/"
+draft: false
+reviewed:
 linkedin:
-
 ---
 > [!info] **About this essay**
 > - **Authors**: Michael Rowe 1 ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk) and Wesley Lynch 2 ([LinkedIn](https://www.linkedin.com/in/wesleylynch/); wesley@snapplify.com)
@@ -44,14 +50,6 @@ linkedin:
 ### Abstract
 
 The discourse around artificial intelligence in education has become preoccupied with prompting strategies, overlooking more fundamental questions about the nature of context in human-AI collaboration. This paper introduces **context sovereignty** — a framework grounded in the recognition that the most valuable context we bring to any AI interaction is irreducibly personal: our values, intellectual commitments, professional identity, and meaning-making frameworks. While data sovereignty asks who controls personal information, context sovereignty asks who controls the meaning-making environment through which information becomes personally significant. Drawing from learning theory, we argue that context functions as a dynamic field of meaning-making rather than static background information, and that ownership of that context is essential for productive human-AI collaboration. Current approaches to context-setting — primarily prompting and document uploading — treat context as additive rather than foundational, creating episodic burdens that force learners to adapt to AI systems rather than the reverse. Context sovereignty offers an alternative paradigm: a foundational commitment to personal meaning-making, supported by three operational principles — persistent understanding, individual agency, and cognitive extension. The framework addresses concerns about privacy, intellectual challenge, and authentic assessment while enabling new forms of collaborative learning that preserve human agency. By centring personal context, the framework ensures AI systems adapt to human thinking rather than requiring human adaptation to AI constraints, enabling a relationship where AI increases the reach and effectiveness of human reasoning.
-
-> [!summary] Key takeaways
-> - The one thing we always bring to an AI interaction is ourselves — our values, commitments, identity, and frameworks for making sense of the world. This is the irreducibly personal context that no one else can supply and no model can generate.
-> - Context sovereignty is distinct from data sovereignty: data sovereignty asks who controls information; context sovereignty asks who controls the meaning-making environment that determines what information means.
-> - Current AI interactions place the entire burden of re-contextualisation on the learner. Even memory-enabled models simulate continuity without constituting genuine understanding of how someone thinks.
-> - Three operational principles — persistent understanding, individual agency, and cognitive extension — protect and leverage what is irreducibly personal, shifting AI from generic tool to cognitive partner.
-> - Assessment should shift from 'what can this student produce without AI?' to 'how effectively did this student mobilise contextual knowledge through an AI partnership to solve a meaningful problem?'
-> - For educators, context sovereignty directly addresses concerns about echo chambers: a system with rich understanding of a learner's existing frameworks can provide precisely calibrated intellectual challenge that generic prompting cannot.
 
 ## Beyond prompting
 
@@ -83,6 +81,9 @@ Prompting strategies require learners to provide explicit contextual information
 
 Document uploading via RAG compounds the problem by conflating *information* with *context*. Uploading research papers, slides, or lecture notes provides a language model with content anyone could share. It does not capture the personal lens through which information becomes meaningful to an individual learner — the connections to existing knowledge, goals, values, and thinking patterns. The distinction between information context and personal context matters: the former is sharable; the latter requires understanding how information connects to the cognitive and axiological frameworks within individuals.
 
+> [!quote] Current AI interactions place the entire burden of re-contextualisation on the learner.
+> Even memory-enabled models simulate continuity without constituting genuine understanding of how someone thinks.
+
 These episodic approaches treat context as interaction addenda rather than the foundation for cognitive partnership. They create fragmented learning experiences, missing opportunities to develop persistent, accumulating understanding. They also establish asymmetrical power relationships: learners surrender personal information to access enhanced AI capabilities, while commercial entities accumulate value from user data without learners having visibility into how their context is managed. By treating context as static input rather than something that evolves through engagement, current approaches cannot support the kinds of personalised learning, collaborative inquiry, and cognitive extension that become possible when context is properly understood and preserved within learner control.
 
 ## A conceptual framework for context sovereignty in learning
@@ -93,13 +94,22 @@ Context sovereignty positions learners' personal context — knowledge, values, 
 
 The argument for context sovereignty rests on a recognition that sits prior to any technical or structural consideration. The most valuable context we bring to any AI interaction is irreducibly personal: our values, intellectual commitments, professional identity, ethical frameworks, and meaning-making patterns. Only we can supply these. No other person can provide them on our behalf, and no AI system can generate them from the outside.
 
+> [!quote] The one thing we always bring to an AI interaction is ourselves — our values, commitments, identity, and frameworks for making sense of the world.
+> This is the irreducibly personal context that no one else can supply and no model can generate.
+
 This is what distinguishes context sovereignty from both data sovereignty and from technical solutions to model memory. Data sovereignty concerns the control of information. Model memory concerns the persistence of facts across sessions. Context sovereignty concerns something more fundamental: ownership of one's meaning-making environment. A model with perfect memory and unlimited context windows would still lack the learner's values, commitments, and interpretive frameworks unless these were deliberately authored and made available.
+
+> [!quote] Context sovereignty is distinct from data sovereignty.
+> Data sovereignty asks who controls information; context sovereignty asks who controls the meaning-making environment that determines what information means.
 
 The practical consequences are significant. The primary task of context engineering is not information management but self-articulation — making visible the values, commitments, and frameworks that shape how we think, so that AI systems can engage with us on terms we have authored. The quality of human-AI collaboration depends less on model capability and more on the richness of the personal context the learner provides. And context sovereignty is not a technical problem to be solved by better models but a human practice to be cultivated — one that develops metacognitive awareness, strengthens intellectual identity, and builds self-knowledge that is valuable whether or not AI is involved.
 
 ### Three operational principles
 
 The foundational insight is protected and operationalised through three principles that create the conditions for cognitive partnership.
+
+> [!quote] Three operational principles — persistent understanding, individual agency, and cognitive extension — protect and leverage what is irreducibly personal.
+> Together they shift AI from a generic tool to a genuine cognitive partner.
 
 **Persistent understanding** transforms episodic encounters into continuous collaboration where interactions build upon previous understanding. Persistence here means more than memory. Current model memory features store and retrieve facts, but they do not constitute developmental understanding — a model that remembers a learner's topic preferences has not become any smarter about that learner's intellectual trajectory. Genuine persistent understanding would require *continual learning*: the capacity for a system to develop through ongoing interaction rather than requiring periodic retraining (Wang et al., 2024). Until AI systems achieve this, the burden of maintaining developmental continuity falls on the learner's external context architecture — PKM systems, structured knowledge, and knowledge graphs (Ehrlinger & Wöß, 2016; Tamašauskaitė & Groth, 2023) — explicit frameworks that evolve as the learner does. This is not a temporary workaround. It is the practice of context sovereignty itself.
 
@@ -135,13 +145,21 @@ These shifts collectively represent movement from AI-centric to human-centric co
 
 A common concern about personalised AI is that it creates echo chambers — systems that confirm rather than challenge. Context sovereignty addresses this by enabling more sophisticated challenge, not less (Bjork & Bjork, 2009). Productive intellectual challenge requires meaningful engagement: the AI must understand a learner's existing positions — values, assumptions, reasoning patterns, knowledge structures — deeply enough to identify genuine limitations, contradictions, or unexplored implications. This differs from forced opposition ("tell me why I'm wrong") or generic alternatives (institutional prompt libraries). An AI with rich understanding of a learner's intellectual frameworks can surface contradictions between stated beliefs, identify assumptions lacking evidential support, or suggest interpretations the learner finds meaningful precisely because they connect to existing commitments. Generic AI produces generic challenge. Contextually rich AI produces challenge that is difficult to dismiss because it engages with the learner's own reasoning on its own terms.
 
+> [!quote] For educators, context sovereignty directly addresses concerns about echo chambers.
+> A system with rich understanding of a learner's existing frameworks can provide precisely calibrated intellectual challenge that generic prompting cannot.
+
 ### Distributed context sovereignty and collaborative learning
 
 Context sovereignty enables collaborative learning through distributed contextual awareness — environments where multiple contextually-aware AI systems interact while maintaining clear boundaries around context-sharing (Ferber, 1999). Consider professional education settings where learners bring personal AI agents into institutional contexts with their own agents. These agents interact and integrate personal and institutional context — values, processes, knowledge frameworks — in ways that introduce tensions and contradictions. Rather than adapting to lowest common denominators, distributed context sovereignty treats individual differences as collective learning resources, with AI systems identifying productive complementarities between participants' knowledge and perspectives.
 
 ### Reconceptualising authentic intellectual work and assessment
 
-The question is not "what does the student know without AI assistance?" but "what important problem did the student and AI solve together?" and "how effectively did the student mobilise contextual knowledge through AI partnership?" Professional and civic life will include AI support; students need to demonstrate effective AI collaboration rather than performance under its artificial absence. Evidence suggests that learners who engage in iterative, highly interactive processes with AI achieve significantly better outcomes than those who use it as a static information source (Nguyen et al., 2024). Assessment in this paradigm examines learners' capacity to curate relevant context, guide AI reasoning toward productive insights, and critically evaluate AI-generated ideas within personal knowledge frameworks. Authentic intellectual work becomes the orchestration of human and AI capabilities in the service of personally and socially meaningful problem-solving.
+The question is not "what does the student know without AI assistance?" but "what important problem did the student and AI solve together?" and "how effectively did the student mobilise contextual knowledge through AI partnership?" Professional and civic life will include AI support; students need to demonstrate effective AI collaboration rather than performance under its artificial absence. Evidence suggests that learners who engage in iterative, highly interactive processes with AI achieve significantly better outcomes than those who use it as a static information source (Nguyen et al., 2024).
+
+> [!quote] Assessment should shift from 'what can this student produce without AI?' to a more meaningful question.
+> How effectively did this student mobilise contextual knowledge through an AI partnership to solve a meaningful problem?
+
+Assessment in this paradigm examines learners' capacity to curate relevant context, guide AI reasoning toward productive insights, and critically evaluate AI-generated ideas within personal knowledge frameworks. Authentic intellectual work becomes the orchestration of human and AI capabilities in the service of personally and socially meaningful problem-solving.
 
 ### Preserving human agency through cognitive amplification
 

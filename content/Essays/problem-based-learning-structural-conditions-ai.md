@@ -12,14 +12,10 @@ affiliation:
 email:
   - mrowe@lincoln.ac.uk
 keyphrase: AI integration problem-based learning health professions education
-date: "28 March 2026"
-orcid: "0000-0002-1538-6052"
-version: "0.8 (last updated: 28 March 2026)"
-dockeywords: "AI integration, assessment, cognitive offloading, health professions education, problem-based learning, professional judgement, wicked problems"
-doclicense: "Creative Commons Attribution 4.0 International"
-doclicenseurl: "https://creativecommons.org/licenses/by/4.0/"
+version: 0.8
 created: 2026-03-27
 modified: 2026-03-28
+orcid: 0000-0002-1538-6052
 tags:
   - health-professions-education
   - learning-design
@@ -37,6 +33,7 @@ category:
   - Education
   - Assessment
 draft: false
+reviewed:
 linkedin:
 doi:
 ---

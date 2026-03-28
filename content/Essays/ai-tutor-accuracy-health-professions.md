@@ -17,6 +17,8 @@ keyphrase: AI tutor accuracy in health professions education
 version: 0.8
 created: 2026-02-12
 modified: 2026-03-22
+orcid: 0000-0002-1538-6052
+doi:
 tags:
   - large-language-models
   - health-professions-education

@@ -14,6 +14,8 @@ keyphrase: documentation as infrastructure
 version: 0.9
 created: 2026-02-09
 modified: 2026-02-12
+orcid: 0000-0002-1538-6052
+doi:
 tags:
   - artificial-information-scarcity
   - continuous-governance
@@ -28,8 +30,9 @@ related:
 category:
   - AI and technology
   - Knowledge management
+draft: false
+reviewed:
 linkedin:
-
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk)

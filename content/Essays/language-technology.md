@@ -10,17 +10,22 @@ affiliation:
   - University of Lincoln
 email:
   - mrowe@lincoln.ac.uk
+keyphrase: language technology health professions education
 version: 0.7
 created: 2025-03-28
 modified: 2026-02-11
+orcid: 0000-0002-1538-6052
+doi:
 tags:
   - language
   - general-purpose-technology
+related:
 category:
   - AI and technology
   - Scholarship
+draft: false
+reviewed:
 linkedin:
-
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
