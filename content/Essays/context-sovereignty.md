@@ -14,6 +14,7 @@ email:
   - mrowe@lincoln.ac.uk
   - wesley@snapplify.com
 keyphrase: context sovereignty AI-supported learning
+title-highlight: "Context sovereignty"
 version: 0.9
 created: 2025-05-23
 modified: 2026-02-13
