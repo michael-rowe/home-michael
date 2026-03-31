@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Belbin Self-Perception Questionnaire</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+  :root {
+    --ink: #1a1a2e;
+    --ink-light: #3d3d5c;
+    --paper: #f8f5f0;
+    --paper-dark: #ede9e2;
+    --accent: #8b3a3a;
+    --accent-light: #c47c5a;
+    --gold: #c9a84c;
+    --border: #d4cfc7;
+    --success: #2d6a4f;
+    --warning: #c45c1a;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Source Serif 4', Georgia, serif;
+    background: var(--paper);
+    color: var(--ink);
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  /* ── Header ── */
+  header {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 3rem 2rem 2.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 40px,
+      rgba(255,255,255,0.015) 40px,
+      rgba(255,255,255,0.015) 80px
+    );
+  }
+  .header-label {
+    font-family: 'Source Serif 4', serif;
+    font-size: 0.72rem;
+    font-weight: 300;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.75rem;
+  }
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    position: relative;
+  }
+  header p {
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: rgba(248,245,240,0.6);
+    font-weight: 300;
+    position: relative;
+  }
+
+  /* ── Tabbed info panel ── */
+  .info-panel {
+    max-width: 720px;
+    margin: 2.5rem auto;
+    padding: 0 1.5rem;
+  }
+  .tab-bar {
+    display: flex;
+    gap: 0;
+    border-bottom: 2px solid var(--border);
+    margin-bottom: 0;
+  }
+  .tab-btn {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    background: none;
+    border: none;
+    padding: 0.6rem 1.25rem;
+    cursor: pointer;
+    color: var(--ink-light);
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .tab-btn:hover { color: var(--ink); }
+  .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+  .tab-content {
+    background: white;
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    padding: 1.5rem 1.75rem;
+    box-shadow: 0 2px 12px rgba(26,26,46,0.06);
+    display: none;
+  }
+  .tab-content.active { display: block; }
+
+  .tab-content p {
+    font-size: 0.88rem;
+    color: var(--ink-light);
+    line-height: 1.7;
+  }
+  .tab-content p + p { margin-top: 0.6rem; }
+
+  .bg-section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin: 1.1rem 0 0.4rem;
+    letter-spacing: 0.02em;
+  }
+  .bg-section-title:first-child { margin-top: 0; }
+
+  .roles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+    gap: 0.6rem;
+    margin-top: 0.75rem;
+  }
+  .role-chip {
+    background: var(--paper);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.5rem 0.75rem;
+  }
+  .role-chip-key {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 0.06em;
+  }
+  .role-chip-name {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--ink);
+    display: block;
+    margin: 0.1rem 0;
+  }
+  .role-chip-trait {
+    font-size: 0.72rem;
+    color: var(--ink-light);
+    font-style: italic;
+    font-weight: 300;
+  }
+  .orientation-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+    margin-top: 0.6rem;
+  }
+  .orientation-table th {
+    background: var(--paper-dark);
+    padding: 0.45rem 0.75rem;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 0.78rem;
+    color: var(--ink);
+    border: 1px solid var(--border);
+  }
+  .orientation-table td {
+    padding: 0.4rem 0.75rem;
+    border: 1px solid var(--border);
+    color: var(--ink-light);
+  }
+
+  /* ── Progress ── */
+  .progress-bar-wrap {
+    max-width: 720px;
+    margin: 0 auto 2rem;
+    padding: 0 1.5rem;
+  }
+  .progress-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: var(--ink-light);
+    margin-bottom: 0.4rem;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+  }
+  .progress-track {
+    height: 3px;
+    background: var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent), var(--gold));
+    border-radius: 2px;
+    transition: width 0.4s ease;
+    width: 0%;
+  }
+
+  /* ── Sections ── */
+  .sections-wrapper {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 1.5rem 3rem;
+  }
+
+  .section-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-bottom: 1.75rem;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(26,26,46,0.05);
+    transition: box-shadow 0.2s ease;
+  }
+  .section-card.complete { border-color: var(--success); box-shadow: 0 2px 12px rgba(45,106,79,0.12); }
+  .section-card.error { border-color: var(--warning); box-shadow: 0 2px 12px rgba(196,92,26,0.12); }
+
+  .section-head {
+    background: var(--paper-dark);
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+  }
+  .section-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .section-title {
+    font-size: 0.78rem;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+    line-height: 1.3;
+  }
+  .section-status {
+    margin-left: auto;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    font-weight: 400;
+    flex-shrink: 0;
+  }
+  .status-pending { background: var(--paper-dark); color: var(--ink-light); }
+  .status-ok { background: #d1fae5; color: var(--success); }
+  .status-error { background: #fef3cd; color: var(--warning); }
+
+  .section-body { padding: 0.5rem 0; }
+
+  /* ── Item rows ── */
+  .item {
+    display: grid;
+    grid-template-columns: 1.5rem 1fr auto;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.65rem 1.5rem;
+    border-bottom: 1px solid rgba(212,207,199,0.4);
+    transition: background 0.15s;
+  }
+  .item:last-child { border-bottom: none; }
+  .item:hover { background: var(--paper); }
+  .item.selected { background: #fdf8f3; }
+
+  .item-letter {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.8rem;
+    color: var(--accent-light);
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .item-check {
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid var(--border);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.15s;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .item-check:checked {
+    background: var(--accent);
+    border-color: var(--accent);
+  }
+  .item-check:checked::after {
+    content: '✓';
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 0.65rem;
+    line-height: 1;
+  }
+
+  .item-label {
+    font-size: 0.875rem;
+    color: var(--ink);
+    cursor: pointer;
+    line-height: 1.5;
+  }
+
+  .item-score {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .score-input {
+    width: 3rem;
+    text-align: center;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.3rem;
+    font-family: 'Source Serif 4', serif;
+    font-size: 0.85rem;
+    color: var(--ink);
+    background: var(--paper);
+    outline: none;
+    transition: border-color 0.15s;
+    display: none;
+  }
+  .score-input:focus { border-color: var(--accent); background: white; }
+  .score-input.visible { display: block; }
+
+  /* ── Points tracker ── */
+  .points-tracker {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.6rem 1.5rem;
+    gap: 0.5rem;
+    background: var(--paper);
+    border-top: 1px solid var(--border);
+    font-size: 0.78rem;
+  }
+  .points-label { color: var(--ink-light); font-weight: 300; }
+  .points-display {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    min-width: 2rem;
+    text-align: right;
+  }
+  .points-ok { color: var(--success); }
+  .points-over { color: var(--warning); }
+  .points-under { color: var(--ink-light); }
+
+  /* ── Submit ── */
+  .submit-area {
+    text-align: center;
+    padding: 1rem 0 2rem;
+  }
+  .submit-btn {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    background: var(--ink);
+    color: var(--paper);
+    border: none;
+    padding: 0.9rem 2.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    transition: background 0.2s, transform 0.1s;
+  }
+  .submit-btn:hover { background: var(--accent); }
+  .submit-btn:active { transform: scale(0.98); }
+
+  /* ── Results ── */
+  #results {
+    display: none;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 1.5rem 4rem;
+  }
+  .results-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .results-header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .results-header p {
+    font-size: 0.85rem;
+    color: var(--ink-light);
+    margin-top: 0.4rem;
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  /* Chart */
+  .chart-wrap {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1.75rem;
+    margin-bottom: 1.75rem;
+    box-shadow: 0 2px 8px rgba(26,26,46,0.05);
+  }
+  .chart-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 1.25rem;
+    letter-spacing: 0.02em;
+  }
+
+  .bar-row {
+    display: grid;
+    grid-template-columns: 3rem 1fr 2.5rem;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.6rem;
+  }
+  .bar-label {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--accent);
+    text-align: right;
+    letter-spacing: 0.04em;
+  }
+  .bar-track {
+    height: 1.5rem;
+    background: var(--paper-dark);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    width: 0%;
+  }
+  .bar-score {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--ink);
+    text-align: right;
+  }
+
+  /* Profile cards */
+  .top-roles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.75rem;
+  }
+  .role-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1.25rem;
+    box-shadow: 0 2px 8px rgba(26,26,46,0.05);
+  }
+  .role-card.primary { border-top: 3px solid var(--accent); }
+  .role-card.secondary { border-top: 3px solid var(--gold); }
+  .role-badge {
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--ink-light);
+    margin-bottom: 0.4rem;
+  }
+  .role-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 0.3rem;
+  }
+  .role-score-line {
+    font-size: 0.8rem;
+    color: var(--ink-light);
+    font-weight: 300;
+  }
+  .role-desc {
+    font-size: 0.8rem;
+    color: var(--ink-light);
+    margin-top: 0.75rem;
+    line-height: 1.55;
+    font-style: italic;
+    font-weight: 300;
+    border-top: 1px solid var(--border);
+    padding-top: 0.75rem;
+  }
+
+  /* Score table */
+  .score-table-wrap {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(26,26,46,0.05);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.83rem;
+  }
+  thead { background: var(--ink); color: var(--paper); }
+  thead th {
+    padding: 0.7rem 1rem;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    font-size: 0.8rem;
+  }
+  tbody tr { border-bottom: 1px solid var(--border); }
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:nth-child(even) { background: var(--paper); }
+  td { padding: 0.65rem 1rem; color: var(--ink-light); }
+  td:first-child { font-family: 'Playfair Display', serif; color: var(--accent); font-weight: 600; }
+  td:last-child { text-align: right; font-family: 'Playfair Display', serif; font-weight: 700; color: var(--ink); }
+
+  .reset-btn {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .download-btn {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    background: var(--accent);
+    color: var(--paper);
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    transition: background 0.2s, transform 0.1s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .download-btn:hover { background: #7a3030; }
+  .download-btn:active { transform: scale(0.98); }
+  .download-btn svg { flex-shrink: 0; }
+  .reset-link {
+    font-size: 0.8rem;
+    color: var(--ink-light);
+    cursor: pointer;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    font-family: 'Source Serif 4', serif;
+  }
+  .reset-link:hover { color: var(--accent); }
+
+  .error-msg {
+    font-size: 0.78rem;
+    color: var(--warning);
+    margin-top: 0.3rem;
+    display: none;
+    padding: 0 1.5rem;
+  }
+
+  @media (max-width: 480px) {
+    .item { grid-template-columns: 1.2rem 1fr auto; gap: 0.5rem; padding: 0.6rem 1rem; }
+    .section-head { padding: 0.9rem 1rem; }
+    .points-tracker { padding: 0.5rem 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-label">Dr Meredith Belbin · 1981</div>
+  <h1>Self-Perception Questionnaire</h1>
+  <p>A psychometric instrument for identifying team roles</p>
+</header>
+
+<div class="info-panel" id="info-panel">
+  <div class="tab-bar">
+    <button class="tab-btn active" onclick="switchTab('instructions')">Instructions</button>
+    <button class="tab-btn" onclick="switchTab('background')">Background</button>
+  </div>
+
+  <div class="tab-content active" id="tab-instructions">
+    <p>For each section, tick <strong>one, two, or three</strong> sentences that are most applicable to you. Do not tick more than three choices per section.</p>
+    <p>Once you have made your choices, allocate exactly <strong>10 points</strong> between the sentences you have ticked. The distribution should reflect how strongly each applies to you — for example, 7 and 3, or 5 and 5. You must use all 10 points in each section.</p>
+    <p>It is highly unlikely in any section that you will allocate all ten points to a single choice.</p>
+    <p><em>Answer by describing your actual behaviour, not the behaviour you would like to have. There are no right or wrong answers — all choices are equally important.</em></p>
+  </div>
+
+  <div class="tab-content" id="tab-background">
+    <p class="bg-section-title">About the questionnaire</p>
+    <p>This instrument was devised by Dr Meredith Belbin and first published in <em>Management Teams: Why They Succeed or Fail</em> (1981). It emerged from research conducted at Henley Management College, where Belbin and his colleagues observed teams competing in business simulations over many years.</p>
+    <p>The central finding was that a team's effectiveness depended less on the raw ability of its individual members and more on the balance of behavioural roles within it. Highly intelligent teams, for instance, often performed poorly because everyone competed to contribute ideas rather than attending to the practical and interpersonal work that makes a team function.</p>
+
+    <p class="bg-section-title">The four core propositions</p>
+    <p>Belbin's theory rests on four claims: that eight distinct management styles — team roles — can be identified; that individuals naturally gravitate toward one or two of these roles consistently; that these tendencies can be measured psychometrically; and that certain combinations of roles produce more effective teams than others.</p>
+    <p>Crucially, team roles are distinct from functional roles. A doctor, an engineer, and a marketing manager might all be natural Shapers, or all natural Plants. The role describes <em>how</em> someone contributes to a group, not what their job is.</p>
+
+    <p class="bg-section-title">The eight team roles</p>
+    <div class="roles-grid">
+      <div class="role-chip"><span class="role-chip-key">CW</span><span class="role-chip-name">Company Worker</span><span class="role-chip-trait">Stable, controlled</span></div>
+      <div class="role-chip"><span class="role-chip-key">CH</span><span class="role-chip-name">Chairman</span><span class="role-chip-trait">Stable, dominant, extrovert</span></div>
+      <div class="role-chip"><span class="role-chip-key">SH</span><span class="role-chip-name">Shaper</span><span class="role-chip-trait">Anxious, dominant, extrovert</span></div>
+      <div class="role-chip"><span class="role-chip-key">PL</span><span class="role-chip-name">Plant</span><span class="role-chip-trait">Dominant, high IQ, introvert</span></div>
+      <div class="role-chip"><span class="role-chip-key">RI</span><span class="role-chip-name">Resource Investigator</span><span class="role-chip-trait">Stable, dominant, extrovert</span></div>
+      <div class="role-chip"><span class="role-chip-key">ME</span><span class="role-chip-name">Monitor Evaluator</span><span class="role-chip-trait">High IQ, stable, introvert</span></div>
+      <div class="role-chip"><span class="role-chip-key">TW</span><span class="role-chip-name">Team Worker</span><span class="role-chip-trait">Stable, extrovert, low dominance</span></div>
+      <div class="role-chip"><span class="role-chip-key">CF</span><span class="role-chip-name">Completer/Finisher</span><span class="role-chip-trait">Anxious, introvert</span></div>
+    </div>
+
+    <p class="bg-section-title">Inward- and outward-facing roles</p>
+    <p>The eight roles divide into four that are primarily oriented toward the world outside the team, and four concerned with the team's internal functioning. Outward-facing roles tend to score higher on dominance in psychometric tests.</p>
+    <table class="orientation-table">
+      <thead><tr><th>Outward-facing</th><th>Inward-facing</th></tr></thead>
+      <tbody>
+        <tr><td>Chairman</td><td>Company Worker</td></tr>
+        <tr><td>Plant</td><td>Monitor Evaluator</td></tr>
+        <tr><td>Resource Investigator</td><td>Team Worker</td></tr>
+        <tr><td>Shaper</td><td>Completer/Finisher</td></tr>
+      </tbody>
+    </table>
+
+    <p class="bg-section-title">Interpreting your results</p>
+    <p>Most people have one or two dominant roles and one or two secondary roles. The absence of a role in your profile does not mean you cannot perform those functions — it means you are likely to find them less natural, and may overlook them under pressure. In smaller teams, individuals regularly cover two roles simultaneously.</p>
+    <p>Belbin emphasised that all roles are equally valuable. A team composed entirely of Plants and Shapers may appear brilliant but will be outperformed by a balanced combination that includes the less conspicuous roles responsible for organisation, evaluation, and cohesion.</p>
+  </div>
+</div>
+
+<div class="progress-bar-wrap">
+  <div class="progress-meta">
+    <span id="progress-text">0 of 7 sections complete</span>
+    <span id="progress-pct">0%</span>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+</div>
+
+<div class="sections-wrapper" id="sections-wrapper"></div>
+
+<div class="sections-wrapper">
+  <div class="submit-area">
+    <button class="submit-btn" onclick="submitQuestionnaire()">Calculate My Team Roles</button>
+  </div>
+</div>
+
+<div id="results">
+  <div class="results-header">
+    <h2>Your Belbin Profile</h2>
+    <p>Based on your self-perception scores across the seven sections</p>
+  </div>
+  <div class="top-roles" id="top-roles"></div>
+  <div class="chart-wrap">
+    <div class="chart-title">Score distribution across all eight team roles</div>
+    <div id="bar-chart"></div>
+  </div>
+  <div class="score-table-wrap">
+    <table>
+      <thead><tr><th>Team role</th><th>Abbreviation</th><th>Score</th></tr></thead>
+      <tbody id="score-tbody"></tbody>
+    </table>
+  </div>
+  <div class="reset-btn">
+    <button class="download-btn" onclick="downloadPDF()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download results as PDF
+    </button>
+    <button class="reset-link" onclick="resetQuestionnaire()">Start again</button>
+  </div>
+</div>
+
+<script>
+const SECTIONS = [
+  {
+    title: "What I believe I can contribute to a team",
+    items: [
+      { id: 'a', text: "I think I can quickly see and take advantage of new opportunities." },
+      { id: 'b', text: "I can work well with a very wide range of people." },
+      { id: 'c', text: "Producing ideas is one of my natural assets." },
+      { id: 'd', text: "My ability rests in being able to draw people out whenever I detect they have something of value to contribute to group objectives." },
+      { id: 'e', text: "My capacity to follow through has much to do with my personal effectiveness." },
+      { id: 'f', text: "I am ready to face temporary unpopularity if it leads to worthwhile results in the end." },
+      { id: 'g', text: "I am quick to sense what is likely to work in a situation with which I am familiar." },
+      { id: 'h', text: "I can offer a reasoned case for alternative courses of action without bias or prejudice." },
+    ]
+  },
+  {
+    title: "If I have a possible shortcoming in teamwork it could be that",
+    items: [
+      { id: 'a', text: "I am not at ease unless meetings are well structured and controlled and generally well conducted." },
+      { id: 'b', text: "I am inclined to be too generous towards others who have a valid viewpoint that has not been given a proper airing." },
+      { id: 'c', text: "I have a tendency to talk a lot once the group gets onto new ideas." },
+      { id: 'd', text: "My objective outlook makes it difficult for me to join in readily and enthusiastically with colleagues." },
+      { id: 'e', text: "I am sometimes seen as forceful and authoritarian if there is a need to get something done." },
+      { id: 'f', text: "I find it difficult to lead from the front, perhaps because I am over-responsive to group atmosphere." },
+      { id: 'g', text: "I am apt to get too caught up in ideas that occur to me and so lose track of what is happening." },
+      { id: 'h', text: "My colleagues tend to see me as worrying unnecessarily over detail and the possibility that things may go wrong." },
+    ]
+  },
+  {
+    title: "When involved in a project with other people",
+    items: [
+      { id: 'a', text: "I have an aptitude for influencing people without pressurising them." },
+      { id: 'b', text: "My general vigilance prevents careless mistakes and omissions being made." },
+      { id: 'c', text: "I am ready to press for action to make sure that the meeting does not waste time or lose sight of the main objective." },
+      { id: 'd', text: "I can be counted on to contribute something original." },
+      { id: 'e', text: "I am always ready to back a good suggestion in the common interest." },
+      { id: 'f', text: "I am keen to look for the latest in new ideas and developments." },
+      { id: 'g', text: "I believe my capacity for cool judgement is appreciated by others." },
+      { id: 'h', text: "I can be relied upon to see that all essential work is organised." },
+    ]
+  },
+  {
+    title: "My characteristic approach to group work is that",
+    items: [
+      { id: 'a', text: "I have a quiet interest in getting to know my colleagues better." },
+      { id: 'b', text: "I am not reluctant to challenge the views of others or to hold a minority view myself." },
+      { id: 'c', text: "I can usually find a line of argument to refute unsound propositions." },
+      { id: 'd', text: "I think I have a talent for making things work once a plan has to be put into operation." },
+      { id: 'e', text: "I have a tendency to avoid the obvious and to come out with the unexpected." },
+      { id: 'f', text: "I bring a touch of perfectionism to any team job I undertake." },
+      { id: 'g', text: "I am ready to make use of contacts outside the group itself." },
+      { id: 'h', text: "While I am interested in all views I have no hesitation in making up my mind once a decision has to be made." },
+    ]
+  },
+  {
+    title: "I gain satisfaction in a job because",
+    items: [
+      { id: 'a', text: "I enjoy analysing situations and weighing up all the possible choices." },
+      { id: 'b', text: "I am interested in finding practical solutions to problems." },
+      { id: 'c', text: "I like to feel I am fostering good working relationships." },
+      { id: 'd', text: "I have a strong influence on decisions." },
+      { id: 'e', text: "I can meet people who have something new to offer." },
+      { id: 'f', text: "I can get people to agree on a necessary course of action." },
+      { id: 'g', text: "I feel in my element where I can give a task my full attention." },
+      { id: 'h', text: "I like to find a field that stretches my imagination." },
+    ]
+  },
+  {
+    title: "If I am suddenly given a difficult task with limited time and unfamiliar people",
+    items: [
+      { id: 'a', text: "I would feel like retiring to a corner to devise a way out of the impasse before developing a line." },
+      { id: 'b', text: "I would be ready to work with the person who showed the most positive approach, however difficult they might be." },
+      { id: 'c', text: "I would find some way of reducing the size of the task by establishing what different individuals might best contribute." },
+      { id: 'd', text: "My natural sense of urgency would help to ensure that we did not fall behind schedule." },
+      { id: 'e', text: "I believe I would keep cool and maintain my capacity to think straight." },
+      { id: 'f', text: "I would retain a steadiness of purpose in spite of the pressure." },
+      { id: 'g', text: "I would be prepared to take a positive lead if I felt the group was making no progress." },
+      { id: 'h', text: "I would open up discussions with a view to stimulating new thoughts and getting something moving." },
+    ]
+  },
+  {
+    title: "With reference to the problems to which I am subject in working groups",
+    items: [
+      { id: 'a', text: "I am apt to show my impatience with those who are obstructing progress." },
+      { id: 'b', text: "Others may criticise me for being too analytical and insufficiently intuitive." },
+      { id: 'c', text: "My desire to ensure that work is properly done can hold up proceedings." },
+      { id: 'd', text: "I tend to get bored rather easily and rely on one or two stimulating members to spark me off." },
+      { id: 'e', text: "I find it difficult to get started unless the goals are clear." },
+      { id: 'f', text: "I am sometimes poor at explaining and clarifying complex points that occur to me." },
+      { id: 'g', text: "I am conscious of demanding from others the things I cannot do myself." },
+      { id: 'h', text: "I hesitate to get my points across when I run up against real opposition." },
+    ]
+  }
+];
+
+// Scoring key: for each section, which letter maps to which role
+// Roles: CW, CH, SH, PL, RI, ME, TW, CF (indices 0-7)
+const SCORE_MAP = [
+  // Section 1: a=RI, b=TW, c=PL, d=CH, e=CF, f=SH, g=CW, h=ME
+  { a:4, b:6, c:3, d:1, e:7, f:2, g:0, h:5 },
+  // Section 2: a=CW, b=CH, c=RI, d=ME, e=SH, f=TW, g=PL, h=CF
+  { a:0, b:1, c:4, d:5, e:2, f:6, g:3, h:7 },
+  // Section 3: a=CH, b=CF, c=SH, d=PL, e=TW, f=RI, g=ME, h=CW
+  { a:1, b:7, c:2, d:3, e:6, f:4, g:5, h:0 },
+  // Section 4: a=TW, b=SH, c=ME, d=CW, e=PL, f=CF, g=RI, h=CH
+  { a:6, b:2, c:5, d:0, e:3, f:7, g:4, h:1 },
+  // Section 5: a=ME, b=CW, c=TW, d=SH, e=RI, f=CH, g=CF, h=PL
+  { a:5, b:0, c:6, d:2, e:4, f:1, g:7, h:3 },
+  // Section 6: a=PL, b=TW, c=CH, d=SH, e=ME, f=CW, g=SH, h=RI
+  // NB original: f=CW, c=CH, g=SH, a=PL, h=RI, e=ME, b=TW, d=CF
+  { a:3, b:6, c:1, d:7, e:5, f:0, g:2, h:4 },
+  // Section 7: a=SH, b=ME, c=CF, d=RI, e=CW, f=PL, g=CH, h=TW
+  { a:2, b:5, c:7, d:4, e:0, f:3, g:1, h:6 }
+];
+
+const ROLES = [
+  { key: 'CW', name: 'Company Worker', desc: 'The practical organiser who turns decisions and strategies into defined, manageable tasks.' },
+  { key: 'CH', name: 'Chairman', desc: 'Clarifies objectives, sets the agenda, and coordinates the team\'s efforts toward external goals.' },
+  { key: 'SH', name: 'Shaper', desc: 'Provides drive and urgency, uniting ideas and practical considerations into a single feasible project.' },
+  { key: 'PL', name: 'Plant', desc: 'The creative ideas person; brings radical, original thinking and new approaches to problems.' },
+  { key: 'RI', name: 'Resource Investigator', desc: 'Goes outside the group, makes contacts, and brings back information, ideas, and opportunities.' },
+  { key: 'ME', name: 'Monitor Evaluator', desc: 'Provides measured, dispassionate analysis; evaluates proposals and stops the team from misguided decisions.' },
+  { key: 'TW', name: 'Team Worker', desc: 'The most sensitive to individuals\u2019 needs; promotes unity, harmony, and communication within the group.' },
+  { key: 'CF', name: 'Completer/Finisher', desc: 'Ensures nothing is overlooked; maintains urgency and attention to detail, particularly near deadlines.' },
+];
+
+const BAR_COLOURS = [
+  '#8b3a3a','#1a1a2e','#c9a84c','#2d6a4f',
+  '#c47c5a','#3d3d5c','#6b7c8d','#a05a7a'
+];
+
+// State
+let ticked = Array.from({length:7}, () => ({}));
+let scores = Array.from({length:7}, () => ({}));
+let lastTotals = null; // populated on submit, used by downloadPDF
+
+function buildUI() {
+  const wrapper = document.getElementById('sections-wrapper');
+  wrapper.innerHTML = '';
+  SECTIONS.forEach((sec, si) => {
+    const card = document.createElement('div');
+    card.className = 'section-card';
+    card.id = `sec-${si}`;
+    card.innerHTML = `
+      <div class="section-head">
+        <span class="section-num">${si+1}</span>
+        <span class="section-title">${sec.title}</span>
+        <span class="section-status status-pending" id="status-${si}">0 / 10 pts</span>
+      </div>
+      <div class="section-body" id="body-${si}"></div>
+      <div class="points-tracker">
+        <span class="points-label">Points allocated:</span>
+        <span class="points-display points-under" id="pts-${si}">0</span>
+        <span class="points-label">/ 10</span>
+      </div>
+    `;
+    wrapper.appendChild(card);
+    const body = document.getElementById(`body-${si}`);
+    sec.items.forEach(item => {
+      const row = document.createElement('div');
+      row.className = 'item';
+      row.id = `row-${si}-${item.id}`;
+      row.innerHTML = `
+        <span class="item-letter">${item.id}</span>
+        <label class="item-label" for="chk-${si}-${item.id}">${item.text}</label>
+        <div class="item-score">
+          <input class="score-input" type="number" min="0" max="10" id="score-${si}-${item.id}"
+            placeholder="pts" oninput="handleScore(${si},'${item.id}',this.value)">
+          <input class="item-check" type="checkbox" id="chk-${si}-${item.id}"
+            onchange="handleCheck(${si},'${item.id}',this.checked)">
+        </div>
+      `;
+      body.appendChild(row);
+    });
+  });
+}
+
+function countTicked(si) {
+  return Object.values(ticked[si]).filter(Boolean).length;
+}
+
+function sumScores(si) {
+  return Object.values(scores[si]).reduce((a,b)=>a+b,0);
+}
+
+function handleCheck(si, id, checked) {
+  const n = countTicked(si);
+  if (checked && n >= 3) {
+    document.getElementById(`chk-${si}-${id}`).checked = false;
+    return;
+  }
+  ticked[si][id] = checked;
+  const scoreEl = document.getElementById(`score-${si}-${id}`);
+  const rowEl = document.getElementById(`row-${si}-${id}`);
+  if (checked) {
+    scoreEl.classList.add('visible');
+    rowEl.classList.add('selected');
+  } else {
+    scoreEl.classList.remove('visible');
+    scoreEl.value = '';
+    rowEl.classList.remove('selected');
+    delete scores[si][id];
+  }
+  updateSection(si);
+}
+
+function handleScore(si, id, val) {
+  const v = parseInt(val) || 0;
+  if (v < 0) { document.getElementById(`score-${si}-${id}`).value = 0; scores[si][id] = 0; }
+  else { scores[si][id] = v; }
+  updateSection(si);
+}
+
+function updateSection(si) {
+  const total = sumScores(si);
+  const ptsEl = document.getElementById(`pts-${si}`);
+  const statusEl = document.getElementById(`status-${si}`);
+  const card = document.getElementById(`sec-${si}`);
+  ptsEl.textContent = total;
+  ptsEl.className = 'points-display ' + (total === 10 ? 'points-ok' : total > 10 ? 'points-over' : 'points-under');
+
+  const hasTick = countTicked(si) > 0;
+  if (total === 10 && hasTick) {
+    card.className = 'section-card complete';
+    statusEl.className = 'section-status status-ok';
+    statusEl.textContent = '✓ Complete';
+  } else if (total > 10) {
+    card.className = 'section-card error';
+    statusEl.className = 'section-status status-error';
+    statusEl.textContent = `${total} pts — over!`;
+  } else {
+    card.className = 'section-card';
+    statusEl.className = 'section-status status-pending';
+    statusEl.textContent = `${total} / 10 pts`;
+  }
+  updateProgress();
+}
+
+function updateProgress() {
+  let complete = 0;
+  for (let i = 0; i < 7; i++) {
+    if (sumScores(i) === 10 && countTicked(i) > 0) complete++;
+  }
+  const pct = Math.round(complete / 7 * 100);
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('progress-text').textContent = `${complete} of 7 sections complete`;
+  document.getElementById('progress-pct').textContent = pct + '%';
+}
+
+function submitQuestionnaire() {
+  let errors = [];
+  for (let i = 0; i < 7; i++) {
+    const total = sumScores(i);
+    const hasTick = countTicked(i) > 0;
+    if (!hasTick || total !== 10) errors.push(i+1);
+  }
+  if (errors.length > 0) {
+    errors.forEach(n => {
+      const card = document.getElementById(`sec-${n-1}`);
+      card.className = 'section-card error';
+      card.scrollIntoView({behavior:'smooth', block:'center'});
+    });
+    alert(`Please complete sections ${errors.join(', ')} before submitting. Each section needs at least one tick and exactly 10 points allocated.`);
+    return;
+  }
+  showResults();
+}
+
+function showResults() {
+  // Tally scores
+  const totals = new Array(8).fill(0);
+  for (let si = 0; si < 7; si++) {
+    Object.entries(scores[si]).forEach(([id, val]) => {
+      if (ticked[si][id]) {
+        const roleIdx = SCORE_MAP[si][id];
+        totals[roleIdx] += val;
+      }
+    });
+  }
+  lastTotals = totals;
+
+  // Hide form, show results
+  document.getElementById('sections-wrapper').style.display = 'none';
+  document.querySelector('.submit-area').style.display = 'none';
+  document.getElementById('info-panel').style.display = 'none';
+  document.querySelector('.progress-bar-wrap').style.display = 'none';
+  document.getElementById('results').style.display = 'block';
+  document.getElementById('results').scrollIntoView({behavior:'smooth'});
+
+  // Sort roles by score
+  const sorted = ROLES.map((r,i) => ({...r, score: totals[i], colour: BAR_COLOURS[i]}))
+    .sort((a,b) => b.score - a.score);
+
+  const maxScore = Math.max(...sorted.map(r=>r.score), 1);
+
+  // Top roles
+  const topEl = document.getElementById('top-roles');
+  topEl.innerHTML = '';
+  [0,1,2].forEach(rank => {
+    const r = sorted[rank];
+    const card = document.createElement('div');
+    card.className = 'role-card ' + (rank===0?'primary':rank===1?'secondary':'');
+    card.innerHTML = `
+      <div class="role-badge">${rank===0?'Primary role':rank===1?'Secondary role':'Tertiary role'}</div>
+      <div class="role-name">${r.name}</div>
+      <div class="role-score-line">${r.key} · Score: ${r.score}</div>
+      <div class="role-desc">${r.desc}</div>
+    `;
+    topEl.appendChild(card);
+  });
+
+  // Bar chart
+  const chartEl = document.getElementById('bar-chart');
+  chartEl.innerHTML = '';
+  sorted.forEach(r => {
+    const pct = Math.round(r.score / maxScore * 100);
+    const row = document.createElement('div');
+    row.className = 'bar-row';
+    row.innerHTML = `
+      <div class="bar-label">${r.key}</div>
+      <div class="bar-track"><div class="bar-fill" id="bar-${r.key}" style="background:${r.colour}"></div></div>
+      <div class="bar-score">${r.score}</div>
+    `;
+    chartEl.appendChild(row);
+    setTimeout(() => {
+      document.getElementById(`bar-${r.key}`).style.width = pct + '%';
+    }, 100);
+  });
+
+  // Score table (original order)
+  const tbody = document.getElementById('score-tbody');
+  tbody.innerHTML = '';
+  ROLES.forEach((r,i) => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${r.name}</td><td>${r.key}</td><td>${totals[i]}</td>`;
+    tbody.appendChild(tr);
+  });
+}
+
+function switchTab(name) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  document.querySelector(`.tab-btn[onclick="switchTab('${name}')"]`).classList.add('active');
+}
+
+function resetQuestionnaire() {
+  ticked = Array.from({length:7}, () => ({}));
+  scores = Array.from({length:7}, () => ({}));
+  document.getElementById('results').style.display = 'none';
+  document.getElementById('sections-wrapper').style.display = '';
+  document.querySelector('.submit-area').style.display = '';
+  document.getElementById('info-panel').style.display = '';
+  document.querySelector('.progress-bar-wrap').style.display = '';
+  switchTab('instructions');
+  buildUI();
+  updateProgress();
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function downloadPDF() {
+  if (!lastTotals) return;
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+
+  const W = 210, H = 297;
+  const margin = 18;
+  const contentW = W - margin * 2;
+
+  const inkRGB    = [26,  26,  46];
+  const accentRGB = [139, 58,  58];
+  const goldRGB   = [201, 168, 76];
+  const paperRGB  = [248, 245, 240];
+  const lightRGB  = [237, 233, 226];
+  const barColours = [
+    [139,58,58],[26,26,46],[201,168,76],[45,106,79],
+    [196,124,90],[61,61,92],[107,124,141],[160,90,122]
+  ];
+
+  let y = 0;
+
+  // Header band
+  doc.setFillColor(...inkRGB);
+  doc.rect(0, 0, W, 36, 'F');
+
+  doc.setTextColor(...goldRGB);
+  doc.setFont('helvetica','normal');
+  doc.setFontSize(7.5);
+  doc.text('DR MEREDITH BELBIN · 1981', W/2, 10, {align:'center'});
+
+  doc.setTextColor(...paperRGB);
+  doc.setFont('helvetica','bold');
+  doc.setFontSize(18);
+  doc.text('Belbin Self-Perception Questionnaire', W/2, 20, {align:'center'});
+
+  doc.setFont('helvetica','italic');
+  doc.setFontSize(8.5);
+  doc.setTextColor(200,200,210);
+  doc.text('Personal results report', W/2, 28, {align:'center'});
+
+  y = 44;
+
+  // Sorted roles
+  const sorted = ROLES.map((r,i) => ({...r, score: lastTotals[i], colour: barColours[i]}))
+    .sort((a,b) => b.score - a.score);
+  const maxScore = Math.max(...sorted.map(r=>r.score), 1);
+
+  // Section label
+  doc.setFont('helvetica','normal');
+  doc.setFontSize(7);
+  doc.setTextColor(...inkRGB);
+  doc.text('YOUR TOP ROLES', margin, y);
+  y += 4;
+
+  // Top 3 cards
+  const cardW = (contentW - 6) / 3;
+  const labels = ['Primary role','Secondary role','Tertiary role'];
+  const borderAccents = [accentRGB, goldRGB, [180,180,180]];
+
+  sorted.slice(0,3).forEach((r, i) => {
+    const cx = margin + i * (cardW + 3);
+    const cardH = 38;
+
+    doc.setFillColor(255,255,255);
+    doc.setDrawColor(220,215,207);
+    doc.setLineWidth(0.3);
+    doc.rect(cx, y, cardW, cardH, 'FD');
+
+    doc.setFillColor(...borderAccents[i]);
+    doc.rect(cx, y, cardW, 1.2, 'F');
+
+    doc.setFont('helvetica','normal');
+    doc.setFontSize(6);
+    doc.setTextColor(100,100,130);
+    doc.text(labels[i].toUpperCase(), cx + 4, y + 7);
+
+    doc.setFont('helvetica','bold');
+    doc.setFontSize(9.5);
+    doc.setTextColor(...inkRGB);
+    doc.text(r.name, cx + 4, y + 14);
+
+    doc.setFont('helvetica','normal');
+    doc.setFontSize(7);
+    doc.setTextColor(...accentRGB);
+    doc.text(r.key + '  \u00B7  Score: ' + r.score, cx + 4, y + 19.5);
+
+    doc.setDrawColor(220,215,207);
+    doc.setLineWidth(0.2);
+    doc.line(cx + 4, y + 22, cx + cardW - 4, y + 22);
+
+    doc.setFont('helvetica','italic');
+    doc.setFontSize(6.5);
+    doc.setTextColor(80,80,100);
+    const descLines = doc.splitTextToSize(r.desc, cardW - 8);
+    doc.text(descLines, cx + 4, y + 26);
+  });
+
+  y += 44;
+
+  // Bar chart
+  doc.setFont('helvetica','normal');
+  doc.setFontSize(7);
+  doc.setTextColor(...inkRGB);
+  doc.text('SCORE DISTRIBUTION', margin, y);
+  y += 4;
+
+  const chartH = sorted.length * 8 + 6;
+  doc.setFillColor(255,255,255);
+  doc.setDrawColor(220,215,207);
+  doc.setLineWidth(0.3);
+  doc.rect(margin, y, contentW, chartH, 'FD');
+  y += 4;
+
+  const labelW = 30;
+  const scoreW = 10;
+  const barAreaW = contentW - labelW - scoreW - 8;
+
+  sorted.forEach((r, i) => {
+    const rowY = y + i * 8;
+    const barW = barAreaW * (r.score / maxScore);
+
+    doc.setFont('helvetica','bold');
+    doc.setFontSize(6.5);
+    doc.setTextColor(...accentRGB);
+    doc.text(r.key, margin + 4, rowY + 4.5);
+
+    doc.setFont('helvetica','normal');
+    doc.setFontSize(6);
+    doc.setTextColor(80,80,100);
+    doc.text(r.name, margin + 13, rowY + 4.5);
+
+    doc.setFillColor(...lightRGB);
+    doc.rect(margin + labelW, rowY + 1, barAreaW, 5, 'F');
+
+    if (barW > 0) {
+      doc.setFillColor(...r.colour);
+      doc.rect(margin + labelW, rowY + 1, barW, 5, 'F');
+    }
+
+    doc.setFont('helvetica','bold');
+    doc.setFontSize(7);
+    doc.setTextColor(...inkRGB);
+    doc.text(String(r.score), margin + labelW + barAreaW + 4, rowY + 4.5);
+  });
+
+  y += chartH + 8;
+
+  // Full score table
+  doc.setFont('helvetica','normal');
+  doc.setFontSize(7);
+  doc.setTextColor(...inkRGB);
+  doc.text('FULL SCORE TABLE', margin, y);
+  y += 4;
+
+  doc.setFillColor(...inkRGB);
+  doc.rect(margin, y, contentW, 7, 'F');
+  doc.setFont('helvetica','bold');
+  doc.setFontSize(7);
+  doc.setTextColor(...paperRGB);
+  doc.text('Team role', margin + 4, y + 4.8);
+  doc.text('Code', margin + contentW * 0.6, y + 4.8);
+  doc.text('Score', margin + contentW * 0.8, y + 4.8);
+  y += 7;
+
+  const tableTopY = y;
+  ROLES.forEach((r, i) => {
+    doc.setFillColor(...(i % 2 === 0 ? [255,255,255] : paperRGB));
+    doc.rect(margin, y, contentW, 6.5, 'F');
+
+    doc.setFont('helvetica','normal');
+    doc.setFontSize(7);
+    doc.setTextColor(...inkRGB);
+    doc.text(r.name, margin + 4, y + 4.3);
+
+    doc.setFont('helvetica','bold');
+    doc.setTextColor(...accentRGB);
+    doc.text(r.key, margin + contentW * 0.6, y + 4.3);
+
+    doc.setFont('helvetica','bold');
+    doc.setTextColor(...inkRGB);
+    doc.text(String(lastTotals[i]), margin + contentW * 0.8, y + 4.3);
+
+    y += 6.5;
+  });
+
+  doc.setDrawColor(220,215,207);
+  doc.setLineWidth(0.3);
+  doc.rect(margin, tableTopY - 7, contentW, ROLES.length * 6.5 + 7, 'D');
+
+  // Footer
+  doc.setFont('helvetica','italic');
+  doc.setFontSize(6.5);
+  doc.setTextColor(160,160,170);
+  const dateStr = new Date().toLocaleDateString('en-GB', {day:'numeric', month:'long', year:'numeric'});
+  doc.text('Generated ' + dateStr + '  \u00B7  Belbin Self-Perception Questionnaire (1981)', W/2, H - 10, {align:'center'});
+
+  doc.save('belbin-profile.pdf');
+}
+
+buildUI();
+updateProgress();
+</script>
+</body>
+</html>
