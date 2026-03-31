@@ -71,8 +71,8 @@ What's easy to miss is how low the barrier has become. I didn't write any code, 
 
 ## Format shapes engagement
 
-The format something takes doesn't just affect convenience. It affects cognition. A static document and an interactive form contain the same information, but they invite different kinds of engagement. One asks you to read; the other asks you to do something. That's a meaningful difference when the goal is learning, decision-making, or self-assessment.
+The format something takes doesn't just affect convenience. It also affects cognition. A static document and an interactive form contain the same information, but they invite different kinds of engagement. That's a meaningful difference when the goal is learning, decision-making, or self-assessment.
 
 Think about the documents you already work with: assessment rubrics, clinical guidelines, programme specifications, accreditation standards. Most of them are dense, static, and designed for compliance rather than engagement.
 
-Why not transform them into something interactive and share with your students?
+What would happen if you transformed one of them into something interactive and shared it with your students or colleagues?
