@@ -1,7 +1,7 @@
 ---
 type: essay
 title: Problem-based learning and the structural conditions for productive AI integration
-title-highlight: "structural conditions"
+title-highlight: structural conditions
 slug: essays/problem-based-learning-structural-conditions-ai
 description: "Higher education's response to AI has focused on the artefact: detecting it, restricting it, and restoring confidence in what students produce. This essay argues that the structural features of problem-based learning — problem-driven inquiry, collaborative knowledge construction, facilitation over instruction, and metacognitive reflection — are the same conditions under which AI integration becomes educationally productive rather than substitutive. The alignment is structural, not retrospective: PBL was designed around these conditions before AI existed. The argument extends further: AI shifts what category of problem PBL can engage with, expanding access to wicked problems previously beyond students' reach. Investing in PBL's structural conditions is simultaneously investing in AI readiness."
 meta-description: Why PBL's structural features — collaborative inquiry, facilitation, metacognition — make AI integration educationally productive rather than substitutive.
@@ -14,7 +14,7 @@ email:
 keyphrase: AI integration problem-based learning health professions education
 version: 0.8
 created: 2026-03-27
-modified: 2026-03-28
+modified: 2026-03-31
 orcid: 0000-0002-1538-6052
 tags:
   - health-professions-education
@@ -35,7 +35,9 @@ category:
 draft: false
 reviewed:
 linkedin:
-doi:
+doi: 10.35542/osf.io/haet3_v1
+doclicense: Creative Commons Attribution 4.0 International
+doclicenseurl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 > [!info] **About this essay**
@@ -43,9 +45,9 @@ doi:
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: March 28, 2026
-> - **Version**: 0.8 (last updated: March 28, 2026)
+> - **Version**: 0.8 (last updated: March 31, 2026)
 > - **Keywords**: AI integration, assessment, cognitive offloading, health professions education, problem-based learning, professional judgement, wicked problems
-> - **DOI**: 
+> - **DOI**: https://doi.org/10.35542/osf.io/haet3_v1
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
 ### Abstract
