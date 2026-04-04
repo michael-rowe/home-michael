@@ -35,7 +35,7 @@ category:
 draft: false
 reviewed:
 linkedin:
-doi: 10.35542/osf.io/haet3_v1
+doi: 10.35542/osf.io/haet3_v2
 doclicense: Creative Commons Attribution 4.0 International
 doclicenseurl: https://creativecommons.org/licenses/by/4.0/
 ---
@@ -47,7 +47,7 @@ doclicenseurl: https://creativecommons.org/licenses/by/4.0/
 > - **Created**: March 28, 2026
 > - **Version**: 0.8 (last updated: March 31, 2026)
 > - **Keywords**: AI integration, assessment, cognitive offloading, health professions education, problem-based learning, professional judgement, wicked problems
-> - **DOI**: https://doi.org/10.35542/osf.io/haet3_v1
+> - **DOI**: https://doi.org/10.35542/osf.io/haet3_v2
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
 ### Abstract
