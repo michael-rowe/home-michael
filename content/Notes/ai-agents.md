@@ -16,7 +16,7 @@ tags:
   - ai-integration
 related:
   - "[[agentic workflows]]"
-  - "[[context-engineering]]"
+  - "[[context engineering]]"
 linkedin:
 
 ---
@@ -65,4 +65,4 @@ A well-directed agent can apply a formatting standard across forty documents, cr
 
 ## Notes
 
-The distinction between agents and assistants maps onto the execution/direction distinction described in [[2026-02-26-ai-agents-academic-workflow|AI agents for academic workflow]]: delegating to an agent shifts the human contribution from execution to direction. The quality of that direction — how clearly the goal and constraints are specified — determines most of the outcome. See also [[context-engineering]].
+The distinction between agents and assistants maps onto the execution/direction distinction described in [[2026-02-26-ai-agents-academic-workflow|AI agents for academic workflow]]: delegating to an agent shifts the human contribution from execution to direction. The quality of that direction — how clearly the goal and constraints are specified — determines most of the outcome. See also [[context engineering]].

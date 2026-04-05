@@ -2,7 +2,7 @@
 type: essay
 title: "Context sovereignty for AI-supported learning: A human-centred approach"
 slug: essays/context-sovereignty-for-ai-supported-learning
-description: "This essay proposes 'context sovereignty' as a framework for maintaining human agency in AI-supported learning, arguing that context engineering — not just prompting — is the key to meaningful human-AI collaboration."
+description: This essay proposes 'context sovereignty' as a framework for maintaining human agency in AI-supported learning, arguing that context engineering — not just prompting — is the key to meaningful human-AI collaboration.
 meta-description: Proposing 'context sovereignty for AI-supported learning' as a framework for maintaining human agency in AI-supported learning environments.
 author:
   - "[[Michael Rowe]]"
@@ -14,10 +14,10 @@ email:
   - mrowe@lincoln.ac.uk
   - wesley@snapplify.com
 keyphrase: context sovereignty AI-supported learning
-title-highlight: "Context sovereignty"
+title-highlight: Context sovereignty
 version: 0.9
 created: 2025-05-23
-modified: 2026-02-13
+modified: 2026-02-14
 orcid: 0000-0002-1538-6052
 doi: 10.31219/osf.io/8czva_v1
 tags:
@@ -31,8 +31,8 @@ related:
 category:
   - AI and technology
   - Pedagogy
-doclicense: "Creative Commons Attribution 4.0 International"
-doclicenseurl: "https://creativecommons.org/licenses/by/4.0/"
+doclicense: Creative Commons Attribution 4.0 International
+doclicenseurl: https://creativecommons.org/licenses/by/4.0/
 draft: false
 reviewed:
 linkedin:
@@ -41,7 +41,7 @@ linkedin:
 > - **Authors**: Michael Rowe 1 ([ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1538-6052); mrowe@lincoln.ac.uk) and Wesley Lynch 2 ([LinkedIn](https://www.linkedin.com/in/wesleylynch/); wesley@snapplify.com)
 > - **Affiliations**: 1) University of Lincoln; 2) [Snapplify](https://www.snapplify.com)
 > - **Created**: May 23, 2025
-> - **Version**: 0.9 (last updated: Feb 13, 2026)
+> - **Version**: 0.9 (last updated: Feb 14, 2026)
 > - **Keywords**: artificial intelligence, cognitive extension, cognitive partnership, context engineering, context sovereignty, distributed cognition, educational technology, human-AI collaboration, personal learning
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**:

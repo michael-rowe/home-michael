@@ -1,14 +1,15 @@
 ---
-title: An open, collaborative, and version-controlled academic writing workflow
+title: "An open scholarship workflow: what academic publishing can learn from open source"
 type: post
 aliases:
   - Open source scholarship
+  - essays/open-collaborative-version-controlled-workflow
 description: "Academic publishing treats scholarship as a finished, individually owned artefact. This post describes a writing and publishing workflow built on a different premise: that a scholarly corpus could work like an open source project — readable, contributable, forkable, and never permanently owned by anyone."
-meta-description: "What would scholarship look like if it worked like an open source project? A workflow built on plain text, version control, and open licensing."
-keyphrase: open source scholarship
+meta-description: An open scholarship workflow built on Markdown, Git, and open licensing — and what it reveals about the limits of traditional academic publishing.
+keyphrase: open scholarship workflow
 author: "[[Michael Rowe]]"
-date: 2026-04-04
-updated: 2026-04-04
+date: 2026-04-06
+updated: 2026-04-06
 tags:
   - open-scholarship
   - publishing
@@ -19,7 +20,7 @@ category:
   - Scholarship
 related:
 draft: true
-slug: essays/open-collaborative-version-controlled-workflow
+slug: posts/open-scholarship-workflow
 subtype: ""
 enableToc: true
 linkedin:
@@ -36,9 +37,15 @@ The open source movement solved a genuinely hard problem — how to build comple
 
 Academic publishing has not solved this problem. It has organised itself around the opposite assumptions. A paper is a finished object. It is owned, in practice if not always in law, by the combination of named authors and the journal that publishes it. Once published, it does not change — any update requires a new paper, a correction notice, or a retraction. The relationship between reader and work is passive: you consume it, you cite it, but you do not contribute to it or extend it in any traceable way. Open access widens who can read it, but the underlying model remains intact. The knowledge is still frozen, the provenance is still opaque between versions, and the community of readers has no formal mechanism for contributing back.
 
-What I have been building, slowly and imperfectly, is a workflow that tries to apply the open source model to a scholarly corpus. The publishing infrastructure — plain text, version control, open licensing, structured metadata — is not the point. It is what makes the point possible.
+Underneath this structural problem sits a deeper one about trust. For centuries, academics have outsourced trust to publishers and journals, relying on them to ensure that what we read and build upon is trustworthy. Publication in a prestigious journal signals that work has passed certain quality thresholds, reducing the cognitive load on individual scholars. This proxy system emerged from practical necessity — in pre-digital academia, individual scholars lacked the resources to manage reproduction, distribution, and preservation of their work. Publishers solved real problems, and the trust infrastructure they built enabled remarkable progress.
 
-## What the workflow actually looks like
+But outsourcing trust to commercial intermediaries also created misaligned incentives. The system that was supposed to serve scholarly progress developed its own self-reinforcing logic: publishers benefit from a steady stream of submissions, universities evaluate faculty on publication counts and impact factors, and researchers need publications for career advancement. Each actor responds rationally to their incentives, but the collective result is a publishing culture that can privilege volume over value. It is worth acknowledging that commercial incentives also *produced* much of the infrastructure scholars now rely on — persistent identifiers, structured metadata, global distribution networks. The problem is not that publishers are villains but that outsourced trust eventually serves the interests of the proxy as much as the interests of the community it was meant to represent.
+
+The question this workflow tries to answer is whether the valuable elements of that trust infrastructure — persistent identification, version control, peer feedback, and contextual placement of work within broader conversations — can be preserved and enhanced while bringing them under more direct scholarly control.
+
+What I have been building, slowly and imperfectly, is an open scholarship workflow: an attempt to apply the open source model to a scholarly corpus. The publishing infrastructure — plain text, version control, open licensing, structured metadata — is not the point. It is what makes the point possible.
+
+## What an open scholarship workflow actually looks like
 
 The full pipeline is straightforward: writing happens in [[Obsidian]], is versioned in [[Git]] and published on [[GitHub]], built into a static site by [[Quartz]], and deployed automatically to GitHub Pages. Essays that need stable citation targets are deposited as snapshots to the [[Open Science Framework]] (OSF), which issues a DOI.
 
@@ -106,6 +113,10 @@ The most significant difference is the shift from paper to corpus as the unit of
 
 Living documents with stable references are not in tension when the infrastructure supports both. The commit history provides granular provenance; the DOI provides a fixed citation target. These serve different needs simultaneously in a way that traditional publishing cannot — a journal article is frozen at publication, and updating it requires either a correction notice or a new paper that cites the original.
 
+This maps directly onto the trust mechanisms that traditional publishing developed and that remain worth preserving. Persistent identification is handled by DOIs through OSF. Version control — which journals accomplished through the blunt instrument of discrete published editions — is handled with far greater granularity by Git. Contextual placement, which journals achieve through editorial curation and literature reviews, is partially addressed through metadata and the structure of the corpus itself, though this remains the weakest link. And peer feedback, traditionally managed through closed pre-publication review, is replaced by open, traceable dialogue through issues and pull requests — though as I noted above, the contribution framework that would make this robust does not yet exist.
+
+The shift these mechanisms represent is fundamentally about where trust lives. Traditional publishing asks readers to trust that appropriate assessment happened behind closed doors: the journal's reputation stands as proxy. This workflow invites readers to inspect the developmental process directly — the revision history, the conversations that shaped the work, the decisions about what to include and what to cut. This transparency does not eliminate the need for expertise; if anything, it makes expert contribution more visible and more valuable. But it relocates trust from institutional proxy to visible process.
+
 The `related:` field in each essay's [[YAML]] frontmatter gestures toward something more important than it currently delivers. Declaring that two essays are related is weaker than declaring how they are related — whether one extends the other, contradicts it, applies its argument to a different context, or was superseded by it. The paper-spec project, discussed in a recent LinkedIn thread that prompted this post, formalises exactly this kind of typed citation relationship for empirical research. For argumentative, essay-form scholarship, the equivalent problem is less well addressed, and I have not solved it here. The relationships exist in the prose; making them machine-readable in the metadata is an open problem worth naming.
 
 Plain text with structured metadata is also more useful to AI systems than PDF. This is not the reason I built the workflow this way, but it is a confirmation of the underlying logic. A PDF locks knowledge inside a rendered format; the structural relationships between claims, sections, and documents are lost in the rendering. A markdown corpus with typed metadata preserves those relationships. As AI systems become more deeply integrated into how research is discovered, synthesised, and connected, the difference between knowledge that is architecturally accessible and knowledge that is locked in formatted documents will compound. The organisations and scholars building accessible infrastructure now will have an advantage that is difficult to close later.
@@ -115,6 +126,8 @@ Plain text with structured metadata is also more useful to AI systems than PDF. 
 The aspiration gap is real and worth being explicit about. The corpus can be cloned now, but why would anyone do so? There is no contribution framework, no clear mechanism for proposing additions, no community that has formed around the project. The open source analogy holds at the level of infrastructure but not yet at the level of practice. Building toward a genuinely contributory ecosystem is a longer project than building the publishing workflow, and I am at the beginning of it.
 
 The typed relationship problem remains unsolved. Related essays are declared but the nature of the relationship is not. This matters more as the corpus grows and the intellectual genealogy becomes harder to navigate by reading alone.
+
+There is also an honest labour question. Traditional publishing outsources not only trust but work — the management of peer review, copyediting, formatting, distribution. Bringing these processes under scholarly control does not eliminate that labour; it redistributes it. This workflow only makes sense if you are already writing regularly and want more control over how that writing lives in the world. For someone managing a clinical load alongside teaching and research responsibilities, maintaining a version-controlled public corpus is additional overhead that needs to earn its place. I think the trade-off is worth it, but I would not pretend it is costless.
 
 Institutional recognition has not caught up. This workflow sits alongside traditional journal publication rather than replacing it, because the incentive structures of academic careers — promotion criteria, funding decisions, hiring panels — have not shifted far enough to treat a well-maintained public corpus as equivalent to a list of journal articles. That may change. It has not changed yet.
 

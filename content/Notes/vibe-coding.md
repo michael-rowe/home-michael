@@ -15,7 +15,7 @@ tags:
 category:
   - Technology
 related:
-  - "[[context-engineering]]"
+  - "[[context engineering]]"
   - "[[2026-03-01-working-effectively-with-ai-agents]]"
 keyphrase: vibe coding
 slug: notes/vibe-coding
@@ -62,4 +62,4 @@ The line between disciplined delegation and vibe coding is not always sharp. For
 
 ## Notes
 
-The contrast with [[context-engineering]] is instructive: context engineering is the practice that makes disciplined AI use possible at scale. Vibe coding is what happens in its absence.
+The contrast with [[context engineering]] is instructive: context engineering is the practice that makes disciplined AI use possible at scale. Vibe coding is what happens in its absence.

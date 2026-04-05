@@ -26,7 +26,7 @@ linkedin:
 > [!info] The bottleneck in agent-first work is almost never the model
 > Working with AI agents in a disciplined way requires three things that most people skip: a plan that doesn't get handed off half-formed, documentation built for agents rather than just for yourself, and domain expertise sufficient to evaluate what agents produce. The software world has been working this out for longer than most academic knowledge workers have — and the lessons translate.
 
-In the [[2026-02-26-ai-agents-academic-workflow|previous post]] I described a shift in how I do most of my work: with [[ai-agents|agents]] handling the execution layer, and me operating at the direction layer, where my attentional bandwidth is the binding constraint instead of model capability. I was thinking of this as *agent-first workflows*. What does working effectively with agents actually require, and how does someone build those conditions from where they are now?
+In the [[2026-02-26-ai-agents-academic-workflow|previous post]] I described a shift in how I do most of my work: with [[ai-agents|agents]] handling the execution layer, and me operating at the direction layer, where my attentional bandwidth is the binding constraint instead of model capability. I was thinking of this as *agent-first workflows*, where I think about my own working context from the perspective of AI agents. What does working effectively with agents actually require, and how does someone build those conditions from where they are now?
 
 ---
 

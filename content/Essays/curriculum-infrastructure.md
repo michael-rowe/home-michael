@@ -37,7 +37,7 @@ related:
   - "[[documentation-as-infrastructure]]"
   - "[[context-sovereignty]]"
   - "[[context sovereignty]]"
-  - "[[2026-beyond-document-management]]"
+  - "[[2026-02-10-beyond-document-management]]"
 category:
   - Curriculum
   - AI and technology
