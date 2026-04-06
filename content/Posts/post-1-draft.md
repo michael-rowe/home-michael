@@ -1,15 +1,25 @@
 ---
 title: "Building a personal learning environment with MCP"
+type: post
 description: "Why I built a bespoke AI knowledge infrastructure from scratch, what MCP makes possible that nothing else did, and why the investment is worth it."
-date: 2026-04-03
+meta-description: ""
+keyphrase: ""
+author: "[[Michael Rowe]]"
 tags:
   - mcp
   - personal-knowledge-management
   - context-engineering
   - obsidian
   - zotero
+category: []
+related:
+draft: true
+slug: ""
 series: commonplace
 series_order: 1
+subtype: ""
+enableToc: true
+linkedin:
 ---
 
 There is a version of this problem that sounds trivial: I have too many tabs open. I'm switching between Zotero and Obsidian and a browser window, copying and pasting, re-explaining context to an AI assistant that has no memory of what I told it ten minutes ago. Annoying, but manageable.

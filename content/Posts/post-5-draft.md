@@ -1,15 +1,25 @@
 ---
 title: "What the system actually does"
+type: post
 description: "Closing the infrastructure series: what fourteen tools across three modules enable in practice, the Claude commands that invoke them, and what's still missing."
-date: 2026-04-03
+meta-description: ""
+keyphrase: ""
+author: "[[Michael Rowe]]"
 tags:
   - mcp
   - personal-knowledge-management
   - context-engineering
   - claude-commands
   - context-sovereignty
+category: []
+related:
+draft: true
+slug: ""
 series: commonplace
 series_order: 5
+subtype: ""
+enableToc: true
+linkedin:
 ---
 
 The [first post in this series](link) opened with a problem that isn't really about tools: years of accumulated reading and thinking that had outgrown any system's ability to make it visible. The goal was a learning-support mechanism — something that could surface what had been read and thought, synthesise across it, and connect it to whatever was being worked on now. MCP was the architecture; the posts that followed were about building the foundation.

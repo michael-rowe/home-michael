@@ -1,15 +1,25 @@
 ---
 title: "Getting your Zotero library in shape"
+type: post
 description: "Building the Zotero module for the commonplace MCP server, and what I found when I looked properly at what was actually in my reference library."
-date: 2026-04-03
+meta-description: ""
+keyphrase: ""
+author: "[[Michael Rowe]]"
 tags:
   - mcp
   - zotero
   - personal-knowledge-management
   - vibe-coding
   - claude-code
+category: []
+related:
+draft: true
+slug: ""
 series: commonplace
 series_order: 2
+subtype: ""
+enableToc: true
+linkedin:
 ---
 
 The [previous post](link) made the case for why a personal learning environment built on [MCP](link) is worth building. This one is about building the first part of it: connecting Zotero to [Claude Code](link), and then confronting what I found when I actually looked at what my reference library contained.

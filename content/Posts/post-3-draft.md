@@ -1,15 +1,25 @@
 ---
 title: "Scoring your library for relevance"
+type: post
 description: "How I used Claude Haiku to score 4,460 Zotero items for relevance to my current research territory — and what the results revealed about how a reference library accumulates over time."
-date: 2026-04-03
+meta-description: ""
+keyphrase: ""
+author: "[[Michael Rowe]]"
 tags:
   - mcp
   - zotero
   - personal-knowledge-management
   - context-engineering
   - anthropic-api
+category: []
+related:
+draft: true
+slug: ""
 series: commonplace
 series_order: 3
+subtype: ""
+enableToc: true
+linkedin:
 ---
 
 The metadata enrichment work described in the [previous post](link) fixed a lot. Abstracts appeared where there had been none; automatic tags were restored; dates and journal names were filled in. The library became materially more searchable. But working through that process surfaced a question that should probably have come first: some of these items might not belong in the library at all. Enriching metadata for a paper saved with passing interest five years ago and never returned to is wasted effort. The enrichment work had assumed the library was worth enriching. That assumption needed testing.

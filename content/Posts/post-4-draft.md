@@ -1,15 +1,25 @@
 ---
 title: "Connecting your notes"
+type: post
 description: "Adding the Obsidian vault and Wikipedia modules to the commonplace MCP server — and what became possible when personal notes and reference library could be queried together."
-date: 2026-04-03
+meta-description: ""
+keyphrase: ""
+author: "[[Michael Rowe]]"
 tags:
   - mcp
   - obsidian
   - personal-knowledge-management
   - context-engineering
   - serendipity
+category: []
+related:
+draft: true
+slug: ""
 series: commonplace
 series_order: 4
+subtype: ""
+enableToc: true
+linkedin:
 ---
 
 At this point in the series, the Zotero library is connected, the metadata is substantially improved, and a relevance scoring run has flagged roughly half the library for review. The curation is ongoing — the list exists, the deletions are happening in batches — but the system is already useful before that work is complete. What it can't yet do is reach the other half of a personal knowledge base: the notes.
