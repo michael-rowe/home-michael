@@ -1,5 +1,5 @@
 ---
-title: "An open scholarship workflow: what academic publishing can learn from open source"
+title: "An open scholarly workflow: What academic publishing can learn from open source"
 type: post
 aliases:
   - Open source scholarship
