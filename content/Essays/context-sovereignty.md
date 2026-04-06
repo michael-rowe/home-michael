@@ -19,7 +19,7 @@ version: 0.9
 created: 2025-05-23
 modified: 2026-02-14
 orcid: 0000-0002-1538-6052
-doi: 10.31219/osf.io/8czva_v1
+doi: 10.31219/osf.io/8czva_v2
 tags:
   - context-engineering
   - context-sovereignty
@@ -45,12 +45,12 @@ linkedin:
 > - **Keywords**: artificial intelligence, cognitive extension, cognitive partnership, context engineering, context sovereignty, distributed cognition, educational technology, human-AI collaboration, personal learning
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**:
->       - Open Science Framework (preferred): [10.31219/osf.io/8czva_v1](https://doi.org/10.31219/osf.io/8czva_v1)
+>       - Open Science Framework (preferred): [10.31219/osf.io/8czva_v2](https://doi.org/10.31219/osf.io/8czva_v2)
 >       - Zenodo (legacy): [10.5281/zenodo.15772242](https://doi.org/10.5281/zenodo.15762588)
 
-### Abstract
+## Abstract
 
-The discourse around artificial intelligence in education has become preoccupied with prompting strategies, overlooking more fundamental questions about the nature of context in human-AI collaboration. This paper introduces **context sovereignty** — a framework grounded in the recognition that the most valuable context we bring to any AI interaction is irreducibly personal: our values, intellectual commitments, professional identity, and meaning-making frameworks. While data sovereignty asks who controls personal information, context sovereignty asks who controls the meaning-making environment through which information becomes personally significant. Drawing from learning theory, we argue that context functions as a dynamic field of meaning-making rather than static background information, and that ownership of that context is essential for productive human-AI collaboration. Current approaches to context-setting — primarily prompting and document uploading — treat context as additive rather than foundational, creating episodic burdens that force learners to adapt to AI systems rather than the reverse. Context sovereignty offers an alternative paradigm: a foundational commitment to personal meaning-making, supported by three operational principles — persistent understanding, individual agency, and cognitive extension. The framework addresses concerns about privacy, intellectual challenge, and authentic assessment while enabling new forms of collaborative learning that preserve human agency. By centring personal context, the framework ensures AI systems adapt to human thinking rather than requiring human adaptation to AI constraints, enabling a relationship where AI increases the reach and effectiveness of human reasoning.
+The discourse around artificial intelligence in education has become preoccupied with prompting strategies, overlooking more fundamental questions about the nature of context in human-AI collaboration. This paper introduces **context sovereignty**; a framework grounded in the recognition that the most valuable context we bring to any AI interaction is irreducibly personal: our values, intellectual commitments, professional identity, and meaning-making frameworks. While data sovereignty asks who controls personal information, context sovereignty asks who controls the meaning-making environment through which information becomes personally significant. Drawing from learning theory, we argue that context functions as a dynamic field of meaning-making rather than static background information, and that ownership of that context is essential for productive human-AI collaboration. Current approaches to context-setting — primarily prompting and document uploading — treat context as additive rather than foundational, creating episodic burdens that force learners to adapt to AI systems rather than the reverse. Context sovereignty offers an alternative paradigm: a foundational commitment to personal meaning-making, supported by three operational principles; persistent understanding, individual agency, and cognitive extension. The framework addresses concerns about privacy, intellectual challenge, and authentic assessment while enabling new forms of collaborative learning that preserve human agency. By centring personal context, the framework ensures AI systems adapt to human thinking rather than requiring human adaptation to AI constraints, enabling a relationship where AI increases the reach and effectiveness of human reasoning.
 
 ## Beyond prompting
 

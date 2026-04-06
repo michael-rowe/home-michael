@@ -1,6 +1,7 @@
 ---
 type: essay
 title: A theoretical framework for integrating AI into health professions education
+title-highlight: theoretical framework
 slug: essays/ai-hpe-theoretical-framework
 description: "Health professions education faces a fundamental challenge: graduates are simultaneously overwhelmed with information yet under-prepared for complex practice environments. This essay introduces a theoretically grounded framework for integrating AI into health professions education that shifts focus from assessing outputs to supporting learning processes. Drawing on social constructivism, critical pedagogy, complexity theory, and connectivism, six principles emerge — dialogic knowledge construction, critical consciousness, adaptive expertise, contextual authenticity, metacognitive development, and networked knowledge building — to guide AI integration in ways that prepare professionals for the complexity and uncertainty of contemporary healthcare practice."
 meta-description: A theoretical framework for integrating AI into health professions education by shifting focus from outputs to learning processes.
@@ -11,11 +12,13 @@ affiliation:
 email:
   - mrowe@lincoln.ac.uk
 keyphrase: AI integration health professions education theoretical framework
-version: 1.0
-created: 2025-03-22
+version: 1
+created: 2025-03-29
 modified: 2026-04-05
 orcid: 0000-0002-1538-6052
-doi: 10.31219/osf.io/c764f_v1
+doi: 10.31219/osf.io/c764f_v2
+doclicense: Creative Commons Attribution 4.0 International
+doclicenseurl: https://creativecommons.org/licenses/by/4.0/
 tags:
   - complexity
   - connectivism
@@ -39,18 +42,17 @@ linkedin:
 > - **Keywords**: artificial intelligence, complexity, connectivism, critical pedagogy, health professions education, learning theory, social constructivism
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**:
-> 	- Open Science Framework (preferred): [10.31219/osf.io/c764f_v1](https://doi.org/10.31219/osf.io/c764f_v1)
+> 	- Open Science Framework (preferred): [10.31219/osf.io/c764f_v2](https://doi.org/10.31219/osf.io/c764f_v2)
 > 	- Zenodo (legacy): [10.5281/zenodo.15106214](https://zenodo.org/records/15106214)
 > - **Peer reviewed**: No
+
 ## Abstract
 
-Health professions education has a problem that predates AI but that AI has made impossible to ignore: our educational approaches have tended to prioritise content transmission and artefact production over the conditions under which professional learning actually occurs. Graduates emerge simultaneously overwhelmed with information and underprepared for complex practice. Students are already using AI extensively — their motivations for doing so are inevitably mixed, but the pattern itself suggests that existing educational structures leave needs unmet that these tools address.
-
-This paper develops a theoretically grounded set of design principles for integrating AI into health professions education (HPE). Drawing on social constructivism, critical pedagogy, complexity theory, and connectivism, I conducted a structured conceptual analysis of learning interactions across six dimensions: power dynamics, knowledge representation, agency, contextual influence, identity formation, and temporality. Six convergences emerged — dialogic knowledge construction, critical consciousness, adaptive expertise, contextual authenticity, metacognitive development, and networked knowledge building — each identifying conditions under which learning is effective according to multiple theoretical perspectives. These convergences were translated into design principles grounded in how learning works rather than in current AI capabilities. The principles would support effective education with or without AI. They shift attention from policing outputs to creating the conditions under which students develop the reasoning, judgement, and adaptive capacity that healthcare demands.
+Health professions education has a problem that predates AI but that AI has made impossible to ignore: our educational approaches have tended to prioritise content transmission and artefact production over the conditions under which professional learning actually occurs. Graduates emerge simultaneously overwhelmed with information and underprepared for complex practice. Students are already using AI extensively — their motivations for doing so are inevitably mixed, but the pattern itself suggests that existing educational structures leave needs unmet that these tools address. This paper develops a theoretically grounded set of design principles for integrating AI into health professions education (HPE). Drawing on social constructivism, critical pedagogy, complexity theory, and connectivism, I conducted a structured conceptual analysis of learning interactions across six dimensions: power dynamics, knowledge representation, agency, contextual influence, identity formation, and temporality. Six convergences emerged — dialogic knowledge construction, critical consciousness, adaptive expertise, contextual authenticity, metacognitive development, and networked knowledge building — each identifying conditions under which learning is effective according to multiple theoretical perspectives. These convergences were translated into design principles grounded in how learning works rather than in current AI capabilities. The principles would support effective education with or without AI. They shift attention from policing outputs to creating the conditions under which students develop the reasoning, judgement, and adaptive capacity that healthcare demands.
 
 ## Introduction
 
-Health professions education produces a troubling tension: graduates who are simultaneously overwhelmed with information and underprepared for the complexity of modern practice (Frenk et al., 2010; Irby et al., 2010). Content overload, decontextualised knowledge, and assessment practices that reward recall over reasoning — these are not new problems. They are well-documented features of educational approaches increasingly at odds with what healthcare delivery actually requires (Frenk et al., 2010; Van Der Vleuten, 2016).
+Health professions education produces a troubling tension: graduates who are simultaneously overwhelmed with information and underprepared for the complexity of modern practice (Frenk et al., 2010; Irby et al., 2010). Content overload, decontextualised knowledge, and assessment practices that reward recall over reasoning; these are not new problems. They are well-documented features of educational approaches increasingly at odds with what healthcare delivery actually requires (Frenk et al., 2010; Van Der Vleuten, 2016).
 
 The challenges are entrenched. Students struggle to integrate theoretical knowledge with clinical practice. Educators labour under curricular structures that fragment learning into discrete subjects and skills. Assessment practices measure what is easy to evaluate rather than what is important to learn — treating outputs as proxies for learning rather than observing the processes of learning itself. The gap between how we educate and how professionals actually work continues to widen, despite sustained efforts to bridge it.
 
