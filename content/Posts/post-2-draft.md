@@ -21,12 +21,13 @@ subtype: ""
 enableToc: true
 linkedin:
 ---
+<!--Remember that the series is about the PLE - and the principles of the PLE - which I'm trying to implement locally with my own context.-->
 
-The [previous post](link) made the case for why a personal learning environment built on [MCP](link) is worth building. This one is about building the first part of it: connecting Zotero to [Claude Code](link), and then confronting what I found when I actually looked at what my reference library contained.
+The [previous post](link) made the case for why a personal learning environment built on [MCP](link) and AI CLI agents, is worth building. This one is about building the first part of it: connecting Zotero to [Claude Code](link), and then confronting what I found when I actually looked at what my reference library contained.
 
 ## Why Zotero first
 
-Zotero holds around 10,000 items, though that number is somewhat misleading. Roughly 4,500 of those are journal articles and books — the academic literature proper. The rest are personal notes attached to items, saved web pages, snapshots, grey literature, policy documents, and the various other things that accumulate in a reference manager used seriously over many years across multiple institutions and projects. It's a mixed collection, and it grew without much discipline.
+My Zotero library holds around 10,000 items, though that number is somewhat misleading. Roughly 4,500 of those are journal articles and books — the academic literature proper. The rest are personal notes attached to items, saved web pages, snapshots, grey literature, policy documents, and the various other things that accumulate in a reference manager used over many years across multiple institutions and projects. It's a mixed collection, and it grew without much discipline.
 
 The library has a well-documented API, which made it a practical first module to build. But the more compelling reason was that it's where the most professionally significant material lives. If the system was ever going to do useful work — surfacing relevant papers while writing, connecting literature to current arguments — it needed access to this library. Everything else could come later.
 
@@ -41,6 +42,8 @@ The workflow looks like this: I describe a goal. Claude Code proposes an approac
 This is [vibe coding](link): directing AI to build software by describing intent rather than writing implementation. I want to be clear about this upfront because it shapes everything that follows. I don't know Python in any meaningful sense. I can read the scripts Claude Code produced and follow roughly what they do, but I couldn't have written them, and I wouldn't know how to fix them if something broke. What I can do is describe a problem clearly, evaluate whether a proposed solution makes sense, and decide between options. That turns out to be enough.
 
 The low-stakes nature of this project makes vibe coding appropriate. These are scripts that query a local database and optionally write metadata back to it. They don't handle sensitive data. Nothing irreversible happens without a dry run first. If something breaks, the consequence is a failed script and an unchanged library — and then a conversation with Claude Code about what went wrong. The risk profile is entirely different from production software, and treating it differently is the right call.
+
+<!--I move very abruptly into "What got built: The Python files" but I'm still unclear about what we're building and why. The previous section and the next aren't immediately related.-->
 
 ## What got built: the Python files
 

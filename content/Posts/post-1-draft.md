@@ -22,6 +22,8 @@ enableToc: true
 linkedin:
 ---
 
+<!--add something to start about what this series is; essentially, the start of me building my personal learning environment. I want this post to be focused on the PLE; what it is, how I've tried to implement it in the past (with web 2.0 tech), how I became disillusioned with web 2.0 (e.g. companies sunsetting products you invested time in, the decline of academic twitter, and so on), and my own revived interest with Obsidian and other "digital garden" tools. This post needs to set the scene re. PLEs from a theoretical and conceptual perspective, which gives me the framework for the rest of the series.-->
+
 There is a version of this problem that sounds trivial: I have too many tabs open. I'm switching between Zotero and Obsidian and a browser window, copying and pasting, re-explaining context to an AI assistant that has no memory of what I told it ten minutes ago. Annoying, but manageable.
 
 That's not the problem I was trying to solve.
@@ -34,13 +36,15 @@ This is a problem of surfacing, synthesising, and connecting. Not of switching b
 
 ## Personal learning environments: an old aspiration
 
-The idea that learners should own and assemble their own knowledge infrastructure has been circulating in educational technology since the mid-2000s. Stephen Downes, George Siemens, and others in the [connectivism](link) tradition sketched out a vision of personal learning environments — learner-assembled collections of tools, connected as the learner wanted, owned by the learner rather than the institution. The alternative to the monolithic VLE; the networked, self-directed learner in contrast to the managed student.
+The idea that learners should own and assemble their own knowledge infrastructure has been circulating in educational technology - and in my head - since the mid-2000s. Stephen Downes, George Siemens, and others in the connectivism tradition sketched out a vision of personal learning environments — learner-assembled collections of tools, connected as the learner wanted, owned by the learner rather than the institution. The alternative to the monolithic VLE; the networked, self-directed learner in contrast to the managed student.
 
-The vision was genuinely compelling. What actually existed was web 2.0 infrastructure: RSS readers, social bookmarking tools, wikis, e-portfolios, blog aggregators. Loosely connected, largely browser-based, hosted on other people's servers. It worked. I used it, and it was interesting in ways the institutional VLE never was. But it was never quite what the vision described, because you never owned any of it. The environment lived on other people's servers, subject to other people's decisions about what features to build, what data to keep, and when to shut down.
+The vision was compelling. What actually existed was web 2.0 infrastructure: RSS readers, social bookmarking tools, wikis, e-portfolios, blog aggregators. Loosely connected, largely browser-based, hosted on other people's servers. It worked. I used it, and it was interesting in ways the institutional VLE never was. But it was never quite what the vision described, because you never owned any of it. The environment lived on other people's servers, subject to other people's decisions about what features to build, what data to keep, and when to shut down.
 
-The first glimpse of something structurally different arrived with [Obsidian](https://obsidian.md/). Local files. Your structure. Plain text, no proprietary format, no platform dependency. Everything running on your machine, owned by you in the most literal sense. Obsidian didn't solve the PLE problem, but it moved the fundamental architecture in the right direction: the tools came home.
+The first glimpse of something structurally different (at least, for me) arrived when I discovered [Obsidian](https://obsidian.md/). Local files. Your structure. Plain text, no proprietary format, no platform dependency. Everything running on your machine, owned by you in the most literal sense. Obsidian didn't solve the PLE problem, but it moved the fundamental architecture in the right direction.
 
 What was still missing was a way to bring that local knowledge infrastructure into genuine conversation with an AI assistant — not by copying and pasting fragments into a chat window, but by giving the AI direct access to the sources, with enough structure to navigate them intelligently.
+
+<!--I think that MCP added something valuable, but the real game changer was AI CLI agents that could run locally, with access to local files. I'd toyed around with the idea of building this kind of personal learning support system with MCP but it only because a reality when I had local coding support and AI that could see all my context without me needing to upload everything. What's written below makes the AI assistant into a given / assumption rather than it being the enabling factor.-->
 
 ## What MCP is
 
@@ -48,13 +52,17 @@ What was still missing was a way to bring that local knowledge infrastructure in
 
 The structural property that makes this interesting is that servers don't know about each other. The AI orchestrates. If you have a Zotero server and an Obsidian vault server, neither is aware of the other's existence — Claude connects to both and decides which to call. Adding a new source means writing a new server, or adding a new module to an existing one. Nothing else needs to change.
 
+<!--For most of the time I've been using Obsidian, I've called my note-taking / information gathering vault my "commonplace" vault. It's not just that the name felt right...it's literally how I thought of notes. And it was inspired by the many physical notebooks I kept for years, going back to when I was a teenager.-->
+
 This is what I've called the `commonplace` server — after the [commonplace book](link), the personal knowledge repository that scholars kept for centuries before digital tools existed. The name felt right. A commonplace book was a place to collect, connect, and return to things that mattered — exactly what this system is for.
 
 Two properties of MCP are worth naming because they're not obvious from most writing about it, which comes almost entirely from developers thinking about enterprise workflows.
 
-The first is that MCP is a *container* as much as a protocol. The server doesn't just expose data — it exposes tools and, separately, instruction files (called personas or CLAUDE.md files) that tell the AI *how* to use those tools. A Claude Command that invokes the server can specify which tools are available, in what order to call them, and what kind of reasoning to apply to the results. This is the layer that turns a collection of tools into a working environment.
+The first is that MCP is a *container* as much as a protocol. The server doesn't just expose data — it exposes tools and, separately, instruction files (called personas or CLAUDE.md files) that tell the AI *how* to use those tools. A Claude Command <!--need to explain what this is-->that invokes the server can specify which tools are available, in what order to call them, and what kind of reasoning to apply to the results. This is the layer that turns a collection of tools into a working environment.
 
 The second is model agnosticism. The server doesn't care which AI client is calling it. Right now this runs through [Claude Code](link). It could run through a different model tomorrow, or eventually through a local model running on my own machine. The infrastructure is not tied to any particular AI service. The investment persists regardless of which model is in the loop.
+
+There's also the idea that I want to be in control. I want this to live on my machine so that I can extend it as I come across new ideas. I don't want to be beholden to someone else deciding that a feature needs to be supported; if I want the feature, I can add it.
 
 ## Why build rather than adopt
 
@@ -66,25 +74,27 @@ The other reason for building is incremental tractability. You don't need a fini
 
 ## What the model works for
 
-The properties of this architecture that matter for a personal learning environment:
+The properties of this architecture that matter for a personal learning environment: <!--see my attached notes on personal learning environments and update this post accordingly-->
 
-**Incremental.** One source at a time, each working immediately. The first module took a week of intermittent work. The second took less.
+**Incremental.** One source at a time, each working immediately. The first module<!--in this context, what is a module?--> took a week of intermittent work. The second took less.
 
 **Composable.** Once multiple sources are connected, queries span them. "What have I written about evaluative judgement, and what papers in my Zotero library does that connect to?" is now a single turn in a conversation, drawing on both my vault notes and my reference library simultaneously.
 
-**Persistent.** Configured once, available in every conversation. The AI doesn't need to be re-introduced to the library. The context is always there.
+**Persistent.** Configured once, available in every conversation. The AI doesn't need to be re-introduced to the library. The context is always there.<!--maybe this is a good place to introduce the claude.md file-->
 
-**Model-agnostic.** The server doesn't know or care which client is calling it. This matters more than it might seem — it means the infrastructure built here doesn't become obsolete if I change which AI tool I'm working with.
+**Model-agnostic.** The server doesn't know or care which client is calling it. This matters more than it might seem — it means the infrastructure built here doesn't become obsolete if I change which AI tool I'm working with. It also means I could plausibly replace a frontier commercial model with a local open source one.
 
 **Extensible.** Anything with an API or readable files can become a tool. Browser history, calendar, published writing — any of these could be added as a new module without touching anything that already exists.
 
 ## Context sovereignty
 
+<!--read the attached essay on context sovereignty and update this post accordingly-->
+
 There's a deeper motivation running through all of this that I want to name directly, because it shapes every decision in the posts that follow.
 
-When you work with an AI assistant in the default way — a chat interface, no integrations — the context the assistant has access to is whatever you paste into the conversation, plus its training data. The model knows a great deal in general. It knows nothing specific about your work, your library, your intellectual history, your sense of what matters.
+When you work with an AI assistant in the default way — a chat interface, no integrations — the context the assistant has access to is whatever you paste into the conversation, plus its training data. The model knows a great deal in general. It knows nothing specific about your work, your library, your intellectual history, your sense of what matters.<!--this is only partially true. web-based platforms have added model "memory" (which is saved into your online profile) and platform / service connectors which give the model access to other context about you...but there are concerns around trust, and for me, building myself into a walled garden, which is exactly what the original concept of a personal learning environment was supposed to avoid-->
 
-[Context sovereignty](link) is the idea that you should be in control of what context the AI has access to. You decide which sources are relevant. You decide what constitutes useful background. You set the priorities that shape what "helpful" means for your specific intellectual territory. The AI works within the context you've defined, not within a context optimised for some aggregate of other users.
+[[Context sovereignty]] is the idea that you should be in control of what context the AI has access to. You decide which sources are relevant. You decide what constitutes useful background. You set the priorities that shape what "helpful" means for your specific intellectual territory. The AI works within the context you've defined, not within a context optimised for some aggregate of other users.
 
 This has practical implications that run through everything in this series. The work of building the server, curating the library, writing personal tags, scoring items for relevance — all of it is an act of defining context. Every decision about what to keep or discard, how to tag something, what counts as in-scope for your research territory — these are decisions about what the system should attend to on your behalf. The AI amplifies those decisions. If they're good, the amplification is useful. If the library is full of irrelevant items with no metadata, the amplification is noise.
 
@@ -92,6 +102,6 @@ This has practical implications that run through everything in this series. The 
 
 This post is the conceptual entry point. The posts that follow are technical and specific — building the Zotero connection, auditing and improving library metadata, scoring 4,460 items for relevance, connecting the Obsidian vault, and finally showing what the completed infrastructure actually enables in practice.
 
-A few things to know before continuing. None of the code in these posts was written by hand — all of it was built through [Claude Code](link) by describing what I wanted and directing the process. You don't need a development background to follow along or to build something similar. The total financial cost across all the AI processing described in this series was a few pounds. The time cost was more significant — several weeks of intermittent work, much of it on the library itself rather than the infrastructure.
+A few things to know before continuing. None of the code in these posts was written by hand — all of it was built through [Claude Code](link) by describing what I wanted and directing the process. You don't need a development background to follow along or to build something similar. The total financial cost across all the AI processing described in this series was a few pounds. The time cost was more significant — several weeks of intermittent work, much of it on the library itself rather than the infrastructure.<!--make it clear that the most important work was conceptual...trying to come up with the document infrastructure and relationships i.e. how it was going to work, and what it was meant to do.-->
 
 What you end up with isn't a polished product. It's a bespoke knowledge infrastructure shaped by your specific intellectual territory, which gets more useful the more you invest in it. That's a different kind of thing from a plugin you install — and in my view, a more interesting one.
