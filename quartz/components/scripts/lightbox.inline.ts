@@ -19,12 +19,21 @@ document.addEventListener("nav", () => {
   closeBtn.innerHTML = "&#x2715;"
   document.body.appendChild(closeBtn)
 
-  zoom.on("open", () => closeBtn.classList.add("lightbox-close--visible"))
-  zoom.on("close", () => closeBtn.classList.remove("lightbox-close--visible"))
+  // Watch for medium-zoom's own body class rather than relying on its custom events,
+  // which can fail to fire depending on how the build bundles event listeners.
+  const observer = new MutationObserver(() => {
+    closeBtn.classList.toggle(
+      "lightbox-close--visible",
+      document.body.classList.contains("medium-zoom--opened"),
+    )
+  })
+  observer.observe(document.body, { attributes: true, attributeFilter: ["class"] })
+
   closeBtn.addEventListener("click", () => zoom.close())
 
   window.addCleanup(() => {
     zoom.detach()
+    observer.disconnect()
     closeBtn.remove()
   })
 })
