@@ -163,7 +163,7 @@ But the more interesting case is not when AI is excluded from the tutorial but w
 
 The tutorial process resists substitution through its visibility, sociality, and unfolding in real time. That resistance is what distinguishes AI used within a collective inquiry from AI that substitutes for one. And it raises a further question: if AI absorbs the execution layer, what should the freed cognitive space be used for?
 
-### When execution is cheap, judgement becomes everything
+### When execution is cheap, judgement becomes valuable
 
 The offloading debate focuses on what is lost when difficulty is removed. It rarely asks the more consequential question: what becomes possible when difficulty is redistributed? When execution becomes cheap, direction becomes everything. The scarce capability is no longer the ability to produce, to find information, synthesise sources, generate polished outputs; it is the ability to judge: which problems deserve investigation, what solutions serve the right ends, what knowledge is worth constructing, and whose interests are advanced or neglected by the choices made along the way.
 
