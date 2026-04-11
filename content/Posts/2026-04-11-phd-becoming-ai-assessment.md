@@ -17,7 +17,7 @@ tags:
 category:
   - Education
   - Assessment
-draft: true
+draft: false
 slug: posts/ai-phd-assessment
 enableToc: true
 linkedin:

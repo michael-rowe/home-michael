@@ -1,31 +1,12 @@
 ---
 type: essay
-title: >-
-  Beyond text boxes: Exploring a graph-based user interface for AI-supported
-  learning
+title: "Beyond text boxes: Exploring a graph-based user interface for AI-supported learning"
 slug: essays/graph-user-interface
-description: >-
-  The predominant AI interface paradigm — text boxes and chronological chat
-  histories — reproduces a deeply embedded cognitive metaphor that misaligns
-  with how professional expertise develops. Drawing on Lakoff and Johnson's
-  container schema, this essay traces how a single organising metaphor has been
-  uncritically reproduced across physical, digital, and AI-mediated learning
-  environments, artificially enclosing knowledge that practitioners must
-  mentally reintegrate. Rather than proposing to replace bounded learning
-  spaces, this essay explores graph-based learning environments as an alternative
-  paradigm where bounded spaces become visible communities within a navigable network.
-  AI serves as both conversational partner and network weaver, with
-  conversations spatially anchored to relevant concepts rather than isolated
-  in chronological chat histories. This reconceptualisation — from enclosure
-  to constrained traversal — suggests possibilities for AI-supported learning
-  environments that better develop the integrative capabilities defining
-  professional expertise.
-keyphrase: "graph-based learning environment"
-meta-description: >-
-  How graph-based learning environments could replace chat interfaces as the
-  dominant paradigm for AI-supported professional education.
+description: The predominant AI interface paradigm — text boxes and chronological chat histories — reproduces a deeply embedded cognitive metaphor that misaligns with how professional expertise develops. Drawing on Lakoff and Johnson's container schema, this essay traces how a single organising metaphor has been uncritically reproduced across physical, digital, and AI-mediated learning environments, artificially enclosing knowledge that practitioners must mentally reintegrate. Rather than proposing to replace bounded learning spaces, this essay explores graph-based learning environments as an alternative paradigm where bounded spaces become visible communities within a navigable network. AI serves as both conversational partner and network weaver, with conversations spatially anchored to relevant concepts rather than isolated in chronological chat histories. This reconceptualisation — from enclosure to constrained traversal — suggests possibilities for AI-supported learning environments that better develop the integrative capabilities defining professional expertise.
+keyphrase: graph-based learning environment
+meta-description: How graph-based learning environments could replace chat interfaces as the dominant paradigm for AI-supported professional education.
 author:
-  - '[[Michael Rowe]]'
+  - "[[Michael Rowe]]"
 affiliation:
   - University of Lincoln
 email:
@@ -38,7 +19,6 @@ doi:
 tags:
   - higher-education
   - user-interface
-  - emergent-scholarship
 related:
 category:
   - AI and technology
