@@ -40,6 +40,86 @@ reviewed:
   - SEO_optimiser
 linkedin:
 ---
+> [!note]- Research companion notes (2026-04-12)
+> 
+> ### Essay contribution assessment
+> 
+> **Verdict: genuinely novel for HPE, but structurally a rediscovery of Geoffrey Rose's prevention paradox.** That's not a weakness — it's a citation gap. Rose's *Strategy of Preventive Medicine* (1992) made the same argument: small effects delivered widely outperform large effects delivered narrowly. If you cite Rose and position the essay as translating that framework to educational AI, the vulnerability becomes a strength and you inherit a century of methodological sophistication. If you don't, any reviewer with a public health background will flag it.
+> 
+> **Timeline risk:** 6–12 months before someone else gets here. Several groups are circling ("cognitive paradox," "alignment paradox" papers). The essay should ship.
+> 
+> **Two specific essay fixes (high leverage, low effort):**
+> - Cite Rose prominently in the introduction — single most important change
+> - Add a table with three parameter scenarios (pessimistic / baseline / optimistic) using real HPE RCT numbers to give the formula empirical grounding
+> 
+> ### Nugget candidates
+> 
+> 1. "In educational AI, uptake multiplies accuracy: a 70%-accurate tutor used by everyone beats a 99%-accurate tutor used by the keenest 10% — and the field has been optimising the wrong term." (Strongest — concrete, counter-intuitive, quantifiable, reframes a policy debate.)
+> 2. "Diagnostic AI compresses and concludes; educational AI expands and provokes — holding them to the same accuracy standard is a category error."
+> 3. "The error-correction infrastructure that makes educational error-tolerance safe in human teaching does not transfer automatically to AI tutors, because sycophancy breaks the feedback loop."
+> 
+> **Recommendation:** Lead with 1 in the abstract; use 2 as the diagnostic frame in the introduction; use 3 as the qualifier that prevents the paper being read as techno-optimist.
+> 
+> ### Most vulnerable assumptions in the framework
+> 
+> 1. **Independence of E and U.** Almost certainly wrong. Students likely disengage when they notice errors; accuracy feeds utilisation. The framework treats them as orthogonal, but they are coupled. This is the biggest theoretical weakness and also the most interesting empirical question.
+> 2. **Cost_wrong is bounded and small for non-safety-critical errors.** If epistemic accountability gap effects compound over a programme, Cost_wrong could grow non-linearly with exposure, not stay per-interaction. The formula assumes per-interaction additivity.
+> 3. **Baseline is a fixed reference.** In reality, baseline degrades if the AI tutor displaces higher-quality alternatives (peer study, textbook reading, supervisor contact). The relevant question is not "AI vs nothing" but "AI vs what it displaces."
+> 4. **Benefit_correct is independent of *how* the correct information is delivered.** The productive failure literature (Kapur) suggests that receiving correct information too quickly can reduce learning. A highly accurate, highly fluent tutor may be too helpful.
+> 5. **Utilisation is voluntary.** If institutions mandate use, U → 1, and the entire argument becomes trivially true. The framework works best in voluntary-use regimes — say so explicitly.
+> 
+> ### Cross-field connections
+> 
+> - **Geoffrey Rose's prevention paradox / vaccine efficacy vs effectiveness.** The canonical public health frame. Your framework is the vaccine efficacy/effectiveness distinction (efficacy = accuracy; effectiveness = accuracy × utilisation × adherence). Cite Rose. Inherits decades of methodological sophistication on how to measure population-level benefit.
+> - **Algorithm aversion (Dietvorst, Logg).** Students may disengage from a 99% accurate tutor after one visible error, destroying U. Explains empirically why E and U are not independent — the most important theoretical weakness.
+> - **Calibration literature (Fischhoff, Koriat).** The epistemic accountability gap is really a calibration failure — students can't tell when to trust AI output. Large literature on calibration training available to borrow from.
+> - **Pedagogical therapeutic index (pharmacology).** Define PTI = Benefit_correct / Cost_wrong; the accuracy threshold falls out analytically for each content domain. Turns a qualification into a result.
+> - **Precision-recall trade-off (ML evaluation).** The field has been optimising precision (accuracy) while ignoring recall (coverage/utilisation).
+> - **Productive hallucination.** Are some AI errors pedagogically valuable? Kapur's productive failure literature suggests encountering wrong answers forces retrieval and argumentation. The most provocative version argues the accuracy debate is wrong about the *sign* of some errors.
+> - **Inverse care law (Tudor Hart).** AI tutors may be least used by the students who would benefit most.
+> - **Market for lemons (Akerlof).** Students can't distinguish accurate from inaccurate AI tutors, so high-accuracy providers can't extract premium trust, and voluntary uptake of accuracy-optimised systems may be low.
+> 
+> ### Novel framings
+> 
+> - **"Educational AI is a public health intervention, not a diagnostic tool."** One sentence that does the most work. Forces coverage/equity thinking; makes the contribution unmistakably an HPE one.
+> - **"Effectiveness paradox" or "Rose's paradox for educational AI"** rather than "accessibility paradox" — "accessibility" sounds like a DEI talking point; "effectiveness" lands harder with sceptical reviewers.
+> - **Flip the qualifications into the main claim.** Instead of framing error criticality, epistemic accountability, and engagement quality as caveats, frame the entire essay as: "Three conditions under which the vaccine model transfers, and three under which it breaks." Gives structure; makes the paper less vulnerable to "it depends" criticism.
+> - **Error correction as a cultural technology, not a product feature.** Traditional education's tolerance of error depends on social infrastructure (peer challenge, supervisor correction, ward round failure rituals). AI tutors bypass this. The accuracy debate is a symptom of trying to solve with technology what used to be solved by culture.
+> - **A web calculator** rather than a paper: a tool where a programme director inputs estimated accuracy, uptake, error criticality, and alternative quality, and gets predicted net benefit. Would be cited and used where papers are read and forgotten.
+> 
+> ### Empirical follow-on directions (ordered by solo feasibility)
+> 
+> **Tier 1: feasible as solo projects (12–18 month horizon)**
+> 
+> - **H. Simulation / parameter-sensitivity study.** Take published HPE RCT effect sizes, AI accuracy benchmarks, and uptake surveys. Compute, under plausible parameter ranges, where the crossover between accuracy-first and coverage-first strategies sits. Laptop project, no IRB. Turns the conceptual paper into something with quantitative bite. Should be the first empirical paper.
+> - **D. Error-correction rate study.** Present students with matched errors from (a) textbook, (b) lecturer, (c) AI tutor, within-subjects design. Measure detection and correction rates. Tests the epistemic accountability gap claim directly. Small N, small cost, high impact. *Single most important follow-on if only one study is feasible.*
+> - **E. Sycophancy-dose-response study.** Prompt-engineered tutor variants with varying sycophancy levels; measure misconception persistence. Trivially feasible with current tooling.
+> - **F. Displacement study.** When students use AI tutors, what do they stop doing? Diary/time-use methods, single cohort. Addresses the silent Baseline assumption.
+> 
+> **Tier 2: modest collaboration needed**
+> 
+> - **J. Calibration training as intervention.** 1-hour training on "how to interrogate AI output," measure error-correction pre/post. Directly actionable for programme directors.
+> - **I. Engagement-quality typology.** Qualitative coding of student–AI tutor transcripts, producing a typology and measurement instrument for productive vs superficial use. Fills the operationalisation gap.
+> - **B. Error criticality × domain study.** Expert ratings of Cost_wrong per HPE content domain (pharmacology, anatomy, ethics, communication), crossed with AI error rates. Produces domain-specific accuracy thresholds; publishable as a policy paper.
+> 
+> **Tier 3: ambitious, needs funding/collaboration**
+> 
+> - Longitudinal cohort study of AI tutor use → clinical reasoning at 12 months
+> - Cluster RCT of mandatory high-accuracy AI vs voluntary moderate-accuracy AI at programme level (the definitive test; positions the essay for a 3-year grant)
+> 
+> ### Sceptical reader analysis
+> 
+> **Target reader:** Senior medical education researcher or programme director currently anxious about hallucinations, considering whether to block or pilot AI tutors. Reads Schuwirth. Believes accuracy is the key variable.
+> 
+> **What hooks them:** The specific, quantified claim that a 70%-accurate system used by 70% of students produces more population-level learning than a 99%-accurate system used by 10%. Stated cleanly in the abstract with a concrete worked example.
+> 
+> **What makes them dismiss it:**
+> 1. Maths looks like rhetorical dressing → fix: simplify to vaccine-style identity or derive something new
+> 2. Rose not cited → fix: cite Rose in the introduction
+> 3. Sounds techno-optimist → fix: lead with epistemic accountability gap and sycophancy as real risks, not afterthoughts
+> 4. No worked example with real numbers → fix: add table with three HPE RCT parameter scenarios
+> 5. Recommendations section is vague → fix: give three concrete policy levers (minimum accuracy thresholds by content domain; required calibration training; required instrumentation of displacement)
+
 > [!info] **About this essay**
 > - **Authors**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk); Lambert Schuwirth ([ORCID](https://orcid.org/0000-0002-6279-5158))
 > - **Affiliation**: University of Lincoln; NewMed
