@@ -63,6 +63,10 @@ More theoretical and philosophical talks exploring what AI means for the health 
 
 <div class="section-break"></div>
 
+## Past presentations
+
+A full list of past presentations, with slides and abstracts where available, is on the [[Presentations/index|presentations page]] (I'm updating this as I'm able to).
+
 ## Upcoming talks
 
 <!--
@@ -75,13 +79,6 @@ Brief description of the talk.
 
 [Event link](#) · [Register](#)
 -->
-
-### What is "the work"? Rethinking assessment, learning, and professional formation in an age of generative AI
-**15 April 2026** · Royal College of Nursing Education Conference — Exeter
-
-Keynote for the RCN Education Forum's annual conference, themed "Celebrating innovation and diversity in nursing education." When colleagues say they do not want students using AI to do "the work," what they mean is remarkably consistent: the work is producing an artefact. Generative AI has severed the connection between artefact and the intellectual engagement it was supposed to represent. This keynote argues that the integrity conversation, while understandable, is the least generative response available. The more important question — one that AI has finally made impossible to defer — is what the developmental activities of nurse education actually are: not the outcomes, not the artefacts, but the activities that produce clinical judgement, ethical reasoning, and professional identity.
-
----
 
 ### Beyond the dataset — AI and the future of doctoral research
 **24 April 2026** · Physiotherapy Research Society Annual Conference — Online
@@ -146,7 +143,4 @@ An invited keynote webinar for GRNEN's international network of nursing educator
 
 ---
 
-## Past presentations
-
-A full list of past presentations, with slides and abstracts where available, is on the [[Presentations/index|presentations page]].
 
