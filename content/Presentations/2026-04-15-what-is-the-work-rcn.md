@@ -34,8 +34,6 @@ linkedin:
 
 A keynote asking a simple question: when we say we don't want AI to do "the work", what do we mean by *the work*?
 
-The presentation begins with the observation that current AI systems can pass medical licensing exams at the 90th percentile, produce care plans and reflective portfolios indistinguishable from competent practitioners, and generate the artifacts that nursing education uses as evidence of learning, without any of the cognitive engagement that learning requires.
-
 The argument moves through four stages:
 
 - Why the usual responses (denial, retreat, restriction, resignation) are insufficient

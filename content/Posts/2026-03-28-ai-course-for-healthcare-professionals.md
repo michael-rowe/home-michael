@@ -4,7 +4,7 @@ type: post
 aliases:
   - ten-thousand-learners
   - physiopedia-course-promotion
-description: More than 10,000 healthcare professionals have taken one the courses I've created for Physiopedia Plus. This post focuses on the AI Masterclass for Healthcare Professionals Programme — a practical introduction to AI in clinical practice, education, and research. Physiopedia Plus members get full access, and a 30% discount code is included for new sign-ups.
+description: More than 10,000 healthcare professionals have taken the courses I've created for Physiopedia Plus. This post focuses on the AI Masterclass for Healthcare Professionals Programme — a practical introduction to AI in clinical practice, education, and research. Physiopedia Plus members get full access, and a 30% discount code is included for new sign-ups.
 meta-description: A selection of courses for healthcare professionals, built for clinical contexts. 10,000+ learners, 4.5 stars. Get 30% off Physiopedia Plus with code MICHAEL30.
 keyphrase: AI course for healthcare professionals
 author: "[[Michael Rowe]]"
