@@ -32,11 +32,11 @@ The second question is quieter, and asked mainly by those who have sat with the 
 
 Both questions are real. But they are symptoms of a deeper problem that neither policy revision nor better detection will resolve. Before we can answer what to do, we need to be precise about what we are trying to protect, and that means asking what, exactly, do we mean by "the PhD"?
 
-## Three things called a PhD
+## Four things called a PhD
 
-We use the same word for three distinct things: the degree conferred by the institution, the document submitted as evidence, and the person who emerges from the process. A PhD is awarded, submitted, and hired. The conflation is so embedded in academic culture that we don't even notice it.
+We use the same word for Four distinct things: the degree conferred by the institution, the document submitted as evidence, the process of leaning, and the person who emerges from the process. A PhD is awarded, submitted, and hired. The conflation is so embedded in academic culture that we don't even notice it.
 
-But the degree, the thesis, and the person are distinct, and the relationship between them has always been inferential. The institution awards the degree to the person on the basis of the thesis. But the degree is not certifying that the thesis is good. It is certifying that the *person has become something different*; a researcher with particular capacities for judgement, direction, and original contribution. The thesis was the evidence of the person, not the thing being assessed in its own right.
+But the degree, the thesis, the process, and the person are distinct, and the relationship between them has always been inferential. The institution awards the degree to the person on the basis of the thesis. But the degree is not certifying that the thesis is good. It is certifying that the *person has become something different*; a researcher with particular capacities for judgement, direction, and original contribution. The thesis was the evidence of the person, not the thing being assessed in its own right.
 
 This distinction locates the real object of the PhD, which is an identity shift in the individual doing the work. The person who submits is not the same person who enrolled. They have developed a different relationship with knowledge, with uncertainty, and with their field. They are able to identify the problems worth working on, navigate complexity without collapsing it, and create contributions that are genuinely theirs.
 
