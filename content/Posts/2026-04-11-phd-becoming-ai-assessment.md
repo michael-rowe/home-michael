@@ -34,7 +34,7 @@ Both questions are real. But they are symptoms of a deeper problem that neither 
 
 ## Four things called a PhD
 
-We use the same word for Four distinct things: the degree conferred by the institution, the document submitted as evidence, the process of leaning, and the person who emerges from the process. A PhD is awarded, submitted, and hired. The conflation is so embedded in academic culture that we don't even notice it.
+We use the same word for Four distinct things: the degree conferred by the institution, the document submitted as evidence, the process of learning, and the person who emerges from the process. A PhD is awarded, submitted, and hired. The conflation is so embedded in academic culture that we don't even notice it.
 
 But the degree, the thesis, the process, and the person are distinct, and the relationship between them has always been inferential. The institution awards the degree to the person on the basis of the thesis. But the degree is not certifying that the thesis is good. It is certifying that the *person has become something different*; a researcher with particular capacities for judgement, direction, and original contribution. The thesis was the evidence of the person, not the thing being assessed in its own right.
 
