@@ -67,6 +67,15 @@ More theoretical and philosophical talks exploring what AI means for the health 
 
 A full list of past presentations, with slides and abstracts where available, is on the [[Presentations/index|presentations page]] (I'm updating this as I'm able to).
 
+### Beyond the dataset — AI and the future of research
+**24 April 2026** · Physiotherapy Research Society Annual Conference — Online
+
+Keynote for the 44th PRS Annual Conference, themed "Beyond the Dataset: Engaging People, Powering Change." The thesis is the artefact; the researcher is the product. AI can now execute much of the work through which doctoral researchers have traditionally formed their expertise. The talk explores the different relationships researchers build with AI, asks which struggles are formative and which are merely tedious, and argues that as AI becomes more capable, specifically human contributions — research taste, evaluative judgement, and the capacity to set direction — become more valuable, not less.
+
+[[Presentations/2026-04-24-beyond-the-dataset-prs|Slides and overview →]]
+
+---
+
 ## Upcoming talks
 
 <!--
@@ -80,12 +89,6 @@ Brief description of the talk.
 [Event link](#) · [Register](#)
 -->
 
-### Beyond the dataset — AI and the future of doctoral research
-**24 April 2026** · Physiotherapy Research Society Annual Conference — Online
-
-Keynote for the 44th PRS Annual Conference, themed "Beyond the Dataset: Engaging People, Powering Change." The thesis is the artefact; the researcher is the product. AI can now execute much of the work through which doctoral researchers have traditionally formed their expertise. This keynote explores the different relationships researchers are building with AI — as thinking partner, research assistant, writing collaborator, and project manager — and asks what each relationship implies for what the researcher becomes. Which struggles are formative, and which are just tedious? Who decides?
-
----
 
 ### AI in clinical practice and making sense of this moment
 **13 May 2026** · Manipulative Association of Chartered Physiotherapists — Online
