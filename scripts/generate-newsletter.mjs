@@ -32,6 +32,20 @@ const BASE_URL = 'https://michael-rowe.github.io/home-michael';
 const SINCE_DATE = monthStartDate.toISOString();
 const UNTIL_DATE = monthEndDate.toISOString();
 
+// Content subdirectories — preferred display order first, remainder appended alphabetically
+const PREFERRED_ORDER = ['Essays', 'Presentations', 'Posts', 'Notes'];
+const ALL_CONTENT_DIRS = [
+  'Bibliography',
+  'Courses',
+  'Essays',
+  'Frameworks',
+  'Guides',
+  'Notes',
+  'Policies',
+  'Posts',
+  'Presentations',
+].map(d => `content/${d}`);
+
 // Ensure output directory exists
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -57,105 +71,6 @@ function slugify(text) {
     .replace(/-+$/, '');
 }
 
-/**
- * Gets metadata for new content in a specific directory
- */
-function getNewContent(dir) {
-  if (!fs.existsSync(dir)) return [];
-  
-  function walk(currentDir) {
-    let results = [];
-    const list = fs.readdirSync(currentDir);
-    list.forEach(file => {
-      const filePath = path.join(currentDir, file);
-      const stat = fs.statSync(filePath);
-      if (stat && stat.isDirectory()) {
-        results = results.concat(walk(filePath));
-      } else if (file.endsWith('.md')) {
-        results.push(filePath);
-      }
-    });
-    return results;
-  }
-
-  const files = walk(dir);
-
-  const items = [];
-  for (const file of files) {
-    const meta = getFrontmatter(file);
-    if (meta.date) {
-      const fileDate = new Date(meta.date);
-      if (fileDate >= monthStartDate && fileDate < monthEndDate) {
-        items.push({
-          ...meta,
-          path: file
-        });
-      }
-    }
-  }
-  
-  return items.sort((a, b) => b.date.localeCompare(a.date));
-}
-
-function getSignificantCommits(allNewTitles) {
-  const format = '%s%n%b%n---COMMIT-END---';
-  const rawCommits = run(`git log --since="${SINCE_DATE}" --until="${UNTIL_DATE}" --format="${format}"`);
-
-  if (!rawCommits) return [];
-
-  return rawCommits.split(/---COMMIT-END---\r?\n?/)
-    .map(c => {
-      const lines = c.trim().split(/\r?\n/);
-      let subject = lines[0] || '';
-      let body = lines.slice(1).join('\n').trim();
-      
-      const rawSubject = subject;
-      
-      // Prettify Subject
-      subject = subject.replace(/^(feat|fix|refactor|content|style|chore|docs):\s*/i, '');
-      subject = subject.charAt(0).toUpperCase() + subject.slice(1);
-      
-      // Clean Body
-      body = body.replace(/Co-Authored-By:.*?\n?/gi, '');
-      body = body.replace(/Claude (Opus|Sonnet) \d+\.\d+ <.*?>/gi, '');
-      body = body.trim();
-      
-      return { subject, body, rawSubject };
-    })
-    .filter(c => {
-      if (!c.subject) return false;
-      
-      const sub = c.subject.toLowerCase();
-
-      // 1. DEDUPLICATION: Only filter if it's a simple "Add/New/Publish" of a post we listed.
-      // If it's a "Rename" or "Refactor", we keep it.
-      const isPureAddition = /^(add|new|publish)\s/i.test(c.rawSubject);
-      const isRenameOrRefactor = /rename|refactor|restructure|merge|consolidate/i.test(c.rawSubject);
-      
-      const mentionsNewContent = allNewTitles.some(title => {
-        const cleanTitle = title.toLowerCase().split(':')[0].replace(/[^\w\s]/g, '').trim();
-        return sub.includes(cleanTitle);
-      });
-      
-      if (isPureAddition && mentionsNewContent && !isRenameOrRefactor) return false;
-
-      // 2. BLOCKLIST: Routine noise
-      const isNoise = /^(Update contact|Fix dropdown|SEO|Slug|Cruft|Formatting|Template|broken link|metadata|frontmatter|deployment|github pages|favicon|analytics|giscus|node version|package.json)/i.test(c.subject);
-      if (isNoise) return false;
-
-      // 3. SIGNIFICANCE THRESHOLD
-      return c.body.length > 40; 
-    });
-}
-
-function hasProvenance(filePath) {
-  try {
-    const content = fs.readFileSync(filePath, 'utf8');
-    return />\s*\[!(?:info|tip|warning|note)\]\s+(?:Provenance|provenance)/.test(content);
-  } catch (e) {
-    return false;
-  }
-}
 
 function getFrontmatter(filePath) {
   try {
@@ -182,28 +97,115 @@ function getFrontmatter(filePath) {
       slug: finalSlug,
       filename: path.basename(filePath, '.md'),
       date: dateMatch ? dateMatch[1] : null,
-      isRepurposed: hasProvenance(filePath)
     };
   } catch (e) {
-    return { title: path.basename(filePath, '.md'), description: '', slug: filePath, filename: path.basename(filePath, '.md'), date: null, isRepurposed: false };
+    return { title: path.basename(filePath, '.md'), description: '', slug: filePath, filename: path.basename(filePath, '.md'), date: null };
   }
 }
 
-// 1. Gather Data
-const posts = getNewContent('content/Posts');
-const essays = getNewContent('content/Essays');
-const notes = getNewContent('content/Notes');
+/**
+ * Gets new content from a directory, matched by frontmatter date.
+ */
+function getNewContent(dir) {
+  if (!fs.existsSync(dir)) return [];
 
-const allNewTitles = [...posts, ...essays, ...notes].map(i => i.title);
-const commits = getSignificantCommits(allNewTitles);
+  function walk(currentDir) {
+    let results = [];
+    const list = fs.readdirSync(currentDir);
+    list.forEach(file => {
+      const filePath = path.join(currentDir, file);
+      const stat = fs.statSync(filePath);
+      if (stat && stat.isDirectory()) {
+        results = results.concat(walk(filePath));
+      } else if (file.endsWith('.md')) {
+        results.push(filePath);
+      }
+    });
+    return results;
+  }
 
-// 2. Format Sections
-const formatList = (items) => items.map(i => {
-  const titleFormatted = i.isRepurposed ? `[[${i.filename}|${i.title}]]` : `**[[${i.filename}|${i.title}]]**`;
-  return `- ${titleFormatted} (${i.date})${i.description ? `: ${i.description}` : ''}`;
-}).join('\n');
+  const files = walk(dir);
+  const items = [];
 
-let content = `---
+  for (const file of files) {
+    const meta = getFrontmatter(file);
+    if (meta.date) {
+      const fileDate = new Date(meta.date);
+      if (fileDate >= monthStartDate && fileDate < monthEndDate) {
+        items.push({ ...meta, path: file });
+      }
+    }
+  }
+
+  return items.sort((a, b) => b.date.localeCompare(a.date));
+}
+
+/**
+ * Gets root-level content/*.md files modified during the month via git log,
+ * with the most recent commit subject as a description.
+ */
+function getModifiedRootFiles() {
+  const raw = run(`git log --since="${SINCE_DATE}" --until="${UNTIL_DATE}" --name-only --format="" -- "content/*.md"`);
+  if (!raw) return [];
+
+  const seen = new Set();
+  const items = [];
+
+  for (const line of raw.split('\n')) {
+    const trimmed = line.trim();
+    if (!trimmed.endsWith('.md')) continue;
+    if (!/^content\/[^/]+\.md$/.test(trimmed)) continue;
+    if (seen.has(trimmed)) continue;
+    seen.add(trimmed);
+
+    if (!fs.existsSync(trimmed)) continue;
+    const meta = getFrontmatter(trimmed);
+
+    // Get the most recent commit subject for this file within the month
+    let commitMsg = run(`git log --since="${SINCE_DATE}" --until="${UNTIL_DATE}" -1 --format="%s" -- "${trimmed}"`);
+    // Strip conventional commit prefix and capitalise
+    commitMsg = commitMsg.replace(/^(feat|fix|refactor|content|style|chore|docs):\s*/i, '');
+    commitMsg = commitMsg.charAt(0).toUpperCase() + commitMsg.slice(1);
+
+    items.push({ ...meta, path: trimmed, commitMsg });
+  }
+
+  return items;
+}
+
+// 1. Gather data
+const allDirData = ALL_CONTENT_DIRS.map(dir => ({
+  label: path.basename(dir),
+  items: getNewContent(dir),
+})).filter(d => d.items.length > 0);
+
+// Sort: preferred order first, then remaining dirs alphabetically
+const contentByDir = [
+  ...PREFERRED_ORDER.map(label => allDirData.find(d => d.label === label)).filter(Boolean),
+  ...allDirData.filter(d => !PREFERRED_ORDER.includes(d.label)).sort((a, b) => a.label.localeCompare(b.label)),
+];
+
+const rootFiles = getModifiedRootFiles();
+
+// 2. Format helpers
+const formatItem = (i) =>
+  `- **[[${i.filename}|${i.title}]]** (${i.date})${i.description ? `: ${i.description}` : ''}`;
+
+const formatList = (items) => items.map(formatItem).join('\n');
+
+// 3. Build content sections
+const contentSections = contentByDir.map(d =>
+  `### ${d.label}\n\n${formatList(d.items)}`
+).join('\n\n');
+
+const totalNewItems = contentByDir.reduce((sum, d) => sum + d.items.length, 0);
+
+const minorSection = rootFiles.length > 0
+  ? `## Minor changes\n\n${rootFiles.map(i => `- [[${i.filename}|${i.title}]]: ${i.commitMsg}`).join('\n')}`
+  : '';
+
+// 4. Assemble draft
+let draft = `---
 title: "Newsletter: ${MONTH_NAME} Update"
 description: "A summary of recent site updates and some behind-the-scenes context."
 date: ${DATE_STR}
@@ -211,32 +213,18 @@ type: newsletter
 status: draft
 ---
 
-> [!info] Project Status
-> This site was launched just over two months ago as a home for **/home/michael**. Since then, it has been under aggressive development—not just in terms of the content being published, but in the evolution of the site's architecture and the frameworks that support it. This update captures the significant velocity of the past 30 days.
+## Current reflections
+
+[Placeholder: Add any additional notes, resources you're finding useful, or questions you're asking the audience.]
 
 > [!tip] Subscriber Context
 > [Write 1-2 paragraphs here about the 'Why' behind this month's work.]
 
-## Project updates
+## New content
 
-${essays.length > 0 ? `### Essays\n${formatList(essays)}\n` : ''}
-${posts.length > 0 ? `### Posts\n${formatList(posts)}\n` : ''}
-${notes.length > 0 ? `### Notes\n${formatList(notes)}\n` : ''}
+${totalNewItems === 0 ? '_No new content this month._' : contentSections}
 
-${(essays.length + posts.length + notes.length === 0) ? '_No new content this month._' : ''}
-
-## Behind the Scenes: Site & Infrastructure
-
-${commits.length === 0 ? '_No major structural updates recorded._' : ''}
-
-${commits.map(c => `### ${c.subject}
-
-${c.body}
-`).join('\n')}
-
-## Current Reflections
-
-[Placeholder: Add any additional notes, resources you're finding useful, or questions you're asking the audience.]
+${minorSection}
 
 ---
 
@@ -246,6 +234,12 @@ ${c.body}
 const fileName = `${DATE_STR}-newsletter-draft.md`;
 const outputPath = path.join(OUTPUT_DIR, fileName);
 
-fs.writeFileSync(outputPath, content);
+fs.writeFileSync(outputPath, draft);
 
 console.log(`\nSuccess! Draft generated at: ${outputPath}`);
+if (totalNewItems > 0) {
+  contentByDir.forEach(d => console.log(`  ${d.label}: ${d.items.length} item(s)`));
+}
+if (rootFiles.length > 0) {
+  console.log(`  Minor changes: ${rootFiles.length} root file(s)`);
+}
