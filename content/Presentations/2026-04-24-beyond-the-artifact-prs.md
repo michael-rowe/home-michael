@@ -1,7 +1,7 @@
 ---
 type: presentation
-title: Beyond the dataset — AI and the future of research
-slug: presentations/2026-prs-beyond-the-dataset
+title: "Beyond the artifact: AI and the future of research"
+slug: presentations/2026-prs-beyond-the-artifact
 description: A keynote for the 44th Annual Conference of the Physiotherapy Research Society. Argues that AI is now in contact with every part of the research process, and that the useful question is no longer whether researchers are using AI, but what they are using it for. Uses the PhD as a worked example to explore the difference between the artefact and the person becoming capable through the process, and argues that as AI becomes more capable, specifically human contributions — research taste, evaluative judgement, and the capacity to set direction — become more valuable, not less.
 meta-description: Keynote on AI and the future of research at the PRS Annual Conference 2026. Argues the useful question is not whether you use AI, but what you use it for.
 author:
@@ -49,11 +49,11 @@ The session closes with a diagnostic rather than a rule: when AI accelerates und
 ## Slides
 
 <iframe
-  src="https://michael-rowe.github.io/home-michael/static/presentations/2026-prs-beyond-the-dataset.html"
+  src="https://michael-rowe.github.io/home-michael/static/presentations/2026-prs-beyond-the-artifact.html"
   width="100%"
   height="600px"
   style="border: 1px solid #e5e7eb; border-radius: 8px;"
-  title="Beyond the dataset — AI and the future of research"
+  title="Beyond the artifact — AI and the future of research"
 ></iframe>
 
-*Use arrow keys or click to navigate slides. [Open slides in full screen](https://michael-rowe.github.io/home-michael/static/presentations/2026-prs-beyond-the-dataset.html)*
+*Use arrow keys or click to navigate slides. [Open slides in full screen](https://michael-rowe.github.io/home-michael/static/presentations/2026-prs-beyond-the-artifact.html)*
