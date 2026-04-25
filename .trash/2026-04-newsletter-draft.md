@@ -1,0 +1,39 @@
+---
+title: /home/michael/a new home for my writing
+description: Introducing my new platform for writing on AI in health professions education. It explains what's happened to usr/space and Head Space, what this newsletter will cover going forward, and links to my most recent presentations and posts.
+date: 2026-04
+type: newsletter
+status: draft
+---
+
+> [!tip] Background and context
+> A few things have changed since you last heard from me, and it's worth explaining them briefly.
+>
+> I've stopped using my two previous platforms and have left them as legacy sites for now. **usr/space** was my blog for 15 years, including a broad mix of technology and personal writing that . **Head Space** started as a series of emails on academic productivity that I shared with colleagues, grew into a monthly newsletter, and eventually became a small website and side hustle. It did reasonably well, but covering costs meant promotional work that didn't sit well with me, and after about three years of that I decided it was taking time away from what I actually want to be writing about: AI in health professions education.
+>
+> Which brings me here. **/home/michael** (a play on the Linux filesystem, and an apt name for a new digital home) is where that work now lives. I've merged the mailing lists from both usr/space and Head Space, which means you may not have signed up expecting a newsletter on AI and HPE — usr/space covered technology more broadly, and Head Space was solely academic productivity. This newsletter will be almost exclusively AI and HPE, though there will be some overlap with the productivity side (e.g. [[2026-03-00-structured-notes-academic-productivity|Structured notes for academic productivity]]).
+>
+> I'd encourage you to browse the links below to get a sense of the site and its content. If it's not for you, please unsubscribe; there's a link at the bottom of this email, and I'd rather have a smaller list of people who are genuinely interested than a larger one that I'm cluttering.
+>
+> For those who do stay: /home/michael is more than a blog. I'm experimenting with new forms of academic publishing (e.g. [[2026-04-06-open-scholarship-workflow|An open scholarship workflow]], as well as the [[Essays]] section of the site), building a networked collection of concept notes on AI and education (e.g. [[AI literacy]]), and sharing my own workflows where they might be useful to others (e.g. [[2026-03-05-ai-agents-lecture-slides|Preparing lecture slides with AI agents]]). I post some things to LinkedIn but not everything, so if you want to follow the work, this newsletter is the most reliable way to do that.
+
+## New content
+
+### Presentations
+
+- **[[2026-04-24-beyond-the-artifact-prs|Beyond the artifact: AI and the future of research]]** (2026-04-24): A keynote for the 44th Annual Conference of the Physiotherapy Research Society. Argues that AI is now in contact with every part of the research process, and that the useful question is no longer whether researchers are using AI, but what they are using it for. Uses the PhD as a worked example to explore the difference between the artefact and the person becoming capable through the process, and argues that as AI becomes more capable, specifically human contributions — research taste, evaluative judgement, and the capacity to set direction — become more valuable, not less.
+- **[[2026-04-15-what-is-the-work-rcn|What is the work? Rethinking assessment, learning, and identity]]** (2026-04-15): A keynote for the Royal College of Nursing's Education conference. Examines how generative AI has severed the inferential chain between assessment artifacts and the learning they were meant to evidence, and what nursing education needs to do structurally in response. The argument moves from the current AI landscape, through the premises of nursing formation, to why discursive responses (policies, declarations) cannot address a structural problem.
+
+### Posts
+
+- **[[2026-04-11-phd-becoming-ai-assessment|The PhD is a process of becoming: Reimagining AI and PhD assessment]]** (2026-04-11): AI has disrupted doctoral education in two ways: the immediate question of AI-assisted writing, and the deeper question of what the PhD means when AI can conduct research from scratch. This post argues that the thesis was always a proxy for the person; evidence of an identity shift, not the thing being assessed in its own right.
+- **[[2026-04-06-open-scholarship-workflow|An open scholarship workflow: What academic publishing can learn from open source]]** (2026-04-06): Academic publishing treats scholarship as a finished, individually owned artefact. This post describes a writing and publishing workflow built on a different premise: that a scholarly corpus could work like an open source project — readable, contributable, forkable, and never permanently owned by anyone.
+
+### Notes
+
+- **[[research taste|Research taste]]** (2026-04-12): Research taste is the cultivated capacity to recognise which problems are worth pursuing, which collaborators will amplify your work, and which under-explored areas have genuine leverage — before you can fully prove any of those judgements.
+- **[[YAML|YAML]]** (2026-04-06): YAML is a human-readable format for storing structured data as plain text. In knowledge management and publishing workflows, it appears most commonly as the frontmatter block at the top of markdown files, where it holds metadata — title, author, date, tags — that tools can read without parsing the document itself.
+- **[[distributed version control|Distributed version control]]** (2026-04-06): Distributed version control is an approach to tracking file changes where every contributor holds a complete copy of the repository and its full history, rather than depending on a central server. It enables offline work, parallel development, and resilience against data loss.
+- **[[git|Git]]** (2026-04-06): Git is a distributed version control system that tracks changes to files over time. It records who changed what and when, allows you to move between earlier and later states of a project, and lets multiple people work on the same files without overwriting each other's contributions.
+- **[[research industrial complex|Research industrial complex]]** (2026-04-06): The research industrial complex describes the self-reinforcing system of incentives across universities, funding bodies, journals, and publishers that rewards publication volume and impact metrics over meaningful scientific progress. The term draws on Eisenhower's military-industrial complex to highlight how interconnected institutional interests can sustain a system that actively works against its own stated mission.
+
