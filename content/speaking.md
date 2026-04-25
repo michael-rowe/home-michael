@@ -72,7 +72,7 @@ A full list of past presentations, with slides and abstracts where available, is
 
 Keynote for the 44th PRS Annual Conference, themed "Beyond the Dataset: Engaging People, Powering Change." The thesis is the artefact; the researcher is the product. AI can now execute much of the work through which doctoral researchers have traditionally formed their expertise. The talk explores the different relationships researchers build with AI, asks which struggles are formative and which are merely tedious, and argues that as AI becomes more capable, specifically human contributions — research taste, evaluative judgement, and the capacity to set direction — become more valuable, not less.
 
-[[Presentations/2026-04-24-beyond-the-dataset-prs|Slides and overview →]]
+[[2026-04-24-beyond-the-artifact-prs|Slides and overview →]]
 
 ---
 
