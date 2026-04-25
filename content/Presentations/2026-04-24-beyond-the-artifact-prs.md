@@ -33,16 +33,16 @@ linkedin:
 
 ## Overview
 
-A keynote for the 44th Annual Conference of the Physiotherapy Research Society, themed "Beyond the Dataset: Engaging People, Powering Change."
+A keynote for the [44th Annual Conference](https://prs.csp.org.uk/content/prs-annual-conference-2026) of the [Physiotherapy Research Society](https://prs.csp.org.uk/), themed "Beyond the Dataset: Engaging People, Powering Change."
 
 The argument starts from first principles: research exists to help us better understand the world, and everything else — journals, theses, peer review, assessment systems — is infrastructure. AI is now in contact with every part of that ecosystem: doing research, learning about research, engaging with research, and shaping the platforms around it. The central question is therefore not whether AI is being used, but what it is being used for.
 
 The keynote moves through four stages:
 
-- How AI has broken the inferential chain between research artefacts and the processes they were meant to evidence — "fluency used to be signal; now it is noise"
-- The PhD as a worked example: the thesis is the artefact, the researcher is the product, and AI can now execute much of the work through which researchers have traditionally formed their expertise
-- What disciplined use of AI in research actually requires: planning before handoff, documentation as infrastructure, and protecting evaluative judgement
-- What becomes more valuable as execution becomes cheap: research taste, evaluative judgement, and the capacity to set direction and take responsibility for consequences
+- How AI has broken the inferential chain between research artefacts and the processes they were meant to evidence; "[[2026-03-25-ai-fluency-is-noise|fluency used to be signal]]; now it is noise"
+- The [[2026-04-11-phd-becoming-ai-assessment|PhD as a worked example]]: the thesis is the artefact, the researcher is the product, and AI can now execute much of the work through which researchers have traditionally formed their expertise
+- What disciplined use of AI in research actually requires: planning before handoff, [[documentation-as-infrastructure|documentation as infrastructure]], and protecting evaluative judgement
+- What becomes more valuable as execution becomes cheap: [[research taste]], [[taste-and-judgement|evaluative judgement]], and the capacity to set direction and take responsibility for consequences
 
 The session closes with a diagnostic rather than a rule: when AI accelerates understanding, it serves the purpose; when it accelerates output, it serves the infrastructure.
 
