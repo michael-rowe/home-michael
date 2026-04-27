@@ -94,29 +94,6 @@ ul.toc-content a {
   font-size: 0.82rem;
 }
 
-// Content type badges: distinct colours that don't clash with terracotta accent
-// post and essay previously used --secondary/--tertiary (both terracotta)
-.content-type--post {
-  color: #4a6fa5 !important;
-  background-color: rgba(74, 111, 165, 0.12) !important;
-}
-
-.content-type--essay {
-  color: #2a7a72 !important;
-  background-color: rgba(42, 122, 114, 0.12) !important;
-}
-
-:root[saved-theme="dark"] {
-  .content-type--post {
-    color: #7aa0d4 !important;
-    background-color: rgba(122, 160, 212, 0.15) !important;
-  }
-
-  .content-type--essay {
-    color: #4db8ae !important;
-    background-color: rgba(77, 184, 174, 0.15) !important;
-  }
-}
 
 // Post listings: reduce title weight and increase description size
 .section h3 a {
