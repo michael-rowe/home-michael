@@ -2,50 +2,18 @@
 title: Start here
 ---
 
-Welcome. This site is built on a simple premise: **you can get better at getting better**.
+This site is for health professions educators thinking seriously about what scholarly work looks like when AI changes the tools, the contexts, and the expectations. It's a place to work through that question — through essays, posts, and courses — and to demonstrate a different way of doing open scholarship.
 
-This site is a framework for the entire knowledge creation process — from noticing problems worth solving, to learning what you need to learn, to sharing what you've discovered in ways that create value.
+If you're new, start with one of these:
 
-Whether you're an academic navigating institutional pressures, a researcher trying to stay current, or an independent thinker committed to rigorous work — there's something here for you.
+**New to the site?** Read [[Posts/2026-01-17-thoughtful-AI-use-a-better-game|A better game]] — a short piece on what it means to use AI thoughtfully rather than performatively. Ten minutes.
 
-## Choose your entry point
+**Want the theoretical grounding?** [[Essays/ai-hpe-theoretical-framework|A theoretical framework for integrating AI into health professions education]] sets out six principles for AI integration drawn from social constructivism, critical pedagogy, and complexity theory.
 
-### Got 10 minutes?
+**Interested in assessment?** [[Posts/2026-04-11-phd-becoming-ai-assessment|The PhD is a process of becoming]] argues that AI has broken the inferential chain between submitted work and the development it was meant to evidence — and that discursive responses aren't enough.
 
-Read [[Posts/2025-10-10-a-better-game|A better game]]. It's a short piece that captures the philosophy behind this site — and might change how you think about working with AI.
-
-### Got an hour?
-
-Start with [[Courses/Time management/index|Time management for academics]]. It's the most immediately practical course, and you'll walk away with systems you can use tomorrow.
+**Want to explore?** Browse by [[formats|format]] or [[topics|topic]], or use the graph view to follow connections between ideas.
 
 ---
 
-## Or choose by what you need
-
-**"I'm drowning in email and meetings"**
-→ [[Courses/Email management/index|Email management for academics]]
-→ [[Courses/Time management/index|Time management for academics]]
-
-**"I can't keep up with my field"**
-→ [[Courses/Information management/index|Information management for researchers]]
-→ [[Courses/Note-taking/index|Note-taking systems]]
-
-**"I need to understand AI and what it means for my work"**
-→ [[Courses/AI literacy/index|AI literacy for academic practice]] *(in development)*
-→ [[Essays/learning-alignment|The learning alignment problem]]
-
-**"I want to rethink my entire approach to scholarship"**
-→ [[Essays/publishing-with-purpose|Publishing with purpose]]
-→ [[Essays/taste-and-judgement|Taste and judgement]]
-
----
-
-## Not sure where to start?
-
-[[contact|Get in touch]]. I'm happy to point you in the right direction.
-
----
-
-## How to navigate this site
-
-The **graph view** in the top right section shows how ideas connect across the site. The *local graph* updates depending on what you're currently looking at. Click any node to navigate there, or use the *global view* (small graph icon in the top right) to see the full network. It's a way to discover related ideas you might not find through linear browsing.
+Not sure where to start? [[contact|Get in touch]].

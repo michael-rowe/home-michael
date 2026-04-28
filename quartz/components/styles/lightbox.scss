@@ -1,16 +1,38 @@
+// medium-zoom's own CSS is not auto-imported; these rules are required for
+// transitionend to fire (which medium-zoom uses to reset isAnimating and allow close).
 .medium-zoom-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+  will-change: opacity;
   z-index: 10000;
   background: var(--light) !important;
 }
 
+.medium-zoom--opened .medium-zoom-overlay {
+  cursor: zoom-out;
+  opacity: 1;
+}
+
 .medium-zoom-image {
   cursor: zoom-in;
+  transition: transform 0.3s cubic-bezier(0.2, 0, 0.2, 1) !important;
+}
+
+.medium-zoom-image--hidden {
+  visibility: hidden;
 }
 
 .medium-zoom-image--opened {
+  position: relative;
   z-index: 10001;
-  border-radius: 0 !important;
   cursor: zoom-out;
+  will-change: transform;
+  border-radius: 0 !important;
 }
 
 .lightbox-close {

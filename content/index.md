@@ -23,7 +23,7 @@ I'm an Associate Professor and Director of Teaching and Learning at the Universi
 <div class="featured-card">
 <div class="content-type content-type--post"><i class="ph ph-pencil-simple"></i><span>Post</span></div>
 
-[[posts/ai-phd-assessment|The PhD is a process of becoming: Reimagining AI and PhD assessment]]
+[[Posts/2026-04-11-phd-becoming-ai-assessment|The PhD is a process of becoming: Reimagining AI and PhD assessment]]
 
 The thesis was always a proxy for the person. AI has broken the inferential chain between a submitted document and the development it was meant to evidence.
 
@@ -32,7 +32,7 @@ The thesis was always a proxy for the person. AI has broken the inferential chai
 <div class="featured-card">
 <div class="content-type content-type--essay"><i class="ph ph-file-text"></i><span>Essay</span></div>
 
-[[essays/ai-hpe-theoretical-framework|A theoretical framework for integrating AI into health professions education]]
+[[Essays/ai-hpe-theoretical-framework|A theoretical framework for integrating AI into health professions education]]
 
 Six principles — drawn from social constructivism, critical pedagogy, and complexity theory — for integrating AI in ways that prepare professionals for contemporary practice.
 
@@ -54,7 +54,7 @@ A developmental framework for building AI literacy across six dimensions, from b
 <div class="featured-card">
 <div class="content-type content-type--presentation"><i class="ph ph-presentation"></i><span>Presentation</span></div>
 
-[[presentations/2026-rcn-what-is-the-work|What is the work?]]
+[[Presentations/2026-04-15-what-is-the-work-rcn|What is the work?]]
 
 A keynote for the Royal College of Nursing's Education conference, arguing that AI has structurally broken the proxy linking assessment artefacts to learning — and that discursive responses are not enough.
 
