@@ -50,6 +50,7 @@
     --callout-icon: var(--callout-icon-abstract);
   }
 
+  &[data-callout="note"],
   &[data-callout="info"],
   &[data-callout="todo"] {
     --color: #4a8fa0;
