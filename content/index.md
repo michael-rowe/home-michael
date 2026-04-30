@@ -63,8 +63,6 @@ A keynote for the Royal College of Nursing's Education conference, arguing that 
 <div class="featured-card">
 <div class="content-type content-type--newsletter"><i class="ph ph-envelope"></i><span>Newsletter</span></div>
 
-[[newsletter|/home/michael newsletter]]
-
 A periodic digest of new writing, ideas in progress, and things worth reading — for health professions educators thinking seriously about AI and knowledge work. Coming soon.
 
 </div>
