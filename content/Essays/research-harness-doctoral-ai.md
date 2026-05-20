@@ -33,7 +33,7 @@ linkedin:
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk)
 > - **Affiliation**: University of Lincoln
 > - **Created**: May 18, 2026
-> - **Version**: 0.7 (last updated: May 18, 2026)
+> - **Version**: 0.8 (last updated: May 19, 2026)
 > - **Keywords**: AI agents, context engineering, doctoral research, research harness, supervision
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
