@@ -28,7 +28,7 @@ linkedin:
 >
 > Most current responses to the use of AI in doctoral research try to specify when a student is allowed to use it. That misses where the actual problems are. The patterns we see — drift, offloaded thinking, untraceable contributions — come from working with an AI agent in the absence of an explicit operating context.
 
-PhD students are using AI. Their supervisors mostly don't know how. Policies tell students when they may use AI tools and what to declare at the end. None of this gives a supervisor and student a shared object that captures what AI is doing across a doctoral project as it unfolds.
+PhD students are using AI as part of an uneasy relationship with their supervisors and institutional regulations, and mostly hiding this use. Policies tell students when they may use AI tools and what to declare at the end. None of this gives a supervisor and student a shared object that captures what AI is doing across a doctoral project as it unfolds.
 
 The result is familiar. The work moves faster than the thinking. Contributions become hard to attribute. The project drifts in directions nobody quite remembers choosing. These aren't problems caused by bad students or bad models. They're caused by an absent specification — and software engineers worked out how to handle this kind of problem about three years ago.
 
@@ -72,17 +72,17 @@ The engineering specifics don't transfer to research. But the underlying logic d
 
 A research harness consists of seven components, each adapted from an engineering equivalent.
 
-The *knowledge base* is the material the agent can see — research question, theoretical framework, methodology, literature, ethics approval, permitted data. The principle is taken straight from engineering: if material isn't in the agent's accessible context, it doesn't exist for the agent.
+The *knowledge base* is the material the agent can see: research question, theoretical framework, methodology, literature, ethics approval, permitted data. The principle is taken straight from engineering: if material isn't in the agent's accessible context, it doesn't exist for the agent.
 
 *Interpretive permissions* govern how the agent reasons. Name the tradition you're working in (the agent inherits substantial norms from this). Add the project-specific rules — what counts as a legitimate inference here, what constitutes overreach. Include an instruction the harness can't do without: the agent offers options, not recommendations, and the researcher records why they chose what they chose.
 
-*Tools* names what the agent is capable of doing — searching literature, reading transcripts, interrogating datasets — at the level of capabilities, not specific products.
+*Tools* names what the agent is capable of doing (searching literature, reading transcripts, interrogating datasets) at the level of capabilities, not specific products.
 
-*Authority* says what the agent is permitted to do with those capabilities. Three categories: *autonomous* (reversible, inspectable work the researcher will review afterwards), *supervised* (operations the agent begins but must surface before completing), *reserved* (operations the agent never performs — drafting the discussion section, signing off on key findings).
+*Authority* says what the agent is permitted to do with those capabilities. Three categories: *autonomous* (reversible, inspectable work the researcher will review afterwards), *supervised* (operations the agent begins but must surface before completing), *reserved* (operations the agent never performs: drafting the discussion section, signing off on key findings).
 
 The *scope register* captures off-topic material the agent encounters without acting on it. In research, the off-topic surface is often signal rather than noise — a methodological question raised by a transcript, a different theme glimpsed in passing. The register preserves it for later.
 
-The *process record* is the log of what was asked, what was produced, what was decided, and why. It's the agent's external memory across sessions, and it's the thing that makes contributions traceable. The agent can draft the record under researcher direction — but the rationale for decisions stays with the researcher, not the model.
+The *process record* is the log of what was asked, what was produced, what was decided, and why. It's the agent's external memory across sessions, and it's the thing that makes contributions traceable. The agent can draft the record under researcher direction; the rationale for decisions stays with the researcher, not the model.
 
 The *amendment protocol* distinguishes one-off exceptions from deliberate changes to the harness itself. Exceptions get recorded and addressed at the time. Amendments revise the specification, with reasoning attached.
 
