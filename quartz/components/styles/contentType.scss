@@ -17,8 +17,8 @@
   }
 
   &.content-type--post {
-    color: var(--secondary);
-    background-color: color-mix(in srgb, var(--secondary) 12%, transparent);
+    color: var(--post-color);
+    background-color: color-mix(in srgb, var(--post-color) 12%, transparent);
   }
 
   &.content-type--note {
@@ -27,8 +27,8 @@
   }
 
   &.content-type--essay {
-    color: var(--tertiary);
-    background-color: color-mix(in srgb, var(--tertiary) 12%, transparent);
+    color: var(--essay-color);
+    background-color: color-mix(in srgb, var(--essay-color) 12%, transparent);
   }
 
   &.content-type--course {
@@ -53,17 +53,21 @@
 }
 
 :root {
+  --post-color: #b5446e;
+  --essay-color: #3d7a52;
   --note-color: #2e7d6e;
   --course-color: #5b35a8;
-  --presentation-color: #b45309;
-  --newsletter-color: #6366f1;
-  --guide-color: #4a6fa5;
+  --presentation-color: #9a7020;
+  --newsletter-color: #7c3aad;
+  --guide-color: #1e6ba8;
 }
 
 :root[saved-theme="dark"] {
+  --post-color: #e88aaa;
+  --essay-color: #72c47e;
   --note-color: #4db6a8;
   --course-color: #a78bfa;
-  --presentation-color: #fbbf24;
-  --newsletter-color: #a5b4fc;
+  --presentation-color: #e0c060;
+  --newsletter-color: #c084fc;
   --guide-color: #7bafd4;
 }

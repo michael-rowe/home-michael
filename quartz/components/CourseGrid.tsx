@@ -61,41 +61,25 @@ export default ((opts?: Partial<CourseGridOptions>) => {
         {courses.map((course) => {
           const href = resolveRelative(fileData.slug!, course.slug as FullSlug)
           const statusSlug = course.status?.toLowerCase().replace(/\s+/g, "-")
-          const placeholderColor = course.color || "#6b7280"
+          const accentColor = course.color || "#6b7280"
 
           return (
-            <a href={href} class="course-card">
-              <div
-                class="course-card-image"
-                style={!course.cover ? `background-color: ${placeholderColor}` : ""}
-              >
-                {course.cover ? (
-                  <img
-                    src={resolveRelative(fileData.slug!, course.cover as FullSlug)}
-                    alt={course.title}
-                    loading="lazy"
-                  />
-                ) : (
-                  <i class="ph ph-graduation-cap course-card-placeholder-icon"></i>
-                )}
-                {course.status && (
-                  <span class={`course-status course-status--${statusSlug}`}>
-                    {course.status}
-                  </span>
-                )}
-              </div>
-              <div class="course-card-content">
-                <h3 class="course-card-title">{course.title}</h3>
-                {course.description && (
-                  <p class="course-card-description">{course.description}</p>
-                )}
-                {(course.duration || course.level) && (
-                  <div class="course-card-meta">
-                    {course.duration && <span class="course-meta-item">{course.duration}</span>}
-                    {course.level && <span class="course-meta-item">{course.level}</span>}
-                  </div>
-                )}
-              </div>
+            <a href={href} class="course-card" style={`--card-accent: ${accentColor}`}>
+              {course.status && (
+                <span class={`course-status course-status--${statusSlug}`}>
+                  {course.status}
+                </span>
+              )}
+              <h3 class="course-card-title">{course.title}</h3>
+              {course.description && (
+                <p class="course-card-description">{course.description}</p>
+              )}
+              {(course.duration || course.level) && (
+                <div class="course-card-meta">
+                  {course.duration && <span class="course-meta-item">{course.duration}</span>}
+                  {course.level && <span class="course-meta-item">{course.level}</span>}
+                </div>
+              )}
             </a>
           )
         })}
@@ -114,79 +98,51 @@ export default ((opts?: Partial<CourseGridOptions>) => {
 .course-card {
   display: flex;
   flex-direction: column;
-  background-color: var(--light);
-  border: 1px solid var(--lightgray);
+  gap: 0.5rem;
+  padding: 1rem 1.25rem;
+  background-color: color-mix(in srgb, var(--card-accent, var(--lightgray)) 10%, var(--light));
+  border: 1px solid color-mix(in srgb, var(--card-accent, var(--lightgray)) 25%, transparent);
   border-radius: 8px;
-  overflow: hidden;
   text-decoration: none !important;
   color: inherit;
   transition: border-color 0.15s ease;
 }
 
 .course-card:hover {
-  border-color: var(--secondary);
-}
-
-.course-card-image {
-  position: relative;
-  width: 100%;
-  height: 160px;
-  overflow: hidden;
-  background-color: var(--lightgray);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.course-card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.course-card-placeholder-icon {
-  font-size: 2.5rem;
-  color: rgba(255, 255, 255, 0.8);
+  border-color: color-mix(in srgb, var(--card-accent, var(--secondary)) 60%, transparent);
 }
 
 .course-status {
-  position: absolute;
-  top: 0.75rem;
-  right: 0.75rem;
-  padding: 0.25rem 0.6rem;
-  border-radius: 4px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 0.2em 0.6em;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
 }
 
 .course-status--published {
-  background-color: #d4edda;
-  color: #155724;
+  background-color: color-mix(in srgb, #2e7d52 12%, transparent);
+  color: #2e7d52;
 }
 
 .course-status--in-development {
-  background-color: #fff3cd;
-  color: #856404;
+  background-color: color-mix(in srgb, #9a7020 12%, transparent);
+  color: #9a7020;
 }
 
 .course-status--coming-soon {
-  background-color: #d1ecf1;
-  color: #0c5460;
-}
-
-.course-card-content {
-  padding: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  flex-grow: 1;
+  background-color: color-mix(in srgb, #1e6ba8 12%, transparent);
+  color: #1e6ba8;
 }
 
 .course-card-title {
   margin: 0;
-  font-size: 1.1rem;
-  font-weight: 700;
+  font-size: 1.05rem;
+  font-weight: 600;
   color: var(--dark);
   line-height: 1.3;
 }
@@ -197,18 +153,15 @@ export default ((opts?: Partial<CourseGridOptions>) => {
   color: var(--darkgray);
   line-height: 1.5;
   flex-grow: 1;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .course-card-meta {
   display: flex;
   gap: 0.5rem;
   padding-top: 0.5rem;
-  border-top: 1px solid var(--lightgray);
+  border-top: 1px solid color-mix(in srgb, var(--card-accent, var(--lightgray)) 20%, transparent);
   flex-wrap: wrap;
+  margin-top: auto;
 }
 
 .course-meta-item {
