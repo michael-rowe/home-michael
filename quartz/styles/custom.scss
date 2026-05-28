@@ -449,6 +449,41 @@ body[data-slug="index"] .recent-notes {
   border: 1px solid var(--lightgray);
   border-radius: 8px;
 
+  &:has(.content-type--post) {
+    background-color: color-mix(in srgb, var(--secondary) 8%, var(--light));
+    border-color: color-mix(in srgb, var(--secondary) 25%, transparent);
+  }
+
+  &:has(.content-type--essay) {
+    background-color: color-mix(in srgb, var(--tertiary) 8%, var(--light));
+    border-color: color-mix(in srgb, var(--tertiary) 25%, transparent);
+  }
+
+  &:has(.content-type--note) {
+    background-color: color-mix(in srgb, var(--note-color) 8%, var(--light));
+    border-color: color-mix(in srgb, var(--note-color) 25%, transparent);
+  }
+
+  &:has(.content-type--course) {
+    background-color: color-mix(in srgb, var(--course-color) 8%, var(--light));
+    border-color: color-mix(in srgb, var(--course-color) 25%, transparent);
+  }
+
+  &:has(.content-type--presentation) {
+    background-color: color-mix(in srgb, var(--presentation-color) 8%, var(--light));
+    border-color: color-mix(in srgb, var(--presentation-color) 25%, transparent);
+  }
+
+  &:has(.content-type--newsletter) {
+    background-color: color-mix(in srgb, var(--newsletter-color) 8%, var(--light));
+    border-color: color-mix(in srgb, var(--newsletter-color) 25%, transparent);
+  }
+
+  &:has(.content-type--guide) {
+    background-color: color-mix(in srgb, var(--guide-color) 8%, var(--light));
+    border-color: color-mix(in srgb, var(--guide-color) 25%, transparent);
+  }
+
   // Title: the paragraph immediately after the type badge
   .content-type + p {
     margin: 0.4rem 0 0.4rem;

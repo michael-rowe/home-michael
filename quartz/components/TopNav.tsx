@@ -24,6 +24,7 @@ const defaultOptions: TopNavOptions = {
       dropdown: [
         { text: "Courses", slug: "Courses/index" },
         { text: "Essays", slug: "Essays/index" },
+        { text: "Guides", slug: "Guides/index" },
         { text: "Posts", slug: "Posts/index" },
         { text: "Notes", slug: "Notes/index" },
         { text: "Presentations", slug: "Presentations/index" },

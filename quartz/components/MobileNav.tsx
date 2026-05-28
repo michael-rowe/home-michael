@@ -22,6 +22,7 @@ const defaultOptions: MobileNavOptions = {
   browseLinks: [
     { text: "Posts", slug: "Posts/index" },
     { text: "Essays", slug: "Essays/index" },
+    { text: "Guides", slug: "Guides/index" },
     { text: "Notes", slug: "Notes/index" },
     { text: "Courses", slug: "Courses/index" },
     { text: "Presentations", slug: "Presentations/index" },
