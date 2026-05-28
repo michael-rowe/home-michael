@@ -45,6 +45,11 @@
     color: var(--newsletter-color);
     background-color: color-mix(in srgb, var(--newsletter-color) 12%, transparent);
   }
+
+  &.content-type--guide {
+    color: var(--guide-color);
+    background-color: color-mix(in srgb, var(--guide-color) 12%, transparent);
+  }
 }
 
 :root {
@@ -52,6 +57,7 @@
   --course-color: #5b35a8;
   --presentation-color: #b45309;
   --newsletter-color: #6366f1;
+  --guide-color: #4a6fa5;
 }
 
 :root[saved-theme="dark"] {
@@ -59,4 +65,5 @@
   --course-color: #a78bfa;
   --presentation-color: #fbbf24;
   --newsletter-color: #a5b4fc;
+  --guide-color: #7bafd4;
 }

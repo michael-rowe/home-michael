@@ -52,6 +52,15 @@ A developmental framework for building AI literacy across six dimensions, from b
 <div class="featured-cards">
 
 <div class="featured-card">
+<div class="content-type content-type--guide"><i class="ph ph-book-open"></i><span>Guide</span></div>
+
+[[Guides/research-harness-guide|The research harness: a one-page guide for doctoral researchers]]
+
+A single-page reference card for doctoral researchers and supervisors — the seven components of a research harness, what each does, and how to start building one. Downloadable PDF.
+
+</div>
+
+<div class="featured-card">
 <div class="content-type content-type--presentation"><i class="ph ph-presentation"></i><span>Presentation</span></div>
 
 [[Presentations/2026-04-15-what-is-the-work-rcn|What is the work?]]

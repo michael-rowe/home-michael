@@ -27,19 +27,22 @@ tags:
   - context-engineering
   - doctoral-research
 related:
+  - "[[The research harness: a one-page guide for doctoral researchers]]"
 category:
   - Education
   - Scholarship
 draft: false
 reviewed:
 linkedin:
+doi: 10.35542/osf.io/mwhgz_v1
 ---
 > [!info] **About this essay**
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052); mrowe@lincoln.ac.uk)
 > - **Affiliation**: University of Lincoln
 > - **Created**: May 18, 2026
-> - **Version**: 0.8 (last updated: May 19, 2026)
+> - **Version**: 0.9 (last updated: May 20, 2026)
 > - **Keywords**: AI agents, context engineering, doctoral research, research harness, supervision
+> - **DOI**: https://doi.org/10.35542/osf.io/mwhgz_v1
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
 ## Abstract
