@@ -10,8 +10,7 @@
 
 import fs from 'fs';
 import path from 'path';
-
-const BASE_URL = 'https://michael-rowe.github.io/home-michael';
+import { contentUrl, BASE_URL } from './newsletter-lib.mjs';
 
 const CONTENT_DIRS = [
   'content/Bibliography',
@@ -36,9 +35,10 @@ if (!fs.existsSync(inputPath)) {
   process.exit(1);
 }
 
-// Build a lookup map: filename stem (lowercase) → absolute URL
-// URLs are derived from the file path (preserving directory capitalisation),
-// which is how Quartz generates page URLs — not from the slug: frontmatter field.
+// Build a lookup map: filename stem (lowercase) → absolute URL.
+// URLs come from contentUrl() in newsletter-lib.mjs, which honours the `slug:`
+// frontmatter field when present and otherwise replicates Quartz's path-based
+// slugify — the same logic the generator uses, so the two scripts agree.
 function buildLinkMap() {
   const map = new Map();
 
@@ -50,12 +50,8 @@ function buildLinkMap() {
         walk(full);
       } else if (entry.name.endsWith('.md')) {
         const stem = path.basename(entry.name, '.md');
-        // Strip leading 'content/' and '.md', replace spaces with hyphens
-        const urlPath = full
-          .replace(/^content\//, '')
-          .replace(/\.md$/, '')
-          .replace(/ /g, '-');
-        const url = `${BASE_URL}/${urlPath}`;
+        const content = fs.readFileSync(full, 'utf8');
+        const url = contentUrl(full, content);
         map.set(stem.toLowerCase(), { url, stem });
       }
     }
@@ -82,6 +78,13 @@ function resolveWikilinks(content, map) {
   const result = content.replace(wikilinkRe, (match, target, pipeSection) => {
     const displayText = pipeSection ? pipeSection.slice(1).trim() : target.trim();
     const key = target.trim().toLowerCase();
+
+    // A bare [[index]] is the site home page. Stems collide (every folder has an
+    // index.md), so resolve it explicitly to the site root rather than the map.
+    if (key === 'index') {
+      return `[${displayText}](${BASE_URL}/)`;
+    }
+
     const entry = map.get(key) || map.get(slugify(key));
 
     if (entry) {

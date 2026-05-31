@@ -1,6 +1,7 @@
 import { execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
+import { contentUrlPath } from './newsletter-lib.mjs';
 
 // Parse command-line arguments for month and year
 const args = process.argv.slice(2);
@@ -28,7 +29,6 @@ const monthEndDate = new Date(targetYear, targetMonth, 1);
 const OUTPUT_DIR = 'content/Newsletters';
 const DATE_STR = `${targetYear}-${String(targetMonth).padStart(2, '0')}`;
 const MONTH_NAME = monthStartDate.toLocaleString('en-GB', { month: 'long', year: 'numeric' });
-const BASE_URL = 'https://michael-rowe.github.io/home-michael';
 const SINCE_DATE = monthStartDate.toISOString();
 const UNTIL_DATE = monthEndDate.toISOString();
 
@@ -61,40 +61,17 @@ function run(cmd) {
   }
 }
 
-function slugify(text) {
-  return text.toString().toLowerCase()
-    .trim()
-    .replace(/\s+/g, '-')
-    .replace(/[^\w\-]+/g, '')
-    .replace(/\-\-+/g, '-')
-    .replace(/^-+/, '')
-    .replace(/-+$/, '');
-}
-
-
 function getFrontmatter(filePath) {
   try {
     const content = fs.readFileSync(filePath, 'utf8');
     const titleMatch = content.match(/^title:\s*["']?(.*?)["']?\s*$/m);
     const descMatch = content.match(/^description:\s*["']?(.*?)["']?\s*$/m);
-    const slugMatch = content.match(/^slug:\s*["']?(.*?)["']?\s*$/m);
     const dateMatch = content.match(/^date:\s*["']?(.*?)["']?\s*$/m) || content.match(/^created:\s*["']?(.*?)["']?\s*$/m);
-
-    let finalSlug = '';
-    if (slugMatch && slugMatch[1]) {
-      finalSlug = slugMatch[1];
-    } else {
-      const relativePath = filePath.replace('content/', '').replace('.md', '');
-      const parts = relativePath.split('/');
-      finalSlug = parts.map(p => slugify(p)).join('/');
-    }
-
-    if (finalSlug.startsWith('/')) finalSlug = finalSlug.substring(1);
 
     return {
       title: titleMatch ? titleMatch[1] : path.basename(filePath, '.md'),
       description: descMatch ? descMatch[1] : '',
-      slug: finalSlug,
+      slug: contentUrlPath(filePath, content),
       filename: path.basename(filePath, '.md'),
       date: dateMatch ? dateMatch[1] : null,
     };

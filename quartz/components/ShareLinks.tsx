@@ -110,18 +110,24 @@ export default ((opts?: Partial<ShareLinksOptions>) => {
   }
 
   ShareLinks.css = style
+  // Bind on every SPA navigation, not just initial load — afterDOMLoaded runs
+  // once, so post-navigation copy buttons would otherwise have no handler.
   ShareLinks.afterDOMLoaded = `
-    document.querySelectorAll('.share-button[data-url]').forEach(button => {
-      button.addEventListener('click', async (e) => {
-        e.preventDefault()
-        const url = button.getAttribute('data-url')
-        try {
-          await navigator.clipboard.writeText(url)
-          button.classList.add('copied')
-          setTimeout(() => button.classList.remove('copied'), 2000)
-        } catch (err) {
-          console.error('Failed to copy:', err)
+    document.addEventListener('nav', () => {
+      document.querySelectorAll('.share-button[data-url]').forEach(button => {
+        const handler = async (e) => {
+          e.preventDefault()
+          const url = button.getAttribute('data-url')
+          try {
+            await navigator.clipboard.writeText(url)
+            button.classList.add('copied')
+            setTimeout(() => button.classList.remove('copied'), 2000)
+          } catch (err) {
+            console.error('Failed to copy:', err)
+          }
         }
+        button.addEventListener('click', handler)
+        window.addCleanup(() => button.removeEventListener('click', handler))
       })
     })
   `
