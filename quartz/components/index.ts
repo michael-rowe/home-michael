@@ -38,6 +38,7 @@ import NotesByType from "./NotesByType"
 import AILiteracyNav from "./AILiteracyNav"
 import RecentlyAddedNav from "./RecentlyAddedNav"
 import RecentlyAddedList from "./RecentlyAddedList"
+import NewsletterNav from "./NewsletterNav"
 import ShareLinks from "./ShareLinks"
 import ContentType from "./ContentType"
 import RelatedContent from "./RelatedContent"
@@ -84,6 +85,7 @@ export {
   AILiteracyNav,
   RecentlyAddedNav,
   RecentlyAddedList,
+  NewsletterNav,
   CourseLessonList,
   ShareLinks,
   ContentType,

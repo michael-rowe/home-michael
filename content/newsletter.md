@@ -12,7 +12,7 @@ Stay connected with my latest thinking on AI in health professions education, op
 - **Course updates** and new resources
 - **Reflections** on scholarly practice and knowledge work
 
-Published monthly (or when there's something worth sharing).
+Published monthly (or when there's something worth sharing). You can also [[Newsletters|read past issues]].
 
 *If the form doesn't appear below (some Firefox-based browsers don't load the script), you can [subscribe directly here](https://michael-rowe.kit.com/bdaa9a9cdf).*
 
