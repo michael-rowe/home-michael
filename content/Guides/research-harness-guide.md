@@ -20,6 +20,7 @@ category:
   - Scholarship
 related:
   - "[[The research harness: a framework for bounded AI use in doctoral work]]"
+  - "[[Research harness]]"
 pdf: research-harness-guide.pdf
 draft: false
 linkedin:

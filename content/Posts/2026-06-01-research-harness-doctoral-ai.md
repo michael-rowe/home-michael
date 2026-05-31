@@ -5,8 +5,8 @@ description: "PhD students are using AI across their doctoral work, but current 
 meta-description: How the engineering concept of an AI agent harness translates to doctoral research — a framework for bounded AI use in PhD inquiry.
 keyphrase: AI in doctoral research
 author: "[[Michael Rowe]]"
-date: 2026-05-22
-updated: 2026-05-22
+date: 2026-06-01
+updated: 2026-06-01
 tags:
   - academic-practice
   - research-methods
@@ -18,6 +18,9 @@ category:
   - Education
   - Scholarship
 related:
+  - "[[Research harness]]"
+  - "[[research-harness-guide]]"
+  - "[[research-harness-doctoral-ai]]"
 draft: false
 slug: research-harness-doctoral-ai
 enableToc: true
@@ -28,7 +31,7 @@ linkedin:
 >
 > Most current responses to the use of AI in doctoral research try to specify when a student is allowed to use it. That misses where the actual problems are. The patterns we see — drift, offloaded thinking, untraceable contributions — come from working with an AI agent in the absence of an explicit operating context.
 
-PhD students are using AI as part of an uneasy relationship with their supervisors and institutional regulations, and mostly hiding this use. Policies tell students when they may use AI tools and what to declare at the end. None of this gives a supervisor and student a shared object that captures what AI is doing across a doctoral project as it unfolds.
+PhD students are using AI throughout their doctoral work, mostly hiding it, in an uneasy relationship with their supervisors and institutional regulations. Policies tell students when they may use AI tools and what to declare at the end. None of this gives a supervisor and student a shared object that captures what AI is doing across a doctoral project as it unfolds.
 
 The result is familiar. The work moves faster than the thinking. Contributions become hard to attribute. The project drifts in directions nobody quite remembers choosing. These aren't problems caused by bad students or bad models. They're caused by an absent specification — and software engineers worked out how to handle this kind of problem about three years ago.
 
@@ -62,15 +65,15 @@ These aren't failures of the model or the student. They're what happens when a c
 
 ## What engineers worked out
 
-Software engineers ran into structurally the same problem when their models became capable enough to write substantial code without continuous human direction. An agent given a vague brief produced confident output that didn't cohere with the system. An agent given the same brief twice produced inconsistent results. An agent asked to validate its own work tended toward optimism. An agent left running for hours ended up far from where the developer asked it to go.
+Software engineers ran into structurally the same problem when their models became capable enough to write substantial code without continuous human direction. An agent given a vague brief produced confident output that didn't cohere with the system. An agent given the same brief twice produced inconsistent results. An agent asked to validate its own work tended towards optimism. An agent left running for hours ended up far from where the developer asked it to go.
 
-What engineers developed in response was a specification of the operating context within which the agent works. They called it the agent's *harness*. The harness specifies what the agent should attend to, what material it can see, what actions it can take, what it must escalate, and how its work is recorded. It holds the agent in place conceptually — making behaviour predictable enough to be useful and constrained enough to be safe.
+What engineers developed in response was a specification of the operating context within which the agent works. They called it the agent's [[harness-engineering|harness]]. The harness specifies what the agent should attend to, what material it can see, what actions it can take, what it must escalate, and how its work is recorded. It holds the agent in place conceptually — making behaviour predictable enough to be useful and constrained enough to be safe.
 
 The engineering specifics don't transfer to research. But the underlying logic does: when capable agents work without a specified operating context, predictable problems emerge, and the response is to specify the context.
 
 ## The research harness, in seven parts
 
-A research harness consists of seven components, each adapted from an engineering equivalent.
+A [[research harness]] consists of seven components, each adapted from an engineering equivalent.
 
 The *knowledge base* is the material the agent can see: research question, theoretical framework, methodology, literature, ethics approval, permitted data. The principle is taken straight from engineering: if material isn't in the agent's accessible context, it doesn't exist for the agent.
 
@@ -90,13 +93,13 @@ The *amendment protocol* distinguishes one-off exceptions from deliberate change
 
 The most common objection to this is workload. Specifying all of this sounds like enormous administrative overhead for an already overburdened doctoral process.
 
-It needn't be. The harness is something to think with, not a regulatory document. The first iteration can be a sentence under each component, capturing what the researcher can honestly commit to at this stage of the work. The structure provides the prompts; the content matures as the work encounters cases the initial version didn't anticipate. Each extension is itself a small piece of supervised doctoral work.
+It needn't be. The harness is something to think with, not a regulatory document. The first iteration can be a sentence under each component, capturing what the researcher can honestly commit to at this stage of the work. The *authority* component might begin as a single line — *the agent may search and summarise without asking, must flag any drafted analysis before I build on it, and never writes the discussion section* — and grow from there. The structure provides the prompts; the content matures as the work encounters cases the initial version didn't anticipate. Each extension is itself a small piece of supervised doctoral work.
 
 Much of the routine work — process record entries, amendment drafts, exception flags — can be delegated back to the agent under researcher direction. The agent drafts the surface form; the researcher supplies the rationale. The administrative tax goes down; the deliberative friction that makes the record useful stays in place.
 
 The harness itself is a folder of plain markdown files sitting alongside the project's other materials. Anyone who can edit a Word document can maintain one.
 
-## What changes
+## What changes for AI in doctoral research
 
 For supervisors, the harness changes what AI conversations can be about. Instead of "should you be using AI for this?" — a question without a structural answer — the conversation becomes about specific claims: what the interpretive permissions say, what falls into the reserved category, why a particular amendment was made. Familiar work, in an unfamiliar register.
 
