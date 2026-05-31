@@ -39,6 +39,7 @@ import AILiteracyNav from "./AILiteracyNav"
 import ShareLinks from "./ShareLinks"
 import ContentType from "./ContentType"
 import RelatedContent from "./RelatedContent"
+import { CourseLessonList } from "./CourseLessonList"
 
 export {
   ArticleTitle,
