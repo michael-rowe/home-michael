@@ -70,11 +70,11 @@ A keynote for the Royal College of Nursing's Education conference, arguing that 
 </div>
 
 <div class="featured-card">
-<div class="content-type content-type--newsletter"><i class="ph ph-envelope"></i><span>Newsletter</span></div>
+<div class="content-type content-type--note"><i class="ph ph-notebook"></i><span>Concept note</span></div>
 
-[[newsletter|Register for the newsletter]]
+[[Notes/vibe-coding|Vibe coding]]
 
-A periodic digest of new writing, ideas in progress, and things worth reading — for health professions educators thinking seriously about AI and knowledge work. Coming soon.
+Using AI tools without keeping genuine accountability for what they produce — accepting outputs without the scrutiny or judgement needed to evaluate them. The note draws Simon Willison's distinction between vibe coding and vibe engineering: the same tools, but the latter stays accountable for every output.
 
 </div>
 

@@ -11,6 +11,7 @@ content/templates/
 content/personas/
 content/Courses/course-style-guide.md
 content/Courses/demo.md
-content/Newsletters/
+content/Newsletters/*-newsletter-draft.md
+content/Newsletters/*-newsletter-kit.md
 .replit
 replit.nix

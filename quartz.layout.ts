@@ -74,6 +74,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.AILiteracyNav(),
     Component.RecentlyAddedNav(),
+    Component.NewsletterNav(),
   ],
   right: [
     Component.Graph({
@@ -150,6 +151,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.ContextualNav(),
     Component.AILiteracyNav(),
     Component.RecentlyAddedNav(),
+    Component.NewsletterNav(),
   ],
   right: [
     Component.Graph({

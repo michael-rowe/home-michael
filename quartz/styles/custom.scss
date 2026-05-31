@@ -245,6 +245,17 @@ body[data-slug="index"] .recent-notes {
   }
 }
 
+// Item titles in the History / Past issues nav panels — match the homepage Recent panel
+.recent-notes .section > .desc > h3 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+
+  a {
+    font-weight: 500;
+  }
+}
+
 // Entry card colour variables (light mode)
 :root {
   --entry-learn: #F8DE7E;
