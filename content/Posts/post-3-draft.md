@@ -15,14 +15,12 @@ category: []
 related:
 draft: true
 slug: ""
-series: commonplace
-series_order: 3
 subtype: ""
 enableToc: true
 linkedin:
 ---
 
-The metadata enrichment work described in the [previous post](link) fixed a lot. Abstracts appeared where there had been none; automatic tags were restored; dates and journal names were filled in. The library became materially more searchable. But working through that process surfaced a question that should probably have come first: some of these items might not belong in the library at all. Enriching metadata for a paper saved with passing interest five years ago and never returned to is wasted effort. The enrichment work had assumed the library was worth enriching. That assumption needed testing.
+Auditing and enriching the library's metadata, described in [a separate post](link), fixed a lot. Abstracts appeared where there had been none; automatic tags were restored; dates and journal names were filled in. The library became materially more searchable. But working through that process surfaced a question that should probably have come first: some of these items might not belong in the library at all. Enriching metadata for a paper saved with passing interest five years ago and never returned to is wasted effort. The enrichment work had assumed the library was worth enriching. That assumption needed testing.
 
 The practical question is harder than it sounds: how do you review 4,460 items in any reasonable way? Manual review at thirty seconds per item runs to over thirty hours. The answer is batch processing with AI — but batch processing with AI is not the same thing as working interactively with Claude Code, and understanding the difference shapes everything about how this kind of work gets done.
 
@@ -30,7 +28,7 @@ The practical question is harder than it sounds: how do you review 4,460 items i
 
 Working with AI on a large knowledge base involves three distinct modes, each suited to different kinds of tasks. Getting the choice right is a matter of matching the tool to the nature of the problem.
 
-**Tier 1** is pure scripting with no AI involvement: Python scripts that page through items, compare fields against expected values, call free external APIs, and write results back. No tokens, no additional cost. The library health work in the [previous post](link) was mostly Tier 1. It's the right approach for mechanical operations where the logic is clear and the decisions don't require judgement.
+**Tier 1** is pure scripting with no AI involvement: Python scripts that page through items, compare fields against expected values, call free external APIs, and write results back. No tokens, no additional cost. The library-health work — the metadata audit and enrichment — was mostly Tier 1. It's the right approach for mechanical operations where the logic is clear and the decisions don't require judgement.
 
 **Tier 2** is batch processing via the [Anthropic API](link) — the developer service that is separate from a Claude subscription and charges per token used. A script calls the API directly, sending each item with a carefully constructed prompt and collecting structured responses. The key properties: you control exactly what goes into each prompt; you choose the most appropriate model for the task; the script runs in batches that can be left unattended, checked on, and continued. Automated enough to be practical at scale, without requiring approval for every individual decision.
 
@@ -74,7 +72,7 @@ The second is that the profile deliberately ignores engagement signals — tags,
 
 The profile wasn't derived from self-description but from reading the root notes and literature notes in my Obsidian vault — what I've actually been writing about, rather than what I imagined I was working on. Notes reveal intellectual territory more honestly than intentions do.
 
-[*Image: Claude Code screenshot showing the interest profile and cost estimate before the scoring run.*]
+![[relevance-interest-profile.png|Claude Code's pre-flight summary before the scoring run — the interest profile baked into every call, the run parameters, and the cost estimate (≈£1.40 for roughly 4,460 items)]]
 
 ## Running the script
 
@@ -131,6 +129,6 @@ Curation is the same kind of intellectual act as deciding what to read next, or 
 
 The practical consequence of an undiscriminating library is diluted results. When the MCP searches and returns items, the quality of those results depends on what's in the pool. A library with 54% out-of-scope content produces noisier results than one without it — not because the search is broken, but because it's working as intended on material that doesn't warrant the effort.
 
-Curation improves signal-to-noise at the data level, before any retrieval tool is involved. The metadata enrichment work from the previous post becomes more valuable applied to a focused collection. The library that remains — the score 3–5 items — is the one worth investing in: adding manual tags, writing personal notes, connecting items to vault notes and ongoing arguments.
+Curation improves signal-to-noise at the data level, before any retrieval tool is involved. The metadata enrichment work becomes more valuable applied to a focused collection. The library that remains — the score 3–5 items — is the one worth investing in: adding manual tags, writing personal notes, connecting items to vault notes and ongoing arguments.
 
 With a cleaner, more focused library in place, the question shifts to what else the system can connect to. The Zotero library holds the literature. The thinking done with that literature lives somewhere else entirely.

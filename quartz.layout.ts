@@ -73,6 +73,7 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.AILiteracyNav(),
+    Component.RecentlyAddedNav(),
   ],
   right: [
     Component.Graph({

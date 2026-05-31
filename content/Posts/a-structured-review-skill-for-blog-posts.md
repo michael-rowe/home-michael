@@ -1,8 +1,8 @@
 ---
 title: "A structured review skill for blog posts"
 type: post
-description: "Most writing tools help you produce content. This one helps you evaluate it. The blog-post-reviewer is a Claude Code skill that applies a seven-point structural framework to any blog post draft — checking macro-structure, narrative velocity, signal-to-noise ratio, and more — and returns a prioritised list of changes, not a rewrite."
-meta-description: "A Claude Code skill that reviews blog post drafts against a seven-point structural framework and returns a prioritised list of changes."
+description: "Most writing tools help you produce content. This one helps you evaluate it. The blog-post-reviewer is a Claude Code skill that applies an eight-point structural framework to any blog post draft — checking macro-structure, narrative velocity, signal-to-noise ratio, and more — and returns a prioritised list of changes, not a rewrite."
+meta-description: "A Claude Code skill that reviews blog post drafts against an eight-point structural framework and returns a prioritised list of changes."
 keyphrase: "blog post review Claude Code skill"
 author: "[[Michael Rowe]]"
 date: 2026-04-28
@@ -28,7 +28,7 @@ Writing a post is one problem. Knowing whether it works is a different problem e
 
 Most of us conflate them. We finish a draft, read it back, and ask: "does this seem right?" That question is too vague to be useful, and we're too close to the material to answer it honestly. We know what we meant to say, which makes it easy to read what isn't there. The structural problems — a buried lead, a transition that skips a logical step, a conclusion that summarises instead of resolves — are invisible to the person who wrote the piece precisely because they already know the argument.
 
-A structured review changes the question. Instead of "does this seem right?", it asks eight specific questions in order: Is the architecture matched to the content type? Does the opening create a curiosity gap? Has everything redundant been cut? Are transitions balanced across logical move types? Does the post pass the Layer Cake scan test? Are ideas repeated across sections? Does the conclusion resolve or repeat? Does the reader have a clear foothold?
+A structured review changes the question. Instead of "does this seem right?", it asks a fixed sequence of specific questions — from whether the architecture fits the content type, through to whether the reader is left with a clear foothold — and answers each one against the same framework every time.
 
 That's what the blog-post-reviewer skill does.
 
@@ -62,35 +62,55 @@ The skill evaluates each draft against eight criteria, in order:
 
 **Audience utility**: Would the intended reader find this useful — something to learn from, think with, or apply? If the post is mostly the author processing their own experience with no foothold for the reader, the skill flags it and suggests how to open it outward.
 
-The output is an overall assessment followed by findings on each criterion, ending with a prioritised list of the three to five most important changes in order of impact.
+The eight points above are the structural pass — the dimension this post focuses on, because structure is where most drafts actually fail. But structure is only one of four reviews the skill runs in parallel. A style reviewer checks analytical positioning and sentence-level craft; a copy editor checks dialect, grammar, and publication readiness; an SEO reviewer checks keyphrase strategy and metadata. Their findings are synthesised into a single prioritised list, so you get one ordered set of changes to work through rather than four overlapping reports.
+
+The full output is a single report: an overall verdict, a section of findings from each of the four passes, and a consolidated list of the five to seven highest-impact changes, ordered by priority. Where two passes flag the same issue, it is merged into one action rather than repeated.
+
+![[blog-reviewer-example-output.png|Running /blog-reviewer on a deliberately weak draft: the four specialist agents complete in parallel, then the skill returns one consolidated review — an overall verdict followed by per-pass findings and prioritised actions.|500]]
 
 ## How it was built
 
 The framework draws on cognitive load theory, Joseph Sugarman's Slippery Slide principle — the idea that every sentence's only job is to compel the reader into the next — and the craft practices of writers like Paul Graham and Tim Urban. These principles have been distilled into a checklist that can be applied consistently across different types of post, from short field notes to longer argued pieces.
 
-The skill is implemented as a Claude Code skill: a plain markdown file that defines the framework, the criteria, and the output structure, and that Claude Code reads and applies when invoked. The underlying framework is visible and editable — if you disagree with any of the criteria, you can change them.
+The skill is implemented as a Claude Code *skill*: a plain markdown file (`SKILL.md`) that defines the framework, the criteria, and the output structure. It is worth being precise about what that means, because Claude Code distinguishes two things that look similar. A **skill** is a capability Claude reaches for on its own when a task matches its description; a **slash command** is one you trigger deliberately by typing `/name`. The same markdown file can serve as either. This tool is distributed as a skill, but you invoke it on demand — as `/blog-reviewer` — because review is something you want when you ask for it, not something that should fire automatically while you draft. The underlying framework is visible and editable: if you disagree with any of the criteria, you can change them.
 
 > [!prompt] Prompt
 > /blog-reviewer path/to/your-draft.md
 
 That's the entire invocation. The skill reads your draft, applies the framework, and returns structured feedback.
 
+## Why this is worth an academic's time
+
+For academics, blogging is some of the highest-leverage writing available. It builds career capital, reaches readers that journals never will, and turns work you are already doing into a public output. A good lecture, a well-designed assignment, a useful reply to a postgraduate's email: each is a blog post that already exists in draft. The same project can yield a workshop, a concept note, a podcast, and a post without starting from scratch each time.
+
+The barrier is rarely the writing. It is the judgement — *is this good enough to put my name to?* That question stalls more academic blogs than lack of time does, because the instinct is to hold every post to the standard of a journal article and then abandon it when it falls short. A consistent review pass settles the question quickly: it tells you what is structurally weak and what is fine, so "good enough to publish" becomes a checklist rather than a crisis of confidence. Lowering the cost of that decision is how a blog becomes a sustainable byproduct of your work rather than another thing you feel guilty about not doing.
+
 ## Installing and using the skill
 
-The skill is available as a Claude Code plugin:
+There are two ways to install it. The manual route gives you the short `/blog-reviewer` command; the plugin route wires everything up for you but namespaces the command. To install manually, clone the repository and copy the skill and its agents into your Claude Code config:
 
 ```bash
-claude plugin marketplace add https://github.com/michael-rowe/blog-post-reviewer
-claude plugin install blog-post-reviewer@michael-rowe-blog-post-reviewer
+gh repo clone michael-rowe/blog-post-reviewer ~/.claude/plugins/blog-post-reviewer
+mkdir -p ~/.claude/commands ~/.claude/agents
+cp ~/.claude/plugins/blog-post-reviewer/skills/blog-reviewer/SKILL.md ~/.claude/commands/blog-reviewer.md
+cp ~/.claude/plugins/blog-post-reviewer/agents/*.md ~/.claude/agents/
 ```
 
-Once installed, invoke it with the path to your draft:
+Copying the skill file into your commands directory is what creates the `/blog-reviewer` command; the second copy installs the four reviewer agents it depends on. Start a new Claude Code session afterwards so it picks them up. Then drop the config file into any project where you want personalised reviews:
+
+```bash
+cp ~/.claude/plugins/blog-post-reviewer/config.md ./config.md
+```
+
+Invoke it with the path to your draft:
 
 ```bash
 /blog-reviewer content/Posts/your-draft.md
 ```
 
-A `config.md` file is included for personalisation. You can specify your audience (the skill checks whether content serves them), your dialect (British or American English), serial comma preference, your publishing platform, and any voice or register preferences. Leave any field blank to use the defaults.
+Alternatively, install it as a plugin — `claude plugin marketplace add michael-rowe/blog-post-reviewer`, then `claude plugin install blog-post-reviewer@michael-rowe-blog-post-reviewer`. That registers the skill and its agents automatically, with no copying. Claude Code namespaces plugin commands, so you then invoke it as `/blog-post-reviewer:blog-reviewer`.
+
+The `config.md` file is for personalisation. You can specify your audience (the skill checks whether content serves them), your dialect (British or American English), serial comma preference, your publishing platform, and any voice or register preferences. Leave any field blank to use the defaults.
 
 ## A note on opinions
 
