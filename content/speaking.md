@@ -91,7 +91,7 @@ Brief description of the talk.
 
 
 ### AI in clinical practice and making sense of this moment
-**13 May 2026** · Manipulative Association of Chartered Physiotherapists — Online
+**13 May 2026** · Musculoskeletal Association of Chartered Physiotherapists — Online
 
 An invited lecture for MACP members merging practical AI integration with a philosophical sense-making framework. How do AI tools support clinical decision-making, documentation, and patient communication? And what does this moment actually mean for the health professions — for expertise, judgement, and human contribution when machines can generate fluent text and pass clinical assessments?
 

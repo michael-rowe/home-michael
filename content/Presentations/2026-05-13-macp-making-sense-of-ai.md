@@ -2,13 +2,13 @@
 type: presentation
 title: "Making sense of AI in clinical practice"
 slug: presentations/2026-macp-making-sense-of-ai
-description: "An invited webinar for the Manipulative Association of Chartered Physiotherapists. Explores what AI means for physiotherapy practice across the full information ecosystem of clinical work — from AI-assisted diagnosis and documentation to patient agency and the therapeutic relationship. The central concept is context sovereignty: AI systems work from professional context, and controlling that context is both the distinctive human contribution and the most practical skill for the AI age. The session covers the evidence for AI performance in clinical contexts, strategies for maintaining professional agency, how to actively support patients in using AI well, and how the therapeutic relationship is changing as practitioners and patients develop persistent AI agents."
+description: "An invited webinar for the Musculoskeletal Association of Chartered Physiotherapists. Explores what AI means for physiotherapy practice across the full information ecosystem of clinical work — from AI-assisted diagnosis and documentation to patient agency and the therapeutic relationship. The central concept is context sovereignty: AI systems work from professional context, and controlling that context is both the distinctive human contribution and the most practical skill for the AI age. The session covers the evidence for AI performance in clinical contexts, strategies for maintaining professional agency, how to actively support patients in using AI well, and how the therapeutic relationship is changing as practitioners and patients develop persistent AI agents."
 meta-description: Invited MACP webinar on AI in physiotherapy practice. Covers clinical AI evidence, context sovereignty, patient agency, and the changing therapeutic relationship.
 author:
   - "[[Michael Rowe]]"
 date: 2026-05-13
 event: MACP Member Webinar
-host: Manipulative Association of Chartered Physiotherapists
+host: Musculoskeletal Association of Chartered Physiotherapists
 location: Online
 presentation_type: invited
 credential: ""
@@ -27,13 +27,13 @@ draft: false
 linkedin:
 ---
 
-**MACP Member Webinar** · Manipulative Association of Chartered Physiotherapists · 13 May 2026
+**MACP Member Webinar** · Musculoskeletal Association of Chartered Physiotherapists · 13 May 2026
 
 *Invited presentation*
 
 ## Overview
 
-An invited webinar for members of the [Manipulative Association of Chartered Physiotherapists](https://macpweb.org/) merging two connected questions: what AI can currently do in clinical contexts, and how practitioners can engage with it deliberately rather than reactively.
+An invited webinar for members of the [Musculoskeletal Association of Chartered Physiotherapists](https://macpweb.org/) merging two connected questions: what AI can currently do in clinical contexts, and how practitioners can engage with it deliberately rather than reactively.
 
 The session opens with current evidence on AI performance in clinical practice — including diagnosis, documentation, and patient communication — and addresses the instinctive "sanctuary strategies" that position practitioners as spectators rather than participants. The argument then shifts to the key practical concept: context sovereignty. Because AI systems are stateless, static, and contextless by design, the professional knowledge practitioners bring — their specialisation, patient populations, CPD trajectory, and clinical reasoning patterns — is not just valuable but structurally essential for getting useful AI outputs.
 

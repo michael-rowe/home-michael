@@ -15,15 +15,12 @@ category: []
 related:
 draft: true
 slug: ""
-series: commonplace
-series_order: 2
 subtype: ""
 enableToc: true
 linkedin:
 ---
-<!--Remember that the series is about the PLE - and the principles of the PLE - which I'm trying to implement locally with my own context.-->
 
-The [previous post](link) made the case for why a personal learning environment built on [MCP](link) and AI CLI agents, is worth building. This one is about building the first part of it: connecting Zotero to [Claude Code](link), and then confronting what I found when I actually looked at what my reference library contained.
+This post is about building the first part of a personal learning environment on [MCP](link) and AI CLI agents: connecting Zotero to [Claude Code](link), and then confronting what I found when I actually looked at what my reference library contained.
 
 ## Why Zotero first
 
@@ -35,7 +32,7 @@ The problem was that a lot of what was in the library was, in practice, invisibl
 
 ## How this was actually built
 
-Nothing in this post, or in any post in this series, involved writing code by hand. All of it was built by describing what I wanted to [Claude Code](link), directing the process as it went, and reviewing what it produced.
+None of this involved writing code by hand. All of it was built by describing what I wanted to [Claude Code](link), directing the process as it went, and reviewing what it produced.
 
 The workflow looks like this: I describe a goal. Claude Code proposes an approach — sometimes presenting a few options, explaining the trade-offs between them. I choose a direction. It builds. I run the result against real data, and problems surface — because problems always surface when you run anything against real data. Claude Code diagnoses each problem, explains what's happening, and proposes a fix. I approve. We continue.
 
@@ -43,7 +40,7 @@ This is [vibe coding](link): directing AI to build software by describing intent
 
 The low-stakes nature of this project makes vibe coding appropriate. These are scripts that query a local database and optionally write metadata back to it. They don't handle sensitive data. Nothing irreversible happens without a dry run first. If something breaks, the consequence is a failed script and an unchanged library — and then a conversation with Claude Code about what went wrong. The risk profile is entirely different from production software, and treating it differently is the right call.
 
-<!--I move very abruptly into "What got built: The Python files" but I'm still unclear about what we're building and why. The previous section and the next aren't immediately related.-->
+That's the *how*. Before the *what*, it's worth being clear about why there are two quite different kinds of thing to build here. The first is **access**: the MCP server that lets Claude reach into the Zotero library at all. The second is **quality**: a set of scripts to repair the library so that reaching into it returns something worth having. Access without quality just surfaces noise faster — which is why most of this post is about the second. Here's what each looked like.
 
 ## What got built: the Python files
 
@@ -51,11 +48,11 @@ Claude Code produced two categories of artefact.
 
 The first is the MCP server itself — a Python program that runs persistently in the background when Claude Code is open, listening for requests and responding with data. When I ask Claude to search my Zotero library, it calls a tool exposed by this server; the server queries Zotero and returns results; Claude reads those results and responds. I don't interact with the server directly. It's infrastructure.
 
-The second category is scripts: standalone Python programs that do a specific job and report what they did. A Python script is a set of instructions that runs automatically — it reads files, calls APIs, makes decisions, and writes results back. You don't need to read it or understand it to use it. You run it, read the output, and decide what to do next. Two scripts are relevant to this post: `library_health.py`, which audits and enriches library metadata, and `relevance_score.py`, which scores items for relevance to a defined research territory. The latter is covered in the next post.
+The second category is scripts: standalone Python programs that do a specific job and report what they did. A Python script is a set of instructions that runs automatically — it reads files, calls APIs, makes decisions, and writes results back. You don't need to read it or understand it to use it. You run it, read the output, and decide what to do next. Two scripts are relevant to this post: `library_health.py`, which audits and enriches library metadata, and `relevance_score.py`, which scores items for relevance to a defined research territory. The latter is covered in [a separate post](link).
 
-## The six Zotero tools
+## The first six Zotero tools
 
-The MCP server exposes six tools to Claude Code. All six are read-only — they can see everything in the library, but none of them can modify it. Write operations are a deliberate later step, implemented separately so there's no risk of accidental changes.
+At this first stage, the MCP server exposed six Zotero tools to Claude Code. All six were read-only — they could see everything in the library, but none of them could modify it. Write operations were a deliberate later step, implemented separately so there was no risk of accidental changes.
 
 `search_zotero` is the main entry point: keyword search across title, abstract, authors, notes, and tags. It accepts filters — by item type, by tag, or restricted to title and author fields only when you want to cut down on noise from abstract matches.
 
@@ -99,7 +96,11 @@ The numbers that came back: 636 items missing abstracts where the DOI was presen
 
 That last number is the most significant. More than half the library had never been personally curated in any meaningful sense. From a retrieval perspective, those items don't really exist.
 
-[*Images: before and after screenshots of a Zotero item, showing the empty abstract field and then the populated one, alongside the ACM source page the abstract was retrieved from.*]
+![[zotero-abstract-missing.png|The "Local-first software" item in Zotero with an empty abstract field — findable only by a word in its title]]
+
+![[zotero-abstract-restored.png|The same item after enrichment, with the abstract retrieved automatically and written back]]
+
+![[zotero-abstract-source-acm.png|The ACM publisher page the abstract was pulled from, via the item's DOI]]
 
 ## Two kinds of tags
 
@@ -111,7 +112,7 @@ Over the years, I'd deleted most of the automatic tags from my library, under th
 
 The scripts needed to distinguish between the two types because the goal was specific: restore the automatic tags that had been deleted, without touching the manual tags that had been carefully accumulated. The automatic tags represent what a publisher said a paper is about. The manual tags represent what it means to me. They're complementary, not competing, and Zotero's search covers both — so there's no benefit to duplicating one as the other.
 
-[*Images: before and after screenshots showing the missing tags and then the restored automatic tags.*]
+![[zotero-restore-keywords-script.png|Claude Code's description of the keyword-restore script — distinguishing manual tags from the automatic ones to be restored, with dry-run and apply modes]]
 
 ## Fixing what's fixable
 
@@ -123,15 +124,19 @@ Several bugs appeared during the apply runs. Crossref occasionally returns stub 
 
 A system crash mid-run during the keyword restore pass provided an unplanned test of the checkpoint mechanism: several hundred items had been processed before the session was lost. The script picked up from the last completed batch when restarted, losing only the work in progress at the moment of the crash.
 
-[*Images: the first --apply run showing 433 fixed and 40 failures; the field-mapping bug screenshot; the full_run screenshot showing the final totals.*]
+![[zotero-apply-run-433.png|The first --apply run: 433 items fixed, 40 failures, with the 412 Precondition Required and 400 Bad Request errors surfacing]]
+
+![[zotero-apply-run-bad-request.png|Working through the remaining 400 Bad Request failures — 446 items updated across the first two runs]]
+
+![[zotero-apply-run-totals.png|The final run: a grand total of 469 items updated with abstracts and/or year and journal metadata]]
 
 ## What the library looks like after
 
 Across all runs: 469 items updated with abstracts and/or year and journal metadata, sourced from Crossref and OpenAlex and written back to Zotero through the web API. Approximately 1,431 items with automatic tags restored. The library is materially better for retrieval — more items findable by keyword, more with the abstracts that search depends on.
 
-What didn't change: the 2,032 items with no abstract and no DOI. These are mostly grey literature — blog posts, policy documents, institutional reports, things saved by URL rather than imported via DOI. There's no identifier to look up. For items you'd genuinely want to cite, the answer is a minute of manual effort to add a proper abstract. For items you saved speculatively and may not need, the answer is in the next post.
+What didn't change: the 2,032 items with no abstract and no DOI. These are mostly grey literature — blog posts, policy documents, institutional reports, things saved by URL rather than imported via DOI. There's no identifier to look up. For items you'd genuinely want to cite, the answer is a minute of manual effort to add a proper abstract. For items you saved speculatively and may not need, the answer is to score the library for relevance — covered in [a separate post](link).
 
-[*Image: the final keyword restore results table.*]
+![[zotero-keyword-restore-results.png|The keyword-restore results: a clean run with zero failures — 219 abstracts, 12 year/journal fields, and 1,151 automatic-tag sets found in Crossref and OpenAlex]]
 
 ## The lesson
 
