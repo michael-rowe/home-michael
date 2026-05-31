@@ -87,6 +87,10 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   afterBody: [
     Component.ConditionalRender({
+      component: Component.RecentlyAddedList(),
+      condition: (page) => (page.fileData.slug ?? "").startsWith("recently-added"),
+    }),
+    Component.ConditionalRender({
       component: Component.CourseGrid(),
       condition: (page) => page.fileData.slug === "Courses/index",
     }),
@@ -145,6 +149,7 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.ContextualNav(),
     Component.AILiteracyNav(),
+    Component.RecentlyAddedNav(),
   ],
   right: [
     Component.Graph({
@@ -157,6 +162,10 @@ export const defaultListPageLayout: PageLayout = {
     Component.Backlinks(),
   ],
   afterBody: [
+    Component.ConditionalRender({
+      component: Component.RecentlyAddedList(),
+      condition: (page) => (page.fileData.slug ?? "").startsWith("recently-added"),
+    }),
     Component.ConditionalRender({
       component: Component.CourseGrid(),
       condition: (page) => page.fileData.slug === "Courses/index",
