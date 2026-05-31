@@ -82,7 +82,7 @@ A periodic digest of new writing, ideas in progress, and things worth reading â€
 
 ## Explore
 
-Browse by [[formats|format]] or [[topics|topic]].
+Browse by [[formats|format]] or [[topics|topic]], or see what's [[recently-added|recently added]].
 
 ---
 
