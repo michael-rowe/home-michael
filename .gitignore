@@ -13,5 +13,6 @@ content/Courses/course-style-guide.md
 content/Courses/demo.md
 content/Newsletters/*-newsletter-draft.md
 content/Newsletters/*-newsletter-kit.md
+content/Newsletters/*-kit.md
 .replit
 replit.nix
