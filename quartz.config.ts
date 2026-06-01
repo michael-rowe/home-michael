@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "michael-rowe.github.io/home-michael",
-    ignorePatterns: ["private", "templates", ".obsidian", "drafts", "personas"],
+    ignorePatterns: ["private", "templates", ".obsidian", "drafts", "personas", "**/*-kit.md"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
