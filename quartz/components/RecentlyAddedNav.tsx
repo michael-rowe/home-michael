@@ -3,8 +3,14 @@ import { resolveRelative, simplifySlug, SimpleSlug } from "../util/path"
 import style from "./styles/recentNotes.scss"
 import { classNames } from "../util/lang"
 
-// Left-hand "History" panel for the Recently added section.
-// Lists the per-month archive pages (previous months); the current month is the landing page ("Latest").
+const MONTH_NAMES = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+]
+
+// Left-hand month panel for the Recently added section.
+// The landing page ("recently-added") is the current month; the per-month archive
+// pages (those with a `month` frontmatter) are listed below it. Most recent first.
 export default (() => {
   const RecentlyAddedNav: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzComponentProps) => {
     const currentSlug = simplifySlug(fileData.slug!)
@@ -12,27 +18,32 @@ export default (() => {
       return null
     }
 
-    const months = allFiles
-      .map((f) => ({ file: f, slug: simplifySlug(f.slug!) }))
-      .filter(({ slug }) => slug.startsWith("recently-added/") && slug !== "recently-added")
-      .sort((a, b) => b.slug.localeCompare(a.slug))
+    // Archive month pages, identified by a "YYYY-MM" month frontmatter, newest first.
+    const archives = allFiles
+      .filter((f) => /^\d{4}-\d{2}$/.test((f.frontmatter?.month as string | undefined) ?? ""))
+      .sort((a, b) =>
+        ((b.frontmatter?.month as string) ?? "").localeCompare((a.frontmatter?.month as string) ?? ""),
+      )
+
+    // Landing page = the current month (RecentlyAddedList shows current-month content).
+    const now = new Date()
+    const currentLabel = `${MONTH_NAMES[now.getMonth()]} ${now.getFullYear()}`
 
     return (
       <div class={classNames(displayClass, "recent-notes")}>
-        <h3>History</h3>
         <ul class="recent-ul">
           <li class="recent-li">
             <div class="section">
               <div class="desc">
                 <h3>
                   <a href={resolveRelative(fileData.slug!, "recently-added" as SimpleSlug)} class="internal">
-                    Latest
+                    {currentLabel}
                   </a>
                 </h3>
               </div>
             </div>
           </li>
-          {months.map(({ file }) => {
+          {archives.map((file) => {
             const title = (file.frontmatter?.title as string | undefined) ?? simplifySlug(file.slug!)
             return (
               <li class="recent-li">
