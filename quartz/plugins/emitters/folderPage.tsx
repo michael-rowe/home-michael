@@ -136,7 +136,13 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
         allFiles.flatMap((data) => {
           return data.slug
             ? _getFolders(data.slug).filter(
-                (folderName) => folderName !== "." && folderName !== "tags",
+                (folderName) =>
+                  folderName !== "." &&
+                  folderName !== "tags" &&
+                  // recently-added is served by a top-level landing page (recently-added.md);
+                  // its month files render as standalone pages, so skip the auto folder index
+                  // (which would collide with /recently-added and reintroduce a folder listing).
+                  folderName !== "recently-added",
               )
             : []
         }),
@@ -155,7 +161,8 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
         if (!changeEvent.file) continue
         const slug = changeEvent.file.data.slug!
         const folders = _getFolders(slug).filter(
-          (folderName) => folderName !== "." && folderName !== "tags",
+          (folderName) =>
+            folderName !== "." && folderName !== "tags" && folderName !== "recently-added",
         )
         folders.forEach((folder) => affectedFolders.add(folder))
       }

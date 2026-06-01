@@ -126,11 +126,9 @@ export default ((opts?: Partial<FolderContentOptions>) => {
         : htmlToJsx(fileData.filePath!, tree)
     ) as ComponentChildren
 
-    // Don't show the automatic page listing on Courses/index since custom components handle it.
-    // recently-added/index has its own RecentlyAddedList (and a month panel on the left),
-    // so the auto listing of month-archive pages is redundant.
+    // Don't show the automatic page listing on Courses/index since custom components handle it
     const shouldShowPageListing =
-      fileData.slug !== "Courses/index" && fileData.slug !== "recently-added/index"
+      fileData.slug !== "Courses/index"
 
     // Detect folder types
     const isNotesFolder = fileData.slug === "Notes/index"
