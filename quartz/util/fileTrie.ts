@@ -41,6 +41,13 @@ export class FileTrieNode<T extends FileTrieData = ContentDetails> {
   get slug(): FullSlug {
     const path = joinSegments(...this.slugSegments) as FullSlug
     if (this.isFolder) {
+      // A folder whose index page is supplied by a same-named sibling file
+      // (e.g. recently-added.md alongside a recently-added/ folder) resolves to
+      // that page's slug rather than the synthetic <path>/index that doesn't exist.
+      const dataSlug = (this.data as { slug?: FullSlug } | undefined)?.slug
+      if (dataSlug && !dataSlug.endsWith("/index")) {
+        return dataSlug
+      }
       return joinSegments(path, "index") as FullSlug
     }
 
@@ -71,7 +78,15 @@ export class FileTrieNode<T extends FileTrieData = ContentDetails> {
       if (segment === "index") {
         this.data ??= file
       } else {
-        this.makeChild(path, file)
+        // Reuse an existing sibling node with the same slug (e.g. a folder node
+        // created by an earlier child insert) instead of creating a duplicate;
+        // this lets a top-level file act as the index for a same-named folder.
+        const existing = this.children.find((c) => c.slugSegment === segment)
+        if (existing) {
+          existing.data ??= file
+        } else {
+          this.makeChild(path, file)
+        }
       }
     } else if (path.length > 1) {
       // recursive case, we are not at the end of the path
