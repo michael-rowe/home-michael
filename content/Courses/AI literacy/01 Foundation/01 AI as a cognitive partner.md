@@ -27,20 +27,20 @@ linkedin:
 
 ## The scenario
 
-Dr Sarah Chen sits at her desk at 11pm, surrounded by printed articles on student engagement. She's been researching for three hours and feels overwhelmed—some papers focus on pre-pandemic engagement, others on emergency remote teaching, but nothing quite addresses her specific question about blended learning in UK universities.
+Maryam Okonkwo, a physiotherapy lecturer, sits at her desk late one evening, surrounded by printed articles on student engagement. She's been researching for three hours and feels overwhelmed—some papers focus on engagement in traditional lectures, others on fully online delivery, but nothing quite addresses her specific question about blended clinical-skills teaching.
 
-Out of desperation, she opens ChatGPT and types: "literature review on student engagement blended learning UK"
+Out of desperation, she opens ChatGPT and types: "literature review on student engagement blended learning clinical skills"
 
 The response is generic—a superficial overview that could apply to any context. She closes the tab, frustrated. "AI doesn't work for research," she thinks.
 
-The next morning, her colleague mentions using AI differently: "I don't ask it for answers. I have conversations with it about my thinking." Sarah decides to try again, but this time she types:
+The next morning, a colleague mentions using AI differently: "I don't ask it for answers. I have conversations with it about my thinking." Maryam decides to try again, but this time she types:
 
-"I'm researching how student engagement has changed in UK universities since the pandemic, particularly in blended learning. I've found papers on engagement generally and on pandemic teaching separately, but I'm struggling to connect both. Can you help me think through relevant theoretical frameworks that might bridge these literatures?"
+"I'm researching how students engage in blended clinical-skills teaching, where they prepare online before practising techniques in face-to-face labs. I've found papers on student engagement generally and on online health professions education separately, but I'm struggling to connect them. Can you help me think through theoretical frameworks that might bridge these literatures?"
 
 This conversation leads somewhere useful.
 
 > [!question] Before we begin
-> How would you currently approach using AI for a research challenge like Sarah's? What's your mental model of what AI does?
+> How would you currently approach using AI for a research challenge like Maryam's? What's your mental model of what AI does?
 
 ## What AI isn't (and why it matters)
 
@@ -89,7 +89,7 @@ Most confusion about AI comes from applying the wrong mental model. Before explo
 > Let's experience the difference between treating AI as a search engine versus a thinking partner.
 >
 > **Step 1: Simple query**
-> Choose a topic relevant to your current work—something you're genuinely curious about or stuck on. Open ChatGPT or Claude and ask a simple, direct question. For example: "What are the main theories of student engagement?" or "What methods work for teaching statistics?"
+> Choose a topic relevant to your current work—something you're genuinely curious about or stuck on. Open ChatGPT or Claude and ask a simple, direct question. For example: "What are the main theories of student engagement?" or "What methods work for teaching clinical reasoning?"
 >
 > Read the response but don't engage further. Note what you got and what's missing.
 >
@@ -156,7 +156,7 @@ One of the most valuable aspects of human-AI collaboration is that you and AI ma
 
 > [!example]- Overlooking relevant literature outside my immediate field
 >
-> **How AI helps:** Ask AI to suggest connections between your work and adjacent fields. For example: "I'm researching X in education. What parallel work exists in organisational psychology or cognitive science that might inform my approach?"
+> **How AI helps:** Ask AI to suggest connections between your work and adjacent fields. For example: "I'm researching X in health professions education. What parallel work exists in cognitive psychology or workplace learning that might inform my approach?"
 >
 > **Why this works:** AI's breadth across domains helps surface connections you might not encounter through standard database searches.
 >
@@ -200,7 +200,7 @@ Let's work through how collaboration actually functions using a real example fro
 
 Here's how an experienced academic might collaborate with AI on improving a conference abstract:
 
-**Academic's prompt:** "I've written a 250-word abstract for a conference on digital pedagogy. The feedback I got was that it's too descriptive and doesn't clearly articulate my contribution. Here's the abstract: [text]. Can you help me think through what might be missing?"
+**Academic's prompt:** "I've written a 250-word abstract for a health professions education conference. The feedback I got was that it's too descriptive and doesn't clearly articulate my contribution. Here's the abstract: [text]. Can you help me think through what might be missing?"
 
 **AI's response:** Analyses the abstract, identifies that it focuses on 'what' was done rather than 'what was learned', suggests reframing around the insight rather than the activity.
 
