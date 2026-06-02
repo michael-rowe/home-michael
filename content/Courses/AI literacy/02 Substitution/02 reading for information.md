@@ -24,9 +24,9 @@ linkedin:
 
 ## The contrast
 
-> Reading, after a certain age, diverts the mind too much from its creative pursuits. Any man who reads too much and uses his own brain too little falls into lazy habits of thinking.
+> Some books are to be tasted, others to be swallowed, and some few to be chewed and digested.
 >
-> Albert Einstein
+> Francis Bacon
 
 Dr. James Chen looks at his reading backlog: 47 papers marked "need to read." He's been trying to read them all carefully, one at a time. Last week, he spent 2 hours on one paper about qualitative methodology. It was good, but not directly relevant to his work. He still has 46 papers to go. The backlog grows faster than he can manage it.
 

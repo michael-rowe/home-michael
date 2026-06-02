@@ -612,4 +612,4 @@ The next adaptation lesson applies similar literacy dimensions to problem decomp
 - Paul, R. & Elder, L. (2019). The miniature guide to critical thinking concepts and tools. Foundation for Critical Thinking.
 - Facione, P. (2020). Critical thinking: What it is and why it counts. Measured Reasons LLC.
 - Sadler, D.R. (2010). Beyond feedback: Developing student capability in complex appraisal. Assessment & Evaluation in Higher Education, 35(5), 535-550.
-- Schön, D.A. (1984). The reflective practitioner: How professionals think in action. Basic Books.
+- Schön, D. (1983). The reflective practitioner: How professionals think in action. Basic Books.

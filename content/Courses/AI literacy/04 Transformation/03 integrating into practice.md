@@ -316,42 +316,6 @@ Continue using redesigned workflow whilst beginning to integrate literacy into s
 
 **The principle:** You don't need comprehensive workflow overhaul. You need ONE structural change that makes literacy automatic. Start small. Build based on what works. Each successful structural change compounds—you're building literacy infrastructure gradually through changes that actually sustain.
 
-## Course complete: Your literacy development continues
-
-### What you've developed
-
-Through 11 lessons, you've developed comprehensive AI literacy across six dimensions:
-
-- **Access and recognition:** You recognise when AI is relevant to your work and when it isn't
-- **Critical evaluation:** You assess whether engagement strengthens versus undermines scholarly thinking
-- **Functional application:** You use AI effectively across research, teaching, and administration
-- **Creation and communication:** You collaborate productively whilst maintaining distinctive voice
-- **Ethical awareness and responsibility:** You manage boundaries thoughtfully and take responsibility for practice
-- **Contextual judgement and metacognition:** You've developed taste—sophisticated professional judgement about meaningful engagement
-
-**This is AI literacy:** Not just knowing how to use AI, but developing integrated capabilities that enable thoughtful, critical, ethical, and contextually appropriate engagement.
-
-### What happens next
-
-This course provided foundational literacy development. Now your literacy continues evolving through:
-
-- **Monthly reflection (20 minutes):** Review engagement patterns, assess which dimensions are strong, identify what needs attention, adjust practice based on learning
-- **Quarterly context review (30 minutes):** Update professional context as work evolves, refine evaluation criteria, assess boundary decisions, document how literacy has developed
-- **Ongoing structural integration:** Continue designing workflow changes that make literate practice automatic, build on what works, adapt what doesn't
-- **Sustained taste development:** Maintain practice-reflection cycles that cultivate professional judgement, notice patterns in meaningful versus superficial engagement, meta-evaluate your own judgement quality
-
-### The commitment
-
-Completing this course doesn't mean you've achieved AI literacy. You've developed foundational capabilities that continue evolving through systematic practice.
-
-**Literacy is ongoing professional development, not achieved expertise.**
-
-The goal isn't perfect literacy today—it's building capacity to continue developing literacy as AI capabilities evolve and your work changes, whilst maintaining scholarly values that matter.
-
-**Don't rely on willpower to sustain literacy.** Build systems that make literate practice your default mode of operation. Create structures that support rather than require discipline.
-
-**This is the beginning of ongoing literacy development, not its completion.** Go forth and practice AI literacy through well-designed systems that sustain sophisticated, thoughtful, ethical engagement in your scholarly work.
-
 ## Key takeaways
 
 - **Structural integration beats willpower:** Literacy capabilities don't sustain through good intentions—they require structural integration into workflows. Discursive approaches (hoping to remember and apply practices) fail under cognitive load and deadline pressure. Structural approaches embed literacy into workflow design through templates that prompt practices, defaults that make literate engagement easier than superficial use, mandatory steps that enforce critical evaluation, and documentation that happens as workflow byproduct. Sustainable literacy comes from design, not discipline.
@@ -364,6 +328,10 @@ The goal isn't perfect literacy today—it's building capacity to continue devel
 
 > [!question] Pause and reflect
 > Based on this lesson, what ONE structural change will you implement this week? How will you know it's working? Document this commitment in your Action Journal.
+
+## Looking ahead
+
+This was the final lesson. The conclusion reflects on the literacy you've developed across all eleven lessons and sets out how to sustain and keep developing it beyond the course.
 
 ## Resources
 
