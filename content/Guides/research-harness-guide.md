@@ -19,7 +19,7 @@ category:
   - Education
   - Scholarship
 related:
-  - "[[The research harness: a framework for bounded AI use in doctoral work]]"
+  - "[[essays/research-harness-doctoral-ai]]"
   - "[[Research harness]]"
 pdf: research-harness-guide.pdf
 draft: false
@@ -51,4 +51,4 @@ Discuss the harness with your supervisor. It is designed as a shared artefact: s
 
 ---
 
-The guide is derived from the full essay: [[The research harness: a framework for bounded AI use in doctoral work]].
+The guide is derived from the full essay: [[essays/research-harness-doctoral-ai|The research harness: a framework for bounded AI use in doctoral work]].
