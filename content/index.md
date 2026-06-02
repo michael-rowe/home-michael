@@ -23,18 +23,18 @@ I'm an Associate Professor and Director of Teaching and Learning at the Universi
 <div class="featured-card">
 <div class="content-type content-type--post"><i class="ph ph-pencil-simple"></i><span>Post</span></div>
 
-[[Posts/2026-04-11-phd-becoming-ai-assessment|The PhD is a process of becoming: Reimagining AI and PhD assessment]]
+[[Posts/2026-03-07-ai-personas-for-professional-practice|Building AI personas for professional practice]]
 
-The thesis was always a proxy for the person. AI has broken the inferential chain between a submitted document and the development it was meant to evidence.
+The real leverage with AI is not prompt engineering — it is knowing your professional commitments clearly enough to turn them into context an AI can work within. A practical method for building personas that carry your values, frameworks, and evidence.
 
 </div>
 
 <div class="featured-card">
 <div class="content-type content-type--essay"><i class="ph ph-file-text"></i><span>Essay</span></div>
 
-[[Essays/ai-hpe-theoretical-framework|A theoretical framework for integrating AI into health professions education]]
+[[Essays/documentation-as-infrastructure|Documentation becomes infrastructure when AI agents are the readers]]
 
-Six principles — drawn from social constructivism, critical pedagogy, and complexity theory — for integrating AI in ways that prepare professionals for contemporary practice.
+When AI agents read documentation as operational input, it shifts from reference material to infrastructure — and inaccuracies cause system failures, not just confusion. The real bottleneck for institutional AI integration is information architecture, not model capability.
 
 </div>
 
@@ -72,9 +72,9 @@ A keynote for the Royal College of Nursing's Education conference, arguing that 
 <div class="featured-card">
 <div class="content-type content-type--note"><i class="ph ph-notebook"></i><span>Concept note</span></div>
 
-[[Notes/vibe-coding|Vibe coding]]
+[[Notes/context-sovereignty|Context sovereignty]]
 
-Using AI tools without keeping genuine accountability for what they produce — accepting outputs without the scrutiny or judgement needed to evaluate them. The note draws Simon Willison's distinction between vibe coding and vibe engineering: the same tools, but the latter stays accountable for every output.
+Keeping your personal context — knowledge, values, goals, ways of thinking — under your own control while drawing on AI capability, rather than ceding your cognitive environment to the tool.
 
 </div>
 
