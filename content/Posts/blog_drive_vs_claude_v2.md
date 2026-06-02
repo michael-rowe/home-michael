@@ -1,6 +1,7 @@
 ---
 title: "Why pasting your work into Claude is mostly just saving it to Drive"
 enableToc: true
+draft: true
 ---
 
 > [!info] The risk lives in the contract, not the model.
