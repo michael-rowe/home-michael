@@ -36,7 +36,7 @@ linkedin:
 ---
 
 > [!info] Context is king
-> The most capable AI models consistently underperform not because of their limitations but because they're provided with incomplete or poorly structured context. [[Prompt engineering]] optimises what you say to AI. Context engineering optimises what AI knows about your work—and that difference matters more than most people realise.
+> The most capable AI models consistently underperform not because of their limitations but because they're provided with incomplete or poorly structured context. [[Notes/prompt-engineering|Prompt engineering]] optimises what you say to AI. Context engineering optimises what AI knows about your work—and that difference matters more than most people realise.
 
 ## Context engineering
 
@@ -48,7 +48,7 @@ Context engineering solves this by making your intellectual infrastructure—the
 
 ## From prompts to systems
 
-[[Prompt engineering]] emerged as the craft of writing effective queries—choosing words, providing examples, structuring requests. Useful, but limited to optimising individual interactions. Context engineering represents a qualitative shift from individual optimisation to systematic architecture.
+[[Notes/prompt-engineering|Prompt engineering]] emerged as the craft of writing effective queries—choosing words, providing examples, structuring requests. Useful, but limited to optimising individual interactions. Context engineering represents a qualitative shift from individual optimisation to systematic architecture.
 
 The distinction matters because academic work isn't a series of isolated tasks to be optimised one prompt at a time. It's an interconnected body of knowledge where understanding depends on grasping how ideas relate. Prompt engineering treats each query as independent. Context engineering treats your work as a structured knowledge system.
 

@@ -55,7 +55,7 @@ Example structure: `(Paper A) --[extends while challenging]--> (Paper B)`
 
 ## Why this differs from embeddings
 
-[[Vector database]]s store numerical representations of text that enable similarity search. This works well for finding passages about similar topics. It cannot answer questions about how concepts relate because embeddings capture co-occurrence patterns, not explicit relationships.
+[[Notes/vector-database|Vector database]]s store numerical representations of text that enable similarity search. This works well for finding passages about similar topics. It cannot answer questions about how concepts relate because embeddings capture co-occurrence patterns, not explicit relationships.
 
 The semantic difference matters:
 

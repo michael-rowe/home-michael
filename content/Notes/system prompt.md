@@ -71,11 +71,11 @@ The challenge is knowing what instructions provide sufficient value to warrant t
 
 System prompts provide one mechanism for persistent context, but limited compared to [[context engineering]] approaches:
 
-**System prompts are text-based instructions** that tell AI how to behave. [[Context engineering]] provides structured access to actual data—your documents, knowledge bases, research history. System prompts say "I'm a researcher"; context engineering gives AI access to your research.
+**System prompts are text-based instructions** that tell AI how to behave. [[Notes/context-engineering|Context engineering]] provides structured access to actual data—your documents, knowledge bases, research history. System prompts say "I'm a researcher"; context engineering gives AI access to your research.
 
-**System prompts are static** within a conversation. [[Context engineering]] enables dynamic context retrieval based on what's relevant to specific queries. System prompts include everything upfront; context engineering surfaces what's needed when it's needed.
+**System prompts are static** within a conversation. [[Notes/context-engineering|Context engineering]] enables dynamic context retrieval based on what's relevant to specific queries. System prompts include everything upfront; context engineering surfaces what's needed when it's needed.
 
-**System prompts consume tokens constantly.** Every message includes the full system prompt, regardless of relevance. [[Context engineering]] using tools like [[Model Context Protocol]] enables selective context access—only retrieving and including what's pertinent to current interaction.
+**System prompts consume tokens constantly.** Every message includes the full system prompt, regardless of relevance. [[Notes/context-engineering|Context engineering]] using tools like [[Notes/model-context-protocol|Model Context Protocol]] enables selective context access—only retrieving and including what's pertinent to current interaction.
 
 The relationship: system prompts work for establishing general behaviour and small amounts of persistent context. Context engineering works for providing AI with access to substantial personal or domain knowledge that would be impractical to include in every message.
 

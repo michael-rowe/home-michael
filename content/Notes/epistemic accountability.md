@@ -58,11 +58,11 @@ Whether the accountability gap can be closed by design — through AI systems th
 ## Sources
 
 - Marchal, N., Chan, S., Franklin, M., Revel, M., Keeling, G., Fischli, R., Chandra, B., & Gabriel, I. (2026). Architecting trust in artificial epistemic agents. *arXiv*. https://arxiv.org/abs/2603.02960
-- Rowe, M. (2026). [[AI tutor accuracy in health professions education: The accuracy-engagement paradox]]. University of Lincoln.
+- Rowe, M. (2026). [[Essays/ai-tutor-accuracy-health-professions|AI tutor accuracy in health professions education: The accuracy-engagement paradox]]. University of Lincoln.
 
 ---
 
 ## Notes
 
-- Developed as part of the qualification to the accessibility paradox in [[AI tutor accuracy in health professions education: The accuracy-engagement paradox|the AI tutor accuracy essay]] — specifically the argument that AI-sourced errors resist correction differently from traditionally-sourced errors
+- Developed as part of the qualification to the accessibility paradox in [[Essays/ai-tutor-accuracy-health-professions|the AI tutor accuracy essay]] — specifically the argument that AI-sourced errors resist correction differently from traditionally-sourced errors
 - The three mechanisms (interrogability, traceability, reputational cost) map directly onto Marchal et al.'s (2026) three trustworthiness properties (demonstrable competence, falsifiability, epistemic virtues) — though arrived at independently from the learner-facing rather than systems-design perspective
