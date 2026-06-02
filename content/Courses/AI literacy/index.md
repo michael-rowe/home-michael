@@ -44,7 +44,7 @@ linkedin:
 > - **Duration:** 10-12 hours
 > - **Level:** All levels
 > - **Format:** Self-paced with practical activities
-> - **Status:** In development
+> - **Status:** Published
 > </div>
 > </div>
 
