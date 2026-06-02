@@ -6,7 +6,7 @@ description: Professional curricula are extensively documented but not systemati
 meta-description: Proposing a graph-based infrastructure to transform professional education curricula into queryable operational architecture.
 author:
   - "[[Michael Rowe]]"
-  - "[[Wesley Lynch]]"
+  - "Wesley Lynch"
 affiliation:
   - University of Lincoln
   - Snapplify
@@ -184,7 +184,7 @@ This flexibility carries responsibilities. Institutions adopting this architectu
 
 Institutions do not start from nothing. They have existing curriculum management systems, documents in repositories, VLE structures, and spreadsheet-based mappings. The transition involves extracting structured data from current systems, transforming it to graph-compatible format, validating extracted relationships through faculty review, and gradually shifting workflows to graph-native tools.
 
-This requires phased implementation over 18–24 months, following a defined process for knowledge graph development that includes extraction, transformation, and validation (Tamašauskaitė & Groth, 2023 [[Tamasauskaite-Groth-2023-defining-a-knowledge-graph-development-process|Annotation]]). Early phases focus on data extraction and populating the graph database while existing systems continue operating normally. Middle phases introduce query interfaces for staff to explore curriculum structure without changing their working practices. Later phases shift curriculum modification workflows to graph-native tools, making the graph the source of truth with documents generated from it. Parallel operation during transition is essential — staff will not abandon familiar systems until new infrastructure demonstrably improves their work.
+This requires phased implementation over 18–24 months, following a defined process for knowledge graph development that includes extraction, transformation, and validation (Tamašauskaitė & Groth, 2023). Early phases focus on data extraction and populating the graph database while existing systems continue operating normally. Middle phases introduce query interfaces for staff to explore curriculum structure without changing their working practices. Later phases shift curriculum modification workflows to graph-native tools, making the graph the source of truth with documents generated from it. Parallel operation during transition is essential — staff will not abandon familiar systems until new infrastructure demonstrably improves their work.
 
 *The phases and timelines for transition are necessarily institution-specific, depending on existing systems, data quality, and technical capacity; the 18–24 month arc described here is indicative rather than prescriptive.*
 
@@ -222,22 +222,21 @@ Anthropic. (2024, November 25). Introducing the Model Context Protocol. https://
 
 Biggs, J. B., & Tang, C. (2011). *Teaching for quality learning at university* (4th ed.). Society for Research into Higher Education & Open University Press.
 
-Brink, S., Ehrlinger, L., & Wöß, W. (2021). Curriculum Agility: Responsive Organization, Dynamic Content, and Flexible Education. *IEEE Frontiers in Education Conference (FIE)*. https://doi.org/10.1109/FIE49875.2021.9637255 [[Brink-et-al-2021-curriculum-agility|Annotation]]
+Brink, S., Ehrlinger, L., & Wöß, W. (2021). Curriculum Agility: Responsive Organization, Dynamic Content, and Flexible Education. *IEEE Frontiers in Education Conference (FIE)*. https://doi.org/10.1109/FIE49875.2021.9637255
 
 Carless, D., & Winstone, N. (2023). What feedback literate teachers do: an empirically-derived competency framework. *Higher Education*, *86*(6), 1433–1451. https://doi.org/10.1007/s10734-022-00979-5
 
 CAUDIT. (2025). *Higher Education Reference Models (HERM), version 3.2.0*. https://www.caudit.edu.au/communities/caudit-higher-education-reference-models/
 
-Ehrlinger, L., & Wöß, W. (2016). Towards a Definition of Knowledge Graphs. *SEMANTiCS*. [[Ehrlinger-Woss-2016-towards-a-definition-of-knowledge-graphs|Annotation]]
+Ehrlinger, L., & Wöß, W. (2016). Towards a Definition of Knowledge Graphs. *SEMANTiCS*.
 
-Gosper, M., & Ifenthaler, D. (Eds.). (2013). *Curriculum models for the 21st century: using learning technologies in higher education*. Springer Science & Business Media. [[Gosper-Ifenthaler-2013-curriculum-models-for-the-21st-century|Annotation]]
+Gosper, M., & Ifenthaler, D. (Eds.). (2013). *Curriculum models for the 21st century: using learning technologies in higher education*. Springer Science & Business Media.
 
 Hilliger, I., Miranda, C., Celis, S., & Perez-Sanagustin, M. (2024). Curriculum analytics adoption in higher education: A multiple case study engaging stakeholders in different phases of design. *British Journal of Educational Technology*, *55*(3), 785–801. https://doi.org/10.1111/bjet.13374
 
 Rowe, M. (2026). Documentation becomes infrastructure when AI agents are the readers. https://michael-rowe.github.io/home-michael/Essays/documentation-as-infrastructure/
 
-Tamašauskaitė, R., & Groth, P. (2023). Defining a Knowledge Graph Development Process Through a Systematic Review. *ACM Computing Surveys*. https://doi.org/10.1145/3592624 [[Tamasauskaite-Groth-2023-defining-a-knowledge-graph-development-process|Annotation]]
-
+Tamašauskaitė, R., & Groth, P. (2023). Defining a Knowledge Graph Development Process Through a Systematic Review. *ACM Computing Surveys*. https://doi.org/10.1145/3592624
 UCISA. (2025). *Higher Education Reference Models*. https://www.ucisa.ac.uk/groups/enterprise-architecture/herm
 
 Wang, Q., Hou, S., Wan, S., Feng, X., & Feng, H. (2025). Applying Knowledge Graph to Interdisciplinary Higher Education. *European Journal of Education*, *60*(2), e70078. https://doi.org/10.1111/ejed.70078
