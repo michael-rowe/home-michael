@@ -1135,7 +1135,7 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-;" data-marpit-pagination-total="18">
+;" data-marpit-pagination-total="17">
 <h2 id="the-revalidation-problem">The revalidation problem</h2>
 <p>BSc Nursing programme was revalidated last year; three fields: adult, mental health, and paediatric nursing.</p>
 <p><strong>5 staff members. 20 weeks of preparation.</strong></p>
@@ -1707,7 +1707,7 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-;" data-marpit-pagination-total="18">
+;" data-marpit-pagination-total="17">
 <h2 id="artificial-information-scarcity">Artificial information scarcity</h2>
 <p>The curriculum <strong>already has</strong> explicit structure:</p>
 <ul>
@@ -2278,7 +2278,7 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-;" data-marpit-pagination-total="18">
+;" data-marpit-pagination-total="17">
 <h2 id="documentation-becomes-infrastructure">Documentation becomes infrastructure</h2>
 <p>When AI agents consume curriculum documents as operational input, documentation shifts into another category.</p>
 <div class="columns">
@@ -2857,7 +2857,7 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-;" data-marpit-pagination-total="18">
+;" data-marpit-pagination-total="17">
 <h2 id="what-this-means-for-curricula">What this means for curricula</h2>
 <p>A module specification in Word describes prerequisites in prose. Readable by AI, but not <em>traversable</em>.</p>
 <p>A graph database encodes the same prerequisites as <span class="accent">typed relationships</span> that are explicit, queryable, and verifiable.</p>
@@ -3426,7 +3426,7 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-;" data-marpit-pagination-total="18">
+;" data-marpit-pagination-total="17">
 <h2 id="graph-database">Graph database</h2>
 <p>Graph databases enable formal relationships between curriculum concepts <span class="cite">(Abu-Salih &amp; Alotaibi, 2024); Wang et al., 2025</span></p>
 <ul>
@@ -3437,7 +3437,7 @@ img.float-right {
 <p>Graph nodes and edges based on HERM as ontological framework <span class="cite">(UCISA, 2025)</span>; supporting standardised entity types and valid relationships</p>
 <p>The <span class="accent">graph is the source of truth</span> that generates documentation</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-paginate="true" data-theme="default" data-style="/* CSS variables for consistent theming */
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-paginate="true" data-theme="default" data-style="/* CSS variables for consistent theming */
 :root {
   --color-primary: #1e3a5f;
   --color-accent: #2563eb;
@@ -3997,10 +3997,20 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-;" data-marpit-pagination-total="18">
-<p><img src="media/knowledge_graph.png" alt="" style="width:1200px;" /></p>
+;" data-marpit-pagination-total="17">
+<h2 id="vector-vs-graph-database">Vector vs graph database</h2>
+<p>Vector database = semantic search across all curriculum materials; finds content <em>about</em> similar topics through statistical similarity</p>
+<ul>
+<li>Aside: this is the reason for concerns around <em>hallucination</em> and <em>accuracy</em></li>
+</ul>
+<p>Query: &quot;Show all module prerequisites two levels deep for clinical prescribing&quot;</p>
+<ul>
+<li>Vector search: finds documents <em>mentioning</em> prerequisites</li>
+<li>Graph traversal: follows actual REQUIRES relationships through the graph</li>
+</ul>
+<p><span class="cite-slide">Xiao (2023)</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-paginate="true" data-theme="default" data-style="/* CSS variables for consistent theming */
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-theme="default" data-style="/* CSS variables for consistent theming */
 :root {
   --color-primary: #1e3a5f;
   --color-accent: #2563eb;
@@ -4560,20 +4570,18 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-;" data-marpit-pagination-total="18">
-<h2 id="vector-vs-graph-database">Vector vs graph database</h2>
-<p>Vector database = semantic search across all curriculum materials; finds content <em>about</em> similar topics through statistical similarity</p>
+;" data-marpit-pagination-total="17">
+<h2 id="model-context-protocol">Model Context Protocol</h2>
+<p>Natural language interface for non-technical staff to access curriculum infrastructure through conversation</p>
 <ul>
-<li>Aside: this is the reason for concerns around <em>hallucination</em> and <em>accuracy</em></li>
+<li>Open, standardised, permission-based interface (allows ﬁne-grained access control)</li>
+<li>Access diverse data sources (vector- and graph-db, email, local file system, public knowledge sources e.g. Wikipedia)</li>
+<li>Enables tool use (web search, read/write from the file system, <em>skills</em>)</li>
+<li>Connect to any language model via API (local/remote, open-source/commercial)</li>
 </ul>
-<p>Query: &quot;Show all module prerequisites two levels deep for clinical prescribing&quot;</p>
-<ul>
-<li>Vector search: finds documents <em>mentioning</em> prerequisites</li>
-<li>Graph traversal: follows actual REQUIRES relationships through the graph</li>
-</ul>
-<p><span class="cite-slide">Xiao (2023)</span></p>
+<p><span class="cite-slide">Anthropic (2024)</span></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-theme="default" data-style="/* CSS variables for consistent theming */
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10" data-paginate="true" data-theme="default" data-style="/* CSS variables for consistent theming */
 :root {
   --color-primary: #1e3a5f;
   --color-accent: #2563eb;
@@ -5133,18 +5141,17 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-;" data-marpit-pagination-total="18">
-<h2 id="model-context-protocol">Model Context Protocol</h2>
-<p>Natural language interface for non-technical staff to access curriculum infrastructure through conversation</p>
+;" data-marpit-pagination-total="17">
+<h2 id="use-case-impact-analysis">Use case: Impact analysis</h2>
+<p><strong>Query:</strong> &quot;If we change the Year 2 pharmacology assessment from a written exam to a clinical simulation, show the impact on NMC proficiency coverage across all three fields.&quot;</p>
 <ul>
-<li>Open, standardised, permission-based interface (allows ﬁne-grained access control)</li>
-<li>Access diverse data sources (vector- and graph-db, email, local file system, public knowledge sources e.g. Wikipedia)</li>
-<li>Enables tool use (web search, read/write from the file system, <em>skills</em>)</li>
-<li>Connect to any language model via API (local/remote, open-source/commercial)</li>
+<li>NMC proficiencies currently evidenced by that assessment identified</li>
+<li>Coverage gaps and overlaps with other assessments flagged</li>
+<li>Dependent modules and placement requirements shown</li>
 </ul>
-<p><span class="cite-slide">Anthropic (2024)</span></p>
+<p><strong>Current process:</strong> Emails to module leads. Heavy reliance on institutional memory and implicit knowledge. Hope nothing gets missed.</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10" data-paginate="true" data-theme="default" data-style="/* CSS variables for consistent theming */
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="11" data-paginate="true" data-theme="default" data-style="/* CSS variables for consistent theming */
 :root {
   --color-primary: #1e3a5f;
   --color-accent: #2563eb;
@@ -5704,17 +5711,17 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-;" data-marpit-pagination-total="18">
-<h2 id="use-case-impact-analysis">Use case: Impact analysis</h2>
-<p><strong>Query:</strong> &quot;If we change the Year 2 pharmacology assessment from a written exam to a clinical simulation, show the impact on NMC proficiency coverage across all three fields.&quot;</p>
+;" data-marpit-pagination-total="17">
+<h2 id="use-case-compliance-verification">Use case: Compliance verification</h2>
+<p><strong>Query:</strong> &quot;Show NMC proficiency coverage across all assessment touchpoints for prescribing competencies. Identify gaps.&quot;</p>
 <ul>
-<li>NMC proficiencies currently evidenced by that assessment identified</li>
-<li>Coverage gaps and overlaps with other assessments flagged</li>
-<li>Dependent modules and placement requirements shown</li>
+<li>Complete NMC proficiency mapping in seconds</li>
+<li>Gaps automatically identified across all three fields</li>
+<li>Full audit trail, export-ready for submission</li>
 </ul>
-<p><strong>Current process:</strong> Emails to module leads. Heavy reliance on institutional memory and implicit knowledge. Hope nothing gets missed.</p>
+<p><strong>Current process:</strong> 5 staff, 20 weeks, manual cross-referencing across Worktribe, SharePoint, and OneDrive.</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="11" data-paginate="true" data-theme="default" data-style="/* CSS variables for consistent theming */
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-paginate="true" data-theme="default" data-style="/* CSS variables for consistent theming */
 :root {
   --color-primary: #1e3a5f;
   --color-accent: #2563eb;
@@ -6274,17 +6281,18 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-;" data-marpit-pagination-total="18">
-<h2 id="use-case-compliance-verification">Use case: Compliance verification</h2>
-<p><strong>Query:</strong> &quot;Show NMC proficiency coverage across all assessment touchpoints for prescribing competencies. Identify gaps.&quot;</p>
+;" data-marpit-pagination-total="17">
+<h2 id="one-infrastructure-multiple-lenses">One infrastructure, multiple lenses</h2>
 <ul>
-<li>Complete NMC proficiency mapping in seconds</li>
-<li>Gaps automatically identified across all three fields</li>
-<li>Full audit trail, export-ready for submission</li>
+<li><strong>Programme leaders</strong> see dependency chains and structural impacts</li>
+<li><strong>Compliance officers</strong> see NMC proficiency coverage and gaps</li>
+<li><strong>Quality assurance</strong> see patterns across programmes and fields</li>
+<li><strong>Module leads</strong> see prerequisite assumptions and alignment</li>
+<li><strong>Regulatory bodies</strong> see proficiency coverage and compliance evidence</li>
 </ul>
-<p><strong>Current process:</strong> 5 staff, 20 weeks, manual cross-referencing across Worktribe, SharePoint, and OneDrive.</p>
+<p>Educators retain authority over what the structure should be. The system makes that structure transparent.</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-paginate="true" data-theme="default" data-style="/* CSS variables for consistent theming */
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="13" data-paginate="true" data-theme="default" data-style="/* CSS variables for consistent theming */
 :root {
   --color-primary: #1e3a5f;
   --color-accent: #2563eb;
@@ -6844,578 +6852,7 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-;" data-marpit-pagination-total="18">
-<h2 id="one-infrastructure-multiple-lenses">One infrastructure, multiple lenses</h2>
-<ul>
-<li><strong>Programme leaders</strong> see dependency chains and structural impacts</li>
-<li><strong>Compliance officers</strong> see NMC proficiency coverage and gaps</li>
-<li><strong>Quality assurance</strong> see patterns across programmes and fields</li>
-<li><strong>Module leads</strong> see prerequisite assumptions and alignment</li>
-<li><strong>Regulatory bodies</strong> see proficiency coverage and compliance evidence</li>
-</ul>
-<p>Educators retain authority over what the structure should be. The system makes that structure transparent.</p>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="13" data-paginate="true" data-theme="default" data-style="/* CSS variables for consistent theming */
-:root {
-  --color-primary: #1e3a5f;
-  --color-accent: #2563eb;
-  --color-text: #1f2937;
-  --color-text-light: #4b5563;
-  --color-background: #ffffff;
-  --color-callout-bg: #f0f7ff;
-  --color-callout-border: #2563eb;
-}
-
-/* Base styles for all slides */
-section {
-  font-family: 'Inter', system-ui, sans-serif;
-  justify-content: flex-start !important;
-  align-items: flex-start !important;
-  padding: 60px 70px 80px 70px;
-  color: var(--color-text);
-  background-color: var(--color-background);
-}
-
-/* Typography settings */
-section h1 {
-  font-size: 60px;
-  font-weight: 700;
-  color: var(--color-primary);
-  margin-bottom: 24px;
-}
-
-section h2 {
-  font-size: 46px;
-  font-weight: 600;
-  color: var(--color-primary);
-}
-
-section h3 {
-  font-size: 34px;
-  font-weight: 600;
-  color: var(--color-text-light);
-}
-
-section p {
-  font-size: 36px;
-  line-height: 1.25;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-}
-
-section ul, section ol {
-  font-size: 32px;
-  line-height: 1.25;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-}
-
-section p + p, section ul + p, section ol + p,
-section p + ul, section p + ol {
-  margin-top: 0.8em;
-}
-
-section ul ul, section ol ol {
-  font-size: 28px;
-}
-
-/* Table styling */
-section table {
-  border-collapse: collapse;
-  border: 1px solid #d1d5db;
-}
-
-section table th,
-section table td {
-  border: 1px solid #d1d5db;
-  font-size: 32px;
-  font-weight: normal;
-}
-
-section table th {
-  font-weight: 600;
-}
-
-/* Emphasis and links */
-section strong {
-  color: var(--color-primary);
-  font-weight: 600;
-}
-
-section a {
-  color: var(--color-accent);
-  text-decoration: none;
-}
-
-/* Callout boxes (blockquotes) */
-section blockquote {
-  background-color: var(--color-callout-bg);
-  border-left: 4px solid var(--color-callout-border);
-  border-radius: 0 8px 8px 0;
-  padding: 24px 32px;
-  margin: 24px 0;
-  font-size: 34px;
-}
-
-section blockquote p {
-  margin: 0;
-  font-size: 34px;
-}
-
-/* Footer styling */
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 16px 70px;
-  background-color: var(--color-primary);
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* Page numbers - &quot;X of Y&quot; format */
-section::after {
-  position: absolute;
-  bottom: 16px;
-  right: 70px;
-  font-size: 18px;
-  font-weight: 500;
-  color: #ffffff;
-  content: attr(data-marpit-pagination) ' of ' attr(data-marpit-pagination-total);
-}
-
-/* Hide pagination on title, section-break, and statement slides */
-section.title-slide::after,
-section.section-break::after,
-section.statement::after {
-  display: none;
-}
-
-/* Smaller text utility classes */
-section.very-small-text p,
-section.very-small-text ul,
-section.very-small-text ol {
-  font-size: 24px;
-}
-
-section.small-text p,
-section.small-text ul,
-section.small-text ol {
-  font-size: 28px;
-}
-
-/* Title slide styling */
-section.title-slide {
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center;
-  background: linear-gradient(135deg, var(--color-primary) 0%, #2d5a8a 100%);
-  color: #ffffff;
-}
-
-section.title-slide h1 {
-  font-size: 72px;
-  color: #ffffff;
-  margin-bottom: 16px;
-}
-
-section.title-slide h2 {
-  font-size: 48px;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.9);
-}
-
-section.title-slide strong {
-  color: #ffffff;
-  font-weight: 600;
-}
-
-section.title-slide h3 {
-  font-size: 28px;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-section.title-slide a {
-  color: #ffffff;
-}
-
-/* Section break slides */
-section.section-break {
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center;
-  background-color: #f8fafc;
-}
-
-section.section-break h1 {
-  font-size: 64px;
-}
-
-/* Statement slides — single idea, visual emphasis */
-section.statement {
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center;
-  background-color: #f8fafc;
-  padding: 60px 100px;
-}
-
-section.statement h2 {
-  font-size: 48px;
-  line-height: 1.35;
-  color: var(--color-primary);
-  margin-bottom: 32px;
-}
-
-section.statement p {
-  font-size: 34px;
-  color: var(--color-text-light);
-  line-height: 1.5;
-}
-
-/* Two-column layout */
-.columns {
-  display: flex;
-  gap: 48px;
-  align-items: flex-start;
-  width: 100%;
-  margin-top: 16px;
-}
-
-.columns .col {
-  flex: 1;
-}
-
-.columns h3 {
-  font-size: 32px;
-  margin-bottom: 12px;
-}
-
-.columns p, .columns ul {
-  font-size: 34px;
-  line-height: 1.5;
-}
-
-/* Accent highlight for key terms */
-.accent {
-  color: var(--color-accent);
-  font-weight: 600;
-}
-
-/* Citation styling — inline */
-.cite {
-  font-size: 25px;
-  color: #9ca3af;
-  font-weight: 400;
-}
-
-/* Citation styling — slide-level, bottom right */
-.cite-slide {
-  position: absolute;
-  bottom: 50px;
-  right: 70px;
-  font-size: 25px;
-  color: #9ca3af;
-  font-weight: 400;
-}
-
-/* Float image utilities */
-section.has-float-image {
-  display: block;
-}
-
-img.float-right {
-  float: right;
-  margin-left: 24px;
-  margin-bottom: 16px;
-}
-" lang="en-GB" data-marpit-pagination="13" style="--paginate:true;--theme:default;--style:/* CSS variables for consistent theming */
-:root {
-  --color-primary: #1e3a5f;
-  --color-accent: #2563eb;
-  --color-text: #1f2937;
-  --color-text-light: #4b5563;
-  --color-background: #ffffff;
-  --color-callout-bg: #f0f7ff;
-  --color-callout-border: #2563eb;
-}
-
-/* Base styles for all slides */
-section {
-  font-family: 'Inter', system-ui, sans-serif;
-  justify-content: flex-start !important;
-  align-items: flex-start !important;
-  padding: 60px 70px 80px 70px;
-  color: var(--color-text);
-  background-color: var(--color-background);
-}
-
-/* Typography settings */
-section h1 {
-  font-size: 60px;
-  font-weight: 700;
-  color: var(--color-primary);
-  margin-bottom: 24px;
-}
-
-section h2 {
-  font-size: 46px;
-  font-weight: 600;
-  color: var(--color-primary);
-}
-
-section h3 {
-  font-size: 34px;
-  font-weight: 600;
-  color: var(--color-text-light);
-}
-
-section p {
-  font-size: 36px;
-  line-height: 1.25;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-}
-
-section ul, section ol {
-  font-size: 32px;
-  line-height: 1.25;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-}
-
-section p + p, section ul + p, section ol + p,
-section p + ul, section p + ol {
-  margin-top: 0.8em;
-}
-
-section ul ul, section ol ol {
-  font-size: 28px;
-}
-
-/* Table styling */
-section table {
-  border-collapse: collapse;
-  border: 1px solid #d1d5db;
-}
-
-section table th,
-section table td {
-  border: 1px solid #d1d5db;
-  font-size: 32px;
-  font-weight: normal;
-}
-
-section table th {
-  font-weight: 600;
-}
-
-/* Emphasis and links */
-section strong {
-  color: var(--color-primary);
-  font-weight: 600;
-}
-
-section a {
-  color: var(--color-accent);
-  text-decoration: none;
-}
-
-/* Callout boxes (blockquotes) */
-section blockquote {
-  background-color: var(--color-callout-bg);
-  border-left: 4px solid var(--color-callout-border);
-  border-radius: 0 8px 8px 0;
-  padding: 24px 32px;
-  margin: 24px 0;
-  font-size: 34px;
-}
-
-section blockquote p {
-  margin: 0;
-  font-size: 34px;
-}
-
-/* Footer styling */
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 16px 70px;
-  background-color: var(--color-primary);
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* Page numbers - &quot;X of Y&quot; format */
-section::after {
-  position: absolute;
-  bottom: 16px;
-  right: 70px;
-  font-size: 18px;
-  font-weight: 500;
-  color: #ffffff;
-  content: attr(data-marpit-pagination) ' of ' attr(data-marpit-pagination-total);
-}
-
-/* Hide pagination on title, section-break, and statement slides */
-section.title-slide::after,
-section.section-break::after,
-section.statement::after {
-  display: none;
-}
-
-/* Smaller text utility classes */
-section.very-small-text p,
-section.very-small-text ul,
-section.very-small-text ol {
-  font-size: 24px;
-}
-
-section.small-text p,
-section.small-text ul,
-section.small-text ol {
-  font-size: 28px;
-}
-
-/* Title slide styling */
-section.title-slide {
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center;
-  background: linear-gradient(135deg, var(--color-primary) 0%, #2d5a8a 100%);
-  color: #ffffff;
-}
-
-section.title-slide h1 {
-  font-size: 72px;
-  color: #ffffff;
-  margin-bottom: 16px;
-}
-
-section.title-slide h2 {
-  font-size: 48px;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.9);
-}
-
-section.title-slide strong {
-  color: #ffffff;
-  font-weight: 600;
-}
-
-section.title-slide h3 {
-  font-size: 28px;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-section.title-slide a {
-  color: #ffffff;
-}
-
-/* Section break slides */
-section.section-break {
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center;
-  background-color: #f8fafc;
-}
-
-section.section-break h1 {
-  font-size: 64px;
-}
-
-/* Statement slides — single idea, visual emphasis */
-section.statement {
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center;
-  background-color: #f8fafc;
-  padding: 60px 100px;
-}
-
-section.statement h2 {
-  font-size: 48px;
-  line-height: 1.35;
-  color: var(--color-primary);
-  margin-bottom: 32px;
-}
-
-section.statement p {
-  font-size: 34px;
-  color: var(--color-text-light);
-  line-height: 1.5;
-}
-
-/* Two-column layout */
-.columns {
-  display: flex;
-  gap: 48px;
-  align-items: flex-start;
-  width: 100%;
-  margin-top: 16px;
-}
-
-.columns .col {
-  flex: 1;
-}
-
-.columns h3 {
-  font-size: 32px;
-  margin-bottom: 12px;
-}
-
-.columns p, .columns ul {
-  font-size: 34px;
-  line-height: 1.5;
-}
-
-/* Accent highlight for key terms */
-.accent {
-  color: var(--color-accent);
-  font-weight: 600;
-}
-
-/* Citation styling — inline */
-.cite {
-  font-size: 25px;
-  color: #9ca3af;
-  font-weight: 400;
-}
-
-/* Citation styling — slide-level, bottom right */
-.cite-slide {
-  position: absolute;
-  bottom: 50px;
-  right: 70px;
-  font-size: 25px;
-  color: #9ca3af;
-  font-weight: 400;
-}
-
-/* Float image utilities */
-section.has-float-image {
-  display: block;
-}
-
-img.float-right {
-  float: right;
-  margin-left: 24px;
-  margin-bottom: 16px;
-}
-;" data-marpit-pagination-total="18">
+;" data-marpit-pagination-total="17">
 <h2 id="when-change-becomes-continuous">When change becomes continuous</h2>
 <p>Currently: Curriculum changes subject to committee timelines, human bottlenecks, and coordination complexity across teams.</p>
 <p>With <strong>queryable infrastructure</strong>, stakeholders ask questions and the graph provides real-time feedback:</p>
@@ -7706,7 +7143,7 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-" lang="en-GB" class="statement" data-marpit-pagination="14" style="--paginate:true;--class:statement;--theme:default;--style:/* CSS variables for consistent theming */
+" lang="en-GB" class="statement" data-marpit-pagination="13" style="--paginate:true;--class:statement;--theme:default;--style:/* CSS variables for consistent theming */
 :root {
   --color-primary: #1e3a5f;
   --color-accent: #2563eb;
@@ -7986,7 +7423,7 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-;" data-marpit-pagination-total="18">
+;" data-marpit-pagination-total="17">
 <h2 id="governance-that-runs-on-annual-review-cycles-cannot-verify-a-curriculum-that-changes-continuously">Governance that runs on annual review cycles cannot verify a curriculum that changes continuously.</h2>
 <p>This is not an efficiency argument. It is a governance argument and the question is whether institutions build this capability or wait for vendors to define it for them.</p>
 </section>
@@ -8270,7 +7707,7 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-" lang="en-GB" class="small-text" data-marpit-pagination="15" style="--paginate:true;--class:small-text;--theme:default;--style:/* CSS variables for consistent theming */
+" lang="en-GB" class="small-text" data-marpit-pagination="14" style="--paginate:true;--class:small-text;--theme:default;--style:/* CSS variables for consistent theming */
 :root {
   --color-primary: #1e3a5f;
   --color-accent: #2563eb;
@@ -8550,7 +7987,7 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-;" data-marpit-pagination-total="18">
+;" data-marpit-pagination-total="17">
 <h2 id="related-work">Related work</h2>
 <p>Rowe, M. (2026). Documentation becomes infrastructure when AI agents are the readers.</p>
 <p>Rowe, M., &amp; Lynch, W. (2025). Beyond document management: Graph infrastructure for professional education curricula.</p>
@@ -8839,7 +8276,7 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-" lang="en-GB" class="title-slide" data-marpit-pagination="16" style="--paginate:true;--class:title-slide;--theme:default;--style:/* CSS variables for consistent theming */
+" lang="en-GB" class="title-slide" data-marpit-pagination="15" style="--paginate:true;--class:title-slide;--theme:default;--style:/* CSS variables for consistent theming */
 :root {
   --color-primary: #1e3a5f;
   --color-accent: #2563eb;
@@ -9119,12 +8556,579 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-;" data-marpit-pagination-total="18">
+;" data-marpit-pagination-total="17">
 <h1 id="thank-you">Thank you</h1>
 <p>Michael Rowe (<a href="mailto:mrowe@lincoln.ac.uk">mrowe@lincoln.ac.uk</a>)<br />
 Wesley Lynch (<a href="mailto:wesley@snapplify.com">wesley@snapplify.com</a>)</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="17" data-paginate="true" data-class="small-text" data-theme="default" data-style="/* CSS variables for consistent theming */
+:root {
+  --color-primary: #1e3a5f;
+  --color-accent: #2563eb;
+  --color-text: #1f2937;
+  --color-text-light: #4b5563;
+  --color-background: #ffffff;
+  --color-callout-bg: #f0f7ff;
+  --color-callout-border: #2563eb;
+}
+
+/* Base styles for all slides */
+section {
+  font-family: 'Inter', system-ui, sans-serif;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  padding: 60px 70px 80px 70px;
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+/* Typography settings */
+section h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 24px;
+}
+
+section h2 {
+  font-size: 46px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+section h3 {
+  font-size: 34px;
+  font-weight: 600;
+  color: var(--color-text-light);
+}
+
+section p {
+  font-size: 36px;
+  line-height: 1.25;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+section ul, section ol {
+  font-size: 32px;
+  line-height: 1.25;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+section p + p, section ul + p, section ol + p,
+section p + ul, section p + ol {
+  margin-top: 0.8em;
+}
+
+section ul ul, section ol ol {
+  font-size: 28px;
+}
+
+/* Table styling */
+section table {
+  border-collapse: collapse;
+  border: 1px solid #d1d5db;
+}
+
+section table th,
+section table td {
+  border: 1px solid #d1d5db;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+section table th {
+  font-weight: 600;
+}
+
+/* Emphasis and links */
+section strong {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+section a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+/* Callout boxes (blockquotes) */
+section blockquote {
+  background-color: var(--color-callout-bg);
+  border-left: 4px solid var(--color-callout-border);
+  border-radius: 0 8px 8px 0;
+  padding: 24px 32px;
+  margin: 24px 0;
+  font-size: 34px;
+}
+
+section blockquote p {
+  margin: 0;
+  font-size: 34px;
+}
+
+/* Footer styling */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px 70px;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Page numbers - &quot;X of Y&quot; format */
+section::after {
+  position: absolute;
+  bottom: 16px;
+  right: 70px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  content: attr(data-marpit-pagination) ' of ' attr(data-marpit-pagination-total);
+}
+
+/* Hide pagination on title, section-break, and statement slides */
+section.title-slide::after,
+section.section-break::after,
+section.statement::after {
+  display: none;
+}
+
+/* Smaller text utility classes */
+section.very-small-text p,
+section.very-small-text ul,
+section.very-small-text ol {
+  font-size: 24px;
+}
+
+section.small-text p,
+section.small-text ul,
+section.small-text ol {
+  font-size: 28px;
+}
+
+/* Title slide styling */
+section.title-slide {
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+  background: linear-gradient(135deg, var(--color-primary) 0%, #2d5a8a 100%);
+  color: #ffffff;
+}
+
+section.title-slide h1 {
+  font-size: 72px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+section.title-slide h2 {
+  font-size: 48px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+section.title-slide strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+section.title-slide h3 {
+  font-size: 28px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+section.title-slide a {
+  color: #ffffff;
+}
+
+/* Section break slides */
+section.section-break {
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+  background-color: #f8fafc;
+}
+
+section.section-break h1 {
+  font-size: 64px;
+}
+
+/* Statement slides — single idea, visual emphasis */
+section.statement {
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+  background-color: #f8fafc;
+  padding: 60px 100px;
+}
+
+section.statement h2 {
+  font-size: 48px;
+  line-height: 1.35;
+  color: var(--color-primary);
+  margin-bottom: 32px;
+}
+
+section.statement p {
+  font-size: 34px;
+  color: var(--color-text-light);
+  line-height: 1.5;
+}
+
+/* Two-column layout */
+.columns {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.columns .col {
+  flex: 1;
+}
+
+.columns h3 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.columns p, .columns ul {
+  font-size: 34px;
+  line-height: 1.5;
+}
+
+/* Accent highlight for key terms */
+.accent {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+/* Citation styling — inline */
+.cite {
+  font-size: 25px;
+  color: #9ca3af;
+  font-weight: 400;
+}
+
+/* Citation styling — slide-level, bottom right */
+.cite-slide {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+  font-size: 25px;
+  color: #9ca3af;
+  font-weight: 400;
+}
+
+/* Float image utilities */
+section.has-float-image {
+  display: block;
+}
+
+img.float-right {
+  float: right;
+  margin-left: 24px;
+  margin-bottom: 16px;
+}
+" lang="en-GB" class="small-text" data-marpit-pagination="16" style="--paginate:true;--class:small-text;--theme:default;--style:/* CSS variables for consistent theming */
+:root {
+  --color-primary: #1e3a5f;
+  --color-accent: #2563eb;
+  --color-text: #1f2937;
+  --color-text-light: #4b5563;
+  --color-background: #ffffff;
+  --color-callout-bg: #f0f7ff;
+  --color-callout-border: #2563eb;
+}
+
+/* Base styles for all slides */
+section {
+  font-family: 'Inter', system-ui, sans-serif;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  padding: 60px 70px 80px 70px;
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+/* Typography settings */
+section h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 24px;
+}
+
+section h2 {
+  font-size: 46px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+section h3 {
+  font-size: 34px;
+  font-weight: 600;
+  color: var(--color-text-light);
+}
+
+section p {
+  font-size: 36px;
+  line-height: 1.25;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+section ul, section ol {
+  font-size: 32px;
+  line-height: 1.25;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+section p + p, section ul + p, section ol + p,
+section p + ul, section p + ol {
+  margin-top: 0.8em;
+}
+
+section ul ul, section ol ol {
+  font-size: 28px;
+}
+
+/* Table styling */
+section table {
+  border-collapse: collapse;
+  border: 1px solid #d1d5db;
+}
+
+section table th,
+section table td {
+  border: 1px solid #d1d5db;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+section table th {
+  font-weight: 600;
+}
+
+/* Emphasis and links */
+section strong {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+section a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+/* Callout boxes (blockquotes) */
+section blockquote {
+  background-color: var(--color-callout-bg);
+  border-left: 4px solid var(--color-callout-border);
+  border-radius: 0 8px 8px 0;
+  padding: 24px 32px;
+  margin: 24px 0;
+  font-size: 34px;
+}
+
+section blockquote p {
+  margin: 0;
+  font-size: 34px;
+}
+
+/* Footer styling */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px 70px;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Page numbers - &quot;X of Y&quot; format */
+section::after {
+  position: absolute;
+  bottom: 16px;
+  right: 70px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  content: attr(data-marpit-pagination) ' of ' attr(data-marpit-pagination-total);
+}
+
+/* Hide pagination on title, section-break, and statement slides */
+section.title-slide::after,
+section.section-break::after,
+section.statement::after {
+  display: none;
+}
+
+/* Smaller text utility classes */
+section.very-small-text p,
+section.very-small-text ul,
+section.very-small-text ol {
+  font-size: 24px;
+}
+
+section.small-text p,
+section.small-text ul,
+section.small-text ol {
+  font-size: 28px;
+}
+
+/* Title slide styling */
+section.title-slide {
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+  background: linear-gradient(135deg, var(--color-primary) 0%, #2d5a8a 100%);
+  color: #ffffff;
+}
+
+section.title-slide h1 {
+  font-size: 72px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+section.title-slide h2 {
+  font-size: 48px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+section.title-slide strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+section.title-slide h3 {
+  font-size: 28px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+section.title-slide a {
+  color: #ffffff;
+}
+
+/* Section break slides */
+section.section-break {
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+  background-color: #f8fafc;
+}
+
+section.section-break h1 {
+  font-size: 64px;
+}
+
+/* Statement slides — single idea, visual emphasis */
+section.statement {
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+  background-color: #f8fafc;
+  padding: 60px 100px;
+}
+
+section.statement h2 {
+  font-size: 48px;
+  line-height: 1.35;
+  color: var(--color-primary);
+  margin-bottom: 32px;
+}
+
+section.statement p {
+  font-size: 34px;
+  color: var(--color-text-light);
+  line-height: 1.5;
+}
+
+/* Two-column layout */
+.columns {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.columns .col {
+  flex: 1;
+}
+
+.columns h3 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.columns p, .columns ul {
+  font-size: 34px;
+  line-height: 1.5;
+}
+
+/* Accent highlight for key terms */
+.accent {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+/* Citation styling — inline */
+.cite {
+  font-size: 25px;
+  color: #9ca3af;
+  font-weight: 400;
+}
+
+/* Citation styling — slide-level, bottom right */
+.cite-slide {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+  font-size: 25px;
+  color: #9ca3af;
+  font-weight: 400;
+}
+
+/* Float image utilities */
+section.has-float-image {
+  display: block;
+}
+
+img.float-right {
+  float: right;
+  margin-left: 24px;
+  margin-bottom: 16px;
+}
+;" data-marpit-pagination-total="17">
+<h2 id="references-12">References (1/2)</h2>
+<p>Abu-Salih, B., &amp; Alotaibi, S. (2024). A systematic literature review of knowledge graph construction and application in education. <em>Heliyon</em>, <em>10</em>(3), e25383. <a href="https://doi.org/10.1016/j.heliyon.2024.e25383">https://doi.org/10.1016/j.heliyon.2024.e25383</a></p>
+<p>Anthropic. (2024, November 25). Introducing the Model Context Protocol. <a href="https://www.anthropic.com/news/model-context-protocol">https://www.anthropic.com/news/model-context-protocol</a></p>
+<p>Hilliger, I., Miranda, C., Celis, S., &amp; Perez-Sanagustin, M. (2024). Curriculum analytics adoption in higher education: A multiple case study engaging stakeholders in different phases of design. <em>British Journal of Educational Technology</em>, <em>55</em>(3), 785–801. <a href="https://doi.org/10.1111/bjet.13374">https://doi.org/10.1111/bjet.13374</a></p>
+<p>Rowe, M. (2026). Documentation becomes infrastructure when AI agents are the readers. <a href="https://michael-rowe.github.io/emergent-scholarship/Essays/documentation-as-infrastructure/">https://michael-rowe.github.io/emergent-scholarship/Essays/documentation-as-infrastructure/</a></p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="18" data-paginate="true" data-class="small-text" data-theme="default" data-style="/* CSS variables for consistent theming */
 :root {
   --color-primary: #1e3a5f;
   --color-accent: #2563eb;
@@ -9684,574 +9688,7 @@ img.float-right {
   margin-left: 24px;
   margin-bottom: 16px;
 }
-;" data-marpit-pagination-total="18">
-<h2 id="references-12">References (1/2)</h2>
-<p>Abu-Salih, B., &amp; Alotaibi, S. (2024). A systematic literature review of knowledge graph construction and application in education. <em>Heliyon</em>, <em>10</em>(3), e25383. <a href="https://doi.org/10.1016/j.heliyon.2024.e25383">https://doi.org/10.1016/j.heliyon.2024.e25383</a></p>
-<p>Anthropic. (2024, November 25). Introducing the Model Context Protocol. <a href="https://www.anthropic.com/news/model-context-protocol">https://www.anthropic.com/news/model-context-protocol</a></p>
-<p>Hilliger, I., Miranda, C., Celis, S., &amp; Perez-Sanagustin, M. (2024). Curriculum analytics adoption in higher education: A multiple case study engaging stakeholders in different phases of design. <em>British Journal of Educational Technology</em>, <em>55</em>(3), 785–801. <a href="https://doi.org/10.1111/bjet.13374">https://doi.org/10.1111/bjet.13374</a></p>
-<p>Rowe, M. (2026). Documentation becomes infrastructure when AI agents are the readers. <a href="https://michael-rowe.github.io/emergent-scholarship/Essays/documentation-as-infrastructure/">https://michael-rowe.github.io/emergent-scholarship/Essays/documentation-as-infrastructure/</a></p>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="18" data-paginate="true" data-class="small-text" data-theme="default" data-style="/* CSS variables for consistent theming */
-:root {
-  --color-primary: #1e3a5f;
-  --color-accent: #2563eb;
-  --color-text: #1f2937;
-  --color-text-light: #4b5563;
-  --color-background: #ffffff;
-  --color-callout-bg: #f0f7ff;
-  --color-callout-border: #2563eb;
-}
-
-/* Base styles for all slides */
-section {
-  font-family: 'Inter', system-ui, sans-serif;
-  justify-content: flex-start !important;
-  align-items: flex-start !important;
-  padding: 60px 70px 80px 70px;
-  color: var(--color-text);
-  background-color: var(--color-background);
-}
-
-/* Typography settings */
-section h1 {
-  font-size: 60px;
-  font-weight: 700;
-  color: var(--color-primary);
-  margin-bottom: 24px;
-}
-
-section h2 {
-  font-size: 46px;
-  font-weight: 600;
-  color: var(--color-primary);
-}
-
-section h3 {
-  font-size: 34px;
-  font-weight: 600;
-  color: var(--color-text-light);
-}
-
-section p {
-  font-size: 36px;
-  line-height: 1.25;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-}
-
-section ul, section ol {
-  font-size: 32px;
-  line-height: 1.25;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-}
-
-section p + p, section ul + p, section ol + p,
-section p + ul, section p + ol {
-  margin-top: 0.8em;
-}
-
-section ul ul, section ol ol {
-  font-size: 28px;
-}
-
-/* Table styling */
-section table {
-  border-collapse: collapse;
-  border: 1px solid #d1d5db;
-}
-
-section table th,
-section table td {
-  border: 1px solid #d1d5db;
-  font-size: 32px;
-  font-weight: normal;
-}
-
-section table th {
-  font-weight: 600;
-}
-
-/* Emphasis and links */
-section strong {
-  color: var(--color-primary);
-  font-weight: 600;
-}
-
-section a {
-  color: var(--color-accent);
-  text-decoration: none;
-}
-
-/* Callout boxes (blockquotes) */
-section blockquote {
-  background-color: var(--color-callout-bg);
-  border-left: 4px solid var(--color-callout-border);
-  border-radius: 0 8px 8px 0;
-  padding: 24px 32px;
-  margin: 24px 0;
-  font-size: 34px;
-}
-
-section blockquote p {
-  margin: 0;
-  font-size: 34px;
-}
-
-/* Footer styling */
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 16px 70px;
-  background-color: var(--color-primary);
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* Page numbers - &quot;X of Y&quot; format */
-section::after {
-  position: absolute;
-  bottom: 16px;
-  right: 70px;
-  font-size: 18px;
-  font-weight: 500;
-  color: #ffffff;
-  content: attr(data-marpit-pagination) ' of ' attr(data-marpit-pagination-total);
-}
-
-/* Hide pagination on title, section-break, and statement slides */
-section.title-slide::after,
-section.section-break::after,
-section.statement::after {
-  display: none;
-}
-
-/* Smaller text utility classes */
-section.very-small-text p,
-section.very-small-text ul,
-section.very-small-text ol {
-  font-size: 24px;
-}
-
-section.small-text p,
-section.small-text ul,
-section.small-text ol {
-  font-size: 28px;
-}
-
-/* Title slide styling */
-section.title-slide {
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center;
-  background: linear-gradient(135deg, var(--color-primary) 0%, #2d5a8a 100%);
-  color: #ffffff;
-}
-
-section.title-slide h1 {
-  font-size: 72px;
-  color: #ffffff;
-  margin-bottom: 16px;
-}
-
-section.title-slide h2 {
-  font-size: 48px;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.9);
-}
-
-section.title-slide strong {
-  color: #ffffff;
-  font-weight: 600;
-}
-
-section.title-slide h3 {
-  font-size: 28px;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-section.title-slide a {
-  color: #ffffff;
-}
-
-/* Section break slides */
-section.section-break {
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center;
-  background-color: #f8fafc;
-}
-
-section.section-break h1 {
-  font-size: 64px;
-}
-
-/* Statement slides — single idea, visual emphasis */
-section.statement {
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center;
-  background-color: #f8fafc;
-  padding: 60px 100px;
-}
-
-section.statement h2 {
-  font-size: 48px;
-  line-height: 1.35;
-  color: var(--color-primary);
-  margin-bottom: 32px;
-}
-
-section.statement p {
-  font-size: 34px;
-  color: var(--color-text-light);
-  line-height: 1.5;
-}
-
-/* Two-column layout */
-.columns {
-  display: flex;
-  gap: 48px;
-  align-items: flex-start;
-  width: 100%;
-  margin-top: 16px;
-}
-
-.columns .col {
-  flex: 1;
-}
-
-.columns h3 {
-  font-size: 32px;
-  margin-bottom: 12px;
-}
-
-.columns p, .columns ul {
-  font-size: 34px;
-  line-height: 1.5;
-}
-
-/* Accent highlight for key terms */
-.accent {
-  color: var(--color-accent);
-  font-weight: 600;
-}
-
-/* Citation styling — inline */
-.cite {
-  font-size: 25px;
-  color: #9ca3af;
-  font-weight: 400;
-}
-
-/* Citation styling — slide-level, bottom right */
-.cite-slide {
-  position: absolute;
-  bottom: 50px;
-  right: 70px;
-  font-size: 25px;
-  color: #9ca3af;
-  font-weight: 400;
-}
-
-/* Float image utilities */
-section.has-float-image {
-  display: block;
-}
-
-img.float-right {
-  float: right;
-  margin-left: 24px;
-  margin-bottom: 16px;
-}
-" lang="en-GB" class="small-text" data-marpit-pagination="18" style="--paginate:true;--class:small-text;--theme:default;--style:/* CSS variables for consistent theming */
-:root {
-  --color-primary: #1e3a5f;
-  --color-accent: #2563eb;
-  --color-text: #1f2937;
-  --color-text-light: #4b5563;
-  --color-background: #ffffff;
-  --color-callout-bg: #f0f7ff;
-  --color-callout-border: #2563eb;
-}
-
-/* Base styles for all slides */
-section {
-  font-family: 'Inter', system-ui, sans-serif;
-  justify-content: flex-start !important;
-  align-items: flex-start !important;
-  padding: 60px 70px 80px 70px;
-  color: var(--color-text);
-  background-color: var(--color-background);
-}
-
-/* Typography settings */
-section h1 {
-  font-size: 60px;
-  font-weight: 700;
-  color: var(--color-primary);
-  margin-bottom: 24px;
-}
-
-section h2 {
-  font-size: 46px;
-  font-weight: 600;
-  color: var(--color-primary);
-}
-
-section h3 {
-  font-size: 34px;
-  font-weight: 600;
-  color: var(--color-text-light);
-}
-
-section p {
-  font-size: 36px;
-  line-height: 1.25;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-}
-
-section ul, section ol {
-  font-size: 32px;
-  line-height: 1.25;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-}
-
-section p + p, section ul + p, section ol + p,
-section p + ul, section p + ol {
-  margin-top: 0.8em;
-}
-
-section ul ul, section ol ol {
-  font-size: 28px;
-}
-
-/* Table styling */
-section table {
-  border-collapse: collapse;
-  border: 1px solid #d1d5db;
-}
-
-section table th,
-section table td {
-  border: 1px solid #d1d5db;
-  font-size: 32px;
-  font-weight: normal;
-}
-
-section table th {
-  font-weight: 600;
-}
-
-/* Emphasis and links */
-section strong {
-  color: var(--color-primary);
-  font-weight: 600;
-}
-
-section a {
-  color: var(--color-accent);
-  text-decoration: none;
-}
-
-/* Callout boxes (blockquotes) */
-section blockquote {
-  background-color: var(--color-callout-bg);
-  border-left: 4px solid var(--color-callout-border);
-  border-radius: 0 8px 8px 0;
-  padding: 24px 32px;
-  margin: 24px 0;
-  font-size: 34px;
-}
-
-section blockquote p {
-  margin: 0;
-  font-size: 34px;
-}
-
-/* Footer styling */
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 16px 70px;
-  background-color: var(--color-primary);
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* Page numbers - &quot;X of Y&quot; format */
-section::after {
-  position: absolute;
-  bottom: 16px;
-  right: 70px;
-  font-size: 18px;
-  font-weight: 500;
-  color: #ffffff;
-  content: attr(data-marpit-pagination) ' of ' attr(data-marpit-pagination-total);
-}
-
-/* Hide pagination on title, section-break, and statement slides */
-section.title-slide::after,
-section.section-break::after,
-section.statement::after {
-  display: none;
-}
-
-/* Smaller text utility classes */
-section.very-small-text p,
-section.very-small-text ul,
-section.very-small-text ol {
-  font-size: 24px;
-}
-
-section.small-text p,
-section.small-text ul,
-section.small-text ol {
-  font-size: 28px;
-}
-
-/* Title slide styling */
-section.title-slide {
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center;
-  background: linear-gradient(135deg, var(--color-primary) 0%, #2d5a8a 100%);
-  color: #ffffff;
-}
-
-section.title-slide h1 {
-  font-size: 72px;
-  color: #ffffff;
-  margin-bottom: 16px;
-}
-
-section.title-slide h2 {
-  font-size: 48px;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.9);
-}
-
-section.title-slide strong {
-  color: #ffffff;
-  font-weight: 600;
-}
-
-section.title-slide h3 {
-  font-size: 28px;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-section.title-slide a {
-  color: #ffffff;
-}
-
-/* Section break slides */
-section.section-break {
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center;
-  background-color: #f8fafc;
-}
-
-section.section-break h1 {
-  font-size: 64px;
-}
-
-/* Statement slides — single idea, visual emphasis */
-section.statement {
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center;
-  background-color: #f8fafc;
-  padding: 60px 100px;
-}
-
-section.statement h2 {
-  font-size: 48px;
-  line-height: 1.35;
-  color: var(--color-primary);
-  margin-bottom: 32px;
-}
-
-section.statement p {
-  font-size: 34px;
-  color: var(--color-text-light);
-  line-height: 1.5;
-}
-
-/* Two-column layout */
-.columns {
-  display: flex;
-  gap: 48px;
-  align-items: flex-start;
-  width: 100%;
-  margin-top: 16px;
-}
-
-.columns .col {
-  flex: 1;
-}
-
-.columns h3 {
-  font-size: 32px;
-  margin-bottom: 12px;
-}
-
-.columns p, .columns ul {
-  font-size: 34px;
-  line-height: 1.5;
-}
-
-/* Accent highlight for key terms */
-.accent {
-  color: var(--color-accent);
-  font-weight: 600;
-}
-
-/* Citation styling — inline */
-.cite {
-  font-size: 25px;
-  color: #9ca3af;
-  font-weight: 400;
-}
-
-/* Citation styling — slide-level, bottom right */
-.cite-slide {
-  position: absolute;
-  bottom: 50px;
-  right: 70px;
-  font-size: 25px;
-  color: #9ca3af;
-  font-weight: 400;
-}
-
-/* Float image utilities */
-section.has-float-image {
-  display: block;
-}
-
-img.float-right {
-  float: right;
-  margin-left: 24px;
-  margin-bottom: 16px;
-}
-;" data-marpit-pagination-total="18">
+;" data-marpit-pagination-total="17">
 <h2 id="references-22">References (2/2)</h2>
 <p>UCISA. (2025). <em>Higher Education Reference Models</em>. <a href="https://www.ucisa.ac.uk/groups/enterprise-architecture/herm">https://www.ucisa.ac.uk/groups/enterprise-architecture/herm</a></p>
 <p>Wang, Q., Hou, S., Wan, S., Feng, X., &amp; Feng, H. (2025). Applying Knowledge Graph to Interdisciplinary Higher Education. <em>European Journal of Education</em>, <em>60</em>(2), e70078. <a href="https://doi.org/10.1111/ejed.70078">https://doi.org/10.1111/ejed.70078</a></p>
