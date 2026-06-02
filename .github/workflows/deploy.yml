@@ -33,6 +33,16 @@ jobs:
       - name: Build Quartz
         run: npx quartz build
 
+      - name: Check internal links
+        run: |
+          curl -fsSL "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.2/lychee-x86_64-unknown-linux-musl.tar.gz" -o lychee.tar.gz
+          tar xzf lychee.tar.gz --strip-components=1 lychee-x86_64-unknown-linux-musl/lychee
+          # Quartz emits extensionless URLs (files are .html) -> --fallback-extensions html.
+          # Map the GitHub Pages base path (/home-michael) onto the built output so
+          # root-relative links resolve and are genuinely checked, not skipped.
+          ln -sfn public home-michael
+          ./lychee --offline --fallback-extensions html --root-dir "$PWD" --no-progress 'public/**/*.html'
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

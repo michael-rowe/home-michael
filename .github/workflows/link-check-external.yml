@@ -1,0 +1,38 @@
+name: Check external links (weekly)
+
+# Verifies outbound http(s) links across the built site. Runs on a schedule
+# (and on demand) and is intentionally separate from deploy.yml: a red run
+# here reports external link rot but never blocks a deploy.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  external-links:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Quartz
+        run: npx quartz build
+
+      - name: Check external links
+        run: |
+          curl -fsSL "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.2/lychee-x86_64-unknown-linux-musl.tar.gz" -o lychee.tar.gz
+          tar xzf lychee.tar.gz --strip-components=1 lychee-x86_64-unknown-linux-musl/lychee
+          # --scheme http/https restricts to external links (skips local file links,
+          # which the deploy gate already covers). Retries + accepted codes reduce
+          # noise from rate limiting and transient failures.
+          ./lychee --scheme http --scheme https --max-retries 3 --accept 200,206,429 --no-progress 'public/**/*.html'
