@@ -32,7 +32,7 @@ The answer I first reached for was wrong. I told myself the output wasn't quite 
 
 The real issue was simpler and more uncomfortable: I had built my identity around a particular tool. "I'm a writer" was load-bearing in how I understood myself as an academic. The writing was the most visible part of the process, so it had become the identity. And now the tool was threatened, which felt like the identity was threatened.
 
-Jussupow, Heinzl and Spohrer (2018) studied this pattern in medical professionals facing AI: when a technology challenges the knowledge that defines your [[professional identity]], the threat lands not just as inconvenience but as something closer to existential. The most relevant dimension they identify is threat to *expertise* — the sense that what made you distinctively you is no longer distinctively yours.
+Jussupow, Heinzl and Spohrer (2018) studied this pattern in medical professionals facing AI: when a technology challenges the knowledge that defines your professional identity, the threat lands not just as inconvenience but as something closer to existential. The most relevant dimension they identify is threat to *expertise* — the sense that what made you distinctively you is no longer distinctively yours.
 
 What I worked out is that I had misidentified the expertise. The words were never the distinctive part. They were always reproducible — by me, on a good day, and it turns out by AI, on most days. The thing that wasn't reproducible was upstream of the words entirely.
 

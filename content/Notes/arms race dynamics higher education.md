@@ -33,7 +33,7 @@ linkedin:
 
 **One-sentence definition:** A pattern where institutions and students escalate defensive measures against each other in ways that displace educational goals, driven by misaligned incentives, trust deficits, and fixation on measurable proxies.
 
-Harland and Wald (2021) applied the arms race metaphor to higher education assessment, describing how modular systems created competition between academics for student attention, mediated through grades. Students wouldn't work without grades, academics wouldn't set ungraded assignments, and cumulative averaging made every grade high-stakes. Educational benefit became secondary to [[assessment as an arms race|grade accumulation]]. The same structural pattern now appears in institutional responses to [[how to create an AI arms race dynamics in university assessment|AI tools]]—prohibition without purpose, detection-focused responses, punitive frameworks—creating adversarial dynamics where students develop increasingly sophisticated evasion methods.
+Harland and Wald (2021) applied the arms race metaphor to higher education assessment, describing how modular systems created competition between academics for student attention, mediated through grades. Students wouldn't work without grades, academics wouldn't set ungraded assignments, and cumulative averaging made every grade high-stakes. Educational benefit became secondary to grade accumulation. The same structural pattern now appears in institutional responses to AI tools—prohibition without purpose, detection-focused responses, punitive frameworks—creating adversarial dynamics where students develop increasingly sophisticated evasion methods.
 
 ## Conditions that create educational arms races
 
@@ -53,7 +53,7 @@ That distinction matters for intervention. If it's truly mutual escalation, you 
 
 ## When it matters
 
-Arms race dynamics are most visible in contexts where institutions attempt to control student behaviour through prohibition and surveillance rather than through aligned incentives and transparent rationale. High-stakes assessment environments, technology adoption periods, and academic integrity policies all create conditions where these dynamics can emerge. Recognition matters because it shifts focus from "how do we catch rule-breakers?" to "what about our system creates rule-breaking as a logical response?" These dynamics reflect deeper [[asymmetric power dynamics]] between institutions and students.
+Arms race dynamics are most visible in contexts where institutions attempt to control student behaviour through prohibition and surveillance rather than through aligned incentives and transparent rationale. High-stakes assessment environments, technology adoption periods, and academic integrity policies all create conditions where these dynamics can emerge. Recognition matters because it shifts focus from "how do we catch rule-breakers?" to "what about our system creates rule-breaking as a logical response?" These dynamics reflect deeper asymmetric power dynamics between institutions and students.
 
 ## Sources
 

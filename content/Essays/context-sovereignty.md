@@ -6,7 +6,7 @@ description: This essay proposes 'context sovereignty' as a framework for mainta
 meta-description: Proposing 'context sovereignty for AI-supported learning' as a framework for maintaining human agency in AI-supported learning environments.
 author:
   - "[[Michael Rowe]]"
-  - "[[Wesley Lynch]]"
+  - "Wesley Lynch"
 affiliation:
   - University of Lincoln
   - Snapplify

@@ -43,7 +43,7 @@ Git operates through a few core ideas:
 
 ### What it looks like in practice
 
-For scholarly work, git means that every essay, note, or dataset has a complete revision history. You can see exactly what changed between drafts, recover deleted content, and share the development process — not just the final output. This is one mechanism behind the [[open scholarship]] principle that making the process visible is itself a form of scholarly contribution.
+For scholarly work, git means that every essay, note, or dataset has a complete revision history. You can see exactly what changed between drafts, recover deleted content, and share the development process — not just the final output. This is one mechanism behind the open scholarship principle that making the process visible is itself a form of scholarly contribution.
 
 For collaborative work, git allows contributors to work independently and merge their contributions, with conflicts surfaced explicitly rather than silently overwritten.
 

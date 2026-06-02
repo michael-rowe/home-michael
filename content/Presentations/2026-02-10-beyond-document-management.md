@@ -6,7 +6,7 @@ description: "Professional education curricula face a fundamental infrastructure
 meta-description: A contributed presentation at the Advance HE AI Symposium 2026 proposing graph database infrastructure for queryable professional education curricula.
 author:
   - "[[Michael Rowe]]"
-  - "[[Wesley Lynch]]"
+  - "Wesley Lynch"
 date: 2026-02-10
 event: Advance HE AI Symposium
 host: Advance HE
@@ -32,7 +32,7 @@ linkedin:
 
 **Advance HE AI Symposium** · Online · 10 February 2026
 
-*Contributed presentation with [[Wesley Lynch]] (Snapplify)*
+*Contributed presentation with Wesley Lynch (Snapplify)*
 
 ## Abstract
 
