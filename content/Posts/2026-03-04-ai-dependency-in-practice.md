@@ -15,9 +15,9 @@ tags:
 category:
   - Technology
 related:
-  - "[[2026-03-03-ai-agent-governance-higher-education]]"
-  - "[[2026-02-18-switching-to-claude-sonnet-4-6]]"
-  - "[[AI-forward]]"
+  - "[[Posts/2026-03-03-ai-agent-governance-higher-education]]"
+  - "[[Posts/2026-02-18-switching-to-claude-sonnet-4-6]]"
+  - "[[Notes/AI-forward]]"
 draft: false
 slug: posts/ai-dependency-in-practice
 aliases:

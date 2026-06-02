@@ -15,10 +15,10 @@ tags:
   - CLI
 category: Technology
 related:
-  - "[[Notes/large language models]]"
-  - "[[model context protocol]]"
-  - "[[Notes/system prompt]]"
-  - "[[Notes/mcp server]]"
+  - "[[Notes/large-language-models]]"
+  - "[[Notes/model-context-protocol]]"
+  - "[[Notes/system-prompt]]"
+  - "[[Notes/mcp-server]]"
 keyphrase: AI agents for curriculum management
 slug: notes/claude-code
 linkedin:

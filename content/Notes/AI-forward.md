@@ -13,10 +13,10 @@ tags:
 category:
   - AI and technology
 related:
-  - "[[context sovereignty]]"
-  - "[[context engineering]]"
-  - "[[contextual interoperability]]"
-  - "[[intelligence as a service]]"
+  - "[[Notes/context-sovereignty]]"
+  - "[[Notes/context-engineering]]"
+  - "[[Notes/contextual-interoperability]]"
+  - "[[Notes/intelligence-as-a-service]]"
 draft: false
 permalink: ""
 enableToc: true

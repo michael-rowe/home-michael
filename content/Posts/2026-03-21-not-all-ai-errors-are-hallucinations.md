@@ -16,7 +16,7 @@ tags:
 category:
   - Technology
 related:
-  - "[[2026-03-06-claude-deleted-my-file]]"
+  - "[[Posts/2026-03-06-claude-deleted-my-file]]"
 draft: false
 slug: posts/why-ai-makes-spelling-mistakes
 subtype: field-note

@@ -19,7 +19,7 @@ category: Education
 related:
   - "[[Essays/learning-alignment]]"
   - "[[Notes/AI-forward]]"
-  - "[[Notes/AI literacy]]"
+  - "[[Notes/AI-literacy]]"
 keyphrase: "competency-based assessment in the digital age"
 slug: notes/programmatic-assessment
 linkedin:

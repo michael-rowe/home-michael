@@ -17,9 +17,9 @@ category:
   - Education
   - Technology
 related:
-  - "[[AI literacy]]"
-  - "[[large language models]]"
-  - "[[human cognition and LLM parallels]]"
+  - "[[Notes/AI-literacy]]"
+  - "[[Notes/large-language-models]]"
+  - "[[Notes/human-cognition-and-LLM-parallels]]"
 keyphrase: "epistemic accountability"
 slug: notes/epistemic-accountability
 linkedin:

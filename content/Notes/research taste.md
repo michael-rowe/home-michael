@@ -17,8 +17,8 @@ category:
   - Scholarship
 related:
   - "[[Essays/taste-and-judgement]]"
-  - "[[Notes/epistemic accountability]]"
-  - "[[Notes/research industrial complex]]"
+  - "[[Notes/epistemic-accountability]]"
+  - "[[Notes/research-industrial-complex]]"
 keyphrase: "research taste"
 slug: notes/research-taste
 linkedin:

@@ -15,9 +15,9 @@ tags:
   - personal-knowledge-management
 category: AI and technology
 related:
-  - "[[context engineering]]"
-  - "[[contextual interoperability]]"
-  - "[[intelligence as a service]]"
+  - "[[Notes/context-engineering]]"
+  - "[[Notes/contextual-interoperability]]"
+  - "[[Notes/intelligence-as-a-service]]"
 builds_on:
   - "[[context engineering]]"
 leads_to:

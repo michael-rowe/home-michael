@@ -20,7 +20,7 @@ category:
   - Scholarship
 related:
   - "[[Essays/research-harness-doctoral-ai]]"
-  - "[[Research harness]]"
+  - "[[Notes/research-harness]]"
 pdf: research-harness-guide.pdf
 draft: false
 linkedin:

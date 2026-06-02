@@ -21,10 +21,10 @@ tags:
 category:
   - AI and technology
 related:
-  - "[[context sovereignty]]"
-  - "[[context engineering]]"
-  - "[[prompt engineering]]"
-  - "[[model context protocol]]"
+  - "[[Notes/context-sovereignty]]"
+  - "[[Notes/context-engineering]]"
+  - "[[Notes/prompt-engineering]]"
+  - "[[Notes/model-context-protocol]]"
 draft: false
 slug: posts/context-engineering-for-educators
 enableToc: true

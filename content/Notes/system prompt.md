@@ -15,9 +15,9 @@ tags:
   - context
 category: AI and technology
 related:
-  - "[[prompt engineering]]"
-  - "[[context engineering]]"
-  - "[[model context protocol]]"
+  - "[[Notes/prompt-engineering]]"
+  - "[[Notes/context-engineering]]"
+  - "[[Notes/model-context-protocol]]"
 builds_on:
   - "[[prompt engineering]]"
 leads_to:

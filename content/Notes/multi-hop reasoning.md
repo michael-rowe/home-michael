@@ -17,10 +17,10 @@ tags:
   - context-engineering
 category: AI and technology
 related:
-  - '[[context engineering]]'
-  - '[[knowledge graph]]'
-  - '[[graphRAG]]'
-  - '[[prompt engineering]]'
+  - '[[Notes/context-engineering]]'
+  - '[[Notes/knowledge-graph]]'
+  - '[[Notes/graphRAG]]'
+  - '[[Notes/prompt-engineering]]'
 builds_on:
   - '[[knowledge graph]]'
 leads_to: null

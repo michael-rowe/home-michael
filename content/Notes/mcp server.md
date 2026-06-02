@@ -14,10 +14,10 @@ tags:
   - context-engineering
 category: AI and technology
 related:
-  - "[[context engineering]]"
-  - "[[context sovereignty]]"
-  - "[[contextual interoperability]]"
-  - "[[model context protocol]]"
+  - "[[Notes/context-engineering]]"
+  - "[[Notes/context-sovereignty]]"
+  - "[[Notes/contextual-interoperability]]"
+  - "[[Notes/model-context-protocol]]"
 builds_on:
   - "[[model context protocol]]"
 leads_to:

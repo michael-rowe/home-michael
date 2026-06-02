@@ -14,12 +14,12 @@ tags:
   - information-retrieval
 category: AI and technology
 related:
-  - "[[prompt engineering]]"
-  - "[[context engineering]]"
-  - "[[vector database]]"
-  - "[[embeddings]]"
-  - "[[graphRAG]]"
-  - "[[single-hop reasoning]]"
+  - "[[Notes/prompt-engineering]]"
+  - "[[Notes/context-engineering]]"
+  - "[[Notes/vector-database]]"
+  - "[[Notes/embeddings]]"
+  - "[[Notes/graphRAG]]"
+  - "[[Notes/single-hop-reasoning]]"
 builds_on:
   - "[[embeddings]]"
   - "[[vector database]]"

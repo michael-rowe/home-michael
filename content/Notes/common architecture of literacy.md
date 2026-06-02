@@ -14,7 +14,7 @@ tags:
 category:
   - AI and technology
 related:
-  - "[[AI literacy]]"
+  - "[[Notes/AI-literacy]]"
   - "[[information literacy]]"
   - "[[media literacy]]"
   - "[[digital literacy]]"

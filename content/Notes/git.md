@@ -15,7 +15,7 @@ tags:
 category:
   - Technology
 related:
-  - "[[distributed version control]]"
+  - "[[Notes/distributed-version-control]]"
   - "[[open scholarship]]"
 keyphrase: "what is git version control"
 slug: notes/git

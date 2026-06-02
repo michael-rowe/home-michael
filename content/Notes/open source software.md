@@ -16,8 +16,8 @@ tags:
   - software
 category: Philosophy
 related:
-  - "[[Notes/open access licensing]]"
-  - "[[Notes/context sovereignty]]"
+  - "[[Notes/open-access-licensing]]"
+  - "[[Notes/context-sovereignty]]"
 keyphrase: "collaborative development in education"
 slug: notes/open-source-software
 linkedin:

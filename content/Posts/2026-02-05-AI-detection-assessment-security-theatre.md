@@ -19,8 +19,8 @@ category:
   - Assessment
   - AI and technology
 related:
-  - "[[arms race dynamics higher education]]"
-  - "[[2026-01-28-bitter-lesson-higher-education|The bitter lesson for education]]"
+  - "[[Notes/arms-race-dynamics-higher-education]]"
+  - "[[Posts/2026-01-28-bitter-lesson-higher-education]]"
 draft: false
 slug: ai-detection-assessment-security-theatre
 enableToc: true

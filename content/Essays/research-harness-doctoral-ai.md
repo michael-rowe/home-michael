@@ -28,7 +28,7 @@ tags:
   - doctoral-research
 related:
   - "[[Guides/research-harness-guide]]"
-  - "[[Research harness]]"
+  - "[[Notes/research-harness]]"
 category:
   - Education
   - Scholarship

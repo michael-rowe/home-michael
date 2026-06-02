@@ -25,10 +25,10 @@ tags:
   - critical-thinking
   - ai-literacy
 related:
-  - "[[The learning alignment problem: AI and the loss of control in higher education]]"
-  - "[[Taste and judgement in human-AI systems]]"
-  - "[[A theoretical framework for integrating AI into health professions education]]"
-  - "[[Context sovereignty for AI-supported learning: A human-centred approach]]"
+  - "[[Essays/learning-alignment]]"
+  - "[[Essays/taste-and-judgement]]"
+  - "[[Essays/ai-hpe-theoretical-framework]]"
+  - "[[Essays/context-sovereignty]]"
 category:
   - Education
   - Assessment

@@ -16,8 +16,8 @@ tags:
 category:
   - AI and technology
 related:
-  - "[[documentation-as-infrastructure]]"
-  - "[[taste-and-judgement]]"
+  - "[[Essays/documentation-as-infrastructure]]"
+  - "[[Essays/taste-and-judgement]]"
 draft: false
 slug: posts/ai-workflow-for-academics
 aliases:

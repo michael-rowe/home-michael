@@ -15,10 +15,10 @@ tags:
 category:
   - AI and technology
 related:
-  - "[[context sovereignty]]"
-  - "[[knowledge graph]]"
-  - "[[documentation-as-infrastructure]]"
-  - "[[contextual interoperability]]"
+  - "[[Notes/context-sovereignty]]"
+  - "[[Notes/knowledge-graph]]"
+  - "[[Essays/documentation-as-infrastructure]]"
+  - "[[Notes/contextual-interoperability]]"
 draft: false
 slug: posts/organising-notes-for-ai
 enableToc: true

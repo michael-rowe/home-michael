@@ -21,8 +21,8 @@ category:
   - Information management
   - Scholarship
 related:
-  - "[[2026-02-24-ai-ready-knowledge-base]]"
-  - "[[documentation-as-infrastructure]]"
+  - "[[Posts/2026-02-24-ai-ready-knowledge-base]]"
+  - "[[Essays/documentation-as-infrastructure]]"
 draft: true
 slug: posts/structured-notes-academic-productivity
 enableToc: true

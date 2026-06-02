@@ -14,12 +14,12 @@ tags:
   - context-engineering
 category: Knowledge management
 related:
-  - "[[knowledge graph]]"
-  - "[[vector database]]"
-  - "[[graphRAG]]"
-  - "[[multi-hop reasoning]]"
-  - "[[context engineering]]"
-  - "[[mcp server]]"
+  - "[[Notes/knowledge-graph]]"
+  - "[[Notes/vector-database]]"
+  - "[[Notes/graphRAG]]"
+  - "[[Notes/multi-hop-reasoning]]"
+  - "[[Notes/context-engineering]]"
+  - "[[Notes/mcp-server]]"
 builds_on:
 leads_to:
   - "[[knowledge graph]]"

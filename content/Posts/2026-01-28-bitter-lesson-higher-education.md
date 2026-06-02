@@ -18,7 +18,7 @@ tags:
 category:
   - Assessment
 related:
-  - "[[learning-alignment]]"
+  - "[[Essays/learning-alignment]]"
 draft: false
 slug: posts/bitter-lesson-higher-education
 enableToc: true

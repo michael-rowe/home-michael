@@ -16,7 +16,7 @@ tags:
 category:
   - AI and technology
 related:
-  - '[[context engineering]]'
+  - '[[Notes/context-engineering]]'
 builds_on: null
 leads_to:
   - '[[context engineering]]'

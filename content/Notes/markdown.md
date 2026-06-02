@@ -15,10 +15,10 @@ tags:
   - interoperability
 category: Technology
 related:
-  - "[[Notes/plain text]]"
+  - "[[Notes/plain-text]]"
   - "[[Notes/pandoc]]"
   - "[[Notes/latex]]"
-  - "[[Notes/documentation debt]]"
+  - "[[Notes/documentation-debt]]"
 keyphrase: "writing in markdown for portability"
 slug: notes/markdown
 linkedin:

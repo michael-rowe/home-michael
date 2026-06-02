@@ -20,7 +20,7 @@ category:
   - Scholarship
 related:
   - "[[2026-03-00-structured-notes-academic-productivity]]"
-  - "[[2026-02-24-ai-ready-knowledge-base]]"
+  - "[[Posts/2026-02-24-ai-ready-knowledge-base]]"
 draft: true
 slug: posts/getting-started-operational-notes
 enableToc: true

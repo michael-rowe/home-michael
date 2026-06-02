@@ -20,12 +20,12 @@ category:
   - Technology
   - Information management
 related:
-  - "[[prompt engineering]]"
-  - "[[knowledge graph]]"
-  - "[[graphRAG]]"
-  - "[[multi-hop reasoning]]"
-  - "[[retrieval augmented generation]]"
-  - "[[model context protocol]]"
+  - "[[Notes/prompt-engineering]]"
+  - "[[Notes/knowledge-graph]]"
+  - "[[Notes/graphRAG]]"
+  - "[[Notes/multi-hop-reasoning]]"
+  - "[[Notes/retrieval-augmented-generation]]"
+  - "[[Notes/model-context-protocol]]"
 builds_on:
   - "[[prompt engineering]]"
 leads_to:
