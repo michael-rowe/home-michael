@@ -27,7 +27,7 @@ tags:
   - context-engineering
   - doctoral-research
 related:
-  - "[[guides/research-harness-guide]]"
+  - "[[Guides/research-harness-guide]]"
   - "[[Research harness]]"
 category:
   - Education
