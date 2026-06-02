@@ -12,9 +12,9 @@ tags:
 category:
   - AI and technology
 related:
-  - "[[common architecture of literacy]]"
-  - "[[AI literacy development framework]]"
-  - "[[developing AI literacy]]"
+  - "[[Notes/common-architecture-of-literacy]]"
+  - "[[Frameworks/AI-literacy-development-framework]]"
+  - "[[Notes/developing-AI-literacy]]"
 draft: false
 enableToc: true
 linkedin:

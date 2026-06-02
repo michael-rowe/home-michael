@@ -16,9 +16,9 @@ tags:
   - scholarship
 category: Philosophy
 related:
-  - "[[Notes/open source software]]"
+  - "[[Notes/open-source-software]]"
   - "[[Essays/publishing-with-purpose]]"
-  - "[[Notes/AI literacy]]"
+  - "[[Notes/AI-literacy]]"
 keyphrase: "sharing educational resources legally"
 slug: notes/open-access-licensing
 linkedin:

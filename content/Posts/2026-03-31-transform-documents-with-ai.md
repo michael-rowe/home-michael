@@ -16,8 +16,8 @@ tags:
 category:
   - Technology
 related:
-  - "[[AI literacy]]"
-  - "[[large language models]]"
+  - "[[Notes/AI-literacy]]"
+  - "[[Notes/large-language-models]]"
 draft: false
 slug: transform-documents-with-ai
 enableToc: true

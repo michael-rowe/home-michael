@@ -12,7 +12,7 @@ tags:
 category:
   - Scholarship
 related:
-  - "[[2026-01-27-what-does-scholarship-sound-like]]"
+  - "[[Posts/2026-01-27-what-does-scholarship-sound-like]]"
 builds_on:
 leads_to:
 contradicts:

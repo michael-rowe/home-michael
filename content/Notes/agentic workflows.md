@@ -16,7 +16,7 @@ tags:
 category:
   - AI and technology
 related:
-  - "[[Notes/claude-code]]"
+  - "[[Notes/Claude-Code]]"
   - "[[Notes/context-engineering]]"
   - "[[Notes/documentation-debt]]"
   - "[[Notes/plain-text]]"

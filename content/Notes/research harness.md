@@ -16,12 +16,12 @@ tags:
   - ai-literacy
 category: Scholarship
 related:
-  - "[[harness-engineering]]"
-  - "[[context drift]]"
-  - "[[ai-agents]]"
-  - "[[2026-06-01-research-harness-doctoral-ai]]"
-  - "[[research-harness-guide]]"
-  - "[[research-harness-doctoral-ai]]"
+  - "[[Notes/harness-engineering]]"
+  - "[[Notes/context-drift]]"
+  - "[[Notes/ai-agents]]"
+  - "[[Posts/2026-06-01-research-harness-doctoral-ai]]"
+  - "[[Guides/research-harness-guide]]"
+  - "[[Essays/research-harness-doctoral-ai]]"
 keyphrase: research harness
 slug: notes/research-harness
 linkedin:

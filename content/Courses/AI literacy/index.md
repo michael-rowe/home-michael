@@ -13,9 +13,9 @@ tags:
 category:
   - AI and technology
 related:
-  - '[[AI literacy]]'
-  - '[[common architecture of literacy]]'
-  - '[[AI literacy development framework]]'
+  - '[[Notes/AI-literacy]]'
+  - '[[Notes/common-architecture-of-literacy]]'
+  - '[[Frameworks/AI-literacy-development-framework]]'
 cover: Media/AI_literacy_course.png
 color: "#4338ca"
 status: Published

@@ -23,8 +23,8 @@ category:
   - Curriculum
   - AI and technology
 related:
-  - "[[documentation-as-infrastructure]]"
-  - "[[curriculum-infrastructure]]"
+  - "[[Essays/documentation-as-infrastructure]]"
+  - "[[Essays/curriculum-infrastructure]]"
 draft: false
 linkedin:
 

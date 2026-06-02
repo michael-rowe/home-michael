@@ -17,8 +17,8 @@ tags:
 category:
   - Technology
 related:
-  - "[[git]]"
-  - "[[plain text]]"
+  - "[[Notes/git]]"
+  - "[[Notes/plain-text]]"
 keyphrase: "what is YAML frontmatter"
 slug: notes/yaml
 linkedin:

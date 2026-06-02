@@ -15,8 +15,8 @@ tags:
 category:
   - Technology
 related:
-  - "[[context engineering]]"
-  - "[[2026-03-01-working-effectively-with-ai-agents]]"
+  - "[[Notes/context-engineering]]"
+  - "[[Posts/2026-03-01-working-effectively-with-ai-agents]]"
 keyphrase: vibe coding
 slug: notes/vibe-coding
 linkedin:

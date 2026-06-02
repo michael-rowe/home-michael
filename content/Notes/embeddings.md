@@ -15,10 +15,10 @@ tags:
   - information-retrieval
 category: AI and technology
 related:
-  - "[[vector database]]"
-  - "[[retrieval augmented generation]]"
-  - "[[knowledge graph]]"
-  - "[[single-hop reasoning]]"
+  - "[[Notes/vector-database]]"
+  - "[[Notes/retrieval-augmented-generation]]"
+  - "[[Notes/knowledge-graph]]"
+  - "[[Notes/single-hop-reasoning]]"
 builds_on:
 leads_to:
   - "[[vector database]]"

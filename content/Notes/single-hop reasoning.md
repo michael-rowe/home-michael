@@ -16,11 +16,11 @@ tags:
   - information-retrieval
 category: AI and technology
 related:
-  - '[[multi-hop reasoning]]'
-  - '[[retrieval augmented generation]]'
-  - '[[vector database]]'
-  - '[[prompt engineering]]'
-  - '[[embeddings]]'
+  - '[[Notes/multi-hop-reasoning]]'
+  - '[[Notes/retrieval-augmented-generation]]'
+  - '[[Notes/vector-database]]'
+  - '[[Notes/prompt-engineering]]'
+  - '[[Notes/embeddings]]'
 builds_on:
   - '[[embeddings]]'
   - '[[vector database]]'

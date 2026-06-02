@@ -31,8 +31,8 @@ category:
   - AI and technology
   - Professional development
 related:
-  - '[[taste-and-judgement]]'
-  - '[[A bitter lesson for higher education]]'
+  - '[[Essays/taste-and-judgement]]'
+  - '[[Posts/2026-01-28-bitter-lesson-higher-education]]'
 draft: false
 slug: posts/ai-and-evaluative-judgement
 enableToc: true

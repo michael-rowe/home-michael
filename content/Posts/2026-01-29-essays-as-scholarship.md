@@ -29,7 +29,7 @@ tags:
 category:
   - Scholarship
 related:
-  - '[[2026-01-27-what-does-scholarship-sound-like|Podcasts as scholarship]]'
+  - '[[Posts/2026-01-27-what-does-scholarship-sound-like]]'
 draft: false
 slug: essays-as-scholarship
 enableToc: true

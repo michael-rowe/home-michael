@@ -30,7 +30,7 @@ tags:
 category:
   - Scholarship
 related:
-  - '[[Essays as scholarship]]'
+  - '[[Posts/2026-01-29-essays-as-scholarship]]'
 draft: false
 slug: posts/podcasts-as-scholarship
 enableToc: true

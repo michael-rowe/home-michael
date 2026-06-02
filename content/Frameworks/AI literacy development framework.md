@@ -14,10 +14,10 @@ tags:
 category:
   - AI and technology
 related:
-  - "[[AI literacy]]"
-  - "[[AI literacy for academics]]"
-  - "[[common architecture of literacy]]"
-  - "[[developing AI literacy]]"
+  - "[[Notes/AI-literacy]]"
+  - "[[Courses/AI-literacy]]"
+  - "[[Notes/common-architecture-of-literacy]]"
+  - "[[Notes/developing-AI-literacy]]"
 draft: false
 enableToc: true
 status: Active

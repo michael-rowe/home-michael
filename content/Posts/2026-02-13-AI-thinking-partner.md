@@ -15,9 +15,9 @@ tags:
 category:
   - AI and technology
 related:
-  - "[[taste-and-judgement]]"
-  - "[[ai-hpe-theoretical-framework]]"
-  - "[[2026-02-11-building-AI-workflow-academics]]"
+  - "[[Essays/taste-and-judgement]]"
+  - "[[Essays/ai-hpe-theoretical-framework]]"
+  - "[[Posts/2026-02-11-building-AI-workflow-academics]]"
 draft: false
 slug: posts/ai-thinking-partner
 reviewed:

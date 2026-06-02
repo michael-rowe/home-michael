@@ -19,7 +19,7 @@ tags:
 category:
   - Scholarship
 related:
-  - "[[2026-01-29-essays-as-scholarship]]"
+  - "[[Posts/2026-01-29-essays-as-scholarship]]"
 draft: false
 slug: posts/open-scholarship-workflow
 subtype: ""

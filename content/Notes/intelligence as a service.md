@@ -14,9 +14,9 @@ tags:
   - privacy
 category: AI and technology
 related:
-  - "[[context sovereignty]]"
-  - "[[contextual interoperability]]"
-  - "[[model context protocol]]"
+  - "[[Notes/context-sovereignty]]"
+  - "[[Notes/contextual-interoperability]]"
+  - "[[Notes/model-context-protocol]]"
 builds_on:
 leads_to:
   - "[[context sovereignty]]"

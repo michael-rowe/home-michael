@@ -28,7 +28,7 @@ category:
   - Pedagogy
   - AI and technology
 related:
-  - '[[AI and evaluative judgement: Cultivating taste in the age of capability]]'
+  - '[[Posts/2026-01-29-AI-and-evaluative-judgement]]'
 draft: false
 reviewed:
   - writing_style

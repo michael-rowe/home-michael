@@ -24,9 +24,9 @@ tags:
   - infrastructure
   - operational-architecture
 related:
-  - "[[higher education reference model]]"
-  - "[[documentation debt]]"
-  - "[[curriculum-infrastructure]]"
+  - "[[Notes/higher-education-reference-model]]"
+  - "[[Notes/documentation-debt]]"
+  - "[[Essays/curriculum-infrastructure]]"
 category:
   - AI and technology
   - Knowledge management

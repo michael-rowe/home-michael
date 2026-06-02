@@ -14,9 +14,9 @@ tags:
   - ai-literacy
   - learning-design
 related:
-  - "[[AI literacy]]"
-  - "[[AI literacy development framework]]"
-  - "[[common architecture of literacy]]"
+  - "[[Notes/AI-literacy]]"
+  - "[[Frameworks/AI-literacy-development-framework]]"
+  - "[[Notes/common-architecture-of-literacy]]"
 linkedin:
 
 ---

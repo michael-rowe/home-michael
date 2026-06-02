@@ -23,9 +23,9 @@ tags:
   - model-context-protocol
   - version-control
 related:
-  - "[[curriculum-infrastructure]]"
-  - "[[documentation-as-infrastructure]]"
-  - "[[context-sovereignty]]"
+  - "[[Essays/curriculum-infrastructure]]"
+  - "[[Essays/documentation-as-infrastructure]]"
+  - "[[Notes/context-sovereignty]]"
   - "[[phd-becoming]]"
 category:
   - AI and technology

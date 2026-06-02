@@ -16,11 +16,11 @@ tags:
   - information-retrieval
 category: AI and technology
 related:
-  - '[[embeddings]]'
-  - '[[retrieval augmented generation]]'
-  - '[[graph database]]'
-  - '[[knowledge graph]]'
-  - '[[prompt engineering]]'
+  - '[[Notes/embeddings]]'
+  - '[[Notes/retrieval-augmented-generation]]'
+  - '[[Notes/graph-database]]'
+  - '[[Notes/knowledge-graph]]'
+  - '[[Notes/prompt-engineering]]'
 builds_on:
   - '[[embeddings]]'
 leads_to:

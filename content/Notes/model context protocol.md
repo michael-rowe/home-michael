@@ -14,11 +14,11 @@ tags:
   - standards
 category: AI and technology
 related:
-  - "[[context engineering]]"
-  - "[[context sovereignty]]"
-  - "[[contextual interoperability]]"
-  - "[[mcp server]]"
-  - "[[intelligence as a service]]"
+  - "[[Notes/context-engineering]]"
+  - "[[Notes/context-sovereignty]]"
+  - "[[Notes/contextual-interoperability]]"
+  - "[[Notes/mcp-server]]"
+  - "[[Notes/intelligence-as-a-service]]"
 builds_on:
   - "[[prompt engineering]]"
   - "[[retrieval augmented generation]]"

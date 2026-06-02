@@ -29,7 +29,7 @@ category:
   - AI and technology
   - Professional development
 related:
-  - '[[A bitter lesson for higher education]]'
+  - '[[Posts/2026-01-28-bitter-lesson-higher-education]]'
 draft: false
 slug: posts/ai-meeting-scribes
 enableToc: true

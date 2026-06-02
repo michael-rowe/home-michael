@@ -13,8 +13,8 @@ tags:
   - ai-integration
 category: AI and technology
 related:
-  - "[[large language models]]"
-  - "[[inference]]"
+  - "[[Notes/large-language-models]]"
+  - "[[Notes/inference]]"
 keyphrase: AI token budget
 meta-description: The AI token budget explains why different tasks have different computational costs — and why matching model to task improves output quality.
 slug: notes/token-budget

@@ -30,9 +30,9 @@ category:
   - Pedagogy
   - AI and technology
 related:
-  - '[[learning-alignment]]'
-  - '[[A bitter lesson for higher education]]'
-  - '[[AI literacy]]'
+  - '[[Essays/learning-alignment]]'
+  - '[[Posts/2026-01-28-bitter-lesson-higher-education]]'
+  - '[[Notes/AI-literacy]]'
 draft: false
 slug: posts/ai-for-learning-at-scale
 enableToc: true

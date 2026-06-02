@@ -17,11 +17,11 @@ tags:
   - context-engineering
 category: AI and technology
 related:
-  - '[[context engineering]]'
-  - '[[knowledge graph]]'
-  - '[[retrieval augmented generation]]'
-  - '[[multi-hop reasoning]]'
-  - '[[vector database]]'
+  - '[[Notes/context-engineering]]'
+  - '[[Notes/knowledge-graph]]'
+  - '[[Notes/retrieval-augmented-generation]]'
+  - '[[Notes/multi-hop-reasoning]]'
+  - '[[Notes/vector-database]]'
 builds_on:
   - '[[retrieval augmented generation]]'
   - '[[knowledge graph]]'

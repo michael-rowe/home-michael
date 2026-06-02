@@ -19,9 +19,9 @@ category:
 related:
   - "[[context compression and filtering are essential for large context windows]]"
   - "[[tokens are a type of text compression used in LLMs]]"
-  - "[[context engineering]]"
-  - "[[context sovereignty]]"
-  - "[[model context protocol]]"
+  - "[[Notes/context-engineering]]"
+  - "[[Notes/context-sovereignty]]"
+  - "[[Notes/model-context-protocol]]"
 keyphrase: LLM context drift
 slug: notes/llm-context-drift
 linkedin:

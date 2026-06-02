@@ -26,9 +26,9 @@ tags:
   - generative-ai
   - educational-technology
 related:
-  - "[[AI literacy]]"
-  - "[[large language models]]"
-  - "[[learning-alignment]]"
+  - "[[Notes/AI-literacy]]"
+  - "[[Notes/large-language-models]]"
+  - "[[Essays/learning-alignment]]"
 category:
   - AI and technology
   - Pedagogy

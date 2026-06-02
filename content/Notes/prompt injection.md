@@ -14,9 +14,9 @@ tags:
   - prompt-engineering
 category: "AI and technology"
 related:
-  - "[[system prompt]]"
-  - "[[prompt engineering]]"
-  - "[[large language models]]"
+  - "[[Notes/system-prompt]]"
+  - "[[Notes/prompt-engineering]]"
+  - "[[Notes/large-language-models]]"
 keyphrase: "prompt injection attack"
 slug: notes/prompt-injection
 linkedin:
