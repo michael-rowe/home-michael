@@ -17,9 +17,6 @@ category:
   - Assessment
   - AI and technology
 related:
-  - '[[assessment as an arms race]]'
-  - '[[how to create an AI arms race dynamics in university assessment]]'
-  - '[[asymmetric power dynamics]]'
 keyphrase: arms race dynamics higher education
 slug: notes/arms-race-dynamics-higher-education
 linkedin:

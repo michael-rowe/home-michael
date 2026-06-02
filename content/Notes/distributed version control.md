@@ -17,7 +17,6 @@ category:
   - Technology
 related:
   - "[[Notes/git]]"
-  - "[[open scholarship]]"
 keyphrase: "distributed version control"
 slug: notes/distributed-version-control
 linkedin:

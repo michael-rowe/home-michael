@@ -17,8 +17,6 @@ category:
   - Scholarship
 related:
   - "[[Essays/publishing-with-purpose]]"
-  - "[[open scholarship]]"
-  - "[[peer review]]"
 keyphrase: "research industrial complex academic publishing"
 slug: notes/research-industrial-complex
 linkedin:
