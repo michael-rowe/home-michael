@@ -68,9 +68,9 @@ For knowledge workers, this shift matters because your intellectual infrastructu
 
 Intelligence as a service becomes practical through several architectural approaches:
 
-**[[Contextual interoperability]]** makes your personal knowledge accessible to AI temporarily without permanent transfer. Your context stays in your systems; AI accesses it only when and how you specify.
+**[[Notes/contextual-interoperability|Contextual interoperability]]** makes your personal knowledge accessible to AI temporarily without permanent transfer. Your context stays in your systems; AI accesses it only when and how you specify.
 
-**[[Model Context Protocol]]** provides standardised ways for AI to query your context with fine-grained permission control. You determine what information AI can access, when, and for what purposes.
+**[[Notes/model-context-protocol|Model Context Protocol]]** provides standardised ways for AI to query your context with fine-grained permission control. You determine what information AI can access, when, and for what purposes.
 
 **Federated architectures** enable AI to learn from your context without centralising it. The intelligence adapts to your patterns without requiring you to upload everything to remote servers.
 
@@ -80,7 +80,7 @@ These aren't theoretical—the technologies exist. What's missing is widespread 
 
 ## Where this leads
 
-Intelligence as a service enables [[context sovereignty]]—the framework where your personal context remains central and under your control in human-AI collaboration. It provides the technical architecture supporting the philosophical commitment that AI should adapt to human cognitive patterns rather than requiring humans to adapt to AI system requirements.
+Intelligence as a service enables [[Notes/context-sovereignty|context sovereignty]]—the framework where your personal context remains central and under your control in human-AI collaboration. It provides the technical architecture supporting the philosophical commitment that AI should adapt to human cognitive patterns rather than requiring humans to adapt to AI system requirements.
 
 This model suggests different questions about AI development and deployment:
 - How do we ensure intelligence remains accessible as utility rather than controlled by gatekeepers?

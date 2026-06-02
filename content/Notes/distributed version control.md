@@ -47,7 +47,7 @@ Cloud storage (Dropbox, Google Drive) syncs current file states but does not rec
 
 ### Relevance to open scholarship
 
-Distributed version control makes the development of a scholarly project legible. Essays, datasets, and teaching materials can have auditable histories — showing how arguments evolved, where sources were added, and how collaborators contributed. Platforms like GitHub surface this history publicly, supporting the open scholarship principle that process, not just output, carries scholarly value. [[Git]] is the dominant implementation.
+Distributed version control makes the development of a scholarly project legible. Essays, datasets, and teaching materials can have auditable histories — showing how arguments evolved, where sources were added, and how collaborators contributed. Platforms like GitHub surface this history publicly, supporting the open scholarship principle that process, not just output, carries scholarly value. [[Notes/git|Git]] is the dominant implementation.
 
 ---
 

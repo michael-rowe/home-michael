@@ -83,9 +83,9 @@ The protocol supports different transport mechanisms:
 
 The choice of transport affects security, deployment complexity, and use case suitability. Local servers through STDIO offer maximum security for personal data. Remote servers through HTTP enable shared infrastructure and collaborative use.
 
-## What this means for [[context sovereignty]]
+## What this means for [[Notes/context-sovereignty|context sovereignty]]
 
-MCP provides technical infrastructure supporting [[context sovereignty]]—the framework where personal context remains under individual control while accessing AI capabilities. The protocol's permission model enables fine-grained control over what AI accesses and when.
+MCP provides technical infrastructure supporting [[Notes/context-sovereignty|context sovereignty]]—the framework where personal context remains under individual control while accessing AI capabilities. The protocol's permission model enables fine-grained control over what AI accesses and when.
 
 Rather than uploading all context to AI providers, MCP enables temporary, controlled access. Your data stays in your systems (exposed through MCP servers), AI accesses it only as needed (through MCP clients), and you control permissions (through the host application).
 

@@ -85,15 +85,15 @@ These aren't merely technical improvements. They represent a different philosoph
 
 Context sovereignty isn't aspirational—it's technically achievable through existing approaches:
 
-**[[Intelligence as a service]]** separates AI capabilities from data ownership, enabling you to access powerful models while keeping context private and under your control.
+**[[Notes/intelligence-as-a-service|Intelligence as a service]]** separates AI capabilities from data ownership, enabling you to access powerful models while keeping context private and under your control.
 
-**[[Contextual interoperability]]** makes your personal knowledge machine-readable while preserving human meaning, creating the interface between your thinking and AI reasoning.
+**[[Notes/contextual-interoperability|Contextual interoperability]]** makes your personal knowledge machine-readable while preserving human meaning, creating the interface between your thinking and AI reasoning.
 
 **Federated architectures** allow AI to learn from your context without centralising it, keeping sensitive information local while still enabling sophisticated AI assistance.
 
 **Local-first computing** enables running capable AI locally for sensitive work, only accessing remote intelligence when appropriate and with your explicit control.
 
-The [[Model Context Protocol]] provides standardised ways for AI to access your context with fine-grained permission control—you determine what AI sees and when.
+The [[Notes/model-context-protocol|Model Context Protocol]] provides standardised ways for AI to access your context with fine-grained permission control—you determine what AI sees and when.
 
 These technologies exist. What's missing isn't capability but widespread implementation reflecting the principles of context sovereignty.
 

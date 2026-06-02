@@ -33,9 +33,9 @@ linkedin:
 
 ## MCP server
 
-**One-sentence definition:** A lightweight programme that exposes specific data sources or capabilities through the [[Model Context Protocol]] standard, enabling AI systems to access that data or functionality through standardised interfaces.
+**One-sentence definition:** A lightweight programme that exposes specific data sources or capabilities through the [[Notes/model-context-protocol|Model Context Protocol]] standard, enabling AI systems to access that data or functionality through standardised interfaces.
 
-Think of MCP servers as translators. Your file system speaks the language of files and directories. Your database speaks SQL. Your knowledge base has its own API. AI systems speak [[Model Context Protocol]]. MCP servers translate between these worlds—they understand how to fetch data from your sources and present it in the format AI systems expect.
+Think of MCP servers as translators. Your file system speaks the language of files and directories. Your database speaks SQL. Your knowledge base has its own API. AI systems speak [[Notes/model-context-protocol|Model Context Protocol]]. MCP servers translate between these worlds—they understand how to fetch data from your sources and present it in the format AI systems expect.
 
 Each server typically connects to one data source or service. A file system server knows how to navigate directories and read files. A database server knows how to execute queries and return results. A Slack server knows how to send messages and retrieve conversations. This focused scope keeps servers simple while enabling broad coverage through composition—connect multiple servers to give AI access to multiple data sources.
 
@@ -63,7 +63,7 @@ The distinction between building MCP servers and using them matters:
 
 The ecosystem's value grows as more servers become available. Early adopters face more server building. Later adopters benefit from existing server libraries covering common use cases.
 
-For scholars, this distinction shapes what's practical. Using existing servers for file systems, databases, or common tools requires minimal technical sophistication. Building custom servers for specialised research infrastructure requires development capability—though the [[Model Context Protocol]] provides frameworks simplifying this work.
+For scholars, this distinction shapes what's practical. Using existing servers for file systems, databases, or common tools requires minimal technical sophistication. Building custom servers for specialised research infrastructure requires development capability—though the [[Notes/model-context-protocol|Model Context Protocol]] provides frameworks simplifying this work.
 
 ## Security and control
 
@@ -75,7 +75,7 @@ MCP servers operate with explicit permission models. When AI requests data throu
 
 **Transparent logging** records what AI accessed and when, enabling audit and review. You can see exactly what data AI has used, which tools it invoked, what actions it took.
 
-These controls support [[context sovereignty]]—maintaining agency over your context while enabling AI access. The server architecture enables temporary, controlled access rather than permanent data transfer.
+These controls support [[Notes/context-sovereignty|context sovereignty]]—maintaining agency over your context while enabling AI access. The server architecture enables temporary, controlled access rather than permanent data transfer.
 
 ## Local versus remote servers
 
@@ -105,7 +105,7 @@ This infrastructure supports [[contextual interoperability]]—making your perso
 
 ## What this enables
 
-MCP servers make [[intelligence as a service]] practical. Rather than uploading context to access AI capabilities, servers enable AI to access your context temporarily and under your control. This architectural separation—intelligence as remote service, context as local resource—enables the privacy-preserving AI integration that [[context sovereignty]] requires.
+MCP servers make [[intelligence as a service]] practical. Rather than uploading context to access AI capabilities, servers enable AI to access your context temporarily and under your control. This architectural separation—intelligence as remote service, context as local resource—enables the privacy-preserving AI integration that [[Notes/context-sovereignty|context sovereignty]] requires.
 
 For [[context engineering]], servers provide the technical mechanism connecting structured knowledge representations to AI reasoning. Your [[knowledge graph]]s, personal knowledge bases, and research infrastructure become accessible to AI through standardised interfaces without custom integration work.
 

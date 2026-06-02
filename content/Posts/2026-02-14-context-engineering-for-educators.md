@@ -45,7 +45,7 @@ Strikingly, little changes. Adding reflective statements to assessment briefs do
 
 Context engineering builds dynamic systems that provide language models with the information and structure needed for effective reasoning (Rowe, 2026). It is about systems, not better prompts.
 
-A prompt is an instruction. Context is everything else: background knowledge, tools, persistent memory, and the data shaping reasoning. [[Prompt engineering]] prioritises the instruction; context engineering prioritises the environment.
+A prompt is an instruction. Context is everything else: background knowledge, tools, persistent memory, and the data shaping reasoning. [[Notes/prompt-engineering|Prompt engineering]] prioritises the instruction; context engineering prioritises the environment.
 
 This distinction matters because clinical reasoning is not a series of isolated queries. It requires sustained engagement with evolving situations where history, values, and multidisciplinary knowledge shape the response. Teaching students to write prompts is useful; teaching them to build the contextual environments that make AI genuinely helpful is far more consequential.
 
@@ -63,7 +63,7 @@ Standard language models do not remember past conversations. However, learning d
 
 ### Retrieval systems
 
-[[Retrieval augmented generation|Retrieval systems]] allow AI to access external information like clinical guidelines or research literature at the point of need. How this retrieval is structured is more important than its existence. Simple keyword similarity often leads to fragmented lookups. In contrast, conceptual retrieval — linking biochemical pathways, contraindications, and risk factors — supports the integrated reasoning clinical practice demands.
+[[Notes/retrieval-augmented-generation|Retrieval systems]] allow AI to access external information like clinical guidelines or research literature at the point of need. How this retrieval is structured is more important than its existence. Simple keyword similarity often leads to fragmented lookups. In contrast, conceptual retrieval — linking biochemical pathways, contraindications, and risk factors — supports the integrated reasoning clinical practice demands.
 
 ### Tool use
 
@@ -71,7 +71,7 @@ Models can also call external tools to run calculations, query databases, or exe
 
 ### Connectivity protocols
 
-The [[Model Context Protocol]] (MCP) is an open standard for connecting AI to external data through a consistent interface (Anthropic, 2024). It acts as a universal adaptor, allowing AI to access personal notes, institutional databases, and clinical tools via a single protocol with appropriate access controls. These are governance decisions embedded in technical architecture.
+The [[Notes/model-context-protocol|Model Context Protocol]] (MCP) is an open standard for connecting AI to external data through a consistent interface (Anthropic, 2024). It acts as a universal adaptor, allowing AI to access personal notes, institutional databases, and clinical tools via a single protocol with appropriate access controls. These are governance decisions embedded in technical architecture.
 
 ### Agentic systems
 
@@ -83,7 +83,7 @@ Clinical reasoning is integrative. A pharmacology question often involves anatom
 
 Clinical education is also longitudinal. Students develop over years, not sessions. Without context engineering, AI resets to baseline with every interaction, unable to provide the developmentally appropriate challenges that human educators deliver intuitively.
 
-Finally, clinical practice involves values. Decisions are shaped by evidence, patient preferences, and ethics — the learner's *[[context sovereignty|personal context]]* (Rowe & Lynch, 2025). An AI that knows guidelines but not a learner's professional values provides generic support at best. Context engineering builds the architecture for personalised cognitive partnership.
+Finally, clinical practice involves values. Decisions are shaped by evidence, patient preferences, and ethics — the learner's *[[Notes/context-sovereignty|personal context]]* (Rowe & Lynch, 2025). An AI that knows guidelines but not a learner's professional values provides generic support at best. Context engineering builds the architecture for personalised cognitive partnership.
 
 ## What structural commitment looks like
 
