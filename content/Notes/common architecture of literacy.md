@@ -15,9 +15,6 @@ category:
   - AI and technology
 related:
   - "[[Notes/AI-literacy]]"
-  - "[[information literacy]]"
-  - "[[media literacy]]"
-  - "[[digital literacy]]"
 builds_on:
 leads_to:
   - "[[AI literacy]]"

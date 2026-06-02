@@ -26,7 +26,6 @@ related:
   - "[[Essays/curriculum-infrastructure]]"
   - "[[Essays/documentation-as-infrastructure]]"
   - "[[Notes/context-sovereignty]]"
-  - "[[phd-becoming]]"
 category:
   - AI and technology
   - Curriculum

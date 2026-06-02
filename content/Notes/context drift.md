@@ -17,8 +17,6 @@ tags:
 category:
   - AI and technology
 related:
-  - "[[context compression and filtering are essential for large context windows]]"
-  - "[[tokens are a type of text compression used in LLMs]]"
   - "[[Notes/context-engineering]]"
   - "[[Notes/context-sovereignty]]"
   - "[[Notes/model-context-protocol]]"

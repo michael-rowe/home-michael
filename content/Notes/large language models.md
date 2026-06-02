@@ -17,9 +17,6 @@ tags:
   - machine-learning
 category: AI and technology
 related:
-  - '[[natural language processing]]'
-  - '[[deep learning]]'
-  - '[[AI alignment]]'
 builds_on:
   - '[[Transformer models]]'
   - '[[self-supervised learning]]'
