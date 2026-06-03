@@ -128,7 +128,7 @@ You're writing a challenging theory section for a paper. You need to position yo
 > **Pattern:** This felt efficient but was superficial. The AI draft looked like progress but didn't advance your intellectual work. You mistook text production for thinking.
 
 > [!example]- Option C: AI helps explore frameworks, you draft yourself
-> **What happens:** You spend 45 minutes with AI exploring theoretical frameworks. You ask: "How does organisational justice theory relate to this workload issue? What about institutional theory? Where might these frameworks conflict?" AI helps you map relationships between theories, surface connections you hadn't considered, identify tensions requiring resolution. This clarifies your thinking.
+> **What happens:** You spend 45 minutes with AI exploring theoretical frameworks. You ask: "How does communities of practice theory relate to this supervision issue? What about workplace learning theory? Where might these frameworks conflict?" AI helps you map relationships between theories, surface connections you hadn't considered, identify tensions requiring resolution. This clarifies your thinking.
 >
 > Then you draft the section yourself (4 hours). The argument is yours, the voice is yours, the analytical contribution is yours. But it's more theoretically sophisticated than you would have written alone—the AI conversation helped you think more comprehensively.
 >
