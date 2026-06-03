@@ -44,13 +44,13 @@ This lesson shows you how to build competence, not just acquire familiarity.
 
 ## The contrast
 
-Dr. Chen needs to understand discourse analysis for her methodology chapter. She opens Claude and asks: "Summarise discourse analysis in 200 words."
+Anna needs to understand discourse analysis for her methodology chapter. She opens Claude and asks: "Summarise discourse analysis in 200 words."
 
 She reads the summary carefully. Makes some notes. Moves on to other work. Total time: 5 minutes.
 
 Two months later, writing her methodology chapter, she tries to explain her analytical approach. She realises she can't describe what she'll actually do. She knows what discourse analysis is called. She can't explain how it works or why it's appropriate for her data. She has familiarity without competence.
 
-Dr. Williams needs the same understanding. She spends 60 minutes in structured dialogue with AI:
+Maryam needs the same understanding. She spends 60 minutes in structured dialogue with AI:
 
 - Gets accessible explanation of the core idea, tests by explaining it back
 - Adds contextual understanding of when it's appropriate versus alternatives
@@ -336,7 +336,7 @@ Let's see what genuine competence enables versus what superficial familiarity pr
 
 ### The scenario
 
-You've spent 30 minutes learning about grounded theory through staged complexity. A colleague asks: "Should I use grounded theory for my study on teacher burnout? I want to understand what factors contribute to burnout in secondary schools."
+You've spent 30 minutes learning about grounded theory through staged complexity. A colleague asks: "Should I use grounded theory for my study on student burnout? I want to understand what factors contribute to burnout among students on clinical placement."
 
 **How do you respond?**
 
@@ -357,11 +357,11 @@ You've spent 30 minutes learning about grounded theory through staged complexity
 
 > [!example]- Response B: Genuine competence (adaptation approach)
 >
-> **You say:** "It might work well since you don't have predetermined hypotheses about burnout patterns. Grounded theory would let those patterns emerge from teacher experiences. But you'd need to be comfortable with ambiguous data collection—you won't know how many interviews you need until themes reach saturation. How does that fit your timeline and institutional review requirements?"
+> **You say:** "It might work well since you don't have predetermined hypotheses about burnout patterns. Grounded theory would let those patterns emerge from students' experiences. But you'd need to be comfortable with ambiguous data collection—you won't know how many interviews you need until themes reach saturation. How does that fit your timeline and institutional review requirements?"
 >
 > **Colleague asks:** "What if I want to use existing burnout theory as a starting framework?"
 >
-> **You explain:** "Then you might want thematic analysis instead. Grounded theory assumes you're developing new theory, not applying or testing existing frameworks. If you want to explore how existing burnout theory plays out in secondary schools specifically, thematic analysis would let you do that while staying open to unexpected themes."
+> **You explain:** "Then you might want thematic analysis instead. Grounded theory assumes you're developing new theory, not applying or testing existing frameworks. If you want to explore how existing burnout theory plays out on clinical placements specifically, thematic analysis would let you do that while staying open to unexpected themes."
 >
 > **What happens:** Your colleague has enough understanding to make an informed choice. They recognise grounded theory isn't appropriate for their goals and choose thematic analysis instead. Their methodology section is coherent and defensible.
 >

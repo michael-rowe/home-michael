@@ -43,18 +43,18 @@ This lesson shows you how to work through argument development BEFORE writing a 
 
 ## The contrast
 
-Dr. Martinez needs to argue that increased administrative workload decreases research productivity. She opens a document and starts writing: "Universities should recognise that administrative burden..."
+Ruth needs to argue that rising placement demand reduces the quality of student supervision. She opens a document and starts writing: "Programmes should recognise that increasing placement numbers..."
 
 Three hours later, she has 2,000 words. Re-reading, she realises:
 
 - Her evidence shows correlation, not causation
-- She assumed teaching and research are zero-sum without defending this
+- She assumed placement capacity and supervision quality are zero-sum without defending this
 - Her structure leads with methodology instead of findings
 - There's a selection effect problem she didn't address
 
 She starts over. Total time: 6+ hours of writing and rewriting. Still unsatisfied.
 
-Dr. Thompson needs to make the same argument. She spends 45 minutes with AI before writing anything:
+Maryam needs to make the same argument. She spends 45 minutes with AI before writing anything:
 
 - Explores three argument structures, chooses one that leads with findings
 - Tests whether evidence supports causal claims (realises she needs to qualify)
@@ -229,7 +229,7 @@ Strong arguments require evidence that actually supports claims. But it's easy t
 
 **Example:**
 
-"I'm claiming workload increases cause research productivity decline based on survey data showing both increased workload and decreased output over 5 years. Is this evidence sufficient? What alternative explanations could account for both patterns?"
+"I'm claiming rising placement demand causes a decline in supervision quality based on survey data showing both increased placement numbers and lower supervision-quality ratings over 5 years. Is this evidence sufficient? What alternative explanations could account for both patterns?"
 
 > [!todo]- Quick practice
 > Apply the sufficiency test to your argument from the previous exercise.
@@ -350,9 +350,9 @@ Not all AI challenges improve arguments. Let's practice distinguishing helpful f
 
 ### The scenario
 
-You're arguing that increased workload decreases research productivity based on longitudinal survey data showing both trends.
+You're arguing that rising placement demand reduces supervision quality based on longitudinal survey data showing both trends.
 
-AI suggests: "But what if high achievers choose heavy workloads? Your evidence might show correlation, not causation. You need to address selection effects, endogeneity, and omitted variable bias. Consider instrumental variable approaches or regression discontinuity designs."
+AI suggests: "But what if the placements taking on more students are already the ones under strain? Your evidence might show correlation, not causation. You need to address selection effects, endogeneity, and omitted variable bias. Consider instrumental variable approaches or regression discontinuity designs."
 
 **How do you respond?**
 
@@ -382,7 +382,7 @@ AI suggests: "But what if high achievers choose heavy workloads? Your evidence m
 >
 > **You consider:** Is this a genuine weakness or unnecessary complexity for my purposes?
 >
-> **Your decision:** "Selection effects are a legitimate concern. But given my data and goals, I'll acknowledge this proportionately rather than trying to rule it out completely. I can say: 'While selection effects may play a role, the temporal pattern—where workload changes precede productivity changes within individuals—supports a causal interpretation. We acknowledge that experimental designs would provide stronger causal evidence.'"
+> **Your decision:** "Selection effects are a legitimate concern. But given my data and goals, I'll acknowledge this proportionately rather than trying to rule it out completely. I can say: 'While selection effects may play a role, the temporal pattern—where increases in placement demand precede declines in supervision quality within the same sites—supports a causal interpretation. We acknowledge that experimental designs would provide stronger causal evidence.'"
 >
 > **What happens:** You addressed the concern without getting derailed. Your argument anticipates the challenge proportionately. Reviewers see you've thought through limitations without letting them dominate the paper.
 >
@@ -401,7 +401,7 @@ Let's practice the core literacy skill for this lesson: distinguishing helpful f
 
 ### Scenario 1
 
-**Your argument:** You're conducting qualitative research on teacher experiences using rich interview data and interpretive analysis.
+**Your argument:** You're conducting qualitative research on clinical educators' experiences using rich interview data and interpretive analysis.
 
 **AI suggests:** "Your evidence is anecdotal. You need quantitative data and larger sample sizes to make generalisable claims."
 
