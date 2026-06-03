@@ -20,6 +20,8 @@ You're about to begin an 11-lesson course that develops comprehensive AI literac
 
 This isn't a course about learning software or memorising prompts. It's about developing integrated capability that combines understanding, critical thinking, practical competence, ethical awareness, and professional judgement. By the end, you'll have the literacy to navigate AI integration thoughtfully—knowing when AI enhances your work and when it undermines it.
 
+**A note on scope.** This course is about developing *your own* AI literacy—how you, as an academic or health professions educator, engage with AI in your research, teaching, and scholarly work. It is not about teaching AI to your students or designing AI into your assessments. Developing AI literacy in others is a distinct capability, and the subject of a separate course. Here, the focus is you.
+
 ### How this course works
 
 **Active engagement required**  
@@ -36,6 +38,8 @@ The course moves through four modules:
 - **Transformation (Lessons 9-11):** Making AI a permanent part of professional infrastructure through context development, taste cultivation, and structural integration
 
 This progression mirrors how expertise develops across all literacy domains—from foundational competence through sophisticated application to reflective practice.
+
+The substitution → adaptation → transformation arc adapts Puentedura's SAMR model (substitution, augmentation, modification, redefinition), originally developed for technology integration in education, and reframes it for the development of AI literacy.
 
 **Honest about limitations**  
 You'll learn when AI creates false efficiency, when it adds overhead rather than saving time, and how to recognise meaningful engagement versus superficial assistance. Not every academic task benefits from AI collaboration. Developing literacy means knowing the difference.
