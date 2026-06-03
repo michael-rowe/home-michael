@@ -150,11 +150,11 @@ Here's how an experienced scholar explores structural options systematically:
 **Structure 3:** Problem (bias exists) → mechanisms (why it happens) → evidence (across methods)
 (Emphasises: theoretical understanding, de-emphasises: methodological rigour)
 
-**[Scholar evaluates against goals]** "My audience is skeptical administrators who value data over stories. Structure 1 serves this—lead with statistics, establish pattern, then explain mechanisms through qualitative data. Structure 2 would feel anecdotal to them despite strong evidence. Structure 3 risks seeming abstract."
+**[Scholar evaluates against goals]** "My audience is sceptical administrators who value data over stories. Structure 1 serves this—lead with statistics, establish pattern, then explain mechanisms through qualitative data. Structure 2 would feel anecdotal to them despite strong evidence. Structure 3 risks seeming abstract."
 
 **[Scholar makes deliberate choice]** "I'll use Structure 1 because it meets administrators where they are—they need statistical evidence first. I'm choosing to de-emphasise lived experience in the structure while still including it as confirmation."
 
-**Notice:** The scholar judged structures against specific goals (persuade skeptical administrators), not abstract quality. They recognised what each structure emphasises and made a deliberate choice about what to foreground.
+**Notice:** The scholar judged structures against specific goals (persuade sceptical administrators), not abstract quality. They recognised what each structure emphasises and made a deliberate choice about what to foreground.
 
 > [!question] Self-explanation
 > Why generate three structures when you might already have one in mind?
@@ -225,7 +225,10 @@ Strong arguments require evidence that actually supports claims. But it's easy t
 
 **Prompt structure:**
 
-"I'm claiming [your claim] based on [your evidence]. Evaluate whether this evidence is sufficient to support this claim. What alternative explanations could account for my evidence without supporting my conclusion? What additional evidence would strengthen the claim?"
+<div class="prompt-block">
+<button class="prompt-copy" type="button" aria-label="Copy prompt to clipboard">Copy</button>
+<pre><code>I'm claiming [your claim] based on [your evidence]. Evaluate whether this evidence is sufficient to support this claim. What alternative explanations could account for my evidence without supporting my conclusion? What additional evidence would strengthen the claim?</code></pre>
+</div>
 
 **Example:**
 
@@ -268,7 +271,10 @@ Don't ask AI for weak objections you can easily dismiss. Ask for the strongest p
 
 **Prompt structure:**
 
-"Present the strongest possible argument against my claim that [your claim]. What would the most sophisticated skeptic say? Don't give me easy objections—give me the ones that would actually challenge my thinking."
+<div class="prompt-block">
+<button class="prompt-copy" type="button" aria-label="Copy prompt to clipboard">Copy</button>
+<pre><code>Present the strongest possible argument against my claim that [your claim]. What would the most sophisticated sceptic say? Don't give me easy objections—give me the ones that would actually challenge my thinking.</code></pre>
+</div>
 
 > [!example]- Why "steel man" not "straw man"?
 >

@@ -86,6 +86,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Backlinks(),
   ],
   afterBody: [
+    Component.PromptCopy(),
     Component.ConditionalRender({
       component: Component.RecentlyAddedList(),
       condition: (page) => (page.fileData.slug ?? "").startsWith("recently-added"),
@@ -162,6 +163,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.Backlinks(),
   ],
   afterBody: [
+    Component.PromptCopy(),
     Component.ConditionalRender({
       component: Component.RecentlyAddedList(),
       condition: (page) => (page.fileData.slug ?? "").startsWith("recently-added"),
