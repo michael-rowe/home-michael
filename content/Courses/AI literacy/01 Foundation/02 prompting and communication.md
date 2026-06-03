@@ -27,7 +27,7 @@ linkedin:
 
 ## The contrast
 
-Dr James Mitchell needs help analysing 20 semi-structured interviews about teachers' experiences with technology adoption. He's feeling overwhelmed by the volume of data and isn't sure how to start coding.
+David Reyes, a consultant physician and clinical supervisor, needs help analysing 20 semi-structured interviews about trainees' experiences of workplace-based assessment. He's feeling overwhelmed by the volume of data and isn't sure how to start coding.
 
 **First attempt:**
 
@@ -39,7 +39,7 @@ AI responds with a generic overview of qualitative analysis—thematic analysis,
 
 The next day, James tries again with a different approach:
 
-"You are an experienced qualitative researcher specialising in interview methodology, with expertise in grounded theory approaches. I need a step-by-step coding framework for analysing 20 semi-structured interviews exploring teachers' experiences with technology adoption. Please: (1) Review key theoretical frameworks relevant to technology adoption in education, (2) Propose 5-7 initial coding categories based on common themes, (3) For each category, provide a clear definition, example indicators, and potential sub-categories, (4) Suggest an approach for managing codes that don't fit existing categories. After generating the framework, I'd like to discuss handling contradictory data."
+"You are an experienced qualitative researcher specialising in interview methodology, with expertise in grounded theory approaches. I need a step-by-step coding framework for analysing 20 semi-structured interviews exploring trainees' experiences of workplace-based assessment. Please: (1) Review key theoretical frameworks relevant to workplace-based assessment in clinical training, (2) Propose 5-7 initial coding categories based on common themes, (3) For each category, provide a clear definition, example indicators, and potential sub-categories, (4) Suggest an approach for managing codes that don't fit existing categories. After generating the framework, I'd like to discuss handling contradictory data."
 
 This time, AI generates a specific, actionable coding framework with relevant theoretical grounding. James can immediately start applying it to his data.
 
@@ -85,7 +85,7 @@ Be specific about format, scope, and purpose. What exactly do you need? Vague go
 
 **Naive approach:** "I need help with data analysis"
 
-**Structured approach:** "I need a step-by-step coding framework for analysing 20 semi-structured interviews exploring teachers' experiences with technology adoption"
+**Structured approach:** "I need a step-by-step coding framework for analysing 20 semi-structured interviews exploring trainees' experiences of workplace-based assessment"
 
 Clarity about goals helps AI calibrate its response appropriately. This connects to the shared responsibility framework from lesson 1—you're responsible for clear communication about what you need.
 
@@ -108,7 +108,7 @@ Break down what you want AI to do into clear, actionable steps. This creates str
 
 **Example for the interview analysis:**
 
-1. Review key theoretical frameworks relevant to technology adoption in education
+1. Review key theoretical frameworks relevant to workplace-based assessment in clinical training
 2. Propose 5-7 initial coding categories based on common themes
 3. For each category, provide: clear definition, example indicators, potential sub-categories
 4. Suggest an approach for managing codes that don't fit existing categories
@@ -170,11 +170,11 @@ Here's a complete RGID prompt for a research question development task. Read thr
 
 ### Stage 2: Complete the final components (fading)
 
-Dr Sarah Lee needs help with literature review structure. The Role and Goal are provided. Your task: complete the Instruct and Discuss components.
+A colleague needs help with literature review structure. The Role and Goal are provided. Your task: complete the Instruct and Discuss components.
 
 **[Role]** You are an expert in systematic literature review methodology with experience in education research.
 
-**[Goal]** I need a structural framework for organising 60 papers on student engagement in blended learning, grouped thematically to identify gaps and research opportunities.
+**[Goal]** I need a structural framework for organising 60 papers on assessment in clinical education, grouped thematically to identify gaps and research opportunities.
 
 > [!todo]- Complete the Instruct component
 > Write 3-4 numbered steps AI should take
@@ -275,7 +275,7 @@ Let's practice choosing the right engagement level. Read the scenario and select
 
 ### The scenario
 
-You're preparing to teach a new module on research methods next semester. You've taught research methods before, but that was in sociology—this time you're teaching it in education. The fundamental concepts are the same, but the examples, applications, and disciplinary conventions are different.
+You're preparing to teach a new module on research methods next semester. You've taught research methods before, but that was to social science students—this time you're teaching it to nursing students. The fundamental concepts are the same, but the examples, applications, and disciplinary conventions are different.
 
 **Which engagement level would you use and why?**
 
@@ -289,17 +289,17 @@ You're preparing to teach a new module on research methods next semester. You've
 
 > [!example]- Option B: Conversation — Explore adaptation challenges
 >
-> **Your approach:** Spend 20 minutes in conversation: "I've taught research methods in sociology but now teaching it in education. What are the key differences in how these disciplines approach research? What examples work well in education? What disciplinary conventions should I know?"
+> **Your approach:** Spend 20 minutes in conversation: "I've taught research methods to social science students but now I'm teaching nursing students. What are the key differences in how these fields approach research? What examples work well in health professions education? What disciplinary conventions should I know?"
 >
-> **What happens:** Through dialogue, you identify that education research has different relationships with practitioner knowledge, different ethical considerations around research with children, and different expectations about actionable findings. You develop genuine understanding of how to adapt your existing knowledge.
+> **What happens:** Through dialogue, you identify that health professions research has different relationships with clinical and practitioner knowledge, different ethical considerations around research involving patients, and different expectations about findings being actionable in practice. You develop genuine understanding of how to adapt your existing knowledge.
 >
 > **Reflection:** Conversation helped you understand the adaptation challenge rather than just generating outputs. This serves the task well—you needed to develop understanding, not just materials.
 
 > [!example]- Option C: Context — Build comprehensive understanding
 >
-> **Your approach:** Return to the same conversation over several weeks, progressively building understanding of education research methods, testing example problems, discussing student misconceptions, refining materials based on what you learn.
+> **Your approach:** Return to the same conversation over several weeks, progressively building understanding of health professions research methods, testing example problems, discussing student misconceptions, refining materials based on what you learn.
 >
-> **What happens:** You develop very deep understanding of education research methods. The time investment creates excellent materials and genuine fluency. However, conversation-level engagement would have been sufficient—you didn't actually need the accumulated context building that context-level engagement provides.
+> **What happens:** You develop very deep understanding of health professions research methods. The time investment creates excellent materials and genuine fluency. However, conversation-level engagement would have been sufficient—you didn't actually need the accumulated context building that context-level engagement provides.
 >
 > **Reflection:** Context level can work, but it's overkill for this task. The time investment isn't justified by the incremental benefit over conversation-level engagement. Save context for projects requiring sustained, iterative development.
 

@@ -27,16 +27,16 @@ linkedin:
 >
 > Nathaniel Hawthorne
 
-Dr. James Chen needs to email his research collaborator about a methodological concern. He opens a blank document. Types: "I wanted to discuss the sampling approach." Deletes it. Too formal. Types: "Hey, quick question about the methodology." Too casual. Deletes it.
+Maryam needs to email a practice educator about a student who is struggling on placement. She opens a blank document. Types: "I wanted to discuss Sam's progress." Deletes it. Too formal. Types: "Hey, quick question about one of the students." Too casual. Deletes it.
 
-Twenty minutes later, he's still staring at the opening paragraph. Finally sends something that doesn't quite say what he meant. Total time: 35 minutes. Still unsatisfied.
+Twenty minutes later, she's still staring at the opening paragraph. Finally sends something that doesn't quite say what she meant. Total time: 35 minutes. Still unsatisfied.
 
-Dr. Elena Martinez has a similar email to write. She spends 3 minutes creating a structured prompt asking AI to draft an email explaining a methodological concern to a colleague. AI generates a draft. She then spends 7 minutes revising:
+A week later, Maryam has another difficult email to write. This time she spends 3 minutes creating a structured prompt asking AI to draft an email raising a concern about a student's placement progress with their practice educator. AI generates a draft. She then spends 7 minutes revising:
 
 - Removes "It is important to note that..." (too formulaic)
 - Changes "recent discussions" to "our conversation last Tuesday" (specific context)
-- Replaces "this approach may present challenges" with "I'm worried this sampling method won't capture seasonal variation" (direct, in her voice)
-- Adds example from their shared pilot study (specific knowledge AI couldn't have)
+- Replaces "the student may present challenges" with "I'm worried Sam isn't getting enough supervised practice with acute patients" (direct, in her voice)
+- Adds detail from the student's mid-placement report (specific knowledge AI couldn't have)
 
 She sends it confidently. Total time: 10 minutes. Says exactly what she wanted.
 
@@ -243,14 +243,14 @@ The most important skill for AI-assisted writing is recognising and preserving y
 
 Read this paragraph and identify which phrases are generic AI patterns vs distinctive scholarly voice:
 
-"It is important to note that recent research has revealed significant patterns in the data. Furthermore, this analysis suggests that the implications are particularly noteworthy. My interviews with teachers showed three unexpected disruptions in their daily routines. Moreover, these findings indicate substantial variation across different school contexts."
+"It is important to note that recent research has revealed significant patterns in the data. Furthermore, this analysis suggests that the implications are particularly noteworthy. My interviews with practice educators showed three unexpected disruptions in their daily routines. Moreover, these findings indicate substantial variation across different placement settings."
 
 **Mark each phrase:**
 
 - "It is important to note that..." → Generic / Distinctive
 - "recent research has revealed..." → Generic / Distinctive
 - "Furthermore, this analysis suggests..." → Generic / Distinctive
-- "My interviews with teachers showed three unexpected..." → Generic / Distinctive
+- "My interviews with practice educators showed three unexpected..." → Generic / Distinctive
 - "Moreover, these findings indicate..." → Generic / Distinctive
 - "substantial variation across different school contexts" → Generic / Distinctive
 
@@ -264,7 +264,7 @@ Read this paragraph and identify which phrases are generic AI patterns vs distin
 >
 > **Distinctive voice (preserve these):**
 >
-> - "My interviews with teachers showed three unexpected..." (specific ownership, concrete claim)
+> - "My interviews with practice educators showed three unexpected..." (specific ownership, concrete claim)
 > - "substantial variation across different school contexts" (precise, specific)
 > - "recent research has revealed" is borderline—generic phrasing but not empty
 
@@ -279,7 +279,7 @@ Here's a paragraph written in generic AI style. Revise it to sound like academic
 
 **Compare to this example revision:**
 
-"Teaching has changed fundamentally over the past decade. Thompson's 2023 study shows teachers now spend 40% more time on assessment than on instruction—a shift that transforms their daily work. My interviews with fifteen secondary teachers reveal they've developed three distinct strategies for managing this tension between evaluation and pedagogy."
+"Teaching has changed fundamentally over the past decade. Thompson's 2023 study shows clinical educators now spend 40% more time on assessment than on supervision—a shift that transforms their daily work. My interviews with fifteen practice educators reveal they've developed three distinct strategies for managing this tension between assessment and teaching."
 
 **What makes the example revision stronger?**
 

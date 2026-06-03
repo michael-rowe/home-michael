@@ -26,13 +26,13 @@ linkedin:
 >
 > Peter Drucker
 
-Dr Elena Rodriguez spends Monday morning creating a lesson plan for next week's seminar on qualitative research methods. She starts at 09:00 with coffee, a blank document, and good intentions.
+Maryam spends Monday morning creating a lesson plan for next week's seminar on clinical reasoning. She starts at 09:00 with coffee, a blank document, and good intentions.
 
-By 11:30, she has a rough outline but keeps second-guessing the activity sequence. Should the group discussion come before or after the methodology explanation? What examples will resonate with this particular cohort? She breaks for lunch, still not quite satisfied with the structure.
+By 11:30, she has a rough outline but keeps second-guessing the activity sequence. Should the group discussion come before or after she introduces the reasoning framework? What examples will resonate with this particular cohort? She breaks for lunch, still not quite satisfied with the structure.
 
 After lunch, she refines the timing, adds discussion prompts, and creates a handout template. By 14:00—after 3 hours of work—she has a usable lesson plan. It's good, but the process was exhausting.
 
-The following Monday, Elena tries something different. She opens Claude and spends 5 minutes structuring a detailed prompt: her pedagogical approach, student background, learning objectives, time constraints, and specific deliverables needed. AI generates a structured lesson plan in 30 seconds. Elena spends the next 40 minutes evaluating and refining—adjusting examples to her students, adding her research insights, modifying activities based on what she knows works with this cohort.
+The following Monday, Maryam tries something different. She opens Claude and spends 5 minutes structuring a detailed prompt: her pedagogical approach, student background, learning objectives, time constraints, and specific deliverables needed. AI generates a structured lesson plan in 30 seconds. Maryam spends the next 40 minutes evaluating and refining—adjusting examples to her students, adding her clinical insights, modifying activities based on what she knows works with this cohort.
 
 By 10:00—after 45 minutes total—she has a lesson plan that's just as good as last week's, and she's protected 2 hours for research writing.
 
@@ -88,18 +88,18 @@ Here's a complete RGID prompt for a lesson plan. Read through and notice how it 
 
 **[Role]** You are an experienced university teacher familiar with active learning approaches and seminar-style teaching.
 
-**[Goal]** I need a structured lesson plan for a 90-minute seminar on interview methodology in qualitative research for second-year sociology students.
+**[Goal]** I need a structured lesson plan for a 90-minute seminar on clinical reasoning for second-year physiotherapy students.
 
-**[Instruct]** Please include: (1) Timing breakdown showing how 90 minutes should be allocated, (2) Key concepts with brief explanations appropriate for this level, (3) Two active learning activities with clear instructions for students, (4) Three discussion prompts that encourage critical thinking about methodological choices, (5) One quick assessment opportunity to check understanding.
+**[Instruct]** Please include: (1) Timing breakdown showing how 90 minutes should be allocated, (2) Key concepts with brief explanations appropriate for this level, (3) Two active learning activities with clear instructions for students, (4) Three discussion prompts that encourage critical thinking about clinical decision-making, (5) One quick assessment opportunity to check understanding.
 
-**[Discuss]** Background: These students completed an introductory research methods module last year but have limited practical experience with qualitative approaches. I prefer activities where students work with real data or scenarios rather than abstract discussions. After generating the structure, I'll want to discuss adapting activities for different learning styles and potentially adding a reflective component.
+**[Discuss]** Background: These students completed an introductory module on assessment and movement analysis last year but have limited practical experience applying clinical reasoning to unfamiliar cases. I prefer activities where students work with real cases or scenarios rather than abstract discussions. After generating the structure, I'll want to discuss adapting activities for different learning styles and potentially adding a reflective component.
 
 > [!question] Self-explanation
-> Why does specifying "second-year sociology students" rather than just "students" matter?
+> Why does specifying "second-year physiotherapy students" rather than just "students" matter?
 >
 > <details><summary><strong>Show answer</strong></summary>
 >
-> Specifying the level and discipline activates patterns relevant to that context—the sophistication level, disciplinary conventions, typical background knowledge, and common student challenges in sociology vs other fields. "Students" would produce generic content averaging across all contexts.
+> Specifying the level and discipline activates patterns relevant to that context—the sophistication level, disciplinary conventions, typical background knowledge, and common student challenges in physiotherapy vs other fields. "Students" would produce generic content averaging across all contexts.
 >
 > </details>
 
@@ -107,7 +107,7 @@ Here's a complete RGID prompt for a lesson plan. Read through and notice how it 
 
 Dr. Patel needs a lesson plan for a statistics workshop. The Role and Goal are provided. Your task: complete the Instruct section with 4-5 specific deliverables.
 
-**[Role]** You are an experienced statistics educator familiar with teaching quantitative methods to social science students.
+**[Role]** You are an experienced statistics educator familiar with teaching quantitative methods to healthcare students.
 
 **[Goal]** I need a structured lesson plan for a 2-hour workshop on regression analysis for first-year research methods students who find statistics intimidating.
 
