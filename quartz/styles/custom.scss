@@ -768,3 +768,41 @@ a.course-button {
 article p:has(> img:only-child) {
   text-align: center;
 }
+
+// Copy-to-clipboard prompt blocks (course content)
+// Usage: <div class="prompt-block"><button class="prompt-copy">Copy</button><pre><code>...</code></pre></div>
+.prompt-block {
+  position: relative;
+  margin: 1rem 0;
+
+  pre {
+    padding-top: 2.6rem; // room for the copy button
+  }
+}
+
+.prompt-copy {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 1;
+  font-size: 0.75rem;
+  font-family: inherit;
+  line-height: 1;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 5px;
+  background-color: var(--light);
+  color: var(--darkgray);
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: var(--secondary);
+    border-color: var(--secondary);
+  }
+
+  &.copied {
+    color: var(--secondary);
+    border-color: var(--secondary);
+  }
+}

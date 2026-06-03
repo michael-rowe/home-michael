@@ -95,7 +95,10 @@ Different disciplines frame the same problem differently—revealing assumptions
 
 **Prompt structure:**
 
-"I'm investigating [your problem]. How would researchers from [discipline 1], [discipline 2], and [discipline 3] frame this differently? What questions would each ask? What would each consider most important? What would each discipline likely overlook?"
+<div class="prompt-block">
+<button class="prompt-copy" type="button" aria-label="Copy prompt to clipboard">Copy</button>
+<pre><code>I'm investigating [your problem]. How would researchers from [discipline 1], [discipline 2], and [discipline 3] frame this differently? What questions would each ask? What would each consider most important? What would each discipline likely overlook?</code></pre>
+</div>
 
 **Example:**
 
@@ -179,7 +182,10 @@ Different methods illuminate different aspects—and obscure others. Developing 
 
 **Prompt structure:**
 
-"For [your problem], what would I learn from: quantitative surveys, qualitative interviews, longitudinal tracking, ethnographic observation, and document analysis? What does each method reveal that others don't? What does each method miss?"
+<div class="prompt-block">
+<button class="prompt-copy" type="button" aria-label="Copy prompt to clipboard">Copy</button>
+<pre><code>For [your problem], what would I learn from: quantitative surveys, qualitative interviews, longitudinal tracking, ethnographic observation, and document analysis? What does each method reveal that others don't? What does each method miss?</code></pre>
+</div>
 
 **Example:**
 
