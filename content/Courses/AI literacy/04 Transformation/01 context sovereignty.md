@@ -30,19 +30,19 @@ linkedin:
 > [!question]- Reflection: Managing context with AI
 > **Before we begin:** Think about your last 5 AI conversations. How much time did you spend explaining your project and context? Was any of it repetitive?
 
-Dr. Patel has a productive 45-minute conversation with AI about her research methodology. The engagement is sophisticated—AI understands her constructivist approach, her small-sample qualitative methods, her focus on lived experience.
+Nadia has a productive 45-minute conversation with AI about her research methodology. The engagement is sophisticated—AI understands her constructivist approach, her small-sample qualitative methods, her focus on lived experience.
 
 Two weeks later, she returns with a related question about data analysis. She starts re-explaining her project, her methodological approach, her theoretical framework—the same background from last time. She knows she's repeating herself. It takes 15 minutes before the conversation becomes productive.
 
 She does this every time she uses AI. Over 20 sessions: 5 hours spent re-explaining the same context repeatedly.
 
-Dr. Chen took a different approach. She spent 3 hours once building a professional context document: her expertise, current projects, methodological approach, recurring challenges. Now every AI conversation starts from accumulated understanding.
+Maryam took a different approach. She spent 3 hours once building a professional context document: her expertise, current projects, methodological approach, recurring challenges. Now every AI conversation starts from accumulated understanding.
 
-She types: "Given my current project on academic workload and my methodological approach, help me think through this sampling question."
+She types: "Given my current project on blended clinical-skills teaching and my methodological approach, help me think through this sampling question."
 
 AI responds immediately with context-appropriate suggestions. No re-explaining needed. Over 20 sessions: 3 hours invested once, then zero time re-explaining.
 
-**The difference:** Chen invested upfront. Patel pays the re-explaining tax every time. Plus Chen doesn't carry the cognitive load of wondering if AI remembers her context.
+**The difference:** Maryam invested upfront. Nadia pays the re-explaining tax every time. Plus Maryam doesn't carry the cognitive load of wondering if AI remembers her context.
 
 ## Context sovereignty assessment
 
@@ -106,7 +106,7 @@ Effective context has four components. Each requires reflection about what matte
 - What you know deeply versus peripherally
 
 > [!example]- Example: Documenting expertise
-> "Senior lecturer in education with background in sociology. Expertise in academic workload and wellbeing using qualitative methods (interviews, ethnography) and organizational justice theory. Working knowledge of survey methods but limited statistical expertise. Know higher education policy well but limited K-12 knowledge."
+> "Senior lecturer in physiotherapy with a clinical background. Expertise in clinical-skills teaching and placement learning using qualitative methods (interviews, focus groups). Working knowledge of survey methods but limited statistical expertise. Know health professions education well but limited knowledge of undergraduate science teaching."
 
 **Why this matters:** AI calibrates responses to your actual expertise level. But documenting this requires metacognitive awareness—understanding your genuine boundaries, not presenting idealized credentials.
 
@@ -122,7 +122,7 @@ Effective context has four components. Each requires reflection about what matte
 - Where you need support
 
 > [!example]- Example: Documenting current work
-> "Current projects: (1) Interview study on workload allocation—20 interviews completed, analysis phase, exploring how formal models relate to actual practice. (2) Conceptual paper on open scholarly practice—arguing for new framework, draft stage, struggling with positioning against existing concepts."
+> "Current projects: (1) Interview study on students' experiences of clinical placement—20 interviews completed, analysis phase, exploring how the formal curriculum relates to what students actually experience. (2) Conceptual paper on assessment in practice education—arguing for a new framework, draft stage, struggling with positioning against existing concepts."
 
 **Why this matters:** AI connects responses to your actual work rather than providing generic advice. But this requires ethical judgement about boundaries.
 
@@ -165,16 +165,17 @@ Building professional context requires judgement about what to share and what to
 
 ### The scenario
 
-You're documenting current projects. One project involves sensitive interviews about workplace experiences—faculty describing conflicts with administrators, including identifiable details about specific people and events.
+You're documenting current projects. One project involves sensitive interviews with students about difficult experiences on clinical placement—students describing poor supervision and, in passing, identifiable details about practice educators, placement sites, and even patients they helped care for.
 
 **How do you document this?**
 
 <details> <summary><strong>Option A: Document everything including sensitive details</strong></summary>
 
-**You write:** "Interviewing 15 faculty about conflicts with Dean Martinez. Most report feeling undermined by her micromanagement of research decisions. Data shows clear pattern of toxic leadership. Participants include Professors Chen, Williams, and Rodriguez who all described specific incidents..."
+**You write:** "Interviewing 15 students about their placement on Ward 4 at St Mary's. Most report feeling unsupported by their practice educator, Jane A. Several described specific incidents involving named patients whose care they were part of..."
 
 **Risk:** You've documented identifiable, sensitive, confidential information. If this context is ever accessed inappropriately, or if you share it inadvertently in the wrong conversation, you've compromised:
 
+- Patient confidentiality—the most serious breach of all
 - Research participant confidentiality
 - Professional relationships
 - Your ethical responsibilities
@@ -198,14 +199,14 @@ AI has no context to provide relevant support. You lose valuable assistance for 
 
 </details> <details> <summary><strong>Option C: Document with appropriate abstraction</strong></summary>
 
-**You write:** "Interview study exploring faculty experiences of administrative relationships in higher education—20 participants, analysis phase. Using organizational justice theory to analyze power dynamics and communication patterns. Challenges: (1) synthesizing diverse experiences into coherent themes without losing nuance, (2) writing findings that are critical of systems without identifying individuals, (3) balancing analytical rigor with respectful representation."
+**You write:** "Interview study exploring students' experiences of supervision on clinical placement—20 participants, analysis phase. Using organisational justice theory to analyse supervisory relationships and support. Challenges: (1) synthesising diverse experiences into coherent themes without losing nuance, (2) writing findings that are critical of placement practices without identifying individuals, sites, or any patient, (3) balancing analytical rigour with respectful representation."
 
 **Result:** AI can help with:
 
-- Theoretical frameworks for analyzing institutional dynamics
+- Theoretical frameworks for analysing supervisory and institutional dynamics
 - Strategies for thematic synthesis
-- Approaches to critical analysis that protects participants
-- Writing techniques that maintain rigor and respect
+- Approaches to critical analysis that protect participants and patients
+- Writing techniques that maintain rigour and respect
 
 All without accessing any identifiable or sensitive information.
 
@@ -441,7 +442,9 @@ Now that you've built your professional context, assess the literacy capabilitie
 - What have I learned about my practice?
 
 > [!tip]- Technical note: Platform-neutral storage
-> Store context in markdown files or your note-taking system, not proprietary AI platforms. This ensures you control your context regardless of which AI tools you use. Maintain one canonical document you pull from, rather than fragmenting across platforms. This independence is itself a literacy practice—maintaining critical distance and control.
+> Many platforms now offer native ways to persist context—ChatGPT's custom instructions and memory, Claude's Projects, system prompts. These are convenient and worth using. But keep your *canonical* context in markdown files or your note-taking system, not locked inside one proprietary platform. That way you control your context regardless of which AI tools you use, and you can paste the relevant portion into whichever tool you're working in. Maintain one canonical document you pull from, rather than fragmenting across platforms. This independence is itself a literacy practice—maintaining critical distance and control.
+>
+> One caveat that matters more in health professions education: before relying on any platform's persistent context or memory, check whether it trains on your inputs and where your data is stored. Never place patient-identifiable or student-identifiable information into a persistent context, regardless of platform.
 
 ### Your maintenance commitment
 

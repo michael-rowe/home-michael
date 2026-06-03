@@ -62,11 +62,11 @@ Research on behaviour change shows this fails consistently. The gap between know
 
 Let's see how the same literacy capabilities play out through different integration approaches.
 
-### Dr. Martinez: The discursive approach
+### Priya: The discursive approach
 
 **Month 1 after completing the course:**
 
-Dr. Martinez is enthusiastic. She uses her new literacy capabilities regularly—decomposing problems before investigating, maintaining critical evaluation, documenting engagements for reflection.
+Priya is enthusiastic. She uses her new literacy capabilities regularly—decomposing problems before investigating, maintaining critical evaluation, documenting engagements for reflection.
 
 **Month 2:**
 
@@ -74,19 +74,19 @@ Deadline pressure increases. She tells herself she'll apply critical evaluation 
 
 **Month 3:**
 
-Under pressure to complete a grant application, she reverts to old patterns—quick superficial prompts without decomposition, accepting AI suggestions without critical evaluation. She hasn't documented anything for reflection. The engagement log sits empty.
+Under pressure to complete a placement audit, she reverts to old patterns—quick superficial prompts without decomposition, accepting AI suggestions without critical evaluation. She hasn't documented anything for reflection. The engagement log sits empty.
 
 She feels guilty but can't sustain the effort required. The literacy practices require remembering, deciding, and executing—cognitive load she doesn't have when busy.
 
 **Pattern:** Discursive integration depends on willpower (fails under pressure), requires conscious memory (forgotten when busy), exists separately from workflow (feels like additional work), and degrades when competing priorities emerge.
 
-**Key observation:** Martinez's approach relies on discipline and willpower—it cannot sustain when cognitive load increases.
+**Key observation:** Priya's approach relies on discipline and willpower—it cannot sustain when cognitive load increases.
 
-### Dr. Chen: The structural approach
+### Maryam: The structural approach
 
 **Month 1 after completing the course:**
 
-Dr. Chen spends 3 hours redesigning her research project workflow. She creates a template folder structure:
+Maryam spends 3 hours redesigning her research project workflow. She creates a template folder structure:
 
 ```
 project_template/
@@ -110,13 +110,13 @@ The practices feel automatic now. She's not relying on willpower; her systems su
 
 **Pattern:** Structural integration embeds practices in workflow (automatic under pressure), uses templates and defaults (no memory required), happens as byproduct of work (not additional task), and sustains when competing priorities emerge because structure makes literate practice easier than avoiding it.
 
-**Key observation:** Chen's approach uses systems design—structures that make literate practice the natural default option.
+**Key observation:** Maryam's approach uses systems design—structures that make literate practice the natural default option.
 
 ### The fundamental difference
 
-**Martinez tried to control behaviour through willpower and discipline.** This treats literacy maintenance as a self-regulation problem—"I just need to be more disciplined about applying these practices."
+**Priya tried to control behaviour through willpower and discipline.** This treats literacy maintenance as a self-regulation problem—"I just need to be more disciplined about applying these practices."
 
-**Chen cultivated conditions where literate practice emerged naturally from well-designed systems.** This treats literacy maintenance as a design problem—"How can I make literate practice the automatic default requiring less effort than superficial engagement?"
+**Maryam cultivated conditions where literate practice emerged naturally from well-designed systems.** This treats literacy maintenance as a design problem—"How can I make literate practice the automatic default requiring less effort than superficial engagement?"
 
 **This shift from control to cultivation is the lesson.** You can't control whether you'll remember to apply critical evaluation when under deadline pressure. But you can cultivate literacy practice by designing workflows where evaluation prompts appear automatically, where skipping them requires more effort than engaging them.
 
