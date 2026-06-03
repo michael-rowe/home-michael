@@ -28,19 +28,19 @@ linkedin:
 >
 > Francis Bacon
 
-Dr. James Chen looks at his reading backlog: 47 papers marked "need to read." He's been trying to read them all carefully, one at a time. Last week, he spent 2 hours on one paper about qualitative methodology. It was good, but not directly relevant to his work. He still has 46 papers to go. The backlog grows faster than he can manage it.
+Tom looks at his reading backlog: 47 papers marked "need to read"—a mix of clinical research and education studies. He's been trying to read them all carefully, one at a time. Last week, he spent 2 hours on one paper about a qualitative methodology. It was good, but not directly relevant to his work. He still has 46 papers to go. The backlog grows faster than he can manage it.
 
 He feels perpetually behind on his field.
 
-Dr. Sarah Martinez has a similar backlog. On Monday morning, she spends 20 minutes using AI to process 10 papers from her queue:
+David has a similar backlog. On Monday morning, he spends 20 minutes using AI to process 10 papers from his queue:
 
-- 2 are directly relevant to her research → marked for deep reading this week
+- 2 are directly relevant to his research → marked for deep reading this week
 - 5 provide useful information but don't need careful reading → extracts key details, documents notes
 - 3 turn out to be irrelevant → deletes from backlog
 
-By 10:20, she's triaged 10 papers and knows exactly what deserves her sustained attention. Tuesday afternoon, she reads the 2 important papers carefully, building genuine understanding. Wednesday, she returns to her backlog and processes 8 more papers.
+By 10:20, he's triaged 10 papers and knows exactly what deserves his sustained attention. Tuesday afternoon, he reads the 2 important papers carefully, building genuine understanding. Wednesday, he returns to his backlog and processes 8 more papers.
 
-Three weeks later, James has carefully read 3 more papers (50 total hours). Sarah has processed 45 papers through triage and read 8 papers deeply (20 total hours).
+Three weeks later, Tom has carefully read 3 more papers (50 total hours). David has processed 45 papers through triage and read 8 papers deeply (20 total hours).
 
 > [!question] Before we begin
 > How do you currently approach your reading backlog? Do you try to read everything carefully? How does that work for you?
@@ -224,6 +224,34 @@ Before investing reading time, quickly assess whether papers warrant your attent
 > **How many could you confidently remove from your backlog?**
 
 **Literacy insight:** This relevance filtering requires contextual judgement. AI can identify potential connections, but you evaluate whether those connections matter for your scholarly goals. Your domain expertise trumps AI's suggestions.
+
+## Workflow 4: Verifying sources AI suggests
+
+The workflows above all work on papers you already have. A different—and riskier—use is asking AI to *suggest* literature: "What are the key papers on X?" Here you must understand a specific failure mode: AI can generate references that look entirely plausible but do not exist. Real-sounding authors, journals, years, and titles, assembled into a citation with no source behind it.
+
+This matters more in health professions education than in many fields. A fabricated reference that slips into a teaching resource, a curriculum document, or a paper isn't just embarrassing—it can propagate a clinical claim that has no evidence behind it.
+
+> [!warning] AI does not retrieve citations—it constructs them
+> Unless a tool is explicitly searching a database and showing you the source, treat every AI-suggested reference as unverified. Plausibility is not evidence that the paper exists.
+
+### The verification workflow
+
+For any reference AI provides:
+
+1. **Find it independently.** Search the title in your library database, Google Scholar, or PubMed—don't ask AI to confirm it, because it will often "confirm" its own invention.
+2. **Check the DOI resolves.** A real article has a DOI that leads to the actual paper. A fabricated one usually has no DOI, or one that resolves to something unrelated.
+3. **Read enough to confirm the claim.** Verify the paper actually says what AI attributed to it. AI can cite a real paper for a claim it never makes.
+
+> [!todo]- Quick practice: catch a fabrication
+> Ask AI: "Give me five key papers on [a narrow topic in your field], with full citations."
+>
+> Take each reference and search for it independently.
+>
+> - How many could you find?
+> - Did any combine real authors or journals into a paper that doesn't exist?
+> - Would you have noticed if you hadn't checked?
+
+**Literacy note:** This is critical evaluation at its most consequential. The skill isn't avoiding AI for literature work—it's never letting an unverified citation reach your writing, your teaching, or your students.
 
 ## Decision point: Extraction versus deep reading
 
