@@ -27,7 +27,7 @@ linkedin:
 >
 > Albert Einstein
 
-Dr. Allen wants to study "why academics leave the profession." She jumps straight to literature review. Searches "academic retention" and "faculty attrition." Finds 50 relevant papers.
+Hannah wants to study "why early-career clinical academics leave the profession." She jumps straight to literature review. Searches "academic retention" and "faculty attrition." Finds 50 relevant papers.
 
 Three weeks later, she's overwhelmed. The literature seems contradictory. She's unclear what her actual research question is. She doesn't know which methodological approach makes sense. Papers discuss labour markets, burnout, institutional structures, career identity, gender disparities, generational differences—everything connects to everything else.
 
@@ -69,7 +69,7 @@ Before we explore decomposition techniques, understand why this matters:
 
 Different framings aren't just different perspectives on the same thing—they create genuinely different scholarly inquiries.
 
-**Example: "Why do academics leave?"**
+**Example: "Why do early-career clinical academics leave?"**
 
 **Economic framing:** Labour market question about compensation competitiveness → Leads to: salary data, employment statistics, market analysis → Methods: quantitative analysis, regression models → Literature: labour economics, human capital theory
 
@@ -107,7 +107,7 @@ Different disciplines frame the same problem differently—revealing assumptions
 
 Here's how a scholar uses disciplinary decomposition whilst maintaining critical evaluation:
 
-**[Scholar's problem]:** Understanding why early-career academics leave
+**[Scholar's problem]:** Understanding why early-career clinical academics leave
 
 **[Scholar's prompt]:** "How would economists, sociologists, and psychologists frame 'early-career academic retention' differently?"
 
@@ -183,7 +183,7 @@ Different methods illuminate different aspects—and obscure others. Developing 
 
 **Example:**
 
-"For understanding why academics leave: What would surveys show that interviews miss? What would interviews reveal that surveys can't? What would longitudinal data add? What limitations does each have?"
+"For understanding why clinical academics leave: What would surveys show that interviews miss? What would interviews reveal that surveys can't? What would longitudinal data add? What limitations does each have?"
 
 > [!example]- Why methods matter for framing
 >
@@ -248,7 +248,7 @@ Not all problems benefit from systematic decomposition. Let's practice evaluatin
 
 ### The scenario
 
-Dr. Kim is studying "student engagement in online learning." She spends 90 minutes systematically decomposing the problem: disciplinary framings (education, psychology, computer science, sociology), methodological framings (surveys, analytics, interviews, observation), temporal framings (before class, during, after, semester-long), conceptual framings (active vs passive, cognitive vs affective, individual vs social).
+Dr. Kim is studying "student engagement in online clinical teaching." She spends 90 minutes systematically decomposing the problem: disciplinary framings (education, psychology, computer science, sociology), methodological framings (surveys, analytics, interviews, observation), temporal framings (before class, during, after, semester-long), conceptual framings (active vs passive, cognitive vs affective, individual vs social).
 
 **Two possible outcomes:**
 
