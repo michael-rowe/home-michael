@@ -39,8 +39,6 @@ The course moves through four modules:
 
 This progression mirrors how expertise develops across all literacy domains—from foundational competence through sophisticated application to reflective practice.
 
-The substitution → adaptation → transformation arc adapts Puentedura's SAMR model (substitution, augmentation, modification, redefinition), originally developed for technology integration in education, and reframes it for the development of AI literacy.
-
 **Honest about limitations**  
 You'll learn when AI creates false efficiency, when it adds overhead rather than saving time, and how to recognise meaningful engagement versus superficial assistance. Not every academic task benefits from AI collaboration. Developing literacy means knowing the difference.
 
