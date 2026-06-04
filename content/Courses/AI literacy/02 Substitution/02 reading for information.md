@@ -106,7 +106,6 @@ The most common use of AI for reading is summarisation—condensing papers into 
 Here's a complete summarisation prompt with critical evaluation. Notice how it specifies exactly which elements to include:
 
 <div class="prompt-block">
-<button class="prompt-copy" type="button" aria-label="Copy prompt to clipboard">Copy</button>
 <pre><code>Summarise this paper in 200 words covering: (1) main research question, (2) methodology used, (3) key findings, (4) main conclusions or implications.</code></pre>
 </div>
 
@@ -171,7 +170,6 @@ Instead of asking for everything, specify exactly what you need:
 **Prompt structure:**
 
 <div class="prompt-block">
-<button class="prompt-copy" type="button" aria-label="Copy prompt to clipboard">Copy</button>
 <pre><code>From this paper, extract: (1) theoretical framework used, (2) sample size and characteristics, (3) how they measured [specific variable], (4) acknowledged limitations.</code></pre>
 </div>
 
