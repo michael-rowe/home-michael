@@ -316,6 +316,19 @@ Continue using redesigned workflow whilst beginning to integrate literacy into s
 
 **The principle:** You don't need comprehensive workflow overhaul. You need ONE structural change that makes literacy automatic. Start small. Build based on what works. Each successful structural change compounds—you're building literacy infrastructure gradually through changes that actually sustain.
 
+> [!question] Knowledge check
+> What actually sustains literate practice? Select an option.
+
+<div class="mcq">
+<p class="mcq-q">Which approach is most likely to keep literate AI practice going once deadline pressure hits?</p>
+<button class="mcq-option" type="button">Resolving to remember and apply the practices through willpower</button>
+<div class="mcq-fb">Discursive intentions collapse under cognitive load—this is exactly what fails in month three.</div>
+<button class="mcq-option" type="button" data-correct="true">Redesigning the workflow so literate practice is the default, built into templates and steps</button>
+<div class="mcq-fb">Yes—structural integration makes the literate path easier than the shortcut, so it survives pressure.</div>
+<button class="mcq-option" type="button">Trying to integrate literacy into every workflow at once</button>
+<div class="mcq-fb">Attempting everything simultaneously overwhelms and leads to abandoning all of it—start with one.</div>
+</div>
+
 ## Key takeaways
 
 - **Structural integration beats willpower:** Literacy capabilities don't sustain through good intentions—they require structural integration into workflows. Discursive approaches (hoping to remember and apply practices) fail under cognitive load and deadline pressure. Structural approaches embed literacy into workflow design through templates that prompt practices, defaults that make literate engagement easier than superficial use, mandatory steps that enforce critical evaluation, and documentation that happens as workflow byproduct. Sustainable literacy comes from design, not discipline.

@@ -408,6 +408,19 @@ Skip systematic decomposition when:
 > **Specific problem:**
 > **When:**
 
+> [!question] Knowledge check
+> When does decomposition help? Select an option.
+
+<div class="mcq">
+<p class="mcq-q">Your research question is already clear and well-bounded, but you run a full disciplinary and methodological decomposition anyway. The likely result?</p>
+<button class="mcq-option" type="button">It reveals crucial blind spots you'd otherwise miss</button>
+<div class="mcq-fb">When a question is already focused, decomposition more often adds noise than genuine insight.</div>
+<button class="mcq-option" type="button" data-correct="true">It creates artificial complexity without improving clarity</button>
+<div class="mcq-fb">Yes—systematic decomposition serves ill-defined problems; for an already-focused question it can overwhelm.</div>
+<button class="mcq-option" type="button">It's always worth doing, regardless of the question</button>
+<div class="mcq-fb">No technique is always worth it—matching it to the problem is the literacy skill this lesson builds.</div>
+</div>
+
 ## Key takeaways
 
 - **Problem framing shapes inquiry fundamentally:** How you frame a problem determines which literatures you'll find relevant, which methods make sense, what questions you'll ask, and what counts as an answer. Different framings aren't just perspectives on the same thing—they create genuinely different scholarly inquiries. Develop judgement about which framings serve your specific scholarly purposes.

@@ -361,6 +361,19 @@ This becomes a resource you'll build throughout the course—a personal collecti
 
 **Literacy note:** Documentation supports metacognition—reflecting on your practice and building frameworks you can apply across situations. This is how expertise develops.
 
+> [!question] Knowledge check
+> One more before the summary—select an option to check your thinking.
+
+<div class="mcq">
+<p class="mcq-q">You need to deeply understand an unfamiliar theoretical framework before you can apply it. Which engagement level fits best?</p>
+<button class="mcq-option" type="button">Extraction</button>
+<div class="mcq-fb">Extraction gives quick outputs for bounded tasks—it won't build the understanding you need here.</div>
+<button class="mcq-option" type="button" data-correct="true">Conversation</button>
+<div class="mcq-fb">Yes—extended, multi-turn dialogue is how you work through complex, unfamiliar ideas.</div>
+<button class="mcq-option" type="button">Context</button>
+<div class="mcq-fb">Overkill for a single concept; context-level engagement is for sustained, multi-session projects.</div>
+</div>
+
 ## Key takeaways
 
 - **Structured prompting produces better results:** The RGID framework—Role, Goal, Instruct, Discuss—provides a mental scaffold for communicating clearly with AI. By establishing perspective, specifying desired outcomes, providing clear steps, and signalling openness to dialogue, you fundamentally change the quality of AI responses.

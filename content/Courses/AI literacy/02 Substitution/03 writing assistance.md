@@ -450,6 +450,19 @@ For any text where you used AI assistance:
 > **Day/time I'll do this:**
 > **Calendar entry created:** Yes / Not yet
 
+> [!question] Knowledge check
+> Check your voice-retention judgement—select an option.
+
+<div class="mcq">
+<p class="mcq-q">After using AI to draft a paragraph, you kept 80% of its sentences unchanged. What does this most likely suggest?</p>
+<button class="mcq-option" type="button">Healthy AI-assisted writing</button>
+<div class="mcq-fb">Keeping that much usually means generic AI prose dominates—10–30% unchanged is the healthy range.</div>
+<button class="mcq-option" type="button" data-correct="true">Your voice is likely compromised</button>
+<div class="mcq-fb">Yes—at 80% unchanged you've accepted AI phrasing too readily; the result probably doesn't sound like you.</div>
+<button class="mcq-option" type="button">AI didn't help at all</button>
+<div class="mcq-fb">That's the opposite end—under 10% unchanged suggests AI added overhead. 80% is over-reliance, not under-use.</div>
+</div>
+
 ## Key takeaways
 
 - **AI as assistant requires critical selection:** AI as writing assistant means you maintain control over voice, argument, and quality through rigorous critical selection. AI drafts options, you select what works, reject what doesn't, and revise everything to sound like you. Your distinctive voice comes from what you choose to keep, how you adapt it, and what you reject—not from AI's initial draft.
