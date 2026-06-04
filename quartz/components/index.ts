@@ -35,7 +35,6 @@ import NotesGrid from "./NotesGrid"
 import NotesByTag from "./NotesByTag"
 import NotesByCategory from "./NotesByCategory"
 import NotesByType from "./NotesByType"
-import PromptCopy from "./PromptCopy"
 import RecentlyAddedNav from "./RecentlyAddedNav"
 import RecentlyAddedList from "./RecentlyAddedList"
 import NewsletterNav from "./NewsletterNav"
@@ -82,7 +81,6 @@ export {
   NotesByTag,
   NotesByCategory,
   NotesByType,
-  PromptCopy,
   RecentlyAddedNav,
   RecentlyAddedList,
   NewsletterNav,

@@ -162,7 +162,6 @@ Here's a complete RGID prompt for a research question development task. Read thr
 Copy the assembled prompt and adapt it to your own work:
 
 <div class="prompt-block">
-<button class="prompt-copy" type="button" aria-label="Copy prompt to clipboard">Copy</button>
 <pre><code>You are an expert in higher education research with knowledge of academic workload, wellbeing, and organisational culture.
 I need research questions for a study examining how UK academics manage competing demands, particularly the relationship between workload and research productivity.
 Please: (1) Identify 3-5 key areas of debate in the literature, (2) Formulate 2-3 research questions for each area, (3) Explain why each matters and what gap it addresses.
@@ -351,12 +350,12 @@ Save 1-2 prompts from today's activities that worked well. For each, note:
 
 **Example entry:**
 
-```
-Task type: Literature review organisation
+<div class="prompt-block">
+<pre><code>Task type: Literature review organisation
 Prompt: [Role] You are an expert in systematic literature review... [etc]
 Why it worked: The numbered steps created clear structure, and planning follow-up questions helped me refine the themes
-Engagement level: Conversation (needed 20 minutes of dialogue to develop the framework)
-```
+Engagement level: Conversation (needed 20 minutes of dialogue to develop the framework)</code></pre>
+</div>
 
 This becomes a resource you'll build throughout the course—a personal collection of what works for your specific contexts.
 

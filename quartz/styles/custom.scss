@@ -769,40 +769,22 @@ article p:has(> img:only-child) {
   text-align: center;
 }
 
-// Copy-to-clipboard prompt blocks (course content)
-// Usage: <div class="prompt-block"><button class="prompt-copy">Copy</button><pre><code>...</code></pre></div>
+// Prompt blocks (course content): a code block holding a copyable prompt.
+// The copy control is Quartz's native code-block button; this wrapper makes
+// the prompt wrap instead of scrolling horizontally. The `pre > code` overrides
+// are needed because the syntax highlighter sets `display: grid; overflow-x: auto`
+// on code, which forces horizontal scroll regardless of white-space.
 .prompt-block {
-  position: relative;
   margin: 1rem 0;
 
-  pre {
-    padding-top: 2.6rem; // room for the copy button
-  }
-}
-
-.prompt-copy {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  z-index: 1;
-  font-size: 0.75rem;
-  font-family: inherit;
-  line-height: 1;
-  padding: 0.3rem 0.65rem;
-  border: 1px solid var(--lightgray);
-  border-radius: 5px;
-  background-color: var(--light);
-  color: var(--darkgray);
-  cursor: pointer;
-  transition: all 0.2s ease;
-
-  &:hover {
-    color: var(--secondary);
-    border-color: var(--secondary);
+  pre,
+  pre > code {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    overflow-x: visible;
   }
 
-  &.copied {
-    color: var(--secondary);
-    border-color: var(--secondary);
+  pre > code {
+    display: block;
   }
 }

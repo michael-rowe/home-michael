@@ -165,7 +165,6 @@ Start with the simplest explanation that captures core concepts without nuance.
 Here's how an experienced researcher builds foundation understanding:
 
 <div class="prompt-block">
-<button class="prompt-copy" type="button" aria-label="Copy prompt to clipboard">Copy</button>
 <pre><code>Explain phenomenology in plain language for someone encountering it for the first time. What's the basic idea? What problem does it solve?</code></pre>
 </div>
 

@@ -226,7 +226,6 @@ Strong arguments require evidence that actually supports claims. But it's easy t
 **Prompt structure:**
 
 <div class="prompt-block">
-<button class="prompt-copy" type="button" aria-label="Copy prompt to clipboard">Copy</button>
 <pre><code>I'm claiming [your claim] based on [your evidence]. Evaluate whether this evidence is sufficient to support this claim. What alternative explanations could account for my evidence without supporting my conclusion? What additional evidence would strengthen the claim?</code></pre>
 </div>
 
@@ -272,7 +271,6 @@ Don't ask AI for weak objections you can easily dismiss. Ask for the strongest p
 **Prompt structure:**
 
 <div class="prompt-block">
-<button class="prompt-copy" type="button" aria-label="Copy prompt to clipboard">Copy</button>
 <pre><code>Present the strongest possible argument against my claim that [your claim]. What would the most sophisticated sceptic say? Don't give me easy objections—give me the ones that would actually challenge my thinking.</code></pre>
 </div>
 
