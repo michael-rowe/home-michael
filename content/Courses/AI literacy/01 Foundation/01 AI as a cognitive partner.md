@@ -81,6 +81,21 @@ Most confusion about AI comes from applying the wrong mental model. Before explo
 > [!question] Quick reflection
 > When have you caught AI being confidently wrong about something in your field?
 
+> [!question] Knowledge check
+> Test the core idea before moving on—select an option to see how it lands.
+
+<div class="mcq">
+<p class="mcq-q">Which mental model best fits generative AI?</p>
+<button class="mcq-option" type="button">A search engine that retrieves the most relevant documents</button>
+<div class="mcq-fb">Not quite. A search engine retrieves existing documents; AI constructs new text probabilistically. Expecting retrieval is what makes AI feel disappointing for research.</div>
+<button class="mcq-option" type="button">A database of stored facts you query</button>
+<div class="mcq-fb">No. AI doesn't store facts—it generates plausible text from learned patterns, which is exactly why it can be confidently wrong.</div>
+<button class="mcq-option" type="button" data-correct="true">A language-based extension of your own thinking</button>
+<div class="mcq-fb">Yes. Like writing or conversation, AI extends how you think through language—while still requiring your scholarly judgement.</div>
+<button class="mcq-option" type="button">Software you operate through commands</button>
+<div class="mcq-fb">Not really. AI responds to natural language, not commands—there's no interface to master, but how clearly you communicate matters a great deal.</div>
+</div>
+
 ## Quick practice: transactional vs conversational
 
 > [!todo]- Activity: Experience the difference
