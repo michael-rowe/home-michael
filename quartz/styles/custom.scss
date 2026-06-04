@@ -788,3 +788,77 @@ article p:has(> img:only-child) {
     display: block;
   }
 }
+
+// Self-scoring multiple-choice questions (course content). Behaviour from the
+// Mcq component; markup is a .mcq wrapper with .mcq-option buttons each
+// followed by a .mcq-fb feedback block.
+.mcq {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--gray);
+  border-left: 4px solid var(--secondary);
+  border-radius: 8px;
+  background-color: var(--light);
+}
+
+.mcq-q {
+  font-weight: 600;
+  margin: 0 0 0.75rem 0;
+}
+
+.mcq-option {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 0.6rem 0.8rem;
+  margin: 0.4rem 0;
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  background-color: var(--background);
+  color: var(--dark);
+  cursor: pointer;
+  transition:
+    border-color 0.15s ease,
+    background-color 0.15s ease;
+
+  &:hover {
+    border-color: var(--secondary);
+  }
+
+  &.correct {
+    border-color: #2e7d32;
+    background-color: rgba(46, 125, 50, 0.1);
+
+    &::after {
+      content: " ✓";
+      color: #2e7d32;
+      font-weight: 700;
+    }
+  }
+
+  &.incorrect {
+    border-color: #c62828;
+    background-color: rgba(198, 40, 40, 0.1);
+
+    &::after {
+      content: " ✗";
+      color: #c62828;
+      font-weight: 700;
+    }
+  }
+}
+
+.mcq-fb {
+  display: none;
+  margin: 0 0 0.6rem 0.4rem;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.9rem;
+  border-left: 3px solid var(--lightgray);
+  color: var(--darkgray);
+
+  &.show {
+    display: block;
+  }
+}
