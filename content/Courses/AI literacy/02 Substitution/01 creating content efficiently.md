@@ -428,6 +428,19 @@ Looking across the workflows you've learned and the task you completed, identify
 
 **This is taste development:** Through repeated honest evaluation, you're building professional judgement about when substitution serves your work and when it doesn't. This pattern recognition is how literacy develops beyond technique mastery.
 
+> [!question] Knowledge check
+> Check your task-selection judgement—select an option.
+
+<div class="mcq">
+<p class="mcq-q">Which task is the best candidate for AI assistance at the substitution level?</p>
+<button class="mcq-option" type="button">A two-sentence reply to a student about an extension</button>
+<div class="mcq-fb">Very quick tasks often take longer to prompt than to write—this is where false efficiency creeps in.</div>
+<button class="mcq-option" type="button" data-correct="true">A 25-slide lecture deck with a clear structure</button>
+<div class="mcq-fb">Yes—bounded, time-intensive, clearly structured tasks are where substitution pays off.</div>
+<button class="mcq-option" type="button">A sensitive email repairing a strained relationship</button>
+<div class="mcq-fb">Relationship-sensitive writing needs your voice from the start; AI's generic tone can backfire.</div>
+</div>
+
 ## Key takeaways
 
 - **Substitution applies foundational literacy to specific tasks:** You're using extraction-level engagement and structured prompting (RGID from lesson 2) to accelerate bounded tasks—lesson planning, slides, assessment, professional writing—while maintaining quality through critical evaluation. Success means completing necessary content faster while maintaining acceptable quality.

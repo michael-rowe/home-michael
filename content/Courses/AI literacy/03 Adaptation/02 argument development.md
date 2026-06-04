@@ -588,6 +588,19 @@ Here's how the pieces fit together in actual practice:
 > **Specific argument:**
 > **When:**
 
+> [!question] Knowledge check
+> Evaluative judgement in action—select an option.
+
+<div class="mcq">
+<p class="mcq-q">AI raises a sophisticated methodological objection to your argument. What's the literate response?</p>
+<button class="mcq-option" type="button">Accept it fully and restructure your argument around it</button>
+<div class="mcq-fb">Accepting uncritically can bury your core claim under tangential methodological complexity.</div>
+<button class="mcq-option" type="button">Reject it—AI doesn't really understand your field</button>
+<div class="mcq-fb">Reflex rejection risks ignoring a legitimate concern that reviewers will raise anyway.</div>
+<button class="mcq-option" type="button" data-correct="true">Weigh whether it's a genuine weakness and respond proportionately</button>
+<div class="mcq-fb">Yes—evaluative judgement means assessing the challenge against your goals and evidence, then matching your response to it.</div>
+</div>
+
 ## Key takeaways
 
 - **Pre-writing exploration produces stronger arguments faster:** Systematic pre-writing thinking produces stronger arguments than drafting first and discovering problems later. Before writing prose, use AI to explore argument structures, test evidence systematically, surface implicit assumptions, and generate steel man objections. This reveals gaps before reviewers find them.

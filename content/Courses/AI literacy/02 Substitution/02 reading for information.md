@@ -426,6 +426,19 @@ Create a simple system for tracking your backlog that distinguishes extraction f
 
 ⚠️ **Maintaining critical reading skills:** Plan to read at least 20-30% of papers without AI assistance to maintain your ability to critically evaluate texts. If you only read through AI summaries, your evaluation skills atrophy.
 
+> [!question] Knowledge check
+> Extraction or comprehension? Select an option.
+
+<div class="mcq">
+<p class="mcq-q">You'll need to compare a paper's methodology to your own in your methods chapter. What's the right approach?</p>
+<button class="mcq-option" type="button">A quick AI summary, then move on</button>
+<div class="mcq-fb">A summary tells you what they did, not how it works—you'll be caught short when you write the comparison.</div>
+<button class="mcq-option" type="button" data-correct="true">Deep reading to build genuine comprehension</button>
+<div class="mcq-fb">Yes—comparing methodologies needs understanding of how it works, which extraction can't give you.</div>
+<button class="mcq-option" type="button">Delete it from your backlog</button>
+<div class="mcq-fb">It's central to your methods chapter—this is exactly the kind of paper that warrants deep reading.</div>
+</div>
+
 ## Key takeaways
 
 - **Extraction versus comprehension is a literacy distinction:** Information extraction differs from comprehension building, and both serve different reading goals. Extraction answers specific questions about what a paper says. Comprehension builds understanding of how something works and why it matters—this requires your engagement with texts. Recognising which goal you have for each paper is fundamental to contextual judgement.

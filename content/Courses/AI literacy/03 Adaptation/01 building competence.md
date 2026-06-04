@@ -481,6 +481,19 @@ Let's assess whether you've built genuine competence or detailed familiarity.
 > **Specific task:**
 > **Day/time:**
 
+> [!question] Knowledge check
+> Familiarity or competence? Select an option.
+
+<div class="mcq">
+<p class="mcq-q">You can define grounded theory, but you can't say when to choose it over thematic analysis or spot a misapplication. What do you have?</p>
+<button class="mcq-option" type="button">Competence</button>
+<div class="mcq-fb">Competence means you can deploy it, compare alternatives, and recognise misuse—not just define it.</div>
+<button class="mcq-option" type="button" data-correct="true">Familiarity</button>
+<div class="mcq-fb">Yes—recognising and defining is familiarity; deploying and judging is competence.</div>
+<button class="mcq-option" type="button">Expertise</button>
+<div class="mcq-fb">Not yet—you can't apply or evaluate it, which is below even competence.</div>
+</div>
+
 ## Key takeaways
 
 - **Competence requires active construction through testing:** Information consumption differs fundamentally from competence building. Consumption is passive—you read sophisticated explanations, take notes, move on. You recognise concepts but can't use them. Competence is active—you engage through staged complexity, test understanding at each level, work through confusion until concepts become deployable tools.

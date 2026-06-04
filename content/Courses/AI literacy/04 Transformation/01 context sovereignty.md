@@ -474,6 +474,19 @@ Now that you've built your professional context, assess the literacy capabilitie
 
 **What becomes possible now:** Every AI conversation builds on accumulated understanding rather than starting fresh. This enables more sophisticated engagement—but only if you maintain the infrastructure responsibly.
 
+> [!question] Knowledge check
+> Setting boundaries in persistent context—select an option.
+
+<div class="mcq">
+<p class="mcq-q">You're adding a sensitive interview project to your AI context document. How should you document it?</p>
+<button class="mcq-option" type="button">Include full detail—named participants, sites, and patient specifics—so AI can help fully</button>
+<div class="mcq-fb">This crosses the clearest red line: patient- and participant-identifying detail must never go into persistent context.</div>
+<button class="mcq-option" type="button">Omit the project entirely to be safe</button>
+<div class="mcq-fb">Over-cautious—you lose legitimate support when appropriate abstraction is possible.</div>
+<button class="mcq-option" type="button" data-correct="true">Describe it abstractly—the question, theory, and challenges—without any identifying detail</button>
+<div class="mcq-fb">Yes—thoughtful abstraction gets you useful help while protecting confidentiality.</div>
+</div>
+
 ## Key takeaways
 
 - **Context sovereignty is literacy practice:** Building persistent context requires metacognitive awareness (understanding what about your work matters for engagement), ethical judgement (setting appropriate boundaries and protecting confidential information), and ongoing responsibility (maintaining accuracy as work evolves). This isn't a technique—it's transformation-level literacy requiring sophisticated understanding of what you're building and why.

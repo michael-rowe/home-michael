@@ -358,6 +358,19 @@ Taste develops through systematic practice-reflection cycles. This is the core f
 >
 > **What sophisticated AI literacy means for my practice:**
 
+> [!question] Knowledge check
+> Meaningful or superficial engagement? Select an option.
+
+<div class="mcq">
+<p class="mcq-q">You're writing a demanding theory section. Which use of AI is the most meaningful engagement?</p>
+<button class="mcq-option" type="button">AI drafts the whole section; you revise it heavily</button>
+<div class="mcq-fb">This feels efficient but often isn't—a generic draft gives you text to fix rather than helping you think.</div>
+<button class="mcq-option" type="button" data-correct="true">AI helps you explore and map frameworks; you draft the section yourself</button>
+<div class="mcq-fb">Yes—AI strengthens your thinking during development while the argument and voice stay yours.</div>
+<button class="mcq-option" type="button">You avoid AI entirely and write it alone</button>
+<div class="mcq-fb">Defensible, but it misses the collaborative gains a thinking-partner conversation can add.</div>
+</div>
+
 ## Key takeaways
 
 - **Taste is integrated literacy:** Professional judgement where functional application, critical evaluation, ethical awareness, and contextual judgement work together in contextually appropriate ways. This integration distinguishes literate from merely competent AI users. You're not just using AI well—you're exercising sophisticated professional judgement about meaningful engagement.
