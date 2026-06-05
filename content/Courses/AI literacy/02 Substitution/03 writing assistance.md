@@ -298,43 +298,52 @@ You need to write a difficult email to a colleague who missed an important deadl
 
 **What's your approach?**
 
-> [!example]- Option A: Use AI to draft the entire email
->
-> **Your approach:** You prompt AI: "Draft an email to a colleague who missed a deadline, explaining the impact on our grant application."
->
-> **What happens:** AI produces professionally phrased text: "I wanted to touch base regarding the recent project timeline. It would be beneficial to discuss our mutual commitments moving forward. Perhaps we could identify strategies to ensure alignment..."
->
-> You send it. Your colleague responds coldly—the tone feels formal and passive-aggressive. Your normally collegial relationship feels strained. They're defensive rather than apologetic.
->
-> **Time total:** 5 minutes writing, weeks repairing relationship
->
-> **Learning:** AI can't know relationship context. Sensitive communications requiring careful tone balance need to be written by you from the start. AI's generic "professional" tone often reads as cold or passive-aggressive in real relationships.
+<details>
+<summary><strong>Option A</strong></summary>
 
-> [!example]- Option B: Write it entirely yourself without AI
->
-> **Your approach:** You spend 30 minutes drafting and revising, trying to balance expressing frustration with maintaining the relationship. The emotional labour is exhausting. You're not sure if you got the tone right.
->
-> **What happens:** The email works—your colleague apologises, explains what happened, commits to the revised timeline. The relationship is fine. But the writing process was draining.
->
-> **Time total:** 30 minutes of emotionally taxing work
->
-> **Learning:** You did it well, but this timing wasn't optimal for AI assistance. AI could have helped with structure while you provided all the relationship-sensitive content.
+**Your approach:** You prompt AI: "Draft an email to a colleague who missed a deadline, explaining the impact on our grant application."
 
-> [!example]- Option C: Use AI for structure only, write sensitive content yourself
->
-> **Your approach:** You ask AI: "Suggest a structure for an email addressing a missed deadline while maintaining collegial relationship. I need to: acknowledge impact, understand what happened, find solution together."
->
-> AI suggests framework:
-> 1. Express concern about the situation (not blame)
-> 2. Explain concrete impact (short timeline now)
-> 3. Ask what happened (genuine question)
-> 4. Propose path forward collaboratively
->
-> You write each section yourself using this structure: "I'm worried about our budget section timeline—we're now down to 2 days instead of 2 weeks, which is tight. What happened on your end? Let's talk today about how we can divide this work to still submit something strong."
->
-> **Time total:** 15 minutes (3 min structure, 12 min writing)
->
-> **Learning:** AI provided structural scaffolding while you handled all relationship-sensitive content. This balanced efficiency with authenticity. The structure helped you be direct and solution-focused rather than dwelling on frustration.
+**What happens:** AI produces professionally phrased text: "I wanted to touch base regarding the recent project timeline. It would be beneficial to discuss our mutual commitments moving forward. Perhaps we could identify strategies to ensure alignment..."
+
+You send it. Your colleague responds coldly—the tone feels formal and passive-aggressive. Your normally collegial relationship feels strained. They're defensive rather than apologetic.
+
+**Time total:** 5 minutes writing, weeks repairing relationship
+
+**Learning:** AI can't know relationship context. Sensitive communications requiring careful tone balance need to be written by you from the start. AI's generic "professional" tone often reads as cold or passive-aggressive in real relationships.
+
+</details>
+
+<details>
+<summary><strong>Option B</strong></summary>
+
+**Your approach:** You spend 30 minutes drafting and revising, trying to balance expressing frustration with maintaining the relationship. The emotional labour is exhausting. You're not sure if you got the tone right.
+
+**What happens:** The email works—your colleague apologises, explains what happened, commits to the revised timeline. The relationship is fine. But the writing process was draining.
+
+**Time total:** 30 minutes of emotionally taxing work
+
+**Learning:** You did it well, but this timing wasn't optimal for AI assistance. AI could have helped with structure while you provided all the relationship-sensitive content.
+
+</details>
+
+<details>
+<summary><strong>Option C</strong></summary>
+
+**Your approach:** You ask AI: "Suggest a structure for an email addressing a missed deadline while maintaining collegial relationship. I need to: acknowledge impact, understand what happened, find solution together."
+
+AI suggests framework:
+1. Express concern about the situation (not blame)
+2. Explain concrete impact (short timeline now)
+3. Ask what happened (genuine question)
+4. Propose path forward collaboratively
+
+You write each section yourself using this structure: "I'm worried about our budget section timeline—we're now down to 2 days instead of 2 weeks, which is tight. What happened on your end? Let's talk today about how we can divide this work to still submit something strong."
+
+**Time total:** 15 minutes (3 min structure, 12 min writing)
+
+**Learning:** AI provided structural scaffolding while you handled all relationship-sensitive content. This balanced efficiency with authenticity. The structure helped you be direct and solution-focused rather than dwelling on frustration.
+
+</details>
 
 > [!question] Pause and reflect
 > When should you use AI for writing? When should you write entirely yourself?

@@ -288,29 +288,38 @@ You're preparing to teach a new module on research methods next semester. You've
 
 **Which engagement level would you use and why?**
 
-> [!example]- Option A: Extraction — Quick material generation
->
-> **Your approach:** Write a single prompt: "Generate 10 examples of research questions in education using both qualitative and quantitative approaches."
->
-> **What happens:** You get 10 generic examples. They're technically correct but don't reflect the nuances of education research. When you use them in class, students ask questions you can't answer fluently because the examples don't quite fit the disciplinary context.
->
-> **Reflection:** Extraction works for adaptation when you already deeply understand the new context. Here, you needed to develop that understanding first, not just get outputs.
+<details>
+<summary><strong>Option A</strong></summary>
 
-> [!example]- Option B: Conversation — Explore adaptation challenges
->
-> **Your approach:** Spend 20 minutes in conversation: "I've taught research methods to social science students but now I'm teaching nursing students. What are the key differences in how these fields approach research? What examples work well in health professions education? What disciplinary conventions should I know?"
->
-> **What happens:** Through dialogue, you identify that health professions research has different relationships with clinical and practitioner knowledge, different ethical considerations around research involving patients, and different expectations about findings being actionable in practice. You develop genuine understanding of how to adapt your existing knowledge.
->
-> **Reflection:** Conversation helped you understand the adaptation challenge rather than just generating outputs. This serves the task well—you needed to develop understanding, not just materials.
+**Your approach:** Write a single prompt: "Generate 10 examples of research questions in education using both qualitative and quantitative approaches."
 
-> [!example]- Option C: Context — Build comprehensive understanding
->
-> **Your approach:** Return to the same conversation over several weeks, progressively building understanding of health professions research methods, testing example problems, discussing student misconceptions, refining materials based on what you learn.
->
-> **What happens:** You develop very deep understanding of health professions research methods. The time investment creates excellent materials and genuine fluency. However, conversation-level engagement would have been sufficient—you didn't actually need the accumulated context building that context-level engagement provides.
->
-> **Reflection:** Context level can work, but it's overkill for this task. The time investment isn't justified by the incremental benefit over conversation-level engagement. Save context for projects requiring sustained, iterative development.
+**What happens:** You get 10 generic examples. They're technically correct but don't reflect the nuances of education research. When you use them in class, students ask questions you can't answer fluently because the examples don't quite fit the disciplinary context.
+
+**Reflection:** Extraction works for adaptation when you already deeply understand the new context. Here, you needed to develop that understanding first, not just get outputs.
+
+</details>
+
+<details>
+<summary><strong>Option B</strong></summary>
+
+**Your approach:** Spend 20 minutes in conversation: "I've taught research methods to social science students but now I'm teaching nursing students. What are the key differences in how these fields approach research? What examples work well in health professions education? What disciplinary conventions should I know?"
+
+**What happens:** Through dialogue, you identify that health professions research has different relationships with clinical and practitioner knowledge, different ethical considerations around research involving patients, and different expectations about findings being actionable in practice. You develop genuine understanding of how to adapt your existing knowledge.
+
+**Reflection:** Conversation helped you understand the adaptation challenge rather than just generating outputs. This serves the task well—you needed to develop understanding, not just materials.
+
+</details>
+
+<details>
+<summary><strong>Option C</strong></summary>
+
+**Your approach:** Return to the same conversation over several weeks, progressively building understanding of health professions research methods, testing example problems, discussing student misconceptions, refining materials based on what you learn.
+
+**What happens:** You develop very deep understanding of health professions research methods. The time investment creates excellent materials and genuine fluency. However, conversation-level engagement would have been sufficient—you didn't actually need the accumulated context building that context-level engagement provides.
+
+**Reflection:** Context level can work, but it's overkill for this task. The time investment isn't justified by the incremental benefit over conversation-level engagement. Save context for projects requiring sustained, iterative development.
+
+</details>
 
 > [!question] Pause and reflect
 > Which option best balanced time investment with the understanding needed? What did this reveal about matching engagement level to task requirements?

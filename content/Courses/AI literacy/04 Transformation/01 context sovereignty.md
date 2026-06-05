@@ -169,7 +169,7 @@ You're documenting current projects. One project involves sensitive interviews w
 
 **How do you document this?**
 
-<details> <summary><strong>Option A: Document everything including sensitive details</strong></summary>
+<details> <summary><strong>Option A</strong></summary>
 
 **You write:** "Interviewing 15 students about their placement on Ward 4 at St Mary's. Most report feeling unsupported by their practice educator, Jane A. Several described specific incidents involving named patients whose care they were part of..."
 
@@ -183,7 +183,7 @@ You're documenting current projects. One project involves sensitive interviews w
 
 **Learning:** Some details absolutely should not be in persistent context, no matter how relevant they are to your current work. Identifiable sensitive information crosses ethical boundaries.
 
-</details> <details> <summary><strong>Option B: Document nothing about this project</strong></summary>
+</details> <details> <summary><strong>Option B</strong></summary>
 
 **You write:** [Nothing—you omit this project entirely]
 
@@ -197,7 +197,7 @@ AI has no context to provide relevant support. You lose valuable assistance for 
 
 **Learning:** Complete exclusion isn't necessary when appropriate abstraction is possible. You're losing legitimate support out of overcaution.
 
-</details> <details> <summary><strong>Option C: Document with appropriate abstraction</strong></summary>
+</details> <details> <summary><strong>Option C</strong></summary>
 
 **You write:** "Interview study exploring students' experiences of supervision on clinical placement—20 participants, analysis phase. Using organisational justice theory to analyse supervisory relationships and support. Challenges: (1) synthesising diverse experiences into coherent themes without losing nuance, (2) writing findings that are critical of placement practices without identifying individuals, sites, or any patient, (3) balancing analytical rigour with respectful representation."
 

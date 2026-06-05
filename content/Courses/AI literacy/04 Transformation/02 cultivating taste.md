@@ -109,34 +109,46 @@ You're writing a challenging theory section for a paper. You need to position yo
 
 **You have three options for AI engagement:**
 
-> [!example]- Option A: Draft entirely yourself without AI
-> **What happens:** You spend 6 hours over three days writing 2,000 words. It's intellectually demanding—you wrestle with theoretical positioning, work through how different frameworks relate to your case, develop your argument through writing. The section is distinctively yours—colleagues would recognise your analytical voice.
->
-> **Outcome:** High intellectual integrity, time-intensive process, distinctively your thinking.
->
-> **Reflection:** This maintained intellectual quality but was demanding. Could AI have helped without undermining the thinking?
->
-> **Pattern:** Sometimes the struggle is the point—the intellectual work happens through wrestling with complexity. Efficiency isn't always the goal.
+<details>
+<summary><strong>Option A</strong></summary>
 
-> [!example]- Option B: AI drafts, you revise extensively
-> **What happens:** You prompt AI with your research question and key points. AI generates a 2,000-word theoretical section in 5 minutes. You spend 5 hours revising—rewriting 80%, restructuring the argument entirely, removing generic theoretical language, adding your specific examples and analytical insights, changing the framing to match your distinctive approach.
->
-> **Outcome:** Final product is good, but you wonder if drafting yourself would have been more efficient. You spent nearly as much time but started with text that didn't actually scaffold your thinking.
->
-> **Reflection:** This saved perhaps 1 hour but the AI draft didn't help you think—it gave you text to revise rather than helping you develop your argument. The generic draft may have actually constrained your thinking by providing a structure you felt obligated to work within.
->
-> **Pattern:** This felt efficient but was superficial. The AI draft looked like progress but didn't advance your intellectual work. You mistook text production for thinking.
+**What happens:** You spend 6 hours over three days writing 2,000 words. It's intellectually demanding—you wrestle with theoretical positioning, work through how different frameworks relate to your case, develop your argument through writing. The section is distinctively yours—colleagues would recognise your analytical voice.
 
-> [!example]- Option C: AI helps explore frameworks, you draft yourself
-> **What happens:** You spend 45 minutes with AI exploring theoretical frameworks. You ask: "How does communities of practice theory relate to this supervision issue? What about workplace learning theory? Where might these frameworks conflict?" AI helps you map relationships between theories, surface connections you hadn't considered, identify tensions requiring resolution. This clarifies your thinking.
->
-> Then you draft the section yourself (4 hours). The argument is yours, the voice is yours, the analytical contribution is yours. But it's more theoretically sophisticated than you would have written alone—the AI conversation helped you think more comprehensively.
->
-> **Outcome:** Intellectually productive collaboration, distinctively your work, enhanced theoretical sophistication.
->
-> **Reflection:** This is meaningful engagement. AI enhanced your thinking without replacing it. The section is recognisably yours but benefits from the exploratory conversation that helped you see theoretical connections more clearly.
->
-> **Pattern:** AI served as thinking partner during development, not as text producer. The intellectual work remained yours but was strengthened through collaboration.
+**Outcome:** High intellectual integrity, time-intensive process, distinctively your thinking.
+
+**Reflection:** This maintained intellectual quality but was demanding. Could AI have helped without undermining the thinking?
+
+**Pattern:** Sometimes the struggle is the point—the intellectual work happens through wrestling with complexity. Efficiency isn't always the goal.
+
+</details>
+
+<details>
+<summary><strong>Option B</strong></summary>
+
+**What happens:** You prompt AI with your research question and key points. AI generates a 2,000-word theoretical section in 5 minutes. You spend 5 hours revising—rewriting 80%, restructuring the argument entirely, removing generic theoretical language, adding your specific examples and analytical insights, changing the framing to match your distinctive approach.
+
+**Outcome:** Final product is good, but you wonder if drafting yourself would have been more efficient. You spent nearly as much time but started with text that didn't actually scaffold your thinking.
+
+**Reflection:** This saved perhaps 1 hour but the AI draft didn't help you think—it gave you text to revise rather than helping you develop your argument. The generic draft may have actually constrained your thinking by providing a structure you felt obligated to work within.
+
+**Pattern:** This felt efficient but was superficial. The AI draft looked like progress but didn't advance your intellectual work. You mistook text production for thinking.
+
+</details>
+
+<details>
+<summary><strong>Option C</strong></summary>
+
+**What happens:** You spend 45 minutes with AI exploring theoretical frameworks. You ask: "How does communities of practice theory relate to this supervision issue? What about workplace learning theory? Where might these frameworks conflict?" AI helps you map relationships between theories, surface connections you hadn't considered, identify tensions requiring resolution. This clarifies your thinking.
+
+Then you draft the section yourself (4 hours). The argument is yours, the voice is yours, the analytical contribution is yours. But it's more theoretically sophisticated than you would have written alone—the AI conversation helped you think more comprehensively.
+
+**Outcome:** Intellectually productive collaboration, distinctively your work, enhanced theoretical sophistication.
+
+**Reflection:** This is meaningful engagement. AI enhanced your thinking without replacing it. The section is recognisably yours but benefits from the exploratory conversation that helped you see theoretical connections more clearly.
+
+**Pattern:** AI served as thinking partner during development, not as text producer. The intellectual work remained yours but was strengthened through collaboration.
+
+</details>
 
 **This is taste in action:** Recognising that Option C serves your scholarly work whilst Option B feels efficient but undermines intellectual development. Option A maintains integrity but misses collaborative benefits. Rules can't capture these distinctions—only judgement cultivated through experience.
 
