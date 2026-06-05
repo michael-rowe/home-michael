@@ -267,35 +267,44 @@ You've found a paper on qualitative coding that looks relevant. You have 30 minu
 
 **What's your approach?**
 
-> [!example]- Option A: Use AI for quick summary, move on
->
-> **Your approach:** You ask AI for a 150-word summary. It tells you the paper uses grounded theory for interview analysis. Sounds useful. You save it to cite.
->
-> **What happens:** Two weeks later, writing your methodology section, you realise you don't understand grounded theory well enough to compare it to your approach. You need to read the paper properly anyway, but now you're on a deadline.
->
-> **Time total:** 3 minutes now + 40 minutes later when rushed = 43 minutes
->
-> **Learning:** Extraction worked for initial relevance check but not for the depth you actually needed. Your writing revealed insufficient understanding. Should have either read it properly initially or noted it needed deeper reading.
+<details>
+<summary><strong>Option A</strong></summary>
 
-> [!example]- Option B: Read the paper carefully for 30 minutes
->
-> **Your approach:** You start reading from the beginning, taking notes carefully.
->
-> **What happens:** You get through introduction and literature review but don't finish. The meeting interrupts you. Later that day, you can't remember details and need to re-read sections. The paper takes 90 minutes total across three sessions.
->
-> **Time total:** 30 + 30 + 30 = 90 minutes (fragmented)
->
-> **Learning:** Deep reading is important but 30-minute chunks aren't sufficient for 8,000-word papers. Should have either allocated proper time or triaged with extraction first to determine if full reading was necessary.
+**Your approach:** You ask AI for a 150-word summary. It tells you the paper uses grounded theory for interview analysis. Sounds useful. You save it to cite.
 
-> [!example]- Option C: Use AI for detailed extraction, assess if you need more
->
-> **Your approach:** You spend 5 minutes getting AI to extract: coding approach used, how grounded theory is applied, what makes this approach different from other methods, acknowledged limitations, and key takeaways about when this approach works well.
->
-> **What happens:** You now understand it's similar to your approach but emphasises different aspects of emergence in coding. You save detailed notes. When writing your methodology section, you know exactly which 2 pages to read carefully for the specific variation you want to discuss. Total time: 5 minutes extraction + 15 minutes targeted reading later = 20 minutes.
->
-> **Time total:** 5 + 15 = 20 minutes (strategic)
->
-> **Learning:** Targeted extraction helped you understand relevance AND what specifically to read deeply. You invested reading time where it mattered most. This is strategic triage serving your scholarly goals.
+**What happens:** Two weeks later, writing your methodology section, you realise you don't understand grounded theory well enough to compare it to your approach. You need to read the paper properly anyway, but now you're on a deadline.
+
+**Time total:** 3 minutes now + 40 minutes later when rushed = 43 minutes
+
+**Learning:** Extraction worked for initial relevance check but not for the depth you actually needed. Your writing revealed insufficient understanding. Should have either read it properly initially or noted it needed deeper reading.
+
+</details>
+
+<details>
+<summary><strong>Option B</strong></summary>
+
+**Your approach:** You start reading from the beginning, taking notes carefully.
+
+**What happens:** You get through introduction and literature review but don't finish. The meeting interrupts you. Later that day, you can't remember details and need to re-read sections. The paper takes 90 minutes total across three sessions.
+
+**Time total:** 30 + 30 + 30 = 90 minutes (fragmented)
+
+**Learning:** Deep reading is important but 30-minute chunks aren't sufficient for 8,000-word papers. Should have either allocated proper time or triaged with extraction first to determine if full reading was necessary.
+
+</details>
+
+<details>
+<summary><strong>Option C</strong></summary>
+
+**Your approach:** You spend 5 minutes getting AI to extract: coding approach used, how grounded theory is applied, what makes this approach different from other methods, acknowledged limitations, and key takeaways about when this approach works well.
+
+**What happens:** You now understand it's similar to your approach but emphasises different aspects of emergence in coding. You save detailed notes. When writing your methodology section, you know exactly which 2 pages to read carefully for the specific variation you want to discuss. Total time: 5 minutes extraction + 15 minutes targeted reading later = 20 minutes.
+
+**Time total:** 5 + 15 = 20 minutes (strategic)
+
+**Learning:** Targeted extraction helped you understand relevance AND what specifically to read deeply. You invested reading time where it mattered most. This is strategic triage serving your scholarly goals.
+
+</details>
 
 > [!question] Pause and reflect
 > Which approach best served scholarly goals? When might each be appropriate?

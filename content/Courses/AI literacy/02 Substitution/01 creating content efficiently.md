@@ -278,35 +278,44 @@ You have 45 minutes before your next meeting. Looking at your task list, you nee
 
 **Which tasks should you use AI for?**
 
-> [!example]- Option A: Use AI for all three tasks
->
-> **Your approach:** You try to prompt for slides, emails, and questions all within 45 minutes.
->
-> **What happens:** You rush through prompting, get mediocre outputs for all three. The slides lack examples you wanted, the emails feel impersonal, and the discussion questions miss the nuance you wanted to develop. You spend the meeting distracted because nothing feels quite right. Later that evening, you spend an hour fixing everything.
->
-> **Time total:** 45 min during day + 60 min evening = 105 minutes
->
-> **Learning:** Not every task benefits from AI. Very quick tasks (like short emails) often take longer to prompt than to write. Rushing through prompts produces poor outputs that require extensive revision.
+<details>
+<summary><strong>Option A</strong></summary>
 
-> [!example]- Option B: Use AI only for slides (highest time investment)
->
-> **Your approach:** You focus AI engagement on the most time-intensive task—slides. You spend 20 minutes creating a strong prompt and reviewing output, 15 minutes refining with follow-up questions, 5 minutes adding your examples. You manually write the three emails (3 minutes total) and draft discussion questions from your expertise (7 minutes).
->
-> **What happens:** You have solid slide structure that you'll polish tomorrow morning. The emails are personal and appropriate. The discussion questions reflect exactly what you wanted to explore. You protected time for what matters.
->
-> **Time total:** 20 + 15 + 5 + 3 + 7 = 50 minutes (5 minutes over, but manageable)
->
-> **Learning:** Prioritise AI for high time-investment tasks with clear structure. Quick tasks are often faster manual. Tasks requiring your distinctive voice or expertise may not benefit from AI's generic starting point.
+**Your approach:** You try to prompt for slides, emails, and questions all within 45 minutes.
 
-> [!example]- Option C: Don't use AI—do everything manually
->
-> **Your approach:** You decide to create slides, write emails, and draft questions all manually.
->
-> **What happens:** Creating 25 slides manually takes 2 hours. You run out of time before finishing, have to skip the meeting, and still need to complete everything later. The emails and questions never get written.
->
-> **Time total:** 2+ hours, incomplete work, missed meeting
->
-> **Learning:** For genuinely time-intensive tasks with clear structure, AI assistance can prevent being overwhelmed. The question isn't "should I use AI?" but "which tasks benefit most from AI assistance?"
+**What happens:** You rush through prompting, get mediocre outputs for all three. The slides lack examples you wanted, the emails feel impersonal, and the discussion questions miss the nuance you wanted to develop. You spend the meeting distracted because nothing feels quite right. Later that evening, you spend an hour fixing everything.
+
+**Time total:** 45 min during day + 60 min evening = 105 minutes
+
+**Learning:** Not every task benefits from AI. Very quick tasks (like short emails) often take longer to prompt than to write. Rushing through prompts produces poor outputs that require extensive revision.
+
+</details>
+
+<details>
+<summary><strong>Option B</strong></summary>
+
+**Your approach:** You focus AI engagement on the most time-intensive task—slides. You spend 20 minutes creating a strong prompt and reviewing output, 15 minutes refining with follow-up questions, 5 minutes adding your examples. You manually write the three emails (3 minutes total) and draft discussion questions from your expertise (7 minutes).
+
+**What happens:** You have solid slide structure that you'll polish tomorrow morning. The emails are personal and appropriate. The discussion questions reflect exactly what you wanted to explore. You protected time for what matters.
+
+**Time total:** 20 + 15 + 5 + 3 + 7 = 50 minutes (5 minutes over, but manageable)
+
+**Learning:** Prioritise AI for high time-investment tasks with clear structure. Quick tasks are often faster manual. Tasks requiring your distinctive voice or expertise may not benefit from AI's generic starting point.
+
+</details>
+
+<details>
+<summary><strong>Option C</strong></summary>
+
+**Your approach:** You decide to create slides, write emails, and draft questions all manually.
+
+**What happens:** Creating 25 slides manually takes 2 hours. You run out of time before finishing, have to skip the meeting, and still need to complete everything later. The emails and questions never get written.
+
+**Time total:** 2+ hours, incomplete work, missed meeting
+
+**Learning:** For genuinely time-intensive tasks with clear structure, AI assistance can prevent being overwhelmed. The question isn't "should I use AI?" but "which tasks benefit most from AI assistance?"
+
+</details>
 
 > [!question] Pause and reflect
 > Which option best balanced time investment with quality outcomes? What does this reveal about task selection?
