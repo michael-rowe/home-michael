@@ -520,6 +520,58 @@ body[data-slug="index"] .recent-notes {
   }
 }
 
+// Keynote title-slide row (home page)
+.keynote-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: inherit;
+
+    img {
+      width: 100%;
+      display: block;
+      border-radius: 6px;
+      border: 1px solid var(--lightgray);
+      transition: transform 0.15s ease;
+    }
+
+    &:hover img {
+      transform: translateY(-2px);
+    }
+  }
+
+  .keynote-caption {
+    display: block;
+    font-family: var(--headerFont);
+    font-weight: 400;
+    font-size: 0.85rem;
+    line-height: 1.35;
+    margin-top: 0.5rem;
+    color: var(--dark);
+  }
+}
+
+// Projects gallery: reuses .keynote-row layout but crops mixed-ratio
+// screenshots to uniform landscape tiles
+.project-row img {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top;
+}
+
+.keynote-caption strong {
+  font-weight: 600;
+}
+
 // Featured content section
 .featured-content {
   margin: 1.5rem 0;
