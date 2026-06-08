@@ -1,5 +1,5 @@
 ---
-title: "Building a CPD app with Claude Code: notes from a barely working prototype"
+title: Building a CPD app with Claude Code
 type: post
 description: Most CPD tools are built for compliance, not development. I wanted something that started from the gap; what am I missing, and what would close it? I couldn't find the tool I needed so I built one called Path instead. It describes what I think professional development should look like, and what two weekends with Claude Code produced.
 meta-description: I used Claude Code to build a CPD portfolio app without being a developer. Here's what I built, how it works, and what comes next.
@@ -26,7 +26,7 @@ linkedin:
 ---
 
 > [!info] CPD tools answer the wrong question
-> Most professional development tools are built to satisfy regulators and to answer the question: "Have you completed the required activities?" What they leave unanswered is whether any of it made you better at your job. *Path* is built around the second question; not what you've done, but what you're missing, and what would help you to close the gap.
+> Most professional development tools are built to satisfy regulators and to answer the question: "Have you completed the required activities?" What they leave unanswered is whether any of it made you better at your job. *[[Projects/path|Path]]* is built around the second question; not what you've done, but what you're missing, and what would help you to close the gap.
 
 I recently began putting together documents for an [AdvanceHE](https://www.advance-he.ac.uk/fellowship/) D4 fellowship application, and it made me realise that most continuing professional development (CPD) tools are trying to solve the wrong problem. They help document what you've done; hours logged, activities completed, reflections filed, and produce a submission at the end of a cycle. They're built for the audit, not for your professional development.
 
@@ -36,7 +36,7 @@ After an unsuccessful search for an existing tool, I decided to build my own wit
 
 ## Where I started
 
-I've been thinking about putting together an application for a Principal Fellowship of the Higher Education Academy (PFHEA D4). The [AdvanceHE]([https://www.advance-he.ac.uk/](https://www.advance-he.ac.uk/fellowship/principal-fellowship)) framework has four descriptors, each with multiple criteria that I wanted to build into template pages that would help me write evidence against each criterion. This would help me see where I'd done the work and where I hadn't.
+I've been thinking about putting together an application for a Principal Fellowship of the Higher Education Academy (PFHEA D4). The [AdvanceHE](https://www.advance-he.ac.uk/fellowship/principal-fellowship) framework has four descriptors, each with multiple criteria that I wanted to build into template pages that would help me write evidence against each criterion. This would help me see where I'd done the work and where I hadn't.
 
 So I asked Claude Code to turn the AdvanceHE framework into a set of linked templates, which then pushed me to think about how I could use the relationships between those templates; see which pieces of evidence mapped to which criteria, and which criteria were still thin. I've been using Obsidian for years and have come to really appreciate the value of backlinks and structured notes, so I started looking for open-source projects with permissive licences that I could extend without starting from scratch.
 
@@ -44,7 +44,7 @@ I found [SilverBullet](https://silverbullet.md), a markdown-based workspace with
 
 ## The idea underneath
 
-*Path* is built around one main observation, which is that every professional framework has the same underlying structure. [Health and Care Professions Council (HCPC)]([https://www.hcpc-uk.org/](https://www.hcpc-uk.org/cpd/carrying-out-and-recording-cpd/)) CPD audits, AdvanceHE fellowship, and applications for promotion all use a conceptual framework that link criteria, claims, evidence, and gaps. You map your experience against the criteria, and the gaps become a development plan that show you where you need to develop.
+*Path* is built around one main observation, which is that every professional framework has the same underlying structure. [Health and Care Professions Council (HCPC)](https://www.hcpc-uk.org/cpd/carrying-out-and-recording-cpd/) CPD audits, AdvanceHE fellowship, and applications for promotion all use a conceptual framework that link criteria, claims, evidence, and gaps. You map your experience against the criteria, and the gaps become a development plan that show you where you need to develop.
 
 And evidence quality is as important as evidence coverage. *Path* draws on [Miller's pyramid](https://en.wikipedia.org/wiki/Miller%27s_pyramid) to distinguish between evidence that describes experience ("knows"), explains how something works ("knows how"), demonstrates it in context ("shows how"), and documents practice-level change ("does"). Counting hours gives you a record. Weighting by level gives you evidence of development.
 
