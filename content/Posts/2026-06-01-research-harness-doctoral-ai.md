@@ -73,7 +73,7 @@ The engineering specifics don't transfer to research. But the underlying logic d
 
 ## The research harness, in seven parts
 
-A [[research harness]] consists of seven components, each adapted from an engineering equivalent.
+A [[Essays/research-harness-doctoral-ai|research harness]] consists of seven components, each adapted from an engineering equivalent.
 
 The *knowledge base* is the material the agent can see: research question, theoretical framework, methodology, literature, ethics approval, permitted data. The principle is taken straight from engineering: if material isn't in the agent's accessible context, it doesn't exist for the agent.
 

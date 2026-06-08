@@ -2,13 +2,13 @@
 type: project
 title: Vertex
 slug: projects/vertex
-description: "A curriculum knowledge graph that turns programme documentation into queryable infrastructure. Curriculum structure, learning outcomes, assessment alignment, and regulatory standards are modelled as a graph staff can interrogate in plain language — turning quality-assurance and compliance checks that take weeks into ones that take minutes. Built and expert-validated; commercialising with Snapplify."
+description: "A curriculum knowledge graph that turns programme documentation into queryable infrastructure. Curriculum structure, learning outcomes, assessment alignment, and regulatory standards are modelled as a graph staff can interrogate in plain language — turning quality-assurance and compliance checks that take weeks into ones that take minutes. A Snapplify product I work on as a partner and consultant."
 meta-description: A curriculum knowledge graph for natural-language quality-assurance and compliance checks across programmes.
 author: "[[Michael Rowe]]"
 created: 2026-02-10
 updated: 2026-06-08
 status: Paused
-role: Conceived and co-developed
+role: Concept originator; partner and consultant to Snapplify
 tags:
   - knowledge-graphs
   - graph-database
@@ -33,6 +33,8 @@ Professional curricula are among the most heavily documented things a university
 
 Vertex models the curriculum as a knowledge graph (Neo4j) that becomes the source of truth for that structure, and lets staff interrogate it in natural language through a chat interface — no query language required, and no student data exposed to the AI provider. The thesis is "beyond document management": documentation becomes operational infrastructure rather than a filing problem.
 
+Vertex is a product of [Snapplify](https://www.snapplify.com/), the education-technology company I work with as a partner and consultant. I originated the approach and continue to shape its design and direction with their team; it isn't something I build on my own.
+
 ## What it does
 
 Vertex is, first, a quality-assurance and compliance tool for lecturers and programme leads. Questions that take weeks of manual cross-referencing — *show me every module with outcomes that aren't assessed*, PSRB and QAA benchmark coverage, assessment-loading heat maps, the change-impact of editing a shared module — return in minutes. The aim is to be continuously audit-ready, rather than scrambling at validation.
@@ -41,7 +43,7 @@ That capability also supports the people doing the work. It gives curriculum des
 
 ## Status
 
-Vertex is built and validated by domain experts: a College quality lead confirmed it covers "essentially everything he checks" in programme validation, and a Head of Digital Information Services saw it as a potential replacement for several institutional systems. A School pilot was approved in principle by IT and Quality, but is currently paused while colleagues are under pressure from a separate curriculum-transformation programme — not the moment to add another initiative. Commercialisation is in train with Snapplify.
+Vertex has been built and validated by domain experts: a College quality lead confirmed it covers "essentially everything he checks" in programme validation, and a Head of Digital Information Services saw it as a potential replacement for several institutional systems. A School pilot was approved in principle by IT and Quality, but is currently paused while colleagues are under pressure from a separate curriculum-transformation programme — not the moment to add another initiative. Snapplify is taking Vertex to market, with me involved as a partner and consultant rather than a solo developer.
 
 ## Find out more
 

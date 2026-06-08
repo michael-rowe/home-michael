@@ -17,7 +17,7 @@ My work is shaped by a few commitments. I believe in working in public: open sch
 
 ## Projects
 
-These are a few of the active projects I'm focused on right now, mostly around professional development, quality assurance, and learning support.
+The projects I'm working on right now, mostly focused on professional development, quality assurance, and learning support.
 
 <div class="keynote-row project-row">
 
@@ -55,7 +55,7 @@ I'm often invited to share my thoughts on AI in health professions education; he
 
 <a href="Presentations/2023-11-24-an-unstoppable-force-meets-an-immovable-object"><img src="Media/keynote_adapt_ai_expertise.png" alt="An unstoppable force meets an immovable object — title slide" /><span class="keynote-caption">ADAPT International Conference keynote (2023)</span></a>
 
-<a href="Presentations/2023-10-06-with-great-power-comes-great-ambiguity"><img src="Media/keynote_enphe_power_ambiguity.png" alt="With great power comes great ambiguity — title slide" /><span class="keynote-caption">ENPHE conference keynote (2023) — one of my favourites</span></a>
+<a href="Presentations/2023-10-06-with-great-power-comes-great-ambiguity"><img src="Media/keynote_enphe_power_ambiguity.png" alt="With great power comes great ambiguity — title slide" /><span class="keynote-caption">ENPHE conference keynote (2023) — I loved working on this one</span></a>
 
 </div>
 
