@@ -45,3 +45,4 @@ Path is a working prototype — plain-text markdown with a git audit trail, buil
 ## Find out more
 
 - Code: [github.com/michael-rowe/path](https://github.com/michael-rowe/path)
+- Post: [[Posts/2026-06-08-building-cpd-app|Building a CPD app with Claude Code]] — how the prototype came together over two weekends, and the thinking behind it
