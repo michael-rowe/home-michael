@@ -49,26 +49,6 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.ConditionalRender({
-      component: Component.RecentNotes({
-        title: "Recent",
-        limit: 5,
-        showTags: false,
-        filter: (f) => {
-          const slug = f.slug ?? ""
-          const type = f.frontmatter?.type as string | undefined
-
-          // Exclude templates
-          if (slug.includes("templates")) return false
-
-          // Only show content with a type field (posts, notes, essays, etc.)
-          // This excludes static pages which don't have a type
-          const validTypes = ["post", "note", "essay", "framework", "policy", "course", "presentation", "guide"]
-          return type !== undefined && validTypes.includes(type)
-        },
-      }),
-      condition: (page) => page.fileData.slug === "index",
-    }),
-    Component.ConditionalRender({
       component: Component.DesktopOnly(Component.TableOfContents()),
       condition: (page) => page.fileData.slug !== "index",
     }),
@@ -76,14 +56,20 @@ export const defaultContentPageLayout: PageLayout = {
     Component.NewsletterNav(),
   ],
   right: [
-    Component.Graph({
-      localGraph: {
-        scale: 1.6,
-        opacityScale: 3,
-        showTags: false,
-      },
+    Component.ConditionalRender({
+      component: Component.Graph({
+        localGraph: {
+          scale: 1.6,
+          opacityScale: 3,
+          showTags: false,
+        },
+      }),
+      condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.Backlinks(),
+    Component.ConditionalRender({
+      component: Component.Backlinks(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
   ],
   afterBody: [
     Component.Mcq(),

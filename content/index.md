@@ -3,87 +3,79 @@ title: Home
 tab-title: /home/michael
 ---
 
-> [!NOTE] Previous writing
-> This is my new online home for all my writing and projects. My previous work can be found at [mrowe.co.za](https://www.mrowe.co.za/blog/) (AI and technology-enhanced scholarship) and [Head Space](https://academic-headspace.com/) (calm productivity and sustainable scholarship). Those sites are now legacy archives and all new content will be published here.
+<img src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" style="float: right; width: 200px; margin-left: 1.5rem; margin-bottom: 0.5rem; margin-top: 5px;" /><span style="display: block; font-size: 0.9rem; font-style: italic; color: var(--gray); margin-bottom: 1.2rem;">Trying to get better at getting better.</span>
 
-What does it mean to do scholarly work when the tools, contexts, and expectations keep shifting? This is where I work through that question — through posts, essays, courses, and newsletters — mostly at the intersection of AI and health professions education.
+I work at the intersection of education, technology, and healthcare, asking how we teach, assess, and develop health professionals at a time when AI is reshaping what it means to be a healthcare professional. I'm an Associate Professor and Director of Teaching and Learning at the University of Lincoln, and most of what I do asks how professional education should change — and what's worth protecting — as AI becomes part of everyday practice.
 
-I'm an Associate Professor and Director of Teaching and Learning at the University of Lincoln, and this site is my attempt to build something of independent value: a long-term commitment to open scholarship that doesn't depend on institutional publishers or academic platforms.
+My work is shaped by a few commitments. I believe in working in public: open scholarship, open source software, developing ideas in the open, and sharing in the hope that it might be useful to others. My thinking about education owes a lot to critical pedagogy and a broadly anarchist suspicion of hierarchy; who holds power, who gets to decide what counts as knowledge, and how both might be shared more fairly (think, *Rage Against the Machine*, but for academics).
 
 <div class="page-cta">
 
-[[start-here|Start here]] [[newsletter|Subscribe]]
+[[newsletter|Subscribe]] [[contact|Get in touch]]
 
 </div>
 
-## Featured
+## Projects
 
-<div class="featured-cards">
+These are a few of the active projects I'm focused on right now, mostly around professional development, quality assurance, and learning support.
 
-<div class="featured-card">
-<div class="content-type content-type--post"><i class="ph ph-pencil-simple"></i><span>Post</span></div>
+<div class="keynote-row project-row">
 
-[[Posts/2026-03-07-ai-personas-for-professional-practice|Building AI personas for professional practice]]
+<a href="Projects/path"><img src="Media/path-heatmap.png" alt="Path" /><span class="keynote-caption"><strong>Path</strong>: a professional-development portfolio app that maps your evidence to a framework and shows your coverage and gaps.</span></a>
 
-The real leverage with AI is not prompt engineering — it is knowing your professional commitments clearly enough to turn them into context an AI can work within. A practical method for building personas that carry your values, frameworks, and evidence.
+<a href="Projects/vertex"><img src="Media/vertex_curriculum_development.png" alt="Vertex" /><span class="keynote-caption"><strong>Vertex</strong>: a curriculum knowledge graph for natural-language querying, quality assurance, and compliance.</span></a>
 
-</div>
-
-<div class="featured-card">
-<div class="content-type content-type--essay"><i class="ph ph-file-text"></i><span>Essay</span></div>
-
-[[Essays/documentation-as-infrastructure|Documentation becomes infrastructure when AI agents are the readers]]
-
-When AI agents read documentation as operational input, it shifts from reference material to infrastructure — and inaccuracies cause system failures, not just confusion. The real bottleneck for institutional AI integration is information architecture, not model capability.
+<a href="Projects/research-harness"><img src="Media/research-harness-guide-thumb.png" alt="The research harness" /><span class="keynote-caption">The <strong>research harness</strong>: a structured operating context for working with AI agents in doctoral research.</span></a>
 
 </div>
 
-<div class="featured-card">
-<div class="content-type content-type--course"><i class="ph ph-graduation-cap"></i><span>Course</span></div>
+## A place to start
 
-[[Courses/AI literacy/index|AI literacy for academics]]
+If you're new here, these are representative of the work:
 
-A developmental framework for building AI literacy across six dimensions, from basic competence to transformation.
+- A post on [[Posts/2026-03-07-ai-personas-for-professional-practice|building AI personas for professional practice]], and why the real leverage with AI isn't prompt engineering but knowing your professional commitments well enough to turn them into context an AI can work within.
+- A course I built on developing [[Courses/AI literacy/index|AI literacy for academics]], across six dimensions from basic competence to transformation.
+- A one-page guide explaining the design principles of my [[Guides/ai-hpe-framework-guide|theoretical framework for integrating AI]] into health professions education.
+- An essay on [[Essays/problem-based-learning-structural-conditions-ai|problem-based learning and AI]], arguing that the features that make PBL work — collaborative inquiry, facilitation, and metacognition — are the same conditions that make AI integration educationally productive.
+- My latest [[Newsletters/2026-05|monthly newsletter]], with a few reads I think might be worth your time, some quotes, a debate on AI assessment scales and traffic light systems, and something from my outputs.
 
-</div>
+## Presentations
 
-</div>
+I'm often invited to share my thoughts on AI in health professions education; here are some of my favourite presentations from the past couple of years.
 
-<div class="featured-cards">
+<div class="keynote-row">
 
-<div class="featured-card">
-<div class="content-type content-type--guide"><i class="ph ph-book-open"></i><span>Guide</span></div>
+<a href="Presentations/2026-04-24-beyond-the-artifact-prs"><img src="Media/keynote_prs_beyond_artifact.png" alt="Beyond the artifact — title slide" /><span class="keynote-caption">Physiotherapy Research Society keynote (2026)</span></a>
 
-[[Guides/research-harness-guide|The research harness: a one-page guide for doctoral researchers]]
+<a href="Presentations/2026-04-15-what-is-the-work-rcn"><img src="Media/keynote_rcn_what_is_the_work.png" alt="What is the work? — title slide" /><span class="keynote-caption">Royal College of Nursing Education keynote (2026)</span></a>
 
-A single-page reference card for doctoral researchers and supervisors — the seven components of a research harness, what each does, and how to start building one. Downloadable PDF.
+<a href="Presentations/2025-11-21-csp-founders-context-sovereignty"><img src="Media/keynote_csp_context_sovereignty.png" alt="Context sovereignty — title slide" /><span class="keynote-caption">CSP Founders' Lecture (2025)</span></a>
 
-</div>
+<a href="Presentations/2025-09-18-ai-business-practice-lmc"><img src="Media/invited_ippta_business_practice.png" alt="AI and the business of practice — title slide" /><span class="keynote-caption">Lincolnshire Local Medical Committee (2025)</span></a>
 
-<div class="featured-card">
-<div class="content-type content-type--presentation"><i class="ph ph-presentation"></i><span>Presentation</span></div>
+<a href="Presentations/2023-11-24-an-unstoppable-force-meets-an-immovable-object"><img src="Media/keynote_adapt_ai_expertise.png" alt="An unstoppable force meets an immovable object — title slide" /><span class="keynote-caption">ADAPT International Conference keynote (2023)</span></a>
 
-[[Presentations/2026-04-15-what-is-the-work-rcn|What is the work?]]
-
-A keynote for the Royal College of Nursing's Education conference, arguing that AI has structurally broken the proxy linking assessment artefacts to learning — and that discursive responses are not enough.
-
-</div>
-
-<div class="featured-card">
-<div class="content-type content-type--note"><i class="ph ph-notebook"></i><span>Concept note</span></div>
-
-[[Notes/context-sovereignty|Context sovereignty]]
-
-Keeping your personal context — knowledge, values, goals, ways of thinking — under your own control while drawing on AI capability, rather than ceding your cognitive environment to the tool.
+<a href="Presentations/2023-10-06-with-great-power-comes-great-ambiguity"><img src="Media/keynote_enphe_power_ambiguity.png" alt="With great power comes great ambiguity — title slide" /><span class="keynote-caption">ENPHE conference keynote (2023) — one of my favourites</span></a>
 
 </div>
 
-</div>
+Beyond the talks, I'm co-authoring [a book on AI for doctoral researchers](https://www.researchmasterminds.com/ai-and-your-doctorate) with Springer Nature and leading a chapter in a Springer reference volume on AI in medical education.
+
+## Testimonials
+
+> Michael brings the content across with real passion. My students aren't native English speakers, but they understood it through his clearly formulated examples — one told me afterwards, "this session made me look at AI in a completely different way."
+> — *Erwin Van de Put, Thomas More University of Applied Sciences, Belgium*
+
+> As a member of our AI and Emerging Technology expert panel, Michael played a pivotal role in shaping our proposals for the review of the Standards of Education and Training — strengthening the standards on technology use and our commitment to fairness and accessibility.
+> — *Madeleine Connor, Chair, HCPC Standards of Education and Training review*
 
 ## Explore
 
 Browse by [[formats|format]] or [[topics|topic]], or see what's [[recently-added|recently added]].
 
 ---
+
+> [!NOTE] Previous writing
+> My earlier work lives at [mrowe.co.za](https://www.mrowe.co.za/blog/) (AI and technology-enhanced scholarship) and [Head Space](https://academic-headspace.com/) (calm productivity and sustainable scholarship). Those are now legacy archives; all new work is published here.
 
 If something here is useful, use it. If you spot a gap, an error, or something worth adding, [open an issue on GitHub](https://github.com/michael-rowe/home-michael/issues/new). If you want to respond to any of it, [[contact|get in touch]].
