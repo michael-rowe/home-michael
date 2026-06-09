@@ -22,7 +22,7 @@ related:
 draft: false
 slug: posts/building-cpd-app-claude-code
 enableToc: true
-linkedin:
+linkedin: 2026-06-09
 ---
 
 > [!info] CPD tools answer the wrong question
