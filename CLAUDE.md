@@ -53,6 +53,7 @@ When creating or editing content, frame concepts, examples, and applications wit
 
 When generating content for this site:
 
+- **Classic style (default voice across almost all outputs)**: Write as a guide pointing something out clearly to a peer, not as a scholar defending a claim to gatekeepers; language is a transparent window onto the subject. Strip meta-discourse ("in this section I will…"), cut defensive hedging ("arguably", "it seems that"), and unpack nominalisations into verbs. The scholarly apparatus (methods sections, formal literature positioning) is a deliberate register exception. Full treatment: `content/personas/writing_style.md` and `~/harness/expression.md` § *Voice*.
 - **British spelling**: Use British English spelling throughout (e.g., organised, colour, behaviour, centre, programme)
 - **Sentence case headings**: All headings MUST use sentence case, not title case (e.g., "How does it work?" not "How Does It Work?")
 - **Strict adherence**: This applies to all content, including course titles, section headers, and blog post titles.
