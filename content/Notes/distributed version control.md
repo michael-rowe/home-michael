@@ -18,7 +18,6 @@ category:
 related:
   - "[[Notes/git]]"
 keyphrase: "distributed version control"
-slug: notes/distributed-version-control
 linkedin:
 ---
 

@@ -21,7 +21,6 @@ category:
 related:
   - "[[Posts/2026-01-29-essays-as-scholarship]]"
 draft: false
-slug: posts/open-scholarship-workflow
 subtype: ""
 enableToc: true
 linkedin:
@@ -92,7 +91,6 @@ Each essay carries structured metadata in its [[YAML]] frontmatter; a block at t
 ```yaml
 type: essay
 title: "Towards a framework for emergent scholarship"
-slug: essays/emergent-scholarship
 author:
   - "[[Michael Rowe]]"
 version: 0.7

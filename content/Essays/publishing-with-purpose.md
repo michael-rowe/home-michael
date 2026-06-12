@@ -1,7 +1,6 @@
 ---
 type: essay
 title: 'Publishing with purpose: Using AI to enhance scientific discourse'
-slug: essays/publishing-with-purpose
 description: >-
   The introduction of generative AI into scientific publishing presents both
   opportunities and risks for the research ecosystem. This essay argues that

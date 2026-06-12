@@ -16,7 +16,6 @@ category:
   - Scholarship
 draft: false
 enableToc: true
-slug: posts/ai-agents-academic-workflow
 linkedin:
 
 ---

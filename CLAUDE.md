@@ -318,7 +318,6 @@ updated: YYYY-MM-DD
 tags: []
 category: []             # Always list format
 draft: false
-slug: ""
 linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
 ```
 
@@ -326,7 +325,6 @@ linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not
 ```yaml
 type: essay
 title: ""
-slug: essays/slug-here
 description: ""          # 100-150 word summary
 meta-description: ""     # Under 155 chars
 author:
@@ -356,7 +354,6 @@ created: YYYY-MM-DD
 updated: YYYY-MM-DD
 status: draft
 keyphrase: ""
-slug: notes/slug-here
 category: ""             # Single category
 tags: []
 related: []
@@ -380,7 +377,6 @@ linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not
 ```yaml
 type: presentation
 title: ""
-slug: presentations/slug-here
 description: ""          # 3-5 sentences for index listings
 meta-description: ""     # Under 155 chars
 author:
@@ -412,7 +408,6 @@ topics:
 tags: []
 date: YYYY-MM-DD
 draft: true
-slug: ""
 linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
 ```
 
@@ -422,6 +417,7 @@ linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not
 - **Date fields**: Essays use `created:`/`modified:`; posts use `date:`/`updated:`; lessons use `created:`/`updated:`. Quartz treats `created` and `date` as aliases, and `modified`, `updated`, `last-modified` as aliases — but follow existing conventions per type.
 - **Category**: Always list format (`category: [Assessment]`), never scalar string.
 - **DOI**: Omit the `doi:` field entirely if no DOI exists. Don't use empty `doi:`.
+- **No `slug:` field**: Quartz ignores it — page URLs always derive from the file path under `content/` (e.g. `content/Essays/my-essay.md` → `Essays/my-essay`). The field was removed from all content in June 2026; don't reintroduce it.
 - **cssclasses**: Don't add `cssclasses: [""]` — it has no effect and adds noise.
 - **`related` field**: Wiki-link format: `["[[Slug or Title]]"]`
 - **`linkedin` field**: Use `linkedin: YYYY-MM-DD` when a post has been shared to LinkedIn; leave as `linkedin:` (empty) if not yet posted. Never use the old `linkedin-status`/`linkedin-date` fields.

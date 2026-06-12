@@ -1,7 +1,6 @@
 ---
 type: essay
 title: "Essay title: subtitle here"
-slug: essays/slug-here
 description: A 100-150 word description used for index pages and listings. It should be engaging and summarise the main argument and relevance of the essay for the target audience.
 meta-description: A 15-20 word summary for SEO and social previews. Under 155 characters.
 author:

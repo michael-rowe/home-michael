@@ -19,7 +19,6 @@ category:
   - Assessment
   - Education
 draft: false
-slug: posts/ai-assessment-scales-higher-education
 enableToc: true
 linkedin: 2026-03-27
 ---

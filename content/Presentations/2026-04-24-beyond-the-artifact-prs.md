@@ -1,7 +1,6 @@
 ---
 type: presentation
 title: "Beyond the artifact: AI and the future of research"
-slug: presentations/2026-prs-beyond-the-artifact
 description: A keynote for the 44th Annual Conference of the Physiotherapy Research Society. Argues that AI is now in contact with every part of the research process, and that the useful question is no longer whether researchers are using AI, but what they are using it for. Uses the PhD as a worked example to explore the difference between the artefact and the person becoming capable through the process, and argues that as AI becomes more capable, specifically human contributions — research taste, evaluative judgement, and the capacity to set direction — become more valuable, not less.
 meta-description: Keynote on AI and the future of research at the PRS Annual Conference 2026. Argues the useful question is not whether you use AI, but what you use it for.
 author:

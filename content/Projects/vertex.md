@@ -1,7 +1,6 @@
 ---
 type: project
 title: Vertex
-slug: projects/vertex
 description: "A curriculum knowledge graph that turns programme documentation into queryable infrastructure. Curriculum structure, learning outcomes, assessment alignment, and regulatory standards are modelled as a graph staff can interrogate in plain language — turning quality-assurance and compliance checks that take weeks into ones that take minutes. A Snapplify product I work on as a partner and consultant."
 meta-description: A curriculum knowledge graph for natural-language quality-assurance and compliance checks across programmes.
 author: "[[Michael Rowe]]"

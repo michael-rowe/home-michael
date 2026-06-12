@@ -15,7 +15,6 @@ tags:
 category: [Scholarship]
 related:
 draft: true
-slug: "blog-post-review-skill"
 subtype: ""
 enableToc: true
 linkedin:

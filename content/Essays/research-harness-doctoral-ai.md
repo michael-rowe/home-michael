@@ -1,7 +1,6 @@
 ---
 type: essay
 title: "The research harness: a framework for bounded AI use in doctoral work"
-slug: essays/research-harness-doctoral-ai
 description: "Current responses to AI use in doctoral research locate the problem either with institutions through policy, or with students through judgement and AI literacy. This essay argues that neither response addresses the structural source of the difficulty. The characteristic problems of AI use in doctoral research are not problems of policy or capability; they are problems of working with an agent in the absence of a defined operating context. Drawing on software engineering practice, it develops the concept of the research harness: a structured specification, negotiated between researcher and supervisor, of what an AI agent is doing in a doctoral project. The harness has seven components — knowledge base, interpretive permissions, tools, authority, scope register, process record, and amendment protocol — and can be entered at a minimal level and developed iteratively alongside the work."
 meta-description: A research harness framework for bounded AI use in doctoral projects; seven components that specify the operating context for AI agents in PhD research.
 author:

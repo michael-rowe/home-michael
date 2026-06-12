@@ -1,7 +1,6 @@
 ---
 type: presentation
 title: "With great power comes great ambiguity"
-slug: presentations/2023-enphe-power-ambiguity
 description: A presentation for the 2023 ENPHE Conference on coming to terms with AI in professional education. Argues that the dominant discourse traps us in a false choice between AI as saviour and AI as threat, when what the moment actually demands is a tolerance for ambiguity. Borrowing the antihero archetype, it reframes AI as neither hero nor villain but an ambiguous partner in new human–machine coalitions, and proposes that wise adoption is not a destination but the start of an iterative, cooperative process.
 meta-description: A 2023 ENPHE presentation on coming to terms with AI in professional education — embracing ambiguity over the saviour-or-threat dichotomy.
 author:

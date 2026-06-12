@@ -19,7 +19,6 @@ category:
   - Professional development
 related:
 draft: false
-slug: posts/email-backlog-anxiety
 subtype: ""
 enableToc: true
 linkedin:

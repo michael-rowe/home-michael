@@ -16,7 +16,6 @@ tags:
   - ai-integration
 category:
   - Scholarship
-slug: posts/ai-academic-writing-identity
 linkedin:
 ---
 > [!info] AI didn't threaten my writing — it revealed what it was always actually for

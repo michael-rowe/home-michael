@@ -37,9 +37,9 @@
   }
 
   &.copied {
-    border-color: #10b981;
-    color: #10b981;
-    background: rgba(16, 185, 129, 0.1);
+    border-color: var(--status-positive);
+    color: var(--status-positive);
+    background: color-mix(in srgb, var(--status-positive) 10%, transparent);
   }
 
   svg {

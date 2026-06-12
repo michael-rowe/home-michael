@@ -18,7 +18,6 @@ related:
   - "[[Posts/2026-03-01-working-effectively-with-ai-agents]]"
   - "[[Posts/2026-02-26-ai-agents-academic-workflow]]"
 draft: false
-slug: posts/claude-deleted-my-file
 subtype: field-note
 enableToc: false
 linkedin:

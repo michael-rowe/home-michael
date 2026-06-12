@@ -20,7 +20,6 @@ related:
   - "[[Posts/2026-02-26-ai-agents-academic-workflow]]"
   - "[[Posts/2026-03-03-ai-agent-governance-higher-education]]"
 keyphrase: harness engineering
-slug: notes/harness-engineering
 linkedin:
 
 ---

@@ -61,7 +61,7 @@ export default ((opts?: Partial<CourseGridOptions>) => {
         {courses.map((course) => {
           const href = resolveRelative(fileData.slug!, course.slug as FullSlug)
           const statusSlug = course.status?.toLowerCase().replace(/\s+/g, "-")
-          const accentColor = course.color || "#6b7280"
+          const accentColor = course.color || "var(--neutral-accent)"
 
           return (
             <a href={href} class="course-card" style={`--card-accent: ${accentColor}`}>
@@ -125,18 +125,18 @@ export default ((opts?: Partial<CourseGridOptions>) => {
 }
 
 .course-status--published {
-  background-color: color-mix(in srgb, #2e7d52 12%, transparent);
-  color: #2e7d52;
+  background-color: color-mix(in srgb, var(--status-positive) 12%, transparent);
+  color: var(--status-positive);
 }
 
 .course-status--in-development {
-  background-color: color-mix(in srgb, #9a7020 12%, transparent);
-  color: #9a7020;
+  background-color: color-mix(in srgb, var(--status-progress) 12%, transparent);
+  color: var(--status-progress);
 }
 
 .course-status--coming-soon {
-  background-color: color-mix(in srgb, #1e6ba8 12%, transparent);
-  color: #1e6ba8;
+  background-color: color-mix(in srgb, var(--status-upcoming) 12%, transparent);
+  color: var(--status-upcoming);
 }
 
 .course-card-title {

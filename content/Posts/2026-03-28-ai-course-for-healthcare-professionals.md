@@ -19,7 +19,6 @@ category:
   - Education
 related:
 draft: false
-slug: ai-course-for-healthcare-professionals
 enableToc: true
 linkedin: 2026-03-28
 ---

@@ -17,7 +17,6 @@ category:
   - Technology
 related:
 draft: false
-slug: fawns-student-use-ai
 subtype: field-note
 enableToc: false
 linkedin:

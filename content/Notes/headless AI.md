@@ -17,7 +17,6 @@ tags:
 category: Technology
 related:
 keyphrase: "headless AI model"
-slug: notes/headless-ai
 linkedin:
 ---
 

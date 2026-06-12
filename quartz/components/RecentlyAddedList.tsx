@@ -44,6 +44,9 @@ export default (() => {
         if (!t || !validTypes.has(t)) return false
         if (s.startsWith("recently-added") || s.includes("templates")) return false
         const d = getDate(cfg, p)
+        // Local-time month bucketing on dates parsed as UTC midnight: correct
+        // on UTC/UK build machines; a build west of UTC would shift
+        // first-of-month items into the previous month
         return !!d && d.getFullYear() === year && d.getMonth() === month
       })
       .sort((a, b) => (getDate(cfg, b)?.getTime() ?? 0) - (getDate(cfg, a)?.getTime() ?? 0))

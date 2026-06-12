@@ -10,7 +10,6 @@ updated: 2026-03-12
 status: active
 draft: false
 keyphrase: "context engineering for AI systems"
-slug: notes/context-engineering
 tags:
   - context-engineering
   - generative-ai

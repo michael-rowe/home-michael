@@ -1,7 +1,6 @@
 ---
 type: presentation
 title: "An unstoppable force meets an immovable object"
-slug: presentations/2023-adapt-unstoppable-force
 description: A presentation for the ADAPT International Conference 2023 on expertise and AI in professional education. Argues that generative AI is an unstoppable force — democratising access to professional knowledge and acting as a low-cost, personalised "expert mentor" — meeting the immovable object of universities and their traditional role as gatekeepers of expertise. Asks what formal professional education is for in a world where expertise is abundantly available, and argues for raising expectations through project-based learning and authentic assessment.
 meta-description: A 2023 ADAPT conference talk on expertise and AI — what professional education is for when expertise becomes abundant and cheap.
 author:

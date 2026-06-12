@@ -1,7 +1,6 @@
 ---
 type: presentation
 title: "Introduction to AI with Copilot"
-slug: presentations/2026-cpc-introduction-to-ai-copilot
 description: "An internal staff development session for the CPC team introducing AI through Microsoft Copilot. Covers what AI is and isn't, safe working practices, structured prompting with the RGID heuristic, and hands-on practice — with the goal of each participant leaving with one specific task to try that week."
 meta-description: Internal staff development session on getting started with AI using Microsoft Copilot, including safe working practices and the RGID prompting framework.
 author:

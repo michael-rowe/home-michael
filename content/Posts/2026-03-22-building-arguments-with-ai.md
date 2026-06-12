@@ -17,7 +17,6 @@ tags:
   - context-engineering
 category:
   - Scholarship
-slug: posts/building-arguments-with-ai
 aliases:
   - posts/the-session-that-produced-an-argument
 linkedin:

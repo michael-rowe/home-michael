@@ -31,7 +31,6 @@ category:
 related:
   - '[[Posts/2026-01-27-what-does-scholarship-sound-like]]'
 draft: false
-slug: essays-as-scholarship
 enableToc: true
 reviewed:
   - writing_style

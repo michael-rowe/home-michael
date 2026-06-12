@@ -16,7 +16,6 @@ tags:
   - academic-practice
 category:
   - Technology
-slug: posts/working-effectively-with-ai-agents
 aliases:
   - posts/what-ai-agent-workflows-require
 linkedin:

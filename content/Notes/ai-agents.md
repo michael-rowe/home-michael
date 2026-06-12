@@ -8,7 +8,6 @@ updated: 2026-02-27
 status: draft
 draft: false
 keyphrase: how AI agents work
-slug: notes/ai-agents
 category: Technology
 tags:
   - agent
