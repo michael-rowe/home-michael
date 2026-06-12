@@ -14,7 +14,7 @@ needs_review: false
 tags:
   - reasoning
   - information-retrieval
-category: AI and technology
+category: Technology
 related:
   - '[[Notes/multi-hop-reasoning]]'
   - '[[Notes/retrieval-augmented-generation]]'

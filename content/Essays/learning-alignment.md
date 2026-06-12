@@ -1,7 +1,6 @@
 ---
 type: essay
 title: 'The learning alignment problem: AI and the loss of control in higher education'
-slug: essays/learning-alignment
 description: >-
   Higher education's focus on prompt engineering — teaching technical skills for
   crafting AI queries — represents a misunderstanding of learning. This essay
@@ -39,8 +38,8 @@ tags:
   - prompt-engineering
 related:
 category:
-  - Pedagogy
-  - AI and technology
+  - Teaching
+  - Technology
 draft: false
 reviewed:
 linkedin:

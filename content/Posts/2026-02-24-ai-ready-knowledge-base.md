@@ -8,16 +8,16 @@ author: "[[Michael Rowe]]"
 date: 2026-02-24
 updated: 2026-02-24
 tags:
-  - personal-knowledge-management
+  - information-management
   - note-taking
   - information-architecture
-  - large-language-models
+  - language-model
   - ai-integration
   - context-engineering
   - documentation
 category:
   - Information management
-  - AI and technology
+  - Technology
 draft: false
 enableToc: true
 reviewed:
@@ -25,7 +25,6 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
-slug: posts/ai-ready-knowledge-base
 aliases:
   - posts/building-the-scaffold
 linkedin:

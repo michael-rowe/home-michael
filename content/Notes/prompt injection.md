@@ -8,17 +8,16 @@ updated: 2026-02-17
 status: draft
 draft: false
 tags:
-  - large-language-models
+  - language-model
   - ai-literacy
   - academic-integrity
   - prompt-engineering
-category: "AI and technology"
+category: Technology
 related:
   - "[[Notes/system-prompt]]"
   - "[[Notes/prompt-engineering]]"
   - "[[Notes/large-language-models]]"
 keyphrase: "prompt injection attack"
-slug: notes/prompt-injection
 linkedin:
 
 ---

@@ -10,16 +10,13 @@ updated: 2026-02-12
 status: draft
 draft: false
 tags:
-  - data
-  - sustainability
-  - interoperability
+  - standards
 category: Technology
 related:
   - "[[Notes/markdown]]"
   - "[[Notes/documentation-debt]]"
   - "[[Notes/contextual-interoperability]]"
 keyphrase: "future-proofing educational materials with plain text"
-slug: notes/plain-text
 linkedin:
 
 ---

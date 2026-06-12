@@ -12,7 +12,7 @@ status: working
 needs_review: false
 tags:
 category:
-  - AI and technology
+  - Technology
 related:
   - "[[Notes/AI-literacy]]"
 builds_on:

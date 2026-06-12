@@ -11,16 +11,14 @@ updated: 2026-02-12
 status: draft
 draft: false
 tags:
-  - copyright
-  - sharing
-  - scholarship
-category: Philosophy
+  - publishing
+  - open-scholarship
+category: Scholarship
 related:
   - "[[Notes/open-source-software]]"
   - "[[Essays/publishing-with-purpose]]"
   - "[[Notes/AI-literacy]]"
 keyphrase: "sharing educational resources legally"
-slug: notes/open-access-licensing
 linkedin:
 
 ---

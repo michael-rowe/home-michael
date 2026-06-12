@@ -13,17 +13,16 @@ draft: false
 tags:
   - information-architecture
   - higher-education
-  - ontology
+  - knowledge-representation
   - curriculum-infrastructure
 category:
-  - AI and technology
-  - Curriculum
+  - Technology
+  - Education
 related:
   - "[[Essays/documentation-as-infrastructure]]"
   - "[[Essays/curriculum-infrastructure]]"
   - "[[Notes/documentation-debt]]"
 keyphrase: "higher education reference model"
-slug: notes/higher-education-reference-model
 linkedin:
 
 ---

@@ -9,15 +9,14 @@ updated: 2026-02-16
 status: draft
 draft: false
 tags:
-  - large-language-models
+  - language-model
   - ai-integration
-category: AI and technology
+category: Technology
 related:
   - "[[Notes/large-language-models]]"
   - "[[Notes/token-budget]]"
 keyphrase: what is AI inference
 meta-description: AI inference is the computational work behind every prompt response — understanding it explains why different models suit different tasks.
-slug: notes/inference
 reviewed:
   - writing_style
   - note_writer

@@ -1,7 +1,6 @@
 ---
 type: presentation
 title: "Beyond document management: Graph infrastructure for professional curricula"
-slug: presentations/2026-beyond-document-management
 description: "Professional education curricula face a fundamental infrastructure problem: while comprehensively documented, they lack systematic queryability. This presentation introduces a three-layer architecture using graph databases as the source of truth for curriculum structure, supported by vector databases for content retrieval and the Model Context Protocol for stakeholder interfaces."
 meta-description: A contributed presentation at the Advance HE AI Symposium 2026 proposing graph database infrastructure for queryable professional education curricula.
 author:
@@ -20,8 +19,8 @@ tags:
   - information-architecture
   - health-professions-education
 category:
-  - Curriculum
-  - AI and technology
+  - Education
+  - Technology
 related:
   - "[[Essays/documentation-as-infrastructure]]"
   - "[[Essays/curriculum-infrastructure]]"

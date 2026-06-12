@@ -11,7 +11,7 @@ tags:
   - academic-development
   - professional-learning
 category:
-  - AI and technology
+  - Technology
 related:
   - '[[Notes/AI-literacy]]'
   - '[[Notes/common-architecture-of-literacy]]'

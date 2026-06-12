@@ -12,7 +12,7 @@ tags:
   - generative-ai
   - context-engineering
   - standards
-category: AI and technology
+category: Technology
 related:
   - "[[Notes/context-engineering]]"
   - "[[Notes/context-sovereignty]]"

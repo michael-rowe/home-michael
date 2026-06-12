@@ -10,15 +10,14 @@ updated: 2026-02-25
 tags:
   - ai-integration
   - context-engineering
-  - personal-knowledge-management
+  - information-management
   - academic-practice
   - documentation
 category:
-  - AI and technology
+  - Technology
   - Information management
 draft: false
 enableToc: true
-slug: posts/ai-collaboration-principles
 aliases:
   - posts/seven-principles-ai-collaboration
 reviewed:

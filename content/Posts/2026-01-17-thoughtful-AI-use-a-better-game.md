@@ -25,8 +25,8 @@ tags:
   - generative-ai
   - ai-literacy
 category:
-  - Pedagogy
-  - AI and technology
+  - Teaching
+  - Technology
 related:
   - '[[Posts/2026-01-29-AI-and-evaluative-judgement]]'
 draft: false
@@ -35,7 +35,6 @@ reviewed:
   - blog_writer
   - copy_editor
   - SEO_optimiser
-slug: posts/thoughtful-ai-use
 enableToc: true
 linkedin:
 

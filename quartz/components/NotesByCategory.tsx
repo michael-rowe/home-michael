@@ -10,51 +10,52 @@ interface CategoryConfig {
   icon: string
 }
 
+// The seven approved categories from content/personas/taxonomy.md
 const categoryConfigs: Record<string, CategoryConfig> = {
-  "AI and technology": {
-    label: "AI and technology",
+  "Technology": {
+    label: "Technology",
     description: "Artificial intelligence, language models, and their implications for knowledge work and education.",
     icon: "ph-circuit-board",
+  },
+  "Teaching": {
+    label: "Teaching",
+    description: "Teaching practice, learning theory, and the relationships between educators and learners.",
+    icon: "ph-chalkboard-teacher",
   },
   "Assessment": {
     label: "Assessment",
     description: "Designing, evaluating, and rethinking assessment in the context of contemporary scholarship.",
     icon: "ph-clipboard-text",
   },
-  "Curriculum": {
-    label: "Curriculum",
+  "Education": {
+    label: "Education",
     description: "Curriculum design, programme development, and the organisation of learning.",
     icon: "ph-books",
-  },
-  "Knowledge management": {
-    label: "Knowledge management",
-    description: "Capturing, organising, and connecting ideas — note-taking, information systems, and personal knowledge.",
-    icon: "ph-brain",
-  },
-  "Pedagogy": {
-    label: "Pedagogy",
-    description: "Teaching practice, learning theory, and the relationships between educators and learners.",
-    icon: "ph-chalkboard-teacher",
-  },
-  "Professional development": {
-    label: "Professional development",
-    description: "Building skills, habits, and systems for sustainable academic and professional practice.",
-    icon: "ph-briefcase",
   },
   "Scholarship": {
     label: "Scholarship",
     description: "Academic writing, publication, research practice, and the nature of scholarly contribution.",
     icon: "ph-scroll",
   },
+  "Information management": {
+    label: "Information management",
+    description: "Capturing, organising, and connecting ideas — note-taking, information systems, and personal knowledge.",
+    icon: "ph-brain",
+  },
+  "Professional development": {
+    label: "Professional development",
+    description: "Building skills, habits, and systems for sustainable academic and professional practice.",
+    icon: "ph-briefcase",
+  },
 }
 
 const categoryOrder = [
-  "AI and technology",
-  "Pedagogy",
+  "Technology",
+  "Teaching",
   "Assessment",
-  "Curriculum",
+  "Education",
   "Scholarship",
-  "Knowledge management",
+  "Information management",
   "Professional development",
 ]
 
@@ -81,10 +82,14 @@ export const NotesByCategory: QuartzComponent = ({ cfg, fileData, allFiles }: Qu
         : []
 
     for (const category of categories) {
-      const normalised = category.trim()
-      if (!normalised) continue
-      if (!categoryGroups.has(normalised)) categoryGroups.set(normalised, [])
-      categoryGroups.get(normalised)!.push(note)
+      const trimmed = category.trim()
+      if (!trimmed) continue
+      // Group case-insensitively against the canonical config names so a
+      // case variant in frontmatter can't split a category into two groups
+      const canonical =
+        categoryOrder.find((c) => c.toLowerCase() === trimmed.toLowerCase()) ?? trimmed
+      if (!categoryGroups.has(canonical)) categoryGroups.set(canonical, [])
+      categoryGroups.get(canonical)!.push(note)
     }
   }
 

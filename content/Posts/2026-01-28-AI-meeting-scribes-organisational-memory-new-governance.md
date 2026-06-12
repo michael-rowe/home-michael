@@ -26,12 +26,11 @@ tags:
   - governance
   - organisational-change
 category:
-  - AI and technology
+  - Technology
   - Professional development
 related:
   - '[[Posts/2026-01-28-bitter-lesson-higher-education]]'
 draft: false
-slug: posts/ai-meeting-scribes
 enableToc: true
 reviewed:
   - writing_style

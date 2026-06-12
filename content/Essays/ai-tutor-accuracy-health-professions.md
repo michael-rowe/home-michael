@@ -1,7 +1,6 @@
 ---
 type: essay
 title: "AI tutor accuracy in health professions education: The accuracy-engagement paradox"
-slug: essays/ai-tutor-accuracy-health-professions
 description: "A mathematical framework demonstrating that AI tutoring systems with 10–15% error rates can achieve superior learning outcomes through dramatically increased engagement compared to more accurate but largely unused alternatives. Drawing on evidence from health professions education, this essay shows that the multiplicative relationship between accuracy and utilisation creates an accessibility paradox: imperfect but engaging systems outperform perfect but unused ones. The argument carries three critical qualifications—errors vary in consequence and safety-critical content demands high accuracy; generative AI poses distinctive epistemic challenges that may undermine conventional error correction mechanisms; and engagement is necessary but not sufficient for learning, with superficial use patterns capable of nullifying predicted benefits entirely. A framework for calibrating accuracy requirements to context and consequence is proposed."
 meta-description: AI tutor accuracy in health professions education needn't be perfect to be effective — it needs to be calibrated to context and consequence.
 author:
@@ -20,7 +19,7 @@ modified: 2026-03-22
 orcid: 0000-0002-1538-6052
 doi:
 tags:
-  - large-language-models
+  - language-model
   - health-professions-education
   - ai-integration
   - generative-ai
@@ -30,8 +29,8 @@ related:
   - "[[Notes/large-language-models]]"
   - "[[Essays/learning-alignment]]"
 category:
-  - AI and technology
-  - Pedagogy
+  - Technology
+  - Teaching
 draft: false
 reviewed:
   - writing_style

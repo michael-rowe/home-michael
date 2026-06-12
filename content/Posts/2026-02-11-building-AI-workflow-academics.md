@@ -10,16 +10,15 @@ updated: 2026-02-11
 tags:
   - documentation
   - emergent-scholarship
-  - personal-knowledge-management
+  - information-management
   - information-architecture
   - ai-integration
 category:
-  - AI and technology
+  - Technology
 related:
   - "[[Essays/documentation-as-infrastructure]]"
   - "[[Essays/taste-and-judgement]]"
 draft: false
-slug: posts/ai-workflow-for-academics
 aliases:
   - posts/building-ai-collaboration-workflow
 enableToc: true

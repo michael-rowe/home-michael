@@ -12,7 +12,7 @@ tags:
   - knowledge-graphs
   - information-architecture
   - context-engineering
-category: Knowledge management
+category: Information management
 related:
   - "[[Notes/knowledge-graph]]"
   - "[[Notes/vector-database]]"

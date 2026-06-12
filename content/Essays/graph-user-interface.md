@@ -1,7 +1,6 @@
 ---
 type: essay
 title: "Beyond text boxes: Personal knowledge graphs as substrates for AI-supported learning"
-slug: essays/graph-user-interface
 description: "The predominant AI interface paradigm — text boxes and chronological chat histories — reproduces a cognitive metaphor that fragments knowledge and discards the traces of its development. This essay argues that learning is the kind of work that depends on those traces being preserved, and that a different substrate is already available: the personal, version-controlled knowledge graph of the kind in use across the tools-for-thought community. A personal PKM vault is not a graph database, and the difference matters. Multiple interfaces can sit over such a substrate; a local Model Context Protocol layer can expose it to AI tools alongside other personal resources; examiners can interrogate it as longitudinal evidence of becoming. The contribution is pedagogical: an argument that learning leaves traces, and that we should choose substrates and interfaces that preserve those traces in forms AI can read."
 keyphrase: personal knowledge graph
 meta-description: How personal, version-controlled knowledge graphs and a local MCP layer could support AI-mediated learning in ways that preserve the evidence of becoming.
@@ -19,16 +18,15 @@ doi:
 tags:
   - higher-education
   - user-interface
-  - personal-knowledge-management
+  - information-management
   - model-context-protocol
-  - version-control
 related:
   - "[[Essays/curriculum-infrastructure]]"
   - "[[Essays/documentation-as-infrastructure]]"
   - "[[Notes/context-sovereignty]]"
 category:
-  - AI and technology
-  - Curriculum
+  - Technology
+  - Education
 draft: true
 reviewed:
 linkedin:

@@ -9,12 +9,11 @@ topics:
   - Knowledge management
 tags:
   - note-taking
-  - personal-knowledge-management
+  - information-management
   - cognitive-science
 related: []
 date: 2026-02-17
 draft: false
-slug: "how-can-we-develop-transformative-tools-for-thought"
 linkedin:
 
 ---

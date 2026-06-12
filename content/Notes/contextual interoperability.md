@@ -13,15 +13,14 @@ draft: false
 tags:
   - context-sovereignty
   - knowledge-representation
-  - personal-knowledge-management
-category: Knowledge management
+  - information-management
+category: Information management
 related:
   - "[[Notes/context-sovereignty]]"
   - "[[Notes/knowledge-graph]]"
   - "[[Notes/context-engineering]]"
   - "[[Notes/intelligence-as-a-service]]"
 keyphrase: making thinking machine-readable
-slug: notes/contextual-interoperability
 linkedin:
 
 ---

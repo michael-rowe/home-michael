@@ -12,8 +12,8 @@ needs_review: false
 tags:
   - generative-ai
   - prompt-engineering
-  - context
-category: AI and technology
+  - context-engineering
+category: Technology
 related:
   - "[[Notes/prompt-engineering]]"
   - "[[Notes/context-engineering]]"

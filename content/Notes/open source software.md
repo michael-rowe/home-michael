@@ -11,15 +11,12 @@ updated: 2026-02-12
 status: draft
 draft: false
 tags:
-  - community
   - collaboration
-  - software
-category: Philosophy
+category: Scholarship
 related:
   - "[[Notes/open-access-licensing]]"
   - "[[Notes/context-sovereignty]]"
 keyphrase: "collaborative development in education"
-slug: notes/open-source-software
 linkedin:
 
 ---

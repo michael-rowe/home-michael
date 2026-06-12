@@ -11,17 +11,13 @@ updated: 2026-02-12
 status: draft
 draft: false
 tags:
-  - assessment
-  - education
-  - automation
-  - competency
+  - competency-frameworks
 category: Education
 related:
   - "[[Essays/learning-alignment]]"
   - "[[Notes/AI-forward]]"
   - "[[Notes/AI-literacy]]"
 keyphrase: "competency-based assessment in the digital age"
-slug: notes/programmatic-assessment
 linkedin:
 
 ---

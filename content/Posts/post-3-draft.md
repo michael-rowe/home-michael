@@ -6,15 +6,14 @@ meta-description: ""
 keyphrase: ""
 author: "[[Michael Rowe]]"
 tags:
-  - mcp
+  - model-context-protocol
   - zotero
-  - personal-knowledge-management
+  - information-management
   - context-engineering
   - anthropic-api
 category: []
 related:
 draft: true
-slug: ""
 subtype: ""
 enableToc: true
 linkedin:

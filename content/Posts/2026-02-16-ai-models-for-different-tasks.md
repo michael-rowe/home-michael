@@ -8,15 +8,14 @@ author: "[[Michael Rowe]]"
 date: 2026-02-16
 updated: 2026-02-16
 tags:
-  - large-language-models
+  - language-model
   - ai-integration
   - context-engineering
   - ai-literacy
 category:
-  - AI and technology
+  - Technology
 related:
 draft: false
-slug: ai-models-for-different-tasks
 enableToc: true
 reviewed:
   - writing_style

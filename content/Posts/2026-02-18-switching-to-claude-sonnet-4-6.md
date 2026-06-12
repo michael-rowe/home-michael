@@ -8,13 +8,12 @@ author: "[[Michael Rowe]]"
 date: 2026-02-18
 updated: 2026-02-18
 tags:
-  - large-language-models
+  - language-model
   - ai-integration
   - generative-ai
-category: [AI and technology]
+category: [Technology]
 related:
 draft: false
-slug: posts/switching-to-claude-sonnet-4-6
 subtype: field-note
 enableToc: false
 linkedin:

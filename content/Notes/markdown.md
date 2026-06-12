@@ -10,9 +10,9 @@ updated: 2026-02-12
 status: draft
 draft: false
 tags:
-  - writing
+  - academic-writing
   - documentation
-  - interoperability
+  - standards
 category: Technology
 related:
   - "[[Notes/plain-text]]"
@@ -20,7 +20,6 @@ related:
   - "[[Notes/latex]]"
   - "[[Notes/documentation-debt]]"
 keyphrase: "writing in markdown for portability"
-slug: notes/markdown
 linkedin:
 
 ---

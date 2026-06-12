@@ -1,7 +1,6 @@
 ---
 type: essay
 title: "Context sovereignty for AI-supported learning: A human-centred approach"
-slug: essays/context-sovereignty-for-ai-supported-learning
 description: This essay proposes 'context sovereignty' as a framework for maintaining human agency in AI-supported learning, arguing that context engineering — not just prompting — is the key to meaningful human-AI collaboration.
 meta-description: Proposing 'context sovereignty for AI-supported learning' as a framework for maintaining human agency in AI-supported learning environments.
 author:
@@ -26,11 +25,11 @@ tags:
   - distributed-cognition
   - educational-technology
   - human-AI-collaboration
-  - personal-learning
+  - self-directed-learning
 related:
 category:
-  - AI and technology
-  - Pedagogy
+  - Technology
+  - Teaching
 doclicense: Creative Commons Attribution 4.0 International
 doclicenseurl: https://creativecommons.org/licenses/by/4.0/
 draft: false

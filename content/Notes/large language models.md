@@ -15,7 +15,7 @@ needs_review: false
 tags:
   - generative-ai
   - machine-learning
-category: AI and technology
+category: Technology
 related:
 builds_on:
   - '[[Transformer models]]'
