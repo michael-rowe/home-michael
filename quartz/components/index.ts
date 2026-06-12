@@ -23,14 +23,12 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
-import ContentNav from "./ContentNav"
 import TopNav from "./TopNav"
 import ContextualNav from "./ContextualNav"
 import MobileNav from "./MobileNav"
 import CourseGrid from "./CourseGrid"
 import LessonNav from "./LessonNav"
 import CourseButton from "./CourseButton"
-import BookOverview from "./BookOverview"
 import NotesGrid from "./NotesGrid"
 import NotesByTag from "./NotesByTag"
 import NotesByCategory from "./NotesByCategory"
@@ -70,14 +68,12 @@ export {
   Comments,
   Flex,
   ConditionalRender,
-  ContentNav,
   TopNav,
   ContextualNav,
   MobileNav,
   CourseGrid,
   LessonNav,
   CourseButton,
-  BookOverview,
   NotesGrid,
   NotesByTag,
   NotesByCategory,

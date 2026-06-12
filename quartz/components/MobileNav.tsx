@@ -2,6 +2,8 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { FullSlug, resolveRelative, simplifySlug } from "../util/path"
 import { byDateAndAlphabetical } from "./PageList"
 import { Date, getDate } from "./Date"
+import { courseLessons, lessonNumber } from "./utils/lessons"
+import { resolveRelatedField } from "./utils/wikilinks"
 // @ts-ignore
 import script from "./scripts/mobilenav.inline"
 
@@ -98,62 +100,12 @@ export default ((opts?: Partial<MobileNavOptions>) => {
         )
       }
     } else if (isNotes) {
-      const relatedSlugs = new Set<string>()
-
-      // Helper function to slugify text (convert spaces to hyphens, etc.)
-      const slugifyText = (text: string): string => {
-        return text
-          .replace(/\s/g, "-")
-          .replace(/&/g, "-and-")
-          .replace(/%/g, "-percent")
-          .replace(/\?/g, "")
-          .replace(/#/g, "")
-      }
-
-      // Parse the 'related' field from frontmatter
-      const relatedField = fileData.frontmatter?.related
-      if (relatedField) {
-        // Handle both string and array formats
-        const relatedList = Array.isArray(relatedField) ? relatedField : [relatedField]
-
-        for (const item of relatedList) {
-          // Extract slug from wikilink format [[slug]] or plain text
-          const match = typeof item === "string" ? item.match(/\[\[([^\]]+)\]\]/) : null
-          if (match) {
-            const linkText = match[1]
-            const slugifiedLink = slugifyText(linkText)
-
-            // Try to find the file, prioritizing Notes section
-            let relatedFile = allFiles.find(
-              (f) =>
-                f.slug?.startsWith("Notes/") &&
-                (f.slug === `Notes/${slugifiedLink}` ||
-                  simplifySlug(f.slug!) === slugifiedLink ||
-                  f.slug?.endsWith(`/${slugifiedLink}`) ||
-                  f.frontmatter?.title === linkText)
-            )
-
-            // If not found in Notes, search in all files
-            if (!relatedFile) {
-              relatedFile = allFiles.find(
-                (f) =>
-                  f.frontmatter?.title === linkText ||
-                  simplifySlug(f.slug!) === slugifiedLink ||
-                  f.slug?.endsWith(`/${slugifiedLink}`)
-              )
-            }
-
-            if (relatedFile && relatedFile.slug !== currentSlug) {
-              relatedSlugs.add(relatedFile.slug!)
-            }
-          }
-        }
-      }
-
-      const relatedNotes = Array.from(relatedSlugs)
-        .map((slug) => allFiles.find((f) => f.slug === slug))
-        .filter((f) => f !== undefined)
-        .sort(byDateAndAlphabetical(cfg))
+      const relatedNotes = resolveRelatedField(
+        allFiles,
+        fileData.frontmatter?.related,
+        currentSlug,
+        "Notes/",
+      ).sort(byDateAndAlphabetical(cfg))
 
       if (relatedNotes.length > 0) {
         contextualContent = (
@@ -175,37 +127,26 @@ export default ((opts?: Partial<MobileNavOptions>) => {
       const pathParts = currentSlug.split("/")
       const courseName = pathParts[1]
 
-      const lessons = allFiles
-        .filter((f) => {
-          const fParts = f.slug!.split("/")
-          return (
-            fParts[0] === "Courses" && fParts[1] === courseName && f.slug !== `Courses/${courseName}/index`
-          )
-        })
-        .sort((a, b) => {
-          const aLesson = a.frontmatter?.lesson as number | undefined
-          const bLesson = b.frontmatter?.lesson as number | undefined
-          if (aLesson !== undefined && bLesson !== undefined) {
-            return aLesson - bLesson
-          }
-          return (a.frontmatter?.title ?? "").localeCompare(b.frontmatter?.title ?? "")
-        })
+      const lessons = courseLessons(allFiles, courseName)
 
       if (lessons.length > 0) {
         contextualContent = (
           <div class="mobile-nav-section">
             <h3>Course Lessons</h3>
             <ul>
-              {lessons.map((lesson) => (
-                <li>
-                  <a href={resolveRelative(fileData.slug!, lesson.slug!)} class="internal mobile-nav-link">
-                    {lesson.frontmatter?.lesson !== undefined && (
-                      <span class="lesson-number">{lesson.frontmatter.lesson}. </span>
-                    )}
-                    {lesson.frontmatter?.title}
-                  </a>
-                </li>
-              ))}
+              {lessons.map((lesson) => {
+                const lessonNum = lessonNumber(lesson)
+                return (
+                  <li>
+                    <a href={resolveRelative(fileData.slug!, lesson.slug!)} class="internal mobile-nav-link">
+                      {lessonNum !== undefined && (
+                        <span class="lesson-number">{lessonNum}. </span>
+                      )}
+                      {lesson.frontmatter?.title}
+                    </a>
+                  </li>
+                )
+              })}
             </ul>
           </div>
         )
@@ -223,7 +164,13 @@ export default ((opts?: Partial<MobileNavOptions>) => {
               <path d="M233.54,142.23a8,8,0,0,0-8-2,88.08,88.08,0,0,1-109.8-109.8,8,8,0,0,0-10-10,104.84,104.84,0,0,0-52.91,37A104,104,0,0,0,136,224a103.09,103.09,0,0,0,62.52-20.88,104.84,104.84,0,0,0,37-52.91A8,8,0,0,0,233.54,142.23ZM188.9,190.34A88,88,0,0,1,65.66,67.11a89,89,0,0,1,31.4-26A106,106,0,0,0,96,56,104.11,104.11,0,0,0,200,160a106,106,0,0,0,14.92-1.06A89,89,0,0,1,188.9,190.34Z" />
             </svg>
           </button>
-          <button type="button" class="mobile-nav-toggle" aria-label="Open navigation menu">
+          <button
+            type="button"
+            class="mobile-nav-toggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="mobile-nav-content"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -240,7 +187,7 @@ export default ((opts?: Partial<MobileNavOptions>) => {
             </svg>
           </button>
         </div>
-        <nav class="mobile-nav-content">
+        <nav class="mobile-nav-content" id="mobile-nav-content">
           <div class="mobile-nav-header">
             <span class="mobile-nav-site-title">{cfg.pageTitle}</span>
             <button

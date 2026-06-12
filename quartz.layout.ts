@@ -23,14 +23,14 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.ContentMeta(),
       condition: (page) => {
         const type = page.fileData.frontmatter?.type as string | undefined
-        return type === "post" || type === "note" || type === "essay" || type === "lesson" || type === "bib" || type === "presentation"
+        return type === "post" || type === "note" || type === "essay" || type === "lesson" || type === "bib" || type === "presentation" || type === "guide"
       },
     }),
     Component.ConditionalRender({
       component: Component.ContentType(),
       condition: (page) => {
         const type = page.fileData.frontmatter?.type as string | undefined
-        return type === "post" || type === "note" || type === "essay" || type === "presentation"
+        return type === "post" || type === "note" || type === "essay" || type === "presentation" || type === "guide"
       },
     }),
     Component.TagList(),

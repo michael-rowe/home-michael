@@ -1,7 +1,7 @@
 import { FullSlug, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { Date, getDate } from "./Date"
-import { QuartzComponent, QuartzComponentProps } from "./types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { byDateAndAlphabetical } from "./PageList"
 
 type Props = {
@@ -58,7 +58,7 @@ NotesGrid.css = `
   margin-top: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .notes-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -150,3 +150,5 @@ NotesGrid.css = `
   color: var(--gray);
 }
 `
+
+export default (() => NotesGrid) satisfies QuartzComponentConstructor

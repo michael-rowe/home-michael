@@ -1,7 +1,7 @@
 import { FullSlug, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { Date, getDate } from "./Date"
-import { QuartzComponent, QuartzComponentProps } from "./types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { byDateAndAlphabetical } from "./PageList"
 
 interface TagGroup {
@@ -239,7 +239,7 @@ NotesByTag.css = `
   color: var(--tertiary);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .tag-header {
     flex-direction: column;
     align-items: flex-start;
@@ -253,3 +253,5 @@ NotesByTag.css = `
   }
 }
 `
+
+export default (() => NotesByTag) satisfies QuartzComponentConstructor

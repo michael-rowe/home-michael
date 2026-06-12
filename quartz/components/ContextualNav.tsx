@@ -1,8 +1,10 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { resolveRelative, simplifySlug } from "../util/path"
+import { resolveRelative } from "../util/path"
 import { classNames } from "../util/lang"
 import { byDateAndAlphabetical } from "./PageList"
 import { Date, getDate } from "./Date"
+import { courseLessons, lessonNumber } from "./utils/lessons"
+import { resolveRelatedField } from "./utils/wikilinks"
 
 interface ContextualNavOptions {
   essaysLimit?: number
@@ -29,7 +31,7 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
 
     // Don't show ContextualNav for AI literacy course (has its own navigation)
     // But DO show it for the index page (type: course)
-    if (currentSlug.startsWith("Courses/AI literacy/") && fileData.frontmatter?.type !== "course") {
+    if (currentSlug.startsWith("Courses/AI-literacy/") && fileData.frontmatter?.type !== "course") {
       return null
     }
 
@@ -75,57 +77,13 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
     if (isCourses) {
       // 1. Course Index Page: Show Related Content (same logic as Notes)
       if (fileData.frontmatter?.type === "course") {
-        const relatedSlugs = new Set<string>()
-        
-        // Helper function to slugify text
-        const slugifyText = (text: string): string => {
-          return text
-            .replace(/\s/g, "-")
-            .replace(/&/g, "-and-")
-            .replace(/%/g, "-percent")
-            .replace(/\?/g, "")
-            .replace(/#/g, "")
-        }
-
-        // Parse 'related' field
-        const relatedField = fileData.frontmatter?.related
-        if (relatedField) {
-          const relatedList = Array.isArray(relatedField) ? relatedField : [relatedField]
-          for (const item of relatedList) {
-            const match = typeof item === "string" ? item.match(/\[\[([^\]]+)\]\]/) : null
-            if (match) {
-              const linkText = match[1]
-              const slugifiedLink = slugifyText(linkText)
-              
-              // Search in Notes, then globally
-              let relatedFile = allFiles.find(
-                (f) =>
-                  f.slug?.startsWith("Notes/") &&
-                  (f.slug === `Notes/${slugifiedLink}` ||
-                    simplifySlug(f.slug!) === slugifiedLink ||
-                    f.slug?.endsWith(`/${slugifiedLink}`) ||
-                    f.frontmatter?.title === linkText)
-              )
-
-              if (!relatedFile) {
-                relatedFile = allFiles.find(
-                  (f) =>
-                    f.frontmatter?.title === linkText ||
-                    simplifySlug(f.slug!) === slugifiedLink ||
-                    f.slug?.endsWith(`/${slugifiedLink}`)
-                )
-              }
-
-              if (relatedFile && relatedFile.slug !== currentSlug) {
-                relatedSlugs.add(relatedFile.slug!)
-              }
-            }
-          }
-        }
-
-        const explicitRelated = Array.from(relatedSlugs)
-          .map((slug) => allFiles.find((f) => f.slug === slug))
-          .filter((f) => f !== undefined)
+        const explicitRelated = resolveRelatedField(
+          allFiles,
+          fileData.frontmatter?.related,
+          currentSlug,
+          "Notes/",
+        )
+        const relatedSlugs = new Set<string>(explicitRelated.map((f) => f.slug!))
 
         // Find content in same category
         const rawCategory = fileData.frontmatter?.category
@@ -201,31 +159,8 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
       const pathParts = currentSlug.split("/")
       const courseName = pathParts[1]
 
-      // Get all lessons for this course
-      const lessons = allFiles
-        .filter((f) => {
-          const fParts = f.slug!.split("/")
-          return fParts[0] === "Courses" && fParts[1] === courseName && f.slug !== `Courses/${courseName}/index`
-        })
-        .sort((a, b) => {
-          // Prioritize introduction
-          const aTitle = (a.frontmatter?.title as string)?.toLowerCase() ?? ""
-          const bTitle = (b.frontmatter?.title as string)?.toLowerCase() ?? ""
-          const aIsIntro = aTitle.includes("introduction")
-          const bIsIntro = bTitle.includes("introduction")
-          if (aIsIntro && !bIsIntro) return -1
-          if (!aIsIntro && bIsIntro) return 1
-
-          // Try to sort by lesson number if available in frontmatter
-          // Check both lesson_number and lesson_order fields
-          const aLesson = (a.frontmatter?.lesson_number ?? a.frontmatter?.lesson_order ?? a.frontmatter?.lesson) as number | undefined
-          const bLesson = (b.frontmatter?.lesson_number ?? b.frontmatter?.lesson_order ?? b.frontmatter?.lesson) as number | undefined
-          if (aLesson !== undefined && bLesson !== undefined) {
-            return aLesson - bLesson
-          }
-          // Fall back to alphabetical
-          return (a.frontmatter?.title ?? "").localeCompare(b.frontmatter?.title ?? "")
-        })
+      // Get all lessons for this course in canonical order
+      const lessons = courseLessons(allFiles, courseName)
 
       if (lessons.length === 0) {
         return null
@@ -236,7 +171,7 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
           <h3>Course Lessons</h3>
           <ul>
             {lessons.map((lesson) => {
-              const lessonNum = (lesson.frontmatter?.lesson_number ?? lesson.frontmatter?.lesson_order ?? lesson.frontmatter?.lesson) as number | undefined
+              const lessonNum = lessonNumber(lesson)
               return (
                 <li>
                   <a href={resolveRelative(fileData.slug!, lesson.slug!)} class="internal">

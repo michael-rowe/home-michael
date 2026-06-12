@@ -1,8 +1,9 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { QuartzPluginData } from "../plugins/vfile"
-import { FullSlug, resolveRelative, simplifySlug } from "../util/path"
+import { FullSlug, resolveRelative } from "../util/path"
 import { byDateAndAlphabetical } from "./PageList"
 import { getDate } from "./Date"
+import { resolveRelatedField } from "./utils/wikilinks"
 
 const typeConfig: Record<string, { icon: string }> = {
   post: { icon: "ph-pencil-simple" },
@@ -10,6 +11,7 @@ const typeConfig: Record<string, { icon: string }> = {
   essay: { icon: "ph-file-text" },
   presentation: { icon: "ph-presentation" },
   lesson: { icon: "ph-book-open" },
+  guide: { icon: "ph-compass" },
 }
 
 const RelatedContent: QuartzComponent = ({
@@ -18,60 +20,20 @@ const RelatedContent: QuartzComponent = ({
   cfg,
 }: QuartzComponentProps) => {
   const type = fileData.frontmatter?.type as string | undefined
-  const validTypes = ["post", "note", "essay", "presentation"]
+  const validTypes = ["post", "note", "essay", "presentation", "guide"]
   if (!type || !validTypes.includes(type)) return null
 
   const currentSlug = fileData.slug!
 
-  const slugifyText = (text: string): string => {
-    return text
-      .replace(/\s/g, "-")
-      .replace(/&/g, "-and-")
-      .replace(/%/g, "-percent")
-      .replace(/\?/g, "")
-      .replace(/#/g, "")
-  }
-
   // --- Tier 1: explicit `related` wikilinks from frontmatter ---
-  const relatedSlugs = new Set<string>()
-  const relatedField = fileData.frontmatter?.related
-  if (relatedField) {
-    const relatedList = Array.isArray(relatedField) ? relatedField : [relatedField]
-    for (const item of relatedList) {
-      const match = typeof item === "string" ? item.match(/\[\[([^\]]+)\]\]/) : null
-      if (!match) continue
-      const linkText = match[1]
-      const slugifiedLink = slugifyText(linkText)
-
-      // For notes: search Notes section first, then all files
-      let found = type === "note"
-        ? allFiles.find(
-            (f) =>
-              f.slug?.startsWith("Notes/") &&
-              (simplifySlug(f.slug!) === slugifiedLink ||
-                f.slug?.endsWith(`/${slugifiedLink}`) ||
-                f.frontmatter?.title === linkText)
-          )
-        : undefined
-
-      if (!found) {
-        found = allFiles.find(
-          (f) =>
-            f.frontmatter?.title === linkText ||
-            simplifySlug(f.slug!) === slugifiedLink ||
-            f.slug?.endsWith(`/${slugifiedLink}`)
-        )
-      }
-
-      if (found && found.slug !== currentSlug) {
-        relatedSlugs.add(found.slug!)
-      }
-    }
-  }
-
-  const explicitRelated = Array.from(relatedSlugs)
-    .map((slug) => allFiles.find((f) => f.slug === slug))
-    .filter((f) => f !== undefined)
+  // For notes, search the Notes section first
+  const explicitRelated = resolveRelatedField(
+    allFiles,
+    fileData.frontmatter?.related,
+    currentSlug,
+    type === "note" ? "Notes/" : undefined,
+  )
+  const relatedSlugs = new Set<string>(explicitRelated.map((f) => f.slug!))
 
   // --- Tier 2: category matches across Notes, Posts, Essays ---
   const rawCategory = fileData.frontmatter?.category
@@ -243,6 +205,7 @@ RelatedContent.css = `
         &.related-type-icon--essay { color: var(--tertiary); }
         &.related-type-icon--presentation { color: var(--presentation-color); }
         &.related-type-icon--lesson { color: var(--course-color); }
+        &.related-type-icon--guide { color: var(--guide-color); }
       }
     }
 
