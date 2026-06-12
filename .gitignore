@@ -8,7 +8,9 @@ tsconfig.tsbuildinfo
 .quartz-cache
 private/
 content/templates/
-content/personas/
+# Personas are local-only; taxonomy.md is tracked so CI can validate against it
+content/personas/*
+!content/personas/taxonomy.md
 content/Courses/course-style-guide.md
 content/Courses/demo.md
 content/Newsletters/*-newsletter-draft.md

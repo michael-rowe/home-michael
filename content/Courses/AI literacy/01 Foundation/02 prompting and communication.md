@@ -33,15 +33,15 @@ David Reyes, a consultant physician and clinical supervisor, needs help analysin
 
 He opens ChatGPT and types: "Help me analyse my interview data"
 
-AI responds with a generic overview of qualitative analysis—thematic analysis, grounded theory, content analysis. It's accurate but completely useless. James has no idea how to apply any of this to his specific situation. He closes the tab, frustrated.
+AI responds with a generic overview of qualitative analysis—thematic analysis, grounded theory, content analysis. It's accurate but completely useless. David has no idea how to apply any of this to his specific situation. He closes the tab, frustrated.
 
 **Second attempt:**
 
-The next day, James tries again with a different approach:
+The next day, David tries again with a different approach:
 
 "You are an experienced qualitative researcher specialising in interview methodology, with expertise in grounded theory approaches. I need a step-by-step coding framework for analysing 20 semi-structured interviews exploring trainees' experiences of workplace-based assessment. Please: (1) Review key theoretical frameworks relevant to workplace-based assessment in clinical training, (2) Propose 5-7 initial coding categories based on common themes, (3) For each category, provide a clear definition, example indicators, and potential sub-categories, (4) Suggest an approach for managing codes that don't fit existing categories. After generating the framework, I'd like to discuss handling contradictory data."
 
-This time, AI generates a specific, actionable coding framework with relevant theoretical grounding. James can immediately start applying it to his data.
+This time, AI generates a specific, actionable coding framework with relevant theoretical grounding. David can immediately start applying it to his data.
 
 > [!question] Before we begin
 > What's the difference between these two approaches? Why did the second work so much better than the first?
