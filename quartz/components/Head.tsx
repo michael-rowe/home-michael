@@ -1,5 +1,5 @@
 import { i18n } from "../i18n"
-import { FullSlug, getFileExtension, joinSegments, pathToRoot } from "../util/path"
+import { FullSlug, getFileExtension, joinSegments, pathToRoot, simplifySlug } from "../util/path"
 import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
@@ -28,9 +28,12 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
 
-    // Url of current page
+    // Url of current page (simplified slug so index pages canonicalise to their folder URL,
+    // matching the sitemap)
     const socialUrl =
-      fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
+      fileData.slug === "404"
+        ? url.toString()
+        : joinSegments(url.toString(), simplifySlug(fileData.slug!))
 
     // JSON-LD structured data
     const contentType = fileData.frontmatter?.type as string | undefined
@@ -68,7 +71,7 @@ export default (() => {
           name: "Michael Rowe",
         },
       }
-    } else if (contentType === "course" || fileData.slug?.startsWith("Courses/")) {
+    } else if (contentType === "course") {
       jsonLd = {
         "@context": "https://schema.org",
         "@type": "Course",
@@ -143,10 +146,13 @@ export default (() => {
         {jsonLd && (
           <script
             type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+            }}
           />
         )}
-        <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
+        {/* Self-hosted @phosphor-icons/web 2.1.2 (regular weight) */}
+        <link rel="stylesheet" href={joinSegments(baseDir, "static/icons/phosphor-regular.css")} />
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
