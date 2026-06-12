@@ -10,20 +10,9 @@
 
 import fs from 'fs';
 import path from 'path';
-import { contentUrl, BASE_URL } from './newsletter-lib.mjs';
+import { contentUrl, contentDirs, BASE_URL } from './newsletter-lib.mjs';
 
-const CONTENT_DIRS = [
-  'content/Bibliography',
-  'content/Courses',
-  'content/Essays',
-  'content/Frameworks',
-  'content/Guides',
-  'content/Notes',
-  'content/Newsletters',
-  'content/Policies',
-  'content/Posts',
-  'content/Presentations',
-];
+const CONTENT_DIRS = contentDirs(['Media']);
 
 const inputPath = process.argv[2];
 if (!inputPath) {
@@ -36,9 +25,10 @@ if (!fs.existsSync(inputPath)) {
 }
 
 // Build a lookup map: filename stem (lowercase) → absolute URL.
-// URLs come from contentUrl() in newsletter-lib.mjs, which honours the `slug:`
-// frontmatter field when present and otherwise replicates Quartz's path-based
-// slugify — the same logic the generator uses, so the two scripts agree.
+// URLs come from contentUrl() in newsletter-lib.mjs, which replicates Quartz's
+// path-based slugify — the same logic the generator uses, so the two scripts
+// agree. Stem collisions resolve last-write-wins, so warn loudly: a wrong link
+// in a sent email can't be corrected.
 function buildLinkMap() {
   const map = new Map();
 
@@ -50,14 +40,33 @@ function buildLinkMap() {
         walk(full);
       } else if (entry.name.endsWith('.md')) {
         const stem = path.basename(entry.name, '.md');
-        const content = fs.readFileSync(full, 'utf8');
-        const url = contentUrl(full, content);
-        map.set(stem.toLowerCase(), { url, stem });
+        // index.md stems all collide and are resolved explicitly to the site
+        // root in resolveWikilinks, so keep them out of the map.
+        if (stem.toLowerCase() === 'index') continue;
+        const key = stem.toLowerCase();
+        const url = contentUrl(full);
+        if (map.has(key) && map.get(key).url !== url) {
+          console.warn(
+            `Warning: duplicate filename stem "${stem}" — [[${stem}]] will resolve to ${url}, not ${map.get(key).url}`,
+          );
+        }
+        map.set(key, { url, stem });
       }
     }
   }
 
   for (const dir of CONTENT_DIRS) walk(dir);
+
+  // Root-level pages (content/*.md) — the generator's "Minor changes" section
+  // links to these by stem.
+  for (const entry of fs.readdirSync('content', { withFileTypes: true })) {
+    if (entry.isFile() && entry.name.endsWith('.md')) {
+      const stem = path.basename(entry.name, '.md');
+      if (stem.toLowerCase() === 'index') continue;
+      map.set(stem.toLowerCase(), { url: contentUrl(path.join('content', entry.name)), stem });
+    }
+  }
+
   return map;
 }
 
