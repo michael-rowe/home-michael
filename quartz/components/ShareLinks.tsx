@@ -1,5 +1,6 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
+import { simplifySlug, FullSlug } from "../util/path"
 import style from "./styles/shareLinks.scss"
 
 interface ShareLinksOptions {
@@ -16,9 +17,9 @@ export default ((opts?: Partial<ShareLinksOptions>) => {
 
   function ShareLinks({ fileData, displayClass, cfg }: QuartzComponentProps) {
     const title = fileData.frontmatter?.title ?? "Untitled"
-    const slug = fileData.slug ?? ""
+    const slug = simplifySlug(fileData.slug ?? ("" as FullSlug))
     const baseUrl = cfg.baseUrl ?? ""
-    const fullUrl = `https://${baseUrl}/${slug}`
+    const fullUrl = slug === "/" ? `https://${baseUrl}/` : `https://${baseUrl}/${slug}`
 
     const encodedTitle = encodeURIComponent(title)
     const encodedUrl = encodeURIComponent(fullUrl)
