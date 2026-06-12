@@ -1,6 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { resolveRelative, isFolderPath } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
+import { byLessonOrder } from "./utils/lessons"
 
 interface Module {
   name: string
@@ -61,26 +62,12 @@ export const CourseLessonList: QuartzComponent = ({
     a.name.localeCompare(b.name),
   )
 
-  // Sort lessons within each module by slug
+  // Sort lessons within each module, and direct lessons, in canonical order
+  // (introduction first, conclusion/summary last, then `lesson` number)
   for (const module of sortedModules) {
-    module.lessons.sort((a, b) => a.slug!.localeCompare(b.slug!))
+    module.lessons.sort(byLessonOrder)
   }
-
-  // Sort direct lessons by slug, but prioritize introduction and conclusion
-  directLessons.sort((a, b) => {
-    const aTitle = (a.frontmatter?.title as string)?.toLowerCase() ?? ""
-    const bTitle = (b.frontmatter?.title as string)?.toLowerCase() ?? ""
-    const aIsIntro = aTitle.includes("introduction")
-    const bIsIntro = bTitle.includes("introduction")
-    const aIsOutro = aTitle.includes("conclusion") || aTitle.includes("summary")
-    const bIsOutro = bTitle.includes("conclusion") || bTitle.includes("summary")
-
-    if (aIsIntro && !bIsIntro) return -1
-    if (!aIsIntro && bIsIntro) return 1
-    if (aIsOutro && !bIsOutro) return 1
-    if (!aIsOutro && bIsOutro) return -1
-    return a.slug!.localeCompare(b.slug!)
-  })
+  directLessons.sort(byLessonOrder)
 
   // Separate intro lessons (introduction) from outro lessons (conclusion)
   const introLessons = directLessons.filter((f) => {

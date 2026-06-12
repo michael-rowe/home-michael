@@ -6,6 +6,7 @@ const typeConfig: Record<string, { icon: string; label: string }> = {
   note: { icon: "ph-note", label: "Note" },
   essay: { icon: "ph-file-text", label: "Essay" },
   presentation: { icon: "ph-presentation", label: "Presentation" },
+  guide: { icon: "ph-compass", label: "Guide" },
 }
 
 const ContentType: QuartzComponent = ({ fileData }: QuartzComponentProps) => {

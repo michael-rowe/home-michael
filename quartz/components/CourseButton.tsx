@@ -1,6 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
 import { resolveRelative, FullSlug } from "../util/path"
+import { courseLessons } from "./utils/lessons"
 
 interface CourseButtonOptions {
   text?: string
@@ -34,39 +35,7 @@ export default ((opts?: Partial<CourseButtonOptions>) => {
     const courseOverview = allFiles.find(
       (f) => f.slug === `Courses/${courseName}/course-overview`,
     )
-    const firstLesson = allFiles
-      .filter((f) => {
-        const fParts = f.slug!.split("/")
-        return (
-          fParts[0] === "Courses" &&
-          fParts[1] === courseName &&
-          !f.slug!.endsWith("/index") &&
-          !f.slug!.endsWith("/course-overview") &&
-          !f.slug!.endsWith("/landing-page")
-        )
-      })
-      .sort((a, b) => {
-        // Prioritize introduction
-        const aTitle = (a.frontmatter?.title as string)?.toLowerCase() ?? ""
-        const bTitle = (b.frontmatter?.title as string)?.toLowerCase() ?? ""
-        const aIsIntro = aTitle.includes("introduction")
-        const bIsIntro = bTitle.includes("introduction")
-        if (aIsIntro && !bIsIntro) return -1
-        if (!aIsIntro && bIsIntro) return 1
-
-        const aLesson =
-          (a.frontmatter?.lesson_number ?? a.frontmatter?.lesson_order ?? a.frontmatter?.lesson) as
-            | number
-            | undefined
-        const bLesson =
-          (b.frontmatter?.lesson_number ?? b.frontmatter?.lesson_order ?? b.frontmatter?.lesson) as
-            | number
-            | undefined
-        if (aLesson !== undefined && bLesson !== undefined) {
-          return aLesson - bLesson
-        }
-        return (a.frontmatter?.title ?? "").localeCompare(b.frontmatter?.title ?? "")
-      })[0]
+    const firstLesson = courseLessons(allFiles, courseName)[0]
 
     const targetPage = courseOverview || firstLesson
     if (!targetPage) {

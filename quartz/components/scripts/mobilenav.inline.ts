@@ -47,6 +47,11 @@ function populateMobileTOC() {
   })
 }
 
+function setExpanded(expanded: boolean) {
+  const toggleButton = document.querySelector(".mobile-nav-toggle")
+  if (toggleButton) toggleButton.setAttribute("aria-expanded", String(expanded))
+}
+
 function toggleMobileNav(this: HTMLElement) {
   const mobileNav = this.closest(".mobile-nav") as HTMLElement
   if (!mobileNav) return
@@ -59,6 +64,7 @@ function toggleMobileNav(this: HTMLElement) {
   } else {
     document.body.classList.remove("mobile-nav-open")
   }
+  setExpanded(isOpen)
 }
 
 function closeMobileNav() {
@@ -67,6 +73,7 @@ function closeMobileNav() {
 
   mobileNav.classList.remove("open")
   document.body.classList.remove("mobile-nav-open")
+  setExpanded(false)
 }
 
 // Close menu when clicking on a link
@@ -115,17 +122,15 @@ function setupMobileNav() {
     link.removeEventListener("click", handleLinkClick)
     link.addEventListener("click", handleLinkClick)
   })
-
-  // Close menu on page navigation (for SPA)
-  window.addEventListener("popstate", closeMobileNav)
-
-  // Close menu with Escape key
-  document.addEventListener("keydown", (e: KeyboardEvent) => {
-    if (e.key === "Escape") closeMobileNav()
-  })
 }
 
-document.addEventListener("nav", setupMobileNav)
+function handleEscape(e: KeyboardEvent) {
+  if (e.key === "Escape") closeMobileNav()
+}
 
-// Initialize on first load
-window.addEventListener("DOMContentLoaded", setupMobileNav)
+// Module-level listeners: this script executes once per full page load, so
+// these never duplicate. Per-page wiring lives in setupMobileNav, which runs
+// on every SPA "nav" event (Quartz fires it on initial load too).
+window.addEventListener("popstate", closeMobileNav)
+document.addEventListener("keydown", handleEscape)
+document.addEventListener("nav", setupMobileNav)

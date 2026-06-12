@@ -1,6 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
 import { resolveRelative } from "../util/path"
+import { courseLessons } from "./utils/lessons"
 
 interface LessonNavOptions {}
 
@@ -35,42 +36,8 @@ export default ((opts?: Partial<LessonNavOptions>) => {
     }
     const courseName = pathParts[1]
 
-    // Get all lessons for this course
-    const lessons = allFiles
-      .filter((f) => {
-        const fParts = f.slug!.split("/")
-        return (
-          fParts[0] === "Courses" &&
-          fParts[1] === courseName &&
-          !f.slug!.endsWith("/index") &&
-          !f.slug!.endsWith("/course-overview") &&
-          !f.slug!.endsWith("/landing-page")
-        )
-      })
-      .sort((a, b) => {
-        // Prioritize introduction
-        const aTitle = (a.frontmatter?.title as string)?.toLowerCase() ?? ""
-        const bTitle = (b.frontmatter?.title as string)?.toLowerCase() ?? ""
-        const aIsIntro = aTitle.includes("introduction")
-        const bIsIntro = bTitle.includes("introduction")
-        if (aIsIntro && !bIsIntro) return -1
-        if (!aIsIntro && bIsIntro) return 1
-
-        // Sort by lesson number if available
-        const aLesson =
-          (a.frontmatter?.lesson_number ?? a.frontmatter?.lesson_order ?? a.frontmatter?.lesson) as
-            | number
-            | undefined
-        const bLesson =
-          (b.frontmatter?.lesson_number ?? b.frontmatter?.lesson_order ?? b.frontmatter?.lesson) as
-            | number
-            | undefined
-        if (aLesson !== undefined && bLesson !== undefined) {
-          return aLesson - bLesson
-        }
-        // Fall back to alphabetical
-        return (a.frontmatter?.title ?? "").localeCompare(b.frontmatter?.title ?? "")
-      })
+    // Get all lessons for this course in canonical order
+    const lessons = courseLessons(allFiles, courseName)
 
     // Find current lesson index
     const currentIndex = lessons.findIndex((l) => l.slug === currentSlug)
