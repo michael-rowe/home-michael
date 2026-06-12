@@ -10,16 +10,13 @@ updated: 2026-02-12
 status: draft
 draft: false
 tags:
-  - tools
-  - conversion
-  - interoperability
+  - standards
 category: Technology
 related:
   - "[[Notes/markdown]]"
   - "[[Notes/latex]]"
   - "[[Notes/plain-text]]"
 keyphrase: "converting teaching materials between formats"
-slug: notes/pandoc
 linkedin:
 
 ---

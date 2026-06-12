@@ -14,7 +14,7 @@ updated: 2026-01-29
 tags:
   - ai-literacy
 category:
-  - AI and technology
+  - Technology
 related:
   - '[[Notes/AI-literacy]]'
   - '[[Frameworks/AI-literacy-development-framework]]'

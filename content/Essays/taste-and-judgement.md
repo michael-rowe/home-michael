@@ -1,7 +1,6 @@
 ---
 type: essay
 title: Taste and judgement in human-AI systems
-slug: essays/taste-and-judgement
 description: >-
   Contemporary AI discourse often focuses on 'sanctuary strategies' — defensive
   attempts to identify uniquely human capabilities — positioning humans and AI as
@@ -39,7 +38,7 @@ tags:
 related:
 category:
   - Scholarship
-  - AI and technology
+  - Technology
 draft: false
 reviewed:
 linkedin:

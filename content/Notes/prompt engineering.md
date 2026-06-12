@@ -14,7 +14,7 @@ needs_review: false
 tags:
   - prompt-engineering
 category:
-  - AI and technology
+  - Technology
 related:
   - '[[Notes/context-engineering]]'
 builds_on: null

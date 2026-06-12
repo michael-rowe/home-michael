@@ -11,7 +11,7 @@ tags:
   - ai-literacy
   - strategy
 category:
-  - AI and technology
+  - Technology
 related:
   - "[[Notes/context-sovereignty]]"
   - "[[Notes/context-engineering]]"

@@ -15,10 +15,9 @@ tags:
   - institutional-dynamics
 category:
   - Assessment
-  - AI and technology
+  - Technology
 related:
 keyphrase: arms race dynamics higher education
-slug: notes/arms-race-dynamics-higher-education
 linkedin:
 
 ---

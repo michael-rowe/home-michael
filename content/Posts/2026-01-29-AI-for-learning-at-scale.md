@@ -27,14 +27,13 @@ tags:
   - higher-education
   - values
 category:
-  - Pedagogy
-  - AI and technology
+  - Teaching
+  - Technology
 related:
   - '[[Essays/learning-alignment]]'
   - '[[Posts/2026-01-28-bitter-lesson-higher-education]]'
   - '[[Notes/AI-literacy]]'
 draft: false
-slug: posts/ai-for-learning-at-scale
 enableToc: true
 reviewed:
   - writing_style

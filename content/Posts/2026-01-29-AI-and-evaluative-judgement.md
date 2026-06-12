@@ -28,13 +28,12 @@ tags:
   - health-professions-education
   - professional-development
 category:
-  - AI and technology
+  - Technology
   - Professional development
 related:
   - '[[Essays/taste-and-judgement]]'
   - '[[Posts/2026-01-28-bitter-lesson-higher-education]]'
 draft: false
-slug: posts/ai-and-evaluative-judgement
 enableToc: true
 reviewed:
   - writing_style

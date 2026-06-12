@@ -12,7 +12,7 @@ needs_review: false
 tags:
   - generative-ai
   - context-engineering
-category: AI and technology
+category: Technology
 related:
   - "[[Notes/context-engineering]]"
   - "[[Notes/context-sovereignty]]"

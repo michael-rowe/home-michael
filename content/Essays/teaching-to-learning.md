@@ -3,7 +3,6 @@ type: essay
 title: >-
   From teaching to learning: Rethinking education for a world of information
   abundance
-slug: essays/teaching-to-learning
 description: >-
   Traditional education systems are structured around teaching, assuming it
   inevitably produces learning. This essay argues that this unidirectional model —
@@ -35,7 +34,7 @@ tags:
   - open-scholarship
 related:
 category:
-  - Pedagogy
+  - Teaching
 draft: false
 reviewed:
 linkedin:

@@ -10,17 +10,16 @@ updated: 2026-02-12
 tags:
   - context-sovereignty
   - knowledge-representation
-  - personal-knowledge-management
+  - information-management
   - ai-integration
 category:
-  - AI and technology
+  - Technology
 related:
   - "[[Notes/context-sovereignty]]"
   - "[[Notes/knowledge-graph]]"
   - "[[Essays/documentation-as-infrastructure]]"
   - "[[Notes/contextual-interoperability]]"
 draft: false
-slug: posts/organising-notes-for-ai
 enableToc: true
 reviewed:
   - writing_style

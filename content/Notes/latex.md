@@ -10,15 +10,12 @@ updated: 2026-02-12
 status: draft
 draft: false
 tags:
-  - typesetting
-  - writing
-  - precision
+  - academic-writing
 category: Technology
 related:
   - "[[Notes/markdown]]"
   - "[[Notes/pandoc]]"
 keyphrase: "professional document design for educators"
-slug: notes/latex
 linkedin:
 
 ---

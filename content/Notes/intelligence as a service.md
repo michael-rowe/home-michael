@@ -12,7 +12,7 @@ needs_review: false
 tags:
   - context-sovereignty
   - privacy
-category: AI and technology
+category: Technology
 related:
   - "[[Notes/context-sovereignty]]"
   - "[[Notes/contextual-interoperability]]"

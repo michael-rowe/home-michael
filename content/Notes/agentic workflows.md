@@ -10,11 +10,9 @@ updated: 2026-02-26
 status: draft
 draft: false
 tags:
-  - agents
-  - workflows
-  - knowledge-work
+  - agent
 category:
-  - AI and technology
+  - Technology
 related:
   - "[[Notes/Claude-Code]]"
   - "[[Notes/context-engineering]]"
@@ -22,7 +20,6 @@ related:
   - "[[Notes/plain-text]]"
   - "[[Notes/markdown]]"
 keyphrase: agentic workflows in academic practice
-slug: notes/agentic-workflows
 linkedin:
 
 ---

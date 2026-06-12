@@ -12,8 +12,8 @@ tags:
   - context-engineering
   - context-sovereignty
   - model-context-protocol
-  - personal-knowledge-management
-category: AI and technology
+  - information-management
+category: Technology
 related:
   - "[[Notes/context-engineering]]"
   - "[[Notes/contextual-interoperability]]"

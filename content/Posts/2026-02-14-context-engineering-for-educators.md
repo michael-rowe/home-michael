@@ -12,21 +12,19 @@ author: "[[Michael Rowe]]"
 date: 2026-02-14
 updated: 2026-02-14
 tags:
-  - infrastructure
+  - organisational-infrastructure
   - context-engineering
   - context-sovereignty
-  - organisational-infrastructure
   - health-professions-education
-  - ai-agents
+  - agent
 category:
-  - AI and technology
+  - Technology
 related:
   - "[[Notes/context-sovereignty]]"
   - "[[Notes/context-engineering]]"
   - "[[Notes/prompt-engineering]]"
   - "[[Notes/model-context-protocol]]"
 draft: false
-slug: posts/context-engineering-for-educators
 enableToc: true
 linkedin:
 

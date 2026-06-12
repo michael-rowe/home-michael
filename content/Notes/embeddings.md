@@ -13,7 +13,7 @@ needs_review: false
 tags:
   - generative-ai
   - information-retrieval
-category: AI and technology
+category: Technology
 related:
   - "[[Notes/vector-database]]"
   - "[[Notes/retrieval-augmented-generation]]"

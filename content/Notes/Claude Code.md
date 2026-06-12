@@ -10,9 +10,7 @@ updated: 2026-02-12
 status: draft
 draft: false
 tags:
-  - agents
-  - automation
-  - CLI
+  - agent
 category: Technology
 related:
   - "[[Notes/large-language-models]]"
@@ -20,7 +18,6 @@ related:
   - "[[Notes/system-prompt]]"
   - "[[Notes/mcp-server]]"
 keyphrase: AI agents for curriculum management
-slug: notes/claude-code
 linkedin:
 
 ---

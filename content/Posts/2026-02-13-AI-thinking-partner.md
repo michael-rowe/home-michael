@@ -11,15 +11,14 @@ tags:
   - ai-integration
   - academic-writing
   - emergent-scholarship
-  - evaluative-judgement
+  - judgement
 category:
-  - AI and technology
+  - Technology
 related:
   - "[[Essays/taste-and-judgement]]"
   - "[[Essays/ai-hpe-theoretical-framework]]"
   - "[[Posts/2026-02-11-building-AI-workflow-academics]]"
 draft: false
-slug: posts/ai-thinking-partner
 reviewed:
   - writing_style
   - blog_writer

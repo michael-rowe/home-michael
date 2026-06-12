@@ -12,7 +12,7 @@ tags:
   - ai-literacy
   - curriculum-design
 category:
-  - AI and technology
+  - Technology
 related:
   - "[[Notes/AI-literacy]]"
   - "[[Courses/AI-literacy]]"

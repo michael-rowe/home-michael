@@ -6,15 +6,14 @@ meta-description: ""
 keyphrase: ""
 author: "[[Michael Rowe]]"
 tags:
-  - mcp
+  - model-context-protocol
   - zotero
-  - personal-knowledge-management
+  - information-management
   - vibe-coding
-  - claude-code
+  - agent
 category: []
 related:
 draft: true
-slug: ""
 subtype: ""
 enableToc: true
 linkedin:

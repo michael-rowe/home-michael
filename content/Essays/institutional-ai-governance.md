@@ -3,7 +3,6 @@ type: essay
 title: >-
   Avoiding innovation theatre: A framework for supporting institutional AI
   integration
-slug: essays/institutional-ai-governance
 description: >-
   Higher education institutions face persistent pressure to demonstrate AI
   engagement, often resulting in 'innovation theatre' — the performance of
@@ -39,7 +38,7 @@ tags:
   - risk-management
 related:
 category:
-  - AI and technology
+  - Technology
 draft: false
 reviewed:
 linkedin:

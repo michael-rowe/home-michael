@@ -8,9 +8,9 @@ date: 2026-01-29
 updated: 2026-01-29
 tags:
   - note-taking
-  - personal knowledge management
+  - information-management
 category:
-  - Knowledge management
+  - Information management
 related: null
 cover: Media/note_taking_course.png
 color: "#059669"

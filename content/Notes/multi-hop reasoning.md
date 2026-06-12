@@ -15,7 +15,7 @@ tags:
   - reasoning
   - knowledge-graphs
   - context-engineering
-category: AI and technology
+category: Technology
 related:
   - '[[Notes/context-engineering]]'
   - '[[Notes/knowledge-graph]]'

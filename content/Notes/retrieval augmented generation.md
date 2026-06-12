@@ -12,7 +12,7 @@ needs_review: false
 tags:
   - generative-ai
   - information-retrieval
-category: AI and technology
+category: Technology
 related:
   - "[[Notes/prompt-engineering]]"
   - "[[Notes/context-engineering]]"

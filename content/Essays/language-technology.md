@@ -1,7 +1,6 @@
 ---
 type: essay
 title: Technological nature of language and the implications for health professions education
-slug: essays/language-technology
 description: Language is humanity's first general-purpose technology, developed to extend cognitive capabilities beyond biological limits. Large language models represent the latest evolution in a continuum stretching from spoken language through writing and print to digital text, extending language's capabilities through unprecedented scale, cross-domain synthesis, and cognitive adaptability. For health professions education, this framing shifts priorities from knowledge acquisition toward cognitive partnership and adaptive expertise. It demands a reconceptualisation of AI literacy — moving beyond technical prompting to understand how these tools shape reasoning — and requires assessment to evaluate students' capacity for collaborative problem-solving. Understanding LLMs as language technology offers a middle path between uncritical enthusiasm and reflexive resistance.
 meta-description: Reconceptualising language as technology to understand the role of LLMs in health professions education.
 author:
@@ -21,7 +20,7 @@ tags:
   - general-purpose-technology
 related:
 category:
-  - AI and technology
+  - Technology
   - Scholarship
 draft: false
 reviewed:

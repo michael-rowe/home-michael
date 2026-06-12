@@ -8,13 +8,12 @@ source-url: "https://dl.acm.org/doi/10.1145/3442188.3445922"
 topics:
   - AI and technology
 tags:
-  - large-language-models
+  - language-model
   - value-alignment
   - natural-language-programming
 related: []
 date: 2026-02-17
 draft: false
-slug: "on-the-dangers-of-stochastic-parrots"
 linkedin:
 
 ---

@@ -18,17 +18,16 @@ date: 2026-02-06
 updated: 2026-02-06
 tags:
   - cognitive-science
-  - human-cognition
+  - cognition
   - professional-identity
   - ai-integration
 category:
-  - AI and technology
+  - Technology
 related:
   - '[[Notes/human-cognition-and-LLM-parallels]]'
   - '[[Notes/context-engineering]]'
   - '[[Notes/large-language-models]]'
 draft: false
-slug: posts/similarities-ai-human-thinking
 aliases:
   - posts/ai-human-cognition-similarities
 enableToc: true

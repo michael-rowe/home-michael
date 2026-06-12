@@ -17,12 +17,11 @@ tags:
   - artificial-information-scarcity
 category:
   - Assessment
-  - AI and technology
+  - Technology
 related:
   - "[[Notes/arms-race-dynamics-higher-education]]"
   - "[[Posts/2026-01-28-bitter-lesson-higher-education]]"
 draft: false
-slug: ai-detection-assessment-security-theatre
 enableToc: true
 reviewed:
   - writing_style

@@ -9,18 +9,16 @@ date: 2026-06-08
 updated: 2026-06-08
 tags:
   - professional-development
-  - continuing-professional-development
   - health-professions-education
   - ai-integration
   - generative-ai
-  - claude-code
+  - agent
 category:
   - Technology
-  - Professional Development
+  - Professional development
 related:
   - "[[Essays/ai-hpe-theoretical-framework]]"
 draft: false
-slug: posts/building-cpd-app-claude-code
 enableToc: true
 linkedin: 2026-06-09
 ---

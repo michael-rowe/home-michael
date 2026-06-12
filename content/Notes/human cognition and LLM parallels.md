@@ -14,8 +14,8 @@ updated: 2025-02-06
 tags:
   - cognitive-science
   - learning-theory
-  - human-cognition
-category: AI and technology
+  - cognition
+category: Technology
 related:
   - '[[Posts/2026-02-06-LLM-similarities-human-cognition]]'
 linkedin:

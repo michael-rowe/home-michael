@@ -10,18 +10,17 @@ created: 2026-02-14
 updated: 2026-02-14
 status: published
 tags:
-  - context
+  - context-engineering
   - reasoning
-  - large-language-models
-  - ai-agents
+  - language-model
+  - agent
 category:
-  - AI and technology
+  - Technology
 related:
   - "[[Notes/context-engineering]]"
   - "[[Notes/context-sovereignty]]"
   - "[[Notes/model-context-protocol]]"
 keyphrase: LLM context drift
-slug: notes/llm-context-drift
 linkedin:
 
 ---

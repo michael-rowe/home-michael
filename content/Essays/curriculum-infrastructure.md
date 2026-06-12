@@ -1,7 +1,6 @@
 ---
 type: essay
 title: "Beyond document management: Graph infrastructure for professional education curricula"
-slug: essays/curriculum-infrastructure
 description: Professional curricula are extensively documented but not systematically queryable, creating artificial information scarcity that makes compliance reporting and quality assurance labour-intensive. This essay proposes a three-layer architecture — graph databases as the source of truth for curriculum structure, vector databases for semantic content retrieval, and a Model Context Protocol layer for stakeholder access — that transforms documentation into operational infrastructure. The architecture incorporates temporal versioning for longitudinal evidence, role-based access controls for multi-stakeholder environments, and internal quality audit against institutional policy alongside external regulatory compliance, enabling verification in hours rather than weeks.
 meta-description: Proposing a graph-based infrastructure to transform professional education curricula into queryable operational architecture.
 author:
@@ -23,7 +22,7 @@ tags:
   - ai-forward
   - context-engineering
   - context-sovereignty
-  - curriculum-development
+  - curriculum-design
   - curriculum-infrastructure
   - educational-technology
   - graph-database
@@ -38,8 +37,8 @@ related:
   - "[[Notes/context-sovereignty]]"
   - "[[Presentations/2026-02-10-beyond-document-management]]"
 category:
-  - Curriculum
-  - AI and technology
+  - Education
+  - Technology
 draft: false
 reviewed:
 linkedin:

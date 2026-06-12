@@ -13,15 +13,14 @@ tags:
   - documentation
   - information-architecture
   - ai-integration
-  - knowledge-management
+  - information-management
 category:
-  - AI and technology
+  - Technology
 related:
   - "[[Essays/documentation-as-infrastructure]]"
   - "[[Essays/curriculum-infrastructure]]"
   - "[[Notes/higher-education-reference-model]]"
 keyphrase: "documentation debt"
-slug: notes/documentation-debt
 linkedin:
 
 ---

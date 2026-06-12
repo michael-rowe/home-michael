@@ -11,7 +11,7 @@ tags:
   - research-skills
   - digital-literacy
 category:
-  - Knowledge management
+  - Information management
 related: null
 cover: Media/information_management_course.png
 color: "#3b82f6"
