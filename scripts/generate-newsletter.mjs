@@ -1,10 +1,14 @@
-import { execSync } from 'child_process';
+import { execFileSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
-import { contentUrlPath } from './newsletter-lib.mjs';
+import matter from 'gray-matter';
+import { contentUrlPath, contentDirs, dateString } from './newsletter-lib.mjs';
 
-// Parse command-line arguments for month and year
-const args = process.argv.slice(2);
+// Parse command-line arguments: [month] [year] [--force]
+const rawArgs = process.argv.slice(2);
+const force = rawArgs.includes('--force');
+const args = rawArgs.filter(a => a !== '--force');
+
 let targetMonth = new Date().getMonth() + 1; // 1-12
 let targetYear = new Date().getFullYear();
 
@@ -16,35 +20,25 @@ if (args.length >= 1) {
 }
 
 // Validate month
-if (targetMonth < 1 || targetMonth > 12) {
+if (!Number.isInteger(targetMonth) || targetMonth < 1 || targetMonth > 12) {
   console.error('Month must be between 1 and 12');
   process.exit(1);
 }
 
-// Calculate date range for the month
-const monthStartDate = new Date(targetYear, targetMonth - 1, 1);
-const monthEndDate = new Date(targetYear, targetMonth, 1);
-
 // Configuration
 const OUTPUT_DIR = 'content/Newsletters';
 const DATE_STR = `${targetYear}-${String(targetMonth).padStart(2, '0')}`;
+const monthStartDate = new Date(targetYear, targetMonth - 1, 1);
 const MONTH_NAME = monthStartDate.toLocaleString('en-GB', { month: 'long', year: 'numeric' });
-const SINCE_DATE = monthStartDate.toISOString();
-const UNTIL_DATE = monthEndDate.toISOString();
+const SINCE_DATE = `${DATE_STR}-01T00:00:00`;
+const nextMonthYear = targetMonth === 12 ? targetYear + 1 : targetYear;
+const nextMonth = targetMonth === 12 ? 1 : targetMonth + 1;
+const UNTIL_DATE = `${nextMonthYear}-${String(nextMonth).padStart(2, '0')}-01T00:00:00`;
 
-// Content subdirectories — preferred display order first, remainder appended alphabetically
+// Content subdirectories — preferred display order first, remainder appended
+// alphabetically. The newsletter itself shouldn't list newsletters or media.
 const PREFERRED_ORDER = ['Essays', 'Presentations', 'Posts', 'Notes'];
-const ALL_CONTENT_DIRS = [
-  'Bibliography',
-  'Courses',
-  'Essays',
-  'Frameworks',
-  'Guides',
-  'Notes',
-  'Policies',
-  'Posts',
-  'Presentations',
-].map(d => `content/${d}`);
+const ALL_CONTENT_DIRS = contentDirs(['Newsletters', 'Media']);
 
 // Ensure output directory exists
 if (!fs.existsSync(OUTPUT_DIR)) {
@@ -53,51 +47,60 @@ if (!fs.existsSync(OUTPUT_DIR)) {
 
 console.log(`Generating newsletter draft for ${MONTH_NAME}...`);
 
-function run(cmd) {
+function runGit(gitArgs) {
   try {
-    return execSync(cmd, { encoding: 'utf8', stdio: 'pipe' }).trim();
+    return execFileSync('git', ['-c', 'core.quotepath=off', ...gitArgs], {
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'pipe'],
+    }).trim();
   } catch (e) {
+    console.warn(`git ${gitArgs.join(' ')} failed: ${e.stderr?.toString().trim() || e.message}`);
     return '';
   }
 }
 
 function getFrontmatter(filePath) {
+  const fallback = {
+    title: path.basename(filePath, '.md'),
+    description: '',
+    slug: contentUrlPath(filePath),
+    filename: path.basename(filePath, '.md'),
+    date: null,
+  };
   try {
     const content = fs.readFileSync(filePath, 'utf8');
-    const titleMatch = content.match(/^title:\s*["']?(.*?)["']?\s*$/m);
-    const descMatch = content.match(/^description:\s*["']?(.*?)["']?\s*$/m);
-    const dateMatch = content.match(/^date:\s*["']?(.*?)["']?\s*$/m) || content.match(/^created:\s*["']?(.*?)["']?\s*$/m);
-
+    const fm = matter(content).data;
+    const description =
+      typeof fm.description === 'string' ? fm.description.replace(/\s+/g, ' ').trim() : '';
     return {
-      title: titleMatch ? titleMatch[1] : path.basename(filePath, '.md'),
-      description: descMatch ? descMatch[1] : '',
-      slug: contentUrlPath(filePath, content),
-      filename: path.basename(filePath, '.md'),
-      date: dateMatch ? dateMatch[1] : null,
+      ...fallback,
+      title: typeof fm.title === 'string' && fm.title.trim() ? fm.title.trim() : fallback.title,
+      description,
+      date: dateString(fm.date ?? fm.created),
     };
   } catch (e) {
-    return { title: path.basename(filePath, '.md'), description: '', slug: filePath, filename: path.basename(filePath, '.md'), date: null };
+    console.warn(`Could not parse frontmatter in ${filePath}: ${e.message}`);
+    return fallback;
   }
 }
 
 /**
- * Gets new content from a directory, matched by frontmatter date.
+ * Gets new content from a directory, matched by frontmatter date
+ * (compared as YYYY-MM strings, so the window is timezone-proof).
  */
 function getNewContent(dir) {
   if (!fs.existsSync(dir)) return [];
 
   function walk(currentDir) {
     let results = [];
-    const list = fs.readdirSync(currentDir);
-    list.forEach(file => {
-      const filePath = path.join(currentDir, file);
-      const stat = fs.statSync(filePath);
-      if (stat && stat.isDirectory()) {
+    for (const entry of fs.readdirSync(currentDir, { withFileTypes: true })) {
+      const filePath = path.join(currentDir, entry.name);
+      if (entry.isDirectory()) {
         results = results.concat(walk(filePath));
-      } else if (file.endsWith('.md')) {
+      } else if (entry.name.endsWith('.md')) {
         results.push(filePath);
       }
-    });
+    }
     return results;
   }
 
@@ -106,11 +109,8 @@ function getNewContent(dir) {
 
   for (const file of files) {
     const meta = getFrontmatter(file);
-    if (meta.date) {
-      const fileDate = new Date(meta.date);
-      if (fileDate >= monthStartDate && fileDate < monthEndDate) {
-        items.push({ ...meta, path: file });
-      }
+    if (meta.date && meta.date.slice(0, 7) === DATE_STR) {
+      items.push({ ...meta, path: file });
     }
   }
 
@@ -122,7 +122,10 @@ function getNewContent(dir) {
  * with the most recent commit subject as a description.
  */
 function getModifiedRootFiles() {
-  const raw = run(`git log --since="${SINCE_DATE}" --until="${UNTIL_DATE}" --name-only --format="" -- "content/*.md"`);
+  const raw = runGit([
+    'log', `--since=${SINCE_DATE}`, `--until=${UNTIL_DATE}`,
+    '--name-only', '--format=', '--', 'content/*.md',
+  ]);
   if (!raw) return [];
 
   const seen = new Set();
@@ -139,7 +142,10 @@ function getModifiedRootFiles() {
     const meta = getFrontmatter(trimmed);
 
     // Get the most recent commit subject for this file within the month
-    let commitMsg = run(`git log --since="${SINCE_DATE}" --until="${UNTIL_DATE}" -1 --format="%s" -- "${trimmed}"`);
+    let commitMsg = runGit([
+      'log', `--since=${SINCE_DATE}`, `--until=${UNTIL_DATE}`,
+      '-1', '--format=%s', '--', trimmed,
+    ]);
     // Strip conventional commit prefix and capitalise
     commitMsg = commitMsg.replace(/^(feat|fix|refactor|content|style|chore|docs):\s*/i, '');
     commitMsg = commitMsg.charAt(0).toUpperCase() + commitMsg.slice(1);
@@ -185,7 +191,7 @@ const minorSection = rootFiles.length > 0
 let draft = `---
 title: "Newsletter: ${MONTH_NAME} Update"
 description: "A summary of recent site updates and some behind-the-scenes context."
-date: ${DATE_STR}
+date: ${DATE_STR}-01
 type: newsletter
 status: draft
 ---
@@ -210,6 +216,12 @@ ${minorSection}
 
 const fileName = `${DATE_STR}-newsletter-draft.md`;
 const outputPath = path.join(OUTPUT_DIR, fileName);
+
+if (fs.existsSync(outputPath) && !force) {
+  console.error(`\nRefusing to overwrite existing draft: ${outputPath}`);
+  console.error('Re-run with --force to overwrite it.');
+  process.exit(1);
+}
 
 fs.writeFileSync(outputPath, draft);
 
