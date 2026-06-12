@@ -21,7 +21,6 @@ category:
 related:
   - "[[Posts/2026-02-24-ai-ready-knowledge-base]]"
 draft: true
-slug: posts/getting-started-operational-notes
 enableToc: true
 linkedin:
 ---

@@ -17,7 +17,6 @@ tags:
   - academic-practice
 category:
   - Technology
-slug: posts/ai-agent-governance-higher-education
 aliases:
   - posts/what-happens-when-agent-first-workflows-scale
 linkedin: 2026-03-04

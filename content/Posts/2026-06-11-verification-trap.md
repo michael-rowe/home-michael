@@ -16,7 +16,6 @@ tags:
 category: [Teaching, Assessment]
 related:
 draft: false
-slug: posts/verification-trap
 subtype: ""
 enableToc: true
 linkedin:

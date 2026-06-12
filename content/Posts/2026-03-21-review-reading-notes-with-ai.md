@@ -18,7 +18,6 @@ category:
 draft: false
 enableToc: false
 subtype: field-note
-slug: posts/review-reading-notes-ai
 linkedin:
 ---
 

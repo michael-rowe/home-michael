@@ -1,7 +1,6 @@
 ---
 type: presentation
 title: AI and the business of practice
-slug: presentations/2025-ai-business-practice-lmc
 description: "An invited presentation at the Lincolnshire LMC Getting It Done Conference exploring how generative AI functions as a virtual business consultant — supporting practice management, strategic planning, and operational efficiency for healthcare practices. The talk covers six use cases: developing online presence, targeting patient groups, enhancing patient experience, strategic service development, ethical implementation, and change management."
 meta-description: Invited presentation at the Lincolnshire LMC Getting It Done Conference on using generative AI as a virtual business consultant for GP practice management.
 author:

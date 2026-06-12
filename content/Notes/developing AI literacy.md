@@ -7,7 +7,6 @@ created: 2026-04-28
 updated: 2026-04-28
 status: working
 keyphrase: "developing AI literacy"
-slug: notes/developing-ai-literacy
 category:
   - Education
 tags:

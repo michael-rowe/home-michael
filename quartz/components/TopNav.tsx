@@ -51,7 +51,7 @@ export default ((opts?: Partial<TopNavOptions>) => {
             if (hasDropdown) {
               return (
                 <li class="has-dropdown">
-                  <a href={href} class="internal" data-no-popover="true">
+                  <a href={href} class="internal" data-no-popover="true" aria-haspopup="true">
                     {link.text}
                     <svg class="dropdown-arrow" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <polyline points="6 9 12 15 18 9"></polyline>
@@ -190,7 +190,8 @@ export default ((opts?: Partial<TopNavOptions>) => {
   transition: transform 0.2s ease;
 }
 
-.top-nav .has-dropdown:hover .dropdown-arrow {
+.top-nav .has-dropdown:hover .dropdown-arrow,
+.top-nav .has-dropdown:focus-within .dropdown-arrow {
   transform: rotate(180deg);
 }
 
@@ -214,7 +215,9 @@ export default ((opts?: Partial<TopNavOptions>) => {
   z-index: 100;
 }
 
-.top-nav .has-dropdown:hover .dropdown-menu {
+/* :focus-within keeps the menu open (and its links tabbable) for keyboard users */
+.top-nav .has-dropdown:hover .dropdown-menu,
+.top-nav .has-dropdown:focus-within .dropdown-menu {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);

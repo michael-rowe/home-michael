@@ -60,6 +60,11 @@
   --presentation-color: #9a7020;
   --newsletter-color: #7c3aad;
   --guide-color: #1e6ba8;
+  // Status/state colours (CourseGrid badges, ShareLinks copied-state)
+  --status-positive: #2e7d52;
+  --status-progress: #9a7020;
+  --status-upcoming: #1e6ba8;
+  --neutral-accent: #6b7280;
 }
 
 :root[saved-theme="dark"] {
@@ -70,4 +75,8 @@
   --presentation-color: #e0c060;
   --newsletter-color: #c084fc;
   --guide-color: #7bafd4;
+  --status-positive: #72c47e;
+  --status-progress: #e0c060;
+  --status-upcoming: #7bafd4;
+  --neutral-accent: #9ca3af;
 }

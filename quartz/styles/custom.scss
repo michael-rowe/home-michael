@@ -841,6 +841,19 @@ article p:has(> img:only-child) {
   }
 }
 
+// Visually hidden but available to screen readers (used by the Mcq verdict)
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 // Self-scoring multiple-choice questions (course content). Behaviour from the
 // Mcq component; markup is a .mcq wrapper with .mcq-option buttons each
 // followed by a .mcq-fb feedback block.

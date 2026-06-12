@@ -26,6 +26,7 @@ export default (() => {
       )
 
     // Landing page = the current month (RecentlyAddedList shows current-month content).
+    // Local-time month bucketing — see the note in RecentlyAddedList
     const now = new Date()
     const currentLabel = `${MONTH_NAMES[now.getMonth()]} ${now.getFullYear()}`
 

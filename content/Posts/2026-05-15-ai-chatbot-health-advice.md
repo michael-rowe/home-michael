@@ -16,7 +16,6 @@ tags:
 category:
   - Technology
 draft: false
-slug: posts/ai-chatbot-health-advice
 aliases:
   - posts/ai-health-advice-wrong-comparison
 subtype: ""

@@ -17,7 +17,6 @@ category:
   - Teaching
 draft: false
 enableToc: true
-slug: posts/ai-agents-lecture-slides
 aliases:
   - posts/teaching-materials-document-infrastructure
   - posts/plain-text-teaching-materials

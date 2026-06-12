@@ -18,7 +18,6 @@ category:
   - Education
   - Assessment
 draft: false
-slug: posts/ai-phd-assessment
 enableToc: true
 linkedin:
 ---

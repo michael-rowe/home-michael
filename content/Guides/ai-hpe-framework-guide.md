@@ -1,7 +1,6 @@
 ---
 type: guide
 title: "A theoretical framework for integrating AI into HPE: a one-page guide"
-slug: guides/ai-hpe-framework-guide
 description: "A one-page reference guide for health professions educators. Condenses a theoretically grounded framework into six design principles for integrating AI in ways that support — rather than undermine — the conditions under which professional learning occurs. Each principle includes a brief description and an apply-by prompt for immediate use in learning activity design, curriculum review, or institutional policy."
 meta-description: One-page guide to six design principles for integrating AI into health professions education, grounded in how professional learning works.
 keyphrase: AI integration health professions education design principles

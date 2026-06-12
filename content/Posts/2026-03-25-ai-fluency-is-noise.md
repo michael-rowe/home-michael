@@ -18,7 +18,6 @@ category:
   - Education
 related:
 draft: false
-slug: posts/ai-fluency-is-noise
 enableToc: false
 linkedin: 2026-03-27
 ---

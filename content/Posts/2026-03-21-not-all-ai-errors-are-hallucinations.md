@@ -18,7 +18,6 @@ category:
 related:
   - "[[Posts/2026-03-06-claude-deleted-my-file]]"
 draft: false
-slug: posts/why-ai-makes-spelling-mistakes
 subtype: field-note
 enableToc: false
 linkedin:

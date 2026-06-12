@@ -19,7 +19,6 @@ related:
   - "[[Posts/2026-02-18-switching-to-claude-sonnet-4-6]]"
   - "[[Notes/AI-forward]]"
 draft: false
-slug: posts/ai-dependency-in-practice
 aliases:
   - posts/when-ai-becomes-infrastructure
 subtype: field-note

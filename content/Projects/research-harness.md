@@ -1,7 +1,6 @@
 ---
 type: project
 title: The research harness
-slug: projects/research-harness
 description: "A structured specification of an AI agent's operating context in doctoral research. The harness names seven components — knowledge base, interpretive permissions, tools, authority, scope register, process record, and amendment protocol — so that a researcher working with an AI agent stays the analyst, judge, and author of their own inquiry. Published as a preprint and a one-page guide, now developing into a tested intervention."
 meta-description: A framework specifying the operating context of AI agents in doctoral research, in seven components.
 author: "[[Michael Rowe]]"

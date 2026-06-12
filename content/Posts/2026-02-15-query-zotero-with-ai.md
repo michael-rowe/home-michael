@@ -19,7 +19,6 @@ category:
   - Technology
   - Information management
 draft: false
-slug: posts/query-zotero-with-ai
 aliases:
   - posts/claude-code-zotero-database
 linkedin:

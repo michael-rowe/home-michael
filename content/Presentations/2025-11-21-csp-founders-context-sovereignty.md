@@ -1,7 +1,6 @@
 ---
 type: presentation
 title: "Context sovereignty: building human-AI coalitions in physiotherapy"
-slug: presentations/2025-csp-founders-context-sovereignty
 description: "The Chartered Society of Physiotherapy's annual Founders' Lecture, arguing that the question facing the profession is not what AI can do that humans cannot, but how practitioners shape the context in which human-AI collaboration happens. The talk opens with the disorienting evidence that AI now matches or exceeds clinicians on diagnosis, empathy, and ethical reasoning, then rejects the defensive 'sanctuary strategies' this provokes. Its central idea is context sovereignty: because language models are stateless, static, and contextless, the professional context a practitioner brings is not a comfort but a structural necessity — and controlling it is the distinctive human contribution. It closes with the coming shift to patient context sovereignty and the work of meaning-making in an ambiguous moment."
 meta-description: CSP Founders' Lecture on context sovereignty — why shaping professional context is the distinctive human contribution in human-AI physiotherapy practice.
 author:

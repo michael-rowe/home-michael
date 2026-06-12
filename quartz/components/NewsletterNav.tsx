@@ -32,6 +32,7 @@ export default (() => {
         <ul class="recent-ul">
           {issues.map((f) => {
             const d = getDate(cfg, f)
+            // Local-time month labels on UTC-midnight dates — see RecentlyAddedList
             const label = d ? `${MONTH_NAMES[d.getMonth()]} ${d.getFullYear()}` : simplifySlug(f.slug!)
             const isActive = simplifySlug(f.slug!) === currentSlug
             return (

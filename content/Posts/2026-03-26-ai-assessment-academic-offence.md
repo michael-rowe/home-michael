@@ -18,7 +18,6 @@ category:
   - Education
 related:
 draft: false
-slug: designing-ai-out-of-assessment
 enableToc: true
 linkedin: 2026-03-26
 ---

@@ -21,7 +21,6 @@ related:
   - "[[Notes/large-language-models]]"
   - "[[Notes/human-cognition-and-LLM-parallels]]"
 keyphrase: "epistemic accountability"
-slug: notes/epistemic-accountability
 linkedin:
 
 ---

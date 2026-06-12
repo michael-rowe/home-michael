@@ -1,7 +1,6 @@
 ---
 type: project
 title: Path
-slug: projects/path
 description: "A professional-development portfolio system built on one model: a progression framework against which you map claims, backed by evidence, producing a portfolio whose coverage and gaps drive the next move. Framework-agnostic — it serves CPD audits, fellowship and promotion applications, regulator validation, and student learning portfolios. A working prototype, now heading to a commercial build with the University of Lincoln and Snapplify."
 meta-description: A professional-development portfolio system that maps evidence to a framework and shows your coverage and gaps.
 author: "[[Michael Rowe]]"

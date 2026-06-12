@@ -1,7 +1,6 @@
 ---
 type: guide
 title: "The research harness: a one-page guide for doctoral researchers"
-slug: guides/research-harness-guide
 description: "A one-page reference guide for doctoral researchers and supervisors working with AI agents. Condenses the research harness framework into a practical quick-reference card: the seven components of a harness, what each one does, how to start building one, and what material form it takes."
 meta-description: One-page guide to the research harness — seven components for specifying the operating context of AI agents in doctoral research.
 keyphrase: research harness guide doctoral AI framework

@@ -19,6 +19,7 @@ export type ContentDetails = {
   richContent?: string
   date?: Date
   description?: string
+  contentType?: string
 }
 
 interface Options {
@@ -51,6 +52,11 @@ function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndexMap): string
   return `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${urls}</urlset>`
 }
 
+// Only actual content types appear in the feed — structural pages (home,
+// speaking, folder indexes) would otherwise consume feed slots whenever their
+// dates reset on a rework.
+const RSS_CONTENT_TYPES = new Set(["post", "essay", "note", "presentation", "guide"])
+
 function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndexMap, limit?: number): string {
   const base = cfg.baseUrl ?? ""
 
@@ -63,6 +69,7 @@ function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndexMap, limit?:
   </item>`
 
   const items = Array.from(idx)
+    .filter(([_, content]) => content.contentType && RSS_CONTENT_TYPES.has(content.contentType))
     .sort(([_, f1], [__, f2]) => {
       if (f1.date && f2.date) {
         return f2.date.getTime() - f1.date.getTime()
@@ -115,6 +122,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
               : undefined,
             date: date,
             description: file.data.description ?? "",
+            contentType: file.data.frontmatter?.type as string | undefined,
           })
         }
       }
@@ -145,6 +153,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
           // for the RSS feed
           delete content.description
           delete content.date
+          delete content.contentType
           return [slug, content]
         }),
       )

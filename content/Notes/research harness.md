@@ -23,7 +23,6 @@ related:
   - "[[Guides/research-harness-guide]]"
   - "[[Essays/research-harness-doctoral-ai]]"
 keyphrase: research harness
-slug: notes/research-harness
 linkedin:
 ---
 

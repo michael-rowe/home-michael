@@ -30,7 +30,20 @@ Mcq.afterDOMLoaded = `
     const correct = opt.getAttribute('data-correct') === 'true';
     opt.classList.add('chosen', correct ? 'correct' : 'incorrect');
     const fb = opt.nextElementSibling;
-    if (fb && fb.classList.contains('mcq-fb')) fb.classList.add('show');
+    if (fb && fb.classList.contains('mcq-fb')) {
+      // aria-live so the revealed verdict + feedback is announced to screen
+      // readers; correct/incorrect is otherwise conveyed only by colour/CSS
+      fb.setAttribute('role', 'status');
+      fb.setAttribute('aria-live', 'polite');
+      if (!fb.dataset.verdictAdded) {
+        fb.dataset.verdictAdded = 'true';
+        const verdict = document.createElement('span');
+        verdict.className = 'sr-only';
+        verdict.textContent = correct ? 'Correct. ' : 'Incorrect. ';
+        fb.prepend(verdict);
+      }
+      fb.classList.add('show');
+    }
     mcq.classList.add('attempted');
   });
 })();

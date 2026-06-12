@@ -22,7 +22,6 @@ related:
   - "[[Guides/research-harness-guide]]"
   - "[[Essays/research-harness-doctoral-ai]]"
 draft: false
-slug: research-harness-doctoral-ai
 enableToc: true
 linkedin:
 ---

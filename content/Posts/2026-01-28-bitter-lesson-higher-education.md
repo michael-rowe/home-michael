@@ -20,7 +20,6 @@ category:
 related:
   - "[[Essays/learning-alignment]]"
 draft: false
-slug: posts/bitter-lesson-higher-education
 enableToc: true
 reviewed:
   - writing_style

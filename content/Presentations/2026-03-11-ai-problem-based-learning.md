@@ -1,7 +1,6 @@
 ---
 type: presentation
 title: AI and problem-based learning
-slug: presentations/2026-thomas-more-ai-pbl
 description: A presentation for students participating in an EU-funded Blended Intensive Programme at Thomas More Hogeschool in Belgium. Examines how AI separates the production of artifacts from the learning they were meant to evidence, what problem-based learning already does differently, how AI changes group work and inquiry, and three practical shifts students can make in how they use AI within PBL.
 meta-description: Presentation on AI and problem-based learning for health professions education students, exploring how AI changes what meaningful engagement looks like.
 author:

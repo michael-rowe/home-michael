@@ -17,7 +17,6 @@ category:
 related:
   - "[[Notes/distributed-version-control]]"
 keyphrase: "what is git version control"
-slug: notes/git
 linkedin:
 ---
 
