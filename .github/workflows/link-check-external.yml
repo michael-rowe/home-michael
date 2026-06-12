@@ -31,6 +31,7 @@ jobs:
       - name: Check external links
         run: |
           curl -fsSL "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.2/lychee-x86_64-unknown-linux-musl.tar.gz" -o lychee.tar.gz
+          echo "73657a111819a30c47c08352896796f23d64e4eb2b3ed39b6d32149241566fc5  lychee.tar.gz" | sha256sum -c -
           tar xzf lychee.tar.gz --strip-components=1 lychee-x86_64-unknown-linux-musl/lychee
           # --scheme http/https restricts to external links (skips local file links,
           # which the deploy gate already covers). Retries + accepted codes reduce

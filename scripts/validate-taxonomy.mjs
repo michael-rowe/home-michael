@@ -33,7 +33,13 @@ const strict     = args.includes('--strict')
 const summaryOnly = args.includes('--summary')
 const pathArg    = (() => {
   const i = args.indexOf('--path')
-  return i !== -1 ? args[i + 1] : null
+  if (i === -1) return null
+  const value = args[i + 1]
+  if (!value || value.startsWith('--')) {
+    console.error('--path requires a directory argument, e.g. --path content/Posts')
+    process.exit(1)
+  }
+  return value
 })()
 
 // ── Load taxonomy ──────────────────────────────────────────────────────────
@@ -46,13 +52,21 @@ if (!fs.existsSync(TAXONOMY_FILE)) {
 const taxonomyRaw  = fs.readFileSync(TAXONOMY_FILE, 'utf-8')
 const { data: tax } = matter(taxonomyRaw)
 
-// Normalise a term: lowercase, collapse hyphens/underscores to spaces, trim
-const normalise = s => s.trim().toLowerCase().replace(/[-_]+/g, ' ').replace(/\s+/g, ' ')
+// Normalise a term: lowercase, collapse hyphens/underscores to spaces, trim.
+// Used for category matching and for suggesting the canonical form of a
+// malformed tag — NOT for tag validation, which is literal (tags must use the
+// exact hyphenated canonical form; Obsidian doesn't support tags with spaces).
+const normalise = s => String(s).trim().toLowerCase().replace(/[-_]+/g, ' ').replace(/\s+/g, ' ')
 
 const approvedCategories = new Set(
   (tax.categories ?? []).map(c => normalise(c))
 )
-const approvedTags = new Set(
+// Literal (lowercased) canonical tags for validation…
+const approvedTagsLiteral = new Set(
+  (tax.tags ?? []).map(t => String(t).trim().toLowerCase())
+)
+// …and normalised forms for recognising a malformed variant of an approved tag
+const approvedTagsNormalised = new Set(
   (tax.tags ?? []).map(t => normalise(t))
 )
 
@@ -83,15 +97,29 @@ const files = collectFiles(searchRoot)
 
 const unknownCategories = new Map() // term → Set<filePath>
 const unknownTags       = new Map() // term → Set<filePath>
+const malformedTags     = new Map() // "written → canonical" → Set<filePath>
+
+// Replicates Quartz's coerceToArray (quartz/plugins/transformers/frontmatter.ts):
+// a scalar string splits on commas; numbers are stringified. Anything Quartz
+// would render as a tag gets validated.
+function coerceToArray(input) {
+  if (input === undefined || input === null) return []
+  if (!Array.isArray(input)) {
+    input = input.toString().split(',').map(s => s.trim())
+  }
+  return input
+    .filter(v => typeof v === 'string' || typeof v === 'number')
+    .map(v => v.toString())
+}
 
 let checkedFiles   = 0
 let skippedFiles   = 0
-let missingTypeFiles = 0
+let skippedDrafts  = 0
 
 for (const filePath of files) {
   const content = fs.readFileSync(filePath, 'utf-8')
   const { data: fm } = matter(content)
-  const type = fm.type?.trim()
+  const type = typeof fm.type === 'string' ? fm.type.trim() : null
 
   // Only validate typed content
   if (!type || !TYPED_CONTENT.has(type)) {
@@ -99,15 +127,17 @@ for (const filePath of files) {
     continue
   }
 
+  // Drafts never publish, so they don't gate CI (--strict). They're still
+  // reported in normal runs so issues surface before draft: false is set.
+  if (strict && fm.draft === true) {
+    skippedDrafts++
+    continue
+  }
+
   checkedFiles++
 
   // Check category / categories
-  const categoryRaw = fm.category ?? fm.categories
-  const categories = Array.isArray(categoryRaw)
-    ? categoryRaw
-    : typeof categoryRaw === 'string' && categoryRaw.trim()
-      ? [categoryRaw]
-      : []
+  const categories = coerceToArray(fm.category ?? fm.categories)
 
   for (const cat of categories) {
     const normalised = normalise(cat)
@@ -118,13 +148,23 @@ for (const filePath of files) {
     }
   }
 
-  // Check tags
-  const tags = Array.isArray(fm.tags) ? fm.tags : []
+  // Check tags — coerced the way Quartz coerces them (tag: alias, scalar
+  // comma-splitting, numbers), then validated literally against the canonical
+  // hyphenated forms.
+  const tags = coerceToArray(fm.tags ?? fm.tag)
   for (const tag of tags) {
-    if (typeof tag !== 'string') continue
+    const literal = tag.trim().toLowerCase()
+    if (!literal) continue
+    if (approvedTagsLiteral.has(literal)) continue
+
     const normalised = normalise(tag)
-    if (!normalised) continue
-    if (!approvedTags.has(normalised)) {
+    if (approvedTagsNormalised.has(normalised)) {
+      // An approved tag written in the wrong form (spaces/underscores)
+      const canonical = normalised.replace(/ /g, '-')
+      const key = `"${tag.trim()}" → ${canonical}`
+      if (!malformedTags.has(key)) malformedTags.set(key, new Set())
+      malformedTags.get(key).add(filePath)
+    } else {
       if (!unknownTags.has(normalised)) unknownTags.set(normalised, new Set())
       unknownTags.get(normalised).add(filePath)
     }
@@ -133,13 +173,17 @@ for (const filePath of files) {
 
 // ── Report ─────────────────────────────────────────────────────────────────
 
-const totalIssues = unknownCategories.size + unknownTags.size
+const totalIssues = unknownCategories.size + unknownTags.size + malformedTags.size
 const pad = s => `  ${s}`
 
 console.log()
 console.log('─── Taxonomy validator ───────────────────────────────────')
-console.log(`  Taxonomy:  ${approvedCategories.size} categories, ${approvedTags.size} tags`)
-console.log(`  Scanned:   ${checkedFiles} content files (${skippedFiles} skipped — no type)`)
+console.log(`  Taxonomy:  ${approvedCategories.size} categories, ${approvedTagsLiteral.size} tags`)
+console.log(
+  `  Scanned:   ${checkedFiles} content files (${skippedFiles} skipped — no type${
+    skippedDrafts > 0 ? `; ${skippedDrafts} drafts not gated` : ''
+  })`,
+)
 console.log()
 
 if (totalIssues === 0) {
@@ -162,6 +206,19 @@ if (unknownCategories.size > 0) {
   console.log('  To approve, add to taxonomy.md under `categories:`:')
   for (const [term] of [...unknownCategories].sort()) {
     console.log(pad(`  - ${term}`))
+  }
+  console.log()
+}
+
+// Malformed tags (approved term, wrong written form — tags must be hyphenated)
+if (malformedTags.size > 0) {
+  console.log(`  ✗ Malformed tags (${malformedTags.size}) — use the hyphenated canonical form:`)
+  console.log()
+  for (const [key, filePaths] of [...malformedTags].sort()) {
+    console.log(pad(key))
+    if (!summaryOnly) {
+      for (const f of filePaths) console.log(pad(pad(`↳ ${f}`)))
+    }
   }
   console.log()
 }
