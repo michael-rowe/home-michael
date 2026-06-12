@@ -34,6 +34,7 @@ import NotesByTag from "./NotesByTag"
 import NotesByCategory from "./NotesByCategory"
 import NotesByType from "./NotesByType"
 import Mcq from "./Mcq"
+import FlipCard from "./FlipCard"
 import RecentlyAddedNav from "./RecentlyAddedNav"
 import RecentlyAddedList from "./RecentlyAddedList"
 import NewsletterNav from "./NewsletterNav"
@@ -79,6 +80,7 @@ export {
   NotesByCategory,
   NotesByType,
   Mcq,
+  FlipCard,
   RecentlyAddedNav,
   RecentlyAddedList,
   NewsletterNav,

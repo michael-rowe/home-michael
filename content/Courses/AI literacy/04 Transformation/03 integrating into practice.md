@@ -118,6 +118,27 @@ The practices feel automatic now. She's not relying on willpower; her systems su
 
 **Maryam cultivated conditions where literate practice emerged naturally from well-designed systems.** This treats literacy maintenance as a design problem—"How can I make literate practice the automatic default requiring less effort than superficial engagement?"
 
+<div class="comparison-grid">
+<div class="comparison-column">
+
+#### Discursive (willpower)
+- Depends on willpower—fails under pressure
+- Requires conscious memory—forgotten when busy
+- Exists separately from workflow—feels like additional work
+- Degrades when competing priorities emerge
+
+</div>
+<div class="comparison-column">
+
+#### Structural (design)
+- Embeds practices in workflow—automatic under pressure
+- Uses templates and defaults—no memory required
+- Happens as a byproduct of work—not an additional task
+- Sustains under competing priorities—structure makes it easier than avoiding it
+
+</div>
+</div>
+
 **This shift from control to cultivation is the lesson.** You can't control whether you'll remember to apply critical evaluation when under deadline pressure. But you can cultivate literacy practice by designing workflows where evaluation prompts appear automatically, where skipping them requires more effort than engaging them.
 
 ## Structural integration principles

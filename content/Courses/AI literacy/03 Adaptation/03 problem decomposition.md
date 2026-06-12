@@ -279,19 +279,28 @@ Dr. Kim is studying "student engagement in online clinical teaching." She spends
 > [!question] Pause and reflect
 > What determines whether decomposition helps or hinders? How do you decide?
 
-**Decision principle:** Use systematic decomposition when:
+**Decision principle:**
 
+<div class="comparison-grid">
+<div class="comparison-column">
+
+#### Use systematic decomposition when
 - Problem feels ill-defined or overwhelming
 - You're not sure what you're actually asking
 - You suspect you're missing important perspectives
 - Initial investigation revealed undifferentiated complexity
 
-Skip systematic decomposition when:
+</div>
+<div class="comparison-column">
 
+#### Skip systematic decomposition when
 - Question is already appropriately focused
 - You have clear disciplinary and methodological grounding
 - Time constraints make extended framing work impractical
 - Problem is straightforward, not genuinely complex
+
+</div>
+</div>
 
 ## Activity
 

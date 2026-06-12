@@ -73,6 +73,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   afterBody: [
     Component.Mcq(),
+    Component.FlipCard(),
     Component.ConditionalRender({
       component: Component.RecentlyAddedList(),
       condition: (page) => (page.fileData.slug ?? "").startsWith("recently-added"),
@@ -150,6 +151,7 @@ export const defaultListPageLayout: PageLayout = {
   ],
   afterBody: [
     Component.Mcq(),
+    Component.FlipCard(),
     Component.ConditionalRender({
       component: Component.RecentlyAddedList(),
       condition: (page) => (page.fileData.slug ?? "").startsWith("recently-added"),

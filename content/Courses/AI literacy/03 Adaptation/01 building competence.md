@@ -72,21 +72,28 @@ She has competence, not just familiarity.
 
 **The distinction:**
 
-**Familiarity** (substitution approach):
+<div class="comparison-grid">
+<div class="comparison-column">
 
+#### Familiarity (substitution)
 - Recognise concepts when you encounter them
 - Can define using technical terms
 - Know who uses these approaches
 - Can cite papers appropriately
 - **Time: 5 minutes extraction**
 
-**Competence** (adaptation approach):
+</div>
+<div class="comparison-column">
 
+#### Competence (adaptation)
 - Explain to non-experts clearly
 - Know when to use versus alternatives
 - Can apply to your specific work
 - Identify misapplication or limitations
 - **Time: 60 minutes structured learning**
+
+</div>
+</div>
 
 Both matter. Most concepts in your field require only familiarity. A few critical to your research require competence.
 
