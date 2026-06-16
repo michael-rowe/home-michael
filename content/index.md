@@ -21,7 +21,7 @@ The projects I'm working on right now, mostly focused on professional developmen
 
 <div class="keynote-row project-row">
 
-<a href="Projects/path"><img src="Media/path-heatmap.png" alt="Path" /><span class="keynote-caption"><strong>Path</strong>: a professional-development portfolio app that maps your evidence to a framework and shows your coverage and gaps.</span></a>
+<a href="Projects/path"><img src="Media/path-dashboard.png" alt="Path" /><span class="keynote-caption"><strong>Path</strong>: a professional-development portfolio app that maps your evidence to a framework and shows your coverage and gaps.</span></a>
 
 <a href="Projects/vertex"><img src="Media/vertex_curriculum_development.png" alt="Vertex" /><span class="keynote-caption"><strong>Vertex</strong>: a curriculum knowledge graph for natural-language querying, quality assurance, and compliance.</span></a>
 
