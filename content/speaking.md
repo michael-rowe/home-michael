@@ -24,31 +24,10 @@ The response, I suggest, is to raise our expectations for what education can be 
 
 ## Upcoming talks
 
-### AI in clinical practice and making sense of this moment
-**13 May 2026** · Musculoskeletal Association of Chartered Physiotherapists — Online
-
-An invited lecture for MACP members merging practical AI integration with a philosophical sense-making framework. How do AI tools support clinical decision-making, documentation, and patient communication? And what does this moment actually mean for the health professions — for expertise, judgement, and human contribution when machines can generate fluent text and pass clinical assessments?
-
----
-
 ### AI in school-based occupational therapy practice
 **TBD (May–July 2026)** · AI in OT Summit, OT Schoolhouse — Online
 
 An invited session for school-based occupational therapists on AI in clinical practice and practice management, tailored to educational settings. Topics include clinical judgement and professional responsibility when using AI in schools, documentation and workflow during IEP seasons, and ethical considerations in educational environments.
-
----
-
-### AI and health professions education
-**9 June 2026** · Best Practices in Education Rounds — Online
-
-Invited presentation for the monthly BPER series, co-hosted by the University of Toronto Centre for Faculty Development, The Wilson Centre, and the Centre for Interprofessional Education. An open session typically drawing 100+ attendees from across health professions education — health professionals, educators, scholars, and patient and family partners. Title and abstract in development. 12–1pm EDT (5–6pm BST).
-
----
-
-### The use of AI within health and social care
-**11 June 2026** · National Back Exchange Moving and Handling Awareness Day — Online
-
-An open webinar for the National Back Exchange's annual awareness day, accessible to members and non-members. Designed for a broad audience — nurses, occupational therapists, physiotherapists, moving and handling specialists — this session offers a practical and accessible introduction to AI in health and social care: what generative AI is, how it works, and what it can and cannot do in practice. Explores current and emerging applications, implications for professional roles, and how practitioners can engage with AI as a professional tool.
 
 ---
 
@@ -73,19 +52,49 @@ A four-hour practical masterclass for private practice clinicians across physiot
 
 ---
 
-### AI and the learning alignment problem
-**TBD** · Global Research Nursing Education Network — Online
+### Partner or foe? The rising role of AI in nursing and allied health practice
+**30 October 2026** · Sidra Medicine — Online
 
-An invited keynote webinar for GRNEN's international network of nursing educators, primarily from the US, Canada, and Africa. AI has exposed a longstanding misalignment between what educational systems measure and what they are meant to develop — optimising for measurable proxies like grades and artefacts rather than authentic developmental outcomes like judgement and professional becoming. This session explores what that misalignment means for nursing education design, and how shifting from control to cultivation can ensure AI becomes a partner in professional growth rather than a shortcut around it.
+An invited talk for Sidra Medicine on the role of AI in nursing and allied health practice: where AI genuinely supports clinical work, where it falls short, and how practitioners can engage with it as a professional tool rather than treating it as either saviour or threat.
 
 ## Past presentations
+
+### AI and the learning alignment problem
+**11 June 2026** · Global Research Nursing Education Network — Online
+
+An invited keynote webinar for GRNEN's international network of nursing educators, primarily from the US, Canada, and Africa. AI has exposed a longstanding misalignment between what educational systems measure and what they are meant to develop — optimising for measurable proxies like grades and artefacts rather than authentic developmental outcomes like judgement and professional becoming. The session explored what that misalignment means for nursing education design, and how shifting from control to cultivation can ensure AI becomes a partner in professional growth rather than a shortcut around it.
+
+---
+
+### The use of AI within health and social care
+**11 June 2026** · National Back Exchange Moving and Handling Awareness Day — Online
+
+An open webinar for the National Back Exchange's annual awareness day, accessible to members and non-members. Designed for a broad audience — nurses, occupational therapists, physiotherapists, and moving and handling specialists — the session offered a practical and accessible introduction to AI in health and social care: what generative AI is, how it works, and what it can and cannot do in practice, alongside current and emerging applications, implications for professional roles, and how practitioners can engage with AI as a professional tool.
+
+---
+
+### What is the work? Rethinking learning and assessment in an age of AI
+**9 June 2026** · Best Practices in Education Rounds — Online
+
+Invited presentation for the monthly BPER series, co-hosted by the University of Toronto Centre for Faculty Development, The Wilson Centre, and the Centre for Interprofessional Education — an open session drawing 100+ attendees from across health professions education. The talk asked what generative AI does to the relationship between assessment and the learning it is meant to evidence, and what educators should treat as the real work now that AI can produce fluent artefacts.
+
+---
+
+### AI in clinical practice and making sense of this moment
+**13 May 2026** · Musculoskeletal Association of Chartered Physiotherapists — Online
+
+An invited lecture for MACP members merging practical AI integration with a philosophical sense-making framework: how AI tools support clinical decision-making, documentation, and patient communication, and what this moment actually means for the health professions — for expertise, judgement, and human contribution when machines can generate fluent text and pass clinical assessments.
+
+[[Presentations/2026-05-13-macp-making-sense-of-ai|Slides and overview →]]
+
+---
 
 ### Beyond the dataset — AI and the future of research
 **24 April 2026** · Physiotherapy Research Society Annual Conference — Online
 
 Keynote for the 44th PRS Annual Conference, themed "Beyond the Dataset: Engaging People, Powering Change." The thesis is the artefact; the researcher is the product. AI can now execute much of the work through which doctoral researchers have traditionally formed their expertise. The talk explores the different relationships researchers build with AI, asks which struggles are formative and which are merely tedious, and argues that as AI becomes more capable, specifically human contributions — research taste, evaluative judgement, and the capacity to set direction — become more valuable, not less.
 
-[[2026-04-24-beyond-the-artifact-prs|Slides and overview →]]
+[[Presentations/2026-04-24-beyond-the-artifact-prs|Slides and overview →]]
 
 A fuller list of past presentations, with slides and abstracts where available, is on the [[Presentations/index|presentations page]].
 
