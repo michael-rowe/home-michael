@@ -36,4 +36,15 @@ jobs:
           # --scheme http/https restricts to external links (skips local file links,
           # which the deploy gate already covers). Retries + accepted codes reduce
           # noise from rate limiting and transient failures.
-          ./lychee --scheme http --scheme https --max-retries 3 --accept 200,206,429 --no-progress 'public/**/*.html'
+          #
+          # Accepted codes beyond 2xx are anti-bot responses we can't act on, not
+          # link rot: 403 (publishers/DOIs blocking HEAD from non-browsers),
+          # 405 (POST-only endpoints like the contact form rejecting GET),
+          # 429 (rate limiting), 999 (LinkedIn's crawler block). Excluding
+          # linkedin.com outright since every page footer links to it and it
+          # always returns 999. This keeps a red run meaningful: a reachable-but-
+          # broken link (404/410/5xx), not a bot wall.
+          ./lychee --scheme http --scheme https --max-retries 3 \
+            --accept 200,206,403,405,429,999 \
+            --exclude 'linkedin\.com' \
+            --no-progress 'public/**/*.html'
