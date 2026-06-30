@@ -53,7 +53,7 @@ When you're ready, a private share link gives a mentor, critical friend, or form
 
 ![[Media/path-review.png]]
 
-Privacy is built in: you can blur faces, names, and identifiers in the browser before anything is uploaded, so nothing un-redacted leaves your device — important when CPD touches clinical reflection. Submission-ready Word export and a full Markdown data export (so you always own your portfolio) complete the individual workflow.
+Privacy is built in: you can blur faces, names, and identifiers in the browser before anything is uploaded, so nothing un-redacted leaves your device; important when CPD touches clinical reflection. Submission-ready Word export and a full Markdown data export (so you always own your portfolio) complete the individual workflow.
 
 ![[Media/path-redaction.png]]
 
@@ -63,11 +63,11 @@ For institutions and professional bodies, the same coverage logic aggregates ano
 
 ## Status
 
-Path is a hosted prototype live at [pathcpd.com](https://pathcpd.com) — a multi-user web application supporting CPD audits, revalidation portfolios, fellowship applications, promotion cases, and institutional review. A closed pilot is underway, with the membership-body case (a federation of institutions, where the buyer is not the user's employer) lined up to test next.
+Path is a hosted prototype live at [pathcpd.com](https://pathcpd.com); a multi-user, multi-institution web application supporting CPD audits, revalidation portfolios, fellowship applications, promotion cases, and institutional review. A closed pilot is currently underway.
 
-Following a demo to senior academic-development colleagues, who judged the model "more sophisticated than the platforms they use or know of", Path is heading toward a commercial build and is looking for partners to take it further. The likely shape is free for individuals, licensed for institutions — the aggregation and review layer is what an organisation buys. The next major piece of work is conceptual rather than technical: the theory of expertise development that the tool already leans on needs to be written down as a short, practical essay before the higher-order features (adaptive scaffolding, AI-assisted planning, curriculum generation) can be designed with any rigour.
+Following a demo to senior academic-development colleagues, Path is heading toward a commercial build and is looking for partners to take it further. The likely shape is free for individuals, licensed for institutions — the aggregation and review layer is what an organisation buys. The next major piece of work is conceptual rather than technical: the theory of expertise development that the tool already leans on needs to be written down as a short, practical essay before the higher-order features (adaptive scaffolding, AI-assisted planning, curriculum generation) can be designed with any rigour.
 
-The reframe matters more than any single feature. Path keeps "CPD" at the front door, because regulated professionals search for it and must have it — but the career path is the spine that CPD activities feed. *Your CPD isn't a box to tick; it's how you build your career.*
+The reframe matters more than any single feature. Path keeps "CPD" at the front door, because regulated professionals search for it and must have it, but the career path is the spine that CPD activities feed.
 
 ## Find out more
 
