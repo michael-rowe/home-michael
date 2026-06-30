@@ -1,18 +1,18 @@
 ---
 type: project
 title: Path
-description: "A professional-development portfolio system built on one model: a progression framework against which you map claims, backed by evidence, producing a portfolio whose coverage and gaps drive the next move. Framework-agnostic — it serves CPD audits, fellowship and promotion applications, regulator validation, and student learning portfolios. A hosted prototype is live and running a pilot with University of Lincoln staff, heading toward a commercial build."
-meta-description: A professional-development portfolio system that maps evidence to a framework and shows your coverage and gaps.
+description: "Career progression, by design. Path treats professional development as a direction you choose, not a filing cabinet for what you've already done. Pick a standard to aim at — a promotion, a fellowship, a regulator's CPD requirement — gather evidence as you go, and watch a substantiated case for your next step build itself. One model serves CPD audits, fellowship and promotion applications, regulator validation, and student portfolios alike. A hosted prototype is live at pathcpd.com, in closed pilot and heading toward a commercial build."
+meta-description: Path turns everyday professional work into deliberate career progression — aim at a standard, gather evidence, build the case for your next step.
 author: "[[Michael Rowe]]"
 created: 2026-05-01
-updated: 2026-06-16
+updated: 2026-06-30
 status: Prototype
 role: Conceived, designed, and built
 tags:
+  - career-development
   - competency-frameworks
   - ai-integration
   - workplace-learning
-  - information-management
 category:
   - Professional development
   - Education
@@ -22,39 +22,54 @@ draft: false
 linkedin:
 ---
 
-> [!info] A professional-development portfolio system that turns scattered evidence into a clear view of your progress.
-> Pick a framework — a set of criteria, outcomes, or standards — map your claims and evidence against it, and Path shows your coverage and your gaps, so the next step is obvious. One model that serves CPD, fellowship and promotion applications, regulator validation, and student learning portfolios alike.
+> [!info] Career progression, by design.
+> Most tools are a filing cabinet for what you've already done. Path is for the practitioner who treats their development as a direction they choose: aim at a standard, gather evidence as you go, and build a substantiated case for your next step. One model serves CPD, fellowship and promotion applications, regulator validation, and student portfolios alike.
 
 ## What it is
 
-Professional development generates a lot of evidence and very little clarity. Activities, reflections, and credentials accumulate, but the question that matters — am I actually developing toward where I want to be? — stays hard to answer. Path is built on a single model that makes it answerable: a progression framework (criteria, outcomes, or standards) against which you map claims, each backed by supporting evidence, producing a portfolio whose coverage and gaps drive the next move.
+Professional development generates a lot of evidence and very little clarity. Activities, reflections, and credentials accumulate, but the question that matters — *am I actually moving toward where I want to be?* — remains difficult to answer. And most portfolio tools make this worse: they're a filing cabinet for work already done, a place to assemble documentation in a scramble before a renewal deadline.
 
-The model is framework-agnostic. The same structure serves a CPD audit, an AdvanceHE or NTFS fellowship, HCPC or NMC revalidation, a job or promotion application, and student learning portfolios.
+Path starts from the other end. It treats your career as a direction you choose and your development as the deliberate work of getting there. The everyday activity — a course attended, a project led, a patient encounter reflected on — becomes career capital you are banking on purpose, against a standard you are aiming at. The portfolio is a by-product of your progression, not the point of it.
+
+Underneath sits a single model that makes the question answerable: a progression framework (a set of criteria, outcomes, or standards) against which you map claims, each backed by supporting evidence, producing a view of your coverage and your gaps. The model is framework-agnostic. The same structure serves a CPD audit, HCPC or NMC revalidation, a teaching-fellowship or promotion case, a job application, and student learning portfolios, and because it's agnostic, an institution or professional body loads the frameworks it holds the rights to rather than relying on any bundled by Path. Completing any one of them is a means, not an end.
 
 ## What it does
 
-Path treats professional development as a guided route from where you are to where you want to be: pick a destination framework, locate your starting point, and work on the biggest gap next. A theory of expertise development is built into the tool rather than bolted on, drawing on Dreyfus, Ericsson, Schön, Miller, and Wenger. It weighs evidence by strength rather than counting hours — demonstrated competence, not hours logged — and treats gaps prospectively, as a plan rather than a deficit.
+Path treats professional development as a guided route from where you are to where you want to be. Three moves carry it:
 
-![[Media/path-dashboard.png]]
+**Aim at a standard.** Pick a destination: a promotion, a fellowship, a move into a new domain, or a regulator's CPD requirement. Its criteria become the waypoints. Self-assessment against criterion-level descriptors shows where you currently sit on the expertise ladder, so the framework reads as "you are here", not a blank form.
 
-Self-assessment against criterion-level descriptors shows where you are on the expertise ladder. Evidence carries a strength rating so the guidance you get is about quality of evidence, not just coverage. A posture engine reads your data — coverage, deadline, how far you've come — and surfaces what matters next, rather than leaving you to interpret a heatmap alone.
+![[Media/path-home.png]]
 
-![[Media/path-coverage.png]]
+**Gather as you go.** Capture claims, CPD, reflections, and evidence and map them to criteria as the work happens, including a mobile-first capture flow: take a photo, start a note, file it later. A theory of expertise development is built into the tool rather than bolted on, drawing on Dreyfus, Ericsson, Schön, Miller, and Wenger. Path weighs evidence by strength rather than counting hours (i.e. demonstrated competence, not time logged) using Miller's pyramid (knows → knows how → shows how → does) so the guidance you get is about the quality of your evidence, not just its presence.
 
-When you're ready, a private share link gives a mentor, critical friend, or formal reviewer read access to your portfolio without needing an account. They can leave per-criterion feedback and endorse criteria; you see it all inline. Submission-ready Word export and a full Markdown data export (so you always own your portfolio) complete the individual workflow.
+**Prove it — then aim higher.** A live coverage map shows your strengths criterion by criterion and surfaces the highest-value next move. Gaps are treated prospectively, as a plan rather than a deficit. A posture engine reads your data (e.g. coverage, deadline, how far you've come) and tells you what matters next, rather than leaving you to interpret a heatmap alone.
 
-For institutions, the same coverage logic aggregates anonymously — how many staff are working towards each framework, and how far — while consent-gated named access and a managed review workflow (submit → allocate reviewer → feedback → approve) give coordinators the oversight they need without surveillance being the default.
+![[Media/path-coverage-matrix.png]]
 
-![[Media/path-reviews.png]]
+Behind the day-to-day work, Path reframes the whole portfolio as a **career-capital ledger**; the transferable assets that put you in a stronger position later: knowledge, skills, track record, credentials and recognition, network and relationships, and professional identity. A forward layer holds your longer-horizon goals; a journey layer records the moments that shaped the route. Specific frameworks (e.g. a fellowship, a revalidation cycle, a job spec) are campaigns that hang off that spine and share one pool of evidence, so a single piece of work can count toward several at once.
+
+When you're ready, a private share link gives a mentor, critical friend, or formal reviewer read access to your portfolio without needing an account. They can leave per-criterion feedback and endorse criteria, and you see it all inline.
+
+![[Media/path-review.png]]
+
+Privacy is built in: you can blur faces, names, and identifiers in the browser before anything is uploaded, so nothing un-redacted leaves your device — important when CPD touches clinical reflection. Submission-ready Word export and a full Markdown data export (so you always own your portfolio) complete the individual workflow.
+
+![[Media/path-redaction.png]]
+
+For institutions and professional bodies, the same coverage logic aggregates anonymously — how many people are working towards each framework, and how far — while consent-gated named access and a managed review workflow (submit → allocate reviewer → feedback → approve) give coordinators the oversight they need. The principle is visibility without surveillance: individuals stay unnamed until they choose to submit.
+
+![[Media/path-institution.png]]
 
 ## Status
 
-Path is a hosted prototype live at [path-poc.vercel.app](https://path-poc.vercel.app) — a multi-user web application supporting CPD audits, revalidation portfolios, fellowship applications, promotion cases, and institutional review. A pilot with University of Lincoln staff is underway.
+Path is a hosted prototype live at [pathcpd.com](https://pathcpd.com) — a multi-user web application supporting CPD audits, revalidation portfolios, fellowship applications, promotion cases, and institutional review. A closed pilot is underway, with the membership-body case (a federation of institutions, where the buyer is not the user's employer) lined up to test next.
 
-Following a demo to senior academic-development colleagues, who judged the model "more sophisticated than the platforms they use or know of", Path is heading toward a commercial build with the University of Lincoln and is looking for partners to take it further. The likely shape is free for individuals, licensed for institutions. The conceptual layer — a theory of expertise development built into the tool — is the next major piece of work: the model needs to be written as a short essay before the higher-order features (adaptive scaffolding, curriculum generation) can be designed with any rigour.
+Following a demo to senior academic-development colleagues, who judged the model "more sophisticated than the platforms they use or know of", Path is heading toward a commercial build and is looking for partners to take it further. The likely shape is free for individuals, licensed for institutions — the aggregation and review layer is what an organisation buys. The next major piece of work is conceptual rather than technical: the theory of expertise development that the tool already leans on needs to be written down as a short, practical essay before the higher-order features (adaptive scaffolding, AI-assisted planning, curriculum generation) can be designed with any rigour.
+
+The reframe matters more than any single feature. Path keeps "CPD" at the front door, because regulated professionals search for it and must have it — but the career path is the spine that CPD activities feed. *Your CPD isn't a box to tick; it's how you build your career.*
 
 ## Find out more
 
-- Demo: [path-poc.vercel.app](https://path-poc.vercel.app) — explore with the guest account or sign up with a @lincoln.ac.uk email
-- Code: [github.com/michael-rowe/path](https://github.com/michael-rowe/path) — the original prototype
+- Demo: [pathcpd.com](https://pathcpd.com) — explore the live app, or join the waiting list for early access
 - Post: [[Posts/2026-06-08-building-cpd-app|Building a CPD app with Claude Code]] — how the prototype came together over two weekends, and the thinking behind it
