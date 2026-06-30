@@ -93,7 +93,7 @@ The same piece of experience often maps across multiple frameworks simultaneousl
 
 ## Low-friction capture
 
-A single keyboard shortcut (`Ctrl-Alt-c`) opens a picker that lets you choose what kind of record to create; a CPD activity, a reflection (you can currently select from multiple approach, including [Driscoll](https://en.wikipedia.org/wiki/Reflective_practice), [ERA](https://en.wikipedia.org/wiki/Reflective_practice), [Gibbs](https://en.wikipedia.org/wiki/Gibbs%27_reflective_cycle), or [Rolfe](https://en.wikipedia.org/wiki/Reflective_practice)), a claim arguing that a criterion is met, a future-claim flagging planned work, or an evidence artefact. The picker routes to the right template with the right fields pre-populated, including the framework criteria for whichever path is currently active.
+A single keyboard shortcut (`Ctrl-Alt-c`) opens a picker that lets you choose what kind of record to create; a CPD activity, a reflection (you can currently select from multiple approach, including [Driscoll](https://en.wikipedia.org/wiki/Reflective_practice), [ERA](https://en.wikipedia.org/wiki/Reflective_practice), [Gibbs](https://en.wikipedia.org/wiki/Reflective_practice), or [Rolfe](https://en.wikipedia.org/wiki/Reflective_practice)), a claim arguing that a criterion is met, a future-claim flagging planned work, or an evidence artefact. The picker routes to the right template with the right fields pre-populated, including the framework criteria for whichever path is currently active.
 
 ![[path-capture.png|The Capture picker: five record types, one keyboard shortcut.|400]]
 

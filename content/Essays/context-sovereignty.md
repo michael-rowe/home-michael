@@ -175,7 +175,7 @@ Context sovereignty points toward learning environments designed for cultivating
 
 ## References
 
-Allen, L. K., & Kendeou, P. (2023). ED-AI Lit: An Interdisciplinary Framework for AI Literacy in Education. _Journal of Educational Computing Research_. https://doi.org/10.1177/07356331231216550
+Allen, L. K., & Kendeou, P. (2023). ED-AI Lit: An Interdisciplinary Framework for AI Literacy in Education. _Policy Insights from the Behavioral and Brain Sciences_, _11_(1), 3–10. https://doi.org/10.1177/23727322231220339
 
 Anthropic. (2024). Introducing the Model Context Protocol. https://www.anthropic.com/news/model-context-protocol
 
@@ -201,7 +201,7 @@ Freire, P. (2000). _Pedagogy of the oppressed_ (30th anniversary ed). Continuum.
 
 Hummel, P., Braun, M., Tretter, M., & Dabrock, P. (2021). Data sovereignty: A review. _Big Data & Society_, _8_(1), 2053951720982012. https://doi.org/10.1177/2053951720982012
 
-King, S. (2025). Context Engineering: Why Feeding AI the Right Context Matters. Inspired Nonsense blog. https://inspirednonsense.com/context-engineering-why-feeding-ai-the-right-context-matters-353e8f87d6d3
+King, S. (2025). Context Engineering: Why Feeding AI the Right Context Matters. Inspired Nonsense blog. https://inspirednonsense.com/posts/context-engineering-why-feeding-ai-the-right-context-matters/
 
 Lee, D., & Palmer, E. (2025). Prompt engineering in higher education: A systematic review to help inform curricula. _International Journal of Educational Technology in Higher Education_, _22_(1), 7. https://doi.org/10.1186/s41239-025-00503-7
 
@@ -213,7 +213,7 @@ Long, G. (2024). The rise of federated intelligence: From federated foundation m
 
 Nezhurina, M., Cipolina-Kun, L., Cherti, M., & Jitsev, J. (2024). _Alice in Wonderland: Simple Tasks Showing Complete Reasoning Breakdown in State-Of-the-Art Large Language Models_ (No. arXiv:2406.02061). arXiv. https://doi.org/10.48550/arXiv.2406.02061
 
-Nguyen, A., Hong, Y., Dang, B., & Huang, X. (2024). Human-AI collaboration patterns in AI-assisted academic writing. _Higher Education Research & Development_. https://doi.org/10.1080/07294360.2024.2341994
+Nguyen, A., Hong, Y., Dang, B., & Huang, X. (2024). Human-AI collaboration patterns in AI-assisted academic writing. _Studies in Higher Education_, _49_(5), 847–864. https://doi.org/10.1080/03075079.2024.2323593
 
 Piaget, J. (1977). _The development of thought: Equilibration of cognitive structures. (Trans A. Rosin)._ Viking.
 
@@ -229,6 +229,6 @@ Teki, S. (2025). Context Engineering: The Key to Effective AI Agents. Sundeep Te
 
 Wang, L., Zhang, X., Su, H., & Zhu, J. (2024). _A Comprehensive Survey of Continual Learning: Theory, Method and Application_ (No. arXiv:2302.00487). arXiv. https://doi.org/10.48550/arXiv.2302.00487
 
-Yan, L., Zhao, L., Martinez-Maldonado, R., Jin, Y., Gašević, D., Echeverria, V., Nieto, G. F., & Swiecki, Z. (2023). Human-AI Collaboration in Thematic Analysis using ChatGPT: A User Study and Design Recommendations. _Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems_. https://doi.org/10.1145/3544548.3580874
+Yan, L., Echeverria, V., Fernandez-Nieto, G. M., Jin, Y., Swiecki, Z., Zhao, L., Gašević, D., & Martinez-Maldonado, R. (2024). Human-AI Collaboration in Thematic Analysis using ChatGPT: A User Study and Design Recommendations. _Extended Abstracts of the 2024 CHI Conference on Human Factors in Computing Systems_. https://doi.org/10.1145/3613905.3650732
 
 Yan, W. (2025). Don't Build Multi-Agents. Cognition. https://cognition.ai/blog/dont-build-multi-agents.
