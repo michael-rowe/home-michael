@@ -98,6 +98,6 @@ The resistance is revealing. I sometimes wonder if the strongest pushback agains
 ## Sources
 
 - Kahneman, D. (2011). *Thinking, fast and slow*
-- Wiley, D. (2023). [Stochastic parrots and the humans who love them](https://opencontent.org/blog/archives/7046)
+- Wiley, D. (2023). Stochastic parrots and the humans who love them. *iterating toward openness*. (Original post no longer available online.)
 - Gazzaniga, M. S. (2005). Forty-five years of split-brain research and still going strong
 - Miller, G. A. (1956). The magical number seven, plus or minus two

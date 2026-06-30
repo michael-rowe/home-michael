@@ -60,7 +60,7 @@ Professional curricula are comprehensively documented but not systematically que
 > 2. **A three-layer architecture addresses this**. Graph databases as source of truth for curriculum structure, vector databases for semantic retrieval, and a Model Context Protocol layer for role-specific access can reduce compliance reporting from weeks to hours.
 > 3. **The graph inverts the document-centric model**. Changes happen once in the graph and all derived artefacts — module specifications, programme handbooks, VLE structures — are generated from it, eliminating the synchronisation failures that currently plague accreditation cycles.
 > 4. **The same infrastructure supports internal and external quality assurance**. Not only regulatory compliance but also systematic checks against an institution's own design principles, run regularly rather than only at accreditation points.
-> 5. **Technology supports professional judgement rather than replacing it**. The architecture removes technical barriers to interrogating what curricula actually contain; educators retain full authority over what that structure should be and how to interpret it, supporting the competencies required of teachers to design and enact effective feedback and assessment processes (Carless & Winstone, 2023).
+> 5. **Technology supports professional judgement rather than replacing it**. The architecture removes technical barriers to interrogating what curricula actually contain; educators retain full authority over what that structure should be and how to interpret it. Removing the technical overhead frees educators to exercise the feedback-literacy competencies that effective feedback design depends on (Boud & Dawson, 2023).
 
 
 ## Artificial scarcity in curriculum structure
@@ -222,7 +222,7 @@ Biggs, J. B., & Tang, C. (2011). *Teaching for quality learning at university* (
 
 Brink, S., Ehrlinger, L., & Wöß, W. (2021). Curriculum Agility: Responsive Organization, Dynamic Content, and Flexible Education. *IEEE Frontiers in Education Conference (FIE)*. https://doi.org/10.1109/FIE49875.2021.9637255
 
-Carless, D., & Winstone, N. (2023). What feedback literate teachers do: an empirically-derived competency framework. *Higher Education*, *86*(6), 1433–1451. https://doi.org/10.1007/s10734-022-00979-5
+Boud, D., & Dawson, P. (2023). What feedback literate teachers do: an empirically-derived competency framework. *Assessment & Evaluation in Higher Education*, *48*(2), 158–171. https://doi.org/10.1080/02602938.2021.1910928
 
 CAUDIT. (2025). *Higher Education Reference Models (HERM), version 3.2.0*. https://www.caudit.edu.au/communities/caudit-higher-education-reference-models/
 
@@ -232,7 +232,7 @@ Gosper, M., & Ifenthaler, D. (Eds.). (2013). *Curriculum models for the 21st cen
 
 Hilliger, I., Miranda, C., Celis, S., & Perez-Sanagustin, M. (2024). Curriculum analytics adoption in higher education: A multiple case study engaging stakeholders in different phases of design. *British Journal of Educational Technology*, *55*(3), 785–801. https://doi.org/10.1111/bjet.13374
 
-Rowe, M. (2026). Documentation becomes infrastructure when AI agents are the readers. https://michael-rowe.github.io/home-michael/Essays/documentation-as-infrastructure/
+Rowe, M. (2026). Documentation becomes infrastructure when AI agents are the readers. https://michael-rowe.github.io/home-michael/Essays/documentation-as-infrastructure
 
 Tamašauskaitė, R., & Groth, P. (2023). Defining a Knowledge Graph Development Process Through a Systematic Review. *ACM Computing Surveys*. https://doi.org/10.1145/3592624
 UCISA. (2025). *Higher Education Reference Models*. https://www.ucisa.ac.uk/groups/enterprise-architecture/herm

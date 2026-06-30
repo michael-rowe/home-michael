@@ -108,5 +108,5 @@ The risk is not making the wrong choices, but making no choices at all — defau
 ## References
 
 - Anthropic. (2024). *Introducing the Model Context Protocol*. https://www.anthropic.com/news/model-context-protocol
-- Rowe, M. (2026). Context engineering. Concept note. https://www.mrowe.co.za/notes/context-engineering
+- Rowe, M. (2026). Context engineering. Concept note. https://michael-rowe.github.io/home-michael/Notes/context-engineering
 - Rowe, M., & Lynch, W. (2025). Context sovereignty for AI-supported learning: A human-centred approach. Preprint. https://doi.org/10.31219/osf.io/8czva_v1
