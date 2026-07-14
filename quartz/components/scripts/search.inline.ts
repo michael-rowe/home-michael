@@ -89,6 +89,13 @@ const contextWindowWords = 30
 const numSearchResults = 8
 const numTagResults = 5
 
+// Search terms are compiled into RegExp for highlighting; escape regex
+// metacharacters first so a query like "c++" or "assessment (formative"
+// doesn't throw a SyntaxError and silently stop results from updating.
+function escapeRegExp(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+}
+
 const tokenizeTerm = (term: string) => {
   const tokens = term.split(/\s+/).filter((t) => t.trim() !== "")
   const tokenLen = tokens.length
@@ -133,7 +140,7 @@ function highlight(searchTerm: string, text: string, trim?: boolean) {
       // see if this tok is prefixed by any search terms
       for (const searchTok of tokenizedTerms) {
         if (tok.toLowerCase().includes(searchTok.toLowerCase())) {
-          const regex = new RegExp(searchTok.toLowerCase(), "gi")
+          const regex = new RegExp(escapeRegExp(searchTok.toLowerCase()), "gi")
           return tok.replace(regex, `<span class="highlight">$&</span>`)
         }
       }
@@ -161,7 +168,7 @@ function highlightHTML(searchTerm: string, el: HTMLElement) {
   const highlightTextNodes = (node: Node, term: string) => {
     if (node.nodeType === Node.TEXT_NODE) {
       const nodeText = node.nodeValue ?? ""
-      const regex = new RegExp(term.toLowerCase(), "gi")
+      const regex = new RegExp(escapeRegExp(term.toLowerCase()), "gi")
       const matches = nodeText.match(regex)
       if (!matches || matches.length === 0) return
       const spanContainer = document.createElement("span")
@@ -495,8 +502,9 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
 
   document.addEventListener("keydown", shortcutHandler)
   window.addCleanup(() => document.removeEventListener("keydown", shortcutHandler))
-  searchButton.addEventListener("click", () => showSearch("basic"))
-  window.addCleanup(() => searchButton.removeEventListener("click", () => showSearch("basic")))
+  const openBasicSearch = () => showSearch("basic")
+  searchButton.addEventListener("click", openBasicSearch)
+  window.addCleanup(() => searchButton.removeEventListener("click", openBasicSearch))
   searchBar.addEventListener("input", onType)
   window.addCleanup(() => searchBar.removeEventListener("input", onType))
 

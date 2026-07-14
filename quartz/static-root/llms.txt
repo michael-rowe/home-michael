@@ -8,7 +8,7 @@ Michael began his career as a clinical physiotherapist, practicing in South Afri
 He transitioned to academia at the University of the Western Cape (UWC) in South Africa, where he served as a Lecturer, Senior Lecturer, and eventually Associate Professor and Head of the Physiotherapy Department (2017–2021). During his tenure at UWC, he completed his PhD (2012) on blended learning in physiotherapy education, pioneering the design and evaluation of technology-integrated approaches that shifted traditional didactic models toward case-based, technology-enhanced learning.
 
 ## Strategic Leadership and Digital Innovation
-Joining the University of Lincoln in 2022, Michael served as Associate Professor for Digital Innovation and Simulation before being appointed Director of Teaching and Learning in 2025. His leadership is characterized by a "deployment-first" philosophy that bridges high-level scholarship with operational execution. 
+Joining the University of Lincoln in 2022, Michael served as Associate Professor for Digital Innovation and Simulation before being appointed Director of Teaching and Learning in 2025. His leadership is characterized by a "deployment-first" philosophy that bridges high-level scholarship with operational execution.
 
 Key achievements at Lincoln include:
 - **Digital Infrastructure:** Designing and implementing a school-wide digital infrastructure that has seen over 750,000 site visits, facilitating communication and collaboration for 300 academics across 17 programmes.
@@ -16,7 +16,7 @@ Key achievements at Lincoln include:
 - **AI Governance:** Co-founding the university’s first AI working groups (GAIN, DICE, and Strategic Guidance), which have shaped institutional policy on AI literacy and the ethical use of generative AI in teaching and assessment.
 
 ## National and International Influence
-Michael is frequently invited to shape national and international policy for health professions. He serves as an expert on the **Health and Care Professions Council (HCPC)** Standards of Education Panel on AI and is a member of the **Council of Deans of Health (CoDH)** Principles of Generative AI working group. 
+Michael is frequently invited to shape national and international policy for health professions. He serves as an expert on the **Health and Care Professions Council (HCPC)** Standards of Education Panel on AI and is a member of the **Council of Deans of Health (CoDH)** Principles of Generative AI working group.
 
 In 2024, he led the development of the **IFOMPT** international discussion document on AI in physiotherapy, following a global survey and symposium at the World Congress in Basel. In 2025, he delivered the prestigious **Chartered Society of Physiotherapy (CSP) Congress Founders Lecture**, where he introduced the "Context Sovereignty" framework for professional development with AI.
 
@@ -64,9 +64,9 @@ Health professions educators and those involved in developing practitioners at a
 - /Essays/taste-and-judgement/ - Essay on taste and judgement in human-AI systems
 - /Essays/documentation-as-infrastructure/ - Essay on documentation as the infrastructure that makes agentic delegation coherent
 - /Essays/institutional-ai-governance/ - Essay on AI governance in higher education institutions
-- /posts/ai-agents-academic-workflow/ - Post 1: what agentic workflows look like in academic practice
-- /posts/working-effectively-with-ai-agents/ - Post 2: three prerequisites for effective agent-first work (plan, documentation as infrastructure, domain expertise)
-- /posts/ai-agent-governance-higher-education/ - Post 3: what AI agent governance requires at institutional scale; the harness concept
+- /Posts/2026-02-26-ai-agents-academic-workflow/ - Post 1: what agentic workflows look like in academic practice
+- /Posts/2026-03-01-working-effectively-with-ai-agents/ - Post 2: three prerequisites for effective agent-first work (plan, documentation as infrastructure, domain expertise)
+- /Posts/2026-03-03-ai-agent-governance-higher-education/ - Post 3: what AI agent governance requires at institutional scale; the harness concept
 - /Notes/agentic-workflows/ - Concept note: agentic workflows
 - /Notes/harness-engineering/ - Concept note: harness engineering (the architecture that makes delegation coherent)
 - /Notes/context-engineering/ - Concept note: context engineering
