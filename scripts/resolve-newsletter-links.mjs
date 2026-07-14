@@ -10,6 +10,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { slug as slugAnchor } from 'github-slugger';
 import { contentUrl, contentDirs, BASE_URL } from './newsletter-lib.mjs';
 
 const CONTENT_DIRS = contentDirs(['Media']);
@@ -32,6 +33,19 @@ if (!fs.existsSync(inputPath)) {
 function buildLinkMap() {
   const map = new Map();
 
+  function setEntry(stem, url) {
+    // index.md stems all collide and are resolved explicitly to the site
+    // root in resolveWikilinks, so keep them out of the map.
+    if (stem.toLowerCase() === 'index') return;
+    const key = stem.toLowerCase();
+    if (map.has(key) && map.get(key).url !== url) {
+      console.warn(
+        `Warning: duplicate filename stem "${stem}" — [[${stem}]] will resolve to ${url}, not ${map.get(key).url}`,
+      );
+    }
+    map.set(key, { url, stem });
+  }
+
   function walk(dir) {
     if (!fs.existsSync(dir)) return;
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -39,18 +53,7 @@ function buildLinkMap() {
       if (entry.isDirectory()) {
         walk(full);
       } else if (entry.name.endsWith('.md')) {
-        const stem = path.basename(entry.name, '.md');
-        // index.md stems all collide and are resolved explicitly to the site
-        // root in resolveWikilinks, so keep them out of the map.
-        if (stem.toLowerCase() === 'index') continue;
-        const key = stem.toLowerCase();
-        const url = contentUrl(full);
-        if (map.has(key) && map.get(key).url !== url) {
-          console.warn(
-            `Warning: duplicate filename stem "${stem}" — [[${stem}]] will resolve to ${url}, not ${map.get(key).url}`,
-          );
-        }
-        map.set(key, { url, stem });
+        setEntry(path.basename(entry.name, '.md'), contentUrl(full));
       }
     }
   }
@@ -62,8 +65,7 @@ function buildLinkMap() {
   for (const entry of fs.readdirSync('content', { withFileTypes: true })) {
     if (entry.isFile() && entry.name.endsWith('.md')) {
       const stem = path.basename(entry.name, '.md');
-      if (stem.toLowerCase() === 'index') continue;
-      map.set(stem.toLowerCase(), { url: contentUrl(path.join('content', entry.name)), stem });
+      setEntry(stem, contentUrl(path.join('content', entry.name)));
     }
   }
 
@@ -79,25 +81,31 @@ function slugify(text) {
     .replace(/^-+|-+$/g, '');
 }
 
-// Resolve [[filename|display]] or [[filename]] to markdown links
+// Resolve [[filename#anchor|display]] or [[filename]] to markdown links.
+// Anchors are re-slugged with github-slugger to match the heading IDs Quartz
+// itself generates (quartz/plugins/transformers/toc.ts), not carried through
+// as raw heading text. Uses the stateless `slug()` form since duplicate-heading
+// disambiguation (e.g. a second "#Overview" becoming "#overview-1") would
+// require parsing the full heading list of each target document.
 function resolveWikilinks(content, map) {
-  const wikilinkRe = /\[\[([^\]|#]+)(?:#[^\]|]*)?((?:\|[^\]]*)?)\]\]/g;
+  const wikilinkRe = /\[\[([^\]|#]+)(?:#([^\]|]*))?((?:\|[^\]]*)?)\]\]/g;
   let unresolved = [];
 
-  const result = content.replace(wikilinkRe, (match, target, pipeSection) => {
+  const result = content.replace(wikilinkRe, (match, target, anchor, pipeSection) => {
     const displayText = pipeSection ? pipeSection.slice(1).trim() : target.trim();
     const key = target.trim().toLowerCase();
+    const fragment = anchor ? `#${slugAnchor(anchor.trim())}` : '';
 
     // A bare [[index]] is the site home page. Stems collide (every folder has an
     // index.md), so resolve it explicitly to the site root rather than the map.
     if (key === 'index') {
-      return `[${displayText}](${BASE_URL}/)`;
+      return `[${displayText}](${BASE_URL}/${fragment})`;
     }
 
     const entry = map.get(key) || map.get(slugify(key));
 
     if (entry) {
-      return `[${displayText}](${entry.url})`;
+      return `[${displayText}](${entry.url}${fragment})`;
     }
 
     unresolved.push(target.trim());

@@ -29,7 +29,6 @@ import MobileNav from "./MobileNav"
 import CourseGrid from "./CourseGrid"
 import LessonNav from "./LessonNav"
 import CourseButton from "./CourseButton"
-import NotesGrid from "./NotesGrid"
 import NotesByTag from "./NotesByTag"
 import NotesByCategory from "./NotesByCategory"
 import NotesByType from "./NotesByType"
@@ -75,7 +74,6 @@ export {
   CourseGrid,
   LessonNav,
   CourseButton,
-  NotesGrid,
   NotesByTag,
   NotesByCategory,
   NotesByType,

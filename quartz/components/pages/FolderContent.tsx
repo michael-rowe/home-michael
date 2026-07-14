@@ -2,7 +2,6 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 
 import style from "../styles/listPage.scss"
 import { PageList, SortFn } from "../PageList"
-import { NotesGrid } from "../NotesGrid"
 import { NotesByTag } from "../NotesByTag"
 import { CourseLessonList } from "../CourseLessonList"
 import { Root } from "hast"
@@ -165,6 +164,6 @@ export default ((opts?: Partial<FolderContentOptions>) => {
     )
   }
 
-  FolderContent.css = concatenateResources(style, PageList.css, NotesGrid.css, NotesByTag.css, CourseLessonList.css)
+  FolderContent.css = concatenateResources(style, PageList.css, NotesByTag.css, CourseLessonList.css)
   return FolderContent
 }) satisfies QuartzComponentConstructor
