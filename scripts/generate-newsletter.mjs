@@ -66,6 +66,7 @@ function getFrontmatter(filePath) {
     slug: contentUrlPath(filePath),
     filename: path.basename(filePath, '.md'),
     date: null,
+    draft: false,
   };
   try {
     const content = fs.readFileSync(filePath, 'utf8');
@@ -77,6 +78,7 @@ function getFrontmatter(filePath) {
       title: typeof fm.title === 'string' && fm.title.trim() ? fm.title.trim() : fallback.title,
       description,
       date: dateString(fm.date ?? fm.created),
+      draft: fm.draft === true,
     };
   } catch (e) {
     console.warn(`Could not parse frontmatter in ${filePath}: ${e.message}`);
@@ -109,6 +111,7 @@ function getNewContent(dir) {
 
   for (const file of files) {
     const meta = getFrontmatter(file);
+    if (meta.draft) continue; // don't leak embargoed/unpublished content into the draft
     if (meta.date && meta.date.slice(0, 7) === DATE_STR) {
       items.push({ ...meta, path: file });
     }
@@ -140,6 +143,7 @@ function getModifiedRootFiles() {
 
     if (!fs.existsSync(trimmed)) continue;
     const meta = getFrontmatter(trimmed);
+    if (meta.draft) continue; // don't leak embargoed/unpublished content into the draft
 
     // Get the most recent commit subject for this file within the month
     let commitMsg = runGit([
