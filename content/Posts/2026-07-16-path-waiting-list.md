@@ -25,7 +25,7 @@ linkedin:
 > [!info] Not what you've done — what's missing
 > Most CPD tools log activity and produce a submission at the end of a cycle. *[[Projects/path|Path]]* starts from a different question: against the standard you're actually working towards, what haven't you covered yet, and what would close the gap fastest? That's still the whole idea. What's changed is that it's now a real, working app — and I'm opening the waiting list.
 
-A little over a month ago I wrote about [building Path over two weekends](Posts/2026-06-08-building-cpd-app) with Claude Code — a rough, Docker-based prototype that ran on my laptop and that I fully expected nobody else would manage to install. Since then it's been rebuilt from scratch as a proper web app, tested with real users, and used daily for my own promotion evidence. It's still alpha, still invite-only, but it's no longer a demo. I want more people to try it — starting with a waiting list.
+A little over a month ago I wrote about [building Path over two weekends](Posts/2026-06-08-building-cpd-app) with Claude Code. The first prototype was a rough, Docker-based app that ran locally and that I strongly suspect nobody else would be able to get up and running. Since then I've rebuilt it from scratch as a web app, tested with a couple of real users, and am using it regularly for my own development. It's still alpha, still invite-only, but it's no longer a demo. I'd love for more people to try it out, so I've created a waiting list. The reason I have a waiting list is because I'm not sure how much interest there'll be, and I only have limited time to support the app. The best way for me to be sure people have a good experience is to open it up slowly.
 
 ## What Path actually does
 
