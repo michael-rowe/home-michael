@@ -5,7 +5,7 @@ description: "Career progression, by design. Path treats professional developmen
 meta-description: Path turns everyday professional work into deliberate career progression — aim at a standard, gather evidence, build the case for your next step.
 author: "[[Michael Rowe]]"
 created: 2026-05-01
-updated: 2026-06-30
+updated: 2026-07-18
 status: Prototype
 role: Conceived, designed, and built
 tags:
@@ -39,27 +39,38 @@ Path treats professional development as a guided route from where you are to whe
 
 **Aim at a standard.** Pick a destination: a promotion, a fellowship, a move into a new domain, or a regulator's CPD requirement. Its criteria become the waypoints. Self-assessment against criterion-level descriptors shows where you currently sit on the expertise ladder, so the framework reads as "you are here", not a blank form.
 
-![[Media/path-home.png]]
+![[Media/path_home.png|Path's home screen: active paths, tasks drawn from them, and recent activity|580]]
 
-**Gather as you go.** Capture claims, CPD, reflections, and evidence and map them to criteria as the work happens, including a mobile-first capture flow: take a photo, start a note, file it later. A theory of expertise development is built into the tool rather than bolted on, drawing on Dreyfus, Ericsson, Schön, Miller, and Wenger. Path weighs evidence by strength rather than counting hours (i.e. demonstrated competence, not time logged) using Miller's pyramid (knows → knows how → shows how → does) so the guidance you get is about the quality of your evidence, not just its presence.
+**Gather as you go.** Capture claims, CPD, reflections, and evidence and map them to criteria as the work happens.
 
-**Prove it — then aim higher.** A live coverage map shows your strengths criterion by criterion and surfaces the highest-value next move. Gaps are treated prospectively, as a plan rather than a deficit. A posture engine reads your data (e.g. coverage, deadline, how far you've come) and tells you what matters next, rather than leaving you to interpret a heatmap alone.
+![[Media/path_claim.png|A claim in progress, tagged to the criterion it argues|580]]
 
-![[Media/path-coverage-matrix.png]]
+A mobile-first capture flow — take a photo, start a note, file it later — means the evidence you'd otherwise forget gets caught in the moment rather than reconstructed afterwards.
+
+![[Media/path_quick_capture.png|Quick capture on a phone: a photo or a note, filed properly later|580]]
+
+A theory of expertise development is built into the tool rather than bolted on, drawing on Dreyfus, Ericsson, Schön, Miller, and Wenger. Path weighs evidence by strength rather than counting hours — demonstrated competence, not time logged — using Miller's pyramid (knows → knows how → shows how → does), so the guidance you get is about the quality of your evidence, not just its presence.
+
+![[Media/path_evidence.png|A piece of evidence rated against Miller's pyramid — "Shows how" — and linked to the claim it supports|580]]
+
+**Prove it — then aim higher.** A live coverage map shows your strengths criterion by criterion and surfaces the highest-value next move. Gaps are treated prospectively, as a plan rather than a deficit. A posture engine reads your data — coverage, deadline, how far you've come — and tells you what matters next, rather than leaving you to interpret a heatmap alone.
+
+![[Media/path_ntf_framework.png|A framework page: coverage across claims, CPD, reflections, and evidence per criterion, with an auto-generated "here's where to start" prompt|580]]
 
 Behind the day-to-day work, Path reframes the whole portfolio as a **career-capital ledger**; the transferable assets that put you in a stronger position later: knowledge, skills, track record, credentials and recognition, network and relationships, and professional identity. A forward layer holds your longer-horizon goals; a journey layer records the moments that shaped the route. Specific frameworks (e.g. a fellowship, a revalidation cycle, a job spec) are campaigns that hang off that spine and share one pool of evidence, so a single piece of work can count toward several at once.
 
 When you're ready, a private share link gives a mentor, critical friend, or formal reviewer read access to your portfolio without needing an account. They can leave per-criterion feedback and endorse criteria, and you see it all inline.
 
-![[Media/path-review.png]]
+Privacy and security are built in, not bolted on. You can blur faces, names, and identifiers in the browser before anything is uploaded, so nothing un-redacted leaves your device — important when CPD touches clinical reflection. Two-factor authentication keeps the account itself secure. Submission-ready Word export and a full Markdown data export (so you always own your portfolio) complete the individual workflow.
 
-Privacy is built in: you can blur faces, names, and identifiers in the browser before anything is uploaded, so nothing un-redacted leaves your device; important when CPD touches clinical reflection. Submission-ready Word export and a full Markdown data export (so you always own your portfolio) complete the individual workflow.
-
-![[Media/path-redaction.png]]
+![[Media/path_redaction.png|Redacting a name in the browser before evidence is uploaded|400]]
+![[Media/path_security.png|Two-factor authentication, set up in account settings|400]]
 
 For institutions and professional bodies, the same coverage logic aggregates anonymously — how many people are working towards each framework, and how far — while consent-gated named access and a managed review workflow (submit → allocate reviewer → feedback → approve) give coordinators the oversight they need. The principle is visibility without surveillance: individuals stay unnamed until they choose to submit.
 
-![[Media/path-institution.png]]
+![[Media/path_institution.png|An institution dashboard: aggregate member and framework stats, with reporting and review tabs|580]]
+
+![[Media/path_institution_2.png|Aggregate progress by cohort tenure and by framework — patterns across members, never individuals|580]]
 
 ## Status
 

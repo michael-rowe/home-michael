@@ -21,7 +21,7 @@ The projects I'm working on right now, mostly focused on professional developmen
 
 <div class="keynote-row project-row">
 
-<a href="Projects/path"><img src="Media/path-home.png" alt="Path" /><span class="keynote-caption"><strong>Path</strong>: career progression by design — aim at a standard, gather evidence as you go, and build the case for your next step.</span></a>
+<a href="Projects/path"><img src="Media/path_home.png" alt="Path" /><span class="keynote-caption"><strong>Path</strong>: career progression by design — aim at a standard, gather evidence as you go, and build the case for your next step.</span></a>
 
 <a href="Projects/vertex"><img src="Media/vertex_curriculum_development.png" alt="Vertex" /><span class="keynote-caption"><strong>Vertex</strong>: a curriculum knowledge graph for natural-language querying, quality assurance, and compliance.</span></a>
 
