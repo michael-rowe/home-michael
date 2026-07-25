@@ -37,7 +37,7 @@ Every professional framework — a regulator's CPD standard, a fellowship scheme
 
 You pick a framework (or use *Path*'s own generic career framework if you don't have one yet), and start a **path**, which is your attempt at working towards the endpoint of the framework. As you go, you write **claims**: arguments that you meet a specific criterion within the framework. You back each claim with **evidence** — documents, certificates, photos — plus **CPD entries** and **reflections** that support it. Path then shows you a **coverage map**: which criteria are well evidenced, which are thin, and what the single highest-value next move is. *Note: This is a deterministic algorithm, which means it's Path's best guess as to what you could be working on, rather than an oracle telling you what's true.* 
 
-![[path_ntf_framework.png|A framework page showing criteria, an auto-generated "here's where to start" prompt, and a coverage table across claims, CPD, reflections, and evidence.|580]]
+![[path_hpe_framework.png|A framework page showing criteria, an auto-generated "here's where to start" prompt, and a coverage table across claims, CPD, reflections, and evidence.|580]]
 
 Evidence quality matters as much as evidence volume. So *Path* uses [Miller's pyramid](https://www.sciencedirect.com/science/article/pii/S1521693410000519) to distinguish evidence that merely describes something ("knows") from evidence that demonstrates it in context ("shows how") or documents it as everyday practice ("does"). A pile of certificates gives you a record. Evidence weighted by level gives you a stronger, more defensible case for your actual competence in any specific domain.
 

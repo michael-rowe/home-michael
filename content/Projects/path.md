@@ -55,7 +55,7 @@ A theory of expertise development is built into the tool rather than bolted on, 
 
 **Prove it — then aim higher.** A live coverage map shows your strengths criterion by criterion and surfaces the highest-value next move. Gaps are treated prospectively, as a plan rather than a deficit. A posture engine reads your data — coverage, deadline, how far you've come — and tells you what matters next, rather than leaving you to interpret a heatmap alone.
 
-![[Media/path_ntf_framework.png|A framework page: coverage across claims, CPD, reflections, and evidence per criterion, with an auto-generated "here's where to start" prompt|580]]
+![[Media/path_hpe_framework.png|A framework page: coverage across claims, CPD, reflections, and evidence per criterion, with an auto-generated "here's where to start" prompt|580]]
 
 Behind the day-to-day work, Path reframes the whole portfolio as a **career-capital ledger**; the transferable assets that put you in a stronger position later: knowledge, skills, track record, credentials and recognition, network and relationships, and professional identity. A forward layer holds your longer-horizon goals; a journey layer records the moments that shaped the route. Specific frameworks (e.g. a fellowship, a revalidation cycle, a job spec) are campaigns that hang off that spine and share one pool of evidence, so a single piece of work can count toward several at once.
 
