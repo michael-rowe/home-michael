@@ -1,9 +1,12 @@
 ---
-title: Home
+title: AI didn't break professional education — it exposed what was already broken
 tab-title: /home/michael
+meta-description: Michael Rowe on AI, assessment, and how we form health professionals — essays, courses, and working software from the University of Lincoln.
 ---
 
-<img src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" style="float: right; width: 200px; margin-left: 1.5rem; margin-bottom: 0.5rem; margin-top: 5px;" /><span style="display: block; font-size: 0.9rem; font-style: italic; color: var(--gray); margin-bottom: 1.2rem;">Trying to get better at getting better.</span>
+<img class="profile-photo" src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" /><span style="display: block; font-size: 0.9rem; font-style: italic; color: var(--gray); margin-bottom: 1.2rem;">Trying to get better at getting better.</span>
+
+Assessment was already standing in for judgement. Completion was already standing in for competence. The thesis was already standing in for the person. AI didn't introduce those substitutions — it made them impossible to keep ignoring. That is uncomfortable, and it is also the best opening we have had in a generation to build something better.
 
 I work at the intersection of education, technology, and healthcare, asking how we teach, assess, and develop health professionals at a time when AI is reshaping what it means to be a healthcare professional. I'm an Associate Professor and Director of Teaching and Learning at the University of Lincoln, and most of what I do asks how professional education should change — and what's worth protecting — as AI becomes part of everyday practice.
 
@@ -39,6 +42,14 @@ If you're new here, these are representative of the work:
 - An essay on [[Essays/problem-based-learning-structural-conditions-ai|problem-based learning and AI]], arguing that the features that make PBL work — collaborative inquiry, facilitation, and metacognition — are the same conditions that make AI integration educationally productive.
 - My latest [[Newsletters/2026-05|monthly newsletter]], with a few reads I think might be worth your time, some quotes, a debate on AI assessment scales and traffic light systems, and something from my outputs.
 
+## What this has been useful for
+
+> As a member of our AI and Emerging Technology expert panel, Michael played a pivotal role in shaping our proposals for the review of the Standards of Education and Training — strengthening the standards on technology use and our commitment to fairness and accessibility.
+> — *Madeleine Connor, Chair, HCPC Standards of Education and Training review*
+
+> Michael brings the content across with real passion. My students aren't native English speakers, but they understood it through his clearly formulated examples — one told me afterwards, "this session made me look at AI in a completely different way."
+> — *Erwin Van de Put, Thomas More University of Applied Sciences, Belgium*
+
 ## Presentations
 
 I'm often invited to share my thoughts on AI in health professions education; here are some of my favourite presentations from the past couple of years.
@@ -60,14 +71,6 @@ I'm often invited to share my thoughts on AI in health professions education; he
 </div>
 
 Beyond the talks, I'm co-authoring [a book on AI for doctoral researchers](https://www.researchmasterminds.com/ai-and-your-doctorate) with Springer Nature and leading a chapter in a Springer reference volume on AI in medical education.
-
-## Testimonials
-
-> Michael brings the content across with real passion. My students aren't native English speakers, but they understood it through his clearly formulated examples — one told me afterwards, "this session made me look at AI in a completely different way."
-> — *Erwin Van de Put, Thomas More University of Applied Sciences, Belgium*
-
-> As a member of our AI and Emerging Technology expert panel, Michael played a pivotal role in shaping our proposals for the review of the Standards of Education and Training — strengthening the standards on technology use and our commitment to fairness and accessibility.
-> — *Madeleine Connor, Chair, HCPC Standards of Education and Training review*
 
 ## Explore
 
