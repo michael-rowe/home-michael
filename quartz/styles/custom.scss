@@ -289,6 +289,25 @@ body[data-slug="index"] .recent-notes {
   }
 }
 
+// Landing-page portrait. Floated beside the text on wide screens; below 700px
+// the float leaves a ~150px text column on a 390px phone, which shreds the
+// most-read paragraph on the site into five-word lines. Under that breakpoint
+// it becomes a normal block instead.
+.profile-photo {
+  float: right;
+  width: 200px;
+  margin: 5px 0 0.5rem 1.5rem;
+}
+
+@media all and (max-width: 700px) {
+  .profile-photo {
+    float: none;
+    display: block;
+    width: 140px;
+    margin: 0 0 1rem 0;
+  }
+}
+
 // Page CTAs — primary (Start here) + secondary (Subscribe) side by side
 .page-cta {
   margin: 1.5rem 0;
