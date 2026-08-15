@@ -32,7 +32,8 @@ const config: QuartzConfig = {
         lightMode: {
           light: "#faf9f7",
           lightgray: "#e8e2d9",
-          gray: "#a09990",
+          // 4.56:1 on --light — muted, but passes WCAG AA for text (was #a09990, 2.68:1)
+          gray: "#78716c",
           darkgray: "#57534e",
           dark: "#1c1917",
           secondary: "#1d70b8",
@@ -43,7 +44,8 @@ const config: QuartzConfig = {
         darkMode: {
           light: "#131009",
           lightgray: "#2a2418",
-          gray: "#5a5040",
+          // 5.93:1 on --light — passes WCAG AA for text (was #5a5040, 2.38:1)
+          gray: "#9c8f78",
           darkgray: "#d4c9b0",
           dark: "#ede6d6",
           secondary: "#60a5fa",
@@ -74,6 +76,8 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      // Must run after CrawlLinks so image src values are final
+      Plugin.MediaOptimization(),
     ],
     filters: [Plugin.RemoveDrafts(), Plugin.RemoveFuturePublished()],
     emitters: [
@@ -87,6 +91,8 @@ const config: QuartzConfig = {
         enableRSS: true,
       }),
       Plugin.Assets(),
+      // Generates the resized WebP derivatives that MediaOptimization points at
+      Plugin.ImageVariants(),
       Plugin.Static(),
       Plugin.RootStatic(),
       Plugin.Favicon(),

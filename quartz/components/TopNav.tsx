@@ -51,12 +51,24 @@ export default ((opts?: Partial<TopNavOptions>) => {
             if (hasDropdown) {
               return (
                 <li class="has-dropdown">
-                  <a href={href} class="internal" data-no-popover="true" aria-haspopup="true">
+                  <a href={href} class="internal" data-no-popover="true">
                     {link.text}
-                    <svg class="dropdown-arrow" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  </a>
+                  {/* Separate control for the menu. The label above stays a real
+                      link to the section index; this button is what touch and
+                      keyboard users press to reveal the list, since tablets
+                      between 800px and 1200px get this nav but cannot hover. */}
+                  <button
+                    type="button"
+                    class="dropdown-toggle"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    aria-label={`Show ${link.text} menu`}
+                  >
+                    <svg class="dropdown-arrow" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                       <polyline points="6 9 12 15 18 9"></polyline>
                     </svg>
-                  </a>
+                  </button>
                   <ul class="dropdown-menu">
                     {link.dropdown!.map((item) => {
                       const itemHref = resolveRelative(fileData.slug!, item.slug as FullSlug)
@@ -185,13 +197,32 @@ export default ((opts?: Partial<TopNavOptions>) => {
   background-color: transparent;
 }
 
+/* Dropdown toggle button — visually part of the nav label, but a real button */
+.top-nav .dropdown-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--secondary);
+  display: flex;
+  align-items: center;
+  /* Padding, not size, does the work here: keeps the hit area comfortable
+     without pushing the arrow away from its label */
+  padding: 0.75rem 0.4rem 0.75rem 0;
+  margin-left: -0.25rem;
+}
+
+.top-nav .dropdown-toggle:hover {
+  color: var(--tertiary);
+}
+
 /* Dropdown arrow */
 .top-nav .dropdown-arrow {
   transition: transform 0.2s ease;
 }
 
 .top-nav .has-dropdown:hover .dropdown-arrow,
-.top-nav .has-dropdown:focus-within .dropdown-arrow {
+.top-nav .has-dropdown:focus-within .dropdown-arrow,
+.top-nav .has-dropdown.open .dropdown-arrow {
   transform: rotate(180deg);
 }
 
@@ -215,12 +246,30 @@ export default ((opts?: Partial<TopNavOptions>) => {
   z-index: 100;
 }
 
-/* :focus-within keeps the menu open (and its links tabbable) for keyboard users */
+/* :focus-within keeps the menu open (and its links tabbable) for keyboard users.
+   .open is set by the toggle button, which is the only route in on touch. */
 .top-nav .has-dropdown:hover .dropdown-menu,
-.top-nav .has-dropdown:focus-within .dropdown-menu {
+.top-nav .has-dropdown:focus-within .dropdown-menu,
+.top-nav .has-dropdown.open .dropdown-menu {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+}
+
+/* Devices that cannot hover get the menu only via the toggle, so a stray
+   :hover from a tap does not leave it stuck open */
+@media (hover: none) {
+  .top-nav .has-dropdown:hover .dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+  }
+
+  .top-nav .has-dropdown.open .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
 }
 
 .top-nav .dropdown-menu li {
@@ -250,6 +299,49 @@ export default ((opts?: Partial<TopNavOptions>) => {
   }
 }
 `
+
+  TopNav.afterDOMLoaded = `
+    document.addEventListener('nav', () => {
+      const closeAll = (except) => {
+        document.querySelectorAll('.top-nav .has-dropdown.open').forEach(li => {
+          if (li === except) return
+          li.classList.remove('open')
+          li.querySelector('.dropdown-toggle')?.setAttribute('aria-expanded', 'false')
+        })
+      }
+
+      document.querySelectorAll('.top-nav .dropdown-toggle').forEach(toggle => {
+        const parent = toggle.closest('.has-dropdown')
+        const onClick = (e) => {
+          e.preventDefault()
+          const willOpen = !parent.classList.contains('open')
+          closeAll(parent)
+          parent.classList.toggle('open', willOpen)
+          toggle.setAttribute('aria-expanded', String(willOpen))
+        }
+        toggle.addEventListener('click', onClick)
+        window.addCleanup(() => toggle.removeEventListener('click', onClick))
+      })
+
+      // Dismiss on outside click and on Escape
+      const onDocClick = (e) => {
+        if (!e.target.closest('.top-nav .has-dropdown')) closeAll()
+      }
+      const onKey = (e) => {
+        if (e.key !== 'Escape') return
+        const open = document.querySelector('.top-nav .has-dropdown.open')
+        if (!open) return
+        closeAll()
+        open.querySelector('.dropdown-toggle')?.focus()
+      }
+      document.addEventListener('click', onDocClick)
+      document.addEventListener('keydown', onKey)
+      window.addCleanup(() => {
+        document.removeEventListener('click', onDocClick)
+        document.removeEventListener('keydown', onKey)
+      })
+    })
+  `
 
   return TopNav
 }) satisfies QuartzComponentConstructor

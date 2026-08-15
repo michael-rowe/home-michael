@@ -103,7 +103,10 @@ a {
       }
     }
 
-    &:has(> img) {
+    // `picture` as well as `img`: the MediaOptimization transformer wraps
+    // images in <picture>, so the image is a grandchild here.
+    &:has(> img),
+    &:has(> picture) {
       background-color: transparent;
       border-radius: 0;
       padding: 0;
@@ -553,14 +556,36 @@ tr {
 
 img {
   max-width: 100%;
+  // Required companion to the width/height attributes set by the
+  // MediaOptimization transformer: the attributes give the browser an aspect
+  // ratio to reserve space with, and height:auto keeps the image from being
+  // stretched once max-width constrains its width.
+  height: auto;
   border-radius: 5px;
   margin: 1rem 0;
-  content-visibility: auto;
+  // No `content-visibility: auto` here. It makes the browser skip rendering the
+  // image, so its resolved layout width is 0 — which breaks `sizes="auto"`
+  // resource selection and leaves the image permanently unloaded. Native
+  // `loading="lazy"` plus intrinsic width/height attributes (both set by the
+  // MediaOptimization transformer) already defer offscreen work and reserve
+  // space, without the layout instability content-visibility introduces.
 }
 
-p > img + em {
+// Image captions: the em immediately following an image. `picture` is matched
+// too, since MediaOptimization wraps images in it.
+p > img + em,
+p > picture + em {
   display: block;
   transform: translateY(-1rem);
+}
+
+// Makes the <picture> wrapper layout-transparent, so the img participates in
+// its grandparent's layout exactly as it did before wrapping. Without this, an
+// img carrying `float` or a width via inline style would be trapped inside the
+// picture's box and the surrounding text would stop wrapping around it.
+// Safe here because <picture> carries no semantics of its own.
+picture {
+  display: contents;
 }
 
 hr {
