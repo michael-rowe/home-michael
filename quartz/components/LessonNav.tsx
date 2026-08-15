@@ -99,7 +99,8 @@ export default ((opts?: Partial<LessonNavOptions>) => {
   border-radius: 8px;
   background-color: var(--light);
   text-decoration: none;
-  transition: all 0.2s ease;
+  transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease,
+    box-shadow 0.2s ease;
   min-width: 200px;
   max-width: 45%;
 }

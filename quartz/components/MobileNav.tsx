@@ -187,7 +187,7 @@ export default ((opts?: Partial<MobileNavOptions>) => {
             </svg>
           </button>
         </div>
-        <nav class="mobile-nav-content" id="mobile-nav-content">
+        <nav class="mobile-nav-content" id="mobile-nav-content" aria-label="Site menu" inert>
           <div class="mobile-nav-header">
             <span class="mobile-nav-site-title">{cfg.pageTitle}</span>
             <button
@@ -322,12 +322,20 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     right: 0;
     width: 85vw;
     max-width: 320px;
+    /* dvh so the last items stay reachable under mobile browser chrome;
+       vh first as a fallback for browsers without dvh support */
     height: 100vh;
+    height: 100dvh;
     background-color: var(--light);
     border-left: 1px solid var(--lightgray);
     transform: translateX(100%);
-    transition: transform 0.3s ease;
+    /* visibility keeps the closed drawer out of the tab order even if the
+       script fails to apply the inert attribute; it flips discretely, so the
+       slide-out animation still plays before the panel disappears */
+    visibility: hidden;
+    transition: transform 0.3s ease, visibility 0.3s ease;
     overflow-y: auto;
+    overscroll-behavior: contain;
     padding: 1.5rem 1rem 1rem;
     box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
     z-index: 201;
@@ -335,6 +343,7 @@ export default ((opts?: Partial<MobileNavOptions>) => {
 
   .mobile-nav.open .mobile-nav-content {
     transform: translateX(0);
+    visibility: visible;
   }
 
   .mobile-nav-header {
@@ -441,6 +450,9 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     left: 0;
     width: 100vw;
     height: 100vh;
+    /* Matches the drawer: 100vh leaves a strip below mobile browser chrome
+       uncovered, so the page shows through under the overlay. */
+    height: 100dvh;
     background-color: rgba(0, 0, 0, 0.35);
     z-index: 199;
   }

@@ -107,6 +107,17 @@ export default (() => {
         )}
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {/* Tints mobile browser chrome to match the page, per theme */}
+        <meta
+          name="theme-color"
+          content={cfg.theme.colors.lightMode.light}
+          media="(prefers-color-scheme: light)"
+        />
+        <meta
+          name="theme-color"
+          content={cfg.theme.colors.darkMode.light}
+          media="(prefers-color-scheme: dark)"
+        />
 
         <meta name="og:site_name" content={cfg.pageTitle}></meta>
         <meta property="og:title" content={title} />
