@@ -6,9 +6,9 @@ meta-description: Michael Rowe on AI, assessment, and how we form health profess
 
 <img class="profile-photo" src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" /><span style="display: block; font-size: 0.9rem; font-style: italic; color: var(--gray); margin-bottom: 1.2rem;">Trying to get better at getting better.</span>
 
-Assessment was already standing in for judgement. Completion was already standing in for competence. The thesis was already standing in for the person. AI didn't introduce those substitutions — it made them impossible to keep ignoring. That is uncomfortable, and it is also the best opening we have had in a generation to build something better.
+Assessment was already standing in for judgement. Completion was already standing in for competence. The thesis was already standing in for the person. AI didn't introduce those substitutions. It made them impossible to keep ignoring, which is uncomfortable, and is also the best opening we've had in a generation to build something better.
 
-I work at the intersection of education, technology, and healthcare, asking how we teach, assess, and develop health professionals at a time when AI is reshaping what it means to be a healthcare professional. I'm an Associate Professor and Director of Teaching and Learning at the University of Lincoln, and most of what I do asks how professional education should change — and what's worth protecting — as AI becomes part of everyday practice.
+I work on what that takes: how we teach, assess and develop health professionals when the tools can do a convincing impression of the thing we were trying to measure. Most of what I do asks two questions. What should professional education change, and what is worth protecting? I'm an Associate Professor and Director of Teaching and Learning at the University of Lincoln.
 
 My work is shaped by a few commitments. I believe in working in public: open scholarship, open source software, developing ideas in the open, and sharing in the hope that it might be useful to others. My thinking about education owes a lot to critical pedagogy and a broadly anarchist suspicion of hierarchy; who holds power, who gets to decide what counts as knowledge, and how both might be shared more fairly (think, *Rage Against the Machine*, but for academics).
 
@@ -40,7 +40,7 @@ If you're new here, these are representative of the work:
 - A course I built on developing [[Courses/AI literacy/index|AI literacy for academics]], across six dimensions from basic competence to transformation.
 - A one-page guide explaining the design principles of my [[Guides/ai-hpe-framework-guide|theoretical framework for integrating AI]] into health professions education.
 - An essay on [[Essays/problem-based-learning-structural-conditions-ai|problem-based learning and AI]], arguing that the features that make PBL work — collaborative inquiry, facilitation, and metacognition — are the same conditions that make AI integration educationally productive.
-- My latest [[Newsletters/2026-05|monthly newsletter]], with a few reads I think might be worth your time, some quotes, a debate on AI assessment scales and traffic light systems, and something from my outputs.
+- My latest [[Newsletters/2026-07|monthly newsletter]], on what we still add once the machine can do the work better than we can, plus a few reads worth your time and some quotes worth sitting with.
 
 ## What this has been useful for
 
