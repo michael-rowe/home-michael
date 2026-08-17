@@ -43,5 +43,5 @@ Claude code exemplifies the shift toward [[model context protocol|MCP]]-enabled 
 
 ## Sources
 
-- Anthropic. (2025). Claude Code Documentation. https://docs.anthropic.com/en/docs/agents-and-tools/claude-code
+- Anthropic. (2025). Claude Code Documentation. https://docs.claude.com/en/docs/claude-code/overview
 - "Documentation becomes infrastructure when AI agents are the readers." (Rowe, 2026).
