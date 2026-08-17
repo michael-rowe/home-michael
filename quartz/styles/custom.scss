@@ -686,6 +686,18 @@ article p:has(> picture:only-child) {
   text-align: center;
 }
 
+// :only-child counts element children, and text nodes are not elements. So a
+// paragraph that opens with a floated image and then runs straight on into
+// prose still matches the rule above, and the whole paragraph gets centred —
+// which is exactly the landing page's opening paragraph, since it starts with
+// the portrait. Undone here as a separate rule rather than by bolting
+// :not(:has(.profile-photo)) onto the selector above, so the centring rule
+// stays readable and the exception is visible on its own line. Specificity is
+// equal, so this wins on source order: keep it after.
+article p:has(.profile-photo) {
+  text-align: left;
+}
+
 // Prompt blocks (course content): a code block holding a copyable prompt.
 // The copy control is Quartz's native code-block button; this wrapper makes
 // the prompt wrap instead of scrolling horizontally. The `pre > code` overrides

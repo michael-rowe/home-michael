@@ -4,15 +4,22 @@ import { getDate } from "./Date"
 import { classNames } from "../util/lang"
 
 // Sections rendered in this order; only those with content for the month appear.
-const TYPE_SECTIONS: { type: string; label: string }[] = [
-  { type: "essay", label: "Essays" },
-  { type: "presentation", label: "Presentations" },
-  { type: "post", label: "Posts" },
-  { type: "note", label: "Notes" },
-  { type: "guide", label: "Guides" },
-  { type: "framework", label: "Frameworks" },
-  { type: "course", label: "Courses" },
+// Icons are Phosphor regular, the set already loaded site-wide and used on
+// formats.md. Post/essay/note/presentation/course reuse the glyphs that page
+// assigns them, so the same type reads the same way in both places.
+const TYPE_SECTIONS: { type: string; label: string; icon: string }[] = [
+  { type: "essay", label: "Essays", icon: "ph-file-text" },
+  { type: "presentation", label: "Presentations", icon: "ph-presentation" },
+  { type: "post", label: "Posts", icon: "ph-pencil-simple" },
+  { type: "note", label: "Notes", icon: "ph-note" },
+  { type: "guide", label: "Guides", icon: "ph-compass" },
+  { type: "framework", label: "Frameworks", icon: "ph-stack" },
+  { type: "course", label: "Courses", icon: "ph-graduation-cap" },
 ]
+
+// en-GB, spelled out: "18 July 2026". The rolling list previously showed only
+// month and year, which cannot distinguish items published in the same month.
+const formatDate = (d: Date) => `${d.getDate()} ${MONTH_NAMES[d.getMonth()]} ${d.getFullYear()}`
 
 const MONTH_NAMES = [
   "January", "February", "March", "April", "May", "June",
@@ -58,26 +65,29 @@ export default (() => {
 
     if (!pinnedMonth) {
       const latest = published.slice(0, ROLLING_COUNT)
-      const typeLabel = (t?: string) =>
-        TYPE_SECTIONS.find((s) => s.type === t)?.label.replace(/s$/, "") ?? ""
+      const section = (t?: string) => TYPE_SECTIONS.find((s) => s.type === t)
       return (
         <div class={classNames(displayClass, "recently-added-list")}>
-          <h2>Latest</h2>
           {latest.length === 0 && <p>Nothing published yet.</p>}
           <ul>
             {latest.map((p) => {
               const title = (p.frontmatter?.title as string | undefined) ?? (p.slug ?? "")
               const desc = p.frontmatter?.description as string | undefined
               const d = getDate(cfg, p)
-              const when = d ? `${MONTH_NAMES[d.getMonth()]} ${d.getFullYear()}` : ""
+              const s = section(p.frontmatter?.type as string | undefined)
               return (
                 <li>
                   <a href={resolveRelative(fileData.slug!, p.slug!)} class="internal">
                     {title}
                   </a>
                   <span class="ra-meta">
-                    {typeLabel(p.frontmatter?.type as string | undefined)}
-                    {when ? ` · ${when}` : ""}
+                    {s ? (
+                      <>
+                        <i class={`ph ${s.icon}`} aria-hidden="true"></i>
+                        {s.label.replace(/s$/, "")}
+                      </>
+                    ) : null}
+                    {d ? ` · ${formatDate(d)}` : ""}
                   </span>
                   {desc ? <span class="ra-desc">{desc}</span> : null}
                 </li>
@@ -104,17 +114,22 @@ export default (() => {
           if (items.length === 0) return null
           return (
             <div class="ra-section">
-              <h3>{section.label}</h3>
+              <h3>
+                <i class={`ph ${section.icon}`} aria-hidden="true"></i>
+                {section.label}
+              </h3>
               <ul>
                 {items.map((p) => {
                   const title = (p.frontmatter?.title as string | undefined) ?? (p.slug ?? "")
                   const desc = p.frontmatter?.description as string | undefined
+                  const d = getDate(cfg, p)
                   return (
                     <li>
                       <a href={resolveRelative(fileData.slug!, p.slug!)} class="internal">
                         {title}
                       </a>
-                      {desc ? ` — ${desc}` : ""}
+                      {d ? <span class="ra-meta">{formatDate(d)}</span> : null}
+                      {desc ? <span class="ra-desc">{desc}</span> : null}
                     </li>
                   )
                 })}
@@ -127,30 +142,41 @@ export default (() => {
   }
 
   RecentlyAddedList.css = `
-.recently-added-list h2 {
-  margin: 0.5rem 0 0.5rem 0;
-}
 .recently-added-list .ra-section {
   margin-bottom: 1.5rem;
 }
 .recently-added-list .ra-section h3 {
   margin: 1.2rem 0 0.4rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
 }
+/* No bullets: each entry is a title, a meta line and a paragraph, which is a
+   block of content rather than a list item. Bullets against a multi-line block
+   read as clutter and pull the eye away from the title. */
 .recently-added-list ul {
   margin-top: 0.3rem;
+  padding-left: 0;
+  list-style: none;
 }
 .recently-added-list li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.4rem;
 }
 .recently-added-list .ra-meta {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
   font-size: 0.8rem;
   color: var(--darkgray);
-  margin-top: 0.1rem;
+  margin-top: 0.15rem;
+}
+.recently-added-list .ra-meta i {
+  font-size: 1rem;
+  line-height: 1;
 }
 .recently-added-list .ra-desc {
   display: block;
-  margin-top: 0.2rem;
+  margin-top: 0.35rem;
 }
 `
 

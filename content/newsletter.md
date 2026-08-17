@@ -12,7 +12,7 @@ A monthly letter on scholarship, teaching and technology: how we learn, teach, a
 - **Course updates** and new resources
 - **Reads worth your time**, and the occasional quote worth thinking about
 
-Published monthly (or when there's something worth sharing). You can also [[Newsletters|read past issues]].
+Published monthly (or when there's something worth sharing). You can also [read past issues](./Newsletters/).
 
 *If the form doesn't appear below (some Firefox-based browsers don't load the script), you can [subscribe directly here](https://michael-rowe.kit.com/aa8e1aafcf).*
 
