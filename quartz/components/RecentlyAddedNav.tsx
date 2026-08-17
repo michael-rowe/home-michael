@@ -1,5 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { resolveRelative, simplifySlug, SimpleSlug } from "../util/path"
+import { resolveRelative, SimpleSlug } from "../util/path"
+import { comparableSlug, isInSection } from "./utils/slugs"
 import style from "./styles/recentNotes.scss"
 import { classNames } from "../util/lang"
 
@@ -9,8 +10,7 @@ import { classNames } from "../util/lang"
 // `month` frontmatter) are listed below it. Most recent first.
 export default (() => {
   const RecentlyAddedNav: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzComponentProps) => {
-    const currentSlug = simplifySlug(fileData.slug!)
-    if (!(currentSlug === "recently-added" || currentSlug.startsWith("recently-added/"))) {
+    if (!isInSection(fileData.slug!, "recently-added")) {
       return null
     }
 
@@ -43,7 +43,7 @@ export default (() => {
             </div>
           </li>
           {archives.map((file) => {
-            const title = (file.frontmatter?.title as string | undefined) ?? simplifySlug(file.slug!)
+            const title = (file.frontmatter?.title as string | undefined) ?? comparableSlug(file.slug!)
             return (
               <li class="recent-li">
                 <div class="section">
