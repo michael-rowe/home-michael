@@ -7,7 +7,7 @@ description: What I'm currently working on.
 
 ## What I'm working on
 
-Most of my attention is on how scholarly work itself is changing: how knowledge gets made, taught and shared, and what has to hold steady while the tools around it move. AI is part of that question rather than the whole of it.
+Most of my attention at the moment is on building out a product called Path is on how scholarly work itself is changing: how knowledge gets made, taught and shared, and what has to hold steady while the tools around it move. AI is part of that question rather than the whole of it.
 
 Building:
 
