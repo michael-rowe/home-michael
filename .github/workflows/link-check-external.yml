@@ -58,7 +58,11 @@ jobs:
           #     reached through a doi.org redirect from a cited reference, so
           #     the link is correct and the fix belongs to UTS, not to us.
           #     Excluding the host rather than passing --insecure, which would
-          #     disable certificate checking for every link in the run.
+          #     disable certificate checking for every link in the run. The DOI
+          #     itself is excluded too: exclusions match the URL found in the
+          #     page, and the link on the page is the doi.org one, so a host
+          #     exclusion alone never fires — lychee only reaches figshare
+          #     after following the redirect.
           #   gemini.google.com — returns an HTTP/2 protocol error to lychee
           #     from the runner while returning 200 to curl over both HTTP/2
           #     and HTTP/1.1. A client/runner artefact, not link rot.
@@ -67,5 +71,6 @@ jobs:
             --accept 200,206,403,405,429,999 \
             --exclude 'linkedin\.com' \
             --exclude 'figshare\.uts\.edu\.au' \
+            --exclude '10\.71741/4PYXMBNJAQ\.31302475' \
             --exclude 'gemini\.google\.com' \
             --no-progress 'public/**/*.html'
