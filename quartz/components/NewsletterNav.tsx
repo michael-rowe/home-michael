@@ -9,12 +9,24 @@ const MONTH_NAMES = [
   "July", "August", "September", "October", "November", "December",
 ]
 
-// Left-hand "Past issues" panel for the newsletter archive.
-// Lists every published newsletter (type: newsletter), most recent first, labelled by month.
+// Left-hand "Past issues" panel: every published newsletter, most recent first,
+// labelled by month.
+//
+// Deliberately absent from the Newsletters index, which already lists every
+// issue in the body with titles, descriptions and dates. Repeating that list in
+// the sidebar of the page it came from is noise. It stays on individual issues
+// and on the subscribe page, where there is no such list to duplicate and it
+// does real navigational work.
 export default (() => {
   const NewsletterNav: QuartzComponent = ({ fileData, allFiles, cfg, displayClass }: QuartzComponentProps) => {
-    const currentSlug = simplifySlug(fileData.slug!)
-    if (!(currentSlug === "Newsletters" || currentSlug.startsWith("Newsletters/") || currentSlug === "newsletter")) {
+    // simplifySlug leaves a trailing slash on folder pages: "Newsletters/index"
+    // simplifies to "Newsletters/", not "Newsletters", because stripSlashes is
+    // called with onlyStripPrefix. Normalise before comparing.
+    const currentSlug = simplifySlug(fileData.slug!).replace(/\/$/, "")
+    const inSection =
+      currentSlug === "Newsletters" || currentSlug.startsWith("Newsletters/") || currentSlug === "newsletter"
+    const isIndex = currentSlug === "Newsletters"
+    if (!inSection || isIndex) {
       return null
     }
 
