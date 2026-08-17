@@ -681,19 +681,22 @@ a.course-button {
 
 // Centre images that are the sole content of a paragraph. The picture variant
 // covers images wrapped by the MediaOptimization transformer.
-article p:has(> img:only-child),
-article p:has(> picture:only-child) {
+// The :not() guards are load-bearing. :only-child counts element children, and
+// text nodes are not elements — so the landing page's opening paragraph, which
+// starts with the floated portrait and then runs straight on into prose, still
+// matches :only-child and gets centred with it.
+//
+// Excluded here rather than undone by a later rule, because a later rule loses:
+// :has() takes the specificity of its argument, so :has(> picture:only-child)
+// scores a type plus a pseudo-class while :has(.profile-photo) scores one
+// class, and the centring rule wins however the source is ordered.
+article p:has(> img:only-child):not(:has(.profile-photo)),
+article p:has(> picture:only-child):not(:has(.profile-photo)) {
   text-align: center;
 }
 
-// :only-child counts element children, and text nodes are not elements. So a
-// paragraph that opens with a floated image and then runs straight on into
-// prose still matches the rule above, and the whole paragraph gets centred —
-// which is exactly the landing page's opening paragraph, since it starts with
-// the portrait. Undone here as a separate rule rather than by bolting
-// :not(:has(.profile-photo)) onto the selector above, so the centring rule
-// stays readable and the exception is visible on its own line. Specificity is
-// equal, so this wins on source order: keep it after.
+// Belt and braces alongside the :not() guards above: whatever else changes,
+// a paragraph carrying the floated portrait is prose and reads left.
 article p:has(.profile-photo) {
   text-align: left;
 }
