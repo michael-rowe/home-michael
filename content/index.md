@@ -46,7 +46,7 @@ If you're new here, these are representative of the work:
 
 ## Presentations
 
-I'm often invited to share my thoughts on AI in health professions education; here are some of my favourite presentations from the past couple of years.
+I'm often invited to speak about teaching, research and scholarly practice, and what AI is changing about them; here are some of my favourite presentations from the past couple of years.
 
 <div class="keynote-row">
 
