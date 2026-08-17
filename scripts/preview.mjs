@@ -107,9 +107,18 @@ function startServer() {
     const urlPath = decodeURIComponent(req.url.split("?")[0])
     let filePath = path.join(PUBLIC_DIR, urlPath)
 
-    // Resolve directory URLs and extensionless slugs to their index.html
+    // Resolve directory URLs and extensionless slugs to their index.html.
+    //
+    // A slug can exist as both a page and a folder — `recently-added.html`
+    // alongside `recently-added/` holding the month archives. Resolving the
+    // directory first and stopping there 404s the page, because Quartz emits
+    // no index.html for that folder. So fall back to the sibling .html before
+    // giving up, which is what a static host does for the same URL.
     try {
-      if (fs.statSync(filePath).isDirectory()) filePath = path.join(filePath, "index.html")
+      if (fs.statSync(filePath).isDirectory()) {
+        const index = path.join(filePath, "index.html")
+        filePath = fs.existsSync(index) ? index : `${filePath}.html`
+      }
     } catch {
       if (!path.extname(filePath)) filePath += ".html"
     }
