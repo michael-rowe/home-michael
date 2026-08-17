@@ -1,16 +1,10 @@
 ---
-title: AI didn't break professional education — it exposed what was already broken
+title: Trying to get better at getting better
 tab-title: /home/michael
-meta-description: Michael Rowe on AI, assessment, and how we form health professionals — essays, courses, and working software from the University of Lincoln.
+meta-description: Michael Rowe on scholarship, teaching and technology — essays, courses, notes and working software on how knowledge gets made, taught and shared.
 ---
 
-<img class="profile-photo" src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" /><span style="display: block; font-size: 0.9rem; font-style: italic; color: var(--gray); margin-bottom: 1.2rem;">Trying to get better at getting better.</span>
-
-Assessment was already standing in for judgement. Completion was already standing in for competence. The thesis was already standing in for the person. AI didn't introduce those substitutions. It made them impossible to keep ignoring, which is uncomfortable, and is also the best opening we've had in a generation to build something better.
-
-I work on what that takes: how we teach, assess and develop health professionals when the tools can do a convincing impression of the thing we were trying to measure. Most of what I do asks two questions. What should professional education change, and what is worth protecting? I'm an Associate Professor and Director of Teaching and Learning at the University of Lincoln.
-
-My work is shaped by a few commitments. I believe in working in public: open scholarship, open source software, developing ideas in the open, and sharing in the hope that it might be useful to others. My thinking about education owes a lot to critical pedagogy and a broadly anarchist suspicion of hierarchy; who holds power, who gets to decide what counts as knowledge, and how both might be shared more fairly (think, *Rage Against the Machine*, but for academics).
+<img class="profile-photo" src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" />I'm an Associate Professor and Director of Teaching and Learning at the University of Lincoln. For about fifteen years my work has circled one question: how people learn to do difficult work well. Teaching, technology and research each answer part of it, and AI has joined that conversation recently rather than replacing it. I work in public — open scholarship, open source, ideas developed where others can see and use them — partly because I think knowledge belongs to more people than currently hold it, and partly because the work gets better when someone can check it.
 
 <div class="page-cta">
 
@@ -42,7 +36,7 @@ If you're new here, these are representative of the work:
 - An essay on [[Essays/problem-based-learning-structural-conditions-ai|problem-based learning and AI]], arguing that the features that make PBL work — collaborative inquiry, facilitation, and metacognition — are the same conditions that make AI integration educationally productive.
 - My latest [[Newsletters/2026-07|monthly newsletter]], on what we still add once the machine can do the work better than we can, plus a few reads worth your time and some quotes worth sitting with.
 
-## What this has been useful for
+## Testimonials
 
 > As a member of our AI and Emerging Technology expert panel, Michael played a pivotal role in shaping our proposals for the review of the Standards of Education and Training — strengthening the standards on technology use and our commitment to fairness and accessibility.
 > — *Madeleine Connor, Chair, HCPC Standards of Education and Training review*

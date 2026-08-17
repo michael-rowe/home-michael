@@ -1,3 +1,8 @@
+---
+title: soul.md
+draft: true
+---
+
 # soul.md
 
 **Version:** 0.1

@@ -16,18 +16,18 @@ interface MobileNavOptions {
 
 const defaultOptions: MobileNavOptions = {
   links: [
-    { text: "About", slug: "about" },
     { text: "Speaking", slug: "speaking" },
-    { text: "Contact", slug: "contact" },
     { text: "Newsletter", slug: "newsletter" },
+    { text: "About", slug: "about" },
+    { text: "Contact", slug: "contact" },
   ],
   browseLinks: [
     { text: "Posts", slug: "Posts/index" },
-    { text: "Essays", slug: "Essays/index" },
-    { text: "Guides", slug: "Guides/index" },
-    { text: "Notes", slug: "Notes/index" },
-    { text: "Courses", slug: "Courses/index" },
     { text: "Presentations", slug: "Presentations/index" },
+    { text: "Essays", slug: "Essays/index" },
+    { text: "Notes", slug: "Notes/index" },
+    { text: "Guides", slug: "Guides/index" },
+    { text: "Courses", slug: "Courses/index" },
   ],
   essaysLimit: 5,
   postsLimit: 5,

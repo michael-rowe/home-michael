@@ -1,16 +1,16 @@
 ---
 title: Newsletter
-description: Subscribe to updates on AI in health professions education, open scholarly practice, and knowledge work.
+description: Monthly notes on scholarship, teaching and technology — how knowledge gets made, taught and shared, and what AI changes about that.
 ---
 ## Subscribe to updates
 
-Stay connected with my latest thinking on AI in health professions education, open scholarly practice, and knowledge work.
+A monthly letter on scholarship, teaching and technology: how knowledge gets made, taught and shared, and what AI is changing about that.
 
 ### What to expect
 
 - **New essays and posts** as they're published
 - **Course updates** and new resources
-- **Reflections** on scholarly practice and knowledge work
+- **Reads worth your time**, and the occasional quote worth sitting with
 
 Published monthly (or when there's something worth sharing). You can also [[Newsletters|read past issues]].
 
