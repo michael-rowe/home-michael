@@ -1,6 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { resolveRelative } from "../util/path"
-import { comparableSlug, isInSection, isSectionIndex } from "./utils/slugs"
+import { resolveRelative, simplifySlug } from "../util/path"
 import { getDate } from "./Date"
 import style from "./styles/recentNotes.scss"
 import { classNames } from "../util/lang"
@@ -10,19 +9,12 @@ const MONTH_NAMES = [
   "July", "August", "September", "October", "November", "December",
 ]
 
-// Left-hand "Past issues" panel: every published newsletter, most recent first,
-// labelled by month.
-//
-// Deliberately absent from the Newsletters index, which already lists every
-// issue in the body with titles, descriptions and dates. Repeating that list in
-// the sidebar of the page it came from is noise. It stays on individual issues
-// and on the subscribe page, where there is no such list to duplicate and it
-// does real navigational work.
+// Left-hand "Past issues" panel for the newsletter archive.
+// Lists every published newsletter (type: newsletter), most recent first, labelled by month.
 export default (() => {
   const NewsletterNav: QuartzComponent = ({ fileData, allFiles, cfg, displayClass }: QuartzComponentProps) => {
-    const onSubscribePage = comparableSlug(fileData.slug!) === "newsletter"
-    const inSection = isInSection(fileData.slug!, "Newsletters") || onSubscribePage
-    if (!inSection || isSectionIndex(fileData.slug!, "Newsletters")) {
+    const currentSlug = simplifySlug(fileData.slug!)
+    if (!(currentSlug === "Newsletters" || currentSlug.startsWith("Newsletters/") || currentSlug === "newsletter")) {
       return null
     }
 
@@ -41,8 +33,8 @@ export default (() => {
           {issues.map((f) => {
             const d = getDate(cfg, f)
             // Local-time month labels on UTC-midnight dates — see RecentlyAddedList
-            const label = d ? `${MONTH_NAMES[d.getMonth()]} ${d.getFullYear()}` : comparableSlug(f.slug!)
-            const isActive = comparableSlug(f.slug!) === comparableSlug(fileData.slug!)
+            const label = d ? `${MONTH_NAMES[d.getMonth()]} ${d.getFullYear()}` : simplifySlug(f.slug!)
+            const isActive = simplifySlug(f.slug!) === currentSlug
             return (
               <li class={`recent-li${isActive ? " active" : ""}`}>
                 <div class="section">
