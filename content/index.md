@@ -18,7 +18,7 @@ The projects I'm working on right now, mostly focused on professional developmen
 
 <div class="keynote-row project-row">
 
-<a href="Projects/path"><img src="Media/path_home.png" alt="Path" /><span class="keynote-caption"><strong>Path</strong>: career progression by design — aim at a standard, gather evidence as you go, and build the case for your next step.</span></a>
+<a href="Projects/path"><img src="Media/path_home.png" alt="Path" /><span class="keynote-caption"><strong>Path</strong>: a portfolio tool that works towards a standard, so the evidence accumulates as you go rather than being assembled the week before a deadline.</span></a>
 
 <a href="Projects/vertex"><img src="Media/vertex_curriculum_development.png" alt="Vertex" /><span class="keynote-caption"><strong>Vertex</strong>: a curriculum knowledge graph for natural-language querying, quality assurance, and compliance.</span></a>
 
@@ -34,7 +34,7 @@ If you're new here, these are representative of the work:
 - A course I built on developing [[Courses/AI literacy/index|AI literacy for academics]], across six dimensions from basic competence to transformation.
 - A one-page guide explaining the design principles of my [[Guides/ai-hpe-framework-guide|theoretical framework for integrating AI]] into health professions education.
 - An essay on [[Essays/problem-based-learning-structural-conditions-ai|problem-based learning and AI]], arguing that the features that make PBL work — collaborative inquiry, facilitation, and metacognition — are the same conditions that make AI integration educationally productive.
-- My latest [[Newsletters/2026-07|monthly newsletter]], on what we still add once the machine can do the work better than we can, plus a few reads worth your time and some quotes worth sitting with.
+- My latest [[Newsletters/2026-07|monthly newsletter]], asking what we still contribute once the machine does the work better than we do, alongside a few reads and quotes from the past couple of months.
 
 ## Testimonials
 
