@@ -295,8 +295,15 @@ body[data-slug="index"] .recent-notes {
 // it becomes a normal block instead.
 .profile-photo {
   float: right;
-  width: 200px;
+  width: 150px;
   margin: 5px 0 0.5rem 1.5rem;
+}
+
+// Reader mode hides .sidebar.right, .contextual-nav, .ai-literacy-nav and
+// .recent-notes. The landing page renders none of them, so the toggle is a
+// button that visibly does nothing. Hide it rather than leave a dead control.
+body[data-slug="index"] .readermode {
+  display: none;
 }
 
 @media all and (max-width: 700px) {
