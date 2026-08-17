@@ -34,7 +34,7 @@ If you're new here, these are representative of the work:
 - A course I built on developing [[Courses/AI literacy/index|AI literacy for academics]], across six dimensions from basic competence to transformation.
 - A one-page guide explaining the design principles of my [[Guides/ai-hpe-framework-guide|theoretical framework for integrating AI]] into health professions education.
 - An essay on [[Essays/problem-based-learning-structural-conditions-ai|problem-based learning and AI]], arguing that the features that make PBL work — collaborative inquiry, facilitation, and metacognition — are the same conditions that make AI integration educationally productive.
-- My latest [[Newsletters|monthly newsletter]], asking what we still contribute once the machine does the work better than we do, alongside a few reads and quotes from the past couple of months.
+- My latest [[Newsletters/2026-07|monthly newsletter]], asking what we still contribute once the machine does the work better than we do, alongside a few reads and quotes from the past couple of months.
 
 ## Testimonials
 

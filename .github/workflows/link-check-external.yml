@@ -33,6 +33,12 @@ jobs:
           curl -fsSL "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.2/lychee-x86_64-unknown-linux-musl.tar.gz" -o lychee.tar.gz
           echo "73657a111819a30c47c08352896796f23d64e4eb2b3ed39b6d32149241566fc5  lychee.tar.gz" | sha256sum -c -
           tar xzf lychee.tar.gz --strip-components=1 lychee-x86_64-unknown-linux-musl/lychee
+          # Quartz emits root-relative URLs (/home-michael/...). Without a root
+          # dir lychee cannot resolve them and reports "Cannot resolve
+          # root-relative link" as an error, even though --scheme http/https is
+          # meant to skip local links. Same symlink + --root-dir pairing the
+          # deploy gate uses, so both workflows resolve paths identically.
+          ln -sfn public home-michael
           # --scheme http/https restricts to external links (skips local file links,
           # which the deploy gate already covers). Retries + accepted codes reduce
           # noise from rate limiting and transient failures.
@@ -44,7 +50,22 @@ jobs:
           # linkedin.com outright since every page footer links to it and it
           # always returns 999. This keeps a red run meaningful: a reachable-but-
           # broken link (404/410/5xx), not a bot wall.
+          #
+          # Two further exclusions, both verified reachable by hand:
+          #   figshare.uts.edu.au — serves an incomplete TLS chain (missing
+          #     intermediate). curl fails with exit 60 and succeeds with -k;
+          #     browsers fetch the intermediate via AIA and load it fine. It is
+          #     reached through a doi.org redirect from a cited reference, so
+          #     the link is correct and the fix belongs to UTS, not to us.
+          #     Excluding the host rather than passing --insecure, which would
+          #     disable certificate checking for every link in the run.
+          #   gemini.google.com — returns an HTTP/2 protocol error to lychee
+          #     from the runner while returning 200 to curl over both HTTP/2
+          #     and HTTP/1.1. A client/runner artefact, not link rot.
           ./lychee --scheme http --scheme https --max-retries 3 \
+            --root-dir "$PWD" \
             --accept 200,206,403,405,429,999 \
             --exclude 'linkedin\.com' \
+            --exclude 'figshare\.uts\.edu\.au' \
+            --exclude 'gemini\.google\.com' \
             --no-progress 'public/**/*.html'
