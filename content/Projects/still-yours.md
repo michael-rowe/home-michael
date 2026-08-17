@@ -27,9 +27,13 @@ linkedin:
 > [!info] A guide to using AI in postgraduate research, written with Benita Olivier.
 > AI can now produce a great deal of what a research degree asks for. The book takes that seriously rather than arguing around it: the thesis is the artefact, and the researcher is the point.
 
-![[Media/still-yours-cover.png|Still Yours: A Doctoral Researcher's Guide to AI — cover mockup, Benita Olivier and Michael Rowe|320]]
-
 ## What it is
+
+<div class="float-figure">
+
+![[Media/still-yours-cover.png|Still Yours: A Doctoral Researcher's Guide to AI — cover mockup, Benita Olivier and Michael Rowe]]
+
+</div>
 
 *Still Yours: A Doctoral Researcher's Guide to AI* (Springer Nature, expected November 2026) is written with [Benita Olivier](https://www.researchmasterminds.com/), who works with postgraduate researchers across a wide range of disciplines.
 

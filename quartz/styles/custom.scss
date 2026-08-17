@@ -299,6 +299,39 @@ body[data-slug="index"] .recent-notes {
   margin: 5px 0 0.5rem 1.5rem;
 }
 
+// Figure floated beside prose (book covers on project pages, and similar).
+// The wrapper is floated rather than the image itself, so the centring rule
+// for sole-content paragraphs further down can apply harmlessly inside it —
+// the image fills the wrapper either way, and no :not() guard is needed.
+// Same breakpoint reasoning as .profile-photo above: below 700px the float
+// leaves too narrow a text column, so it becomes a centred block.
+.float-figure {
+  float: right;
+  width: 220px;
+  margin: 0.25rem 0 1rem 1.75rem;
+
+  img,
+  picture {
+    display: block;
+    width: 100%;
+    margin: 0;
+    border-radius: 6px;
+    border: 1px solid var(--lightgray);
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .float-figure {
+    float: none;
+    width: 180px;
+    margin: 0 auto 1.5rem;
+  }
+}
+
 // Reader mode hides .sidebar.right, .contextual-nav, .ai-literacy-nav and
 // .recent-notes. The landing page renders none of them, so the toggle is a
 // button that visibly does nothing. Hide it rather than leave a dead control.
