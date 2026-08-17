@@ -28,7 +28,7 @@ A living document of the tools and systems I use for academic work, writing, and
 
 **[Gemini Deep Research](https://gemini.google.com/)** and **[ChatGPT Deep Research](https://openai.com/index/introducing-deep-research/)**. For research discovery and initial literature exploration before diving into primary sources.
 
-**[Snip\d](https://www.snipd.com/). 
+**[Snip\d](https://www.snipd.com/)**. AI-powered podcast client. I'm on the free tier which gives me access to the AI features for 2 episodes per week. Exports snips to Obsidian.
 
 ## This site
 
@@ -52,12 +52,12 @@ A living document of the tools and systems I use for academic work, writing, and
 
 A few principles guide my tool choices:
 
-- **Plain text where possible**. Markdown, not proprietary formats
-- **Own my data**. Self-hosted or exportable, never locked in
-- **Fewer tools, deeper use**. Master a few rather than dabble in many
-- **AI as partner**. Augment thinking, don't outsource it
-- **Open source software**. Prefer tools built by people working together in the open
+- **Plain text where possible**. Markdown, not proprietary formats.
+- **Own my data**. Self-hosted or exportable, never locked in.
+- **Fewer tools, deeper use**. Master a few rather than dabble in many.
+- **AI as partner**. Augment thinking, don't outsource it.
+- **Open source software**. Prefer tools built by people working together in the open.
 
 ---
 
-*This page is updated as my setup evolves. Last updated: March 2026*
+*This page is updated as my setup evolves. Last updated: August 2026.*

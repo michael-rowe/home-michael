@@ -53,7 +53,11 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.RecentlyAddedNav(),
-    Component.NewsletterNav(),
+    // Not on the Newsletters index, which already lists every issue in the body.
+    Component.ConditionalRender({
+      component: Component.NewsletterNav(),
+      condition: (page) => page.fileData.slug !== "Newsletters/index",
+    }),
   ],
   right: [
     Component.ConditionalRender({
@@ -137,7 +141,11 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.ContextualNav(),
     Component.RecentlyAddedNav(),
-    Component.NewsletterNav(),
+    // Not on the Newsletters index, which already lists every issue in the body.
+    Component.ConditionalRender({
+      component: Component.NewsletterNav(),
+      condition: (page) => page.fileData.slug !== "Newsletters/index",
+    }),
   ],
   right: [
     Component.Graph({
