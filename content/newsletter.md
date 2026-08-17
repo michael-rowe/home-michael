@@ -1,6 +1,6 @@
 ---
 title: Newsletter
-description: Monthly notes on scholarship, teaching and technology — how knowledge gets made, taught and shared, and what AI changes about that.
+description: Monthly notes on scholarship, teaching and technology; how we learn, teach, and share, and what AI changes about that.
 ---
 ## Subscribe to updates
 

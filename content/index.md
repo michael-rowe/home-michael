@@ -1,10 +1,10 @@
 ---
 title: Trying to get better at getting better
 tab-title: /home/michael
-meta-description: Michael Rowe on scholarship, teaching and technology — essays, courses, notes and working software on how knowledge gets made, taught and shared.
+meta-description: "Michael Rowe on scholarship, teaching and technology: blog posts, essays, courses, notes and working software on how we learn, teach, and share what we know."
 ---
 
-<img class="profile-photo" src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" />I'm an Associate Professor and Director of Teaching and Learning at the University of Lincoln. For about fifteen years my work has circled one question: how people learn to do difficult work well. Teaching, technology and research each answer part of it, and AI has joined that conversation recently rather than replacing it. I work in public — open scholarship, open source, ideas developed where others can see and use them — partly because I think knowledge belongs to more people than currently hold it, and partly because the work gets better when someone can check it.
+<img class="profile-photo" src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" />I'm an Associate Professor and Director of Teaching and Learning at the University of Lincoln. For most of my academic career my work has been informed by one question: how we learn to do difficult things well. Teaching, technology and research all answer part of it, and AI has recently become central to that conversation. I try to work in public following the traditions of open scholarship and open source software, where ideas are developed in the open so that others can see and use them. This is partly because I think knowledge belongs to more people than currently hold it, and partly because the work gets better when others can check it.
 
 <div class="page-cta">
 
@@ -75,4 +75,4 @@ Browse by [[formats|format]] or [[topics|topic]], or see what's [[recently-added
 > [!NOTE] Previous writing
 > My earlier work lives at [mrowe.co.za](https://www.mrowe.co.za/blog/) (AI and technology-enhanced scholarship) and [Head Space](https://academic-headspace.com/) (calm productivity and sustainable scholarship). Those are now legacy archives; all new work is published here.
 
-If something here is useful, use it. If you spot a gap, an error, or something worth adding, [open an issue on GitHub](https://github.com/michael-rowe/home-michael/issues/new). If you want to respond to any of it, [[contact|get in touch]].
+If you spot a gap, an error, or something worth adding to the site, [open an issue on GitHub](https://github.com/michael-rowe/home-michael/issues/new). If you want to respond to any of it, [[contact|I'd love to hear from you]].
