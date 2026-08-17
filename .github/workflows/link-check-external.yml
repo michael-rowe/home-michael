@@ -44,12 +44,20 @@ jobs:
           # noise from rate limiting and transient failures.
           #
           # Accepted codes beyond 2xx are anti-bot responses we can't act on, not
-          # link rot: 403 (publishers/DOIs blocking HEAD from non-browsers),
+          # link rot: 202 (IEEE Xplore, reached via doi.org), 203 (PubMed),
+          # 403 (publishers/DOIs blocking HEAD from non-browsers),
           # 405 (POST-only endpoints like the contact form rejecting GET),
           # 429 (rate limiting), 999 (LinkedIn's crawler block). Excluding
           # linkedin.com outright since every page footer links to it and it
           # always returns 999. This keeps a red run meaningful: a reachable-but-
           # broken link (404/410/5xx), not a bot wall.
+          #
+          # Two publisher hosts are excluded rather than accepted, because they
+          # fail in ways no status code covers:
+          #   sciencedirect.com — bounces through Elsevier SSO and lands on
+          #     /user/error/ATN-20 with a 400 after five redirects.
+          #   ajhpe.org.za — 302s to itself indefinitely; a hand check times
+          #     out at 40s. The DOI is correct, the journal's site loops.
           #
           # Two further exclusions, both verified reachable by hand:
           #   figshare.uts.edu.au — serves an incomplete TLS chain (missing
@@ -68,8 +76,11 @@ jobs:
           #     and HTTP/1.1. A client/runner artefact, not link rot.
           ./lychee --scheme http --scheme https --max-retries 3 \
             --root-dir "$PWD" \
-            --accept 200,206,403,405,429,999 \
+            --accept 200,202,203,206,403,405,429,999 \
             --exclude 'linkedin\.com' \
+            --exclude 'sciencedirect\.com' \
+            --exclude 'ajhpe\.org\.za' \
+            --exclude '10\.7196/AJHPE' \
             --exclude 'figshare\.uts\.edu\.au' \
             --exclude '10\.71741/4PYXMBNJAQ\.31302475' \
             --exclude 'gemini\.google\.com' \
