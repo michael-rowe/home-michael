@@ -20,9 +20,11 @@ The projects I'm working on right now, mostly focused on professional developmen
 
 <a href="Projects/path"><img src="Media/path_home.png" alt="Path" /><span class="keynote-caption"><strong>Path</strong>: a portfolio tool that works towards a standard, so the evidence accumulates as you go rather than being assembled the week before a deadline.</span></a>
 
-<a href="Projects/vertex"><img src="Media/vertex_curriculum_development.png" alt="Vertex" /><span class="keynote-caption"><strong>Vertex</strong>: a curriculum knowledge graph for natural-language querying, quality assurance, and compliance.</span></a>
+<a href="Projects/still-yours"><img src="Media/still-yours-card.png" alt="Still Yours: A Doctoral Researcher's Guide to AI" /><span class="keynote-caption"><strong>Still Yours</strong>: a book with Benita Olivier on using AI in postgraduate research without giving up the development a research degree exists to produce (Springer Nature, expected November 2026).</span></a>
 
 <a href="Projects/research-harness"><img src="Media/research-harness-guide-thumb.png" alt="The research harness" /><span class="keynote-caption">The <strong>research harness</strong>: a structured operating context for working with AI agents in doctoral research.</span></a>
+
+<a href="Projects/vertex"><img src="Media/vertex_curriculum_development.png" alt="Vertex" /><span class="keynote-caption"><strong>Vertex</strong>: a curriculum knowledge graph for natural-language querying, quality assurance, and compliance.</span></a>
 
 </div>
 
@@ -64,7 +66,7 @@ I'm often invited to speak about teaching, research and scholarly practice, and 
 
 </div>
 
-Beyond the talks, I'm co-authoring [a book on AI for doctoral researchers](https://www.researchmasterminds.com/ai-and-your-doctorate) with Springer Nature and leading a chapter in a Springer reference volume on AI in medical education.
+Beyond the talks, I'm co-authoring [[Projects/still-yours|a book on AI for doctoral researchers]] with Benita Olivier (Springer Nature, expected November 2026), and leading a chapter in a Springer reference volume on AI in medical education.
 
 ## Explore
 
