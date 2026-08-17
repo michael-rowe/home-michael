@@ -332,6 +332,19 @@ body[data-slug="index"] .recent-notes {
   }
 }
 
+// Landing-page section separators. The page runs several unlike sections in
+// sequence — projects, a reading list, testimonials, presentations — and two
+// of them use the same card-row treatment, so the h2s alone don't hold them
+// apart. A hairline above every h2 separates all of them on the same terms,
+// which avoids singling out one section and putting pressure on the rest to
+// earn their own visual device. Landing page only: interior pages have a
+// single subject and don't need it.
+body[data-slug="index"] article > h2 {
+  border-top: 1px solid var(--lightgray);
+  padding-top: 1.75rem;
+  margin-top: 2.75rem;
+}
+
 // Reader mode hides .sidebar.right, .contextual-nav, .ai-literacy-nav and
 // .recent-notes. The landing page renders none of them, so the toggle is a
 // button that visibly does nothing. Hide it rather than leave a dead control.
