@@ -1,5 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { resolveRelative, simplifySlug } from "../util/path"
+import { resolveRelative } from "../util/path"
+import { comparableSlug, isInSection, isSectionIndex } from "./utils/slugs"
 import { getDate } from "./Date"
 import style from "./styles/recentNotes.scss"
 import { classNames } from "../util/lang"
@@ -19,14 +20,9 @@ const MONTH_NAMES = [
 // does real navigational work.
 export default (() => {
   const NewsletterNav: QuartzComponent = ({ fileData, allFiles, cfg, displayClass }: QuartzComponentProps) => {
-    // simplifySlug leaves a trailing slash on folder pages: "Newsletters/index"
-    // simplifies to "Newsletters/", not "Newsletters", because stripSlashes is
-    // called with onlyStripPrefix. Normalise before comparing.
-    const currentSlug = simplifySlug(fileData.slug!).replace(/\/$/, "")
-    const inSection =
-      currentSlug === "Newsletters" || currentSlug.startsWith("Newsletters/") || currentSlug === "newsletter"
-    const isIndex = currentSlug === "Newsletters"
-    if (!inSection || isIndex) {
+    const onSubscribePage = comparableSlug(fileData.slug!) === "newsletter"
+    const inSection = isInSection(fileData.slug!, "Newsletters") || onSubscribePage
+    if (!inSection || isSectionIndex(fileData.slug!, "Newsletters")) {
       return null
     }
 
@@ -45,8 +41,8 @@ export default (() => {
           {issues.map((f) => {
             const d = getDate(cfg, f)
             // Local-time month labels on UTC-midnight dates — see RecentlyAddedList
-            const label = d ? `${MONTH_NAMES[d.getMonth()]} ${d.getFullYear()}` : simplifySlug(f.slug!)
-            const isActive = simplifySlug(f.slug!) === currentSlug
+            const label = d ? `${MONTH_NAMES[d.getMonth()]} ${d.getFullYear()}` : comparableSlug(f.slug!)
+            const isActive = comparableSlug(f.slug!) === comparableSlug(fileData.slug!)
             return (
               <li class={`recent-li${isActive ? " active" : ""}`}>
                 <div class="section">

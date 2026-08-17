@@ -12,15 +12,13 @@ A living document of the tools and systems I use for academic work, writing, and
 
 **[Claude Code](https://claude.ai/code)**. My primary AI collaborator for research, writing, and development. I use it as a thinking partner as well as a content generator, for testing arguments, exploring ideas, building this site, and working through problems. This site is mostly developed through conversation with Claude Code (see *Quartz* below for the foundation).
 
-**[Gemini CLI](https://github.com/google-gemini/gemini-cli)** and **[Qwen CLI](https://github.com/QwenLM/Qwen)**. Alternative AI tools I use alongside Claude for different perspectives and capabilities (and for after I hit my session limit with Claude).
-
 **[Zed](https://zed.dev/)**. A fast, modern code editor I sometimes use for quick edits and writing with AI.
 
 **[Markdown](https://en.wikipedia.org/wiki/Markdown)**. All content is written in plain markdown. No lock-in, version-controllable, portable forever.
 
 ## Research and reading
 
-**[Zen](https://zen-browser.app/welcome/)**. My current primary browser, recently switched from Vivaldi. Firefox-based, minimal, and opinionated in ways I like. Still settling in.
+**[Zen](https://zen-browser.app/welcome/)**. My current primary browser, recently switched from Vivaldi. Firefox-based, minimal, and opinionated in ways I like. Been using it for a few months now and really enjoying it.
 
 **[Ecosia](https://www.ecosia.org/)**. Search engine that plants trees. Good enough for almost all searches, and I like supporting the model.
 
@@ -29,6 +27,8 @@ A living document of the tools and systems I use for academic work, writing, and
 **[Zotero](https://www.zotero.org/)**. Reference management. Free, open source, and works well with Obsidian via plugins.
 
 **[Gemini Deep Research](https://gemini.google.com/)** and **[ChatGPT Deep Research](https://openai.com/index/introducing-deep-research/)**. For research discovery and initial literature exploration before diving into primary sources.
+
+**[Snip\d](https://www.snipd.com/). 
 
 ## This site
 
