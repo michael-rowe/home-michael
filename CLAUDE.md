@@ -431,6 +431,12 @@ linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not
 ```
 *Each project page is surfaced by a card in the `.project-row` grid on `content/index.md` — add the card when the page is created, with an image in `content/Media/`. The grid is three columns, and `.project-row img` crops to 16:10 from the top (`quartz/styles/custom.scss`), so card images should be landscape and composed for that crop. Note that `scripts/validate-taxonomy.mjs` does not currently scan `type: project` files; check tags and categories against `content/personas/taxonomy.md` by hand.*
 
+### Wikilinks: no markdown inside the alias
+
+`[[Projects/still-yours|*Still Yours*]]` **silently fails** and publishes the raw `[[…]]` brackets to the page. Wikilinks are converted to links by a markdown plugin that runs `findAndReplace` over the parsed tree's *text nodes* (`quartz/plugins/transformers/ofm.ts`). Emphasis inside the alias makes remark split the line into text + emphasis + text nodes before that runs, so the regex never sees a complete wikilink in one text node. The same applies to backticks, bold, and underscores in the alias.
+
+Use a plain alias (`[[Projects/still-yours|Still Yours]]`), or a normal markdown link if the formatting matters. Nothing warns you — the build succeeds and the page renders with visible brackets, so check the rendered paragraph, not just that the slug appears somewhere in the HTML (the related-content sidebar produces the same href and will mask the failure).
+
 ### YAML conventions
 
 - **Author format**: Essays use list format (`author: ["[[Michael Rowe]]"]`); posts, notes, and lessons use scalar (`author: "[[Michael Rowe]]"`). Always wiki-link format.
