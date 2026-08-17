@@ -298,6 +298,7 @@ Content lives in `content/` directory (ignored by git per configuration):
 | `content/Frameworks/` | Framework documents |
 | `content/Newsletters/` | Newsletter drafts and archives |
 | `content/Presentations/` | Conference and invited presentation pages with embedded slides |
+| `content/Projects/` | Project pages for ongoing work (software, frameworks, books), linked from the home page project cards |
 | `content/templates/` | Content templates (excluded from build) |
 | `content/personas/` | AI reviewer persona files (excluded from build) |
 
@@ -410,6 +411,25 @@ date: YYYY-MM-DD
 draft: true
 linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
 ```
+
+**`type: project`** — Project pages (within `content/Projects/`)
+```yaml
+type: project
+title: ""
+description: ""          # 3-5 sentences for index listings; the home page card carries its own shorter copy
+meta-description: ""     # Under 155 chars
+author: "[[Michael Rowe]]"
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+status: ""               # Free text stage: Active | Prototype | In production
+role: ""                 # Michael's role, e.g. "Conceived, designed, and built"
+tags: []
+category: []             # Always list format
+related: []              # Wiki-link format: ["[[Projects/slug]]"]
+draft: false
+linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
+```
+*Each project page is surfaced by a card in the `.project-row` grid on `content/index.md` — add the card when the page is created, with an image in `content/Media/`. The grid is three columns, and `.project-row img` crops to 16:10 from the top (`quartz/styles/custom.scss`), so card images should be landscape and composed for that crop. Note that `scripts/validate-taxonomy.mjs` does not currently scan `type: project` files; check tags and categories against `content/personas/taxonomy.md` by hand.*
 
 ### YAML conventions
 
