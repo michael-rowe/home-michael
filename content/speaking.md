@@ -1,10 +1,10 @@
 ---
 title: Speaking
-description: Invited talks, workshops, and presentations on AI in health professions education and practice.
+description: Invited talks, workshops and presentations on teaching, research and scholarly practice, and what AI is changing about them.
 enableToc: true
 ---
 
-I speak at conferences, universities, and professional organisations about artificial intelligence in health professions education and clinical practice. My talks aim to help audiences make sense of this moment — what AI actually means for how we teach, learn, and practise.
+I speak at conferences, universities and professional organisations about how teaching, research and scholarly practice are changing, and what AI has to do with it. Most of that work is grounded in health professions education, where I've spent my career, though the questions travel further than that. My talks aim to help audiences make sense of this moment: what AI actually means for how we teach, learn and practise.
 
 ## Watch a recent talk
 

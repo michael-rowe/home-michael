@@ -11,7 +11,7 @@ My scholarship focuses on the transformative potential of digital technologies i
 
 This site is a framework for the entire knowledge creation pipeline — from identifying problems worth solving, to learning systematically, to sharing what you've learned in ways that matter. It's not just about publishing differently; it's about working differently as someone who creates and shares knowledge.
 
-The content here reflects a commitment to open scholarly practice: understanding develops through relationships, networks, and dynamic interactions. This approach is particularly relevant in an era of rapid technological change, information abundance, and interconnected challenges in health professions education.
+The content here reflects a commitment to open scholarly practice: understanding develops through relationships, networks, and dynamic interactions. This approach is particularly relevant in an era of rapid technological change, information abundance, and interconnected challenges in how knowledge gets made, taught and shared.
 
 ## Purpose
 
