@@ -21,7 +21,7 @@ related:
   - "[[Posts/2026-06-11-verification-trap]]"
 draft: false
 enableToc: true
-linkedin:
+linkedin: 2026-08-18
 ---
 
 > [!info] A fluent draft no longer tells you whether the thinking happened
