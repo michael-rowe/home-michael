@@ -27,12 +27,6 @@ export default ((opts?: Partial<ContextualNavOptions>) => {
   }: QuartzComponentProps) => {
     const currentSlug = fileData.slug!
 
-    // Don't show ContextualNav for AI literacy course (has its own navigation)
-    // But DO show it for the index page (type: course)
-    if (currentSlug.startsWith("Courses/AI-literacy/") && fileData.frontmatter?.type !== "course") {
-      return null
-    }
-
     // Determine which section we're in
     const isEssays = currentSlug.startsWith("Essays/")
     const isPosts = currentSlug.startsWith("Posts/")
