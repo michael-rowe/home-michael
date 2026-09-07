@@ -180,7 +180,10 @@ ul.toc-content a {
   align-items: center;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
   transition: box-shadow 0.3s ease;
-  border: 1px solid var(--border);
+  // --border is only defined inside .callout[data-callout=...] scopes, never on
+  // :root, so referencing it here left the shorthand invalid and the cards
+  // borderless. Use the tip/success accent directly.
+  border: 1px solid #00bfa544;
 }
 
 .flip-card:hover .flip-card-front,
@@ -192,7 +195,6 @@ ul.toc-content a {
 .flip-card-front,
 .flip-card-back {
   background-color: #00bfa510;
-  border-color: #00bfa544;
 }
 
 .flip-card-front h3 {

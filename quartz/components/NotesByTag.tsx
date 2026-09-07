@@ -1,4 +1,4 @@
-import { FullSlug, resolveRelative } from "../util/path"
+import { FullSlug, resolveRelative, slugTag } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { Date, getDate } from "./Date"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
@@ -67,7 +67,7 @@ export const NotesByTag: QuartzComponent = ({ cfg, fileData, allFiles }: QuartzC
               </h2>
               {tag !== "Untagged" && (
                 <a
-                  href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
+                  href={resolveRelative(fileData.slug!, `tags/${slugTag(tag)}` as FullSlug)}
                   class="tag-view-all"
                 >
                   View all {total} →
@@ -106,7 +106,7 @@ export const NotesByTag: QuartzComponent = ({ cfg, fileData, allFiles }: QuartzC
 
             {hasMore && tag !== "Untagged" && (
               <a
-                href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
+                href={resolveRelative(fileData.slug!, `tags/${slugTag(tag)}` as FullSlug)}
                 class="tag-show-more"
               >
                 Show {total - 5} more notes →

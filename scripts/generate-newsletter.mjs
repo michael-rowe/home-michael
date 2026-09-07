@@ -25,6 +25,13 @@ if (!Number.isInteger(targetMonth) || targetMonth < 1 || targetMonth > 12) {
   process.exit(1);
 }
 
+// Validate year — an unparseable year yields NaN and writes a NaN-MM draft
+// straight into the content tree.
+if (!Number.isInteger(targetYear) || targetYear < 1970 || targetYear > 2200) {
+  console.error('Year must be a four-digit year between 1970 and 2200');
+  process.exit(1);
+}
+
 // Configuration
 const OUTPUT_DIR = 'content/Newsletters';
 const DATE_STR = `${targetYear}-${String(targetMonth).padStart(2, '0')}`;
