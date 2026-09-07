@@ -21,11 +21,11 @@ export default ((opts?: Partial<CourseGridOptions>) => {
     const courseFolderPattern = new RegExp(`^${options.coursesFolder}/([^/]+)/(landing-page|index)$`)
 
     const courses = allFiles
-      .filter((file) => file.slug?.match(courseFolderPattern) !== null)
-      .map((file) => {
-        const match = file.slug!.match(courseFolderPattern)
-        const courseName = match?.[1] || ""
-        return {
+      .flatMap((file) => {
+        const match = file.slug?.match(courseFolderPattern)
+        if (!match) return []
+        const courseName = match[1] || ""
+        return [{
           slug: file.slug!,
           title: file.frontmatter?.title || courseName,
           description: file.frontmatter?.description || "",
@@ -34,7 +34,7 @@ export default ((opts?: Partial<CourseGridOptions>) => {
           duration: file.frontmatter?.duration as string | undefined,
           level: file.frontmatter?.level as string | undefined,
           color: file.frontmatter?.color as string | undefined,
-        }
+        }]
       })
       .sort((a, b) => {
         const statusOrder: Record<string, number> = {

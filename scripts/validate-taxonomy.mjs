@@ -165,8 +165,11 @@ for (const filePath of files) {
       if (!malformedTags.has(key)) malformedTags.set(key, new Set())
       malformedTags.get(key).add(filePath)
     } else {
-      if (!unknownTags.has(normalised)) unknownTags.set(normalised, new Set())
-      unknownTags.get(normalised).add(filePath)
+      // Key on the canonical hyphenated form, so the suggested line printed by
+      // the report is one that will actually validate once added to taxonomy.md.
+      const canonical = normalised.replace(/ /g, '-')
+      if (!unknownTags.has(canonical)) unknownTags.set(canonical, new Set())
+      unknownTags.get(canonical).add(filePath)
     }
   }
 }
