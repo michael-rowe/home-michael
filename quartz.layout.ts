@@ -52,6 +52,15 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.DesktopOnly(Component.TableOfContents()),
       condition: (page) => page.fileData.slug !== "index",
     }),
+    // Course lessons only. ae6f98d7 replaced ContextualNav with
+    // TableOfContents on content pages, which was right for essays and posts
+    // (RelatedContent covers them) but left lesson pages with no desktop route
+    // through the course — only LessonNav's prev/next, plus the mobile drawer
+    // under 800px.
+    Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.ContextualNav()),
+      condition: (page) => page.fileData.frontmatter?.type === "lesson",
+    }),
     Component.RecentlyAddedNav(),
     // Not on the Newsletters index, which already lists every issue in the body.
     Component.ConditionalRender({
