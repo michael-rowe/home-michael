@@ -25,16 +25,16 @@ The response, I suggest, is to raise our expectations for what education can be 
 ## Upcoming talks
 
 ### AI in school-based occupational therapy practice
-**TBD (May–July 2026)** · AI in OT Summit, OT Schoolhouse — Online
+**Date to be confirmed** · AI in OT Summit, OT Schoolhouse — Online
 
 An invited session for school-based occupational therapists on AI in clinical practice and practice management, tailored to educational settings. Topics include clinical judgement and professional responsibility when using AI in schools, documentation and workflow during IEP seasons, and ethical considerations in educational environments.
 
 ---
 
-### AI in physiotherapy education and research
-**4 September 2026** · South African Society of Physiotherapy Symposium — Online
+### AI in private physiotherapy practice
+**9 September 2026** · International Private Physiotherapy Association Business Meeting — Hamburg
 
-An invited panel discussion at the SASP Symposium 2026 in Johannesburg on AI and the future of physiotherapy practice. The panel includes two medical doctors sharing clinical AI use, with this contribution focusing on AI in physiotherapy education and research. Online participation from the UK.
+A full-day workshop for IPPTA delegates on AI in private practice, run in person as four 90-minute sessions: the do's and don'ts of AI in private practice, creating content, communication assistance, and sustaining AI literacy through structural integration. The day closes with a prototype-building exercise, so delegates leave having built something for their own practice rather than only having heard about it.
 
 ---
 
@@ -42,6 +42,13 @@ An invited panel discussion at the SASP Symposium 2026 in Johannesburg on AI and
 **24 September 2026** · Association of Trauma and Orthopaedic Chartered Physiotherapists conference — London
 
 An invited presentation for the ATOCP session at the BOA Annual Congress 2026 at Olympia, London. As AI systems become more capable at diagnosis, empathy, and clinical reasoning, practitioners who control their context more effectively will also control the meaning of their AI interactions. The therapeutic relationship will transform into negotiation between patient-AI and clinician-AI coalitions, requiring ongoing work to bring context to practice.
+
+---
+
+### Global Summit on AI in Physiotherapy
+**10–11 October 2026** · World Physiotherapy and the Taiwan Physical Therapy Association — Taipei
+
+An invitation-only summit convened for World Physiotherapy's 75th anniversary, bringing together a small group of experts across clinical practice, education, and research and innovation. I lead the Education pillar, which has been meeting online since July. The group's work feeds into the Taipei Declaration on the responsible use of AI in physiotherapy, which will inform World Physiotherapy's global guidance.
 
 ---
 
@@ -53,11 +60,29 @@ A four-hour practical masterclass for private practice clinicians across physiot
 ---
 
 ### Partner or foe? The rising role of AI in nursing and allied health practice
-**30 October 2026** · Sidra Medicine — Online
+**29–31 October 2026** · Sidra Medicine Paediatric Neurosciences Conference, Doha — presented remotely
 
 An invited talk for Sidra Medicine on the role of AI in nursing and allied health practice: where AI genuinely supports clinical work, where it falls short, and how practitioners can engage with it as a professional tool rather than treating it as either saviour or threat.
 
 ## Past presentations
+
+### New therapeutic alliances
+**4 September 2026** · South African Society of Physiotherapy Symposium — Online
+
+An invited panel presentation at the SASP Symposium 2026, on AI and the future of physiotherapy education. Patients are already arriving at consultations having consulted AI first, and are increasingly able to get genuinely useful health guidance from it. The talk asks what that means for practice, research and education — not whether AI will replace clinical judgement, but how the profession prepares students and practitioners for patients who bring an AI-shaped health literacy into the room.
+
+[[Presentations/2026-09-04-sasp-ai-future-physiotherapy-education|Slides and overview →]]
+
+---
+
+### Better than, or better with?
+**5 September 2026** · South African Society of Physiotherapy Symposium — Online
+
+A follow-on panel presentation the next day, on ethics and the use of AI in physiotherapy. It argues against framing AI in healthcare as a capability contest to be won or lost, and asks a more uncomfortable question: whether keeping the human in the loop is sometimes less about patient benefit than about our own discomfort with the alternative. It closes with concrete ways to bring AI into the clinical conversation rather than manage it as a threat.
+
+[[Presentations/2026-09-05-sasp-ethics-ai-physiotherapy|Slides and overview →]]
+
+---
 
 ### AI and the learning alignment problem
 **11 June 2026** · Global Research Nursing Education Network — Online
@@ -90,11 +115,20 @@ An invited lecture for MACP members merging practical AI integration with a phil
 ---
 
 ### Beyond the dataset — AI and the future of research
-**24 April 2026** · Physiotherapy Research Society Annual Conference — Online
+**24 April 2026** · Physiotherapy Research Society Annual Conference — Hatfield
 
 Keynote for the 44th PRS Annual Conference, themed "Beyond the Dataset: Engaging People, Powering Change." The thesis is the artefact; the researcher is the product. AI can now execute much of the work through which doctoral researchers have traditionally formed their expertise. The talk explores the different relationships researchers build with AI, asks which struggles are formative and which are merely tedious, and argues that as AI becomes more capable, specifically human contributions — research taste, evaluative judgement, and the capacity to set direction — become more valuable, not less.
 
 [[Presentations/2026-04-24-beyond-the-artifact-prs|Slides and overview →]]
+
+---
+
+### What is the work?
+**15 April 2026** · RCN Education Conference — Exeter
+
+Keynote for the Royal College of Nursing's Education conference, hosted with the University of Exeter. Generative AI has severed the inferential chain between an assessment artefact and the learning it was meant to evidence. The talk works from the current AI landscape through the premises of nursing formation to why discursive responses — policies, declarations, honour codes — cannot address what is a structural problem.
+
+[[Presentations/2026-04-15-what-is-the-work-rcn|Slides and overview →]]
 
 A fuller list of past presentations, with slides and abstracts where available, is on the [[Presentations/index|presentations page]].
 
