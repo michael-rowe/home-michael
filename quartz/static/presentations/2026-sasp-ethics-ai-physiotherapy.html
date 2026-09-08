@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Better than, or better with?</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+  :root{
+    --bg: #f9f9f7;
+    --bg-margin: #efeee7;
+    --fg: #14160f;
+    --fg-soft: #3c3d33;
+    --fg-muted: #6b6b5c;
+    --rule: #dcdbcd;
+    --accent: #4f7756;
+    --accent-ink: #f7faf5;
+    --accent-wash: #e7ede4;
+    --shadow-ghost: #14160f;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg: #0d0e0a;
+      --bg-margin: #131409;
+      --fg: #f2f2ea;
+      --fg-soft: #cdcdbd;
+      --fg-muted: #8b8c7c;
+      --rule: #2b2c22;
+      --accent: #8fb896;
+      --accent-ink: #0d130e;
+      --accent-wash: #1a2318;
+      --shadow-ghost: #f2f2ea;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg: #0d0e0a;
+    --bg-margin: #131409;
+    --fg: #f2f2ea;
+    --fg-soft: #cdcdbd;
+    --fg-muted: #8b8c7c;
+    --rule: #2b2c22;
+    --accent: #8fb896;
+    --accent-ink: #0d130e;
+    --accent-wash: #1a2318;
+    --shadow-ghost: #f2f2ea;
+  }
+
+  *{ box-sizing: border-box; }
+  html{ scroll-behavior: smooth; }
+  body{
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: 'Fraunces', Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .deck{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100dvh;
+  }
+  .slide{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    min-height: 100dvh;
+    display: grid;
+    position: relative;
+  }
+
+  /* ---------- content slide layout: single full-width column ---------- */
+  .slide--content{
+    grid-template-columns: 1fr;
+  }
+  .slide__progress{
+    position: absolute;
+    right: clamp(1.75rem, 6vw, 6rem);
+    bottom: clamp(1.2rem, 2.4vw, 1.8rem);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: .8rem;
+    color: var(--fg-muted);
+    letter-spacing: .06em;
+  }
+  .slide__progress b{ color: var(--fg-soft); font-weight: 700; }
+
+  .slide__main{
+    padding: clamp(1.2rem, 3.4vw, 2.4rem) clamp(1.75rem, 6vw, 6rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: clamp(.8rem, 1.4vw, 1.2rem);
+    max-width: 76rem;
+  }
+  .slide__eyebrow{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.15rem;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 700;
+  }
+  h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    font-size: clamp(2.2rem, 1.8vw + 1.9rem, 3.3rem);
+    line-height: 1.05;
+    margin: 0;
+    letter-spacing: -.01em;
+    max-width: 22ch;
+  }
+  h1 em{
+    font-style: italic;
+    color: var(--accent);
+  }
+
+  ul.points{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(.5rem, 1vw, .8rem);
+  }
+  ul.points li{
+    font-size: clamp(1.65rem, 1.1vw + 1.15rem, 2.05rem);
+    line-height: 1.3;
+    padding-left: 1.5rem;
+    position: relative;
+    max-width: 62ch;
+    color: var(--fg-soft);
+  }
+  ul.points li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: .62em;
+    width: .55rem;
+    height: 1px;
+    background: var(--accent);
+  }
+  ul.points li strong{
+    color: var(--fg);
+    font-weight: 600;
+  }
+  ul.points li em{
+    color: var(--fg);
+    font-style: italic;
+  }
+  ul.points li.ask{
+    color: var(--accent);
+    font-style: italic;
+  }
+
+  /* Denser variant for slides with more/longer bullets than the design
+     norm — keeps everything on one page without cutting content. */
+  ul.points.tight{ gap: clamp(.35rem, .7vw, .55rem); }
+  ul.points.tight li{
+    font-size: clamp(1.3rem, .8vw + 1rem, 1.6rem);
+    line-height: 1.28;
+    max-width: 68ch;
+  }
+
+  .cite{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: .84em;
+    color: var(--fg-muted);
+    letter-spacing: .01em;
+    font-style: normal;
+    white-space: nowrap;
+  }
+
+  /* ---------- title / thanks slides ---------- */
+  .slide--title{
+    place-items: center;
+    text-align: center;
+    background: var(--bg);
+    padding: 2rem;
+  }
+  .title-ghost{
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  .title-ghost span{
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    font-size: min(38vw, 26rem);
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--rule);
+    white-space: nowrap;
+  }
+  .title-card{ position: relative; z-index: 1; max-width: 48rem; }
+  .title-eyebrow{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.05rem;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+  }
+  .title-card h1{
+    font-size: clamp(2.4rem, 6vw, 4.6rem);
+    max-width: none;
+    margin-bottom: 1.1rem;
+  }
+  .title-sub{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: clamp(1.3rem, 1.6vw, 1.5rem);
+    color: var(--fg-soft);
+    font-weight: 500;
+    margin-bottom: 2.6rem;
+  }
+  .title-byline{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.2rem;
+    color: var(--fg-muted);
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+  }
+  .title-byline strong{ color: var(--fg); font-weight: 600; }
+  .title-rule{
+    width: 3rem;
+    height: 2px;
+    background: var(--accent);
+    margin: 1.8rem auto;
+    border: none;
+  }
+
+  /* ---------- close slide ---------- */
+  .slide--close{
+    place-items: center;
+    background: var(--accent);
+    color: var(--accent-ink);
+    text-align: left;
+    padding: 2rem;
+  }
+  .slide--close .close-card{ max-width: 50rem; width: 100%; }
+  .slide--close .slide__eyebrow{ color: var(--accent-ink); }
+  .slide--close h1{ color: var(--accent-ink); max-width: 18ch; }
+  .slide--close ul.points li{ color: var(--accent-ink); }
+  .slide--close ul.points li strong{ color: var(--accent-ink); }
+  .slide--close ul.points li::before{ background: var(--accent-ink); opacity: .6; }
+  .slide--close .cite{ color: var(--accent-ink); opacity: .75; }
+
+  /* ---------- nav chrome ---------- */
+  .dots{
+    position: fixed;
+    right: clamp(.9rem, 2vw, 1.6rem);
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: .55rem;
+    z-index: 20;
+  }
+  .dots button{
+    width: .5rem; height: .5rem;
+    border-radius: 50%;
+    border: 1px solid var(--fg-muted);
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    transition: transform .3s cubic-bezier(.16,1,.3,1), background .3s;
+  }
+  .dots button[aria-current="true"]{
+    background: var(--accent);
+    border-color: var(--accent);
+    transform: scale(1.5);
+  }
+  .hint{
+    position: fixed;
+    left: clamp(1rem, 3vw, 2rem);
+    bottom: clamp(1rem, 3vw, 1.6rem);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: .8rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--fg-muted);
+    z-index: 20;
+    opacity: 1;
+    transition: opacity .6s ease;
+    pointer-events: none;
+  }
+  .hint.is-hidden{ opacity: 0; }
+
+  @media (max-width: 760px){
+    .slide__progress{ display: none; }
+    .dots{ display: none; }
+  }
+
+  @media print{
+    @page{ size: 13.333in 7.5in; margin: 0; }
+    html, body{ height: auto; width: 13.333in; }
+    .deck{ overflow: visible; height: auto; scroll-snap-type: none; }
+    .slide{
+      width: 13.333in;
+      height: 7.5in;
+      min-height: 0;
+      page-break-after: always;
+      break-after: page;
+      scroll-snap-align: none;
+    }
+    .dots, .hint{ display: none; }
+    .slide__progress{ display: block !important; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="dots" aria-label="Slide navigation"></nav>
+<div class="hint" id="hint">↑ ↓ or space to navigate</div>
+
+<div class="deck" id="deck">
+
+  <!-- 1: TITLE -->
+  <section class="slide slide--title" data-label="Title">
+    <div class="title-ghost" aria-hidden="true"><span>WITH</span></div>
+    <div class="title-card">
+      <div class="title-eyebrow">SASP Symposium 2026 — Ethics and the use of AI in physiotherapy</div>
+      <h1>Better than, or better with?</h1>
+      <div class="title-sub">Ethics and AI in physiotherapy practice</div>
+      <hr class="title-rule">
+      <div class="title-byline">
+        <strong>Michael Rowe</strong>
+        <span>University of Lincoln</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2: IS AI BETTER THAN US? -->
+  <section class="slide slide--content" data-label="Is AI better than us?">
+    <div class="slide__main">
+      <div class="slide__eyebrow">The default</div>
+      <h1>Is AI better than us?</h1>
+      <ul class="points">
+        <li>Every headline, every study, every hallway conversation about AI in healthcare asks the same thing: is it better than us?</li>
+        <li>Diagnosis, empathy, even bedside manner; we're the ones keeping score</li>
+        <li>It's the main question we're asking</li>
+        <li><strong>And it's the wrong one</strong></li>
+      </ul>
+    </div>
+    <div class="slide__progress">Slide <b>02</b> / 08</div>
+  </section>
+
+  <!-- 3: IT'S A CONTEST WE'RE GOING TO LOSE -->
+  <section class="slide slide--content" data-label="It's a contest we're going to lose">
+    <div class="slide__main">
+      <div class="slide__eyebrow">The problem</div>
+      <h1>It's a contest we're going to lose</h1>
+      <ul class="points">
+        <li>If we treat capability as a zero-sum game, we're going to lose</li>
+        <li>Every time it closes a gap, we just redraw the line; find the next thing that's <em>"essentially human"</em> and start the next contest</li>
+        <li>The field assumes that AI is a replacement but in practice, augmentation is the norm</li>
+        <li>Nearly every study is designed to answer the competitive question; even the most recent physiotherapy-specific work still pits AI against students <span class="cite">(Michou et al., 2026)</span></li>
+      </ul>
+    </div>
+    <div class="slide__progress">Slide <b>03</b> / 08</div>
+  </section>
+
+  <!-- 4: WHY AI FEELS THREATENING -->
+  <section class="slide slide--content" data-label="Why AI feels threatening">
+    <div class="slide__main">
+      <div class="slide__eyebrow">The resistance</div>
+      <h1>Why AI feels threatening</h1>
+      <ul class="points tight">
+        <li>Work with a colleague who's better than you at something, and it doesn't diminish you</li>
+        <li>It's a reason to get better yourself; with humans we call that mentorship</li>
+        <li>AI produces a different reaction: research on physicians' resistance to health AI finds threats to expertise, status, autonomy, even to what it means to be a "care provider" <span class="cite">(Jussupow et al., 2018)</span></li>
+        <li>None of those threats are about the patient; they're about us</li>
+        <li>A better colleague raises our game so why would working with AI do the opposite?</li>
+        <li>So what would it look like to make this about the relationship instead of about us?</li>
+      </ul>
+    </div>
+    <div class="slide__progress">Slide <b>04</b> / 08</div>
+  </section>
+
+  <!-- 5: AN UNCOMFORTABLE QUESTION -->
+  <section class="slide slide--content" data-label="An uncomfortable question">
+    <div class="slide__main">
+      <div class="slide__eyebrow">The admission</div>
+      <h1>An uncomfortable question</h1>
+      <ul class="points">
+        <li>What if we're only keeping the human in the loop because we find the alternative profoundly uncomfortable?</li>
+        <li>A pilot who insists on hand-flying to prove a point is putting the flight at risk; what if we're doing the same thing with AI?</li>
+        <li>What if the honest answer is simply: what could we reach together?</li>
+      </ul>
+    </div>
+    <div class="slide__progress">Slide <b>05</b> / 08</div>
+  </section>
+
+  <!-- 6: WHAT AI MAKES POSSIBLE -->
+  <section class="slide slide--content" data-label="What AI makes possible">
+    <div class="slide__main">
+      <div class="slide__eyebrow">The opening</div>
+      <h1>What AI makes possible</h1>
+      <ul class="points tight">
+        <li>Patients are already forming real relationships with AI outside the clinic — a 210-patient mental-health chatbot trial found alliance ratings comparable to human therapists <span class="cite">(Heinz et al., 2025)</span></li>
+        <li>The real question: where does this let you reach, that you couldn't before?</li>
+        <li>More time actually present with a patient, instead of buried in documentation</li>
+        <li>Pattern recognition across a caseload no one can hold in their head</li>
+        <li>AI already rates as more empathic than clinicians in head-to-head studies <span class="cite">(Howcroft et al., 2025)</span></li>
+        <li>Proposed as a Socratic partner for sharpening our own moral reasoning <span class="cite">(Lara &amp; Deckers, 2019)</span></li>
+        <li class="ask">What would you add to that list?</li>
+      </ul>
+    </div>
+    <div class="slide__progress">Slide <b>06</b> / 08</div>
+  </section>
+
+  <!-- 7: BRING AI INTO THE ROOM -->
+  <section class="slide slide--close" data-label="Bring AI into the room">
+    <div class="close-card">
+      <div class="slide__eyebrow">The ask</div>
+      <h1>Bring AI into the room</h1>
+      <ul class="points">
+        <li>Ask patients what AI has already told them; many have already asked it something</li>
+        <li>Describe your own AI use as part of the conversation</li>
+        <li>If you're not using AI, consider starting immediately</li>
+        <li>Teach students to engage with AI, honestly and critically</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 8: THANK YOU -->
+  <section class="slide slide--title" data-label="Thank you">
+    <div class="title-card">
+      <div class="title-eyebrow">SASP Symposium 2026 — Ethics and the use of AI in physiotherapy</div>
+      <h1>Thank you</h1>
+      <div class="title-sub">Questions and discussion</div>
+      <hr class="title-rule">
+      <div class="title-byline">
+        <strong>Michael Rowe</strong>
+        <span>University of Lincoln</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  const deck = document.getElementById('deck');
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const dotsNav = document.querySelector('.dots');
+  const hint = document.getElementById('hint');
+
+  slides.forEach((s, i) => {
+    const b = document.createElement('button');
+    b.setAttribute('aria-label', s.dataset.label || ('Slide ' + (i + 1)));
+    b.addEventListener('click', () => s.scrollIntoView({ behavior: 'smooth' }));
+    dotsNav.appendChild(b);
+  });
+  const dotButtons = Array.from(dotsNav.children);
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && entry.intersectionRatio > 0.55) {
+        const idx = slides.indexOf(entry.target);
+        // setAttribute, not toggleAttribute: toggleAttribute(name, force) sets
+        // the value to the empty string, so the aria-current="true" that both
+        // currentIndex() and the active-dot CSS match on never appears.
+        dotButtons.forEach((b, i) => b.setAttribute('aria-current', i === idx ? 'true' : 'false'));
+      }
+    });
+  }, { root: deck, threshold: [0.55] });
+  slides.forEach(s => observer.observe(s));
+
+  function currentIndex(){
+    const i = dotButtons.findIndex(b => b.getAttribute('aria-current') === 'true');
+    return i === -1 ? 0 : i; // before the observer's first callback
+  }
+  function goTo(i){
+    if (i < 0 || i >= slides.length) return;
+    slides[i].scrollIntoView({ behavior: 'smooth' });
+  }
+  window.addEventListener('keydown', (e) => {
+    const i = currentIndex();
+    if (['ArrowDown','ArrowRight','PageDown',' '].includes(e.key)) { e.preventDefault(); goTo(i + 1); }
+    if (['ArrowUp','ArrowLeft','PageUp'].includes(e.key)) { e.preventDefault(); goTo(i - 1); }
+    if (e.key === 'f' || e.key === 'F') {
+      if (!document.fullscreenElement) document.documentElement.requestFullscreen?.();
+      else document.exitFullscreen?.();
+    }
+    hint.classList.add('is-hidden');
+  });
+  deck.addEventListener('wheel', () => hint.classList.add('is-hidden'), { once: true });
+  setTimeout(() => hint.classList.add('is-hidden'), 5000);
+</script>
+
+</body>
+</html>
