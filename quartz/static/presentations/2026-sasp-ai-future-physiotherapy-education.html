@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>New therapeutic alliances</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+  :root{
+    --bg: #f9f9f7;
+    --bg-margin: #efeee7;
+    --fg: #14160f;
+    --fg-soft: #3c3d33;
+    --fg-muted: #6b6b5c;
+    --rule: #dcdbcd;
+    --accent: #4f7756;
+    --accent-ink: #f7faf5;
+    --accent-wash: #e7ede4;
+    --shadow-ghost: #14160f;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg: #0d0e0a;
+      --bg-margin: #131409;
+      --fg: #f2f2ea;
+      --fg-soft: #cdcdbd;
+      --fg-muted: #8b8c7c;
+      --rule: #2b2c22;
+      --accent: #8fb896;
+      --accent-ink: #0d130e;
+      --accent-wash: #1a2318;
+      --shadow-ghost: #f2f2ea;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg: #0d0e0a;
+    --bg-margin: #131409;
+    --fg: #f2f2ea;
+    --fg-soft: #cdcdbd;
+    --fg-muted: #8b8c7c;
+    --rule: #2b2c22;
+    --accent: #8fb896;
+    --accent-ink: #0d130e;
+    --accent-wash: #1a2318;
+    --shadow-ghost: #f2f2ea;
+  }
+
+  *{ box-sizing: border-box; }
+  html{ scroll-behavior: smooth; }
+  body{
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: 'Fraunces', Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .deck{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100dvh;
+  }
+  .slide{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    min-height: 100dvh;
+    display: grid;
+    position: relative;
+  }
+
+  /* ---------- content slide layout: single full-width column ---------- */
+  .slide--content{
+    grid-template-columns: 1fr;
+  }
+  .slide__progress{
+    position: absolute;
+    right: clamp(1.75rem, 6vw, 6rem);
+    bottom: clamp(1.2rem, 2.4vw, 1.8rem);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: .8rem;
+    color: var(--fg-muted);
+    letter-spacing: .06em;
+  }
+  .slide__progress b{ color: var(--fg-soft); font-weight: 700; }
+
+  .slide__main{
+    padding: clamp(1.2rem, 3.4vw, 2.4rem) clamp(1.75rem, 6vw, 6rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: clamp(.8rem, 1.4vw, 1.2rem);
+    max-width: 76rem;
+  }
+  .slide__main.align-top{
+    justify-content: flex-start;
+    padding-top: clamp(3.5rem, 9vw, 7rem);
+  }
+  .slide__eyebrow{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.15rem;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 700;
+  }
+  h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    font-size: clamp(2.2rem, 1.8vw + 1.9rem, 3.3rem);
+    line-height: 1.05;
+    margin: 0;
+    letter-spacing: -.01em;
+    max-width: 22ch;
+  }
+  h1 em{
+    font-style: italic;
+    color: var(--accent);
+  }
+
+  ul.points{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(.5rem, 1vw, .8rem);
+  }
+  ul.points li{
+    font-size: clamp(1.65rem, 1.1vw + 1.15rem, 2.05rem);
+    line-height: 1.3;
+    padding-left: 1.5rem;
+    position: relative;
+    max-width: 62ch;
+    color: var(--fg-soft);
+  }
+  ul.points li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: .62em;
+    width: .55rem;
+    height: 1px;
+    background: var(--accent);
+  }
+  ul.points li strong{
+    color: var(--fg);
+    font-weight: 600;
+  }
+  ul.points li.ask{
+    color: var(--accent);
+    font-style: italic;
+  }
+
+  /* Denser variant for slides with more/longer bullets than the design
+     norm — keeps everything on one page without cutting content. */
+  ul.points.tight{ gap: clamp(.35rem, .7vw, .55rem); }
+  ul.points.tight li{
+    font-size: clamp(1.3rem, .8vw + 1rem, 1.6rem);
+    line-height: 1.28;
+    max-width: 68ch;
+  }
+
+  /* Full-width figure block: image on its own row, caption/point below it */
+  .figure{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  .figure img{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 18px 40px -12px rgba(20, 22, 15, .35);
+  }
+
+  .cite{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: .84em;
+    color: var(--fg-muted);
+    letter-spacing: .01em;
+    font-style: normal;
+    white-space: nowrap;
+  }
+
+  /* ---------- title / thanks slides ---------- */
+  .slide--title{
+    place-items: center;
+    text-align: center;
+    background: var(--bg);
+    padding: 2rem;
+  }
+  .title-ghost{
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  .title-ghost span{
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    font-size: min(38vw, 26rem);
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--rule);
+    white-space: nowrap;
+  }
+  .title-card{ position: relative; z-index: 1; max-width: 48rem; }
+  .title-eyebrow{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.05rem;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+  }
+  .title-card h1{
+    font-size: clamp(2.4rem, 6vw, 4.6rem);
+    max-width: none;
+    margin-bottom: 1.1rem;
+  }
+  .title-sub{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: clamp(1.3rem, 1.6vw, 1.5rem);
+    color: var(--fg-soft);
+    font-weight: 500;
+    margin-bottom: 2.6rem;
+  }
+  .title-byline{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.2rem;
+    color: var(--fg-muted);
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+  }
+  .title-byline strong{ color: var(--fg); font-weight: 600; }
+  .title-rule{
+    width: 3rem;
+    height: 2px;
+    background: var(--accent);
+    margin: 1.8rem auto;
+    border: none;
+  }
+
+  /* ---------- pivot slide: the turn itself ---------- */
+  .slide--pivot{
+    place-items: center;
+    text-align: center;
+    background: var(--bg);
+    padding: 2rem;
+  }
+  .pivot-card{ max-width: 44rem; display: flex; flex-direction: column; gap: clamp(1.6rem, 3vw, 2.4rem); }
+  .pivot-row{ display: flex; flex-direction: column; gap: .4rem; }
+  .pivot-old{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: clamp(1rem, 1.6vw, 1.25rem);
+    color: var(--fg-muted);
+    text-decoration: line-through;
+    text-decoration-color: var(--rule);
+    text-decoration-thickness: 1px;
+    letter-spacing: .01em;
+  }
+  .pivot-new{
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: clamp(1.9rem, 4.2vw, 3rem);
+    color: var(--accent);
+    line-height: 1.1;
+  }
+  .pivot-tag{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: clamp(1rem, 1.6vw, 1.15rem);
+    color: var(--fg-soft);
+    letter-spacing: .04em;
+    margin-top: .4rem;
+  }
+  .pivot-tag strong{ color: var(--fg); font-weight: 700; }
+
+  /* ---------- close slide ---------- */
+  .slide--close{
+    place-items: center;
+    background: var(--accent);
+    color: var(--accent-ink);
+    text-align: left;
+    padding: 2rem;
+  }
+  .slide--close .close-card{ max-width: 50rem; width: 100%; }
+  .slide--close .slide__eyebrow{ color: var(--accent-ink); }
+  .slide--close h1{ color: var(--accent-ink); max-width: 18ch; }
+  .slide--close ul.points li{ color: var(--accent-ink); }
+  .slide--close ul.points li strong{ color: var(--accent-ink); }
+  .slide--close ul.points li::before{ background: var(--accent-ink); opacity: .6; }
+
+  /* ---------- split layout: text + image, used within slide__main ---------- */
+  .split{
+    display: flex;
+    align-items: center;
+    gap: clamp(1.75rem, 4vw, 3.5rem);
+    flex-wrap: wrap;
+  }
+  .split__text{
+    flex: 1 1 320px;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(.8rem, 1.4vw, 1.2rem);
+  }
+  .split__image{
+    flex: 1 1 280px;
+    display: flex;
+    justify-content: center;
+  }
+  .split__image img{
+    max-width: 100%;
+    max-height: 62vh;
+    border-radius: 4px;
+    box-shadow: 0 18px 40px -12px rgba(20, 22, 15, .35);
+  }
+  .split__image.is-cover img{ max-height: 58vh; }
+
+  /* ---------- nav chrome ---------- */
+  .dots{
+    position: fixed;
+    right: clamp(.9rem, 2vw, 1.6rem);
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: .55rem;
+    z-index: 20;
+  }
+  .dots button{
+    width: .5rem; height: .5rem;
+    border-radius: 50%;
+    border: 1px solid var(--fg-muted);
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    transition: transform .3s cubic-bezier(.16,1,.3,1), background .3s;
+  }
+  .dots button[aria-current="true"]{
+    background: var(--accent);
+    border-color: var(--accent);
+    transform: scale(1.5);
+  }
+  .hint{
+    position: fixed;
+    left: clamp(1rem, 3vw, 2rem);
+    bottom: clamp(1rem, 3vw, 1.6rem);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: .8rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--fg-muted);
+    z-index: 20;
+    opacity: 1;
+    transition: opacity .6s ease;
+    pointer-events: none;
+  }
+  .hint.is-hidden{ opacity: 0; }
+
+  @media (max-width: 760px){
+    .slide__progress{ display: none; }
+    .dots{ display: none; }
+    .split{ flex-direction: column; }
+  }
+
+  @media print{
+    @page{ size: 13.333in 7.5in; margin: 0; }
+    html, body{ height: auto; width: 13.333in; }
+    .deck{ overflow: visible; height: auto; scroll-snap-type: none; }
+    .slide{
+      width: 13.333in;
+      height: 7.5in;
+      min-height: 0;
+      page-break-after: always;
+      break-after: page;
+      scroll-snap-align: none;
+    }
+    .dots, .hint{ display: none; }
+    .slide__progress{ display: block !important; }
+    .split{ flex-wrap: nowrap !important; }
+
+    /* Images inside .split are pulled out of flow for print: Chromium's
+       headless print pipeline mis-fragments flex rows containing <img>
+       elements (the row silently loses its image, or spills onto an
+       extra page, depending on how the box is sized). Absolute
+       positioning sidesteps the fragmentation entirely. */
+    .slide{ overflow: hidden !important; }
+    .slide__main{ position: relative !important; }
+    .split{ display: block !important; }
+    .split__text{ max-width: 64% !important; }
+    .split__image{
+      position: absolute !important;
+      right: 3rem;
+      top: 50%;
+      transform: translateY(-50%);
+      display: block !important;
+    }
+    .split__image img{
+      max-height: 300px !important;
+      width: auto !important;
+      max-width: 420px !important;
+    }
+
+    /* .figure (stacked image + point, used on the "where patients turn"
+       slide) is plain block flow, not a flex row, so it doesn't hit the
+       .split fragmentation bug above — still capped here to guarantee
+       everything fits on one page. */
+    .figure img{
+      max-height: 380px !important;
+      width: auto !important;
+      max-width: 760px !important;
+    }
+  }
+</style>
+</head>
+<body>
+
+<nav class="dots" aria-label="Slide navigation"></nav>
+<div class="hint" id="hint">↑ ↓ or space to navigate</div>
+
+<div class="deck" id="deck">
+
+  <!-- 1: TITLE -->
+  <section class="slide slide--title" data-label="Title">
+    <div class="title-ghost" aria-hidden="true"><span>ALLIANCE</span></div>
+    <div class="title-card">
+      <div class="title-eyebrow">SASP Symposium 2026 — AI and the future of physiotherapy education</div>
+      <h1>New therapeutic alliances</h1>
+      <div class="title-sub">AI and physiotherapy: practice, research, education</div>
+      <hr class="title-rule">
+      <div class="title-byline">
+        <strong>Michael Rowe</strong>
+        <span>University of Lincoln</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2: TEN YEARS AGO (merged: book cover + shift + pivot line) -->
+  <section class="slide slide--content" data-label="Ten years ago">
+    <div class="slide__main align-top">
+      <div class="slide__eyebrow">The premise</div>
+      <div class="split">
+        <div class="split__text">
+          <h1>Ten years ago</h1>
+          <ul class="points">
+            <li><strong>Claim:</strong> smartphones and the internet would end medicine's paternalism, with patients tracking their own data, arriving informed, and in charge</li>
+            <li>That insight has largely come true — in some respects, to varying degrees</li>
+            <li>But the resource patients are turning to has changed; it doesn't just inform them anymore. <strong>It invites discussion</strong></li>
+          </ul>
+        </div>
+        <div class="split__image is-cover">
+          <img src="media/topol_book_cover.jpg" width="333" height="500" alt="Cover of The Patient Will See You Now by Eric Topol">
+        </div>
+      </div>
+    </div>
+    <div class="slide__progress">Slide <b>02</b> / 10</div>
+  </section>
+
+  <!-- 3: HEALTHCARE GUIDANCE CONVERSATIONS (Anthropic chart, stacked wide) -->
+  <section class="slide slide--content" data-label="Healthcare guidance conversations">
+    <div class="slide__main">
+      <div class="slide__eyebrow">The evidence</div>
+      <h1 style="max-width: 36ch; white-space: nowrap;">Healthcare guidance <em>conversations</em></h1>
+      <div class="figure">
+        <img src="media/claude_use_cases.png" width="1473" height="894" alt="Bar chart: guidance conversations by domain, health/wellness largest at 27.2%">
+      </div>
+    </div>
+    <div class="slide__progress">Slide <b>03</b> / 10</div>
+  </section>
+
+  <!-- 4: AI IS GETTING VERY GOOD -->
+  <section class="slide slide--content" data-label="AI is getting very good">
+    <div class="slide__main">
+      <div class="slide__eyebrow">The capability</div>
+      <h1>AI is getting <em>very</em> good</h1>
+      <ul class="points">
+        <li>ChatGPT was near the USMLE passing threshold in 2023; by GPT-4, accuracy across 45 worldwide licensing-exam studies had risen to 81% <span class="cite">(Liu et al., 2024)</span></li>
+        <li>A meta-analysis of 15 studies found AI chatbots rated <em>more</em> empathic than human clinicians in 13 of them <span class="cite">(Howcroft et al., 2025)</span></li>
+        <li>GPT-4o's moral guidance was rated more trustworthy and correct than a professional ethicist's <span class="cite">(Wilbanks et al., 2024)</span></li>
+        <li>Physiotherapy is already asking the right question: not "should patients do this" but "why and how should clinicians engage" <span class="cite">(Vancampfort &amp; Van Damme, 2026)</span></li>
+      </ul>
+    </div>
+    <div class="slide__progress">Slide <b>04</b> / 10</div>
+  </section>
+
+  <!-- 6: FLOK HEALTH -->
+  <section class="slide slide--content" data-label="An independent AI physiotherapist">
+    <div class="slide__main">
+      <div class="slide__eyebrow">The proof point</div>
+      <h1 style="max-width: 36ch; white-space: nowrap;">An independent AI physiotherapist</h1>
+      <ul class="points">
+        <li>Flok Health's AI is Class IIa certified — the first AI system in Europe cleared to run an entire MSK care pathway unsupervised, from diagnosis through to discharge <span class="cite">(Digital Health, 2025)</span></li>
+        <li>An NHS pilot at Cambridgeshire Community Services Trust more than halved the back pain waiting list in 12 weeks</li>
+        <li>Clearance has since widened to every MSK and pelvic health pathway, across 14 NHS regions, covering more than 6.6 million patients</li>
+      </ul>
+    </div>
+    <div class="slide__progress">Slide <b>05</b> / 10</div>
+  </section>
+
+  <!-- 7: A NEW KIND OF HEALTH LITERACY -->
+  <section class="slide slide--content" data-label="The literacy">
+    <div class="slide__main">
+      <div class="slide__eyebrow">The literacy</div>
+      <h1>A new kind of health literacy</h1>
+      <ul class="points">
+        <li>We say we want patients with health literacy and agency — informed, active, questioning</li>
+        <li>Social media already gave them a rough version of that — searchable, imperfect, and genuinely theirs</li>
+        <li>Now the resource reasons, adjusts, answers follow-up questions — and we still hesitate</li>
+        <li>Patients are forming real therapeutic alliances in those conversations, with alliance ratings comparable to human therapists in randomised trials <span class="cite">(Heinz et al., 2025)</span>. We're not in the room for them</li>
+      </ul>
+    </div>
+    <div class="slide__progress">Slide <b>06</b> / 10</div>
+  </section>
+
+  <!-- 8: PREPARING STUDENTS FOR THIS NEW WORLD -->
+  <section class="slide slide--content" data-label="Preparing students">
+    <div class="slide__main">
+      <div class="slide__eyebrow">The preparation</div>
+      <h1>Preparing students</h1>
+      <ul class="points">
+        <li>Can our students help patients build more suitable prompts — the difference between a vague question and one that gets a grounded, useful answer?</li>
+        <li>Are they familiar with concepts like context engineering, which shapes whether a patient's AI gives them something accurate or something plausible-sounding?</li>
+        <li>What does a curriculum look like where AI is a valid, legitimate agent in the patient encounter — not an unacknowledged third party?</li>
+      </ul>
+    </div>
+    <div class="slide__progress">Slide <b>07</b> / 10</div>
+  </section>
+
+  <!-- 9: RESEARCH — THE HONEST GAP -->
+  <section class="slide slide--content" data-label="Research opportunities">
+    <div class="slide__main">
+      <div class="slide__eyebrow">The gap</div>
+      <h1>Research opportunities</h1>
+      <ul class="points">
+        <li>We assume clinician involvement changes outcomes, but nobody has measured that for the patients already choosing AI instead</li>
+        <li>The training question — what physios need to know about this — should follow that evidence, not precede it</li>
+        <li>What we don't yet know: when the alliance with an AI helps, when it doesn't, and where we demonstrably still matter</li>
+      </ul>
+    </div>
+    <div class="slide__progress">Slide <b>08</b> / 10</div>
+  </section>
+
+  <!-- 10: WHAT THIS ASKS OF THE PROFESSION -->
+  <section class="slide slide--close" data-label="The ask">
+    <div class="close-card">
+      <div class="slide__eyebrow">The ask</div>
+      <h1>What this asks of the profession</h1>
+      <ul class="points">
+        <li>Shape this deliberately, on evidence, rather than reacting to it or gatekeeping it</li>
+        <li>Practice: engage the AI-informed patient relationship, don't compete with it</li>
+        <li>Education: prepare students for therapeutic alliances that include AI agents</li>
+        <li>Research: find out where we add value before designing training that assumes it</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 11: THANK YOU -->
+  <section class="slide slide--title" data-label="Thanks">
+    <div class="title-card">
+      <div class="title-eyebrow">SASP Symposium 2026 — AI and the future of physiotherapy education</div>
+      <h1>Thank you</h1>
+      <div class="title-sub">Questions and discussion</div>
+      <hr class="title-rule">
+      <div class="title-byline">
+        <strong>Michael Rowe</strong>
+        <span>University of Lincoln</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  const deck = document.getElementById('deck');
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const dotsNav = document.querySelector('.dots');
+  const hint = document.getElementById('hint');
+
+  slides.forEach((s, i) => {
+    const b = document.createElement('button');
+    b.setAttribute('aria-label', s.dataset.label || ('Slide ' + (i + 1)));
+    b.addEventListener('click', () => s.scrollIntoView({ behavior: 'smooth' }));
+    dotsNav.appendChild(b);
+  });
+  const dotButtons = Array.from(dotsNav.children);
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && entry.intersectionRatio > 0.55) {
+        const idx = slides.indexOf(entry.target);
+        // setAttribute, not toggleAttribute: toggleAttribute(name, force) sets
+        // the value to the empty string, so the aria-current="true" that both
+        // currentIndex() and the active-dot CSS match on never appears.
+        dotButtons.forEach((b, i) => b.setAttribute('aria-current', i === idx ? 'true' : 'false'));
+      }
+    });
+  }, { root: deck, threshold: [0.55] });
+  slides.forEach(s => observer.observe(s));
+
+  function currentIndex(){
+    const i = dotButtons.findIndex(b => b.getAttribute('aria-current') === 'true');
+    return i === -1 ? 0 : i; // before the observer's first callback
+  }
+  function goTo(i){
+    if (i < 0 || i >= slides.length) return;
+    slides[i].scrollIntoView({ behavior: 'smooth' });
+  }
+  window.addEventListener('keydown', (e) => {
+    const i = currentIndex();
+    if (['ArrowDown','ArrowRight','PageDown',' '].includes(e.key)) { e.preventDefault(); goTo(i + 1); }
+    if (['ArrowUp','ArrowLeft','PageUp'].includes(e.key)) { e.preventDefault(); goTo(i - 1); }
+    if (e.key === 'f' || e.key === 'F') {
+      if (!document.fullscreenElement) document.documentElement.requestFullscreen?.();
+      else document.exitFullscreen?.();
+    }
+    hint.classList.add('is-hidden');
+  });
+  deck.addEventListener('wheel', () => hint.classList.add('is-hidden'), { once: true });
+  setTimeout(() => hint.classList.add('is-hidden'), 5000);
+</script>
+
+</body>
+</html>
