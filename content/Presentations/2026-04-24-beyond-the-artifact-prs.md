@@ -8,7 +8,7 @@ author:
 date: 2026-04-24
 event: PRS Annual Conference 2026
 host: Physiotherapy Research Society
-location: Online
+location: Hatfield
 presentation_type: keynote
 credential: ""
 tags:
