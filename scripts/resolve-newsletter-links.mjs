@@ -33,9 +33,14 @@ if (!fs.existsSync(inputPath)) {
 // links, and resolving only bare stems shipped those as unlinked plain text.
 // URLs come from contentUrl() in newsletter-lib.mjs, which replicates Quartz's
 // path-based slugify — the same logic the generator uses, so the two scripts
-// agree. Key collisions resolve last-write-wins, so warn loudly: a wrong link
-// in a sent email can't be corrected.
-function buildLinkMap() {
+// agree. Key collisions prefer the draft's own directory, and otherwise resolve
+// last-write-wins and warn loudly: a wrong link in a sent email can't be
+// corrected.
+//
+// @param {string} homeDir  the draft's own directory under content/, sluggified
+//                          and lowercased; colliding stems resolve to this
+//                          directory in preference to any other.
+function buildLinkMap(homeDir) {
   const map = new Map();
   // One collision reaches setEntry under several keys (the raw and sluggified
   // spellings of the same stem), so report each colliding pair once.
@@ -52,6 +57,17 @@ function buildLinkMap() {
     if (existing) {
       if (existing.tier < tier) return; // keep the more exact spelling
       if (existing.tier === tier && existing.url !== url) {
+        // A newsletter that says [[2026-04]] means the issue next to it, not
+        // the recently-added page that happens to share the stem. Resolve to
+        // the draft's own directory when exactly one candidate is in it.
+        const existingHome = dirKey(existing.relPath) === homeDir;
+        const incomingHome = dirKey(relPath) === homeDir;
+        if (existingHome !== incomingHome) {
+          if (existingHome) return; // keep the sibling already registered
+          map.set(key, { url, relPath, tier });
+          return;
+        }
+
         const pair = `${existing.url}|${url}`;
         if (!warned.has(pair)) {
           warned.add(pair);
@@ -103,6 +119,14 @@ function buildLinkMap() {
   return map;
 }
 
+// The directory a content file sits in, relative to content/, sluggified and
+// lowercased so "Courses/AI literacy" and "Courses/AI-literacy" compare equal.
+// Root-level pages return ''.
+function dirKey(relPath) {
+  const dir = path.dirname(relPath);
+  return dir === '.' ? '' : sluggify(dir).toLowerCase();
+}
+
 function slugify(text) {
   return text.toString().toLowerCase()
     .trim()
@@ -150,7 +174,8 @@ function resolveWikilinks(content, map) {
 }
 
 // Main
-const linkMap = buildLinkMap();
+const homeDir = dirKey(inputPath.replace(/^content\//, '').replace(/\.md$/, ''));
+const linkMap = buildLinkMap(homeDir);
 const raw = fs.readFileSync(inputPath, 'utf8');
 const { result, unresolved } = resolveWikilinks(raw, linkMap);
 
