@@ -53,6 +53,7 @@ The session closes with a diagnostic rather than a rule: when AI accelerates und
   height="600px"
   style="border: 1px solid #e5e7eb; border-radius: 8px;"
   title="Beyond the artifact — AI and the future of research"
+  allowfullscreen
 ></iframe>
 
 *Use arrow keys or click to navigate slides. [Open slides in full screen](https://michael-rowe.github.io/home-michael/static/presentations/2026-prs-beyond-the-artifact.html)*

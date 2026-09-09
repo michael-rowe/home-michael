@@ -40,6 +40,7 @@ This presentation explores how generative AI can act as a virtual business consu
   height="600px"
   style="border: 1px solid #e5e7eb; border-radius: 8px;"
   title="AI and the business of practice"
+  allowfullscreen
 ></iframe>
 
 *Use arrow keys or click to navigate slides. [Open slides in full screen](https://michael-rowe.github.io/home-michael/static/presentations/2025-ai-business-practice-lmc.html)*

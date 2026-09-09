@@ -48,6 +48,7 @@ The lecture develops this through three principles — persistent understanding,
   height="600px"
   style="border: 1px solid #e5e7eb; border-radius: 8px;"
   title="Context sovereignty: building human-AI coalitions in physiotherapy"
+  allowfullscreen
 ></iframe>
 
 *Use arrow keys or click to navigate slides. [Open slides in full screen](https://michael-rowe.github.io/home-michael/static/presentations/2025-csp-founders-context-sovereignty.html)*

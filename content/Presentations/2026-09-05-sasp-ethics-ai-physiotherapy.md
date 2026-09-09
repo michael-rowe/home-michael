@@ -50,6 +50,7 @@ The session covers:
   height="600px"
   style="border: 1px solid #e5e7eb; border-radius: 8px;"
   title="Better than, or better with?"
+  allowfullscreen
 ></iframe>
 
 *Use arrow keys or click to navigate slides. [Open slides in full screen](https://michael-rowe.github.io/home-michael/static/presentations/2026-sasp-ethics-ai-physiotherapy.html)*

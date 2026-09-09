@@ -51,6 +51,7 @@ The session closes with three practical shifts immediately available to students
   height="600px"
   style="border: 1px solid #e5e7eb; border-radius: 8px;"
   title="AI and problem-based learning"
+  allowfullscreen
 ></iframe>
 
 *Use arrow keys or click to navigate slides. [Open slides in full screen](https://michael-rowe.github.io/home-michael/static/presentations/2026-thomas-more-ai-pbl.html)*
