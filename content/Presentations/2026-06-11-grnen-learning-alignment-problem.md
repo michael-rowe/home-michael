@@ -53,6 +53,7 @@ It shares its underlying argument with [[Presentations/2026-04-15-what-is-the-wo
   height="600px"
   style="border: 1px solid #e5e7eb; border-radius: 8px;"
   title="AI and the learning alignment problem"
+  allowfullscreen
 ></iframe>
 
 *Use arrow keys or click to navigate slides. [Open slides in full screen](https://michael-rowe.github.io/home-michael/static/presentations/2026-grnen-learning-alignment-problem.html)*

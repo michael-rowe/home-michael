@@ -53,6 +53,7 @@ The session closes with a concrete starting point: articulate your professional 
   height="600px"
   style="border: 1px solid #e5e7eb; border-radius: 8px;"
   title="Making sense of AI in clinical practice"
+  allowfullscreen
 ></iframe>
 
 *Use arrow keys or click to navigate slides. [Open slides in full screen](https://michael-rowe.github.io/home-michael/static/presentations/2026-macp-making-sense-of-ai.html)*

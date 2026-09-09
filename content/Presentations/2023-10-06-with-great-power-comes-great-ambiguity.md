@@ -47,6 +47,7 @@ The closing argument is that wise adoption of AI is no panacea, but the beginnin
   height="600px"
   style="border: 1px solid #e5e7eb; border-radius: 8px;"
   title="With great power comes great ambiguity"
+  allowfullscreen
 ></iframe>
 
 *Use arrow keys or click to navigate slides. [Open slides in full screen](https://michael-rowe.github.io/home-michael/static/presentations/2023-enphe-power-ambiguity.html)*

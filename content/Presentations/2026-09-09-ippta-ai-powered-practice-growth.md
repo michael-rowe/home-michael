@@ -52,6 +52,7 @@ Everything demonstrated runs on free tiers. The worked examples come from a real
   height="600px"
   style="border: 1px solid #e5e7eb; border-radius: 8px;"
   title="AI-powered practice growth"
+  allowfullscreen
 ></iframe>
 
 *Use arrow keys or click to navigate slides. [Open slides in full screen](https://michael-rowe.github.io/home-michael/static/presentations/2026-ippta-ai-powered-practice-growth.html)*

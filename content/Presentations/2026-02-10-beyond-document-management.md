@@ -47,6 +47,7 @@ We propose a three-layer architecture: graph databases storing curriculum struct
   height="600px"
   style="border: 1px solid #e5e7eb; border-radius: 8px;"
   title="Beyond document management: Graph infrastructure for professional curricula"
+  allowfullscreen
 ></iframe>
 
 *Use arrow keys or click to navigate slides. [Open slides in full screen](https://michael-rowe.github.io/home-michael/static/presentations/2026-beyond-document-management.html)*

@@ -52,6 +52,7 @@ It closes on what this asks of the profession: shape the AI-informed patient rel
   height="600px"
   style="border: 1px solid #e5e7eb; border-radius: 8px;"
   title="New therapeutic alliances"
+  allowfullscreen
 ></iframe>
 
 *Use arrow keys or click to navigate slides. [Open slides in full screen](https://michael-rowe.github.io/home-michael/static/presentations/2026-sasp-ai-future-physiotherapy-education.html)*
