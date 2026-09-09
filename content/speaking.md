@@ -68,21 +68,21 @@ A full-day workshop for IPPTA delegates on AI in private practice, run in person
 
 ---
 
-### New therapeutic alliances
-**4 September 2026** · South African Society of Physiotherapy Symposium — Online
-
-An invited panel presentation at the SASP Symposium 2026, on AI and the future of physiotherapy education. Patients are already arriving at consultations having consulted AI first, and are increasingly able to get genuinely useful health guidance from it. The talk asks what that means for practice, research and education — not whether AI will replace clinical judgement, but how the profession prepares students and practitioners for patients who bring an AI-shaped health literacy into the room.
-
-[[Presentations/2026-09-04-sasp-ai-future-physiotherapy-education|Slides and overview →]]
-
----
-
 ### Better than, or better with?
 **5 September 2026** · South African Society of Physiotherapy Symposium — Online
 
-A follow-on panel presentation the next day, on ethics and the use of AI in physiotherapy. It argues against framing AI in healthcare as a capability contest to be won or lost, and asks a more uncomfortable question: whether keeping the human in the loop is sometimes less about patient benefit than about our own discomfort with the alternative. It closes with concrete ways to bring AI into the clinical conversation rather than manage it as a threat.
+A panel presentation on ethics and the use of AI in physiotherapy. It argues against framing AI in healthcare as a capability contest to be won or lost, and asks a more uncomfortable question: whether keeping the human in the loop is sometimes less about patient benefit than about our own discomfort with the alternative. It closes with concrete ways to bring AI into the clinical conversation rather than manage it as a threat.
 
 [[Presentations/2026-09-05-sasp-ethics-ai-physiotherapy|Slides and overview →]]
+
+---
+
+### New therapeutic alliances
+**4 September 2026** · South African Society of Physiotherapy Symposium — Online
+
+The first of two invited panel presentations at the SASP Symposium 2026, on AI and the future of physiotherapy education. Patients are already arriving at consultations having consulted AI first, and are increasingly able to get genuinely useful health guidance from it. The talk asks what that means for practice, research and education — not whether AI will replace clinical judgement, but how the profession prepares students and practitioners for patients who bring an AI-shaped health literacy into the room.
+
+[[Presentations/2026-09-04-sasp-ai-future-physiotherapy-education|Slides and overview →]]
 
 ---
 
@@ -90,6 +90,8 @@ A follow-on panel presentation the next day, on ethics and the use of AI in phys
 **11 June 2026** · Global Research Nursing Education Network — Online
 
 An invited keynote webinar for GRNEN's international network of nursing educators, primarily from the US, Canada, and Africa. AI has exposed a longstanding misalignment between what educational systems measure and what they are meant to develop — optimising for measurable proxies like grades and artefacts rather than authentic developmental outcomes like judgement and professional becoming. The session explored what that misalignment means for nursing education design, and how shifting from control to cultivation can ensure AI becomes a partner in professional growth rather than a shortcut around it.
+
+[[Presentations/2026-06-11-grnen-learning-alignment-problem|Slides and overview →]]
 
 ---
 
@@ -132,7 +134,70 @@ Keynote for the Royal College of Nursing's Education conference, hosted with the
 
 [[Presentations/2026-04-15-what-is-the-work-rcn|Slides and overview →]]
 
-A fuller list of past presentations, with slides and abstracts where available, is on the [[Presentations/index|presentations page]].
+---
+
+### AI and problem-based learning
+**11 March 2026** · EU Blended Intensive Programme, Thomas More Hogeschool — Belgium
+
+A session for students on an EU-funded Blended Intensive Programme. AI separates the production of artefacts from the learning they were meant to evidence, which is a particular problem for group inquiry. The talk covers what problem-based learning already does differently, how AI changes group work, and three practical shifts students can make in how they use it.
+
+[[Presentations/2026-03-11-ai-problem-based-learning|Slides and overview →]]
+
+---
+
+### Introduction to AI with Copilot
+**5 March 2026** · CPC staff development session, University of Lincoln — Lincoln
+
+An internal staff development workshop introducing AI through Microsoft Copilot: what AI is and isn't, safe working practices, structured prompting, and hands-on practice, with everyone leaving with one specific task to try that week.
+
+[[Presentations/2026-03-05-cpc-introduction-to-ai-copilot|Slides and overview →]]
+
+---
+
+### Beyond document management
+**10 February 2026** · Advance HE AI Symposium — Online
+
+Professional curricula are comprehensively documented and almost entirely unqueryable. The talk introduces a three-layer architecture that treats a graph database as the source of truth for curriculum structure, with vector search for content retrieval and the Model Context Protocol for stakeholder interfaces.
+
+[[Presentations/2026-02-10-beyond-document-management|Slides and overview →]]
+
+---
+
+### Context sovereignty: building human-AI coalitions in physiotherapy
+**21 November 2025** · Chartered Society of Physiotherapy Founders' Lecture — Newport, Wales
+
+The CSP's annual Founders' Lecture. It opens with the disorienting evidence that AI now matches or exceeds clinicians on diagnosis, empathy, and ethical reasoning, then rejects the defensive sanctuary strategies that provokes. Because language models are stateless, static, and contextless, the professional context a practitioner brings is a structural necessity rather than a comfort — and controlling it is the distinctive human contribution.
+
+[[Presentations/2025-11-21-csp-founders-context-sovereignty|Slides and overview →]]
+
+---
+
+### AI and the business of practice
+**18 September 2025** · Lincolnshire Local Medical Committee Getting It Done Conference — Grantham
+
+An invited talk on generative AI as a virtual business consultant for healthcare practices, working through six use cases: online presence, targeting patient groups, patient experience, strategic service development, ethical implementation, and change management.
+
+[[Presentations/2025-09-18-ai-business-practice-lmc|Slides and overview →]]
+
+---
+
+### An unstoppable force meets an immovable object
+**24 November 2023** · ADAPT International Conference — Online
+
+Generative AI democratises access to professional knowledge and acts as a low-cost personalised expert mentor. That unstoppable force meets the immovable object of universities and their traditional role as gatekeepers of expertise. The talk asks what formal professional education is for when expertise is abundantly available, and argues for raising expectations rather than defending the gate.
+
+[[Presentations/2023-11-24-an-unstoppable-force-meets-an-immovable-object|Slides and overview →]]
+
+---
+
+### With great power comes great ambiguity
+**6 October 2023** · ENPHE Conference — Prague
+
+Keynote for the European Network for Physiotherapy in Higher Education. The dominant discourse traps us in a false choice between AI as saviour and AI as threat, when what the moment demands is a tolerance for ambiguity. Borrowing the antihero archetype, it reframes AI as an ambiguous partner in new human-machine coalitions, and treats wise adoption as an iterative process rather than a destination.
+
+[[Presentations/2023-10-06-with-great-power-comes-great-ambiguity|Slides and overview →]]
+
+Every talk since 2023, including the ones without their own page, is listed year by year on the [[Presentations/index|presentations archive]].
 
 <div class="section-break"></div>
 
