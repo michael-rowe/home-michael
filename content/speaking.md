@@ -31,13 +31,6 @@ An invited session for school-based occupational therapists on AI in clinical pr
 
 ---
 
-### AI in private physiotherapy practice
-**9 September 2026** · International Private Physiotherapy Association Business Meeting — Hamburg
-
-A full-day workshop for IPPTA delegates on AI in private practice, run in person as four 90-minute sessions: the do's and don'ts of AI in private practice, creating content, communication assistance, and sustaining AI literacy through structural integration. The day closes with a prototype-building exercise, so delegates leave having built something for their own practice rather than only having heard about it.
-
----
-
 ### Context sovereignty: Building human-AI coalitions in physiotherapy
 **24 September 2026** · Association of Trauma and Orthopaedic Chartered Physiotherapists conference — London
 
@@ -65,6 +58,15 @@ A four-hour practical masterclass for private practice clinicians across physiot
 An invited talk for Sidra Medicine on the role of AI in nursing and allied health practice: where AI genuinely supports clinical work, where it falls short, and how practitioners can engage with it as a professional tool rather than treating it as either saviour or threat.
 
 ## Past presentations
+
+### AI-powered practice growth
+**9 September 2026** · International Private Physiotherapy Association Business Meeting — Hamburg
+
+A full-day workshop for IPPTA delegates on AI in private practice, run in person as four linked sessions: how AI works and how to prompt it well, building content for a real client group, getting that content found and trusted, and drafting a three-year business plan. Delegates worked on their own practice throughout, keeping everything in a single practice file, so they left having built a persona, a piece of content in five formats, a communication plan, and a draft growth plan rather than only having heard about them.
+
+[[Presentations/2026-09-09-ippta-ai-powered-practice-growth|Slides and overview →]]
+
+---
 
 ### New therapeutic alliances
 **4 September 2026** · South African Society of Physiotherapy Symposium — Online
