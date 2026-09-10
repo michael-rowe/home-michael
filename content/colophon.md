@@ -36,16 +36,9 @@ This site embodies several principles:
 
 **Own your platform** — Self-hosted on GitHub Pages rather than a platform that could disappear or change terms. The [source is public](https://github.com/michael-rowe/home-michael).
 
-## AI-assisted development
+## Writing with AI
 
-This site was developed in collaboration with AI (primarily Claude Code). This includes:
-
-- Technical implementation and custom components
-- Content structure and navigation design
-- Debugging and problem-solving
-- Some initial drafting, then revised and verified
-
-AI assists the work but doesn't replace judgement. Every piece of content reflects my thinking, verified against my principles and beliefs, and edited for voice.
+This site is built and largely written in collaboration with Claude, and that includes the content, not just the code. Rather than compress it into a paragraph here, there's a fuller statement of what that means in practice, what varies between essays, posts and notes, and who answers for the result: [[writing-with-ai|Writing with AI]].
 
 ## Accessibility
 

@@ -16,6 +16,7 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <div class="footer-links">
           <a href={`${baseDir}/uses`}>Uses</a>
+          <a href={`${baseDir}/writing-with-ai`}>Writing with AI</a>
           <a href={`${baseDir}/colophon`}>Colophon</a>
           <a href={`${baseDir}/accessibility`}>Accessibility</a>
           <a href={`${baseDir}/privacy`}>Privacy</a>
