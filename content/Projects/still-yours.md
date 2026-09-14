@@ -5,7 +5,7 @@ description: "A book written with Benita Olivier for postgraduate researchers, o
 meta-description: A book with Benita Olivier on using AI in postgraduate research without losing the development a research degree exists to produce.
 author: "[[Michael Rowe]]"
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-09-14
 status: In production
 role: Co-author, with Benita Olivier
 tags:
@@ -31,7 +31,7 @@ linkedin:
 
 <div class="float-figure">
 
-![[Media/still-yours-cover.png|Still Yours: A Doctoral Researcher's Guide to AI — cover mockup, Benita Olivier and Michael Rowe]]
+![[Media/still-yours-cover.png|Still Yours: A Doctoral Researcher's Guide to AI — Springer Nature cover, Benita Olivier and Michael Rowe]]
 
 </div>
 
