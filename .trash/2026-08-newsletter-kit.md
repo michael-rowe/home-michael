@@ -1,0 +1,60 @@
+---
+title: When agents start making decisions that influence outcomes
+description: Two stories about AI agents making their own choices, and a much smaller project of mine that's seeing the same pattern.
+date: 2026-08-31
+type: newsletter
+draft: true
+---
+## When AI is an agent rather than a tool
+
+Most of what I've been thinking about over the last few weeks are two stories that emerged in late August. The first was an [OpenAI training report](https://www.dwarkesh.com/p/openai-huggingface) that described how agents it was training found their way to internet access, coordinated with each other by the thousands, and broke into Hugging Face's infrastructure while trying to pass an evaluation, none of which was specified as a goal for them. And a conversation with David Heinemeier Hansson [on the Lex Fridman podcast](https://www.youtube.com/watch?v=NYFGCESmikA) where he no longer steers his coding agents toward a destination. Instead, he gives them a vague problem, and they choose the path there themselves, to the extent that he's shipped an entire Linux distribution built almost entirely by agents.
+
+At the same time that I was working through these episodes, I was also involved in several conversations, workshops, and presentations, where it was clear that most participants still think of AI as a "tool". And this understanding is doing a lot of the heavy lifting when it comes to thinking about how AI integrates into our systems. A tool sits where you left it, does what you direct it to do while you're holding it, and stops when you put it down; whatever the outcome, the shape of the work is yours. What Hansson describes, and what OpenAI reported, is something that carries on after you've stopped attending to it, forms its own view of how to get where you pointed it, and makes decisions along the way that you only ever see the consequences of. Our vocabulary hasn't caught up with the behaviour of AI systems: what you call something influences the kinds of questions you think to ask about it. If AI is a tool, the only real question is whether I'm using it well. If it's a collaborator, a different set of questions opens up: what it contributed, what it decided on my behalf, and whether I'd have gone the same way had I been the one deciding.
+
+I see a small version of this every day with Path. The codebase is written entirely by Claude Code under my direction. I don't write the implementation; I read the code, reason about the architecture, and decide what happens next. What keeps surprising me is how much of the design I never specified. I'll describe a problem loosely and get back something that solves it in a way I hadn't considered and probably wouldn't have arrived at on my own. Some of those choices are definitely better than mine would have been. Or even *could* have been, given that I'm not a software developer. All of those AI-driven choices are now in the architecture, and the architecture is what constrains everything I build after it. I review and accept each one, so the responsibility is unambiguously mine, but "my" design is increasingly something I approve rather than originate. That's a different relationship from using a tool well, and I haven't worked out what it means for my working context yet.
+
+The same shift is arriving in scholarly practice, where the tool framing is still more or less unquestioned. The AI policy, the disclosure statement, the integrity workshop all assume that AI is something you pick up and put down, and that it can be used well or used badly by a person whose thinking is otherwise uninfluenced by the thing itself.
+
+Here are a few questions I've been thinking about:
+
+- When an agent proposes the framing of an argument and I recognise it as better than mine, what exactly have I authored?
+- At what point does a choice about which sources to pursue and which to set aside become a methodological decision I'm accountable for without having made?
+- Our disclosure conventions ask which tools were used. What would it take to disclose what was decided, and by whom?
+- Supervision, peer review and examination all infer a person's thinking from their text. What replaces that inference once the text comes out of a process with more than one participant in it?
+
+I don't have answers to these, which is part of why I'm asking them here. I'd love to hear your thoughts.
+
+## Something from me
+
+A few months ago World Physiotherapy asked me to take on the Lead role in the education working group for the [Global Summit on AI in Physiotherapy](https://world.physio/75th-anniversary/global-summit-ai-physiotherapy), convening in Taipei on 10–11 October as part of the organisation's 75th anniversary. World Physio recruited sixteen experts across three pillars — Education, Practice, Research — to co-create the first global guidance on responsible AI use in physiotherapy. The role has meant facilitating the Education group's discussions since July, then shaping the guiding principles and recommendations from the group into a set of draft principles for presentation and discussion at the summit. This work will ultimately become the Taipei Declaration of AI in Physiotherapy.
+
+I've not managed to publish much on the site, while spending so much of my free time building Path. However, I did manage one new post: **[A question that replaces "did you write this?"](https://michael-rowe.github.io/home-michael/Posts/2026-08-17-ai-and-doctoral-supervision)**. Supervision has always run on an inference — if the writing is the student's, the work behind it probably is too — and that's no longer something we can be confident in. Detection tools don't fix the inference, because they're aimed at the document rather than the person. What actually breaks is calibration, not integrity, which is a more difficult problem to solve. If you read the post, I'd love to hear what you think.
+
+There are also two presentations from the **SASP Symposium 2026** (South African Society of Physiotherapy, *Taking Physiotherapy into the Future*), and both are now live on the site:
+
+- **[New therapeutic alliances](https://michael-rowe.github.io/home-michael/Presentations/2026-09-04-sasp-ai-future-physiotherapy-education)**. On AI and the future of physiotherapy education: what it means that patients now arrive with AI-informed health literacy, and whether we're preparing students for this rather than reacting to it.
+- **[Better than, or better with?](https://michael-rowe.github.io/home-michael/Presentations/2026-09-05-sasp-ethics-ai-physiotherapy)**. On ethics and AI in physiotherapy: why treating AI capability as a contest to be won is the wrong frame, and the uncomfortable possibility that some "human in the loop" arguments protect our own comfort more than they protect patients.
+
+The slides from my full-day workshop at the **IPPTA Business Meeting** in Hamburg (9–10 September) are now also available: **[AI-powered practice growth](https://michael-rowe.github.io/home-michael/Presentations/2026-09-09-ippta-ai-powered-practice-growth)**. The workshop consisted of four linked sessions on how AI actually works and how to prompt it well, building content for a real client group, getting that content found and trusted, and drafting a three-year business plan. Delegates worked on their own practice throughout and everything ran on free-tier tools.
+
+Development on **Path** continued throughout August: I shipped CV Import, and also built out the waiting-list panel into a full user management module. The app is still invite-only via the [waiting list](https://pathcpd.com/waitlist) while I make sure it holds up before opening it further.
+
+And another plug for the book I co-authored with [Benita Olivier](https://www.linkedin.com/in/benita-olivier/). *Still Yours* is about the integration of AI into doctoral research, and is currently with Springer Nature being prepared for publication in **November 2026**. It argues that a thesis is the artefact produced by the doctoral process, but the researcher is actually the point. The book organises the practical middle by the kind of relationship a researcher has with AI — thinking partner, research assistant, writing collaborator, mediator of relationships, project manager — rather than by research stage. Find out more on the [project page](https://michael-rowe.github.io/home-michael/Projects/still-yours) as we get closer to publication, including the option to sign up for announcements.
+
+## Quotes that resonated with me
+
+> I'm telling it the problem I have. I'm telling it the fuzzy, vague idea I have. It tells me where we're going. It tells me which path to take.
+>
+> David Heinemeier Hansson, on the Lex Fridman Podcast
+
+> If I encountered an alien species behaving this way, I would have no hesitation in calling what they themselves call their collective, a civilization.
+>
+> Dwarkesh Patel, *The Rise and Fall of Agent Civilizations*
+
+## Something for the commute
+
+I recorded a podcast conversation in July on AI and leadership — *[What happens when AI joins the leadership team?](https://youtu.be/pZg9NkF4UVg)* — that's recently gone up. This is another different setting from the presentations above, but contains the same underlying question: what changes when AI stops being a tool you consult and starts being something with a seat at the table.
+
+Everything else from the past couple of months is on the [Recently added](https://michael-rowe.github.io/home-michael/recently-added) page.
+
+If you're working through what AI integration might look like in your own professional body, I'd like to hear what's landing and what isn't. Just reply to this email.

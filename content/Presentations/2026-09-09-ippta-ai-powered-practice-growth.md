@@ -31,7 +31,7 @@ linkedin:
 
 ## Overview
 
-A full-day, hands-on workshop for private practice owners at the [International Private Physiotherapy Association](https://ippta.org/)'s business meeting in Hamburg, run as four 90-minute sessions that each build on the one before it.
+A full-day, hands-on workshop for private practice owners at the [International Private Physiotherapy Association](https://private.physio))'s business meeting in Hamburg, run as four 90-minute sessions that each build on the one before it.
 
 The premise is that practice owners already have the expertise; what they don't have is the time to turn it into content, communication, and a plan. So the day is built around production rather than explanation. Delegates work on their own practice throughout, keeping everything they produce in a single plain-text **practice file** that carries context between sessions — the answer to the context window, which is the one technical idea the day insists on.
 
