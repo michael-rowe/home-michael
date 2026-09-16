@@ -126,9 +126,10 @@ export default ((opts?: Partial<FolderContentOptions>) => {
     ) as ComponentChildren
 
     // Don't show the automatic page listing on Courses/index since custom components handle it,
-    // or on Presentations/index, whose body is a hand-maintained archive covering talks with no page
-    const shouldShowPageListing =
-      fileData.slug !== "Courses/index" && fileData.slug !== "Presentations/index"
+    // or on Presentations/index and Podcasts/index, whose bodies are hand-maintained archives that
+    // already list every page in the folder — the auto listing repeats each entry a second time.
+    const HAND_LISTED = new Set(["Courses/index", "Presentations/index", "Podcasts/index"])
+    const shouldShowPageListing = !HAND_LISTED.has(fileData.slug!)
 
     // Detect folder types
     const isNotesFolder = fileData.slug === "Notes/index"

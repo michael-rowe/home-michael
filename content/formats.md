@@ -11,6 +11,10 @@ Content on this site is structured into distinct formats, each with a different 
 
 <i class="ph ph-presentation"></i> **Presentation** — Slide decks and talks from conferences and workshops, embedded here with context and links to related work.
 
+<i class="ph ph-microphone"></i> **Podcast** — Recorded conversations and interviews, where an argument gets worked out in dialogue rather than written down first.
+
+<i class="ph ph-compass"></i> **Guide** — A one-page reference condensing a framework or essay into something usable in teaching and supervision.
+
 <i class="ph ph-graduation-cap"></i> **Course** — A structured, multi-lesson programme for developing a practical skill or working through a complex topic systematically.
 
 ---

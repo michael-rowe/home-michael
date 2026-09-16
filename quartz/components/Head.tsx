@@ -71,6 +71,31 @@ export default (() => {
           name: "Michael Rowe",
         },
       }
+    } else if (contentType === "podcast") {
+      const fm = fileData.frontmatter as Record<string, unknown> | undefined
+      jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "PodcastEpisode",
+        name: fileData.frontmatter?.title ?? title,
+        description: description,
+        url: socialUrl,
+        ...(datePublished ? { datePublished } : {}),
+        ...(fm?.show
+          ? {
+              partOfSeries: {
+                "@type": "PodcastSeries",
+                name: fm.show as string,
+                ...(fm["show-url"] ? { url: fm["show-url"] as string } : {}),
+              },
+            }
+          : {}),
+        ...(fm?.video ? { associatedMedia: { "@type": "MediaObject", contentUrl: fm.video as string } } : {}),
+        actor: {
+          "@type": "Person",
+          name: authorName,
+          url: "https://orcid.org/0000-0002-1538-6052",
+        },
+      }
     } else if (contentType === "course") {
       jsonLd = {
         "@context": "https://schema.org",
