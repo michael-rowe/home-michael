@@ -15,7 +15,7 @@
     "quartz": "./quartz/bootstrap-cli.mjs",
     "check": "tsc --noEmit && npx prettier . --check",
     "validate": "node scripts/validate-taxonomy.mjs --strict",
-    "fetch:inbeta": "node scripts/fetch-inbeta.mjs",
+    "fetch:podcasts": "node scripts/fetch-podcasts.mjs",
     "format": "npx prettier . --write",
     "test": "tsx --test"
   },
