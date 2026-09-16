@@ -152,6 +152,19 @@ declare module "vfile" {
         cssclasses: string[]
         socialImage: string
         comments: boolean | string
+        // Site-specific fields used by /home/michael (see ~/sharing/CLAUDE.md).
+        // Declared here so they type as `string | undefined` rather than falling
+        // through the index signature above as `unknown`.
+        "meta-description": string
+        "tab-title": string
+        keyphrase: string
+        linkedin: string
+        show: string
+        "show-url": string
+        video: string
+        embed: string
+        audio: string
+        duration: string
       }>
   }
 }
