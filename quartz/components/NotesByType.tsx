@@ -36,9 +36,19 @@ const typeConfigs: Record<string, TypeConfig> = {
     description: "Conference talks and workshops — slide decks from invited and contributed presentations.",
     icon: "ph-presentation",
   },
+  podcast: {
+    label: "Podcasts",
+    description: "Recorded conversations — interviews and podcast appearances, with context and links.",
+    icon: "ph-microphone",
+  },
+  guide: {
+    label: "Guides",
+    description: "One-page references — frameworks condensed for use in teaching and supervision.",
+    icon: "ph-compass",
+  },
 }
 
-const typeOrder = ["post", "essay", "note", "course", "presentation"]
+const typeOrder = ["post", "essay", "note", "course", "presentation", "podcast", "guide"]
 
 export const NotesByType: QuartzComponent = ({ cfg, fileData, allFiles }: QuartzComponentProps) => {
   const sorter = byDateAndAlphabetical(cfg)

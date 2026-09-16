@@ -858,3 +858,24 @@ article p:has(.profile-photo) {
     display: block;
   }
 }
+
+// Responsive 16:9 container for embedded video (podcast episodes, talk
+// recordings). aspect-ratio rather than the padding-bottom hack, which
+// several pages still carry inline.
+.video-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--lightgray);
+
+  iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}

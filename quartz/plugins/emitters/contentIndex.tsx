@@ -55,7 +55,7 @@ function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndexMap): string
 // Only actual content types appear in the feed — structural pages (home,
 // speaking, folder indexes) would otherwise consume feed slots whenever their
 // dates reset on a rework.
-const RSS_CONTENT_TYPES = new Set(["post", "essay", "note", "presentation", "guide"])
+const RSS_CONTENT_TYPES = new Set(["post", "essay", "note", "presentation", "guide", "podcast"])
 
 function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndexMap, limit?: number): string {
   const base = cfg.baseUrl ?? ""

@@ -13,6 +13,7 @@ const TYPE_SECTIONS: { type: string; label: string; icon: string }[] = [
   { type: "post", label: "Posts", icon: "ph-pencil-simple" },
   { type: "note", label: "Notes", icon: "ph-note" },
   { type: "guide", label: "Guides", icon: "ph-compass" },
+  { type: "podcast", label: "Podcasts", icon: "ph-microphone" },
   { type: "framework", label: "Frameworks", icon: "ph-stack" },
   { type: "course", label: "Courses", icon: "ph-graduation-cap" },
 ]

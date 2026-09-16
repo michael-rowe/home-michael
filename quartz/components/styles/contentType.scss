@@ -50,6 +50,11 @@
     color: var(--guide-color);
     background-color: color-mix(in srgb, var(--guide-color) 12%, transparent);
   }
+
+  &.content-type--podcast {
+    color: var(--podcast-color);
+    background-color: color-mix(in srgb, var(--podcast-color) 12%, transparent);
+  }
 }
 
 :root {
@@ -60,6 +65,7 @@
   --presentation-color: #9a7020;
   --newsletter-color: #7c3aad;
   --guide-color: #1e6ba8;
+  --podcast-color: #bf4d22;
   // Status/state colours (CourseGrid badges, ShareLinks copied-state, Mcq)
   --status-positive: #2e7d52;
   --status-negative: #b3261e;
@@ -76,6 +82,7 @@
   --presentation-color: #e0c060;
   --newsletter-color: #c084fc;
   --guide-color: #7bafd4;
+  --podcast-color: #f0916b;
   --status-positive: #72c47e;
   --status-negative: #f28b82;
   --status-progress: #e0c060;

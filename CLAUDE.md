@@ -298,6 +298,7 @@ Content lives in `content/` directory (ignored by git per configuration):
 | `content/Frameworks/` | Framework documents |
 | `content/Newsletters/` | Newsletter drafts and archives |
 | `content/Presentations/` | Conference and invited presentation pages with embedded slides |
+| `content/Podcasts/` | Podcast appearances and recorded interviews, with embedded video and context |
 | `content/Projects/` | Project pages for ongoing work (software, frameworks, books), linked from the home page project cards |
 | `content/templates/` | Content templates (excluded from build) |
 | `content/personas/` | Symlinks to the AI reviewer personas in `~/harness/personas/` (excluded from build); `taxonomy.md` and `content-review-queue.md` are real, tracked files |
@@ -396,6 +397,39 @@ linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not
 ```
 *Slides are generated with Marp CLI and stored in `quartz/static/presentations/` to preserve the `.html` extension. The iframe `src` uses the full production URL (`https://michael-rowe.github.io/home-michael/static/presentations/…`) to prevent Quartz's link transformer from stripping the extension.*
 
+**`type: podcast`** — Podcast appearances and recorded interviews (within `content/Podcasts/`)
+```yaml
+type: podcast
+title: ""
+description: ""          # 3-5 sentences for index listings
+meta-description: ""     # Under 155 chars; include the show name
+author:
+  - "[[Michael Rowe]]"
+date: YYYY-MM-DD         # Date the episode was published
+recorded: YYYY-MM        # When the conversation was recorded
+show: ""                 # Podcast name
+show-url: ""             # Podcast home page or channel
+host: ""                 # Interviewer
+episode: ""              # Episode number or series title, if numbered
+role: guest              # guest | host | panel
+video: ""                # Watch URL
+embed: ""                # Embed URL (https://www.youtube.com/embed/ID)
+audio: ""                # Audio-only episode URL, if any
+duration: ""             # e.g. "42 min"
+tags: []
+category: []             # Always list format
+related: []              # Wiki-link format: ["[[Folder/slug]]"]
+draft: false
+linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
+```
+*Episodes are embedded with `<div class="video-embed"><iframe src="EMBED_URL" …></iframe></div>` — the responsive 16:9 wrapper in `quartz/styles/custom.scss`, not the inline `padding-bottom` hack older pages use. `Head.tsx` emits `PodcastEpisode` JSON-LD from the `show`, `show-url` and `video` fields.*
+
+**`content/Podcasts/index.md` has two halves and only one is hand-written.** *As a guest* is a year-by-year list like `content/Presentations/index.md` — add each new episode page to it by hand. *In Beta* is **generated**: everything between `<!-- inbeta:start -->` and `<!-- inbeta:end -->` is written by `scripts/fetch-inbeta.mjs` and overwritten on the next run. Edit the framing around the markers, never inside them.
+
+**The In Beta episode pages are generated too, but they are not overwritten.** `npm run fetch:inbeta` creates a `type: podcast` page for every episode that does not already have one and leaves existing pages alone, so tags, `category`, `related:` links and any hand-written additions survive. `--force` rewrites them all and will discard that work; `--dry-run` reports without writing. The pages are generated with `tags: []` and `category: []` — the validator only rejects unknown values, not missing ones, so they can be filled in over time.
+
+**In Beta keeps the audio.** Each page here carries the metadata and a short summary and then links out; no MP3 is rehosted and no player is embedded, so the recordings, the full show notes and the download counts stay In Beta's. The data comes from the WordPress REST API (`/wp-json/wp/v2/posts?categories=3&per_page=100`), which carries the running time in `meta.duration`. The podcast RSS feed is not a usable substitute: it caps at 10 items and silently ignores `?paged=`, returning the same 10 for every page.
+
 **`type: bib`** — Annotated bibliography entries (within `content/Bibliography/`)
 ```yaml
 type: bib
@@ -434,6 +468,8 @@ linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not
 ### Wikilinks: no markdown inside the alias
 
 `[[Projects/still-yours|*Still Yours*]]` **silently fails** and publishes the raw `[[…]]` brackets to the page. Wikilinks are converted to links by a markdown plugin that runs `findAndReplace` over the parsed tree's *text nodes* (`quartz/plugins/transformers/ofm.ts`). Emphasis inside the alias makes remark split the line into text + emphasis + text nodes before that runs, so the regex never sees a complete wikilink in one text node. The same applies to backticks, bold, and underscores in the alias.
+
+**`#` in the alias fails the same way**, and for a related reason: the alias group in `wikilinkRegex` is `(\\?\|[^\[\]\#]*)?`, which excludes `#` because `#` is the heading separator in `[[page#heading|alias]]`. So `[[Podcasts/ep|#38 Constructing learning]]` publishes raw brackets. Keep the number outside the link — `[[Podcasts/ep|Constructing learning]] *(#38)*`.
 
 Use a plain alias (`[[Projects/still-yours|Still Yours]]`), or a normal markdown link if the formatting matters. Nothing warns you — the build succeeds and the page renders with visible brackets, so check the rendered paragraph, not just that the slug appears somewhere in the HTML (the related-content sidebar produces the same href and will mask the failure).
 
@@ -525,7 +561,8 @@ Key design decisions to be aware of when modifying components:
 - **Overlay pattern**: `MobileNav` appends its overlay to `<body>` via JS, so the show/hide rule is `body.mobile-nav-open .mobile-nav-overlay`, not a CSS sibling selector.
 - **JSON-LD / canonical**: `Head.tsx` emits `<link rel="canonical">` and `<script type="application/ld+json">` for `type: post`, `type: essay`, and course pages. Structured data uses Article schema for posts/essays, Course schema for courses.
 - **RelatedContent**: Uses a three-tier matching strategy — explicit `related` wikilinks first, then category matches, then tag-scored fallback. The `renderSection()` function takes `QuartzPluginData[]`, not `any[]`.
-- **`npm run check` failures**: There are pre-existing TypeScript errors in the codebase (multiple components). These do not block building — `npx quartz build` succeeds. Don't treat `npm run check` failures as blockers unless they're in files you've changed.
+- **`npm run check` failures**: There are 14 pre-existing TypeScript errors in the codebase (`quartz.layout.ts`, `Footer.tsx`, `LessonNav.tsx`, `MobileNav.tsx`, `mobilenav.inline.ts`, `folderPage.tsx`, `fileTrie.ts`). These do not block building — `npx quartz build` succeeds. Don't treat `npm run check` failures as blockers unless they're in files you've changed. **`Head.tsx` is clean and must stay clean** — a new error there is a real error, not noise.
+- **Site-specific frontmatter fields are declared in `quartz/plugins/transformers/frontmatter.ts`**: `meta-description`, `tab-title`, `keyphrase`, `linkedin`, and the podcast fields (`show`, `show-url`, `video`, `embed`, `audio`, `duration`) are in the `Partial<{…}>` on the `frontmatter` type. Without that they fall through the `{ [key: string]: unknown }` index signature and type as `unknown`, which poisons any `??` chain they start (this is what used to break `Head.tsx`). When a new content type adds a field that a component reads, declare it there too.
 
 ## Performance considerations
 

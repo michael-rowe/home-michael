@@ -1,6 +1,6 @@
 {
   "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "description": "\ud83c\udf31 publish your digital garden and notes as a website",
   "private": true,
   "version": "4.5.2",
   "type": "module",
@@ -15,6 +15,7 @@
     "quartz": "./quartz/bootstrap-cli.mjs",
     "check": "tsc --noEmit && npx prettier . --check",
     "validate": "node scripts/validate-taxonomy.mjs --strict",
+    "fetch:inbeta": "node scripts/fetch-inbeta.mjs",
     "format": "npx prettier . --write",
     "test": "tsx --test"
   },
