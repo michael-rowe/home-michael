@@ -62,6 +62,15 @@ When generating content for this site:
 - **Sentence case headings**: All headings MUST use sentence case, not title case (e.g., "How does it work?" not "How Does It Work?")
 - **Strict adherence**: This applies to all content, including course titles, section headers, and blog post titles.
 
+### Teach the reader
+
+The site's reader is a health professions educator, not a technologist. Content aims to teach — not as a small course on every page, but by making sure a reader outside the field can follow the argument and see what it is for. Two rules do most of the work:
+
+- **Gloss jargon in a footnote, link out for the rest.** A term the reader cannot be assumed to know (`Unix`, `pipe`, `grep`, `embedding`, `DOI`, `programmatic assessment` used in passing) gets a footnote at first use: bold term, a one- or two-sentence gloss in plain language, then a link to the Wikipedia page (or the canonical reference page if Wikipedia has none). The body sentence stays as written — no inline parenthetical definitions, no "(a type of…)". The footnote gives the quick reference without leaving the page; the link serves the reader who wants the full account. Do not write a definition the web already holds a million times; write the two sentences that connect the term to this page. A term that is itself the subject of a site note gets a wikilink, not a footnote. Footnotes render at the foot of the page with back-links (GFM, `Plugin.GitHubFlavoredMarkdown`); the footnote label is the term in lower case (`[^unix]`). A jargon term in the `description` field has to be rewritten out — frontmatter cannot carry a footnote.
+- **One example the reader recognises.** A note or post about a technical concept carries at least one example from health professions education — module evaluations, placement records, a reading list, supervision notes — placed where it does the most work, usually right after the mechanism is explained. An example from Michael's own system is welcome alongside it, but does not substitute for it. Keep the technical grounding: the example is added, the mechanism is not simplified away.
+
+Both rules apply to existing content, not only new writing. A sweep for unglossed terms and for technical notes without a recognisable example is a WP issue, not a by-product of other edits. The worked instance is `content/Notes/headless AI.md` (2026-09-17).
+
 ## Technical overview
 
 This site uses Quartz, a static site generator that transforms Markdown files (particularly from digital gardens/note-taking apps like Obsidian) into a fully-featured website. It uses a plugin-based architecture with transformers, filters, and emitters to process content through a build pipeline.
@@ -304,6 +313,7 @@ Content lives in `content/` directory (ignored by git per configuration):
 | `content/Presentations/` | Conference and invited presentation pages with embedded slides |
 | `content/Podcasts/` | Podcast appearances and recorded interviews, with embedded video and context |
 | `content/Projects/` | Project pages for ongoing work (software, frameworks, books), linked from the home page project cards |
+| `content/drafts/` | **Writing that is not ready to be read.** Not built (`drafts` is in `ignorePatterns`) and not committed (`.gitignore`), so nothing here reaches the public repo. Publish by moving the file into its content folder with `draft: false`; schedule a post by moving it into `content/Posts/` with `draft: true` and a date. Anything left in a content folder *is* committed and pushed — `draft: true` keeps it off the site, not off GitHub |
 | `content/templates/` | Content templates (excluded from build) |
 | `content/personas/` | Symlinks to the AI reviewer personas in `~/harness/personas/` (excluded from build); `taxonomy.md` and `content-review-queue.md` are real, tracked files |
 
@@ -358,7 +368,7 @@ description: ""
 author: "[[Michael Rowe]]"
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-status: draft
+draft: false             # The only publication gate on the site; the repo is public, so unfinished writing lives in content/drafts/ instead. A legacy `status:` field did nothing and was removed from all notes on 2026-09-17
 keyphrase: ""
 category: ""             # Single category
 tags: []
