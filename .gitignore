@@ -8,6 +8,8 @@ tsconfig.tsbuildinfo
 .quartz-cache
 private/
 content/templates/
+# Drafts never leave the machine: not built, not committed (2026-09-17)
+content/drafts/
 # Personas are local-only; taxonomy.md is tracked so CI can validate against it
 content/personas/*
 !content/personas/taxonomy.md
