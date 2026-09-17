@@ -6,7 +6,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-03-08
 updated: 2026-03-08
-status: draft
 draft: false
 tags:
   - language-model

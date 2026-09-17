@@ -7,7 +7,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-01-08
 updated: 2026-03-12
-status: active
 draft: false
 keyphrase: "context engineering for AI systems"
 tags:

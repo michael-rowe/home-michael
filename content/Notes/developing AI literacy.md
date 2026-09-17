@@ -5,7 +5,6 @@ description: Developing AI literacy is not skill accumulation but a progressive 
 author: "[[Michael Rowe]]"
 created: 2026-04-28
 updated: 2026-04-28
-status: working
 keyphrase: "developing AI literacy"
 category:
   - Education

@@ -62,6 +62,19 @@ When generating content for this site:
 - **Sentence case headings**: All headings MUST use sentence case, not title case (e.g., "How does it work?" not "How Does It Work?")
 - **Strict adherence**: This applies to all content, including course titles, section headers, and blog post titles.
 
+### What the site is for
+
+`/home/michael` is a resource someone can come to and learn something about AI in health professions education. It is also evidence of Michael's own learning, in public — but "learning in public" is not permission to publish drafts. Everything on the site is work he is satisfied with, proud of, and prepared to put his name to and be accountable for. The site is not a course and its parts are not a progression; each content type has a purpose, and a piece belongs on the site when it serves that purpose for a reader, not because it happened to be finished.
+
+- **Note** — one concept, readable on its own, leaving the reader knowing something about the topic they did not before.
+- **Post** — an attempt to articulate an understanding of a concept, or the implications across several.
+- **Essay** — a coherent articulation of a position Michael is committed to. The test is whether the argument is adequate to the position, not whether it meets a field's standard.
+- **Newsletter** — an annotated reading list.
+- **Podcast** — closer to a lecture: an extended spoken treatment.
+- **Field notes** — worked examples of practice.
+
+Future work conforms to this. Existing content is brought up to it over time, as WP issues — not as a restructure. Decided 2026-09-17 (`~/harness/record/2026-09-17-what-the-site-is-for.md`).
+
 ### Teach the reader
 
 The site's reader is a health professions educator, not a technologist. Content aims to teach — not as a small course on every page, but by making sure a reader outside the field can follow the argument and see what it is for. Two rules do most of the work:

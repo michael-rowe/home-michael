@@ -1,14 +1,13 @@
 ---
 title: Open access licensing
-description: A legal framework that enables the sharing and adaptation of creative and scholarly work while maintaining the rights of the creator.
+description: Licences, mostly Creative Commons, that state in advance what others may do with a work — read, share, adapt, build on — instead of leaving them to ask.
 aliases:
   - Creative Commons
   - OA
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-12
-updated: 2026-02-12
-status: draft
+updated: 2026-09-17
 draft: false
 tags:
   - publishing
@@ -23,31 +22,38 @@ linkedin:
 
 ---
 
-> [!info] Scaling the impact of scholarship
-> Open access licensing transforms "All Rights Reserved" into "Some Rights Reserved." It is the legal engine that allows knowledge to flow freely across borders, enabling educators to build upon each other's work to solve global challenges in health and education.
+> [!info] An open licence answers "may I use this?" before anyone asks
+> Copyright reserves every right to the author by default. An open licence gives some of them away deliberately and in writing — this may be shared, this may be adapted, on these conditions — so that a reader, a teacher or a machine can reuse the work without negotiating. Creative Commons licences are the ones most scholarly and educational work uses.
 
 ## Open access licensing
 
-**One-sentence definition:** Open access licensing is a standardized system of legal permissions that allow creators to grant the public the right to use, share, and sometimes adapt their work under specific conditions.
+**One-sentence definition:** Open access licensing is the use of standard public licences, most often Creative Commons, to grant readers rights to use, share and sometimes adapt a work, subject to stated conditions such as attribution.
 
-Traditional copyright is often a barrier to the rapid dissemination of knowledge, especially in clinical and educational contexts. Open access licenses (most notably Creative Commons) provide a simple way for authors to tell the world exactly how their work can be used without the need for individual legal negotiations. This creates a "legal commons" of resources that anyone can use to improve their teaching or research.
+Two things are easy to run together here. *Open access* means a work can be read without paying; *open licensing* says what you may do with it once you have. A journal article can be free to read and still all-rights-reserved, which means a lecturer can link to it but not put it in a course pack, and a colleague in another country can't translate it. The Budapest Open Access Initiative (2002), which named the movement, asked for both: free to read and free to reuse. Suber's *Open Access* (2012) remains the clearest account of why that distinction matters.
 
-### Why it matters for educators
-- **Open Educational Resources (OER):** It allows for the creation of high-quality, free textbooks and teaching materials. An educator can take an "Open Access" anatomy atlas, adapt it for their local curriculum, and legally share it with their students and colleagues.
-- **Global Knowledge Equity:** In the health professions, paywalls often prevent practitioners in resource-limited settings from accessing the latest evidence. Open access removes these barriers, ensuring that life-saving information is available to everyone, regardless of their institutional affiliation or wealth.
-- **Academic Visibility:** Research that is published under an open access license is more likely to be read, cited, and translated, increasing the reach and impact of the author's scholarship. It aligns with the principle of [[Essays/publishing-with-purpose|publishing with purpose]]—prioritizing the dissemination of ideas over the prestige of a specific journal.
+The Creative Commons licences are built from four conditions:
 
-### Creative Commons (CC) Framework
-The CC system uses four main building blocks to define permissions:
-- **BY (Attribution):** You must credit the original author (fundamental for academic integrity).
-- **SA (ShareAlike):** You must use the same license for any work you build on top of this one.
-- **NC (Non-Commercial):** You cannot use the work for commercial purposes.
-- **ND (NoDerivatives):** You can share the work, but you cannot change it.
+- **BY** — attribution. Credit the author. Every CC licence except CC0 requires it.
+- **SA** — share-alike. Anything built on the work must carry the same licence.
+- **NC** — non-commercial. No commercial use without separate permission.
+- **ND** — no derivatives. Share it whole; don't adapt it.
+
+CC BY is the licence most funders and open journals require, because it allows the widest reuse. NC and ND sound protective but each one cuts off a set of uses the author probably wanted — a textbook publisher, a translation, a remix for a different curriculum — and "commercial" is vague enough that cautious institutions avoid NC material altogether.
+
+### Why it matters in health professions education
+
+Teaching material is the obvious case. An openly licensed anatomy resource, clinical guideline summary or assessment rubric can be adapted for a local programme and shared back; a copyrighted one has to be rebuilt from scratch. Beyond that, the licence on a work now decides whether it can be part of the corpus a language model draws on, and whether a school can legally feed it to an AI tool for its own students. Knox (2013) is the useful counterweight: openness is not a neutral good, and the assumptions behind the OER movement — about who benefits, and what "access" delivers — deserve the scrutiny he gives them.
+
+### What remains unclear
+
+Whether CC licences work as intended when the reuser is a machine. Attribution is a condition of every CC BY work, and a model trained on millions of them attributes none of them. The licences were written for people copying documents; the law hasn't settled what they mean for systems ingesting them.
 
 ---
 
 ## Sources
 
-- Creative Commons. https://creativecommons.org/
-- Budapest Open Access Initiative. (2002). https://www.budapestopenaccessinitiative.org/
-- Suber, P. (2012). *Open Access*. MIT Press.
+- Budapest Open Access Initiative. (2002). https://www.budapestopenaccessinitiative.org/read/
+- Suber, P. (2012). *Open access*. MIT Press. https://mitpress.mit.edu/9780262517638/open-access/
+- Creative Commons. About the licenses. https://creativecommons.org/licenses/
+- Knox, J. (2013). Five critiques of the open educational resources movement. *Teaching in Higher Education*, 18(8), 821–832.
+- Rowe, M. (2025). [[Essays/publishing-with-purpose|Publishing with purpose]] — on what open publishing is for, beyond access.

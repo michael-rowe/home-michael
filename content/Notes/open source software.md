@@ -1,14 +1,13 @@
 ---
 title: Open source software
-description: Software with source code that is publicly accessible, allowing for community-driven development, inspection, and modification.
+description: Software whose source code is published under a licence that lets anyone read, change and redistribute it — and what that means for the tools an institution depends on.
 aliases:
   - OSS
   - FOSS
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-12
-updated: 2026-02-12
-status: draft
+updated: 2026-09-17
 draft: false
 tags:
   - collaboration
@@ -21,27 +20,36 @@ linkedin:
 
 ---
 
-> [!info] Transparency as a public good
-> Open source is the "community of practice" applied to software engineering. By making the "recipe" for tools public, it ensures that technology is subject to peer review, collective improvement, and democratic control, rather than being a "black box" owned by a single corporation.
+> [!info] Open source means the recipe is public, not just the meal
+> Open source software publishes its source code under a licence that lets anyone inspect it, change it and pass it on. The practical consequence for an institution is that the software can outlive its vendor, be adapted to local needs, and be checked rather than trusted.
 
 ## Open source software
 
-**One-sentence definition:** Open source software (OSS) is software whose source code is made available under a license that grants users the right to study, change, and distribute the software to anyone and for any purpose.
+**One-sentence definition:** Open source software is software distributed with its source code under a licence that grants the rights to study, modify and redistribute it, as defined by the Open Source Initiative.
 
-The power of open source lies in its transparency and its community. In proprietary software, the inner workings are a secret (closed source), and users must trust the vendor for security and updates. In open source, the code is a "public health" asset; anyone can inspect it for vulnerabilities, suggest improvements, or "fork" the project to create a version that better serves their specific needs. This model has produced much of the world's most critical digital infrastructure, from the Linux operating system to the Python programming language.
+Most software is closed: you get the compiled program and a licence to run it, and the code that makes it work stays with the company. Open source inverts that. The code is public, and the licence — GPL, MIT, Apache and a handful of others — says what you may do with it. Raymond's *The cathedral and the bazaar* (2000) is the classic account of how a community working in the open can produce better software than a firm working in private; Stallman's essays (2002) make the older, more political case that users have a right to control the software they depend on.
 
-### Why it matters for educators
-- **Institutional Resilience:** If a commercial software vendor goes out of business or changes its pricing, the institution is often "locked in." With open source, the community can maintain the software indefinitely, providing a more stable and sustainable foundation for educational systems.
-- **Collaborative Innovation:** Educators can participate in the development of the tools they use. If a learning management system or a portfolio tool is open source, a university can add features that its specific student body needs and share those improvements back with the global community.
-- **Digital and [[Notes/context sovereignty|Context Sovereignty]]:** Using open source tools ensures that an institution maintains control over its data and its technological destiny. It prevents the "colonization" of educational practice by proprietary platforms that dictate how teaching and learning should occur through their design choices.
+The infrastructure behind almost everything runs on open source: Linux on nearly every server, Python and R for research, Git for version control, the compilers and libraries behind commercial products. This site is built with Quartz, an open source static site generator, and edited in Obsidian, which is not.
 
-### The Community Pillar
-What distinguishes successful open source projects is not just the code, but the health of the community around it. This includes shared governance, transparent decision-making, and a culture of mutual support. For the health professions, this mirrors the way we maintain clinical guidelines and professional standards—through collective expertise and open critique for the common good.
+### Why it matters in education
+
+- **The exit is real.** When a vendor is bought, raises prices or discontinues a product, an institution running closed software has to migrate. With open source, the code stays available; someone else can maintain it, or you can. Avila et al. (2016) evaluated WordPress as an e-portfolio platform in undergraduate medical education partly on those grounds.
+- **You can change it.** A learning platform that nearly does what a programme needs can be made to do it, and the change can be shared. Closed software can be configured; it can't be fixed.
+- **You can look.** An assessment tool that makes decisions about students can be audited when its code is open. That matters more as software starts to include AI components, and it's why the argument over what "open source AI" should mean (Wiley, 2024) is worth following: a model released with weights but without training data is open in a narrower sense than the term used to carry.
+
+Belshaw (2022) offers a useful typology of how open source communities grow and stall; the healthy ones have governance, not just code, which is the part institutions underestimate when they adopt.
+
+### What it doesn't guarantee
+
+Open source is not free of cost. Someone has to host, maintain, secure and update it, and if that's an already-stretched IT team the closed product with a support contract can be the cheaper choice. Openness of code also says nothing about openness of data: a closed-source tool can still let you export everything, and an open-source one can still lock your material in a bespoke format. Ask both questions.
 
 ---
 
 ## Sources
 
-- Raymond, E. S. (1999). *The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary*.
-- Stallman, R. (2002). *Free Software, Free Society: Selected Essays of Richard M. Stallman*.
-- The Open Source Initiative (OSI). https://opensource.org/
+- Open Source Initiative. The open source definition. https://opensource.org/osd
+- Raymond, E. S. (2000). *The cathedral and the bazaar*. http://www.catb.org/esr/writings/cathedral-bazaar/
+- Stallman, R. M. (2002). *Free software, free society: Selected essays of Richard M. Stallman*. GNU Press.
+- Avila, J., Sostmann, K., Breckwoldt, J., & Peters, H. (2016). Evaluation of the free, open source software WordPress as electronic portfolio system in undergraduate medical education. *BMC Medical Education*, 16, 157.
+- Belshaw, D. (2022). How open source communities are evolving. https://dougbelshaw.com/blog/
+- Wiley, D. (2024). Toward a definition of open source AI. *improving learning*. https://opencontent.org/blog/

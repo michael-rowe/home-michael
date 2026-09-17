@@ -8,7 +8,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-14
 updated: 2026-02-14
-status: published
 tags:
   - context-engineering
   - reasoning

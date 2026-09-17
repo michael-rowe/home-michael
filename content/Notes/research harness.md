@@ -5,7 +5,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-05-31
 updated: 2026-05-31
-status: draft
 draft: false
 tags:
   - agent
