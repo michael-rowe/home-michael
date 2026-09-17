@@ -8,7 +8,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-05
 updated: 2026-02-12
-status: draft
 draft: false
 tags:
   - context-sovereignty
@@ -47,4 +46,3 @@ Contextual interoperability is the bridge between personal knowledge management 
 ## Sources
 
 - Rowe, M., & Lynch, W. (2025). Context sovereignty for AI-supported learning: A human-centred approach.
-- "The translation problem: Why contextual interoperability is the next frontier for AI-supported scholarship" (Rowe, 2026).

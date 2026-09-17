@@ -5,7 +5,6 @@ description: An AI agent is a system that autonomously executes multi-step tasks
 author: "[[Michael Rowe]]"
 created: 2026-02-27
 updated: 2026-02-27
-status: draft
 draft: false
 keyphrase: how AI agents work
 category: Technology

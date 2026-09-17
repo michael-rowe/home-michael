@@ -8,7 +8,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-12
 updated: 2026-02-12
-status: draft
 draft: false
 tags:
   - information-architecture

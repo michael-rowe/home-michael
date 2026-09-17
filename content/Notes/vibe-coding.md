@@ -5,7 +5,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-03-01
 updated: 2026-03-01
-status: draft
 draft: false
 tags:
   - agent
@@ -56,6 +55,8 @@ The line between disciplined delegation and vibe coding is not always sharp. For
 ## Sources
 
 - Willison, S. (2025). [Vibe engineering](https://simonwillison.net/2025/Oct/7/vibe-engineering/). *simonwillison.net*.
+- Chow, M., & Ng, O. (2025). From technology adopters to creators: Leveraging AI-assisted vibe coding to transform clinical teaching and learning. *Medical Teacher*. https://doi.org/10.1080/0142159X.2025.2488353 — uses the term approvingly, for educators building simulations without code; the sense this note argues against.
+- O'Connor, S., Zhang, M., Hui, V., et al. (2026). The era of agentic AI: Should nurses and midwives learn about vibe coding and AI agents for better health and care? *Nurse Education in Practice*.
 
 ---
 

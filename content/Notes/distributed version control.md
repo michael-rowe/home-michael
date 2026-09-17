@@ -7,7 +7,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-04-06
 updated: 2026-04-06
-status: draft
 draft: false
 tags:
   - documentation

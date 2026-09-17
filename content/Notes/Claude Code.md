@@ -1,13 +1,12 @@
 ---
 title: Claude code
-description: An agentic AI command-line tool designed to understand, modify, and manage complex repositories of code and documentation.
+description: Anthropic's command-line agent — a language model that reads, edits and runs commands across a folder of files on your own machine rather than answering in a chat window.
 aliases:
   - Claude CLI
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-12
-updated: 2026-02-12
-status: draft
+updated: 2026-09-17
 draft: false
 tags:
   - agent
@@ -17,31 +16,34 @@ related:
   - "[[Notes/model-context-protocol]]"
   - "[[Notes/system-prompt]]"
   - "[[Notes/mcp-server]]"
-keyphrase: AI agents for curriculum management
+keyphrase: agentic AI tools for academic work
 linkedin:
 
 ---
 
-> [!info] From chatbot to operator
-> Claude code represents a transition in AI capability from simple text generation to autonomous system operation. By operating within the local environment (the terminal) and having direct access to the filesystem, it moves beyond "talking about" problems to actively resolving them across an entire project.
+> [!info] Claude Code is a language model that works in your files, not in a chat box
+> Claude Code runs in a terminal, with access to the folder you point it at. Given a task, it reads what's there, works out what to change, edits the files and runs the checks — then reports back. It was built for programmers and turns out to be just as useful on a folder of curriculum documents, meeting notes or a manuscript, because all of those are text.
 
-## Claude code
+## Claude Code
 
-**One-sentence definition:** Claude code is an agentic AI tool that operates through a command-line interface, allowing it to autonomously read, write, and execute commands across a local repository of files.
+**One-sentence definition:** Claude Code is an agentic command-line tool from Anthropic in which a language model plans and carries out multi-step work across a local set of files — reading, writing, searching and executing commands — under a user's direction.
 
-Unlike a standard web-based interface where a user must manually provide context, Claude code is "resident" within the project. It can use tools like `ls`, `grep`, and `read_file` to understand the structure and content of a codebase or a curriculum repository. This allows it to perform complex, multi-step tasks—such as refactoring a set of files to match a new naming convention or identifying inconsistencies in learning outcomes across multiple modules—with minimal human intervention.
+The difference from a chat interface is where the context comes from. In a chat window you paste in what the model needs to see. Claude Code is *in* the folder: it can list files, search across them, read the ones that matter and change them directly. That makes tasks possible that a chat can't sensibly do — apply a new frontmatter schema across four hundred notes, find every module specification that doesn't mention a standard, cross-check a reference list against a bibliography — because the tool does the reading rather than the person doing the pasting.
 
-### Operational capability for educators
-- **Autonomous Investigation:** You can ask Claude code to "Find all instances where the new patient safety standards are not addressed in our Year 3 modules." It will search the files, analyze the content, and report back with a list of specific gaps.
-- **Batch Processing:** It can handle repetitive, "low-level" administrative tasks at scale. For example, updating the metadata, dates, or contact details across hundreds of module specifications simultaneously.
-- **Verification and "Tests":** In software development, we use "tests" to verify that code works as intended. In a curriculum context, Claude code can run similar checks—verifying that every learning outcome is mapped to a competency or that no internal links are broken—acting as an automated layer of quality assurance.
+It's an [[Notes/ai-agents|agent]] in the specific sense: it runs a loop of plan, act, observe and adjust until the task is done or it needs a decision from you. It reads a `CLAUDE.md` file in the folder for standing instructions, which is where the conventions of a project live — what the files are, how they're named, what must never be changed — and that file is the difference between an agent that does what you meant and one that does what you said. See [[Notes/harness-engineering|harness engineering]] and [[Notes/context engineering|context engineering]].
 
-### The Agentic Shift
-Claude code exemplifies the shift toward [[model context protocol|MCP]]-enabled agents that can interact with institutional data. It requires the user to move from being a "writer" to being a "director" or "reviewer." The challenge for the educator is developing the **evaluative judgement** necessary to oversee an agent that can make hundreds of changes to a digital workspace in seconds, ensuring that the agent's actions align with the overarching pedagogical goals.
+### What it looks like in academic work
+
+Everything behind this site is run this way: the planning vault, meeting summaries, the checks that catch broken metadata, the drafting and reviewing of posts. A typical instruction is a sentence — *find the meetings this month that still need a summary and write one for each from the transcript in the cache* — and the work is done in the files, visible in version control, reviewable line by line. O'Connor et al. (2026) ask whether nurses and midwives should be learning about agents like this; the answer implied by the tooling is that anyone whose work lives in documents already has a use for it.
+
+### What it asks of you
+
+An agent that can change hundreds of files in a minute needs a person who can tell whether it should have. That's evaluative judgement rather than technical skill: knowing what good looks like in your own domain, specifying it clearly, and reviewing what comes back rather than accepting it. The failure mode has a name — [[Notes/vibe-coding|vibe coding]] — and the safeguard is the same as with any delegation: a clear brief, plain-text material the agent can actually read ([[Notes/plain text|plain text]], [[Notes/markdown|markdown]]), and version control so that every change can be seen and undone.
 
 ---
 
 ## Sources
 
-- Anthropic. (2025). Claude Code Documentation. https://docs.claude.com/en/docs/claude-code/overview
-- "Documentation becomes infrastructure when AI agents are the readers." (Rowe, 2026).
+- Anthropic. (2025). Claude Code overview. https://docs.claude.com/en/docs/claude-code/overview
+- O'Connor, S., Zhang, M., Hui, V., et al. (2026). The era of agentic AI: Should nurses and midwives learn about vibe coding and AI agents for better health and care? *Nurse Education in Practice*.
+- Rowe, M. (2026). [[Essays/documentation-as-infrastructure|Documentation becomes infrastructure when AI agents are the readers]].

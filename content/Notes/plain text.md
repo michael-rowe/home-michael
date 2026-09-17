@@ -1,13 +1,12 @@
 ---
 title: Plain text
-description: The foundational layer of digital information, stored as a sequence of readable characters without proprietary formatting.
+description: Files made only of readable characters, with no formatting locked inside them. The format every tool can open, and the one that will still open in thirty years.
 aliases:
   - .txt
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-12
-updated: 2026-02-12
-status: draft
+updated: 2026-09-17
 draft: false
 tags:
   - standards
@@ -21,26 +20,33 @@ linkedin:
 
 ---
 
-> [!info] The universal solvent of computing
-> Plain text is the only file format guaranteed to be readable decades from now. By stripping away the layers of proprietary software and complex binary code, it provides a stable, "future-proof" foundation for individual scholarship and institutional memory.
+> [!info] Plain text is the format nothing can lock you out of
+> A plain-text file contains only characters — no hidden styling, no proprietary structure, no dependence on the program that wrote it. Anything can read it, search it, version it, or pipe it into something else, which is why it sits underneath markdown, LaTeX, code, and most of the tooling that makes AI-assisted work possible.
 
 ## Plain text
 
-**One-sentence definition:** Plain text is data consisting only of readable characters (encoded in standards like UTF-8), containing no hidden formatting code or dependency on specific software.
+**One-sentence definition:** Plain text is data made up only of readable characters (usually UTF-8), with no formatting or metadata hidden in the file beyond what you can see.
 
-In an era of proprietary silos and "software-as-a-service" subscriptions, plain text offers a radical simplicity. It is the "lowest common denominator" of computer data, readable by every operating system and programming language ever written. For the educator, choosing plain text is a choice for **data sovereignty**: it ensures that your intellectual property is not "trapped" within the business model of a software company.
+A Word document looks like text but isn't. Underneath it is a compressed bundle of XML, styles, revision history and embedded objects, readable only by software that understands that bundle. A plain-text file is what it appears to be. Open it in any editor on any operating system from any decade and the same characters come back.
 
-### Strategic significance
-- **Longevity and Sustainability:** Academic and clinical knowledge often needs to be preserved over decades. While proprietary formats from the 1990s are now difficult to open, a plain text file from that era remains perfectly accessible. It is the most sustainable format for long-term archiving.
-- **Interoperability:** Plain text is the medium through which different systems communicate. It allows for [[Notes/contextual interoperability|contextual interoperability]], where information can flow seamlessly between a personal notes app, a university's curriculum management system, and an AI assistant.
-- **AI and Searchability:** Large language models and system-level search tools (like grep) are designed to "ingest" plain text. Keeping your curriculum or research data in plain text makes it instantly queryable, allowing you to find connections across thousands of documents without needing to open them one by one.
+That property is what makes plain text worth choosing deliberately rather than by accident. Three things follow from it:
 
-### Beyond the text file
-While "plain text" sounds simple, it is the building block for more sophisticated tools like [[Notes/markdown|Markdown]], [[Notes/latex|LaTeX]], and even computer code. It represents a move away from "document management" toward **information architecture**. When your content is plain text, it becomes data that can be manipulated, analyzed, and transformed programmatically, which is the first step toward building more intelligent educational systems.
+- **Longevity.** A text file from 1990 opens today; a WordPerfect file from the same year mostly doesn't. For teaching materials, curriculum documents and research notes that need to outlast a software licence, this matters more than it sounds.
+- **Composability.** Every command-line tool, every scripting language and every version-control system assumes text. Once your material is text, you can search across thousands of files in a second, track every change to a document with [[Notes/git|git]], and convert between formats with [[Notes/pandoc|pandoc]]. None of those tools has a Word plug-in worth using.
+- **Legibility to machines.** Language models read text. They can be made to read a PDF or a .docx, but with loss and effort. A curriculum, a set of notes or a policy folder held as plain text is directly available to an AI agent; the same material in proprietary formats is, for practical purposes, invisible to it. See [[Notes/contextual interoperability|contextual interoperability]].
+
+### What it looks like in practice
+
+For most academics the shift is small: writing in [[Notes/markdown|markdown]] rather than Word, keeping notes in an editor like Obsidian, and treating the .docx as an export for a committee rather than the master copy. Tenen and Wythoff's *Sustainable authorship in plain text* (2014) is still the best short case for the workflow, and Healy's *Plain text, papers, pandoc* (2014) shows what it looks like across a working social scientist's writing.
+
+### What it doesn't solve
+
+Plain text is a format, not an organisation. A folder of five thousand text files is as hard to navigate as a folder of five thousand Word documents unless the structure — names, folders, frontmatter, links — is designed. And some things genuinely need richer formats: a slide deck for a lecture theatre, a form with signatures, a typeset PDF. The point isn't to refuse those; it's to generate them from a plain-text source rather than starting there.
 
 ---
 
 ## Sources
 
-- Hunt, A., & Thomas, D. (1999). *The Pragmatic Programmer: From Journeyman to Master*. (On the "Power of Plain Text").
-- Raymond, E. S. (2003). *The Art of Unix Programming*. (On the importance of text as a universal interface).
+- Tenen, D., & Wythoff, G. (2014). Sustainable authorship in plain text using Pandoc and Markdown. *Programming Historian*. https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+- Healy, K. (2014). Plain text, papers, pandoc. https://kieranhealy.org/blog/archives/2014/01/23/plain-text/
+- Hunt, A., & Thomas, D. (1999). *The pragmatic programmer* (chapter on the power of plain text). Addison-Wesley.

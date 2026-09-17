@@ -1,13 +1,12 @@
 ---
 title: Pandoc
-description: A powerful command-line tool that converts documents between dozens of different markup formats, enabling interoperability and workflow flexibility.
+description: A command-line converter that reads a document's structure in one format and writes it out in another — markdown to Word, Word to HTML, anything to PDF — with citations intact.
 aliases:
   - Universal document converter
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-12
-updated: 2026-02-12
-status: draft
+updated: 2026-09-17
 draft: false
 tags:
   - standards
@@ -21,26 +20,33 @@ linkedin:
 
 ---
 
-> [!info] The universal translator for text
-> Pandoc is the engine of a "single source of truth" workflow. It removes the friction of document conversion, allowing educators to write in simple formats like [[Notes/markdown|Markdown]] and output to professional formats like [[Notes/latex|LaTeX]], Word, or HTML without manually re-formatting.
+> [!info] Pandoc is why you only have to write a document once
+> Pandoc reads a document into an internal model of its structure — headings, lists, emphasis, citations — and writes that model back out in whichever format you ask for. Write in [[Notes/markdown|markdown]]; hand the committee a .docx, the students a PDF and the website its HTML, all from one file.
 
 ## Pandoc
 
-**One-sentence definition:** Pandoc is a "universal document converter" that parses a document in one format and renders it into another, maintaining the structural integrity of the content across dozens of different file types.
+**One-sentence definition:** Pandoc is a command-line tool, written by the philosopher John MacFarlane, that converts documents between dozens of markup formats by parsing them into a common structure and re-rendering.
 
-If you have ever tried to move a complex document from a PDF to a Word file and watched the tables and citations disappear, you have experienced the problem Pandoc solves. It doesn't just "copy and paste" text; it builds an internal model of the document's *meaning*—which parts are headings, lists, or citations—and then rebuilds that model in the target format. This makes it possible to convert between formats that are traditionally incompatible.
+Copying text from a PDF into Word and watching the headings, tables and references fall apart is the problem pandoc solves. It doesn't move characters around; it works out what each part of the document *is* and rebuilds it in the target format's own idiom. A second-level heading in markdown becomes a Heading 2 style in Word, a `\subsection` in LaTeX and an `<h2>` in HTML, and the reverse conversions work too.
 
-### Why it matters for educators
-- **Workflow Flexibility:** You can write your teaching materials in the format that is most efficient for you (like Markdown) and use Pandoc to deliver them in the format your institution or students require (like a Word doc for a committee or an e-book for a student).
-- **Automated Publishing:** Pandoc can be integrated into automated systems. For example, a university could have a system where a single Markdown file is automatically converted into a website, a PDF handbook, and a set of clinical "pocket guides" every time the source file is updated.
-- **Reference Management:** Pandoc integrates with bibliographic tools like Zotero. It can take a document with simple citation keys and generate a perfectly formatted bibliography in any style (APA, Vancouver, Harvard) for any output format, ensuring academic rigour across all your digital materials.
+What makes it more than a convenience:
 
-### Enabling Interoperability
-Pandoc is a critical tool for achieving **interoperability** in digital curricula. It ensures that our ideas are not "trapped" within the limitations of any single piece of software. By making it easy to move between [[Notes/plain text|plain text]] and proprietary formats, it allows educators to build a modern, flexible digital infrastructure that can adapt to new tools and technologies as they emerge.
+- **Citations.** Pandoc reads a bibliography file (BibTeX, or exported straight from Zotero) and a citation style, and turns `[@vleuten2012]` in the source into a correctly formatted in-text citation and reference list in any of the thousands of CSL styles. Switching a paper from APA to Vancouver for a different journal is a one-word change.
+- **Templates.** A .docx reference document or a LaTeX template controls the output's appearance, so a plain markdown file can come out looking like the institution's house style without any of that style living in the source.
+- **Scriptability.** Because it's a command-line tool, it sits inside automation. A module handbook can be rebuilt as Word, PDF and web every time the source changes, without anyone opening a word processor.
+
+### What it looks like in practice
+
+The PDFs of the essays on this site are built with pandoc from the same markdown the web pages come from. Tenen and Wythoff (2014) walk through the basic workflow for an academic — markdown, a bibliography file, one command — and it hasn't changed much in a decade.
+
+### What it doesn't do
+
+Pandoc converts structure, not layout. A complex Word document with floating text boxes and manual spacing will come through as its underlying content, which is usually what you want and occasionally isn't. Conversions *from* PDF are poor, because a PDF is a picture of a page rather than a structured document; treat the PDF as an output, never as a source.
 
 ---
 
 ## Sources
 
-- MacFarlane, J. (2006). Pandoc: A universal document converter. https://pandoc.org/
-- "Pandoc: The Swiss-Army Knife of Academic Writing." (The Programming Historian).
+- MacFarlane, J. (2006–). Pandoc: a universal document converter. https://pandoc.org/
+- Tenen, D., & Wythoff, G. (2014). Sustainable authorship in plain text using Pandoc and Markdown. *Programming Historian*. https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+- Healy, K. (2014). Plain text, papers, pandoc. https://kieranhealy.org/blog/archives/2014/01/23/plain-text/

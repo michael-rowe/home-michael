@@ -1,13 +1,12 @@
 ---
 title: LaTeX
-description: A high-quality typesetting system that separates content from style, designed for the production of technical and scientific documentation.
+description: A typesetting system in which you write the structure of a document in plain text and the system lays it out — the standard for theses, mathematics and anything with hundreds of cross-references.
 aliases:
   - TeX
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-12
-updated: 2026-02-12
-status: draft
+updated: 2026-09-17
 draft: false
 tags:
   - academic-writing
@@ -20,27 +19,33 @@ linkedin:
 
 ---
 
-> [!info] Logical structure over visual layout
-> LaTeX is the gold standard for precision in academic publishing. By requiring the author to define the logical structure of a document rather than its visual appearance, it ensures that formatting remains perfectly consistent, references stay accurate, and the final output is of professional typeset quality.
+> [!info] LaTeX separates what a document says from how it looks
+> In LaTeX you write `\section{Methods}` and `\cite{vleuten2012}` in a [[Notes/plain text|plain-text]] file, and a compiler turns that into a typeset PDF with the numbering, references and layout handled for you. It's demanding to learn and unmatched for long, heavily cross-referenced documents.
 
 ## LaTeX
 
-**One-sentence definition:** LaTeX (pronounced 'Lay-tek') is a document preparation system where authors use markup commands to describe the structure of their work, which is then compiled into a high-quality PDF.
+**One-sentence definition:** LaTeX is a document preparation system, built on Donald Knuth's TeX, in which the author marks up the logical structure of a document in plain text and a compiler produces the typeset output.
 
-In a word processor, you are responsible for the "look" of every paragraph, heading, and image as you type. In LaTeX, you are a "director" who gives instructions: `\section{Anatomy}`, `\begin{table}`, `\cite{Jones2024}`. The system then applies centuries-old rules of professional typography to handle the layout, spacing, and font choice. This separation of content from style is what makes LaTeX the industry standard for mathematical, scientific, and technical publishing.
+Leslie Lamport built LaTeX in the 1980s as a set of higher-level commands over TeX, so that a writer could say "this is a section", "this is a figure", "cite this" and leave the typography to the system. Four decades on it's still the standard for mathematics, physics and computer science, and for doctoral theses in many other fields, because nothing else handles a 300-page document with a thousand references and a hundred figures without complaint.
 
-### Why it matters for educators
-- **Handling Complexity:** For long documents—like a PhD thesis, a 200-page curriculum map, or a complex research paper—standard word processors often become unstable. LaTeX is designed to handle thousands of pages, hundreds of images, and thousands of cross-references with absolute stability.
-- **Perfect Referencing:** LaTeX automatically manages your table of contents, your list of figures, and your entire bibliography. If you move a chapter from the end of a book to the beginning, every citation, figure number, and internal reference in the entire document updates instantly and accurately.
-- **Mathematical and Scientific Precision:** No other system handles complex formulas, chemical structures, or statistical tables with the same aesthetic and structural rigour. If your teaching involves precision data, LaTeX is the tool that ensures it is presented clearly and professionally.
+What it's good at:
 
-### The "Single Source" Mindset
-Like [[Notes/markdown|Markdown]], LaTeX uses [[Notes/plain text|plain text]] source files. This means your work is not "trapped" in a binary file format that might become obsolete. It allows for a workflow where you can focus entirely on the intellectual structure of your curriculum or research, knowing that the final "production" of the document will be handled flawlessly by the system.
+- **Cross-referencing that never breaks.** Move a chapter and every figure number, equation number, citation and page reference updates on the next compile. Word can do some of this; it does it reluctantly.
+- **Mathematics.** Equations in LaTeX are written as text (`\frac{a}{b}`) and set beautifully. Anything with statistics beyond a t-test is easier here.
+- **Consistency at scale.** Because appearance is defined once, in a class or template, every heading, caption and table across a thesis looks the same without the author policing it.
+
+### Where it sits for most educators
+
+Most people in health professions education will never write LaTeX directly, and don't need to. The useful thing to know is that [[Notes/pandoc|pandoc]] can produce LaTeX — and therefore a typeset PDF — from [[Notes/markdown|markdown]], so a document written in the simpler format inherits LaTeX's output quality without its syntax. The essay PDFs on this site are made that way. Learning LaTeX properly is worth it if you're writing a thesis with heavy mathematics, or supervising someone who is.
+
+### What it costs
+
+The learning curve is real, error messages are famously unhelpful, and collaborating with colleagues who use Word means converting at every exchange. Overleaf, a browser-based editor, removes most of the installation pain and adds track-changes-style collaboration, which is how many supervisors first meet it.
 
 ---
 
 ## Sources
 
-- Lamport, L. (1994). *LaTeX: A Document Preparation System*. Addison-Wesley.
-- The Comprehensive TeX Archive Network (CTAN). https://www.ctan.org/
+- Lamport, L. (1994). *LaTeX: A document preparation system* (2nd ed.). Addison-Wesley.
 - Knuth, D. E. (1984). *The TeXbook*. Addison-Wesley.
+- Tenen, D., & Wythoff, G. (2014). Sustainable authorship in plain text using Pandoc and Markdown. *Programming Historian*. https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown

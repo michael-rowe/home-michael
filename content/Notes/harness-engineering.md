@@ -5,7 +5,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-03-03
 updated: 2026-03-03
-status: draft
 draft: false
 tags:
   - agent
@@ -63,7 +62,7 @@ This is what [[2026-03-03-ai-agent-governance-higher-education|computable govern
 
 ## Sources
 
-- Lopopolo, R. (2025). *Harness engineering: leveraging Codex in an agent-first world*. OpenAI. https://openai.com/index/harness-engineering/
+- Lopopolo, R. (2026). *Harness engineering: leveraging Codex in an agent-first world*. OpenAI. https://openai.com/index/harness-engineering/
 
 ---
 

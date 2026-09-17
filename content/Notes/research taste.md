@@ -6,7 +6,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-04-12
 updated: 2026-04-12
-status: draft
 draft: false
 tags:
   - academic-practice

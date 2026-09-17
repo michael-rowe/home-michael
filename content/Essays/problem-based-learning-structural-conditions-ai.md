@@ -11,9 +11,9 @@ affiliation:
 email:
   - mrowe@lincoln.ac.uk
 keyphrase: AI integration problem-based learning health professions education
-version: 0.8
+version: 0.8.1
 created: 2026-03-27
-modified: 2026-03-31
+modified: 2026-09-17
 orcid: 0000-0002-1538-6052
 tags:
   - health-professions-education
@@ -28,6 +28,10 @@ related:
   - "[[Essays/taste-and-judgement]]"
   - "[[Essays/ai-hpe-theoretical-framework]]"
   - "[[Essays/context-sovereignty]]"
+  - "[[Notes/wicked problems]]"
+  - "[[Notes/emergence]]"
+  - "[[Notes/scholarship as a complex adaptive system]]"
+  - "[[Notes/emergent scholarship]]"
 category:
   - Education
   - Assessment

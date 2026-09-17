@@ -1,10 +1,10 @@
 ---
 title: Principles of emergent scholarship
-description: Ten principles describing the conditions under which scholarly contributions emerge — stated as conditions rather than steps, and derived from the features of complex adaptive systems rather than from preference.
+description: Ten conditions under which scholarly contributions emerge, each derived from a feature of complex adaptive systems and stated as a condition rather than a step.
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-09-15
-updated: 2026-09-15
+updated: 2026-09-17
 status: draft
 draft: true
 tags:
@@ -28,63 +28,56 @@ keyphrase: principles of emergent scholarship
 linkedin:
 ---
 
-> [!info] Conditions, not steps
-> These are not a method. A method would contradict the argument: if scholarly contributions emerge from interactions that cannot be specified in advance, then no sequence of steps produces one. What you can do is arrange the conditions under which good collisions become likely — which is what each of these ten principles names.
+> [!info] Ten conditions under which scholarly work produces something new
+> The principles of emergent scholarship describe the conditions under which contributions arise from scholarly work: connection, circulation, community, locality, participation, openness, medium, engagement, mastery, and throughput. Each corresponds to a feature of complex adaptive systems and says what that feature implies for how scholarship gets done.
 
 ## Principles of emergent scholarship
 
-Each is stated as *X through Y* because in every case the first thing is **produced by** the second rather than added to it afterwards. Read them as settings on a system, not as items on a list. None of them tells you what to do on Tuesday; together they change what Tuesday makes possible.
+Each principle takes the form *X through Y*, where the second thing produces the first. The correspondence with the features of complex adaptive systems is deliberate: the principles are an attempt to say what those features mean for someone doing scholarly work, and where a feature had no principle attached to it, the principle was added.
 
-Each also corresponds to a feature of complex adaptive systems. That correspondence is the point rather than a decoration: the principles are an attempt to say what those features imply for someone doing scholarly work, and where a feature had no principle, the principle was missing rather than the feature irrelevant.
+**Knowledge through connection.** Insight arrives where perspectives meet, so the practical work is to increase the number and variety of things that can encounter each other, including material with no obvious scholarly standing. The feature is rich interaction among many elements; the theoretical ground is social constructivism and connectivism.
 
-**Knowledge through connection.** Insight arrives at intersections, not at the end of a solitary process. The practical instruction is to increase the number and variety of things that can meet each other — including the ones with no obvious scholarly status. *Rich interaction among many elements. Social constructivism; connectivism.*
+**Information flow through networks.** Good ideas come from anywhere in a network, which argues for connections that cross institutional and disciplinary lines and for letting work circulate while it is still forming. A finished paper in circulation is being distributed, and an unfinished one is being interacted with, and only the second can feed back into the work. The feature is networks and feedback loops; the ground is network theory and the diffusion of innovations.
 
-**Information flow through networks.** Good ideas come from anywhere in a network, so build connections that span institutional and disciplinary lines and let work circulate while it is still forming. Circulating a finished paper is distribution; circulating an unfinished one is interaction, and only the second can feed back. *Networks and feedback loops. Network theory; diffusion of innovations.*
+**Identity through community.** Scholars become who they are through participation, and that needs environments where evaluation is developmental, because visible half-formed work is what the system runs on and nobody offers it where it will be punished. The feature is local interaction producing global pattern; the ground is communities of practice and situated learning.
 
-**Identity through community.** Scholars become who they are through participation. That needs environments where evaluation is developmental rather than judgemental, because visible half-formed work is the input the system runs on and nobody offers it where it will be punished. *Local interaction producing global pattern. Communities of practice; situated learning.*
+**Orientation through locality.** No element in a complex system perceives the whole; each responds to what is near it. You can't see your field, nobody can, and the comprehensive literature review was always a reconstruction. AI-mediated search extends your reach without supplying a view from above. So you navigate by gradient, by what is adjacent and what your immediate network happens to surface, which makes the composition of that neighbourhood the most consequential variable you actually control. Changing who and what sits next to you does more for what you can think of than reading harder in the same place. A purely local view is also how an echo chamber forms, and deliberate variety within the neighbourhood is the only correction available. The feature is local ignorance and modulated interaction with neighbours; the ground is distributed cognition (Hutchins, 1995).
 
-**Orientation through locality.** No element in a complex system perceives the whole; each responds to what is near it. This is the operating condition, not a deficiency awaiting a better instrument. You cannot see your field — nobody can — and the comprehensive literature review was always a reconstruction. AI-mediated search extends your reach; it does not give you the view from above.
+**Organisation through participation.** Order in a complex system arises without a designer. The scholarly structures that matter, reading groups, collaborations, informal review networks, open source projects, a field assembling around a question someone asked well, are mostly not commissioned. Institutions reliably try the reverse, establishing a centre or naming a strategic theme or mandating a community of practice, and reliably get the form without the function. You cannot commission a community. You can convene one, contribute to one, make joining cheap, and then find out whether anything assembles. The feature is self-organisation; the ground is commons-based peer production (Benkler, 2006) and Kauffman's (1995) account of spontaneous order.
 
-What follows is that you navigate by gradient: what is adjacent, what your immediate network surfaces, what happens to be in front of you. Which makes the composition of your immediate neighbourhood the most consequential variable you actually control. You cannot widen your view to the whole, but you can change what sits next to you — and changing who and what is adjacent does more for what you are able to think of than reading harder in the same place. The obvious risk is that a purely local view is also how an echo chamber forms. Locality is the condition; deliberate variety within it is the only correction available. *Local ignorance; modulated neighbour interaction. Situated and distributed cognition.*
+**Innovation through openness.** Sharing early creates the conditions for connections nobody planned, and the whole point is that they could not have been. Openness also does more for integrity than any audit, since transparent methods can be inspected in a way a finished paper cannot. The feature is open boundaries; the ground is open innovation.
 
-**Organisation through participation.** Order in a complex system arises without a designer. The scholarly structures that matter are mostly not commissioned: reading groups, collaborations, informal review networks, open source projects, a field assembling around a question someone asked well.
+**Meaning through medium.** The form should serve the knowledge. If a claim emerges wanting to be an infographic, a piece of software, or a recorded conversation, forcing it into an article destroys the thing that emerged. The feature is emergence itself; the ground is media ecology and multimodal communication.
 
-Institutions reliably attempt the reverse — establish a centre, name a strategic theme, mandate a community of practice — and reliably produce the form without the function. The structure exists; the participation does not. You cannot commission a community. You can convene one, contribute to one, and make joining cheap, and then find out whether anything assembles. *Self-organisation. Commons-based peer production (Benkler); self-organisation (Kauffman).*
+**Value through engagement.** Impact is a conversation that continues. In a system with open boundaries and non-linear effects you can't know in advance which encounter will matter, so a metric fixed in advance measures the wrong thing, and contribution is better judged by engagement with the people the work concerns, against criteria they help set. The feature is non-linearity; the ground is participatory evaluation.
 
-**Innovation through openness.** Sharing early creates conditions for connections nobody planned — the whole point being that they could not have been planned. Openness also does more for integrity than any audit, since transparent methods are inspectable in a way a finished paper is not. *Open boundaries. Open innovation.*
+**Resilience through mastery.** Openness without depth produces noise. Disciplinary expertise is what lets a scholar recognise which of the day's chance encounters is worth following, and it is what turns uncertainty into possibility. The feature is adaptation; the ground is adaptive expertise (Hatano & Inagaki, 1986).
 
-**Meaning through medium.** The form should serve the knowledge. If a claim emerges wanting to be an infographic, a piece of software or a recorded conversation, forcing it into an article destroys the thing that emerged. The medium is not packaging applied afterwards. *Emergence. Media ecology; multimodal communication.*
+**Sustainability through throughput.** A complex system holds its organisation only while energy keeps flowing through it, and equilibrium for a living system is dissolution. This changes what sustainability means for scholarly practice. An open, networked, public practice costs continuously and decays as soon as the input stops, which is a structural property of that kind of system and explains why elaborate knowledge management systems collapse and why a practice resting on enthusiasm ends when the enthusiasm does. The design question becomes how to match throughput to what the structure costs to hold: build what the available energy can sustain, and let the structures you cannot feed decay rather than maintaining them as evidence of intentions. The ecological framing survives, because this is exactly what ecosystems do. The feature is operation far from equilibrium; the ground is social-ecological systems theory and Prigogine's (1978) account of dissipative structures.
 
-**Value through engagement.** Impact is a dialogue, not a terminal number. This follows from the complexity claim rather than from a preference: in a system with open boundaries and non-linear effects, you cannot know in advance which encounter will matter, so judging contribution by a metric fixed in advance measures the wrong thing. *Non-linearity. Participatory evaluation.*
+## How the principles pull against each other
 
-**Resilience through mastery.** Openness without depth is noise. Disciplinary expertise is what makes a collision productive rather than merely random — it is the thing that recognises which of the day's chance encounters is worth following. *Adaptation. Adaptive expertise.*
+Openness runs into throughput, since everything shared is something maintained and the dissipative reading makes openness more expensive. Mastery runs into connection, because depth takes the time that breadth wants. Value through engagement runs into whatever a promotion panel will actually read. Locality runs into connection in a way that is genuinely awkward: one principle asks you to build connections across boundaries, and the next explains that you cannot see far enough to know which ones are worth building. The resolution I can offer is that you cannot choose your connections well, only choose to have more of them and more varied ones, and accept that which of them mattered becomes knowable afterwards.
 
-**Sustainability through throughput.** A complex system holds its organisation only while energy keeps flowing through it. Equilibrium is not rest; it is dissolution. Living systems are precisely the ones held away from it by continuous input.
+In a complex system, tension is where adaptation comes from, and a set of principles that resolved cleanly into a procedure would be describing something other than scholarship. See [[Notes/scholarship as a complex adaptive system|scholarship as a complex adaptive system]].
 
-This inverts the usual reading of sustainability in scholarly practice. An open, networked, public practice is not the low-maintenance alternative to the formal system. It is dissipative: it costs continuously, and it decays as soon as the input stops. That is a structural property, not a personal failing, and it is why elaborate knowledge management systems collapse — they demand more energy than they return — and why any practice resting on your enthusiasm will end when your enthusiasm does.
-
-So the design question is not how to minimise effort but how to match throughput to what the structure costs to hold. Build only what the energy you actually have can sustain, and let the structures you cannot feed decay honestly rather than maintaining them as evidence of intentions. The ecological framing survives the correction, because this is exactly what ecosystems do. *Far from equilibrium. Social-ecological systems theory; dissipative structures.*
-
-## The tensions are the mechanism
-
-The principles pull against each other, and this is the point rather than a defect.
-
-Openness runs into throughput: everything shared is something maintained, and the dissipative reading makes openness more expensive rather than less. Mastery runs into connection: depth takes the time breadth wants. Value through engagement runs into the metrics a promotion panel will actually read. And locality runs into connection in a way that is genuinely awkward — you are told to build connections across boundaries by a principle that has just finished explaining that you cannot see far enough to know which ones are worth building. The honest resolution is that you cannot choose your connections well, only choose to have more of them and more varied ones, and accept that which ones mattered is knowable only afterwards.
-
-In a complex system, tension is where adaptation comes from. A set of principles that resolved cleanly into a procedure would be describing a complicated system — and would be describing something other than scholarship. See [[Notes/scholarship as a complex adaptive system|scholarship as a complex adaptive system]].
-
-None of this loosens the standard of evidence. These principles govern how work comes about, not whether it holds up; a claim that emerged from an unplannable route still has to survive the same scrutiny as one that arrived by protocol. Where a question is tractable by specification — and many are — specify it.
+None of this loosens the standard of evidence. The principles govern how work comes about, not whether it holds up, and a claim that emerged from an unplannable route still has to survive the same scrutiny as one that arrived by protocol. Where a question is tractable by specification, and many are, specify it.
 
 ## What remains unclear
 
-Whether conditions can be arranged deliberately at all, or whether emergence is something you can only make room for and then recognise afterwards. Both may be true: you can raise the probability of a collision without having any say in which one occurs.
+Whether conditions can be arranged deliberately at all, or whether emergence is something you can only make room for and then recognise afterwards. Both may be true, in that you can raise the probability of a collision without having any say in which one occurs.
 
 How an individual applies any of this inside institutions whose incentives run the other way, without simply paying a career cost for it.
 
-Whether the correspondence between these principles and the features of complex adaptive systems is doing real explanatory work. It is worth being plain that the alignment was looked for rather than stumbled upon: this framework is an argument that scholarship behaves as a complex adaptive system, and the principles are what follows if the argument holds. That is a legitimate way to build a framework and an illegitimate way to present one, so it is said here rather than left for a reader to find. What would settle it is the same thing that settles any such claim — whether the lens forecasts something a simpler account does not.
+Whether the correspondence between these principles and the features of complex adaptive systems does real explanatory work. The alignment was looked for rather than found, because this framework is an argument that scholarship behaves as a complex adaptive system and the principles are what follows if that holds. What would settle it is whether the lens forecasts something a simpler account does not.
 
 ---
 
-## Notes
+## Sources
 
-Earlier drafts ran to twelve principles, including posthumanist and decolonial framings; those were cut to eight. *Orientation through locality* and *organisation through participation* were added afterwards, when mapping the principles against the features of complex adaptive systems showed two features — local ignorance and self-organisation — with no principle attached to them. *Sustainability through ecology* was rewritten as *sustainability through throughput* in the same pass, because the far-from-equilibrium reading contradicts rather than extends it.
+- Benkler, Y. (2006). *The wealth of networks: How social production transforms markets and freedom.* Yale University Press.
+- Hatano, G., & Inagaki, K. (1986). Two courses of expertise. In H. Stevenson, H. Azuma, & K. Hakuta (Eds.), *Child development and education in Japan.* W. H. Freeman.
+- Holland, J. H. (2014). *Complexity: A very short introduction.* Oxford University Press.
+- Hutchins, E. (1995). *Cognition in the wild.* MIT Press.
+- Kauffman, S. A. (1995). *At home in the universe: The search for laws of self-organization and complexity.* Oxford University Press.
+- Prigogine, I. (1978). Time, structure, and fluctuations. *Science*, 201(4358), 777–785. https://doi.org/10.1126/science.201.4358.777
