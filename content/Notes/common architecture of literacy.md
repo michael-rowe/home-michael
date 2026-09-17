@@ -11,6 +11,8 @@ updated: 2026-01-29
 status: working
 needs_review: false
 tags:
+  - ai-literacy
+  - digital-literacy
 category:
   - Technology
 related:

@@ -9,6 +9,8 @@ created: 2026-01-30
 updated: 2026-01-30
 needs_review: false
 tags:
+  - academic-practice
+  - emergent-scholarship
 category:
   - Scholarship
 related:

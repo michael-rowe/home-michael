@@ -438,6 +438,8 @@ Both shows run WordPress with an open REST API, and the script reads `/wp-json/w
 
 **Two sets of posts are excluded by slug**, with the reason in the script: In Beta's *Environmental Healthcare Unconference* set (Ben Ellis's own project, only hosted there) and SAAHE's five-part *Running effective workshops* series (not Michael's).
 
+**Section index pages carry no `type`.** `Courses/`, `Guides/`, `Podcasts/` and `Presentations/` each have an `index.md` with `title`, `description` and `enableToc` only; the validator skips them, which is intended. `Bibliography/index.md` is the one exception (`type: bibliography-index`, so the bibliography layout can find it). Do not add a `type` to a section index to silence the skipped-files count.
+
 **`type: bib`** — Annotated bibliography entries (within `content/Bibliography/`)
 ```yaml
 type: bib
