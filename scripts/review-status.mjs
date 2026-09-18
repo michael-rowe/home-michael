@@ -36,11 +36,12 @@ const IGNORE_DIRS = new Set(['private', 'templates', '.obsidian', 'drafts', 'per
 // singular `type` ("essay"). Lessons live under Courses; a `course` page is the
 // container rather than a reviewable lesson.
 const HEADING_TO_TYPE = {
-  essays: 'essay',
-  posts: 'post',
-  notes: 'note',
-  lessons: 'lesson',
-  newsletters: 'newsletter',
+  essays: ['essay'],
+  posts: ['post'],
+  notes: ['note'],
+  lessons: ['lesson'],
+  newsletters: ['newsletter'],
+  'other (frameworks, policies, nav)': ['framework', 'policy', 'guide'],
 }
 
 // Personas marked with a trailing * in the queue are not yet defined, so a file
@@ -84,17 +85,17 @@ function loadPipelines() {
     const cells = line.split('|').map(c => c.trim())
     if (cells.length < 4) continue
     const heading = cells[1].toLowerCase()
-    const type = HEADING_TO_TYPE[heading]
-    if (!type) continue
+    const types = HEADING_TO_TYPE[heading]
+    if (!types) continue
 
     const steps = [...cells[2].matchAll(/`([^`]+)`(\*?)/g)]
       .filter(([, , marker]) => marker !== UNDEFINED_MARKER)
       .map(([, name]) => name)
 
-    if (steps.length) pipelines[type] = steps
+    if (steps.length) for (const type of types) pipelines[type] = steps
   }
 
-  const missing = Object.values(HEADING_TO_TYPE).filter(t => !pipelines[t])
+  const missing = Object.values(HEADING_TO_TYPE).flat().filter(t => !pipelines[t])
   if (missing.length) {
     console.error(`No pipeline found in ${QUEUE_FILE} for: ${missing.join(', ')}`)
     process.exit(1)
