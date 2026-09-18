@@ -10,7 +10,6 @@ type: note
 author: '[[Michael Rowe]]'
 created: 2026-02-10
 updated: 2026-02-10
-needs_review: false
 tags:
   - reasoning
   - information-retrieval

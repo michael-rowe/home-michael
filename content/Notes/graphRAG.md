@@ -10,7 +10,6 @@ type: note
 author: '[[Michael Rowe]]'
 created: 2026-01-30
 updated: 2026-01-30
-needs_review: false
 tags:
   - knowledge-graphs
   - retrieval-augmented-generation

@@ -8,7 +8,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-01-29
 updated: 2026-01-29
-needs_review: false
 tags:
   - ai-literacy
   - digital-literacy

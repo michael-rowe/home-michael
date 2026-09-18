@@ -11,7 +11,6 @@ type: note
 author: '[[Michael Rowe]]'
 created: 2026-02-04
 updated: 2026-02-04
-needs_review: false
 tags:
   - generative-ai
   - machine-learning

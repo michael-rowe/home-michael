@@ -79,7 +79,6 @@ tags:
   - working-memory
   - instructional-design
 status: reviewed
-needs_review: false
 description: An overview of cognitive load theory and its implications for instructional design.
 ---
 ```

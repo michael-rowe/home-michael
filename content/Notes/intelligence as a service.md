@@ -8,7 +8,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-05
 updated: 2026-02-05
-needs_review: false
 tags:
   - context-sovereignty
   - privacy

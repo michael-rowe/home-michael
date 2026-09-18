@@ -10,7 +10,6 @@ type: note
 author: '[[Michael Rowe]]'
 created: 2026-01-09
 updated: 2026-01-30
-needs_review: false
 tags:
   - prompt-engineering
 category:
