@@ -36,14 +36,14 @@ Token budget is a useful frame for thinking about why different tasks should be 
 
 This has a counterintuitive implication: more capable models aren't always better. A model like Claude Haiku, optimised for reliable instruction-following, may outperform Claude Opus on collation and formatting tasks, not because it can't, but because it has more capacity for overthinking. The simpler the task specification, the less reasoning it needs, and the more a powerful model's additional capability becomes noise rather than signal.
 
-### What it enables
+### Matching the task to the model
 
 The token budget frame makes two things visible:
 
 1. **Task-model matching**: Different phases of a workflow have different computational requirements. Consider a workflow for turning weekly reading notes into structured concept notes: collating annotations from multiple sources needs consistency more than insight; synthesising patterns across them needs reasoning depth; drafting the final notes to a template needs reliable execution. Each phase maps to a different model tier.
 2. **Cost and quality alignment**: Routing high-reasoning-cost tasks to high-capability models and low-reasoning-cost tasks to lighter models isn't just economical; it may improve output quality by reducing the mismatch between model behaviour and task requirements.
 
-### What remains unclear
+### The metaphor is approximate
 
 Whether "token budget" accurately describes the underlying mechanism is an open question; it's a useful conceptual shorthand rather than a precise technical description of how inference works. The practical pattern it points to (match task complexity to model capability) is well-supported by experience, even if the metaphor is approximate.
 

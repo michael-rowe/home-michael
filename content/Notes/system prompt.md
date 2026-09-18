@@ -39,7 +39,7 @@ When you interact with ChatGPT, Claude, or other AI assistants, you're not start
 
 You type "help me write an essay." The model receives something like: "[thousands of words of system instructions about being helpful, harmless, honest, specific formatting preferences, refusal policies, tone guidelines] User message: help me write an essay." Your interaction happens within the frame those instructions establish.
 
-## Why this matters
+## Consistency, hidden constraints, and cost
 
 System prompts shape AI behaviour in ways users often don't recognise:
 
@@ -105,7 +105,7 @@ For individuals, decisions about personal system prompts involve trade-offs:
 
 For developers, system prompt design shapes user experience profoundly. Poor system prompts create inconsistent behaviour, unexpected refusals, or responses that don't match user expectations. Thoughtful system prompts enable reliable, appropriate AI behaviour aligned with application purposes.
 
-## What remains unresolved
+## What should not be user-configurable
 
 How much context is appropriate in system prompts before they become unwieldy? When do personal system prompts provide genuine value versus just consuming tokens? How do we balance user customisation with maintaining guardrails that serve broader social interests?
 

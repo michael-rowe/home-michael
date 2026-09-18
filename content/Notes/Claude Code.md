@@ -32,7 +32,7 @@ The difference from a chat interface is where the context comes from. In a chat 
 
 It's an [[Notes/ai-agents|agent]] in the specific sense: it runs a loop of plan, act, observe and adjust until the task is done or it needs a decision from you. It reads a `CLAUDE.md` file in the folder for standing instructions, which is where the conventions of a project live — what the files are, how they're named, what must never be changed — and that file is the difference between an agent that does what you meant and one that does what you said. See [[Notes/harness-engineering|harness engineering]] and [[Notes/context engineering|context engineering]].
 
-### What it looks like in academic work
+### What it is doing behind this site
 
 Everything behind this site is run this way: the planning vault, meeting summaries, the checks that catch broken metadata, the drafting and reviewing of posts. A typical instruction is a sentence — *find the meetings this month that still need a summary and write one for each from the transcript in the cache* — and the work is done in the files, visible in version control, reviewable line by line. O'Connor et al. (2026) ask whether nurses and midwives should be learning about agents like this; the answer implied by the tooling is that anyone whose work lives in documents already has a use for it.
 

@@ -6,7 +6,7 @@ aliases:
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-01-30
-updated: 2026-01-30
+updated: 2026-09-18
 needs_review: false
 tags:
   - knowledge-representation
@@ -26,75 +26,62 @@ leads_to:
 contradicts:
 source: ""
 source_url: ""
+reviewed:
+  - writing_style
 linkedin:
 
 ---
 
 > [!info] Relationships as first-class citizens
-> Academic knowledge is fundamentally relational—we understand concepts through their connections to other concepts, theories through their critiques and extensions, methods through their intellectual lineages. Knowledge graphs make this relational structure explicit and computable, treating connections between ideas as equally important as the ideas themselves.
+> We understand concepts through their connections to other concepts, theories through their critiques and extensions, methods through the traditions they came out of. A knowledge graph makes that relational structure explicit and computable, treating the connections between ideas as carrying as much information as the ideas themselves.
 
 ## Knowledge graph
 
 **One-sentence definition:** A structured representation of knowledge that connects entities through explicit, typed relationships, enabling traversal and reasoning over conceptual connections rather than statistical similarity.
 
-Scholars have always built knowledge graphs, even if we didn't call them that. The citation network showing who built on whose work. The conceptual map linking related theories. The methodological genealogy tracing intellectual traditions. These are knowledge graphs—networks of entities connected by meaningful relationships.
+Scholars have always built knowledge graphs, even if we didn't call them that. The citation network showing who built on whose work, the conceptual map linking related theories, the methodological genealogy tracing an intellectual tradition — each is a network of entities connected by meaningful relationships.
 
-The difference now is making these structures computationally explicit so AI can reason about them. Not just recognising that Paper A and Paper B both discuss validity, but understanding that Paper A critiques Paper B's approach to validity, both draw on Methodology X, and this critique also applies to Framework Y.
+What's changed is that these structures can now be made computationally explicit, so a system can reason about them. Not simply that Paper A and Paper B both discuss validity, but that Paper A critiques Paper B's approach to validity, that both draw on Methodology X, and that the same critique reaches Framework Y.
 
 ## How they work
 
-Knowledge graphs consist of nodes (entities) and edges (relationships):
+A knowledge graph consists of nodes and edges. **Nodes** represent the entities you want to reason about — concepts, people, papers, methods, theories — and carry properties of their own: a scholar has an affiliation and research interests, a paper has a publication year and a methodology, a concept has a definition and a domain.
 
-**Nodes** represent concepts, people, papers, methods, theories—any entity you want to reason about. Each node has properties: a scholar has affiliation and research interests, a paper has publication year and methodology, a concept has definition and domain.
+**Edges** represent typed, directional relationships. The useful claim isn't that Einstein and Bohr are connected but that Einstein influenced Bohr's thinking about quantum mechanics; not that Paper A relates to Paper B but that Paper A extends Paper B while challenging some of its assumptions. Properties can attach to edges as well as nodes, so a "critiques" relationship can record the nature of the critique, the year it was published, and whether the person critiqued ever acknowledged it.
 
-**Edges** represent typed, directional relationships between nodes. Not just that Einstein and Bohr are connected, but specifically that Einstein influenced Bohr's thinking about quantum mechanics. Not just that Paper A relates to Paper B, but that Paper A extends while challenging certain assumptions in Paper B.
-
-**Properties** can attach to both nodes and edges, enabling rich representation. A "critiques" relationship might have properties indicating the nature of the critique, the year it was published, whether it was acknowledged by the critiqued scholar.
-
-Example structure: `(Paper A) --[extends while challenging]--> (Paper B)`
+Written out, the structure looks like this: `(Paper A) --[extends while challenging]--> (Paper B)`
 
 ## Why this differs from embeddings
 
-[[Notes/vector-database|Vector database]]s store numerical representations of text that enable similarity search. This works well for finding passages about similar topics. It cannot answer questions about how concepts relate because embeddings capture co-occurrence patterns, not explicit relationships.
+[[Notes/vector-database|Vector database]]s store numerical representations of text that support similarity search. That works for finding passages about similar topics, and it can't answer questions about how concepts relate, because embeddings capture co-occurrence patterns rather than explicit relationships.
 
-The semantic difference matters:
+The semantic difference is the whole of it. Embeddings encode the principle that you know a word by the company it keeps, which is distributional semantics built on statistical patterns. Knowledge graphs encode a different principle, that you know a concept by its connections, which is structural semantics built on relationships someone has stated.
 
-- **Embeddings** encode "you know a word by the company it keeps"—distributional semantics based on statistical patterns
-- **Knowledge graphs** encode "you know a concept by its connections"—structural semantics based on explicit relationships
+Query a vector database for "social constructivism" and you'll find passages that discuss social constructivism often. Query a knowledge graph and you can ask which critiques of social constructivism also apply to phenomenology, a question that turns on shared methodological foundations rather than on similar text. This is why knowledge graphs support [[multi-hop reasoning]] while vector databases support only single-hop retrieval.
 
-When you query a vector database for "social constructivism," you'll find passages that frequently discuss social constructivism. When you query a knowledge graph, you can ask "which critiques of social constructivism also apply to phenomenology?"—a question requiring reasoning about shared methodological foundations, not just finding similar text.
+## What becomes possible once the graph is explicit
 
-This is why knowledge graphs enable [[multi-hop reasoning]] while vector databases support only single-hop retrieval.
+Making your implicit knowledge graphs explicit creates new capabilities. Following chains of critique and influence through a citation network is the case [[Notes/multi-hop reasoning|multi-hop reasoning]] works through; two more are specific to holding your own field as a graph.
 
-## What this enables for scholarship
+**Methodological genealogy** maps where methods come from, what assumptions they carry, and how they've changed, which needs explicit relationships between methods, traditions, and underlying commitments.
 
-Making your implicit knowledge graphs explicit creates new capabilities:
+**Research trajectory mapping** shows how your own thinking has developed: which ideas led to which, which readings shaped which arguments, which collaborations produced which projects.
 
-**Literature synthesis** that traverses intellectual lineages rather than keyword matches. "How did Critic A's challenge to Scholar B influence Researcher C's later work?" requires following paths through a citation network with typed relationships: critiques, responds to, influenced by.
-
-**Theoretical comparison** that identifies structural parallels. "Which theoretical frameworks share this epistemological assumption?" requires reasoning about shared conceptual foundations, not just finding frameworks discussed in similar passages.
-
-**Methodological genealogy** that maps where methods come from, what assumptions they carry, how they've evolved. This requires explicit relationships between methods, traditions, and underlying commitments.
-
-**Research trajectory mapping** that shows how your own thinking has developed—which ideas led to which, which readings influenced which arguments, which collaborations shaped which projects.
-
-In [[context engineering]], knowledge graphs provide the structure that enables AI to reason about your scholarship rather than merely retrieve similar content. The linked notes you build in Obsidian, the conceptual maps you sketch, the citation networks you trace—these are knowledge graphs. The question is whether to make them explicit enough for AI to traverse.
+In [[context engineering]], the graph is what lets AI reason about your scholarship rather than retrieve content that resembles it. The linked notes in Obsidian, the conceptual maps, the citation networks you trace are already knowledge graphs; the question is whether to make them explicit enough to traverse.
 
 ## The curation challenge
 
-Building knowledge graphs requires work. Automated extraction via [[graphRAG]] helps but makes errors. Scholarly nuance is easily lost—subtle distinctions collapsed, contested relationships stated as fact, contextual qualifications stripped away.
+Building a knowledge graph takes work. Automated extraction through [[graphRAG]] helps and makes errors, and scholarly nuance is easily lost in the process — subtle distinctions collapsed, contested relationships stated as settled, contextual qualifications stripped out.
 
-This means knowledge graphs require active curation. The relationship between scholars isn't simply "cites" or "critiques"—it might be "extends while challenging certain assumptions" or "applies to a new context." Characterising relationships accurately requires scholarly judgement.
+So a graph needs active curation. The relationship between two scholars is rarely just "cites" or "critiques"; it might be "extends while challenging certain assumptions", or "applies to a new context", and characterising it accurately takes scholarly judgement.
 
-The investment makes sense when you're building knowledge infrastructure you'll use repeatedly—a research area you're committed to, a personal knowledge base supporting ongoing scholarship. For one-off literature reviews, manual reading may suffice. For building AI systems that can reason about your field, explicit knowledge graphs become essential.
+The investment makes sense when you're building knowledge infrastructure you'll return to — a research area you're committed to, a personal knowledge base supporting ongoing work. For a one-off literature review, reading will do. For building systems that can reason about your field, the explicit graph is what makes it possible.
 
 ## What remains difficult
 
-How do we represent contested or ambiguous relationships? Scholarly disagreement is productive, not a bug to fix. What granularity is right—concepts, arguments, papers, authors? How do we handle evolving understanding as our reading deepens? When is explicit structure worth the effort versus trusting implicit knowledge?
+How to represent contested or ambiguous relationships, when scholarly disagreement is productive rather than a fault to be corrected. What granularity is right: concepts, arguments, papers, authors. How to handle understanding that shifts as your reading deepens. When explicit structure earns the effort, and when trusting implicit knowledge is enough.
 
-Knowledge graphs work best for stabilised knowledge where relationships are relatively agreed upon. They struggle with emerging fields where every claim is contested, or with highly interpretive domains where relationships resist formalisation.
-
-The question isn't whether knowledge graphs are always better than other representations but when their benefits—enabling structured reasoning, making connections explicit, supporting collaborative knowledge building—outweigh their costs in curation and maintenance.
+Knowledge graphs work best for stabilised knowledge where relationships are broadly agreed. They struggle in emerging fields where every claim is contested, and in highly interpretive domains where relationships resist formalisation. The useful question isn't whether a graph beats other representations but when its benefits — structured reasoning, explicit connections, knowledge that others can build on — outweigh what it costs to curate and maintain.
 
 ---
 
@@ -106,4 +93,4 @@ The question isn't whether knowledge graphs are always better than other represe
 
 ## Notes
 
-Knowledge graphs are to [[context engineering]] what [[vector database]]s are to [[prompt engineering]]. The choice of knowledge representation fundamentally shapes what AI can do with your work. Embeddings find similar passages. Knowledge graphs enable reasoning about connections.
+Knowledge graphs are to [[context engineering]] what [[vector database]]s are to [[prompt engineering]]. The choice of representation shapes what AI can do with your work: embeddings find similar passages, graphs allow reasoning about connections.

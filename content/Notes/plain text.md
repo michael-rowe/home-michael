@@ -35,11 +35,11 @@ That property is what makes plain text worth choosing deliberately rather than b
 - **Composability.** Every command-line tool, every scripting language and every version-control system assumes text. Once your material is text, you can search across thousands of files in a second, track every change to a document with [[Notes/git|git]], and convert between formats with [[Notes/pandoc|pandoc]]. None of those tools has a Word plug-in worth using.
 - **Legibility to machines.** Language models read text. They can be made to read a PDF or a .docx, but with loss and effort. A curriculum, a set of notes or a policy folder held as plain text is directly available to an AI agent; the same material in proprietary formats is, for practical purposes, invisible to it. See [[Notes/contextual interoperability|contextual interoperability]].
 
-### What it looks like in practice
+### The shift is smaller than it sounds
 
 For most academics the shift is small: writing in [[Notes/markdown|markdown]] rather than Word, keeping notes in an editor like Obsidian, and treating the .docx as an export for a committee rather than the master copy. Tenen and Wythoff's *Sustainable authorship in plain text* (2014) is still the best short case for the workflow, and Healy's *Plain text, papers, pandoc* (2014) shows what it looks like across a working social scientist's writing.
 
-### What it doesn't solve
+### A format is not an organisation
 
 Plain text is a format, not an organisation. A folder of five thousand text files is as hard to navigate as a folder of five thousand Word documents unless the structure — names, folders, frontmatter, links — is designed. And some things genuinely need richer formats: a slide deck for a lecture theatre, a form with signatures, a typeset PDF. The point isn't to refuse those; it's to generate them from a plain-text source rather than starting there.
 

@@ -35,7 +35,7 @@ Most AI command-line tools support this mode. You pipe text in,[^pipe] the model
 
 A script can query a knowledge base, pipe the results to a headless model for summarisation, and write the output to a file — all without a human in the loop, all on a schedule. The AI is doing one job, with clear inputs and predictable outputs.
 
-### What it looks like in practice
+### A Friday timer, and a spreadsheet of module comments
 
 Every Friday at 13:00 a timer on my machine runs one line: it calls the AI tool with the instruction "review week 38". The tool gathers what changed in my notes that week, the papers I added to my library and the highlights from my reading, and writes a draft weekly review into my planning vault. I am usually in a meeting. When I open the file later, I edit a draft rather than start from a blank page. The model was not running as a chat; it ran once, wrote one file, and stopped.
 
@@ -43,7 +43,7 @@ The same shape fits an educator's week. Module evaluation comments arrive as a s
 
 The rest of the pipeline is ordinary, deterministic software: a timer fires, a script reads a file, a file is written. Nothing there is new or uncertain, and none of it needs the model to explain itself. The model is one step in the chain, and the only one whose output is not fully predictable, which is a good reason to keep that step small and its instruction precise.
 
-### What it doesn't do
+### The model cannot ask for clarification
 
 Headless mode gives up the back-and-forth that makes interactive AI useful for complex or ambiguous tasks. The model can't ask for clarification. It's the right approach when the task is well-defined, the input is structured, and the output format is predictable. For anything that requires iteration, an interactive session is the better tool.
 

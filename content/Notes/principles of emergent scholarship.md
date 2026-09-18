@@ -63,7 +63,7 @@ In a complex system, tension is where adaptation comes from, and a set of princi
 
 None of this loosens the standard of evidence. The principles govern how work comes about, not whether it holds up, and a claim that emerged from an unplannable route still has to survive the same scrutiny as one that arrived by protocol. Where a question is tractable by specification, and many are, specify it.
 
-## What remains unclear
+## Whether conditions can be arranged at all
 
 Whether conditions can be arranged deliberately at all, or whether emergence is something you can only make room for and then recognise afterwards. Both may be true, in that you can raise the probability of a collision without having any say in which one occurs.
 

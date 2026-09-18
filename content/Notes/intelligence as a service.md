@@ -50,7 +50,7 @@ Intelligence as a service relies on architectural separation between where intel
 
 This is analogous to how you use electricity: the power company provides capability (electrical current) that temporarily flows through your devices to accomplish your purposes, but the company doesn't own or control what you're powering. You're purchasing capability, not surrendering sovereignty.
 
-## Why this matters
+## Privacy, lock-in, and who holds the power
 
 The intelligence as a service model addresses several persistent problems with current AI interaction:
 

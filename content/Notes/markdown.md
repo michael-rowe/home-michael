@@ -6,7 +6,7 @@ aliases:
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-12
-updated: 2026-09-17
+updated: 2026-09-18
 draft: false
 tags:
   - academic-writing
@@ -38,11 +38,13 @@ For academic work the significance isn't the syntax but what the syntax makes po
 - **The structure is explicit.** A heading is a heading because the file says so, not because it happens to be bold and 14pt. Tools can check that every module file has the same sections, list every learning outcome across a programme, or find every document that mentions a policy — the kind of check that is close to impossible across a folder of Word files.
 - **It's what language models read best.** Markdown is the native format of most AI tooling: prompts, documentation and outputs are all written in it. Material kept in markdown is directly available to an AI agent without conversion.
 
-### What it looks like in practice
+### One handbook, three audiences
+
+A programme team meets this at the point where the same material has to exist in three places at once. The module handbook goes to students as a PDF, to the virtual learning environment as web pages, and to a validation panel as a Word document with the university's template applied. Written in markdown, it is one file that [[Notes/pandoc|pandoc]] renders three ways, so a change to an assessment deadline is made once and cannot end up saying something different in each. The hard part is not the syntax, which takes an afternoon to learn; it is getting everyone to agree that the markdown file is the master copy and the Word document is only ever an export of it.
 
 This site is written in markdown, in Obsidian, and built to HTML by Quartz. The essays are exported to PDF from the same source. Meeting notes, project files and the planning system behind the site are all markdown too, which is what lets an agent read across them.
 
-### Where it's weak
+### Tables, layout, and disagreeing dialects
 
 Markdown has no standard for tables beyond the basic grid, no native footnotes in the original spec, and no way to express layout. Extensions (GitHub-flavoured markdown, pandoc's dialect, Obsidian's wikilinks) fill the gaps and don't quite agree with each other, so a document written for one tool sometimes needs adjusting for another. For anything where visual layout is the point, [[Notes/latex|LaTeX]] or a design tool is the better choice; for prose with structure, markdown is hard to beat.
 

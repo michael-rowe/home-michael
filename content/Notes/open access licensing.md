@@ -40,11 +40,11 @@ The Creative Commons licences are built from four conditions:
 
 CC BY is the licence most funders and open journals require, because it allows the widest reuse. NC and ND sound protective but each one cuts off a set of uses the author probably wanted — a textbook publisher, a translation, a remix for a different curriculum — and "commercial" is vague enough that cautious institutions avoid NC material altogether.
 
-### Why it matters in health professions education
+### Adapting teaching material, and who else can read it
 
 Teaching material is the obvious case. An openly licensed anatomy resource, clinical guideline summary or assessment rubric can be adapted for a local programme and shared back; a copyrighted one has to be rebuilt from scratch. Beyond that, the licence on a work now decides whether it can be part of the corpus a language model draws on, and whether a school can legally feed it to an AI tool for its own students. Knox (2013) is the useful counterweight: openness is not a neutral good, and the assumptions behind the OER movement — about who benefits, and what "access" delivers — deserve the scrutiny he gives them.
 
-### What remains unclear
+### Attribution when the reuser is a machine
 
 Whether CC licences work as intended when the reuser is a machine. Attribution is a condition of every CC BY work, and a model trained on millions of them attributes none of them. The licences were written for people copying documents; the law hasn't settled what they mean for systems ingesting them.
 

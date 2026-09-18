@@ -31,7 +31,7 @@ Most software is closed: you get the compiled program and a licence to run it, a
 
 The infrastructure behind almost everything runs on open source: Linux on nearly every server, Python and R for research, Git for version control, the compilers and libraries behind commercial products. This site is built with Quartz, an open source static site generator, and edited in Obsidian, which is not.
 
-### Why it matters in education
+### Exit, adaptation, and audit
 
 - **The exit is real.** When a vendor is bought, raises prices or discontinues a product, an institution running closed software has to migrate. With open source, the code stays available; someone else can maintain it, or you can. Avila et al. (2016) evaluated WordPress as an e-portfolio platform in undergraduate medical education partly on those grounds.
 - **You can change it.** A learning platform that nearly does what a programme needs can be made to do it, and the change can be shared. Closed software can be configured; it can't be fixed.
@@ -39,7 +39,7 @@ The infrastructure behind almost everything runs on open source: Linux on nearly
 
 Belshaw (2022) offers a useful typology of how open source communities grow and stall; the healthy ones have governance, not just code, which is the part institutions underestimate when they adopt.
 
-### What it doesn't guarantee
+### Open code is not open data
 
 Open source is not free of cost. Someone has to host, maintain, secure and update it, and if that's an already-stretched IT team the closed product with a support contract can be the cheaper choice. Openness of code also says nothing about openness of data: a closed-source tool can still let you export everything, and an open-source one can still lock your material in a bespoke format. Ask both questions.
 

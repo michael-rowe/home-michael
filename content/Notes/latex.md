@@ -34,11 +34,11 @@ What it's good at:
 - **Mathematics.** Equations in LaTeX are written as text (`\frac{a}{b}`) and set beautifully. Anything with statistics beyond a t-test is easier here.
 - **Consistency at scale.** Because appearance is defined once, in a class or template, every heading, caption and table across a thesis looks the same without the author policing it.
 
-### Where it sits for most educators
+### The output without the syntax
 
 Most people in health professions education will never write LaTeX directly, and don't need to. The useful thing to know is that [[Notes/pandoc|pandoc]] can produce LaTeX — and therefore a typeset PDF — from [[Notes/markdown|markdown]], so a document written in the simpler format inherits LaTeX's output quality without its syntax. The essay PDFs on this site are made that way. Learning LaTeX properly is worth it if you're writing a thesis with heavy mathematics, or supervising someone who is.
 
-### What it costs
+### The learning curve, and what Overleaf removes
 
 The learning curve is real, error messages are famously unhelpful, and collaborating with colleagues who use Word means converting at every exchange. Overleaf, a browser-based editor, removes most of the installation pain and adds track-changes-style collaboration, which is how many supervisors first meet it.
 

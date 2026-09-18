@@ -46,7 +46,7 @@ The harness has seven components:
 
 Materially, a harness is a folder of plain markdown files alongside the project's other documents. It can begin as a single sentence under each component and mature as the work encounters cases the first version did not anticipate.
 
-### Relevance to health professions education
+### What it gives a supervisory conversation
 
 For health professions doctorates (e.g. clinical PhDs, professional doctorates, candidates balancing research against practice and teaching) the harness gives supervision a concrete shared object that can be negotiated around. The supervisory conversation shifts from the unanswerable "should you be using AI for this?" to specific, inspectable claims: what the interpretive permissions allow, what falls into the reserved category, why a particular amendment was made. It is a governance instrument, but building and reviewing one also develops how supervisor and candidate think about AI in inquiry.
 

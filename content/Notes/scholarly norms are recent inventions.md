@@ -49,7 +49,7 @@ Arguments for changing how scholarship works usually run into an appeal to tradi
 
 **The linear pipeline is the newest invention of all.** Gap, question, method, approval, data, analysis, write-up, submission, citation count: that sequence describes mid-twentieth-century research administration. It arrived with the research grant and the audit, and it has since been mistaken for the thing it was built to monitor. The methods section is where the mistake is maintained, a document that reconstructs a [[Notes/emergence|complex]] process as a line, written after the fact by people who know it was not one.
 
-## Why this matters
+## The argument is about permission
 
 None of this is an argument that the older arrangements were better. Peer review, for all its faults, catches things, and disciplines concentrate expertise in useful ways.
 

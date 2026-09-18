@@ -41,13 +41,13 @@ Traditional information sources carry three accountability mechanisms that learn
 
 These three mechanisms are how educational environments normally catch and correct errors over time. When the information source actively undermines all three, the conventional assumption that education tolerates imperfection needs reexamination.
 
-### When it matters
+### Where undetected errors have consequences
 
 Most pressing in high-stakes learning contexts — health professions education, legal training, any domain where undetected errors have real-world consequences — because verification behaviour matters most precisely where students are least equipped to detect plausibility failures without support.
 
 At the systems level, the concept maps to concerns being raised independently about AI at scale. Marchal et al. (2026) frame *falsifiability* and auditable reasoning chains as foundational requirements for trustworthy epistemic AI agents — essentially proposing that accountability mechanisms be designed into AI systems from the ground up. The essay-level concern and the systems-level proposal are addressing the same gap from different directions.
 
-### What remains unclear
+### Whether design can close the gap
 
 Whether the accountability gap can be closed by design — through AI systems that maintain source trails, flag uncertainty, and resist sycophantic responses — is an open question. The issue is not whether individual AI systems can be made more accountable, but whether the mechanisms required can be made reliable enough, and adopted consistently enough, to restore the error-correction functions that learners currently depend on.
 

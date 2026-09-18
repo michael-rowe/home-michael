@@ -85,7 +85,7 @@ This note isn't trying to argue that humans are literally language models or tha
 
 **Organisational AI integration:** In organisations resisting AI adoption, examining which parallels provoke the strongest resistance might reveal what professional identities and power structures are being protected. The nature of the resistance may suggest professional anxiety rather than technical assessment.
 
-## What remains unresolved
+## Which direction the parallel runs
 
 The causal direction: do these parallels reveal that LLMs are impressively human-like, or that human cognition is disappointingly machine-like? The answer matters for how we position AI in educational settings; as qualitatively different tool or as a collaborator with similar architecture to human cognition.
 

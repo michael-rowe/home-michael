@@ -65,13 +65,13 @@ Three implications matter most:
 
 **Third**, LLMs exhibit complementary errors to humans—they make different kinds of mistakes. This creates opportunities for productive human-AI collaboration where each compensates for the other's limitations. But it also means we cannot simply delegate tasks to AI without oversight.
 
-## Known limitations
+## Limits that are not engineering problems
 
 LLMs hallucinate—generating plausible but false information with confidence. They have context window constraints limiting how much information they can process at once. Their knowledge has temporal cutoffs beyond which they cannot reliably answer questions. They struggle with precise reasoning and mathematics despite appearing fluent in these domains.
 
 These aren't merely technical limitations to be overcome with better engineering. Some reflect fundamental characteristics of how LLMs work. They're trained to predict plausible continuations, not to verify factual accuracy. This means fluency and accuracy don't correlate as strongly as we might intuitively expect.
 
-## What remains uncertain
+## Scale, governance, and what this says about language
 
 How do emergent capabilities arise from scale and architecture? We observe that certain abilities appear at certain model sizes, but we don't fully understand the mechanisms. How will LLMs evolve to balance capabilities with safety, transparency, and alignment? The field moves faster than our ability to develop appropriate governance frameworks.
 

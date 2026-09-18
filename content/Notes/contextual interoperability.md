@@ -33,7 +33,7 @@ linkedin:
 
 In traditional systems, AI treats your notes as disconnected chunks of text. Contextual interoperability enables the AI to comprehend the *architecture* of your thinking—the specific relationships between concepts, the frameworks you've developed, and the questions that drive your work. It transforms a personal knowledge base from a storage system into a cognitive interface.
 
-### What it enables
+### Reasoning across relationships, not keywords
 - **Relational reasoning:** Instead of simple keyword retrieval, AI can follow chains of connection (e.g., "Theory A *critiques* Theory B") to provide more nuanced support.
 - **Proactive assistance:** By understanding your cognitive landscape, AI can identify relevant information or connections even when you don't know to ask for them.
 - **[[Notes/context sovereignty|Context sovereignty]]:** Structured context can be shared temporarily with AI models, allowing them to reason within your framework without requiring you to hand over your entire intellectual history.
