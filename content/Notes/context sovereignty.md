@@ -109,7 +109,7 @@ Context sovereignty has immediate implications for knowledge work:
 
 The shift from current practice to context sovereignty isn't binary. You can begin building context sovereignty through intentional curation of personal knowledge, structured organisation of intellectual work, and selective integration with AI systems that respect these principles.
 
-## What remains unresolved
+## Boundaries, access, and shared intellectual environments
 
 How do we maintain clear boundaries between human and AI cognition when they're deeply integrated? Does externalising context change how we think? How do we ensure context sovereignty doesn't become another form of digital divide—available to those with technical sophistication and resources but not others?
 

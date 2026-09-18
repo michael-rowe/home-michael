@@ -46,7 +46,7 @@ The failure mode is most visible when something goes wrong. A practitioner who h
 
 ---
 
-### What remains unclear
+### Where the line sits for substantive work
 
 The line between disciplined delegation and vibe coding is not always sharp. For genuinely routine tasks — reformatting, reorganising, converting between structures — there may be little meaningful distinction between accepting output and confirming it is correct. The harder question is where that line sits for intellectually substantive work, and whether it shifts as models improve and practitioners develop better tools for evaluating what agents produce.
 

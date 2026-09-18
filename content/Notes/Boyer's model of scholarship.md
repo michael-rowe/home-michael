@@ -43,7 +43,7 @@ The contribution wasn't inventing new categories but legitimising what many acad
 
 **Scholarship of teaching and learning** involves systematic study of teaching and learning processes. Not just good teaching but inquiry into how learning happens, what pedagogies work in which contexts, how students develop expertise. This legitimises educational scholarship as research rather than relegating it to service.
 
-## Why this matters
+## Expanding what counts, not demoting research
 
 The model addresses a persistent dysfunction in academia: we claim to value both teaching and research, then structure rewards almost entirely around traditional discovery. This creates perverse incentives—researchers who'd rather teach feel pressured to publish, teachers who'd rather integrate knowledge across fields get evaluated on discovery alone, practitioners applying expertise to consequential problems find their work doesn't "count."
 
@@ -51,7 +51,7 @@ Boyer's insight was that the problem isn't valuing research but limiting what co
 
 The practical implication: institutions need reward systems reflecting this diversity. We need ways besides publication counts to evaluate scholarly performance. We need recognition that different forms of scholarship serve different contexts and that balance among them varies appropriately by discipline, institution type, and career stage.
 
-## What remains unresolved
+## Recognition without reward
 
 Boyer's framework doesn't address quality—identifying four forms of scholarship says nothing about distinguishing good from mediocre work in any category. The model also doesn't solve the structural problem: even if we accept that integration, application, and teaching are scholarship, tenure committees still primarily reward discovery. Recognition without reward changes little.
 

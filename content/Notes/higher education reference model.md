@@ -47,7 +47,7 @@ In the context of *[[documentation-as-infrastructure|documentation as infrastruc
 
 HERM provides a pragmatic starting point for ontology design, but it is not the only option. Institutions may need to extend or adapt it to represent relationships that HERM does not capture well — for instance, the distinction between a clinical placement and a practice competency in nursing education, or the cross-disciplinary connections in an integrated medical curriculum. What matters is internal consistency rather than strict adherence to an external standard. Graph databases are schema-flexible, and ontologies can evolve as institutional needs develop.
 
-### What it does not address
+### The operational layer beneath the architecture
 
 HERM operates at the level of institutional architecture. It does not address how individuals or teams structure the operational knowledge that sits beneath and between institutional systems — the project documentation, meeting records, and professional workflows that constitute the day-to-day fabric of institutional life. That gap is where the [[documentation-debt|documentation debt]] problem is most acute and where the argument for structured operational architecture is most pressing.
 

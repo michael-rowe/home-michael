@@ -35,11 +35,11 @@ What makes it more than a convenience:
 - **Templates.** A .docx reference document or a LaTeX template controls the output's appearance, so a plain markdown file can come out looking like the institution's house style without any of that style living in the source.
 - **Scriptability.** Because it's a command-line tool, it sits inside automation. A module handbook can be rebuilt as Word, PDF and web every time the source changes, without anyone opening a word processor.
 
-### What it looks like in practice
+### The essay PDFs on this site
 
 The PDFs of the essays on this site are built with pandoc from the same markdown the web pages come from. Tenen and Wythoff (2014) walk through the basic workflow for an academic — markdown, a bibliography file, one command — and it hasn't changed much in a decade.
 
-### What it doesn't do
+### Structure converts; layout does not
 
 Pandoc converts structure, not layout. A complex Word document with floating text boxes and manual spacing will come through as its underlying content, which is usually what you want and occasionally isn't. Conversions *from* PDF are poor, because a PDF is a picture of a page rather than a structured document; treat the PDF as an output, never as a source.
 

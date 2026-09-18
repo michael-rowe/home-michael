@@ -47,7 +47,7 @@ The same capacity is relevant to research mentorship more broadly: helping early
 
 Research taste also has a specific dimension in AI-assisted research. How a researcher directs AI is an expression of their taste; knowing what to ask, what threads to pursue, and what to set aside. A researcher with well-developed taste will use AI to amplify consequential work; one without it risks producing volume without direction. In this sense, taste is not threatened by AI tools. It is made more visible by them.
 
-### What remains unclear
+### Whether taste transfers, and whose values it encodes
 
 Research taste is domain-specific in part; what counts as an important problem in physiotherapy research differs from what counts as important in epidemiology. Whether the underlying capacity (interrogating one's own motivations, recognising genuine novelty, identifying high-leverage gaps) transfers across domains is not fully settled.
 

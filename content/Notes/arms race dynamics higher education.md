@@ -47,7 +47,7 @@ Arms races imply mutual escalation. Students aren't escalating—they're adaptin
 
 That distinction matters for intervention. If it's truly mutual escalation, you need to de-escalate both sides. If it's institutional behaviour creating resistance, the intervention point is institutional policy. The question isn't "how do we stop the arms race?" but "why do institutions keep creating conditions that position students as adversaries?"
 
-## When it matters
+## The question it changes
 
 Arms race dynamics are most visible in contexts where institutions attempt to control student behaviour through prohibition and surveillance rather than through aligned incentives and transparent rationale. High-stakes assessment environments, technology adoption periods, and academic integrity policies all create conditions where these dynamics can emerge. Recognition matters because it shifts focus from "how do we catch rule-breakers?" to "what about our system creates rule-breaking as a logical response?" These dynamics reflect deeper asymmetric power dynamics between institutions and students.
 

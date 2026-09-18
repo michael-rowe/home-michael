@@ -7,7 +7,7 @@ aliases:
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-04-06
-updated: 2026-04-06
+updated: 2026-09-18
 draft: false
 tags:
   - documentation
@@ -62,6 +62,8 @@ draft: false
 ```
 
 The frontmatter is not rendered as content. Tools read it to populate indexes, generate site pages, filter notes by tag, and drive automated workflows — without touching the document body. This separation of metadata from content is what makes plain-text publishing pipelines possible.
+
+The same block does fairly ordinary work in a programme. Give every module descriptor a frontmatter block naming its level, its credit value, the professional standards it maps to and the member of staff who owns it, and a set of questions that normally take a week of email become a query over the folder: which level 6 modules claim HCPC standard 9, which modules a change to placement hours would touch, which have not been looked at since 2024. The descriptors remain documents a course leader can open and edit, because the metadata rides along in the same file. The alternative most programmes actually run — the descriptors in one place and a mapping spreadsheet in another — goes stale the first time someone revises a module without remembering the spreadsheet exists, and there is no way to tell from either document that it has happened.
 
 ### Common pitfalls
 

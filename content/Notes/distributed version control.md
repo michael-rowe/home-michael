@@ -42,7 +42,7 @@ The alternative is *centralised* version control, where a single server holds th
 
 Cloud storage (Dropbox, Google Drive) syncs current file states but does not record a meaningful history of changes. You can recover a recent version, but you cannot see what changed between versions, who changed it, or why. Version control tracks *intentional* checkpoints with descriptions, not automatic saves.
 
-### Relevance to open scholarship
+### Making the development of a project legible
 
 Distributed version control makes the development of a scholarly project legible. Essays, datasets, and teaching materials can have auditable histories — showing how arguments evolved, where sources were added, and how collaborators contributed. Platforms like GitHub surface this history publicly, supporting the open scholarship principle that process, not just output, carries scholarly value. [[Notes/git|Git]] is the dominant implementation.
 

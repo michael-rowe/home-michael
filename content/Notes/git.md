@@ -5,7 +5,7 @@ aliases:
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-04-06
-updated: 2026-04-06
+updated: 2026-09-18
 draft: false
 tags:
   - documentation
@@ -24,7 +24,7 @@ linkedin:
 
 ## Git
 
-**One-sentence definition:** Git is a [[distributed version control]] system that tracks changes to files over time, recording who changed what, when, and why.
+**One-sentence definition:** Git is a [[Notes/distributed version control|distributed version control]] system that tracks changes to files over time, recording who changed what, when, and why.
 
 Git operates through a few core ideas:
 
@@ -36,9 +36,11 @@ Git operates through a few core ideas:
 
 **Staging** is the step between making a change and committing it. You explicitly choose which changes to include in a commit, which encourages deliberate, well-described checkpoints rather than saving everything at once.
 
+A programme team that keeps its module descriptors this way gets an answer to a question that is otherwise surprisingly hard to settle. Learning outcomes drift over a few years of minor amendments, and when a periodic review or a professional-body revalidation asks when outcome 4 changed and on whose authority, the evidence is usually a shared drive holding `handbook_v3_FINAL.docx` alongside `handbook_v3_FINAL_amended.docx`. The version number in the filename is standing in for a provenance it cannot actually carry, and the people who made the amendments have often moved on. A repository answers the question directly: the outcome was rewritten on this date, in this commit, with this explanation, as part of the same batch of changes that revised the assessment brief — which is also how you discover that the two were meant to move together and only one of them did.
+
 ---
 
-### What it looks like in practice
+### Revision history as part of the record
 
 For scholarly work, git means that every essay, note, or dataset has a complete revision history. You can see exactly what changed between drafts, recover deleted content, and share the development process — not just the final output. This is one mechanism behind the open scholarship principle that making the process visible is itself a form of scholarly contribution.
 

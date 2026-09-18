@@ -40,7 +40,7 @@ Agents cycle through a loop:
 
 The tools an agent has access to define its effective capability. An agent with file access, a code interpreter, and a browser can do substantially more than one limited to generating text.
 
-### Known limitations
+### Four limits, and which one binds
 
 - **Direction quality**: output is bounded by how clearly the goal, constraints, and success criteria were specified at the outset ;vague direction produces generic results
 - **Context window**: long or complex tasks risk the agent losing coherence across earlier decisions
@@ -49,7 +49,7 @@ The tools an agent has access to define its effective capability. An agent with 
 
 The third limitation is worth underscoring: the constraint in agent-first working is rarely what the models can do. It is how much the directing human can hold in mind at once.
 
-### What it looks like in practice
+### How much the specification decides
 
 A well-directed agent can apply a formatting standard across forty documents, cross-reference a set of notes against a bibliography for consistency, or restructure a piece of writing to match an explicit brief; tasks that are well-defined and would otherwise take a human several hours. The specificity of the specification matters considerably: Yang et al. (2026) found that a domain-specific agent in nursing education substantially outperformed general-purpose language models on evidence-based practice tasks, with the advantage attributed directly to its alignment with curriculum structure and explicitly defined task constraints.
 

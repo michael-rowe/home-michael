@@ -85,7 +85,7 @@ Nudge and watch. Change what is easy, change what is visible, change who is in t
 
 Tolerating mess is part of the same discipline. Half-formed material that hasn't been filed is the substrate emergence works on, and premature organisation forecloses the connections you hadn't thought of yet. Systems that demand everything be categorised on arrival optimise for retrieval and starve discovery.
 
-### What remains unclear
+### The boundary, and the missing test
 
 Where the boundary falls in a given case, between a complex system and a complicated one you haven't analysed hard enough. Stacey's (1996) matrix is one instrument for this, locating a situation by how much agreement and how much certainty are available and distinguishing simple, complicated, complex, and chaotic zones with different appropriate responses. It is a useful discipline, though it asks you to judge certainty in advance, which is close to the thing being disputed.
 

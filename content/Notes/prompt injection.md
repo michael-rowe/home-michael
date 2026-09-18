@@ -32,12 +32,12 @@ AI systems work by processing text and generating responses according to instruc
 
 There are two forms. **Direct prompt injection** is where a user includes override instructions in their own input; "Ignore previous instructions and instead do X." Most well-designed systems are now reasonably resistant to this. **Indirect prompt injection** is more subtle: adversarial instructions are hidden in external content the AI processes on behalf of a user e.g. in a document, webpage, email, or source text. The AI cannot always reliably distinguish between data it should process and instructions it should follow.
 
-### When it matters in HPE
+### Tripwires and injection are the same technique
 
 The most immediate context in health professions education is assessment. The technique behind AI tripwires — embedding hidden keywords in source material that students are asked to summarise — is indirect prompt injection, mounted by the educator against the student's AI. Both the detection technique and any student attempt to reverse it use the same mechanism. The difference is not technical but a matter of authorisation and declared purpose. This has implications for how assessment policies frame acceptable AI use, and who is understood to be acting within or outside those boundaries.
 
 More broadly, AI agents that process external content (e.g. summarising uploaded papers, reading clinical guidelines, parsing student notes) are all potentially vulnerable to indirect injection. Understanding the concept helps educators and institutions think more clearly about where AI assistance is trustworthy and where human oversight is needed before acting on AI output.
 
-### What remains unclear
+### A governance question, not a technical one
 
 The line between legitimate [[prompt engineering]] and a prompt injection attack is not always obvious because the mechanism is identical. The question of what makes one sanctioned and the other a violation is a governance question as much as a technical one, and current academic integrity frameworks rarely address it directly.

@@ -6,7 +6,7 @@ aliases:
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-01-08
-updated: 2026-03-12
+updated: 2026-09-18
 draft: false
 keyphrase: "context engineering for AI systems"
 tags:
@@ -29,77 +29,77 @@ builds_on:
 leads_to:
   - agent
 contradicts:
+reviewed:
+  - writing_style
 linkedin:
 
 ---
 
 > [!info] Context is king
-> The most capable AI models consistently underperform not because of their limitations but because they're provided with incomplete or poorly structured context. [[Notes/prompt-engineering|Prompt engineering]] optimises what you say to AI. Context engineering optimises what AI knows about your work—and that difference matters more than most people realise.
+> Capable models underperform when what they're given is incomplete or badly structured. [[Notes/prompt-engineering|Prompt engineering]] improves what you say to a model; context engineering improves what the model knows about your work, and that second difference turns out to matter more.
 
 ## Context engineering
 
 **One-sentence definition:** The process of building dynamic systems that provide large language models with the information, structure, and connections they need to reason effectively about your work.
 
-When scholars complain that AI tools feel shallow or generic, the problem isn't usually the model—it's the context. Generic AI lacks access to your theoretical frameworks, your methodological commitments, the relationships between concepts you've developed over years. It cannot engage meaningfully with your work because it doesn't know how your ideas connect.
+When scholars find AI tools shallow or generic, the problem is usually the context rather than the model. A general-purpose assistant has no access to your theoretical frameworks, your methodological commitments, or the relationships between concepts you've worked out over years, so it can't engage with your work in any depth. It doesn't know how your ideas connect.
 
-Context engineering solves this by making your intellectual infrastructure—the frameworks, connections, and commitments you've built—computationally accessible. It's not about writing better prompts. It's about structuring knowledge so AI can reason about relationships rather than merely retrieve similar text.
+Context engineering addresses that by making your intellectual infrastructure computationally accessible — the frameworks, connections, and commitments you've already built. The gain comes from structuring knowledge so that a model can reason about relationships, not from writing a better query.
 
 ## From prompts to systems
 
-[[Notes/prompt-engineering|Prompt engineering]] emerged as the craft of writing effective queries—choosing words, providing examples, structuring requests. Useful, but limited to optimising individual interactions. Context engineering represents a qualitative shift from individual optimisation to systematic architecture.
+[[Notes/prompt-engineering|Prompt engineering]] emerged as the craft of writing effective queries: choosing words, providing examples, structuring requests. It's useful, and it's limited to optimising one interaction at a time. Context engineering is a shift from that kind of local optimisation to systematic architecture.
 
-The distinction matters because academic work isn't a series of isolated tasks to be optimised one prompt at a time. It's an interconnected body of knowledge where understanding depends on grasping how ideas relate. Prompt engineering treats each query as independent. Context engineering treats your work as a structured knowledge system.
+The distinction matters because academic work isn't a series of isolated tasks to be tuned one prompt at a time. It's an interconnected body of knowledge where understanding depends on grasping how ideas relate, and prompt engineering treats each query as independent while context engineering treats the whole corpus as a structured system.
 
-Consider the difference: with prompt engineering, you ask "what are the key debates about social constructivism?" and get a generic overview. With context engineering, AI that understands your theoretical position, your previous work on constructivism, your critiques of particular approaches, and how constructivism relates to other frameworks you engage with—that AI can offer substantive intellectual partnership rather than encyclopaedic summaries.
+The difference shows up in the answers. Ask "what are the key debates about social constructivism?" with a well-written prompt and you get a competent overview. Ask the same thing of a system that knows your theoretical position, your previous work on constructivism, your objections to particular approaches, and how constructivism sits against the other frameworks you engage with, and you get something closer to intellectual partnership than to an encyclopaedia entry.
 
 ## What context engineering includes
 
-Context engineering encompasses the full range of techniques for shaping what an AI system knows and how it reasons. Promptingguide.ai (2025) catalogues the components:
+Context engineering covers the full range of techniques for shaping what a system knows and how it reasons. Promptingguide.ai (2025) catalogues the components:
 
 - **Prompt and instruction design**: tuning system prompts, structuring inputs and outputs (delimiters, JSON schema), managing dynamic elements such as user inputs and date/time
 - **Retrieval and knowledge preparation**: searching and preparing relevant knowledge ([[retrieval augmented generation|RAG]]), query augmentation, short-term memory (managing conversational state), long-term memory via [[vector database|vector]] or [[graph database|graph]] stores
 - **Demonstrations**: preparing and optimising few-shot examples that show the model how to perform a task
 - **Agentic scaffolding**: tool definitions and instructions, prompt chains, and orchestration logic for [[multi-hop reasoning|multi-step systems]]
 
-This scope clarifies the relationship between context engineering and prompt engineering. Prompt engineering is a component of context engineering — specifically the craft of writing effective individual instructions. Context engineering designs the full information architecture that shapes every interaction.
+That scope clarifies how the two relate. Prompt engineering is one component of context engineering, the craft of writing effective individual instructions, while context engineering designs the information architecture that shapes every interaction.
 
 ## How it actually works
 
-Context engineering relies on [[knowledge graph]]s rather than [[vector database]]s. This technical distinction has profound implications:
+Context engineering relies on [[knowledge graph]]s rather than [[vector database]]s, and the technical distinction has consequences.
 
-Vector databases store text as embeddings—mathematical representations that cluster statistically similar content. Query for "social constructivism debates" and you'll find passages discussing social constructivism debates. Query for something requiring synthesis across multiple sources, and the system struggles because similarity matching cannot construct chains of inference.
+Vector databases store text as embeddings, mathematical representations that cluster statistically similar content. Query for "social constructivism debates" and you'll find passages discussing social constructivism debates. Query for something that requires synthesis across several sources and the system struggles, because similarity matching can't construct a chain of inference.
 
-Knowledge graphs store entities and relationships. Not just that Paper A discusses constructivism, but that Paper A critiques Paper B's methodological assumptions, which also appear in Paper C's framework, which influenced your thinking in Paper D. These explicit relationships enable [[multi-hop reasoning]]—following chains of connection rather than matching statistical patterns.
+Knowledge graphs store entities and the relationships between them: not simply that Paper A discusses constructivism, but that Paper A critiques Paper B's methodological assumptions, that those assumptions reappear in Paper C's framework, and that Paper C shaped your thinking in Paper D. Explicit relationships of that kind are what make [[multi-hop reasoning]] possible.
 
-This is why [[graphRAG]] matters: it automates knowledge graph construction from your existing documents, extracting entities and relationships at scale. You can work with curated knowledge (the links you've already built in your notes) or automate extraction from unstructured documents (your PDF library). The hybrid approach—automated extraction refined by scholarly judgement—often works best.
+This is also why [[graphRAG]] matters: it automates knowledge graph construction from documents you already hold, extracting entities and relationships at scale. You can work from curated knowledge, meaning the links you've already built in your notes, or automate extraction from unstructured sources such as a PDF library. Automated extraction refined by scholarly judgement tends to work better than either on its own.
 
-## What this enables for scholarship
+## What AI can join in with
 
-Context engineering transforms how AI can participate in scholarly work:
+Context engineering changes what AI can take part in. Synthesising across sources is the obvious case, and [[Notes/multi-hop reasoning|multi-hop reasoning]] sets out how that works; three further shifts matter as much.
 
-**Literature synthesis** that traverses intellectual lineages rather than keyword matches. "Which methodological critiques of phenomenology also apply to grounded theory?" requires understanding both frameworks, identifying specific critiques, recognising when they share methodological foundations. That's not retrieval. That's inference across connected concepts.
+**Research development** that reflects your theoretical commitments. A system that knows your position on key debates, your methodological preferences, and the arguments you're currently making can offer substantive feedback rather than generic suggestions.
 
-**Research development** that reflects your theoretical commitments. AI that understands your position on key debates, your methodological preferences, your ongoing arguments can offer substantive feedback rather than generic suggestions.
+**Writing support** that holds your voice. When the system knows how you build an argument, which authors you engage with, and which concepts carry weight in your work, what it drafts sounds like you rather than like every other academic.
 
-**Writing support** that maintains your voice. When AI understands how you build arguments, which authors you engage with, which concepts matter to your work, it can draft text that sounds like you rather than like every other academic.
+**Teaching materials** that draw on what you've curated — your annotations, the connections you've made between readings, the pedagogical judgements accumulated over years of teaching.
 
-**Teaching materials** that draw on your curated knowledge—your annotations, your connections between readings, your pedagogical insights accumulated over years of teaching.
-
-The central insight: you've already built a personal knowledge system, whether in Zotero, Obsidian, or annotated PDFs. Context engineering makes that investment legible to AI. The linked notes, the annotated sources, the conceptual maps—these become infrastructure for AI reasoning rather than merely personal reference.
+You've already built a personal knowledge system, in Zotero or Obsidian or a folder of annotated PDFs. Context engineering makes that investment legible to a machine, so the linked notes and conceptual maps become infrastructure for reasoning rather than material you alone can read.
 
 ## The investment question
 
-Context engineering requires more upfront work than prompt engineering. Building explicit relationships between concepts, structuring knowledge graphs, refining extracted relationships—this takes time. The question is whether the investment pays off in richer intellectual partnership.
+Context engineering asks for more upfront work than prompt engineering. Building explicit relationships between concepts, structuring graphs, and refining what automated extraction produces all take time, and the question is whether that buys richer intellectual partnership.
 
-The answer depends on what you need AI to do. For isolated tasks—"summarise this paper," "write a methods section"—prompt engineering suffices. For ongoing scholarly work where understanding your intellectual position matters, context engineering becomes essential.
+It depends on what you need the system to do. For isolated tasks — summarise this paper, draft a methods section — prompt engineering is enough. For sustained scholarly work where your intellectual position is the thing that matters, context engineering becomes the difference between a tool and a collaborator.
 
-Think of it this way: every hour spent connecting ideas, making relationships explicit, building knowledge structures extends what AI can reason about. The question isn't whether to invest that time but whether you're investing it anyway through your normal scholarly practice—and whether making those connections more explicit would benefit both you and AI.
+There's a reframing worth making here. Every hour spent connecting ideas and making relationships explicit extends what a system can reason about, and most scholars are already spending some of those hours through ordinary practice. The real question is whether making those connections a little more explicit would repay the effort for you as well as for the machine.
 
-## What remains uncertain
+## Voice, ownership, and what resists representation
 
-How do we maintain scholarly voice and intellectual ownership when AI has deep access to our thinking? Does externalising knowledge structures change how we think? What happens to tacit knowledge that resists explicit representation? How do we handle contested or evolving relationships between concepts?
+How do we hold on to scholarly voice and intellectual ownership when a system has deep access to our thinking? Does externalising knowledge structures change how we think? What happens to tacit knowledge that resists explicit representation? How should contested or shifting relationships between concepts be handled?
 
-These questions don't have settled answers. Context engineering is valuable precisely because scholarship is relational—we build on predecessors, respond to critics, synthesise across traditions. But the extent to which making these relationships computationally explicit enhances or constrains scholarly thinking remains an open question.
+None of these have settled answers. Context engineering is valuable precisely because scholarship is relational — we build on predecessors, respond to critics, synthesise across traditions — but whether making those relationships computationally explicit enhances scholarly thinking or constrains it remains open.
 
 ---
 
@@ -116,4 +116,4 @@ These questions don't have settled answers. Context engineering is valuable prec
 
 ## Notes
 
-The shift from prompt engineering to context engineering mirrors broader patterns in technology: from manual optimisation to systematic design, from individual interactions to persistent systems, from treating AI as a tool to treating it as a partner that requires structured knowledge to reason effectively.
+The shift from prompt engineering to context engineering follows a pattern that recurs in technology: from manual optimisation to systematic design, from individual interactions to persistent systems, from treating AI as a tool to treating it as something that needs structured knowledge before it can reason well.

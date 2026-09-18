@@ -40,11 +40,11 @@ Three features follow from this:
 - **Triangulation replaces standardisation.** Because no single instrument has to be defensible on its own, the programme can use methods that are individually weak but collectively strong, including narrative judgements from clinical supervisors.
 - **Decisions are proportional and human.** The higher the stakes, the more evidence is required and the more people involved. Committees rather than algorithms make the final call, and their reasoning has to be defensible.
 
-### What it looks like in practice
+### What a programme has to put in place
 
 Van der Vleuten's *Twelve tips* (2015) is the usual starting point for a programme lead: a longitudinal portfolio, regular mentor meetings to interpret the accumulating evidence, and a progress committee that meets at fixed points. Ross et al. (2021) note the gap between the people who publish on programmatic assessment and the clinical educators who have to run it, and set out what needs to be in place before it will work. Heeneman et al. (2015) found the effect on student learning depends on whether students believe the low stakes are real; if a "low-stakes" assessment turns out to count, the programme collapses back into exam preparation.
 
-### What remains unclear
+### Thin validity evidence, and a question the model was not designed for
 
 Programmatic assessment asks a lot of the institution: mentoring capacity, committee time, an assessment record that can hold narrative as well as numbers, and regulations that allow judgement rather than arithmetic to decide progression. Bok et al. (2018) reviewed the validity evidence and found it thinner than the model's adoption would suggest. And the arrival of generative AI raises a question the model wasn't designed for: if many of the low-stakes data points are written work, what do they tell you about the learner? The direction of travel is toward more observed and dialogic evidence, which programmatic assessment already favours.
 
