@@ -10,7 +10,6 @@ type: note
 author: '[[Michael Rowe]]'
 created: 2026-01-30
 updated: 2026-09-18
-needs_review: false
 tags:
   - reasoning
   - knowledge-graphs
