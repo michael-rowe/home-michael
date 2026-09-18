@@ -2,6 +2,8 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { resolveRelative } from "../util/path"
 import { getDate } from "./Date"
 import { classNames } from "../util/lang"
+import { QuartzPluginData } from "../plugins/vfile"
+import { GlobalConfiguration } from "../cfg"
 
 // Sections rendered in this order; only those with content for the month appear.
 // Icons are Phosphor regular, the set already loaded site-wide and used on
@@ -30,6 +32,35 @@ const MONTH_NAMES = [
 // How many items the rolling list shows when no month is pinned.
 const ROLLING_COUNT = 5
 
+const VALID_TYPES = new Set(TYPE_SECTIONS.map((s) => s.type))
+
+// One predicate, three surfaces. The rolling list, the month nav and the
+// RecentlyAddedArchive emitter must agree on what counts as published content,
+// or the sidebar offers a month whose page is empty (or the reverse). Drafts
+// never reach here — RemoveDrafts has already filtered them out of allFiles.
+export const isListedContent = (p: QuartzPluginData, cfg: GlobalConfiguration): boolean => {
+  const t = p.frontmatter?.type as string | undefined
+  const s = p.slug ?? ""
+  if (!t || !VALID_TYPES.has(t)) return false
+  if (s.startsWith("recently-added") || s.includes("templates")) return false
+  return !!getDate(cfg, p)
+}
+
+// "2026-09". Local time, matching the bucketing below.
+export const monthKey = (d: Date) =>
+  `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`
+
+export const monthLabel = (key: string) =>
+  `${MONTH_NAMES[parseInt(key.slice(5, 7), 10) - 1]} ${key.slice(0, 4)}`
+
+// Every month that has published content, newest first.
+export const publishedMonths = (allFiles: QuartzPluginData[], cfg: GlobalConfiguration) =>
+  [
+    ...new Set(
+      allFiles.filter((p) => isListedContent(p, cfg)).map((p) => monthKey(getDate(cfg, p)!)),
+    ),
+  ].sort((a, b) => b.localeCompare(a))
+
 // Renders recently published site content.
 //
 // Two modes, decided by the page's `month` frontmatter:
@@ -53,15 +84,8 @@ export default (() => {
     const year = pinnedMonth ? parseInt(pinnedMonth.slice(0, 4), 10) : 0
     const month = pinnedMonth ? parseInt(pinnedMonth.slice(5, 7), 10) - 1 : 0 // 0-indexed
 
-    const validTypes = new Set(TYPE_SECTIONS.map((s) => s.type))
     const published = allFiles
-      .filter((p) => {
-        const t = p.frontmatter?.type as string | undefined
-        const s = p.slug ?? ""
-        if (!t || !validTypes.has(t)) return false
-        if (s.startsWith("recently-added") || s.includes("templates")) return false
-        return !!getDate(cfg, p)
-      })
+      .filter((p) => isListedContent(p, cfg))
       .sort((a, b) => (getDate(cfg, b)?.getTime() ?? 0) - (getDate(cfg, a)?.getTime() ?? 0))
 
     if (!pinnedMonth) {
