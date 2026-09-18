@@ -14,7 +14,6 @@ tags:
   - governance
 category: Education
 related:
-  - "[[Notes/emergence]]"
   - "[[Notes/scholarship as a complex adaptive system]]"
   - "[[Notes/emergent scholarship]]"
   - "[[Essays/problem-based-learning-structural-conditions-ai]]"
@@ -45,7 +44,7 @@ Rittel and Webber (1973) set out ten characteristics. All ten, in their order:
 
 ## The relationship to complexity
 
-Complexity science describes systems with open boundaries, non-linear cause and effect, feedback loops, and dependence on their own history (see [[Notes/emergence|emergence]]). The wicked-problems literature describes what happens when someone tries to solve a problem inside such a system. They are the same phenomenon seen from two positions. A complexity theorist looking at a health system sees feedback and non-linearity; a planner trying to change that health system experiences those same properties as a problem that will not hold still, cannot be tested, and turns out to be a symptom of something else. Rittel and Webber's ten characteristics are the view from the planner's chair.
+Complexity science describes systems with open boundaries, non-linear cause and effect, feedback loops, and dependence on their own history. The wicked-problems literature describes what happens when someone tries to solve a problem inside such a system. They are the same phenomenon seen from two positions. A complexity theorist looking at a health system sees feedback and non-linearity; a planner trying to change that health system experiences those same properties as a problem that will not hold still, cannot be tested, and turns out to be a symptom of something else. Rittel and Webber's ten characteristics are the view from the planner's chair.
 
 That is why the two literatures, complexity science and the wicked-problems tradition in planning and public policy, keep arriving at the same recommendation from different starting points: iterative, contextualised, incremental action that shifts a pattern over time, in place of a better specification of the problem (Head & Alford, 2015; Fraser & Greenhalgh, 2001).
 
