@@ -42,6 +42,12 @@ const nextMonthYear = targetMonth === 12 ? targetYear + 1 : targetYear;
 const nextMonth = targetMonth === 12 ? 1 : targetMonth + 1;
 const UNTIL_DATE = `${nextMonthYear}-${String(nextMonth).padStart(2, '0')}-01T00:00:00`;
 
+// Default `date:` for the issue — the last day of the target month, matching the
+// issued archive. It is a placeholder: set the real send date by hand when the
+// draft is issued.
+const ISSUE_DATE = new Date(nextMonthYear, nextMonth - 1, 0)
+  .toLocaleDateString('en-CA'); // YYYY-MM-DD, local time (toISOString would shift the day)
+
 // Content subdirectories — preferred display order first, remainder appended
 // alphabetically. The newsletter itself shouldn't list newsletters or media.
 const PREFERRED_ORDER = ['Essays', 'Presentations', 'Posts', 'Notes'];
@@ -202,9 +208,11 @@ const minorSection = rootFiles.length > 0
 let draft = `---
 title: "Newsletter: ${MONTH_NAME} Update"
 description: "A summary of recent site updates and some behind-the-scenes context."
-date: ${DATE_STR}-01
+date: ${ISSUE_DATE}
 type: newsletter
-status: draft
+tags: []
+category: []
+draft: true
 ---
 
 ## Current reflections
@@ -237,9 +245,15 @@ if (fs.existsSync(outputPath) && !force) {
 fs.writeFileSync(outputPath, draft);
 
 console.log(`\nSuccess! Draft generated at: ${outputPath}`);
+console.log('  Written with draft: true — not built, not committed.');
 if (totalNewItems > 0) {
   contentByDir.forEach(d => console.log(`  ${d.label}: ${d.items.length} item(s)`));
 }
 if (rootFiles.length > 0) {
   console.log(`  Minor changes: ${rootFiles.length} root file(s)`);
 }
+
+console.log('\nTo issue it: fill the placeholders, add tags and category from');
+console.log('content/personas/taxonomy.md, set draft: false, and rename to');
+console.log(`  ${path.join(OUTPUT_DIR, `${DATE_STR}.md`)}`);
+console.log('Nothing publishes until that rename — see CLAUDE.md, type: newsletter.');
