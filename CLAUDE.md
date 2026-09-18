@@ -55,6 +55,8 @@ The binding rules for how to think, what earns public form, and how to write —
 
 @~/harness/rules.md
 
+**Read the writing persona before writing any prose for this site.** `content/personas/writing_style.md` (alias `+style`) is not a review step applied afterwards — it governs drafting. Any session that writes or rewrites body text in `content/` reads it first and applies it unasked, whatever the content type. The bullets below are the summary; the persona file is the binding version, and the parts that matter most are the ones no word-level check catches: rationing technique, the named tells, contractions, and the calm rather than percussive register.
+
 When generating content for this site:
 
 - **Classic style (default voice across almost all outputs)**: Write as a guide pointing something out clearly to a peer, not as a scholar defending a claim to gatekeepers; language is a transparent window onto the subject. Strip meta-discourse ("in this section I will…"), cut defensive hedging ("arguably", "it seems that"), and unpack nominalisations into verbs. The scholarly apparatus (methods sections, formal literature positioning) is a deliberate register exception. Full treatment: `content/personas/writing_style.md` (a symlink into `~/harness/personas/`; alias `+style`).
@@ -81,6 +83,10 @@ The site's reader is a health professions educator, not a technologist. Content 
 
 - **Gloss jargon in a footnote, link out for the rest.** A term the reader cannot be assumed to know (`Unix`, `pipe`, `grep`, `embedding`, `DOI`, `programmatic assessment` used in passing) gets a footnote at first use: bold term, a one- or two-sentence gloss in plain language, then a link to the Wikipedia page (or the canonical reference page if Wikipedia has none). The body sentence stays as written — no inline parenthetical definitions, no "(a type of…)". The footnote gives the quick reference without leaving the page; the link serves the reader who wants the full account. Do not write a definition the web already holds a million times; write the two sentences that connect the term to this page. A term that is itself the subject of a site note gets a wikilink, not a footnote. Footnotes render at the foot of the page with back-links (GFM, `Plugin.GitHubFlavoredMarkdown`); the footnote label is the term in lower case (`[^unix]`). A jargon term in the `description` field has to be rewritten out — frontmatter cannot carry a footnote.
 - **One example the reader recognises.** A note or post about a technical concept carries at least one example from health professions education — module evaluations, placement records, a reading list, supervision notes — placed where it does the most work, usually right after the mechanism is explained. An example from Michael's own system is welcome alongside it, but does not substitute for it. Keep the technical grounding: the example is added, the mechanism is not simplified away.
+
+**Footnote or note? Count how often the term comes up.** A term the site passes through once or twice belongs in a footnote — writing a note for it means maintaining a page that reproduces Wikipedia and is reached by almost nobody. A term the site keeps returning to earns a local note, because it is being explained repeatedly anyway and because a note can carry the health professions education context that no general reference will. Counted across `content/` on 2026-09-18: `Unix` 8 mentions in 1 file (footnote — the worked instance in `Notes/headless AI.md`); `markdown` 135 in 31 files, `plain text` 78 in 23, `YAML` 59 in 13, `open source` 46 in 9, `pandoc` 45 in 8, `git` 39 in 11, `LaTeX` 23 in 6 (all notes). A quick `grep -rc` before deciding is cheaper than guessing.
+
+What makes the note worth having is the health professions education material in it, and that has to be woven into wherever it belongs in the argument — the example that makes the mechanism land, the consequence for a programme team, the reason an educator would care. It is not a section. Do not add a standing *"Where it sits for most educators"* or *"Why it matters in education"* heading: across several notes the repeated frame reads as generated content and the reader stops trusting it. Vary the shape of a note to the concept.
 
 Both rules apply to existing content, not only new writing. A sweep for unglossed terms and for technical notes without a recognisable example is a WP issue, not a by-product of other edits. The worked instance is `content/Notes/headless AI.md` (2026-09-17).
 
@@ -116,7 +122,9 @@ A draft newsletter can be auto-generated based on the last 30 days of site activ
 ```bash
 node scripts/generate-newsletter.mjs
 ```
-The draft is saved to `content/Newsletters/YYYY-MM-DD-newsletter-draft.md`. It uses git commit history (subject and body) to identify significant work and filters out routine maintenance noise.
+The draft is saved to `content/Newsletters/YYYY-MM-newsletter-draft.md` (month, not date) with `draft: true`, so it is neither committed nor built until it is finished and renamed to `YYYY-MM.md`. It uses git commit history (subject and body) to identify significant work and filters out routine maintenance noise.
+
+The script takes optional `month year` arguments (`node scripts/generate-newsletter.mjs 3 2026`) and refuses to overwrite an existing draft unless given `--force`. See the `type: newsletter` schema under *Content types* for the filename and frontmatter rules.
 
 ## Architecture
 
@@ -424,6 +432,22 @@ linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not
 ```
 *Slides are generated with Marp CLI and stored in `quartz/static/presentations/` to preserve the `.html` extension. The iframe `src` uses the full production URL (`https://michael-rowe.github.io/home-michael/static/presentations/…`) to prevent Quartz's link transformer from stripping the extension.*
 
+**`type: newsletter`** — Monthly newsletter issues (within `content/Newsletters/`)
+```yaml
+type: newsletter
+title: ""                # Doubles as the email subject line in Kit
+description: ""          # 3-5 sentences for index listings
+date: YYYY-MM-DD         # The date the issue was sent, not the month it covers
+tags: []
+category: []             # Always list format
+draft: false
+```
+*Deliberately absent: `author` (every issue is Michael's, and no byline renders), `meta-description` and `keyphrase` (an issue is not a search target — it is read by subscribers who already arrived).*
+
+**Two filenames, and the difference is what the file is.** An **issued** newsletter is `YYYY-MM.md` — tracked, built, published at `/Newsletters/YYYY-MM`. A **draft** is `YYYY-MM-newsletter-draft.md` and the Kit export is `YYYY-MM-newsletter-kit.md`; both patterns are gitignored, so neither is committed or built. Note that `content/Newsletters/` as a directory is **not** gitignored — only those two filename patterns are. A draft becomes an issue by being renamed, not by a flag.
+
+**`draft:` is the gate; `status:` does nothing.** Quartz's `RemoveDrafts` filter tests `frontmatter.draft === true` and knows nothing about `status`. A file carrying `status: draft` and no `draft:` field publishes. Two auto-generated drafts sat in this state from February to September 2026 and were removed rather than finished (WP-3, 2026-09-18); the generator now writes `draft: true`, and a draft that is being issued has it flipped to `false` by hand as part of the rename.
+
 **`type: podcast`** — Podcast appearances and recorded interviews (within `content/Podcasts/`)
 ```yaml
 type: podcast
@@ -497,6 +521,16 @@ draft: false
 linkedin:                # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
 ```
 *Each project page is surfaced by a card in the `.project-row` grid on `content/index.md` — add the card when the page is created, with an image in `content/Media/`. The grid is three columns, and `.project-row img` crops to 16:10 from the top (`quartz/styles/custom.scss`), so card images should be landscape and composed for that crop. Note that `scripts/validate-taxonomy.mjs` does not currently scan `type: project` files; check tags and categories against `content/personas/taxonomy.md` by hand.*
+
+### Redirects: a page's URL is a promise
+
+**Quartz has no automatic redirect for a deleted or renamed page.** `Plugin.AliasRedirects` (`quartz/plugins/emitters/aliases.ts`, enabled in `quartz.config.ts`) emits a meta-refresh stub at every slug listed in a **surviving** page's `aliases:` field, pointing at that page. There is no record of pages that used to exist, so a file that is deleted or moved simply 404s at its old URL, and the build says nothing.
+
+That matters more here than on most sites, because site URLs are published into places the site does not control: the monthly newsletter goes out through Kit and cannot be edited once sent, LinkedIn posts link to notes and essays, and OSF preprint DOIs point at essay pages. A link in a sent newsletter is permanent.
+
+So: **never delete or rename a published page without rehoming its slug.** Before removing a file, check what points at it (`grep -rn "Notes/<slug>" content/` for wikilinks, and the `content/Newsletters/` archive for external links), then add the old slug to the `aliases:` of whichever page now covers the material. Aliases are slugified the same way filenames are (`getAliasSlugs` in `quartz/plugins/transformers/frontmatter.ts`), so `- Notes/distributed version control` produces the stub at `Notes/distributed-version-control`. This is already how the site's pre-Quartz URLs survive — see `posts/audio-scholarship` on `2026-01-27-what-does-scholarship-sound-like.md` and `essays/open-collaborative-version-controlled-workflow` on `2026-04-06-open-scholarship-workflow.md`.
+
+If no surviving page covers the material, the page does not get deleted; it gets rewritten. An external link that lands on a thin page is recoverable, and a 404 is not.
 
 ### Wikilinks: no markdown inside the alias
 
