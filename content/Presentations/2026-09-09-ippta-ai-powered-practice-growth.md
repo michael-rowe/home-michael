@@ -46,20 +46,20 @@ Everything demonstrated runs on free tiers. The worked examples come from a real
 
 ## After the day
 
-If you were in the room, three things carry the day forward:
+Participants left with a single plain-text file holding everything they built during the day: a description of the practice, a client persona, a newsletter written for that person, an AI-use policy, a staff guide, a communication plan, and a draft three-year plan. That file is the thing to keep. Pasting it into a new conversation gives the model the context it needs to start where the last session ended, and adding to it after each piece of work means it gets more useful over time.
 
-- **Keep the practice file.** Everything you built — the client persona, the newsletter, the policy, the plan — is context. Paste it in at the start of every session and the model starts where you left off, rather than from nothing.
-- **Argue against the plan.** The three-year plan is a draft by a system that does not know your town, your staff or your lease. The most useful prompt of the day was the last one: *now argue against it*. Use it on anything the model produces that you are about to act on.
-- **Stay on the free tier until it stops you.** Nothing in the day needed a paid account except Deep Research, and the interview route covers that. Pay when a limit is in the way of work, not before.
+The last exercise of the day was to ask the model to argue against the plan it had just written. I'd suggest doing this with anything the model produces that you're about to act on. It knows nothing about your town, your staff, or your lease, and the quickest way to find the gaps is to ask it to look for them.
+
+Everything in the workshop ran on free accounts, with one exception: Deep Research needs a paid subscription, and we covered an interview-based alternative for anyone without one. A paid account is worth having when a limit is stopping you from doing work you want to do, and not before.
 
 ## Further reading
 
-The posts below are written mostly for educators, but the ideas are the ones the workshop ran on; the translation to a practice is in brackets.
+I've written about the ideas behind the workshop on this site. Most of these posts are addressed to educators, but the argument in each is the same one we worked through in Hamburg.
 
-- [Context engineering for educators](../Posts/2026-02-14-context-engineering-for-educators) — why the context window governs everything else, and why the fix is infrastructure rather than better prompts (the practice file is that infrastructure)
-- [Building AI personas for professional practice](../Posts/2026-03-07-ai-personas-for-professional-practice) — turning your professional commitments into a document the model works within (the *teach it your voice* exercise, done properly)
-- [The hidden inefficiency in how we work with AI](../Posts/2026-02-16-ai-models-for-different-tasks) — different models suit different work; which tool, and when
-- [Organising your notes for AI](../Posts/2026-02-12-organising-notes-for-ai) — making what you know readable to a model without losing what makes it yours (why the practice file is plain text)
+- [Context engineering for educators](../Posts/2026-02-14-context-engineering-for-educators) explains why what you give the model to work with matters more than how you phrase the request. The practice file is a small example of this.
+- [Building AI personas for professional practice](../Posts/2026-03-07-ai-personas-for-professional-practice) is the longer version of the *teach it your voice* exercise: writing down what you believe and how you work, so that the model can work within it.
+- [The hidden inefficiency in how we work with AI](../Posts/2026-02-16-ai-models-for-different-tasks) is about choosing a model for the task rather than treating them all as the same tool.
+- [Organising your notes for AI](../Posts/2026-02-12-organising-notes-for-ai) covers why plain text works, and what gets lost when you organise information for a machine to read.
 
 ## Slides
 
