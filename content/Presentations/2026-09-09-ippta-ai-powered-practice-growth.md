@@ -31,7 +31,7 @@ linkedin:
 
 ## Overview
 
-A full-day, hands-on workshop for private practice owners at the [International Private Physiotherapy Association](https://private.physio))'s business meeting in Hamburg, run as four 90-minute sessions that each build on the one before it.
+A full-day, hands-on workshop for private practice owners at the [International Private Physiotherapy Association](https://private.physio)'s business meeting in Hamburg, run as four 90-minute sessions that each build on the one before it.
 
 The premise is that practice owners already have the expertise; what they don't have is the time to turn it into content, communication, and a plan. So the day is built around production rather than explanation. Delegates work on their own practice throughout, keeping everything they produce in a single plain-text **practice file** that carries context between sessions — the answer to the context window, which is the one technical idea the day insists on.
 
@@ -43,6 +43,23 @@ The sessions:
 - **Growing the business** — a walkthrough of a completed Deep Research report, then delegates run their own (or take the interview route on tools without it), closing with the most important prompt of the day: *now argue against it*
 
 Everything demonstrated runs on free tiers. The worked examples come from a real Lincolnshire practice website and a fictional practice plan, and the day closes with an AI-generated handover report so delegates leave with one page they can act on.
+
+## After the day
+
+If you were in the room, three things carry the day forward:
+
+- **Keep the practice file.** Everything you built — the client persona, the newsletter, the policy, the plan — is context. Paste it in at the start of every session and the model starts where you left off, rather than from nothing.
+- **Argue against the plan.** The three-year plan is a draft by a system that does not know your town, your staff or your lease. The most useful prompt of the day was the last one: *now argue against it*. Use it on anything the model produces that you are about to act on.
+- **Stay on the free tier until it stops you.** Nothing in the day needed a paid account except Deep Research, and the interview route covers that. Pay when a limit is in the way of work, not before.
+
+## Further reading
+
+The posts below are written mostly for educators, but the ideas are the ones the workshop ran on; the translation to a practice is in brackets.
+
+- [Context engineering for educators](../Posts/2026-02-14-context-engineering-for-educators) — why the context window governs everything else, and why the fix is infrastructure rather than better prompts (the practice file is that infrastructure)
+- [Building AI personas for professional practice](../Posts/2026-03-07-ai-personas-for-professional-practice) — turning your professional commitments into a document the model works within (the *teach it your voice* exercise, done properly)
+- [The hidden inefficiency in how we work with AI](../Posts/2026-02-16-ai-models-for-different-tasks) — different models suit different work; which tool, and when
+- [Organising your notes for AI](../Posts/2026-02-12-organising-notes-for-ai) — making what you know readable to a model without losing what makes it yours (why the practice file is plain text)
 
 ## Slides
 
