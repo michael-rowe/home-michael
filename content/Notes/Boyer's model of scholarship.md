@@ -23,10 +23,13 @@ contradicts:
 source: "Boyer, E. L. (1990). Scholarship Reconsidered: Priorities of the Professoriate."
 source_url: ""
 draft: false
-keyphrase: ""
+keyphrase: Boyer's model of scholarship
+meta-description: "Boyer's model of scholarship: discovery, integration, application, and teaching, and what it means for recognising health professions educators' work."
 reviewed:
   - note_writer
   - writing_style
+  - SEO_optimiser
+  - copy_editor
 linkedin:
 ---
 
@@ -35,13 +38,13 @@ linkedin:
 
 ## Boyer's model of scholarship
 
-**One-sentence definition:** A framework identifying four distinct but overlapping forms of scholarship that together make up academic practice: discovery, integration, application, and teaching.
+**One-sentence definition:** Boyer's model of scholarship is a framework identifying four distinct but overlapping forms of scholarship that together make up academic practice: discovery, integration, application, and teaching.
 
 Boyer's contribution was to legitimise what many academics already did. By 1990, discovery (traditional research) had come to be treated as the only form that counted as "real" scholarship. Everything else, from synthesising knowledge across fields to applying expertise to real-world problems and studying teaching practice, was classed as service or teaching and ranked below research. Boyer asked what would change if these were all treated as forms of scholarship, each requiring rigour and systematic inquiry.
 
 ## The four forms
 
-**Scholarship of discovery** is what most people mean by research: original investigation seeking new knowledge, and the form that academic reward systems had been built around.
+**Scholarship of discovery** is what most people mean by research: original investigation seeking new knowledge.
 
 **Scholarship of integration** puts isolated facts into context, makes connections across disciplines, interprets findings in broader frameworks. Literature reviews, theoretical syntheses, and interdisciplinary work belong here, as scholarly contributions in their own right that take deep expertise to do well.
 
@@ -53,7 +56,7 @@ The line between good teaching and the scholarship of teaching is the one health
 
 ## Expanding what counts as scholarship
 
-The model addresses a persistent dysfunction in academia: we claim to value both teaching and research, then structure rewards almost entirely around traditional discovery. This creates perverse incentives: researchers who'd rather teach feel pressured to publish, teachers who'd rather integrate knowledge across fields get evaluated on discovery alone, practitioners applying expertise to consequential problems find their work doesn't "count."
+The model addresses a persistent dysfunction in academia: we claim to value both teaching and research, then structure rewards almost entirely around traditional discovery. This creates perverse incentives: researchers who'd rather teach feel pressured to publish, teachers who'd rather integrate knowledge across fields get evaluated on discovery alone, practitioners applying expertise to consequential problems find their work doesn't "count".
 
 Boyer located the problem in how narrowly scholarship had been defined, and left the value of research where it was. A broader definition makes room for several forms of contribution, all of them rigorous and all of them worth recognising.
 
@@ -61,18 +64,17 @@ In practice, that means reward systems that reflect this diversity, ways besides
 
 ## Recognition without reward
 
-*Scholarship Reconsidered* didn't address quality: naming four forms of scholarship says nothing about telling good work from mediocre work in any of them. Its follow-up, *Scholarship Assessed* (Glassick et al., 1997), answered that with six standards that apply to all four forms: clear goals, adequate preparation, appropriate methods, significant results, effective presentation, and reflective critique. The model also doesn't solve the structural problem: even if we accept that integration, application, and teaching are scholarship, tenure committees still primarily reward discovery.
+*Scholarship Reconsidered* didn't address quality: naming four forms of scholarship says nothing about telling good work from mediocre work in any of them. Its follow-up, *Scholarship Assessed* (Glassick et al., 1997), answered that with six standards that apply to all four forms: clear goals, adequate preparation, appropriate methods, significant results, effective presentation, and reflective critique. The model also doesn't solve the structural problem: even if we accept that integration, application, and teaching are scholarship, promotion panels still reward discovery above the other three.
 
-The question that Boyer raised but couldn't answer: how do we create reward structures that value multiple forms of scholarship? That challenge remains largely unaddressed thirty-five years later.
+The question that Boyer raised but couldn't answer: how do we create reward structures that value multiple forms of scholarship? That challenge remains largely unaddressed more than thirty-five years later.
 
 ---
 
 ## Sources
 
-- Boyer, E. L. (1990). Scholarship Reconsidered: Priorities of the Professoriate. The Carnegie Foundation for the Advancement of Teaching
+- Boyer, E. L. (1990). *Scholarship reconsidered: Priorities of the professoriate*. Carnegie Foundation for the Advancement of Teaching.
 - Glassick, C. E., Huber, M. T., & Maeroff, G. I. (1997). *Scholarship assessed: Evaluation of the professoriate*. Jossey-Bass.
-- Glassick, C. E. (2000). Boyer's Expanded Definitions of Scholarship, the Standards for Assessing Scholarship, and the Elusiveness of the Scholarship of Teaching. Academic Medicine, 75(9), 4
-- Wikipedia contributors. (2020, September 26). Scholarly method. In Wikipedia, The Free Encyclopedia. Retrieved 09:02, December 8, 2020, from https://en.wikipedia.org/w/index.php?title=Scholarly_method&oldid=980453952
+- Glassick, C. E. (2000). Boyer's expanded definitions of scholarship, the standards for assessing scholarship, and the elusiveness of the scholarship of teaching. *Academic Medicine*, *75*(9), 877–880. https://doi.org/10.1097/00001888-200009000-00007
 
 ---
 
