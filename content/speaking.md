@@ -211,7 +211,7 @@ How should we teach when students have access to AI? What does AI mean for asses
 
 ### AI for researchers
 
-Using AI as a thinking partner for literature review, analysis, writing, and research design — not as a shortcut, but as a cognitive collaborator that amplifies scholarly judgement. This includes practical guidance on integrating AI into systematic review workflows, qualitative analysis, grant writing, and manuscript development, alongside honest discussion of the risks: hallucination, bias, and the erosion of deep reading habits. Aimed at researchers at any career stage who want to work more effectively without compromising intellectual rigour.
+Using AI as a thinking partner for literature review, analysis, writing, and research design — not as a shortcut, but as a cognitive collaborator that amplifies scholarly judgement. This includes practical guidance on integrating AI into systematic review workflows, qualitative analysis, grant writing, and manuscript development, alongside honest discussion of the risks: [[Notes/hallucination|hallucination]], bias, and the erosion of deep reading habits. Aimed at researchers at any career stage who want to work more effectively without compromising intellectual rigour.
 
 ### AI in clinical practice
 

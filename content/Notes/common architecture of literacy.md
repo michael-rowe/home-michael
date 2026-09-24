@@ -1,83 +1,80 @@
 ---
 title: The common architecture of literacy
-description: A six-dimension framework that underlies all forms of literacy—information, media, digital, data, and AI literacy share the same structural pattern.
+description: The six dimensions of literacy that information, media, digital, data, and AI literacy frameworks share, from access and evaluation to contextual judgement, and why that means AI literacy builds on what educators already teach.
 aliases:
   - Literacy framework
   - Six dimensions of literacy
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-01-29
-updated: 2026-01-29
+updated: 2026-09-24
 tags:
   - ai-literacy
   - digital-literacy
+  - health-professions-education
 category:
+  - Education
   - Technology
 related:
   - "[[Notes/AI literacy]]"
+  - "[[Notes/developing AI literacy]]"
+  - "[[Frameworks/AI literacy development framework]]"
+  - "[[Essays/taste-and-judgement]]"
 builds_on:
 leads_to:
-  - "[[AI literacy]]"
+  - "[[Notes/AI literacy]]"
 contradicts:
 source: ""
 source_url: ""
+draft: false
+keyphrase: dimensions of literacy
+meta-description: "Six dimensions of literacy recur across information, media, digital, and AI literacy frameworks, and what that means for teaching AI literacy."
+reviewed:
+  - note_writer
+  - writing_style
+  - SEO_optimiser
+  - copy_editor
 linkedin:
 
 ---
 
-> [!info] The pattern beneath the practice
-> Every few years, a "new literacy" emerges—information literacy, media literacy, digital literacy, data literacy, AI literacy. Each claims to address novel challenges. But examine their frameworks closely and you'll find the same six dimensions appearing again and again. What changes isn't the structure of literacy itself but the specific context where it's applied.
+> [!info] Every new literacy is built on the same six dimensions
+> Information, media, digital, data, and AI literacy each arrived as a response to something new. Set their frameworks side by side and the same six dimensions of literacy appear in each of them, described in different words and weighted differently. What changes from one literacy to the next is the context the dimensions are applied in.
 
 ## Common architecture of literacy
 
-**One-sentence definition:** A structural pattern of six dimensions shared across different literacy domains—what changes between information, media, digital, data, and [[AI literacy]] is the content, not the underlying architecture of what it means to be literate.
+**One-sentence definition:** The common architecture of literacy is the set of six dimensions that information, media, digital, data, and [[Notes/AI literacy|AI literacy]] frameworks share.
 
-When information literacy emerged in the 1980s, it seemed tailored to library research. When media literacy developed in the 1990s, it appeared specific to understanding constructed messages. When digital literacy arose in the 2000s, it looked unique to technology. But map these frameworks and the pattern becomes clear: they're variations on the same six-dimensional structure.
+When information literacy was formalised in the late 1980s, it looked tailored to library research. Media literacy looked specific to constructed messages, and digital literacy to technology. The six dimensions below are my synthesis, from setting the main framework in each tradition beside the others: the Association of College & Research Libraries' *Framework for information literacy for higher education* (2016), Livingstone's (2004) definition of media literacy as the ability to access, analyse, evaluate, and create messages, the EU's DigComp framework for digital competence (Vuorikari et al., 2022), Ridsdale et al.'s (2015) synthesis of data literacy competencies, and Ng et al.'s (2021) review of the AI literacy literature. Others have seen the overlap before, including Koltay (2015), who traces how data literacy relates to information literacy and the literacies before it, and Mackey and Jacobson (2011) went furthest, recasting information literacy as a *metaliteracy* that unifies the rest. There are other ways to divide the ground, but these six keep turning up.
 
-This isn't coincidence. It reveals something fundamental about literacy itself—not as domain-specific skill but as a consistent set of capabilities that applies across different contexts.
+## The six dimensions of literacy
 
-## The six dimensions
+**Access and recognition:** knowing when something is present and relevant, and how to find or engage with it, whether that's a library database, a news story, a digital platform, or an AI system.
 
-These dimensions appear across every literacy framework, though emphasised differently by domain:
+**Critical evaluation:** assessing quality, reliability, limitations, and bias. Every tradition centres this, from questioning sources and reading how a media message was constructed to noticing algorithmic influence and catching an AI's [[Notes/hallucination|hallucinations]].
 
-**Access and recognition:** Identifying when something is present and relevant, knowing how to locate or engage with it. Information literacy emphasises library databases. Media literacy emphasises constructed messages. Digital literacy emphasises technology platforms. [[AI literacy]] emphasises AI systems. Same dimension, different context.
+**Functional application:** the practical ability to use something well for a purpose. It's often mistaken for the whole of literacy, when it's one dimension of six.
 
-**Critical evaluation:** Assessing quality, reliability, limitations, and bias. Every literacy tradition centres this—questioning sources (information), understanding construction techniques (media), recognising algorithmic influence (digital), spotting hallucinations (AI). The specific criteria change. The imperative to evaluate remains constant.
+**Creation and communication:** producing new work and sharing it, such as a research paper, a media message, a digital artefact, or a piece of writing developed with AI.
 
-**Functional application:** Practical ability to use effectively for specific purposes. This is operational competence—the "how to" dimension. Often conflated with literacy itself, but it's only one piece.
+**Ethical awareness and responsibility:** understanding the social, ethical, and civic consequences, including privacy, equity, and power. It has grown more prominent in recent frameworks, though it appears in early information literacy work too.
 
-**Creation and communication:** Generating new outputs and sharing effectively. Moving beyond consumption to production. Every literacy includes this—writing research papers (information), creating media messages (media), building digital artifacts (digital), collaborating with AI (AI).
+**Contextual judgement and metacognition:** knowing when and how to apply the other five, and being aware of your own practice as you do. It gets the least attention and may matter most, particularly for AI, where capabilities change quickly and context decides whether using them helps.
 
-**Ethical awareness and responsibility:** Understanding social, ethical, and civic implications. Recognising issues of privacy, equity, power, and impact. This dimension has grown more prominent in recent frameworks but appears even in early information literacy work.
+## What it means for teaching AI literacy
 
-**Contextual judgement and metacognition:** Developing taste, professional judgement, and self-awareness about practice. Knowing when and how to apply capabilities appropriately. This dimension often receives least attention but may matter most—particularly for [[AI literacy]], where capabilities evolve rapidly and context determines value.
+If the architecture holds, AI literacy isn't a new subject to be built from nothing, and health professions education has a head start. Evidence-based practice, taught in almost every medical, nursing, and allied health programme, is information literacy under another name: students learn to recognise when a clinical question needs evidence, find it, appraise it, apply it to a patient, and reflect on how that went. A programme that already teaches students to critically appraise a trial has taught the evaluation dimension, and asking them to appraise an AI-generated summary of the same trial with the same rigour extends that teaching to a new source.
 
-## Why this pattern matters
-
-Recognising the common architecture does three things:
-
-**First**, it reveals that developing "AI literacy" isn't starting from scratch. We already know how to teach literacy—the frameworks exist, tested across decades and domains. Apply the six dimensions to AI context and you have a coherent approach.
-
-**Second**, it suggests that literacy is genuinely transferable. Someone who developed information literacy has partial foundation for media literacy, digital literacy, AI literacy. The dimensions transfer; only the specific content changes.
-
-**Third**, it identifies where literacy development actually happens: not in acquiring knowledge (though that helps) but in integrating the six dimensions into contextually appropriate practice. You cannot be literate in dimension three (functional application) without dimension two (critical evaluation) or dimension six (contextual judgement). They work together.
-
-## The sixth dimension problem
-
-While all six dimensions matter, the sixth—contextual judgement and metacognition—deserves particular attention for [[AI literacy]]. As AI capabilities expand, the ability to know *when* and *whether* to use AI becomes more valuable than knowing *how* to use it.
-
-This connects to ideas about [[taste-and-judgement|taste and judgement]] in human-AI systems. Technical competence without judgement is reckless. Ethical awareness without the ability to apply it contextually is impotent. The sixth dimension integrates the others into coherent, adaptive practice.
-
-This dimension is also hardest to teach because it develops through sustained practice and reflection rather than instruction. Which is precisely why recognising it as essential matters—it shifts focus from delivering content to creating conditions for practice.
+The dimensions also work together. A student can't be literate in functional application without critical evaluation and contextual judgement alongside it, and judgement develops through sustained practice and reflection more than through instruction. [[Notes/AI literacy|AI literacy]] works through what that looks like for one student, and the [[Frameworks/AI literacy development framework|AI literacy development framework]] sets out how each dimension develops.
 
 ---
 
 ## Sources
 
-- Association of College & Research Libraries. (2016). *Framework for information literacy for higher education*. Association of College & Research Libraries. https://www.ala.org/sites/default/files/acrl/content/issues/infolit/framework1.pdf
-
----
-
-## Notes
-
-The six-dimension framework isn't the only way to conceptualise literacy, but it effectively captures what multiple independent literacy traditions have converged on. Different frameworks use different terminology and emphasise different dimensions, but the underlying structure recurs consistently.
+- Association of College & Research Libraries. (2016). *Framework for information literacy for higher education*. https://www.ala.org/sites/default/files/acrl/content/issues/infolit/framework1.pdf
+- Koltay, T. (2015). Data literacy: In search of a name and identity. *Journal of Documentation*, *71*(2), 401–415. https://doi.org/10.1108/JD-02-2014-0026
+- Livingstone, S. (2004). Media literacy and the challenge of new information and communication technologies. *The Communication Review*, *7*(1), 3–14. https://doi.org/10.1080/10714420490280152
+- Mackey, T. P., & Jacobson, T. E. (2011). Reframing information literacy as a metaliteracy. *College & Research Libraries*, *72*(1), 62–78. https://doi.org/10.5860/crl-76r1
+- Ng, D. T. K., Leung, J. K. L., Chu, S. K. W., & Qiao, M. S. (2021). Conceptualizing AI literacy: An exploratory review. *Computers and Education: Artificial Intelligence*, *2*, Article 100041. https://doi.org/10.1016/j.caeai.2021.100041
+- Ridsdale, C., Rothwell, J., Smit, M., Ali-Hassan, H., Bliemel, M., Irvine, D., Kelley, D., Matwin, S., & Wuetherick, B. (2015). *Strategies and best practices for data literacy education: Knowledge synthesis report*. Dalhousie University. https://dal.scholaris.ca/items/ab6d9110-4739-4a74-8b27-4e03b19601e9
+- Vuorikari, R., Kluzer, S., & Punie, Y. (2022). *DigComp 2.2: The digital competence framework for citizens*. Publications Office of the European Union. https://publications.jrc.ec.europa.eu/repository/handle/JRC128415

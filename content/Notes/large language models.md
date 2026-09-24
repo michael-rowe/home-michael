@@ -66,7 +66,7 @@ Three implications matter most:
 
 ## Limits that are not engineering problems
 
-LLMs hallucinate—generating plausible but false information with confidence. They have [[Notes/context window|context window]] constraints limiting how much information they can process at once. Their knowledge has temporal cutoffs beyond which they cannot reliably answer questions. They struggle with precise reasoning and mathematics despite appearing fluent in these domains.
+LLMs [[Notes/hallucination|hallucinate]]—generating plausible but false information with confidence. They have [[Notes/context window|context window]] constraints limiting how much information they can process at once. Their knowledge has temporal cutoffs beyond which they cannot reliably answer questions. They struggle with precise reasoning and mathematics despite appearing fluent in these domains.
 
 These aren't merely technical limitations to be overcome with better engineering. Some reflect fundamental characteristics of how LLMs work. They're trained to predict plausible continuations, not to verify factual accuracy. This means fluency and accuracy don't correlate as strongly as we might intuitively expect.
 

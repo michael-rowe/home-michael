@@ -46,7 +46,7 @@ Understanding what AI systems are and recognising when they are relevant. Studen
 
 ### 2. Critical evaluation
 
-The capacity to assess AI outputs for quality, accuracy, and reliability. Students learn that AI can hallucinate, recognise the difference between fluent and accurate responses, and maintain appropriate scepticism while remaining open to genuine assistance.
+The capacity to assess AI outputs for quality, accuracy, and reliability. Students learn that AI can [[Notes/hallucination|hallucinate]], recognise the difference between fluent and accurate responses, and maintain appropriate scepticism while remaining open to genuine assistance.
 
 **In practice:** Activities requiring verification of AI outputs against authoritative sources or disciplinary standards.
 

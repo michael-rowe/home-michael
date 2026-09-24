@@ -60,15 +60,13 @@ A programme lead checking this year's placement handbooks against the regulator'
 - **Direction quality**: output is bounded by how clearly the goal, constraints, and success criteria were specified at the outset; vague direction produces generic results
 - **Context window**: long or complex tasks risk the agent losing coherence across earlier decisions (see [[Notes/context window|context window]] and [[Notes/context drift|context drift]])
 - **Attentional bandwidth**: people can effectively supervise a limited number of agents simultaneously before oversight becomes fragile
-- **Hallucination risk**:[^hallucination] agents can make plausible but incorrect decisions, particularly when operating in underspecified territory
+- **[[Notes/hallucination|Hallucination]] risk**: agents can make plausible but incorrect decisions, particularly when operating in underspecified territory, and then go on to act on them
 
 In practice it's the third that binds. How far agent-first working can go depends mostly on how much the person directing it can hold in mind at once, which [[Notes/agentic workflows|agentic workflows]] takes up in more detail.
 
 ### How much the specification decides
 
 A well-directed agent can apply a formatting standard across forty documents, cross-reference a set of notes against a bibliography for consistency, or restructure a piece of writing to match an explicit brief: well-defined tasks that would otherwise take a person several hours. What the agent is given to work from matters as much. Yang et al. (2026) built an agent for evidence-based nursing education on the content of a standard course textbook, working through a loop of retrieval, reflection, and decision, and it scored significantly higher than three general-purpose models on 124 standardised exam questions; the authors credit its alignment with the curriculum.
-
-[^hallucination]: **Hallucination**: a language model producing something that reads as fluent and confident but is false, such as a reference that doesn't exist or a policy it has misremembered. An agent that hallucinates can go on to act on the mistake, which is why its output needs checking. [Wikipedia](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence))
 
 ---
 

@@ -25,7 +25,7 @@ linkedin:
 ![[claude_spelling_error.png|Screenshot of AI-generated text with the word 'contribuves' highlighted — an example of why AI makes spelling mistakes through mechanical token errors rather than knowledge failures]]
 *Claude produced the word 'contribuves' in a piece of writing. Not a real word. Clearly a mangled version of 'contributes'.*
 
-This is the first time I've noticed Claude make a spelling mistake, which prompted me to ask if this is the same kind of failure as hallucination?
+This is the first time I've noticed Claude make a spelling mistake, which prompted me to ask if this is the same kind of failure as [[Notes/hallucination|hallucination]]?
 
 It isn't.
 
