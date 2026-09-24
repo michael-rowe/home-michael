@@ -31,13 +31,6 @@ An invited session for school-based occupational therapists on AI in clinical pr
 
 ---
 
-### Context sovereignty: Building human-AI coalitions in physiotherapy
-**24 September 2026** · Association of Trauma and Orthopaedic Chartered Physiotherapists conference — London
-
-An invited presentation for the ATOCP session at the BOA Annual Congress 2026 at Olympia, London. As AI systems become more capable at diagnosis, empathy, and clinical reasoning, practitioners who control their context more effectively will also control the meaning of their AI interactions. The therapeutic relationship will transform into negotiation between patient-AI and clinician-AI coalitions, requiring ongoing work to bring context to practice.
-
----
-
 ### Global Summit on AI in Physiotherapy
 **10–11 October 2026** · World Physiotherapy and the Taiwan Physical Therapy Association — Taipei
 
@@ -58,6 +51,15 @@ A four-hour practical masterclass for private practice clinicians across physiot
 An invited talk for Sidra Medicine on the role of AI in nursing and allied health practice: where AI genuinely supports clinical work, where it falls short, and how practitioners can engage with it as a professional tool rather than treating it as either saviour or threat.
 
 ## Past presentations
+
+### Making sense of AI in clinical practice
+**24 September 2026** · ATOCP session, BOA Annual Congress 2026 — London
+
+An invited talk in the ATOCP session at the BOA Annual Congress 2026. It looks at what AI can already do in clinical work, why the usual responses to it leave clinicians as spectators, and what physiotherapists bring that AI systems don't have, which is context. The second half turns to patients, who are already using AI before they arrive, and asks what changes in the consultation when both sides bring their own context and their own agents. It closes with three things to do the next working day.
+
+[[Presentations/2026-09-24-atocp-making-sense-of-ai|Slides and overview →]]
+
+---
 
 ### AI-powered practice growth
 **9 September 2026** · International Private Physiotherapy Association Business Meeting — Hamburg
