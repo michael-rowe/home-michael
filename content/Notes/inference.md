@@ -12,8 +12,8 @@ tags:
   - ai-integration
 category: Technology
 related:
-  - "[[Notes/large-language-models]]"
-  - "[[Notes/token-budget]]"
+  - "[[Notes/large language models]]"
+  - "[[Notes/token budget]]"
 keyphrase: what is AI inference
 meta-description: AI inference is the computational work behind every prompt response — understanding it explains why different models suit different tasks.
 reviewed:

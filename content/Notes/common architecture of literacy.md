@@ -14,7 +14,7 @@ tags:
 category:
   - Technology
 related:
-  - "[[Notes/AI-literacy]]"
+  - "[[Notes/AI literacy]]"
 builds_on:
 leads_to:
   - "[[AI literacy]]"

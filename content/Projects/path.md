@@ -17,7 +17,7 @@ category:
   - Professional development
   - Education
 related:
-  - "[[Notes/context-sovereignty]]"
+  - "[[Notes/context sovereignty]]"
 draft: false
 linkedin:
 ---

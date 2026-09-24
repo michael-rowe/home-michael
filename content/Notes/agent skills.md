@@ -18,11 +18,11 @@ tags:
   - standards
 category: Technology
 related:
-  - "[[Notes/progressive-disclosure]]"
+  - "[[Notes/progressive disclosure]]"
   - "[[Notes/harness-engineering]]"
-  - "[[Notes/context-engineering]]"
-  - "[[Notes/Claude-Code]]"
-  - "[[Notes/model-context-protocol]]"
+  - "[[Notes/context engineering]]"
+  - "[[Notes/Claude Code]]"
+  - "[[Notes/model context protocol]]"
   - "[[Notes/ai-agents]]"
 keyphrase: AI agent skills
 linkedin:
@@ -51,7 +51,7 @@ mid-placement-report/
 
 Two fields are required: a `name` and a `description`. The description is not a summary of what the skill contains; it is a statement of *when it applies*. A skill on my own machine for Linux configuration opens with "REQUIRED for end-user customization of Linux desktop, window manager, or system config… Triggers: Hyprland, window rules, animations, keybindings…" — a list of conditions, written for matching rather than reading.
 
-This is where most skills fail. The agent holds only the description in mind and compares it against what has been asked; the instructions stay unread until that comparison succeeds. A skill with excellent contents and a vague description is a book with no catalogue entry — it exists and is never found. See [[Notes/progressive-disclosure|progressive disclosure]] for the mechanism this rests on.
+This is where most skills fail. The agent holds only the description in mind and compares it against what has been asked; the instructions stay unread until that comparison succeeds. A skill with excellent contents and a vague description is a book with no catalogue entry — it exists and is never found. See [[Notes/progressive disclosure|progressive disclosure]] for the mechanism this rests on.
 
 ## Who invokes it
 
@@ -90,7 +90,7 @@ The consequence for anyone deciding whether to invest effort here: what you writ
 
 ## Knowledge is not access
 
-A skill is knowledge, not capability. It tells an agent *how* to do something; whether the agent can reach the placement records, the calendar or the marking platform is a separate matter, usually handled by [[Notes/model-context-protocol|MCP]]. A well-written skill that requires access the agent does not have is a well-written instruction to do nothing.
+A skill is knowledge, not capability. It tells an agent *how* to do something; whether the agent can reach the placement records, the calendar or the marking platform is a separate matter, usually handled by [[Notes/model context protocol|MCP]]. A well-written skill that requires access the agent does not have is a well-written instruction to do nothing.
 
 Skills also inherit the honesty problem of all written procedure: a skill describes how the work is supposed to be done, which is not always how it is done. That gap is worth finding, but the skill will not find it for you.
 

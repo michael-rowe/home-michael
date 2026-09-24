@@ -13,8 +13,8 @@ tags:
   - collaboration
 category: Scholarship
 related:
-  - "[[Notes/open-access-licensing]]"
-  - "[[Notes/context-sovereignty]]"
+  - "[[Notes/open access licensing]]"
+  - "[[Notes/context sovereignty]]"
 keyphrase: "collaborative development in education"
 linkedin:
 

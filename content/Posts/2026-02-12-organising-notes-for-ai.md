@@ -15,10 +15,10 @@ tags:
 category:
   - Technology
 related:
-  - "[[Notes/context-sovereignty]]"
-  - "[[Notes/knowledge-graph]]"
+  - "[[Notes/context sovereignty]]"
+  - "[[Notes/knowledge graph]]"
   - "[[Essays/documentation-as-infrastructure]]"
-  - "[[Notes/contextual-interoperability]]"
+  - "[[Notes/contextual interoperability]]"
 draft: false
 enableToc: true
 reviewed:

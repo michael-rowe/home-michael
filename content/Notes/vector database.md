@@ -16,10 +16,10 @@ tags:
 category: Technology
 related:
   - '[[Notes/embeddings]]'
-  - '[[Notes/retrieval-augmented-generation]]'
-  - '[[Notes/graph-database]]'
-  - '[[Notes/knowledge-graph]]'
-  - '[[Notes/prompt-engineering]]'
+  - '[[Notes/retrieval augmented generation]]'
+  - '[[Notes/graph database]]'
+  - '[[Notes/knowledge graph]]'
+  - '[[Notes/prompt engineering]]'
 builds_on:
   - '[[embeddings]]'
 leads_to:

@@ -13,8 +13,8 @@ tags:
   - language-model
   - ai-integration
 related:
-  - "[[Notes/agentic-workflows]]"
-  - "[[Notes/context-engineering]]"
+  - "[[Notes/agentic workflows]]"
+  - "[[Notes/context engineering]]"
 linkedin:
 
 ---

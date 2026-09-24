@@ -14,10 +14,10 @@ tags:
   - information-retrieval
 category: Technology
 related:
-  - "[[Notes/vector-database]]"
-  - "[[Notes/retrieval-augmented-generation]]"
-  - "[[Notes/knowledge-graph]]"
-  - "[[Notes/single-hop-reasoning]]"
+  - "[[Notes/vector database]]"
+  - "[[Notes/retrieval augmented generation]]"
+  - "[[Notes/knowledge graph]]"
+  - "[[Notes/single-hop reasoning]]"
 builds_on:
 leads_to:
   - "[[vector database]]"

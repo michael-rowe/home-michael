@@ -30,11 +30,11 @@ tags:
   - model-context-protocol
   - vector-database
 related:
-  - "[[Notes/model-context-protocol]]"
-  - "[[Notes/higher-education-reference-model]]"
+  - "[[Notes/model context protocol]]"
+  - "[[Notes/higher education reference model]]"
   - "[[Notes/AI-forward]]"
   - "[[Essays/documentation-as-infrastructure]]"
-  - "[[Notes/context-sovereignty]]"
+  - "[[Notes/context sovereignty]]"
   - "[[Presentations/2026-02-10-beyond-document-management]]"
 category:
   - Education

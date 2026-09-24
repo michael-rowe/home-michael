@@ -16,8 +16,8 @@ tags:
 category:
   - Technology
 related:
-  - "[[Notes/AI-literacy]]"
-  - "[[Notes/large-language-models]]"
+  - "[[Notes/AI literacy]]"
+  - "[[Notes/large language models]]"
 draft: false
 enableToc: true
 linkedin: 2026-03-31

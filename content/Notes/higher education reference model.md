@@ -20,7 +20,7 @@ category:
 related:
   - "[[Essays/documentation-as-infrastructure]]"
   - "[[Essays/curriculum-infrastructure]]"
-  - "[[Notes/documentation-debt]]"
+  - "[[Notes/documentation debt]]"
 keyphrase: "higher education reference model"
 linkedin:
 

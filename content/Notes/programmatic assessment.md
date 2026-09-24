@@ -17,7 +17,7 @@ category: Assessment
 related:
   - "[[Essays/learning-alignment]]"
   - "[[Notes/AI-forward]]"
-  - "[[Notes/AI-literacy]]"
+  - "[[Notes/AI literacy]]"
 keyphrase: "programmatic assessment in health professions education"
 linkedin:
 

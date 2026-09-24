@@ -14,9 +14,9 @@ tags:
   - open-scholarship
 category: Scholarship
 related:
-  - "[[Notes/open-source-software]]"
+  - "[[Notes/open source software]]"
   - "[[Essays/publishing-with-purpose]]"
-  - "[[Notes/AI-literacy]]"
+  - "[[Notes/AI literacy]]"
 keyphrase: "sharing educational resources legally"
 linkedin:
 

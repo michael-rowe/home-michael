@@ -32,7 +32,7 @@ category:
 related:
   - '[[Essays/learning-alignment]]'
   - '[[Posts/2026-01-28-bitter-lesson-higher-education]]'
-  - '[[Notes/AI-literacy]]'
+  - '[[Notes/AI literacy]]'
 draft: false
 enableToc: true
 reviewed:

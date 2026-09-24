@@ -19,15 +19,15 @@ category:
   - Technology
   - Information management
 related:
-  - "[[Notes/prompt-engineering]]"
-  - "[[Notes/knowledge-graph]]"
+  - "[[Notes/prompt engineering]]"
+  - "[[Notes/knowledge graph]]"
   - "[[Notes/graphRAG]]"
-  - "[[Notes/multi-hop-reasoning]]"
-  - "[[Notes/retrieval-augmented-generation]]"
-  - "[[Notes/model-context-protocol]]"
-  - "[[Notes/system-prompt]]"
-  - "[[Notes/agentic-workflows]]"
-  - "[[Notes/context-sovereignty]]"
+  - "[[Notes/multi-hop reasoning]]"
+  - "[[Notes/retrieval augmented generation]]"
+  - "[[Notes/model context protocol]]"
+  - "[[Notes/system prompt]]"
+  - "[[Notes/agentic workflows]]"
+  - "[[Notes/context sovereignty]]"
 builds_on:
   - "[[prompt engineering]]"
 leads_to:
@@ -43,11 +43,11 @@ linkedin:
 ---
 
 > [!info] What a model knows matters more than how you ask
-> Capable models underperform when what they're given is incomplete or badly structured. [[Notes/prompt-engineering|Prompt engineering]] improves what you say to a model; context engineering improves what the model knows about your work, and the second matters more.
+> Capable models underperform when what they're given is incomplete or badly structured. [[Notes/prompt engineering|Prompt engineering]] improves what you say to a model; context engineering improves what the model knows about your work, and the second matters more.
 
 ## Context engineering
 
-**One-sentence definition:** The process of building dynamic systems that provide [[Notes/large-language-models|large language models]] with the information, structure, and connections they need to reason effectively about your work.
+**One-sentence definition:** The process of building dynamic systems that provide [[Notes/large language models|large language models]] with the information, structure, and connections they need to reason effectively about your work.
 
 When scholars find AI tools shallow or generic, the problem is usually the context rather than the model. A general-purpose assistant has no access to your theoretical frameworks, your methodological commitments, or the relationships between concepts you've worked out over years, so it can't engage with your work in any depth.
 
@@ -55,7 +55,7 @@ Context engineering addresses that by giving the model the frameworks, connectio
 
 ## Context engineering vs prompt engineering
 
-[[Notes/prompt-engineering|Prompt engineering]] emerged as the craft of writing effective queries: choosing words, providing examples, structuring requests. It's useful, and it's limited to optimising one interaction at a time. Context engineering moves from that kind of local optimisation to designing the system every interaction runs inside.
+[[Notes/prompt engineering|Prompt engineering]] emerged as the craft of writing effective queries: choosing words, providing examples, structuring requests. It's useful, and it's limited to optimising one interaction at a time. Context engineering moves from that kind of local optimisation to designing the system every interaction runs inside.
 
 The distinction matters because academic work isn't a series of isolated tasks to be tuned one prompt at a time. It's an interconnected body of knowledge where understanding depends on grasping how ideas relate. Prompt engineering treats each query as independent; context engineering treats the whole corpus as a structured system.
 
@@ -66,15 +66,15 @@ The difference shows up in the answers. Ask "what are the key debates about soci
 Context engineering covers the full range of techniques for shaping what a system knows and how it reasons. Promptingguide.ai (2025) catalogues the components:
 
 - **Prompt and instruction design**: tuning system prompts, structuring inputs and outputs (delimiters,[^delimiters] JSON schema[^json-schema]), managing dynamic elements such as user inputs and date/time
-- **Retrieval and knowledge preparation**: searching and preparing relevant knowledge ([[Notes/retrieval-augmented-generation|RAG]]), query augmentation,[^query-augmentation] short-term memory (managing conversational state), long-term memory via [[Notes/vector-database|vector]] or [[Notes/graph-database|graph]] stores
+- **Retrieval and knowledge preparation**: searching and preparing relevant knowledge ([[Notes/retrieval augmented generation|RAG]]), query augmentation,[^query-augmentation] short-term memory (managing conversational state), long-term memory via [[Notes/vector database|vector]] or [[Notes/graph database|graph]] stores
 - **Demonstrations**: preparing and optimising few-shot examples[^few-shot] that show the model how to perform a task
-- **Agentic scaffolding**: tool definitions and instructions, prompt chains, and orchestration logic for [[Notes/agentic-workflows|multi-step systems]]
+- **Agentic scaffolding**: tool definitions and instructions, prompt chains, and orchestration logic for [[Notes/agentic workflows|multi-step systems]]
 
 Prompt engineering sits inside the first of these components. What each of these components means for decisions about AI-supported learning is the subject of [[Posts/2026-02-14-context-engineering-for-educators|Context engineering for educators]].
 
 ## Vector databases and knowledge graphs
 
-Most retrieval in context engineering runs on [[Notes/vector-database|vector databases]], while much of what a well-engineered context can do beyond that depends on knowledge graphs. A vector database stores text as [[Notes/embeddings|embeddings]] and finds passages that resemble the query, which works until the answer has to be assembled from several sources. A knowledge graph stores entities and the typed relationships between them, so a system can follow a chain of inference from one to the next, which is what [[Notes/multi-hop-reasoning|multi-hop reasoning]] needs. The [[Notes/knowledge-graph|knowledge graph]] note sets out the difference in full.
+Most retrieval in context engineering runs on [[Notes/vector database|vector databases]], while much of what a well-engineered context can do beyond that depends on knowledge graphs. A vector database stores text as [[Notes/embeddings|embeddings]] and finds passages that resemble the query, which works until the answer has to be assembled from several sources. A knowledge graph stores entities and the typed relationships between them, so a system can follow a chain of inference from one to the next, which is what [[Notes/multi-hop reasoning|multi-hop reasoning]] needs. The [[Notes/knowledge graph|knowledge graph]] note sets out the difference in full.
 
 This is also why [[Notes/graphRAG|GraphRAG]] matters: it automates knowledge graph construction from documents you already hold, extracting entities and relationships at scale. You can work from curated knowledge, meaning the links you've already built in your notes, or automate extraction from unstructured sources such as a PDF library. Automated extraction refined by scholarly judgement works better than either on its own.
 
@@ -82,7 +82,7 @@ A programme team would see the same difference. Ask a general assistant where cl
 
 ## What AI can join in with
 
-Context engineering changes what AI can take part in. Synthesising across sources is the obvious case, and [[Notes/multi-hop-reasoning|multi-hop reasoning]] sets out how that works; three further shifts matter as much.
+Context engineering changes what AI can take part in. Synthesising across sources is the obvious case, and [[Notes/multi-hop reasoning|multi-hop reasoning]] sets out how that works; three further shifts matter as much.
 
 **Research development** that reflects your theoretical commitments. A system that knows your position on key debates, your methodological preferences, and the arguments you're currently making can give feedback that engages with those arguments directly.
 

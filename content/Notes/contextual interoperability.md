@@ -15,10 +15,10 @@ tags:
   - information-management
 category: Information management
 related:
-  - "[[Notes/context-sovereignty]]"
-  - "[[Notes/knowledge-graph]]"
-  - "[[Notes/context-engineering]]"
-  - "[[Notes/intelligence-as-a-service]]"
+  - "[[Notes/context sovereignty]]"
+  - "[[Notes/knowledge graph]]"
+  - "[[Notes/context engineering]]"
+  - "[[Notes/intelligence as a service]]"
 keyphrase: making thinking machine-readable
 linkedin:
 

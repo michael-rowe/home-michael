@@ -14,7 +14,7 @@ tags:
 category: Technology
 related:
   - "[[Notes/ai-agents]]"
-  - "[[Notes/agentic-workflows]]"
+  - "[[Notes/agentic workflows]]"
   - "[[Notes/vibe-coding]]"
   - "[[Posts/2026-02-26-ai-agents-academic-workflow]]"
   - "[[Posts/2026-03-03-ai-agent-governance-higher-education]]"

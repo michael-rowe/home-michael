@@ -15,10 +15,10 @@ tags:
   - information-retrieval
 category: Technology
 related:
-  - '[[Notes/multi-hop-reasoning]]'
-  - '[[Notes/retrieval-augmented-generation]]'
-  - '[[Notes/vector-database]]'
-  - '[[Notes/prompt-engineering]]'
+  - '[[Notes/multi-hop reasoning]]'
+  - '[[Notes/retrieval augmented generation]]'
+  - '[[Notes/vector database]]'
+  - '[[Notes/prompt engineering]]'
   - '[[Notes/embeddings]]'
 builds_on:
   - '[[embeddings]]'

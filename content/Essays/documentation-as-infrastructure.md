@@ -23,8 +23,8 @@ tags:
   - organisational-infrastructure
   - operational-architecture
 related:
-  - "[[Notes/higher-education-reference-model]]"
-  - "[[Notes/documentation-debt]]"
+  - "[[Notes/higher education reference model]]"
+  - "[[Notes/documentation debt]]"
   - "[[Essays/curriculum-infrastructure]]"
 category:
   - Technology

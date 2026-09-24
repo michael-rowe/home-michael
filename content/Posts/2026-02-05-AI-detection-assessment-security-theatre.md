@@ -19,7 +19,7 @@ category:
   - Assessment
   - Technology
 related:
-  - "[[Notes/arms-race-dynamics-higher-education]]"
+  - "[[Notes/arms race dynamics higher education]]"
   - "[[Posts/2026-01-28-bitter-lesson-higher-education]]"
 draft: false
 enableToc: true

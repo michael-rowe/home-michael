@@ -16,7 +16,7 @@ tags:
 category: Scholarship
 related:
   - "[[Notes/harness-engineering]]"
-  - "[[Notes/context-drift]]"
+  - "[[Notes/context drift]]"
   - "[[Notes/ai-agents]]"
   - "[[Posts/2026-06-01-research-harness-doctoral-ai]]"
   - "[[Guides/research-harness-guide]]"

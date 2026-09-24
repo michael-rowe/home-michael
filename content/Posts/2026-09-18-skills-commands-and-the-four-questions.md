@@ -16,8 +16,8 @@ tags:
 category:
   - Technology
 related:
-  - "[[Notes/agent-skills]]"
-  - "[[Notes/progressive-disclosure]]"
+  - "[[Notes/agent skills]]"
+  - "[[Notes/progressive disclosure]]"
   - "[[Notes/harness-engineering]]"
   - "[[Posts/2026-02-14-context-engineering-for-educators]]"
   - "[[Posts/2026-03-01-working-effectively-with-ai-agents]]"
@@ -49,11 +49,11 @@ Once the difference is stated that plainly, it stops being about Claude. Every A
 
 **What does it always know?** The instructions loaded on every single exchange — identity, conventions, constraints. `CLAUDE.md` in my setup; `AGENTS.md` in OpenAI's Codex; custom instructions in the ChatGPT and Gemini apps. This layer is expensive: you pay for it on every turn, so it should hold only what's true of all the work. Most people's first instinct is to put everything here, and it's the most common way these systems go wrong.
 
-**What can it look up, and who decides?** Procedures held in an index and fetched when relevant. This is what a [[Notes/agent-skills|skill]] is, and the mechanism is worth understanding: at startup the agent loads only each skill's name and one-line description, then reads the full instructions only when a task matches. The library can be enormous because the catalogue is tiny — [[Notes/progressive-disclosure|progressive disclosure]], and the reason a large library stays affordable. Which means the description does the work — a brilliant procedure with a vague description is a book with no catalogue entry.
+**What can it look up, and who decides?** Procedures held in an index and fetched when relevant. This is what a [[Notes/agent skills|skill]] is, and the mechanism is worth understanding: at startup the agent loads only each skill's name and one-line description, then reads the full instructions only when a task matches. The library can be enormous because the catalogue is tiny — [[Notes/progressive disclosure|progressive disclosure]], and the reason a large library stays affordable. Which means the description does the work — a brilliant procedure with a vague description is a book with no catalogue entry.
 
 **What can I fire deliberately?** The procedures where I am the one who knows when they're needed. `/recall` builds my weekly review. `/oracle` lays out next week. I don't want these to be a judgement call.
 
-**What can it reach?** A separate axis, and the one people think about least. The first three are all *knowledge* — what the agent knows to do. Reach is *capability*: my reference library, my calendar, my files, the web — usually wired up through [[Notes/model-context-protocol|MCP]]. An instruction to do something the agent can't touch is a well-written instruction to do nothing.
+**What can it reach?** A separate axis, and the one people think about least. The first three are all *knowledge* — what the agent knows to do. Reach is *capability*: my reference library, my calendar, my files, the web — usually wired up through [[Notes/model context protocol|MCP]]. An instruction to do something the agent can't touch is a well-written instruction to do nothing.
 
 ## What I found when I asked the questions of my own system
 

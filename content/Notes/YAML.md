@@ -17,7 +17,7 @@ category:
   - Technology
 related:
   - "[[Notes/git]]"
-  - "[[Notes/plain-text]]"
+  - "[[Notes/plain text]]"
 keyphrase: "what is YAML frontmatter"
 linkedin:
 ---
