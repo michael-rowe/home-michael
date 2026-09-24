@@ -33,7 +33,7 @@ Fluency says nothing about whether a claim is right or wrong, regardless of who 
 
 The practical implication is that fluency needs to be filtered out entirely, treated as irrelevant to the question of quality. Confident delivery is irrelevant to whether a speaker's facts are correct; fluency is irrelevant to whether a claim is sound. The test isn't "does this read well?" but "is this true?"
 
-The response that's emerged in AI literacy frameworks is to teach the ability to evaluate AI outputs: spotting hallucinations, checking citations, identifying logical gaps. This is an argument I've made myself, and it was reasonable at the time.
+The response that's emerged in AI literacy frameworks is to teach the ability to evaluate AI outputs: spotting [[Notes/hallucination|hallucinations]], checking citations, identifying logical gaps. This is an argument I've made myself, and it was reasonable at the time.
 
 But it assumes the quality gap between AI and expert output is stable. It is not. The models available now are materially better than those available two years ago, and the trajectory is consistent. What happens when AI output is PhD-level across every artefact we might care to measure: citations accurate, reasoning sound, evidence appropriately qualified?
 

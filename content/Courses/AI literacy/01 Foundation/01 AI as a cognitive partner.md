@@ -203,7 +203,7 @@ One of the most valuable aspects of human-AI collaboration is that you and AI ma
 
 **Now recognise what AI gets wrong:**
 
-AI makes different errors than humans—it generates plausible but incorrect information (hallucinations), misses disciplinary nuance and conventions, produces generic outputs lacking scholarly sophistication, and fails to recognise when simplification distorts meaning.
+AI makes different errors than humans—it generates plausible but incorrect information ([[Notes/hallucination|hallucinations]]), misses disciplinary nuance and conventions, produces generic outputs lacking scholarly sophistication, and fails to recognise when simplification distorts meaning.
 
 **The collaboration principle:** Productive engagement means you catch what AI misses whilst AI catches what you overlook. Neither participant is infallible, but together you reduce the error rate of working alone.
 

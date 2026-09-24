@@ -76,7 +76,7 @@ And more creative work requires us to increase randomness. Brainstorming session
 
 ## Hallucination is a feature of memory
 
-LLMs "hallucinate" by generating plausible-sounding information that isn't actually true, filling gaps in their knowledge with convincing fabrications.
+LLMs "[[Notes/hallucination|hallucinate]]" by generating plausible-sounding information that isn't actually true, filling gaps in their knowledge with convincing fabrications.
 
 And human memory works in exactly the same way. We are all notoriously unreliable witnesses, confidently recalling events that never happened, filling gaps with plausible details, all the while completely unaware we're [confabulating](https://en.wikipedia.org/wiki/Confabulation). Who said what, when things happened, what was present in a scene; we misremember these details all the time. And the confidence with which we recall these fabricated details is indistinguishable from genuine memory.
 
