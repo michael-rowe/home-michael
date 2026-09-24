@@ -18,12 +18,12 @@ A hand-ticked table stood here until 2026-09-18. It had already drifted — it m
 
 | Content type | Pipeline | Template |
 |---|---|---|
-| Essays | `writing_style` → `essay_writer` → `copy_editor` → `SEO_optimiser` → `zotero_citations`* | `content/templates/essay_template.md` |
-| Posts | `writing_style` → `blog_writer` → `copy_editor` → `SEO_optimiser` → `zotero_citations`* | `content/templates/post_template.md` |
-| Notes | `writing_style` → `note_writer` → `copy_editor` → `SEO_optimiser` | `content/templates/note_template.md` |
-| Lessons | `writing_style` → `course_designer` → `web_designer` → `copy_editor` → `SEO_optimiser` | `content/templates/lesson_template.md` |
-| Newsletters | `writing_style` → `newsletter_editor` → `copy_editor` → `SEO_optimiser` | `content/templates/newsletter_template.md` |
-| Other (frameworks, policies, nav) | `copy_editor` → `SEO_optimiser` | — |
+| Essays | `essay_writer` → `writing_style` → `SEO_optimiser` → `copy_editor` → `zotero_citations`* | `content/templates/essay_template.md` |
+| Posts | `blog_writer` → `writing_style` → `SEO_optimiser` → `copy_editor` → `zotero_citations`* | `content/templates/post_template.md` |
+| Notes | `note_writer` → `writing_style` → `SEO_optimiser` → `copy_editor` | `content/templates/note_template.md` |
+| Lessons | `course_designer` → `writing_style` → `web_designer` → `SEO_optimiser` → `copy_editor` | `content/templates/lesson_template.md` |
+| Newsletters | `newsletter_editor` → `writing_style` → `SEO_optimiser` → `copy_editor` | `content/templates/newsletter_template.md` |
+| Other (frameworks, policies, nav) | `SEO_optimiser` → `copy_editor` | — |
 
 \* `zotero_citations`: A final pass to integrate citation data from Zotero. Persona TBD — pending Zotero database cleanup. Apply only to essays and posts that reference academic sources. Marked `*` here because the persona does not exist yet; the script reads that marker and does not count it as outstanding work.
 
@@ -31,7 +31,9 @@ A hand-ticked table stood here until 2026-09-18. It had already drifted — it m
 
 **Podcasts, presentations, projects and bibliography entries have no pipeline**, so the script reports them separately and does not count them. Which personas they need — and whether `writing_style` even applies to a few sentences of framing around someone else's work — is open in WP-9.
 
-The **structural refiner** step (the second in each pipeline) is responsible for template compliance: verifying that the required callouts, frontmatter fields, and section structure from the template are present and correctly populated, in addition to argument and narrative structure.
+**Why this order** (2026-09-24): structure first, because there is no point polishing sentences the structural pass cuts or moves, and whatever it adds then gets the style pass; `SEO_optimiser` before `copy_editor`, so the final check sees the SEO edits to title, descriptions and opening lines. `SEO_optimiser` opens with the keyphrase confirmation gate and keeps body changes minimal — the pass after it checks correctness, not voice, so nothing downstream would catch a keyphrase forced into the prose.
+
+The **structural refiner** step (the first in each pipeline) is responsible for template compliance: verifying that the required callouts, frontmatter fields, and section structure from the template are present and correctly populated, in addition to argument and narrative structure.
 
 ## Periodic reviews (not per-piece)
 
@@ -49,6 +51,10 @@ When picking up the queue:
 1. Run `node scripts/review-status.mjs` to see what is pending. It lists fewest-steps-outstanding first, so a piece one step from done comes before one that has had nothing — finishing beats starting.
 2. Apply the next pending persona for that file, in pipeline order.
    - **Always use the template for the content type** (see the pipeline table above) to verify required frontmatter fields, callouts, and section structure are present. If the file has no frontmatter, create it from the template.
+   - **The `copy_editor` pass does three things beyond the persona, as edits rather than flags** (decided 2026-09-24, on `Notes/context engineering.md`):
+     - **Complete the sources.** Every reference gets a URL and, where there is one, a site or publisher name, in APA. Look in the corpus first (Zotero, Readwise), then the web; confirm each URL resolves and matches the author and title before adding it. Never guess one.
+     - **Remove cross-section repetition.** Where a later section restates something an earlier one already said, cut or compress the restatement instead of noting it.
+     - **Gloss jargon in footnotes.** Apply *Teach the reader* in `CLAUDE.md`: a term the reader can't be assumed to know gets a footnote at first use — bold term, one or two plain sentences, a health professions education example where one helps, a Wikipedia link.
 3. Tell the user what changed and wait for approval.
 4. After approval, add the persona name to `reviewed:` in that file's frontmatter. That is the only place to record it.
 5. Move on only when the current file is complete or the user explicitly skips a step.
