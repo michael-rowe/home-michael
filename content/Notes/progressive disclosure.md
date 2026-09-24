@@ -24,6 +24,7 @@ related:
   - "[[Notes/harness-engineering]]"
   - "[[Notes/token budget]]"
   - "[[Notes/context drift]]"
+  - "[[Notes/context window]]"
 keyphrase: progressive disclosure AI context
 linkedin:
 ---
@@ -35,7 +36,7 @@ linkedin:
 
 **One-sentence definition:** A design principle in which information is revealed in stages as it becomes relevant, rather than presented in full at the outset — applied to AI agents, the practice of keeping only an index of available procedures in context and loading each one's detail on demand.
 
-The term comes from interface design, where it describes hiding advanced options until someone needs them. Applied to AI systems it solves a harder constraint: everything an agent knows in a session competes for the same finite space,[^context] and anything you load permanently is paid for on every single exchange whether that exchange needed it or not. That sets a ceiling on how much a system can know how to do.
+The term comes from interface design, where it describes hiding advanced options until someone needs them. Applied to AI systems it solves a harder constraint: everything an agent knows in a session competes for the same finite space, the [[Notes/context window|context window]], and anything you load permanently is paid for on every single exchange whether that exchange needed it or not. That sets a ceiling on how much a system can know how to do.
 
 ## The three stages
 
@@ -73,4 +74,3 @@ Where that matters, the answer is to remove the judgement rather than improve it
 - [Skills — Claude Code documentation](https://code.claude.com/docs/en/skills)
 - Nielsen, J. (2006). Progressive disclosure. Nielsen Norman Group.
 
-[^context]: **Context window** — the amount of text a language model can consider at one time, covering the instructions it has been given, the conversation so far and any documents it has opened. It is finite, and everything in it competes for the same space. See [[Notes/token budget|token budget]]. [Wikipedia](https://en.wikipedia.org/wiki/Large_language_model#Context_window)

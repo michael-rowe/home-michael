@@ -27,7 +27,7 @@ linkedin:
 
 ## Human cognition and LLM parallels
 
-**One-sentence definition:** A diagnostic framework mapping [[large language models|LLM]] technical concepts (e.g. context windows, tokenisation, temperature, training data, and hallucination) onto corresponding features of human cognitive architecture to reveal structural similarities in how both systems process information and exhibit limitations.
+**One-sentence definition:** A diagnostic framework mapping [[large language models|LLM]] technical concepts (e.g. [[Notes/context window|context windows]], tokenisation, temperature, training data, and hallucination) onto corresponding features of human cognitive architecture to reveal structural similarities in how both systems process information and exhibit limitations.
 
 This note isn't trying to argue that humans are literally language models or that AI is truly intelligent. It's using the unfamiliar technical terminology of LLMs to think differently about familiar human cognitive phenomena. The parallels aren't just metaphorical; they describe architectural constraints and processing patterns that educators have always been aware of but may have lacked a precise vocabulary to articulate.
 
