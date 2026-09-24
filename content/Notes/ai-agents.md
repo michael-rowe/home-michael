@@ -9,7 +9,7 @@ created: 2026-02-27
 updated: 2026-09-24
 draft: false
 keyphrase: AI agent vs AI assistant
-meta-description: AI agent vs AI assistant: an assistant answers one prompt at a time; an agent plans, uses tools, and works toward a goal over many steps.
+meta-description: "AI agent vs AI assistant: an assistant answers one prompt at a time; an agent plans, uses tools, and works toward a goal over many steps."
 category:
   - Technology
 tags:
