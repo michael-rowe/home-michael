@@ -14,6 +14,7 @@ For a curated selection with fuller descriptions, and what's coming up, see the 
 
 ## 2026
 
+- **24 September** · [[Presentations/2026-09-24-atocp-making-sense-of-ai|Making sense of AI in clinical practice]] · BOA Annual Congress 2026, ATOCP session — London *(invited)*
 - **9 September** · [[Presentations/2026-09-09-ippta-ai-powered-practice-growth|AI-powered practice growth]] · IPPTA Business Meeting 2026 — Hamburg *(workshop)*
 - **5 September** · [[Presentations/2026-09-05-sasp-ethics-ai-physiotherapy|Better than, or better with?]] · SASP Symposium 2026 — Online *(invited)*
 - **4 September** · [[Presentations/2026-09-04-sasp-ai-future-physiotherapy-education|New therapeutic alliances]] · SASP Symposium 2026 — Online *(invited)*
