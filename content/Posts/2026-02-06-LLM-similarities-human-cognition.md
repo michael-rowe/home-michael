@@ -24,9 +24,9 @@ tags:
 category:
   - Technology
 related:
-  - '[[Notes/human-cognition-and-LLM-parallels]]'
-  - '[[Notes/context-engineering]]'
-  - '[[Notes/large-language-models]]'
+  - '[[Notes/human cognition and LLM parallels]]'
+  - '[[Notes/context engineering]]'
+  - '[[Notes/large language models]]'
 draft: false
 aliases:
   - posts/ai-human-cognition-similarities

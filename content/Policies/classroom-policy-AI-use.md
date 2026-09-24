@@ -17,8 +17,8 @@ tags:
 category:
   - Technology
 related:
-  - '[[Notes/AI-literacy]]'
-  - '[[Frameworks/AI-literacy-development-framework]]'
+  - '[[Notes/AI literacy]]'
+  - '[[Frameworks/AI literacy development framework]]'
 draft: false
 enableToc: true
 ---

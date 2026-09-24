@@ -12,10 +12,10 @@ tags:
   - agent
 category: Technology
 related:
-  - "[[Notes/large-language-models]]"
-  - "[[Notes/model-context-protocol]]"
-  - "[[Notes/system-prompt]]"
-  - "[[Notes/mcp-server]]"
+  - "[[Notes/large language models]]"
+  - "[[Notes/model context protocol]]"
+  - "[[Notes/system prompt]]"
+  - "[[Notes/mcp server]]"
 keyphrase: agentic AI tools for academic work
 linkedin:
 

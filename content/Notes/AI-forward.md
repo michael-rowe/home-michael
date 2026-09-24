@@ -13,10 +13,10 @@ tags:
 category:
   - Technology
 related:
-  - "[[Notes/context-sovereignty]]"
-  - "[[Notes/context-engineering]]"
-  - "[[Notes/contextual-interoperability]]"
-  - "[[Notes/intelligence-as-a-service]]"
+  - "[[Notes/context sovereignty]]"
+  - "[[Notes/context engineering]]"
+  - "[[Notes/contextual interoperability]]"
+  - "[[Notes/intelligence as a service]]"
 draft: false
 permalink: ""
 enableToc: true

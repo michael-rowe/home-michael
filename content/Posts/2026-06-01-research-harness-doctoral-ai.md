@@ -18,7 +18,7 @@ category:
   - Education
   - Scholarship
 related:
-  - "[[Notes/research-harness]]"
+  - "[[Notes/research harness]]"
   - "[[Guides/research-harness-guide]]"
   - "[[Essays/research-harness-doctoral-ai]]"
 draft: false

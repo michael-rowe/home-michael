@@ -18,7 +18,7 @@ category:
 related:
   - "[[Essays/documentation-as-infrastructure]]"
   - "[[Essays/curriculum-infrastructure]]"
-  - "[[Notes/higher-education-reference-model]]"
+  - "[[Notes/higher education reference model]]"
 keyphrase: "documentation debt"
 linkedin:
 

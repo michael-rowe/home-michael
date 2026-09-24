@@ -17,13 +17,13 @@ tags:
 category:
   - Technology
 related:
-  - '[[Notes/context-engineering]]'
-  - '[[Notes/knowledge-graph]]'
+  - '[[Notes/context engineering]]'
+  - '[[Notes/knowledge graph]]'
   - '[[Notes/graphRAG]]'
-  - '[[Notes/prompt-engineering]]'
-  - '[[Notes/vector-database]]'
-  - '[[Notes/retrieval-augmented-generation]]'
-  - '[[Notes/programmatic-assessment]]'
+  - '[[Notes/prompt engineering]]'
+  - '[[Notes/vector database]]'
+  - '[[Notes/retrieval augmented generation]]'
+  - '[[Notes/programmatic assessment]]'
 builds_on:
   - '[[knowledge graph]]'
 leads_to: null
@@ -48,15 +48,15 @@ linkedin:
 
 Ask a retrieval system "which methodological critiques of Theory A also apply to Theory B?" and it searches for text that is statistically similar to the query. It will find passages discussing Theory A and passages discussing Theory B, and it almost certainly won't answer the question, which requires understanding the critiques of Theory A, identifying their methodological foundations, and recognising when those same foundations turn up in critiques of Theory B. The work there is inference across connected concepts, and similarity matching[^similarity-matching] has no way to perform it.
 
-Multi-hop reasoning does that work one step at a time, with each step starting from the result of the one before. A [[Notes/large-language-models|language model]] can attempt the chain on its own, or by searching again at each step, but every hop is a chance to go wrong, and the errors compound. Holding the knowledge as a [[Notes/knowledge-graph|knowledge graph]] makes the hops explicit, so the system follows recorded relationships instead of inferring them. It's also where [[Notes/context-engineering|context engineering]] parts company with [[Notes/prompt-engineering|prompt engineering]]: what improves the answer is how the knowledge is structured, not how the question is phrased.
+Multi-hop reasoning does that work one step at a time, with each step starting from the result of the one before. A [[Notes/large language models|language model]] can attempt the chain on its own, or by searching again at each step, but every hop is a chance to go wrong, and the errors compound. Holding the knowledge as a [[Notes/knowledge graph|knowledge graph]] makes the hops explicit, so the system follows recorded relationships instead of inferring them. It's also where [[Notes/context engineering|context engineering]] parts company with [[Notes/prompt engineering|prompt engineering]]: what improves the answer is how the knowledge is structured, not how the question is phrased.
 
 ## Multi-hop reasoning with knowledge graphs
 
-A single similarity search over a [[Notes/vector-database|vector database]] finds passages that resemble the question, which is one hop at most (the [[Notes/knowledge-graph|knowledge graph]] note sets out why). Chaining hops takes either a model running search after search and reasoning between them, or a structure where the connections are already recorded.
+A single similarity search over a [[Notes/vector database|vector database]] finds passages that resemble the question, which is one hop at most (the [[Notes/knowledge graph|knowledge graph]] note sets out why). Chaining hops takes either a model running search after search and reasoning between them, or a structure where the connections are already recorded.
 
 A graph with explicit, typed relationships between entities provides the second, so the system can traverse[^traverse] a path: Theory A → critiqued by → Critique X → based on → Methodological Assumption Y → also applies to → Theory B. Each step in that chain is a connection someone recorded. The capability depends entirely on how well those relationships are modelled, because you can't traverse a connection that was never represented.
 
-[[Notes/programmatic-assessment|Programmatic assessment]] asks a question of this kind about every student. A supervisor on a ward placement notes that a student's handovers leave out the patient's baseline. Whether that matters depends on whether the same gap appears elsewhere: in the communication competency it maps to, in the later assessments that test that competency, and in what the student's other supervisors wrote. The portfolio holds all of it, and a progress committee answers the question by following those links by hand. If the links between comments, competencies, and assessments are recorded, a system can follow them too, and show the committee each step it took.
+[[Notes/programmatic assessment|Programmatic assessment]] asks a question of this kind about every student. A supervisor on a ward placement notes that a student's handovers leave out the patient's baseline. Whether that matters depends on whether the same gap appears elsewhere: in the communication competency it maps to, in the later assessments that test that competency, and in what the student's other supervisors wrote. The portfolio holds all of it, and a progress committee answers the question by following those links by hand. If the links between comments, competencies, and assessments are recorded, a system can follow them too, and show the committee each step it took.
 
 ## Academic work is relational
 
@@ -89,4 +89,4 @@ Multi-hop reasoning over a graph is only as good as the graph. A model working w
 
 ## Notes
 
-Multi-hop reasoning is what makes [[Notes/context-engineering|context engineering]] valuable for scholarship, and for any work where the answer lives in the connections between records. In health professions education that includes most questions about a programme's design or a student's progress.
+Multi-hop reasoning is what makes [[Notes/context engineering|context engineering]] valuable for scholarship, and for any work where the answer lives in the connections between records. In health professions education that includes most questions about a programme's design or a student's progress.

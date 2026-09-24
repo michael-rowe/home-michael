@@ -15,7 +15,7 @@ tags:
 category:
   - Technology
 related:
-  - '[[Notes/context-engineering]]'
+  - '[[Notes/context engineering]]'
 builds_on: null
 leads_to:
   - '[[context engineering]]'

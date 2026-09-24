@@ -14,7 +14,7 @@ tags:
 category:
   - Technology
 related:
-  - "[[Notes/distributed-version-control]]"
+  - "[[Notes/distributed version control]]"
 keyphrase: "what is git version control"
 linkedin:
 ---

@@ -14,7 +14,7 @@ category: Technology
 related:
   - "[[Notes/markdown]]"
   - "[[Notes/latex]]"
-  - "[[Notes/plain-text]]"
+  - "[[Notes/plain text]]"
 keyphrase: "converting teaching materials between formats"
 linkedin:
 

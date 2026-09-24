@@ -16,9 +16,9 @@ tags:
 category:
   - Technology
 related:
-  - "[[Notes/context-engineering]]"
-  - "[[Notes/context-sovereignty]]"
-  - "[[Notes/model-context-protocol]]"
+  - "[[Notes/context engineering]]"
+  - "[[Notes/context sovereignty]]"
+  - "[[Notes/model context protocol]]"
 keyphrase: LLM context drift
 linkedin:
 

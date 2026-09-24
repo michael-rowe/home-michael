@@ -23,7 +23,7 @@ tags:
 related:
   - "[[Essays/curriculum-infrastructure]]"
   - "[[Essays/documentation-as-infrastructure]]"
-  - "[[Notes/context-sovereignty]]"
+  - "[[Notes/context sovereignty]]"
 category:
   - Technology
   - Education

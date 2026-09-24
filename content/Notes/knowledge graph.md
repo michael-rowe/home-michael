@@ -18,13 +18,13 @@ tags:
 category:
   - Information management
 related:
-  - "[[Notes/context-engineering]]"
+  - "[[Notes/context engineering]]"
   - "[[Notes/graphRAG]]"
-  - "[[Notes/multi-hop-reasoning]]"
-  - "[[Notes/vector-database]]"
-  - "[[Notes/graph-database]]"
+  - "[[Notes/multi-hop reasoning]]"
+  - "[[Notes/vector database]]"
+  - "[[Notes/graph database]]"
   - "[[Notes/embeddings]]"
-  - "[[Notes/retrieval-augmented-generation]]"
+  - "[[Notes/retrieval augmented generation]]"
 builds_on:
 leads_to:
   - "[[context engineering]]"
@@ -63,21 +63,21 @@ A programme's curriculum map is a knowledge graph most educators already maintai
 
 ## Knowledge graph vs vector database
 
-[[Notes/vector-database|Vector databases]] store numerical representations of text, called [[Notes/embeddings|embeddings]], that support similarity search. That works for finding passages about similar topics, but it can't answer questions about how concepts relate, because embeddings capture co-occurrence patterns rather than explicit relationships.
+[[Notes/vector database|Vector databases]] store numerical representations of text, called [[Notes/embeddings|embeddings]], that support similarity search. That works for finding passages about similar topics, but it can't answer questions about how concepts relate, because embeddings capture co-occurrence patterns rather than explicit relationships.
 
 The difference lies in what each treats as meaning. Embeddings encode the linguist J. R. Firth's principle that you know a word by the company it keeps (Firth, 1957), which is distributional semantics[^distributional-semantics] built on statistical patterns. Knowledge graphs encode a different principle, that you know a concept by its connections, which is structural semantics[^structural-semantics] built on relationships someone has stated.
 
-Query a vector database for 'social constructivism' and you'll find the passages that discuss it most. Query a knowledge graph and you can ask which critiques of social constructivism also apply to phenomenology, a question about shared methodological foundations that no amount of similar text will answer. This is why knowledge graphs support [[Notes/multi-hop-reasoning|multi-hop reasoning]] while vector databases support only single-hop retrieval.
+Query a vector database for 'social constructivism' and you'll find the passages that discuss it most. Query a knowledge graph and you can ask which critiques of social constructivism also apply to phenomenology, a question about shared methodological foundations that no amount of similar text will answer. This is why knowledge graphs support [[Notes/multi-hop reasoning|multi-hop reasoning]] while vector databases support only single-hop retrieval.
 
 ## What becomes possible once the graph is explicit
 
-One use is following chains of critique and influence through a citation network, which the [[Notes/multi-hop-reasoning|multi-hop reasoning]] note works through. Two more are specific to holding your own field as a graph.
+One use is following chains of critique and influence through a citation network, which the [[Notes/multi-hop reasoning|multi-hop reasoning]] note works through. Two more are specific to holding your own field as a graph.
 
 **Methodological genealogy** maps where methods come from, what assumptions they carry, and how they've changed, which needs explicit relationships between methods, traditions, and underlying commitments.
 
 **Research trajectory mapping** shows how your own thinking has developed: which ideas led to which, which readings shaped which arguments, which collaborations produced which projects.
 
-In [[Notes/context-engineering|context engineering]], the graph is what lets AI reason about how your scholarship fits together. The linked notes in Obsidian, the conceptual maps, and the citation networks you trace are already knowledge graphs; the question is whether to make them explicit enough to traverse.
+In [[Notes/context engineering|context engineering]], the graph is what lets AI reason about how your scholarship fits together. The linked notes in Obsidian, the conceptual maps, and the citation networks you trace are already knowledge graphs; the question is whether to make them explicit enough to traverse.
 
 ## The curation challenge
 
@@ -108,4 +108,4 @@ Knowledge graphs work best for stabilised knowledge where relationships are broa
 
 ## Notes
 
-Most [[Notes/context-engineering|context engineering]] uses both representations, with [[Notes/retrieval-augmented-generation|retrieval]] over embeddings to find material and a graph to reason about how it connects.
+Most [[Notes/context engineering|context engineering]] uses both representations, with [[Notes/retrieval augmented generation|retrieval]] over embeddings to find material and a graph to reason about how it connects.
