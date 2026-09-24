@@ -1,16 +1,17 @@
 ---
 title: Context engineering
-description: A system-level discipline focused on building dynamic, state-aware information ecosystems for AI agents
+description: "How context engineering differs from prompt engineering: building the knowledge and structure a language model needs to reason well about your work."
 aliases:
   - context design
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-01-08
-updated: 2026-09-18
+updated: 2026-09-24
 draft: false
-keyphrase: "context engineering for AI systems"
+keyphrase: "context engineering vs prompt engineering"
 tags:
   - context-engineering
+  - prompt-engineering
   - generative-ai
   - information-architecture
   - knowledge-graphs
@@ -24,33 +25,39 @@ related:
   - "[[Notes/multi-hop-reasoning]]"
   - "[[Notes/retrieval-augmented-generation]]"
   - "[[Notes/model-context-protocol]]"
+  - "[[Notes/system-prompt]]"
+  - "[[Notes/agentic-workflows]]"
+  - "[[Notes/context-sovereignty]]"
 builds_on:
   - "[[prompt engineering]]"
 leads_to:
   - agent
 contradicts:
 reviewed:
+  - note_writer
   - writing_style
+  - SEO_optimiser
+  - copy_editor
 linkedin:
 
 ---
 
-> [!info] Context is king
-> Capable models underperform when what they're given is incomplete or badly structured. [[Notes/prompt-engineering|Prompt engineering]] improves what you say to a model; context engineering improves what the model knows about your work, and that second difference turns out to matter more.
+> [!info] What a model knows matters more than how you ask
+> Capable models underperform when what they're given is incomplete or badly structured. [[Notes/prompt-engineering|Prompt engineering]] improves what you say to a model; context engineering improves what the model knows about your work, and the second matters more.
 
 ## Context engineering
 
-**One-sentence definition:** The process of building dynamic systems that provide large language models with the information, structure, and connections they need to reason effectively about your work.
+**One-sentence definition:** The process of building dynamic systems that provide [[Notes/large-language-models|large language models]] with the information, structure, and connections they need to reason effectively about your work.
 
-When scholars find AI tools shallow or generic, the problem is usually the context rather than the model. A general-purpose assistant has no access to your theoretical frameworks, your methodological commitments, or the relationships between concepts you've worked out over years, so it can't engage with your work in any depth. It doesn't know how your ideas connect.
+When scholars find AI tools shallow or generic, the problem is usually the context rather than the model. A general-purpose assistant has no access to your theoretical frameworks, your methodological commitments, or the relationships between concepts you've worked out over years, so it can't engage with your work in any depth.
 
-Context engineering addresses that by making your intellectual infrastructure computationally accessible — the frameworks, connections, and commitments you've already built. The gain comes from structuring knowledge so that a model can reason about relationships, not from writing a better query.
+Context engineering addresses that by giving the model the frameworks, connections, and commitments you've already built, in a form it can reason over. Most of the gain comes from how that knowledge is structured, which is why a better-worded query only gets you so far.
 
-## From prompts to systems
+## Context engineering vs prompt engineering
 
-[[Notes/prompt-engineering|Prompt engineering]] emerged as the craft of writing effective queries: choosing words, providing examples, structuring requests. It's useful, and it's limited to optimising one interaction at a time. Context engineering is a shift from that kind of local optimisation to systematic architecture.
+[[Notes/prompt-engineering|Prompt engineering]] emerged as the craft of writing effective queries: choosing words, providing examples, structuring requests. It's useful, and it's limited to optimising one interaction at a time. Context engineering moves from that kind of local optimisation to designing the system every interaction runs inside.
 
-The distinction matters because academic work isn't a series of isolated tasks to be tuned one prompt at a time. It's an interconnected body of knowledge where understanding depends on grasping how ideas relate, and prompt engineering treats each query as independent while context engineering treats the whole corpus as a structured system.
+The distinction matters because academic work isn't a series of isolated tasks to be tuned one prompt at a time. It's an interconnected body of knowledge where understanding depends on grasping how ideas relate. Prompt engineering treats each query as independent; context engineering treats the whole corpus as a structured system.
 
 The difference shows up in the answers. Ask "what are the key debates about social constructivism?" with a well-written prompt and you get a competent overview. Ask the same thing of a system that knows your theoretical position, your previous work on constructivism, your objections to particular approaches, and how constructivism sits against the other frameworks you engage with, and you get something closer to intellectual partnership than to an encyclopaedia entry.
 
@@ -58,30 +65,28 @@ The difference shows up in the answers. Ask "what are the key debates about soci
 
 Context engineering covers the full range of techniques for shaping what a system knows and how it reasons. Promptingguide.ai (2025) catalogues the components:
 
-- **Prompt and instruction design**: tuning system prompts, structuring inputs and outputs (delimiters, JSON schema), managing dynamic elements such as user inputs and date/time
-- **Retrieval and knowledge preparation**: searching and preparing relevant knowledge ([[retrieval augmented generation|RAG]]), query augmentation, short-term memory (managing conversational state), long-term memory via [[vector database|vector]] or [[graph database|graph]] stores
-- **Demonstrations**: preparing and optimising few-shot examples that show the model how to perform a task
-- **Agentic scaffolding**: tool definitions and instructions, prompt chains, and orchestration logic for [[multi-hop reasoning|multi-step systems]]
+- **Prompt and instruction design**: tuning system prompts, structuring inputs and outputs (delimiters,[^delimiters] JSON schema[^json-schema]), managing dynamic elements such as user inputs and date/time
+- **Retrieval and knowledge preparation**: searching and preparing relevant knowledge ([[Notes/retrieval-augmented-generation|RAG]]), query augmentation,[^query-augmentation] short-term memory (managing conversational state), long-term memory via [[Notes/vector-database|vector]] or [[Notes/graph-database|graph]] stores
+- **Demonstrations**: preparing and optimising few-shot examples[^few-shot] that show the model how to perform a task
+- **Agentic scaffolding**: tool definitions and instructions, prompt chains, and orchestration logic for [[Notes/agentic-workflows|multi-step systems]]
 
-That scope clarifies how the two relate. Prompt engineering is one component of context engineering, the craft of writing effective individual instructions, while context engineering designs the information architecture that shapes every interaction.
+Prompt engineering sits inside the first of these components. What each of these components means for decisions about AI-supported learning is the subject of [[Posts/2026-02-14-context-engineering-for-educators|Context engineering for educators]].
 
-## How it actually works
+## Vector databases and knowledge graphs
 
-Context engineering relies on [[knowledge graph]]s rather than [[vector database]]s, and the technical distinction has consequences.
+Most retrieval in context engineering runs on [[Notes/vector-database|vector databases]], while much of what a well-engineered context can do beyond that depends on knowledge graphs. A vector database stores text as [[Notes/embeddings|embeddings]] and finds passages that resemble the query, which works until the answer has to be assembled from several sources. A knowledge graph stores entities and the typed relationships between them, so a system can follow a chain of inference from one to the next, which is what [[Notes/multi-hop-reasoning|multi-hop reasoning]] needs. The [[Notes/knowledge-graph|knowledge graph]] note sets out the difference in full.
 
-Vector databases store text as embeddings, mathematical representations that cluster statistically similar content. Query for "social constructivism debates" and you'll find passages discussing social constructivism debates. Query for something that requires synthesis across several sources and the system struggles, because similarity matching can't construct a chain of inference.
+This is also why [[Notes/graphRAG|GraphRAG]] matters: it automates knowledge graph construction from documents you already hold, extracting entities and relationships at scale. You can work from curated knowledge, meaning the links you've already built in your notes, or automate extraction from unstructured sources such as a PDF library. Automated extraction refined by scholarly judgement works better than either on its own.
 
-Knowledge graphs store entities and the relationships between them: not simply that Paper A discusses constructivism, but that Paper A critiques Paper B's methodological assumptions, that those assumptions reappear in Paper C's framework, and that Paper C shaped your thinking in Paper D. Explicit relationships of that kind are what make [[multi-hop reasoning]] possible.
-
-This is also why [[graphRAG]] matters: it automates knowledge graph construction from documents you already hold, extracting entities and relationships at scale. You can work from curated knowledge, meaning the links you've already built in your notes, or automate extraction from unstructured sources such as a PDF library. Automated extraction refined by scholarly judgement tends to work better than either on its own.
+A programme team would see the same difference. Ask a general assistant where clinical reasoning is developed across a physiotherapy programme and you'll get a sensible account of how programmes usually do it. Give it the module descriptors, the placement assessment forms, and last year's external examiner reports, with the links between them made explicit, and it can tell you which modules claim to teach clinical reasoning, which placements assess it, and where an outcome is assessed in year two without being taught anywhere before it. That last answer takes three hops, from outcome to module to assessment to year, and a similarity search across the same documents won't produce it.
 
 ## What AI can join in with
 
-Context engineering changes what AI can take part in. Synthesising across sources is the obvious case, and [[Notes/multi-hop reasoning|multi-hop reasoning]] sets out how that works; three further shifts matter as much.
+Context engineering changes what AI can take part in. Synthesising across sources is the obvious case, and [[Notes/multi-hop-reasoning|multi-hop reasoning]] sets out how that works; three further shifts matter as much.
 
-**Research development** that reflects your theoretical commitments. A system that knows your position on key debates, your methodological preferences, and the arguments you're currently making can offer substantive feedback rather than generic suggestions.
+**Research development** that reflects your theoretical commitments. A system that knows your position on key debates, your methodological preferences, and the arguments you're currently making can give feedback that engages with those arguments directly.
 
-**Writing support** that holds your voice. When the system knows how you build an argument, which authors you engage with, and which concepts carry weight in your work, what it drafts sounds like you rather than like every other academic.
+**Writing support** that holds your voice. When the system knows how you build an argument, which authors you engage with, and which concepts carry weight in your work, what it drafts starts to sound like you.
 
 **Teaching materials** that draw on what you've curated — your annotations, the connections you've made between readings, the pedagogical judgements accumulated over years of teaching.
 
@@ -89,11 +94,11 @@ You've already built a personal knowledge system, in Zotero or Obsidian or a fol
 
 ## The investment question
 
-Context engineering asks for more upfront work than prompt engineering. Building explicit relationships between concepts, structuring graphs, and refining what automated extraction produces all take time, and the question is whether that buys richer intellectual partnership.
+Context engineering asks for more upfront work than prompt engineering. Building explicit relationships between concepts, structuring graphs, and refining what automated extraction produces all take time.
 
-It depends on what you need the system to do. For isolated tasks — summarise this paper, draft a methods section — prompt engineering is enough. For sustained scholarly work where your intellectual position is the thing that matters, context engineering becomes the difference between a tool and a collaborator.
+Whether that time is well spent depends on what you need the system to do. For isolated tasks — summarise this paper, draft a methods section — prompt engineering is enough. For sustained scholarly work where your intellectual position is the thing that matters, the upfront work is what lets the system engage with that position at all.
 
-There's a reframing worth making here. Every hour spent connecting ideas and making relationships explicit extends what a system can reason about, and most scholars are already spending some of those hours through ordinary practice. The real question is whether making those connections a little more explicit would repay the effort for you as well as for the machine.
+Every hour spent connecting ideas and making relationships explicit extends what a system can reason about, and most scholars are already spending some of those hours through ordinary practice. So the question is whether making those connections a little more explicit would repay the effort for you as well as for the machine.
 
 ## Voice, ownership, and what resists representation
 
@@ -101,19 +106,24 @@ How do we hold on to scholarly voice and intellectual ownership when a system ha
 
 None of these have settled answers. Context engineering is valuable precisely because scholarship is relational — we build on predecessors, respond to critics, synthesise across traditions — but whether making those relationships computationally explicit enhances scholarly thinking or constrains it remains open.
 
+[^delimiters]: **Delimiters**: markers such as `###`, triple quotes or XML-style tags that separate the parts of a prompt, so the model can tell the instructions apart from the material it's being asked to work on. [Wikipedia](https://en.wikipedia.org/wiki/Delimiter)
+[^json-schema]: **JSON schema**: a formal description of the shape a piece of structured data must take (which fields, of what type). Giving a model a schema is how you get output a program can read reliably, such as a list of learning outcomes with a level attached to each. [Wikipedia: JSON](https://en.wikipedia.org/wiki/JSON)
+[^query-augmentation]: **Query augmentation**: rewriting or expanding a question before it's used to search, adding synonyms or related terms, so that retrieval finds relevant material the original wording would have missed. [Wikipedia](https://en.wikipedia.org/wiki/Query_expansion)
+[^few-shot]: **Few-shot examples**: a handful of worked examples included in the prompt, showing the model what a good answer looks like before it's asked for one. Three marked pieces of reflective writing with feedback, for instance, before asking for feedback on a fourth. [Wikipedia](https://en.wikipedia.org/wiki/Prompt_engineering)
+
 ---
 
 ## Sources
 
-- Promptingguide.ai. (2025). Context Engineering Guide.
-- Chalef, D. (2025). What is Context Engineering, Anyway?
-- Chase, H. (2025). The rise of context engineering.
-- King, S. (2025). Context Engineering: Why Feeding AI the Right Context Matters.
-- Teki, S. (2025). Context Engineering: The 2025 Guide to Advanced AI Strategy and RAG.
-- Yan, W. (2025). Don't Build Multi-Agents.
+- Chalef, D. (2025, June 26). *What is context engineering, anyway?* Zep. https://blog.getzep.com/what-is-context-engineering/
+- Chase, H. (2025, June 23). *The rise of "context engineering"*. LangChain. https://www.langchain.com/blog/the-rise-of-context-engineering
+- King, S. (2025). *Context engineering: Why feeding AI the right context matters*. Inspired Nonsense. https://inspirednonsense.com/context-engineering-why-feeding-ai-the-right-context-matters-353e8f87d6d3
+- Promptingguide.ai. (2025). *Context engineering guide*. https://www.promptingguide.ai/guides/context-engineering-guide
+- Teki, S. (2025). *Context engineering: The 2025 guide to advanced AI strategy and RAG*. https://www.sundeepteki.org/blog/context-engineering-a-framework-for-robust-generative-ai-systems
+- Yan, W. (2025). *Don't build multi-agents*. Cognition. https://cognition.com/blog/dont-build-multi-agents
 
 ---
 
 ## Notes
 
-The shift from prompt engineering to context engineering follows a pattern that recurs in technology: from manual optimisation to systematic design, from individual interactions to persistent systems, from treating AI as a tool to treating it as something that needs structured knowledge before it can reason well.
+The move from prompt engineering to context engineering repeats a familiar pattern in technology, where hand-tuning individual interactions gives way to designing the system those interactions run on. With AI, that system is the structured knowledge a model needs before it can reason well about anything particular to you.
