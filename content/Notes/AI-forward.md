@@ -3,10 +3,10 @@ title: AI-forward
 type: note
 aliases:
   - AI forward institutions
-description: AI-forward describes institutions treating AI integration as ongoing strategic practice requiring active engagement, rather than fixed deployment of finished solutions.
+description: "AI-forward describes an institution that treats AI integration as an ongoing strategic practice, evaluating and adapting as the technology changes, rather than as the one-off deployment of a finished solution."
 author: "[[Michael Rowe]]"
-date: 2025-12-26
-updated: 2025-12-26
+created: 2025-12-26
+updated: 2026-09-24
 tags:
   - ai-literacy
   - strategy
@@ -17,52 +17,51 @@ related:
   - "[[Notes/context engineering]]"
   - "[[Notes/contextual interoperability]]"
   - "[[Notes/intelligence as a service]]"
+  - "[[Notes/higher education reference model]]"
+  - "[[Essays/curriculum-infrastructure]]"
 draft: false
-permalink: ""
 enableToc: true
-cssclasses:
-  - ""
+keyphrase: what does AI-forward mean
+meta-description: "What does AI-forward mean? An institution that treats AI as ongoing strategic practice, evaluating and adapting as tools change, not a one-off rollout."
+reviewed:
+  - note_writer
+  - writing_style
+  - SEO_optimiser
+  - copy_editor
 linkedin:
-
 ---
 
-> [!info] Process, not state
-> The question isn't whether your institution uses AI. The question is whether you're treating AI integration as an ongoing strategic practice or a fixed technology deployment. AI-forward signals the former—directional orientation toward continuous engagement with evolving capabilities.
+> [!info] AI-forward is a direction an institution has to keep choosing
+> Most institutions now use AI in some form. What marks an AI-forward one is that it treats AI integration as an ongoing strategic practice, evaluating and adapting as the tools change, where others treat it as a deployment that's finished once it has been rolled out.
 
-## AI-forward
+## What AI-forward means
 
-**One-sentence definition:** Describing institutions treating AI integration as ongoing strategic practice requiring active engagement with evolving technologies, rather than fixed deployment of finished solutions.
+**One-sentence definition:** An AI-forward institution treats AI integration as an ongoing strategic practice, evaluating and adapting as the technology changes, rather than as the one-off deployment of a finished solution.
 
-Most technology terms in higher education describe what institutions have already done. AI-forward describes what they're committed to doing—evaluating emerging capabilities, making informed choices aligned with institutional values, iterating infrastructure as tools develop. The "-forward" suffix matters. It signals movement and strategic prioritisation rather than mere adoption.
+Most technology terms in higher education describe what institutions have already done. AI-forward describes what they're committed to doing: evaluating emerging capabilities, making choices that fit institutional values, and changing their infrastructure as the tools develop. The "-forward" suffix is what carries that sense of movement and strategic priority.
 
-## What makes it distinctive
+## Where it sits among similar terms
 
-The semantic hierarchy reveals what AI-forward actually means:
+The term is easiest to see alongside its neighbours:
 
-- **AI-native**: Built from the ground up around AI capabilities (structural)
-- **AI-first**: AI as primary strategic priority (dominance)
-- **AI-forward**: Active, ongoing integration (directional orientation)
+- **AI-native**: built from the ground up around AI capabilities (structural)
+- **AI-first**: AI as the primary strategic priority (dominance)
+- **AI-forward**: active, ongoing integration (directional orientation)
 - **AI-enabled**: AI added to existing systems (implementation)
 
-AI-forward occupies the sweet spot for institutions in transformation—neither claiming to be AI-native (few are) nor positioning AI as superseding their educational mission (dangerous), but signalling proactive, informed engagement.
+Few institutions can honestly claim to be AI-native, and calling yourself AI-first puts the technology ahead of the educational mission. AI-forward sits between those claims and plain AI-enabled, signalling active, informed engagement, which makes it the most useful of the four for institutions in transition.
 
-The term belongs to the "X-forward" pattern that emerged in technology strategy discourse around 2015-2020: data-forward, digital-forward, cloud-forward. This pattern universally indicates strategic prioritisation (X at centre of decision-making), organisational transformation (cultural shift, not technical implementation), continuous engagement (process, not state), and leadership commitment (C-suite fluency required).
+A school of health and social care shows the difference. An AI-enabled school licenses a tool that drafts feedback on OSCE stations, rolls it out, and treats the matter as settled. An AI-forward school might use the same tool, but it also reviews each year what newer models change for its assessment strategy and placement documentation, keeps its curriculum data in a form that doesn't depend on any one vendor, and gives someone the job of deciding when to switch. The [[Essays/curriculum-infrastructure|curriculum infrastructure]] essay works through what that commitment asks of an institution's systems.
 
-## Why it matters more than alternatives
+The term belongs to the "X-forward" pattern in technology strategy: data-forward, digital-forward, cloud-forward. In that usage the suffix signals strategic priority, with X at the centre of decision-making, along with continuous engagement and organisational change that reaches the culture as much as the systems.
 
-Higher education already has terms for AI integration: *AI maturity* (staged development models), *AI readiness* (preparedness assessment), *AI transformation* (fundamental organisational change), *AI fluency* (capability to apply effectively). Each has utility. None quite captures what AI-forward emphasises: continuous, strategic engagement with evolving technology.
+## How it differs from maturity, readiness, and fluency
 
-AI maturity suggests progression through defined levels toward optimisation—but optimisation of what? Optimising today's capabilities says nothing about preparing for tomorrow's. AI readiness emphasises current state over ongoing engagement. AI transformation focuses on magnitude of change rather than strategic orientation. AI fluency describes individual or organisational competence but not institutional commitment to sustained engagement.
+Higher education already has terms for AI integration: *AI maturity* (staged development models), *AI readiness* (preparedness assessment), *AI transformation* (fundamental organisational change), and *AI fluency* (capability to apply effectively). Each is useful, but none captures what AI-forward emphasises: continuous, strategic engagement with evolving technology.
 
-AI-forward doesn't replace these terms. It complements them by foregrounding what institutions in transition actually need: commitment to evaluating emerging capabilities, making informed choices, and iterating as technology develops. Not a destination to reach but a direction to maintain.
+AI maturity suggests progression through defined levels toward optimisation — but optimisation of what? Optimising today's capabilities says nothing about preparing for tomorrow's. AI readiness emphasises current state over ongoing engagement. AI transformation focuses on magnitude of change rather than strategic orientation. AI fluency describes individual or organisational competence but not institutional commitment to sustained engagement.
 
-The practical implication: if you're claiming to be AI-forward, the question isn't "what AI do you use?" but "how are you continuously evaluating, adapting, and making strategic choices about AI integration?"
-
----
-
-## Sources
-
-- 
+The practical test for an institution calling itself AI-forward is whether it can say how it evaluates new capabilities, adapts to them, and decides what to adopt, which is a harder question to answer than which AI tools it uses.
 
 ---
 
