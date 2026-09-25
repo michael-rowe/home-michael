@@ -67,7 +67,7 @@ For knowledge workers, this shift matters because your intellectual infrastructu
 
 Intelligence as a service becomes practical through several architectural approaches:
 
-**[[Notes/contextual interoperability|Contextual interoperability]]** makes your personal knowledge accessible to AI temporarily without permanent transfer. Your context stays in your systems; AI accesses it only when and how you specify.
+**[[Notes/contextual interoperability|Contextual interoperability]]** makes your context usable by any model, local or hosted. It has two halves: the context is legible, with its relationships explicit enough for a model to follow, and portable, held in your systems and lent to a model for a task without permanent transfer. AI accesses it only when and how you specify.
 
 **[[Notes/model context protocol|Model Context Protocol]]** provides standardised ways for AI to query your context with fine-grained permission control. You determine what information AI can access, when, and for what purposes.
 

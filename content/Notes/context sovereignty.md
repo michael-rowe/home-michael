@@ -58,7 +58,7 @@ Model memory is something else again. A model that remembers your topic preferen
 
 Rowe and Lynch set out three principles that protect this personal context and put it to work. **Persistent understanding** means interactions build on each other; until models can learn continually,[^continual] that continuity lives in the person's own notes and knowledge structures, and keeping them up is itself the practice of context sovereignty. **Individual agency** means the person keeps control over their context and stays the author of their own development. **Cognitive extension** means AI amplifies the person's reasoning, which it can only do if it has access to how they reason.
 
-The mechanics of keeping context local while using models hosted elsewhere are in [[Notes/contextual interoperability|contextual interoperability]] and [[Notes/intelligence as a service|intelligence as a service]].
+Structuring that context so any model can read it while it stays yours is [[Notes/contextual interoperability|contextual interoperability]]; using models hosted elsewhere without handing the context over is [[Notes/intelligence as a service|intelligence as a service]].
 
 ### What it looks like in education
 
