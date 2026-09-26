@@ -35,11 +35,6 @@ related:
   - '[[Posts/2026-01-28-bitter-lesson-higher-education]]'
 draft: false
 enableToc: true
-reviewed:
-  - writing_style
-  - blog_writer
-  - copy_editor
-  - SEO_optimiser
 linkedin:
 
 ---

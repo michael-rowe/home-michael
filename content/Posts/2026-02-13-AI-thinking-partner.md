@@ -19,11 +19,6 @@ related:
   - "[[Essays/ai-hpe-theoretical-framework]]"
   - "[[Posts/2026-02-11-building-AI-workflow-academics]]"
 draft: false
-reviewed:
-  - writing_style
-  - blog_writer
-  - copy_editor
-  - SEO_optimiser
 enableToc: true
 linkedin:
 

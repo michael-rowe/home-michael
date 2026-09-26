@@ -22,11 +22,6 @@ draft: false
 aliases:
   - posts/building-ai-collaboration-workflow
 enableToc: true
-reviewed:
-  - writing_style
-  - blog_writer
-  - copy_editor
-  - SEO_optimiser
 linkedin:
 
 ---

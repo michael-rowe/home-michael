@@ -35,11 +35,6 @@ related:
   - '[[Notes/AI literacy]]'
 draft: false
 enableToc: true
-reviewed:
-  - writing_style
-  - blog_writer
-  - copy_editor
-  - SEO_optimiser
 linkedin:
 
 ---
