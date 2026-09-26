@@ -52,7 +52,7 @@ When questions require that kind of reasoning across connected concepts, [[multi
 
 ## Sources
 
-- Teki, S. (2025). Context Engineering: The 2025 Guide to Advanced AI Strategy and RAG.
+- Teki, S. (2025). *Context engineering: A framework for robust generative AI systems*. Sundeep Teki. https://www.sundeepteki.org/blog/context-engineering-a-framework-for-robust-generative-ai-systems
 
 ---
 

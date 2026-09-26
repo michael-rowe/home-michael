@@ -83,7 +83,7 @@ Multi-hop reasoning over a graph is only as good as the graph. A model working w
 
 ## Sources
 
-- Teki, S. (2025). *Context engineering: The 2025 guide to advanced AI strategy and RAG*. https://www.sundeepteki.org/blog/context-engineering-a-framework-for-robust-generative-ai-systems
+- Teki, S. (2025). *Context engineering: A framework for robust generative AI systems*. Sundeep Teki. https://www.sundeepteki.org/blog/context-engineering-a-framework-for-robust-generative-ai-systems
 
 ---
 
