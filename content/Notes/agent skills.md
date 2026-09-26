@@ -5,7 +5,6 @@ aliases:
   - skill
   - SKILL.md
 type: note
-kind: Technical
 author: "[[Michael Rowe]]"
 created: 2026-09-18
 updated: 2026-09-18
