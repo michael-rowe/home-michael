@@ -336,7 +336,7 @@ Gerlich, M. (2025). AI tools in society: impacts on cognitive offloading and the
 
 Jensen, L. X., Bearman, M., Boud, D., & Konradsen, F. (2025). Feedback encounters in doctoral supervision: the role of generative AI chatbots. *Assessment & Evaluation in Higher Education*. https://doi.org/10.1080/02602938.2025.2478155
 
-Lopopolo, R. (2026, February 13). Harness engineering: leveraging Codex in an agent-first world. *OpenAI Engineering Blog*. https://openai.com/index/harness-engineering/
+Lopopolo, R. (2026, February 11). Harness engineering: leveraging Codex in an agent-first world. *OpenAI Engineering Blog*. https://openai.com/index/harness-engineering/
 
 Lodge, J. M., & Loble, L. (2026). *Artificial intelligence, cognitive offloading and implications for education*. University of Technology Sydney. https://doi.org/10.71741/4PYXMBNJAQ.31302475
 
