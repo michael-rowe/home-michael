@@ -9,7 +9,7 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-09-26
 updated: 2026-09-26
-draft: true
+draft: false
 tags:
   - language-model
   - generative-ai
@@ -21,14 +21,18 @@ related:
   - "[[Notes/token budget]]"
   - "[[Notes/embeddings]]"
   - "[[Notes/context drift]]"
-keyphrase: ""
+meta-description: "What is a token in AI? The unit language models read, write, and are priced in, and how to estimate whether your documents will fit."
+keyphrase: "what is a token in AI"
 linkedin:
 reviewed:
   - note_writer
+  - writing_style
+  - SEO_optimiser
+  - copy_editor
 ---
 
 > [!info] Everything a language model does is counted in tokens
-> A language model reads and writes in tokens: common words whole, and longer or rarer words in pieces. How much a model can read at once, how long it can reply, and what the work costs are all counted in tokens, so estimating whether a task will fit means estimating its tokens.
+> A language model reads and writes in tokens: common words whole, and longer or rarer words in pieces. How much a model can read at once, how long it can reply, and what the work costs are all measured in tokens, so estimating whether a task will fit starts with estimating its length in tokens.
 
 ## Token
 
@@ -36,7 +40,7 @@ reviewed:
 
 Before a model sees any text, a tokeniser splits it into pieces drawn from a fixed vocabulary, typically of tens of thousands to a few hundred thousand entries. The vocabulary is built from how often sequences of characters occur in the training text, so everyday words become single tokens and less common words are assembled from parts. Run through the tokeniser OpenAI introduced with GPT-4o, "The patient was discharged home." comes out as six tokens, one per word plus the full stop, while "thrombocytopenia" becomes four: *thromb*, *ocyt*, *open*, *ia*, pieces that bear no relation to the Greek roots a clinician would recognise.
 
-In English, a token averages about three-quarters of a word, so 1,000 tokens is roughly 750 words and a 5,000-word assignment is about 6,700 tokens. The ratio is worse for text dense with technical vocabulary, and much worse for many other languages. The same passage translated into different languages can take up to fifteen times as many tokens (Petrov et al., 2023), which means a student writing in some languages gets less text into the same model, and reaches usage limits or spends paid credit faster.
+In English, a token averages about three-quarters of a word, so 1,000 tokens is roughly 750 words and a 5,000-word assignment is about 6,700 tokens. Text dense with technical vocabulary takes more tokens per word, and many other languages take far more. The same passage translated into different languages can take up to fifteen times as many tokens (Petrov et al., 2023), which means a student writing in some languages gets less text into the same model, and reaches usage limits or spends paid credit faster.
 
 ## What gets counted in tokens
 

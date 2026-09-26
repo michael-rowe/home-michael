@@ -9,7 +9,7 @@ aliases:
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-14
-updated: 2026-09-24
+updated: 2026-09-26
 draft: false
 tags:
   - context-engineering
@@ -42,7 +42,7 @@ linkedin:
 
 **One-sentence definition:** Context rot, also called context drift, is the progressive degradation of a language model's output quality as its context window fills with a mix of relevant data, distractions, and discarded reasoning.
 
-Being able to "read" a million tokens[^tokens] doesn't mean being able to reason across them; a [[Notes/context window|context window]] is attended to unevenly even when everything in it is relevant. Even the most capable frontier models[^frontier] lose coherence as their input grows. When Hong et al. (2025) tested 18 of them, performance fell as the input got longer, even on tasks as simple as copying out a list of repeated words. The name comes from a Hacker News commenter, workaccount2 (2025), who described models that "poison their own context" as it fills with distractions and dead ends.
+Being able to "read" a million [[Notes/token|tokens]], about 750,000 words, doesn't mean being able to reason across them; a [[Notes/context window|context window]] is attended to unevenly even when everything in it is relevant. Even the most capable frontier models[^frontier] lose coherence as their input grows. When Hong et al. (2025) tested 18 of them, performance fell as the input got longer, even on tasks as simple as copying out a list of repeated words. The name comes from a Hacker News commenter, workaccount2 (2025), who described models that "poison their own context" as it fills with distractions and dead ends.
 
 ### How context rot sets in
 
@@ -68,6 +68,5 @@ Running several models in parallel adds a further problem (Yan, 2025), because e
 - workaccount2. (2025, June 18). *Comment on "Is there a half-life for the success rates of AI agents?"* [Online forum comment]. Hacker News. https://news.ycombinator.com/item?id=44310054
 - Yan, W. (2025, June 12). *Don't build multi-agents*. Cognition. https://cognition.com/blog/dont-build-multi-agents
 
-[^tokens]: **Token.** The unit a language model reads and writes in: a word, part of a word, or a punctuation mark. A million tokens is roughly 750,000 words, enough to hold several long textbooks at once. See [Wikipedia: Large language model](https://en.wikipedia.org/wiki/Large_language_model#Tokenization).
 
 [^frontier]: **Frontier model.** The most capable general-purpose models available at a given time, from companies such as Anthropic, OpenAI, and Google. See [Wikipedia: Foundation model](https://en.wikipedia.org/wiki/Foundation_model#Frontier_models).
