@@ -18,7 +18,7 @@ related:
   - "[[Notes/token budget]]"
   - "[[Notes/context engineering]]"
   - "[[Notes/progressive disclosure]]"
-  - "[[Notes/human cognition and LLM parallels]]"
+  - "[[Posts/2026-02-06-LLM-similarities-human-cognition]]"
   - "[[Notes/large language models]]"
 keyphrase: what is a context window
 meta-description: What is a context window? The limit on how much text an AI model can consider at once, and why what you put in it, and where, shapes the answer.
@@ -37,7 +37,7 @@ linkedin:
 
 **One-sentence definition:** A context window is the maximum amount of text, measured in tokens,[^token] that a [[Notes/large language models|language model]] can take into account when generating a response.
 
-Everything the model works from on a given turn has to fit inside it: the system prompt[^system-prompt] set by whoever built the tool, the conversation so far, any files you've attached, the results of searches or other tools it has run, and the reply it's writing. The model itself keeps nothing between turns. The application around it sends the whole conversation back each time you press enter, which is why the window works as the model's only working memory and why Mollick (2024) calls it the model's short-term memory. The comparison with human working memory is developed further in [[Notes/human cognition and LLM parallels|human cognition and LLM parallels]].
+Everything the model works from on a given turn has to fit inside it: the system prompt[^system-prompt] set by whoever built the tool, the conversation so far, any files you've attached, the results of searches or other tools it has run, and the reply it's writing. The model itself keeps nothing between turns. The application around it sends the whole conversation back each time you press enter, which is why the window works as the model's only working memory and why Mollick (2024) calls it the model's short-term memory. The comparison with human working memory is developed further in [[Posts/2026-02-06-LLM-similarities-human-cognition|Similarities between AI and human thinking]].
 
 ### How models use a large window
 

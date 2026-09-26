@@ -19,7 +19,7 @@ category:
 related:
   - "[[Notes/AI literacy]]"
   - "[[Notes/large language models]]"
-  - "[[Notes/human cognition and LLM parallels]]"
+  - "[[Posts/2026-02-06-LLM-similarities-human-cognition]]"
   - "[[Notes/hallucination]]"
   - "[[Essays/ai-tutor-accuracy-health-professions]]"
 keyphrase: "can students trust AI answers"

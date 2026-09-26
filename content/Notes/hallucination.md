@@ -17,7 +17,7 @@ category:
   - Technology
 related:
   - "[[Notes/large language models]]"
-  - "[[Notes/human cognition and LLM parallels]]"
+  - "[[Posts/2026-02-06-LLM-similarities-human-cognition]]"
   - "[[Notes/retrieval augmented generation]]"
   - "[[Notes/AI literacy]]"
   - "[[Posts/2026-03-21-not-all-ai-errors-are-hallucinations]]"
@@ -50,7 +50,7 @@ The difference is whether there's a ground truth to check against. A reference e
 
 ## Why the name is contested
 
-"Hallucination" borrows a term for a perceptual disorder, and some prefer "fabrication" or "confabulation", the second of which is closer to what [[Notes/human cognition and LLM parallels|human memory]] does when it fills a gap with a plausible detail. Hicks et al. (2024) go further and argue that the output is *bullshit* in the philosopher Harry Frankfurt's sense: produced with indifference to whether it is true, not with an intention to deceive.
+"Hallucination" borrows a term for a perceptual disorder, and some prefer "fabrication" or "confabulation", the second of which is closer to what [[Posts/2026-02-06-LLM-similarities-human-cognition|human memory]] does when it fills a gap with a plausible detail. Hicks et al. (2024) go further and argue that the output is *bullshit* in the philosopher Harry Frankfurt's sense: produced with indifference to whether it is true, not with an intention to deceive.
 
 Whatever the name, it describes a specific failure. A misspelling or a formatting slip is also an error, but [[Posts/2026-03-21-not-all-ai-errors-are-hallucinations|not all AI errors are hallucinations]], and the difference matters because a misspelling announces itself while a hallucination doesn't.
 
