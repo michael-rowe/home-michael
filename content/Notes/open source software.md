@@ -29,7 +29,7 @@ linkedin:
 
 Most software is closed: you get the compiled program and a licence to run it, and the code that makes it work stays with the company. Open source inverts that. The code is public, and the licence — GPL, MIT, Apache and a handful of others — says what you may do with it. Raymond's *The cathedral and the bazaar* (2000) is the classic account of how a community working in the open can produce better software than a firm working in private; Stallman's essays (2002) make the older, more political case that users have a right to control the software they depend on.
 
-The infrastructure behind almost everything runs on open source: Linux on nearly every server, Python and R for research, Git for version control, the compilers and libraries behind commercial products. This site is built with Quartz, an open source static site generator, and edited in Obsidian, which is not.
+The infrastructure behind almost everything runs on open source: Linux on nearly every server, Python and R for research, [[Notes/git|Git]] for version control, the compilers and libraries behind commercial products. This site is built with Quartz, an open source static site generator, and edited in Obsidian, which is not.
 
 ### Exit, adaptation, and audit
 
