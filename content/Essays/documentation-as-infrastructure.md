@@ -31,6 +31,8 @@ category:
   - Information management
 draft: false
 reviewed:
+review-notes:
+  - "2026-09-26: Line 92 overstates HERM. It says HERM makes relationships between entities explicit and typed (courses relate to programmes, programmes lead to degrees, degrees map to competencies). HERM supplies a shared vocabulary of defined entities; the typed relationships are what an institution encodes on top of it. Bring into line with Notes/higher education reference model during the essay_writer pass."
 linkedin:
 ---
 > [!info] **About this essay**
