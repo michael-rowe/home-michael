@@ -119,7 +119,7 @@ None of these have settled answers. Context engineering is valuable precisely be
 - Chase, H. (2025, June 23). *The rise of "context engineering"*. LangChain. https://www.langchain.com/blog/the-rise-of-context-engineering
 - King, S. (2025). *Context engineering: Why feeding AI the right context matters*. Inspired Nonsense. https://inspirednonsense.com/context-engineering-why-feeding-ai-the-right-context-matters-353e8f87d6d3
 - Promptingguide.ai. (2025). *Context engineering guide*. https://www.promptingguide.ai/guides/context-engineering-guide
-- Teki, S. (2025). *Context engineering: The 2025 guide to advanced AI strategy and RAG*. https://www.sundeepteki.org/blog/context-engineering-a-framework-for-robust-generative-ai-systems
+- Teki, S. (2025). *Context engineering: A framework for robust generative AI systems*. Sundeep Teki. https://www.sundeepteki.org/blog/context-engineering-a-framework-for-robust-generative-ai-systems
 - Yan, W. (2025). *Don't build multi-agents*. Cognition. https://cognition.com/blog/dont-build-multi-agents
 
 ---

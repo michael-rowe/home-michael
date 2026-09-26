@@ -102,7 +102,7 @@ Knowledge graphs work best for stabilised knowledge where relationships are broa
 ## Sources
 
 - Firth, J. R. (1957). A synopsis of linguistic theory, 1930–1955. In *Studies in linguistic analysis* (pp. 1–32). Blackwell.
-- Teki, S. (2025). *Context engineering: The 2025 guide to advanced AI strategy and RAG*. https://www.sundeepteki.org/blog/context-engineering-a-framework-for-robust-generative-ai-systems
+- Teki, S. (2025). *Context engineering: A framework for robust generative AI systems*. Sundeep Teki. https://www.sundeepteki.org/blog/context-engineering-a-framework-for-robust-generative-ai-systems
 
 ---
 
