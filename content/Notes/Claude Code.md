@@ -21,6 +21,7 @@ related:
   - "[[Notes/model context protocol]]"
   - "[[Notes/system prompt]]"
   - "[[Notes/mcp server]]"
+  - "[[Notes/headless AI]]"
 keyphrase: Claude Code for educators
 meta-description: "Claude Code for educators: an AI agent that reads, edits, and checks a folder of files on your own machine, from module handbooks to reference lists."
 reviewed:
@@ -45,7 +46,7 @@ It's an [[Notes/ai-agents|agent]] in the specific sense: it runs a loop of plan,
 
 ### How this site is built
 
-This site was built with Claude Code. Quartz[^quartz] supplies the foundation, and everything on top of it was written by Claude Code working under my direction: the page layouts, the scripts that catch broken metadata and links, and the review pipeline every note and post goes through, this one included. The same tool runs the planning and meeting notes behind the site. A typical instruction is a sentence, such as *find the meetings this month that still need a summary and write one for each from the transcript in the cache*, and the work is done in the files, where [[Notes/distributed version control|version control]] shows every change line by line.
+This site was built with Claude Code. Quartz[^quartz] supplies the foundation, and everything on top of it was written by Claude Code working under my direction: the page layouts, the scripts that catch broken metadata and links, and the review pipeline every note and post goes through, this one included. The same tool runs the planning and meeting notes behind the site, some of it on a timer with nobody at the keyboard, in [[Notes/headless AI|headless mode]]. A typical instruction is a sentence, such as *find the meetings this month that still need a summary and write one for each from the transcript in the cache*, and the work is done in the files, where [[Notes/distributed version control|version control]] shows every change line by line.
 
 O'Connor et al. (2026) ask whether nurses and midwives should be learning about agents like this. Anyone whose work lives in documents — handbooks, portfolios, assessment briefs, placement records — already has a use for one.
 
