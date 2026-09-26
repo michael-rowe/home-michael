@@ -10,6 +10,10 @@
  * which personas a content type needs). What is pending is computed, so it
  * cannot drift the way a ticked table does.
  *
+ * A file's `review-notes:` list (things a past session left for the next one)
+ * is printed under the file while it is pending, and separately once the file
+ * is fully reviewed or has no pipeline, since then nothing will reopen it.
+ *
  * Usage:
  *   node scripts/review-status.mjs                    # summary + next items per type
  *   node scripts/review-status.mjs --summary          # counts only
@@ -120,6 +124,7 @@ const pipelines = loadPipelines()
 const byType = {}
 const noPipeline = {}
 let drafts = 0
+const strandedNotes = []
 
 for (const file of walk(CONTENT_DIR)) {
   let data
@@ -132,6 +137,12 @@ for (const file of walk(CONTENT_DIR)) {
   const type = data.type
   if (!type) continue // section index pages carry no type, by design
 
+  // review-notes: work a past session found and left for the next one to
+  // open this file. Shown with the file while it is pending; listed on its
+  // own once the file has no pipeline steps left, since nothing reopens it.
+  const notes = Array.isArray(data['review-notes'])
+    ? data['review-notes'] : data['review-notes'] ? [data['review-notes']] : []
+
   if (data.draft === true) {
     drafts++
     if (!includeDrafts) continue
@@ -140,6 +151,7 @@ for (const file of walk(CONTENT_DIR)) {
   const pipeline = pipelines[type]
   if (!pipeline) {
     noPipeline[type] = (noPipeline[type] ?? 0) + 1
+    if (notes.length) strandedNotes.push({ file, notes })
     continue
   }
 
@@ -148,7 +160,8 @@ for (const file of walk(CONTENT_DIR)) {
   )
   const pending = pipeline.filter(step => !done.has(step))
 
-  ;(byType[type] ??= []).push({ file, pending, total: pipeline.length })
+  if (!pending.length && notes.length) strandedNotes.push({ file, notes })
+  ;(byType[type] ??= []).push({ file, pending, total: pipeline.length, notes })
 }
 
 // ── Report ─────────────────────────────────────────────────────────────────
@@ -180,10 +193,11 @@ if (asJson) {
         complete: files.filter(f => !f.pending.length).length,
         steps, doneSteps,
         pending: files.filter(f => f.pending.length)
-          .map(f => ({ file: f.file, pending: f.pending })),
+          .map(f => ({ file: f.file, pending: f.pending, notes: f.notes })),
       }]
     })),
     noPipeline,
+    strandedNotes,
   }, null, 2))
   process.exit(0)
 }
@@ -207,10 +221,13 @@ for (const type of types.sort()) {
   if (!summaryOnly) {
     const pending = files.filter(f => f.pending.length)
       .sort((a, b) => a.pending.length - b.pending.length || a.file.localeCompare(b.file))
-    const show = typeFilter ? pending : pending.slice(0, nextCount)
+    // A file carrying review notes is always listed, even past --next.
+    const show = typeFilter ? pending
+      : pending.filter((f, i) => i < nextCount || f.notes.length)
     for (const f of show) {
       console.log(`      ${f.file.replace(/^content\//, '')}`)
       console.log(`        pending: ${f.pending.join(', ')}`)
+      for (const n of f.notes) console.log(`        note: ${n}`)
     }
     if (!typeFilter && pending.length > show.length) {
       console.log(`      … and ${pending.length - show.length} more ` +
@@ -224,6 +241,15 @@ const orphans = Object.entries(noPipeline)
 if (orphans.length) {
   console.log(`  No pipeline defined: ${orphans.map(([t, n]) => `${t} ${n}`).join(', ')}`)
   console.log(`  Which pipeline these need is open — see WP-9.\n`)
+}
+
+if (strandedNotes.length) {
+  console.log(`  Review notes on files no pipeline step will reopen:`)
+  for (const f of strandedNotes) {
+    console.log(`      ${f.file.replace(/^content\//, '')}`)
+    for (const n of f.notes) console.log(`        note: ${n}`)
+  }
+  console.log()
 }
 
 console.log(`  ${outstandingFiles} file${outstandingFiles === 1 ? '' : 's'} with work outstanding.\n`)
