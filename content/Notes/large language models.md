@@ -53,7 +53,7 @@ Earlier language software was built one task at a time, with one system for tran
 
 ## How they work
 
-LLMs are built on the transformer,[^transformer] an architecture published by researchers at Google in 2017 (Vaswani et al., 2017). Training happens in two stages. In pretraining, the model works through billions of passages of text, repeatedly guessing the next token[^token] and adjusting itself after each guess. Getting good at that guess requires it to pick up grammar, facts, styles of argument, and the ways ideas tend to follow one another, which is why a model trained only to predict text can go on to do much more with it.
+LLMs are built on the transformer,[^transformer] an architecture published by researchers at Google in 2017 (Vaswani et al., 2017). Training happens in two stages. In pretraining, the model works through billions of passages of text, repeatedly guessing the next [[Notes/token|token]] and adjusting itself after each guess. Getting good at that guess requires it to pick up grammar, facts, styles of argument, and the ways ideas tend to follow one another, which is why a model trained only to predict text can go on to do much more with it.
 
 In the second stage the model is tuned to follow instructions and to behave helpfully, using techniques such as reinforcement learning from human feedback, in which people rate its answers and the model learns from their preferences. The assistants people use in a chat window are models that have been through both stages.
 
@@ -71,7 +71,6 @@ Because these limits shift as the models change, an institution has to keep eval
 
 [^transformer]: **Transformer**: the kind of neural network that most current language models use. Its key feature, called attention, lets the model weigh every word in a passage against every other when working out what comes next, which is how it keeps track of meaning across long stretches of text. [Wikipedia](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture))
 
-[^token]: **Token**: the unit a language model reads and writes in, usually a whole short word or a fragment of a longer one. In English a token averages about three-quarters of a word, so a 5,000-word assignment is roughly 6,700 tokens. [Wikipedia](https://en.wikipedia.org/wiki/Large_language_model#Tokenization)
 
 ---
 

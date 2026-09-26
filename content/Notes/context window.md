@@ -6,7 +6,7 @@ aliases:
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-26
 draft: false
 tags:
   - language-model
@@ -35,7 +35,7 @@ linkedin:
 
 ## Context window
 
-**One-sentence definition:** A context window is the maximum amount of text, measured in tokens,[^token] that a [[Notes/large language models|language model]] can take into account when generating a response.
+**One-sentence definition:** A context window is the maximum amount of text, measured in [[Notes/token|tokens]], that a [[Notes/large language models|language model]] can take into account when generating a response.
 
 Everything the model works from on a given turn has to fit inside it: the system prompt[^system-prompt] set by whoever built the tool, the conversation so far, any files you've attached, the results of searches or other tools it has run, and the reply it's writing. The model itself keeps nothing between turns. The application around it sends the whole conversation back each time you press enter, which is why the window works as the model's only working memory and why Mollick (2024) calls it the model's short-term memory. The comparison with human working memory is developed further in [[Posts/2026-02-06-LLM-similarities-human-cognition|Similarities between AI and human thinking]].
 
@@ -49,7 +49,6 @@ A midwifery module lead who pastes forty students' placement reflections into a 
 
 Tools handle a full window differently. Some refuse to accept more, some quietly drop the oldest part of the conversation, and some summarise it to make room; most don't tell you which they've done. The practical responses are the same across tools: start a fresh conversation seeded with a short summary when a long one starts to wander, put the material that matters most at the start or the end, and give the model less but better-chosen text. Deciding what goes into the window is what [[Notes/context engineering|context engineering]] is about, and progressive disclosure is one way of loading it only when it's needed.
 
-[^token]: **Token**: the unit a language model reads and writes in, usually a whole short word or a fragment of a longer one. In English a token averages about three-quarters of a word, so a 5,000-word assignment is roughly 6,700 tokens. [Wikipedia](https://en.wikipedia.org/wiki/Large_language_model#Tokenization)
 [^system-prompt]: **System prompt**: the instructions a tool's developer places in front of every conversation, telling the model how to behave before you've typed anything. See [[Notes/system prompt|system prompt]].
 
 ---
