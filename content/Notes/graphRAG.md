@@ -1,26 +1,30 @@
 ---
 title: GraphRAG
-description: >-
-  A technique that combines knowledge graphs with retrieval-augmented generation
-  for structured reasoning
+description: GraphRAG combines knowledge graphs with retrieval-augmented generation. Where ordinary RAG returns the passages most similar to a question, GraphRAG extracts the entities and relationships in a document collection and answers by following the connections between them, which is what questions about critiques, influences, or curriculum coverage need.
+meta-description: "GraphRAG vs RAG: how GraphRAG builds a knowledge graph from your documents so AI can follow connections that ordinary retrieval misses."
 aliases:
   - graph RAG
   - graph-based RAG
 type: note
 author: '[[Michael Rowe]]'
 created: 2026-01-30
-updated: 2026-01-30
+updated: 2026-09-26
+draft: false
 tags:
   - knowledge-graphs
   - retrieval-augmented-generation
   - context-engineering
-category: Technology
+  - curriculum-mapping
+category:
+  - Technology
 related:
   - '[[Notes/context engineering]]'
   - '[[Notes/knowledge graph]]'
   - '[[Notes/retrieval augmented generation]]'
   - '[[Notes/multi-hop reasoning]]'
   - '[[Notes/vector database]]'
+  - '[[Notes/graph database]]'
+  - '[[Essays/curriculum-infrastructure]]'
 builds_on:
   - '[[retrieval augmented generation]]'
   - '[[knowledge graph]]'
@@ -28,78 +32,70 @@ leads_to: null
 contradicts: null
 source: ''
 source_url: ''
+keyphrase: "graphrag vs rag"
 linkedin:
-
+reviewed:
+  - note_writer
+  - writing_style
+  - SEO_optimiser
+  - copy_editor
 ---
 
-> [!info] From isolated documents to connected knowledge
-> Scholars accumulate vast libraries of PDFs, notes, and annotations representing years of reading and thinking. But this knowledge remains trapped in isolated documents—inaccessible for synthesis, invisible for reasoning. GraphRAG solves this by extracting the entities and relationships that constitute scholarship, transforming document collections into queryable knowledge structures.
+> [!info] GraphRAG builds the knowledge graph from your documents
+> Scholars build up libraries of PDFs, notes, and annotations over years of reading and thinking, and most of what connects them stays locked inside the individual documents, where it's hard to synthesise and invisible to an AI system. GraphRAG extracts the entities and relationships in those documents and turns the collection into a structure you can query.
 
 ## GraphRAG
 
-**One-sentence definition:** A technique that automates [[knowledge graph]] construction by extracting entities and relationships from documents, enabling [[multi-hop reasoning]] over structured knowledge rather than similarity-based retrieval.
+**One-sentence definition:** GraphRAG is a technique that automates [[Notes/knowledge graph|knowledge graph]] construction by extracting entities[^entity] and relationships from documents, enabling [[Notes/multi-hop reasoning|multi-hop reasoning]] over structured knowledge rather than similarity-based retrieval.
 
-The limitation of traditional [[retrieval augmented generation]] isn't that it finds the wrong chunks—it's that it can only find chunks. Ask "which methodological critiques of Theory A also apply to Theory B?" and RAG searches for statistically similar passages. It might surface discussions of Theory A and discussions of Theory B. It won't answer your actual question, which requires understanding critiques of Theory A, identifying their methodological foundations, and recognising when those foundations appear in critiques of Theory B.
+Traditional [[Notes/retrieval augmented generation|retrieval augmented generation]] can only return chunks[^chunk] of text. Ask "which methodological critiques of Theory A also apply to Theory B?" and RAG searches for passages that are statistically similar to the question. It might surface discussions of Theory A and discussions of Theory B, but it won't answer the question you asked, which means understanding the critiques of Theory A, identifying their methodological foundations, and recognising when those foundations appear in critiques of Theory B.
 
-That's not retrieval. That's inference across connected concepts—precisely what GraphRAG enables by replacing flat text retrieval with graph-based knowledge structures that preserve relationships.
+Answering it takes inference across connected concepts, and GraphRAG supports that by replacing flat text retrieval with a graph that keeps the relationships between concepts intact.
+
+The name is used loosely for any retrieval that draws on a knowledge graph, and specifically for the method Microsoft Research published in 2024 (Edge et al., 2024). In that method a language model reads the documents in chunks, extracts entities and relationships, groups closely connected entities into communities, and writes a summary of each community. Questions about a whole collection, such as "what are the main themes across these documents?", are answered from those summaries. Ordinary RAG struggles with that kind of question because no single chunk holds the answer.
 
 ## How it works
 
-GraphRAG operates through a processing pipeline that transforms unstructured documents into structured knowledge:
+GraphRAG turns unstructured documents into structured knowledge in five steps.
 
-**Entity extraction** identifies the concepts, people, methods, and theories in your documents. Not just that a paper mentions "social constructivism" but recognising it as a distinct theoretical framework with attributes and instances.
+**Entity extraction** identifies the concepts, people, methods, and theories in your documents. When a paper mentions "social constructivism", the system records it as a theoretical framework in its own right, with attributes and instances.
 
-**Relationship detection** determines how entities connect. Not just that Paper A and Paper B both discuss validity, but that Paper A critiques Paper B's approach to validity, and both draw on Methodology X.
+**Relationship detection** determines how entities connect: that Paper A critiques Paper B's approach to validity, for instance, and that both draw on Methodology X, where a similarity search would only notice that both papers discuss validity.
 
-**Graph construction** builds a [[knowledge graph]] connecting entities through typed, directional relationships. This structure enables traversal-based queries rather than similarity matching.
+**Graph construction** builds a [[Notes/knowledge graph|knowledge graph]] connecting entities through typed, directional relationships, usually held in a [[Notes/graph database|graph database]], and that structure is what makes it possible to query by following connections.
 
-**Query processing** converts your questions into graph traversals. Instead of finding similar text, the system follows relationship paths: Theory A → critiqued by → Critique X → based on → Methodological Assumption Y → also applies to → Theory B.
+**Query processing** converts your questions into graph traversals[^traversal], in which the system follows relationship paths: Theory A → critiqued by → Critique X → based on → Methodological Assumption Y → also applies to → Theory B.
 
-**Response synthesis** generates answers by reasoning over the paths found, not just retrieving the most similar passages.
+**Response synthesis** generates an answer by reasoning over the paths it found.
+
+## Building a curriculum graph from the documents you already have
+
+A programme already holds most of the relationships a curriculum graph needs, but they're written into prose. Module descriptors state which outcomes they address, assessment briefs say which outcomes they test, and the regulator's standards document lists what graduates must be able to do. Mapping these by hand is the work that lets curriculum maps fall out of date. GraphRAG's extraction step can draft the map from the documents themselves, proposing that this module addresses that outcome and this assessment tests it, for the programme team to confirm or correct. Once confirmed, the map can answer the coverage questions described in the [[Notes/graph database|graph database]] note and the [[Essays/curriculum-infrastructure|curriculum infrastructure]] essay. The same approach works across several years of external examiner reports or module evaluations, where a recurring concern is scattered across dozens of documents that nobody reads together.
 
 ## Why this matters for scholarship
 
-Academic knowledge is inherently relational. Understanding a field means understanding how ideas connect—who built on whose work, which critiques challenge which assumptions, where conceptual parallels exist across apparently different domains. GraphRAG makes this relational structure explicit and computable.
-
-Consider what becomes possible:
-
-**Literature mapping** that automatically surfaces the intellectual landscape of a field—who cites whom, which concepts cluster together, where debates lie. Not just keyword co-occurrence but actual relationships: influences, critiques, extensions, applications.
-
-**Research synthesis** that answers questions requiring inference across sources. "Which qualitative methods address the validity concerns raised about phenomenology?" needs to traverse phenomenology → validity concerns → methodological responses → qualitative methods. GraphRAG can follow those paths.
-
-**Personal knowledge bases** that transform your Obsidian vault or Zotero library into queryable knowledge structures. The connections you've built become infrastructure for AI reasoning.
-
-**Collaborative research** where teams share knowledge graphs built from their collective reading, creating common intellectual infrastructure.
-
-The key insight: GraphRAG works with both curated knowledge (the links you've already built in your notes) and automated extraction (your PDF library). The hybrid approach—automated extraction refined by scholarly judgement—often works best. Let GraphRAG bootstrap a knowledge graph from your library, then refine the relationships through use.
-
-## The quality question
-
-Automated extraction inevitably makes errors. Scholarly nuance is easily lost—subtle distinctions collapsed, contested relationships stated as fact, contextual qualifications stripped away. This is why GraphRAG requires active curation, not passive automation.
-
-The relationship between Scholar A and Scholar B isn't simply "cites" or "critiques"—it might be "extends while challenging certain assumptions" or "applies to a new context." GraphRAG can identify that a relationship exists. Characterising it accurately often requires scholarly judgement.
-
-This creates work. The question is whether that work pays off. If you're building knowledge infrastructure you'll use repeatedly—a research area you're committed to, a personal knowledge base supporting ongoing scholarship—the investment may be worthwhile. For one-off literature reviews, manual reading may suffice.
-
-## What it enables that RAG cannot
-
-The difference between RAG and GraphRAG isn't just better retrieval—it's qualitatively different capabilities:
+Academic knowledge is inherently relational. Understanding a field means understanding how ideas connect — who built on whose work, which critiques challenge which assumptions, where conceptual parallels exist across apparently different domains. GraphRAG makes this relational structure explicit and computable, which supports questions that don't reduce to finding similar passages:
 
 - **Comparison across frameworks:** "Which theoretical approaches share this assumption?"
 - **Intellectual genealogy:** "How did Critic A's challenge to Scholar B influence Researcher C's later work?"
 - **Structural parallels:** "What concepts from Field X address limitations in Approach Y?"
 - **Contested relationships:** "Who disagrees with this characterisation and why?"
 
-None of these reduce to finding similar passages. All require reasoning about explicit relationships between concepts—which is why GraphRAG matters for [[context engineering]].
+GraphRAG works with both curated knowledge (the links you've already built in an Obsidian vault) and automated extraction (your PDF or Zotero library). Automated extraction refined by scholarly judgement often works best: let GraphRAG draft a knowledge graph from your library, then refine the relationships as you use it.
+
+## The quality question
+
+Automated extraction inevitably makes errors. GraphRAG can identify that a relationship exists between Scholar A and Scholar B, but characterising it accurately, as "extends while challenging certain assumptions" rather than simply "cites", often requires scholarly judgement. The [[Notes/knowledge graph|knowledge graph]] note describes what that curation involves and when the investment pays off.
 
 ---
 
 ## Sources
 
-- Teki, S. (2025). Context Engineering: The 2025 Guide to Advanced AI Strategy and RAG.
+- Edge, D., Trinh, H., Cheng, N., Bradley, J., Chao, A., Mody, A., Truitt, S., Metropolitansky, D., Ness, R. O., & Larson, J. (2024). *From local to global: A graph RAG approach to query-focused summarization* (arXiv:2404.16130). arXiv. https://doi.org/10.48550/arXiv.2404.16130
+- Teki, S. (2025). *Context engineering: A framework for robust generative AI systems*. Sundeep Teki. https://www.sundeepteki.org/blog/context-engineering-a-framework-for-robust-generative-ai-systems
 
----
+[^entity]: **Entity.** A distinct thing a system can recognise and name in text: a person, a theory, a method, a module, a learning outcome. In the sentence "Module 204 assesses outcome 3", the module and the outcome are both entities. See [Named entity](https://en.wikipedia.org/wiki/Named_entity).
 
-## Notes
+[^chunk]: **Chunk.** A short passage, often a few hundred words, that a RAG system cuts a document into before storing it. A retrieval returns whole chunks, so an answer that depends on two passages in different documents is only found if both chunks happen to be retrieved. See [Retrieval-augmented generation: chunking](https://en.wikipedia.org/wiki/Retrieval-augmented_generation#Chunking).
 
-GraphRAG sits at the intersection of automated extraction and scholarly curation. The technology enables scale; human judgement ensures accuracy. Neither alone suffices for serious scholarship.
+[^traversal]: **Traversal.** Moving through a graph by following its edges from one node to the next, the way you'd trace a professional standard to the learning outcome that addresses it and then to the assessment that tests it. See [Graph traversal](https://en.wikipedia.org/wiki/Graph_traversal).
