@@ -49,15 +49,16 @@ These personas operate at site level and should be run periodically rather than 
 When picking up the queue:
 
 1. Run `node scripts/review-status.mjs` to see what is pending. It lists fewest-steps-outstanding first, so a piece one step from done comes before one that has had nothing — finishing beats starting.
-2. Apply the next pending persona for that file, in pipeline order.
+2. Read the file's `review-notes:` before starting, if it has any (the script prints them as `note:` under the file). These are things a past session found and left for whoever next opened the file; deal with each in the pass it names, then delete the entry.
+3. Apply the next pending persona for that file, in pipeline order.
    - **Always use the template for the content type** (see the pipeline table above) to verify required frontmatter fields, callouts, and section structure are present. If the file has no frontmatter, create it from the template.
    - **The `copy_editor` pass does three things beyond the persona, as edits rather than flags** (decided 2026-09-24, on `Notes/context engineering.md`):
      - **Complete the sources.** Every reference gets a URL and, where there is one, a site or publisher name, in APA. Look in the corpus first (Zotero, Readwise), then the web; confirm each URL resolves and matches the author and title before adding it. Never guess one.
      - **Remove cross-section repetition.** Where a later section restates something an earlier one already said, cut or compress the restatement instead of noting it.
      - **Gloss jargon in footnotes.** Apply *Teach the reader* in `CLAUDE.md`: a term the reader can't be assumed to know gets a footnote at first use — bold term, one or two plain sentences, a health professions education example where one helps, a Wikipedia link.
-3. Tell the user what changed and wait for approval.
-4. After approval, add the persona name to `reviewed:` in that file's frontmatter. That is the only place to record it.
-5. Move on only when the current file is complete or the user explicitly skips a step.
+4. Tell the user what changed and wait for approval.
+5. After approval, add the persona name to `reviewed:` in that file's frontmatter. That is the only place to record it.
+6. Move on only when the current file is complete or the user explicitly skips a step.
 
 Work through content types in whatever order the work calls for; posts are the shortest and the best place to iterate on a persona's instructions, essays and lessons the longest.
 
@@ -82,3 +83,14 @@ reviewed:
 ```
 
 On a partially reviewed file, list only the personas that have actually run. A missing `reviewed:` field means none have.
+
+### Leaving a note for a later pass
+
+When a review turns up something in another file that is outside the current pass (an overclaim in an essay that a note has just corrected, say), add it to that file's frontmatter:
+
+```yaml
+review-notes:
+  - "2026-09-26: What is wrong, where, and which pass should fix it."
+```
+
+Date it, say where and what, and name the pass that should deal with it. `review-status.mjs` prints each note under its file while the file has steps pending, and lists notes on fully reviewed files separately, since no pipeline step will reopen those. Anything bigger than a fix to one file is a WP issue instead. Adopted 2026-09-26.
