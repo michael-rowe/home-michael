@@ -20,11 +20,6 @@ category:
   - Technology
 draft: false
 enableToc: true
-reviewed:
-  - writing_style
-  - blog_writer
-  - copy_editor
-  - SEO_optimiser
 aliases:
   - posts/building-the-scaffold
 linkedin:

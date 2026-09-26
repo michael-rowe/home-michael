@@ -20,11 +20,6 @@ draft: false
 enableToc: true
 aliases:
   - posts/seven-principles-ai-collaboration
-reviewed:
-  - writing_style
-  - blog_writer
-  - copy_editor
-  - SEO_optimiser
 linkedin:
 
 ---

@@ -33,11 +33,6 @@ aliases:
   - LLM human similarities
   - cognitive architecture parallels
 enableToc: true
-reviewed:
-  - writing_style
-  - blog_writer
-  - copy_editor
-  - SEO_optimiser
 linkedin:
 
 ---

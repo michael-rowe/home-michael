@@ -32,11 +32,6 @@ related:
   - '[[Posts/2026-01-27-what-does-scholarship-sound-like]]'
 draft: false
 enableToc: true
-reviewed:
-  - writing_style
-  - blog_writer
-  - copy_editor
-  - SEO_optimiser
 linkedin:
 
 ---

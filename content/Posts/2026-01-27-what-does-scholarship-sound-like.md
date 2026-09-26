@@ -33,11 +33,6 @@ related:
   - '[[Posts/2026-01-29-essays-as-scholarship]]'
 draft: false
 enableToc: true
-reviewed:
-  - writing_style
-  - blog_writer
-  - copy_editor
-  - SEO_optimiser
 linkedin:
 
 ---
