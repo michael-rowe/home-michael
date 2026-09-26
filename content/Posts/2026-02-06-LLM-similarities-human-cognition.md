@@ -24,12 +24,14 @@ tags:
 category:
   - Technology
 related:
-  - '[[Notes/human cognition and LLM parallels]]'
   - '[[Notes/context engineering]]'
   - '[[Notes/large language models]]'
 draft: false
 aliases:
   - posts/ai-human-cognition-similarities
+  - Notes/human cognition and LLM parallels
+  - LLM human similarities
+  - cognitive architecture parallels
 enableToc: true
 reviewed:
   - writing_style
@@ -44,7 +46,7 @@ linkedin:
 
 The discourse around AI and human cognition seems to have settled into a familiar pattern. Academics, technologists, and knowledge workers are quick to explain why [[large language models|LLMs]] are fundamentally different from human thinking. [They don't really learn](https://theconversation.com/ai-doesnt-really-learn-and-knowing-why-will-help-you-use-it-more-responsibly-250923), we insist (Riemer & Peter, 2025). Or, they [don't understand the world](https://news.harvard.edu/gazette/story/2025/07/does-ai-understand/) (Boles, 2025). Or, it's all statistical correlation without reasoning (Bender, et al., 2019). The subtext is clear: whatever these systems are doing, it's categorically different from what happens in human minds.
 
-In this post I'm not concerned with disproving those claims, or in denying that the differences matter. Instead, I want to invert the question. Instead of describing all the ways that LLMs fail to measure up to human cognition, I want to use the terminology of language models to explore the [[human cognition and LLM parallels|similarities between AI and human thinking]]. Not to claim that human brains literally work like language models, but to explore what the similarities might reveal about our own cognitive architecture, and why we're so invested in denying that they exist.
+In this post I'm not concerned with disproving those claims, or in denying that the differences matter. Instead, I want to invert the question. Instead of describing all the ways that LLMs fail to measure up to human cognition, I want to use the terminology of language models to explore the similarities between AI and human thinking. Not to claim that human brains literally work like language models, but to explore what the similarities might reveal about our own cognitive architecture, and why we're so invested in denying that they exist.
 
 ## Context windows and the limits of working memory
 
