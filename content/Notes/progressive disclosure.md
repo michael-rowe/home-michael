@@ -4,7 +4,6 @@ description: A design principle where detail is revealed as it becomes relevant 
 aliases:
   - progressive disclosure of context
 type: note
-kind: Technical
 author: "[[Michael Rowe]]"
 created: 2026-09-18
 updated: 2026-09-18
