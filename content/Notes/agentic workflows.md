@@ -21,6 +21,7 @@ related:
   - "[[Notes/documentation debt]]"
   - "[[Notes/plain text]]"
   - "[[Notes/markdown]]"
+  - "[[Notes/headless AI]]"
 keyphrase: human role in agentic workflows
 reviewed:
   - note_writer
@@ -76,6 +77,7 @@ I think this is an important conversation that most organisations have not yet b
 - [[Notes/context engineering|Context engineering]]: building the structured knowledge systems that agentic workflows depend on
 - [[Notes/documentation debt|Documentation debt]]: what accumulates when context is not maintained
 - [[Notes/Claude Code|Claude Code]]: one example of an agentic tool operating through the command line
+- [[Notes/headless AI|Headless AI]]: running a model as one step in a script or on a schedule, with no chat window and nobody watching
 - [[Essays/documentation-as-infrastructure|Documentation as infrastructure]]: the institutional implications of agentic workflows at scale
 
 ---
