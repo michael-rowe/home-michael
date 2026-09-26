@@ -55,7 +55,7 @@ The binding rules for how to think, what earns public form, and how to write —
 
 @~/harness/rules.md
 
-**Read the writing persona before writing any prose for this site.** `content/personas/writing_style.md` (alias `+style`) is not a review step applied afterwards — it governs drafting. Any session that writes or rewrites body text in `content/` reads it first and applies it unasked, whatever the content type. The bullets below are the summary; the persona file is the binding version, and the parts that matter most are the ones no word-level check catches: rationing technique, the named tells, contractions, and the calm rather than percussive register.
+**Read the writing persona before writing any prose for this site.** `content/personas/writing_style.md` (alias `+style`) is not a review step applied afterwards — it governs drafting. Any session that writes or rewrites body text in `content/` reads it first and applies it unasked, whatever the content type. Essays add `writing_style_article.md` (`+article`); presentation pages and slides add `writing_style_talk.md` (`+talk`). The bullets below are the summary; the persona file is the binding version, and the parts that matter most are the ones no word-level check catches: rationing technique, the named tells, contractions, and the calm rather than percussive register.
 
 When generating content for this site:
 
@@ -593,7 +593,7 @@ Read personas/[name].md and apply it to [target]
 ```
 
 Available personas:
-- `writing_style.md` — generates new content in site voice
+- `writing_style.md` — generates new content in site voice (the foundation; `writing_style_article.md` and `writing_style_talk.md` layer on it for essays and presentations)
 - `essay_writer.md` — academic essay structure, methodology, positionality
 - `blog_writer.md` — blog post structure, narrative velocity, signal-to-noise
 - `note_writer.md` — concept note structure, definition clarity, retrieval fitness

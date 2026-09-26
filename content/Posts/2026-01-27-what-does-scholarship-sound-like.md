@@ -34,7 +34,9 @@ related:
 draft: false
 enableToc: true
 linkedin:
-
+review-notes:
+  - "2026-09-26: 'Research councils and funding bodies have begun recognising creative outputs as scholarly work' (The case for podcasts as scholarship) has no source; REF 2021 output types may cover it. copy_editor: add one or narrow the claim."
+  - "2026-09-26: Rename '## References' to '## Sources', the site convention. copy_editor."
 ---
 > [!info] Scholarship is not defined by its format
 > Audio reveals dimensions of knowledge that text obscures—hesitation, emphasis, the way experts navigate uncertainty in real time. If scholarship involves rigorous investigation and contribution to knowledge, then the form matters less than the quality of thinking it embodies.
@@ -42,20 +44,6 @@ linkedin:
 The PDF is the dominant format for scholarly communication. We write articles, format them for print, and distribute them as static documents—even when the work they describe is dynamic, evolving, and deeply human. But [[Boyer's model of scholarship|scholarship]] has always been more than text on a page. Before the journal article, there were letters, lectures, salons, and conversations. Knowledge has always moved through voice.
 
 What if we took this seriously? What would it mean to recognise audio scholarship—podcasts, recorded dialogues, oral histories—as legitimate scholarly output?
-
-## The case for podcasts as scholarship
-
-Research councils and funding bodies have begun recognising creative outputs as scholarly work. The logic is sound: what matters is the quality of the thinking, not the format through which it's communicated. A well-crafted documentary, a thoughtfully designed exhibition, or a carefully produced podcast can demonstrate scholarly rigour just as much as a journal article.
-
-This recognition opens space for formats that have been historically marginalised. Audio scholarship—podcasts, recorded lectures, oral histories, sound-based research—deserves consideration as part of this broader rethinking of what counts.
-
-There are good reasons to take audio seriously as a scholarly medium:
-
-1. **Access**: Audio enables scholars who, for legitimate reasons, may not write traditional academic papers to contribute. Some ideas are better spoken than written. Some voices are excluded by the conventions of academic prose.
-2. **Diversity**: Audio can be produced in any language, preserving the cadence, idiom, and cultural texture that translation often loses. It can include voices that academic writing typically filters out.
-3. **Conversation as knowledge creation**: Dialogue generates ideas that neither participant would have reached alone. The best scholarly conversations are genuinely generative—new understanding emerges from the interaction itself.
-4. **Reach**: Well-produced audio can engage audiences far beyond those who read academic papers. This matters if we believe scholarship should contribute to public understanding.
-5. **Presence**: Voice carries meaning that text cannot. Hesitation, emphasis, humour, doubt—the paralinguistic dimensions of speech communicate something about how knowledge is held, not just what is claimed.
 
 ## What do we mean by scholarship?
 
@@ -79,11 +67,21 @@ Each of these can be realised through audio:
 - **Application**: Audio can translate scholarly knowledge into forms that practitioners, policymakers, and publics can engage with. It can explore how ideas might be applied before formal testing.
 - **Teaching**: The best scholarly podcasts are pedagogical. They model intellectual engagement, demonstrate how experts think, and invite listeners into ongoing conversations.
 
+## The case for podcasts as scholarship
+
+Research councils and funding bodies have begun recognising creative outputs as scholarly work. The logic follows from the definition above: a well-crafted documentary, a thoughtfully designed exhibition, or a carefully produced podcast can demonstrate scholarly rigour just as much as a journal article.
+
+This recognition opens space for formats that have been historically marginalised, and audio is one of them. Beyond the fit with Boyer's model, there are practical reasons to take it seriously as a scholarly medium:
+
+1. **Access**: Audio enables scholars who, for legitimate reasons, may not write traditional academic papers to contribute. Some ideas are better spoken than written. Some voices are excluded by the conventions of academic prose.
+2. **Diversity**: Audio can be produced in any language, preserving the cadence, idiom, and cultural texture that translation often loses. It can include voices that academic writing typically filters out.
+3. **Reach**: Well-produced audio can engage audiences far beyond those who read academic papers. This matters if we believe scholarship should contribute to public understanding.
+
 ## Audio in an age of AI
 
 The landscape has shifted dramatically. [[large language models|AI]] can now generate podcast-style discussions from documents, complete with synthetic voices that sound remarkably human. Services can transcribe and summarise audio instantly. The technical barriers to producing and consuming audio scholarship have largely dissolved.
 
-This creates both opportunities and risks. On one hand, the tools for creating audio scholarship are more accessible than ever. Scholars can record, edit, publish, and distribute without expensive equipment or specialised skills. AI can assist with transcription, translation, and discoverability.
+This creates both opportunities and risks. On one hand, scholars can record, edit, publish, and distribute without expensive equipment or specialised skills, and AI can assist with transcription, translation, and discoverability.
 
 On the other hand, the ease of production raises questions about quality. If anyone can generate a podcast in minutes, what distinguishes scholarly audio from mere content? The answer lies where it always has: in the rigour of the thinking, the depth of engagement, and the accountability to a scholarly community.
 

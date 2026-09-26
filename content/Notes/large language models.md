@@ -1,92 +1,82 @@
 ---
 title: Large language models
 description: >-
-  Large language models are deep learning models with billions of parameters,
-  trained on vast text corpora using self-supervised learning, capable of
-  general-purpose language tasks.
+  A plain explanation of large language models: what they are, how they are
+  trained, where their limits come from, and what their ability to produce
+  fluent text means for assessment in health professions education.
+meta-description: "Large language models in health professions education: what LLMs are, how they work, and why fluent AI text exposes what assessment measures."
+keyphrase: "large language models in health professions education"
 aliases:
   - LLM
   - LLMs
 type: note
 author: '[[Michael Rowe]]'
 created: 2026-02-04
-updated: 2026-02-04
+updated: 2026-09-26
+draft: false
 tags:
+  - language-model
   - generative-ai
   - machine-learning
-category: Technology
+  - health-professions-education
+category:
+  - Technology
 related:
+  - '[[Notes/context window]]'
+  - '[[Notes/hallucination]]'
+  - '[[Notes/prompt engineering]]'
+  - '[[Notes/embeddings]]'
+  - '[[Essays/taste-and-judgement]]'
 builds_on:
-  - '[[Transformer models]]'
-  - '[[self-supervised learning]]'
 leads_to:
-  - '[[AI agents]]'
-  - '[[retrieval augmented generation]]'
+  - '[[Notes/ai-agents]]'
+  - '[[Notes/retrieval augmented generation]]'
 contradicts: null
 source: ''
 source_url: ''
 linkedin:
-
+reviewed:
+  - note_writer
+  - writing_style
+  - SEO_optimiser
+  - copy_editor
 ---
 
-> [!info] Scale driving emergence
-> LLMs represent a fundamental shift in how AI capabilities develop—not through careful engineering of specific skills but through emergent properties arising from scale. This has profound implications for education, where we've historically assumed that producing certain artifacts (essays, analyses, code) required and therefore demonstrated understanding.
+> [!info] Large language models make fluent text cheap to produce
+> A large language model is trained on a vast amount of text to predict what comes next, and at sufficient scale that one task gives it the general ability to summarise, translate, explain, and write on request. Because it can produce a fluent essay or case study in seconds, it exposes how often health professions education has taken a finished piece of work as evidence of the understanding behind it.
 
 ## Large language models
 
-**One-sentence definition:** Deep learning models with billions of parameters, trained on vast text corpora using self-supervised learning, capable of general-purpose language understanding and generation tasks.
+**One-sentence definition:** A large language model (LLM) is an AI system trained on a very large body of text to predict the next word in a sequence, which at sufficient scale lets it summarise, translate, answer questions, and write in almost any style when asked.
 
-The defining characteristic of LLMs isn't what they can do but how their capabilities emerge. Earlier NLP approaches required building specialised models for specific tasks—one system for translation, another for summarisation, another for question-answering. LLMs are general-purpose systems whose capabilities arise from scale rather than explicit programming. Feed them enough data, give them enough parameters, provide enough computing power, and they develop abilities their creators didn't specifically design.
+Earlier language software was built one task at a time, with one system for translation, another for summarising, and another for answering questions. An LLM is a single general system: you describe the task in plain language, perhaps with an example or two, and it does it without being retrained (Brown et al., 2020). That generality came mainly from scale, meaning more text, larger models, and more computing power, and some of what these models can do wasn't designed in by the people who built them. Early reports described particular abilities appearing suddenly once models passed a certain size. That picture is disputed, since some of the apparent jumps depend on how the abilities were measured (Schaeffer et al., 2023).
 
-This emergence makes them simultaneously powerful and difficult to fully understand. We know they work. We're less certain about why specific capabilities appear at specific scales or how to predict what new abilities might emerge as models grow larger.
+## How they work
 
-## How they actually work
+LLMs are built on the transformer,[^transformer] an architecture published by researchers at Google in 2017 (Vaswani et al., 2017). Training happens in two stages. In pretraining, the model works through billions of passages of text, repeatedly guessing the next token[^token] and adjusting itself after each guess. Getting good at that guess requires it to pick up grammar, facts, styles of argument, and the ways ideas tend to follow one another, which is why a model trained only to predict text can go on to do much more with it.
 
-LLMs build on transformer architecture introduced by Google in 2017 ("Attention Is All You Need"), which enabled efficient parallel processing of language data through attention mechanisms—systems that weight the importance of different parts of input when generating output.
+In the second stage the model is tuned to follow instructions and to behave helpfully, using techniques such as reinforcement learning from human feedback, in which people rate its answers and the model learns from their preferences. The assistants people use in a chat window are models that have been through both stages.
 
-The training process involves self-supervised learning through next-token prediction. Show the model billions of text sequences and teach it to predict what comes next. This sounds trivial but requires developing sophisticated internal representations of language structure, meaning, and context. The model learns patterns, relationships, and statistical regularities that enable it to generate coherent, contextually appropriate responses.
+## What large language models mean for health professions education
 
-After pretraining on general corpora, models undergo fine-tuning or instruction-tuning to follow directions, maintain helpful behaviour, and align with human values. Techniques like reinforcement learning from human feedback (RLHF) and constitutional AI help shape model behaviour without retraining from scratch.
+LLMs make producing text, code, and summaries cheap, and much of education has relied on the effort of producing a piece of work as evidence of the understanding behind it. A written case study from a dietetics placement, setting out a nutritional assessment of a client, a care plan, and the reasoning for it, was long accepted as evidence that the student could reason through a client's needs. An LLM can now produce a plausible one from a few lines of notes. The case study was always a proxy for the reasoning, and it no longer works as one on its own.
 
-The result: systems that can perform tasks through prompting rather than requiring task-specific retraining. Want it to summarise? Ask it to summarise. Want it to translate? Ask it to translate. Want it to write code? Ask it to write code. This general-purpose capability represents a qualitative shift from earlier approaches.
+Two consequences follow for teaching. The judgement about whether a piece of text serves its purpose, for a particular client or reader in a particular context, stays with the person using the model, which makes [[Essays/taste-and-judgement|taste and judgement]] central to what education has to develop. And because LLMs make different kinds of mistakes from people, working with one can catch errors that each would miss working alone, provided someone checks what the model produces.
 
-## What this means for knowledge work
+## Limits that come from how they work
 
-LLMs make artifact production computationally trivial. Essays, analyses, code, summaries—tasks that previously required substantial human effort—can now be generated in seconds. This reveals an uncomfortable truth: many of our assessment practices were measuring artifact production rather than the understanding we claimed they demonstrated.
+LLMs [[Notes/hallucination|hallucinate]], producing false statements with the same fluency and confidence as true ones. They work within a [[Notes/context window|context window]] that limits how much they can take into account at once, and their knowledge stops at a training cutoff. Better engineering will ease some of these limits, but hallucination comes from the training itself: a model trained to produce plausible continuations isn't checking them against the world, so fluency is a poor guide to accuracy.
 
-The question isn't whether LLMs will transform knowledge work but how we adapt our practices—particularly in education—to a world where generation is easy. Traditional approaches assumed difficulty of production served as a reliable proxy for learning. That assumption no longer holds.
+Because these limits shift as the models change, an institution has to keep evaluating LLMs, with someone responsible for deciding which uses are appropriate at any given time. The comparison with human cognition is explored in *[[Posts/2026-02-06-LLM-similarities-human-cognition|Similarities between AI and human thinking]]*.
 
-Three implications matter most:
+[^transformer]: **Transformer**: the kind of neural network that most current language models use. Its key feature, called attention, lets the model weigh every word in a passage against every other when working out what comes next, which is how it keeps track of meaning across long stretches of text. [Wikipedia](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture))
 
-**First**, we need to distinguish between what can be computationally generated and what requires human judgement. LLMs can produce fluent text, but they cannot determine whether that text serves a particular purpose in a particular context. They lack understanding of goals, values, constraints, and consequences.
-
-**Second**, the shift from creation to curation to taste represents a fundamental change in where human value lies. When AI can generate multiple options quickly, the valuable human skill becomes evaluating which option best serves the purpose. This is why developing [[taste-and-judgement|taste and judgement]] becomes essential rather than peripheral.
-
-**Third**, LLMs exhibit complementary errors to humans—they make different kinds of mistakes. This creates opportunities for productive human-AI collaboration where each compensates for the other's limitations. But it also means we cannot simply delegate tasks to AI without oversight.
-
-## Limits that are not engineering problems
-
-LLMs [[Notes/hallucination|hallucinate]]—generating plausible but false information with confidence. They have [[Notes/context window|context window]] constraints limiting how much information they can process at once. Their knowledge has temporal cutoffs beyond which they cannot reliably answer questions. They struggle with precise reasoning and mathematics despite appearing fluent in these domains.
-
-These aren't merely technical limitations to be overcome with better engineering. Some reflect fundamental characteristics of how LLMs work. They're trained to predict plausible continuations, not to verify factual accuracy. This means fluency and accuracy don't correlate as strongly as we might intuitively expect.
-
-## Scale, governance, and what this says about language
-
-How do emergent capabilities arise from scale and architecture? We observe that certain abilities appear at certain model sizes, but we don't fully understand the mechanisms. How will LLMs evolve to balance capabilities with safety, transparency, and alignment? The field moves faster than our ability to develop appropriate governance frameworks.
-
-What are the parallels and differences with human cognition? LLMs process language in ways that differ fundamentally from human understanding, yet they produce results that can be indistinguishable from human output. What does this tell us about language, thought, and intelligence?
-
-The practical implication for organisations: LLMs are not a finished technology to deploy but an evolving capability requiring continuous evaluation and adaptation. The question isn't "should we use LLMs?" but "how do we develop organisational capacity to make informed choices about LLM use as capabilities evolve?"
+[^token]: **Token**: the unit a language model reads and writes in, usually a whole short word or a fragment of a longer one. In English a token averages about three-quarters of a word, so a 5,000-word assignment is roughly 6,700 tokens. [Wikipedia](https://en.wikipedia.org/wiki/Large_language_model#Tokenization)
 
 ---
 
 ## Sources
 
-- Vaswani, A. et al. (2017). Attention Is All You Need. *NeurIPS*.
-- Brown, T. et al. (2020). Language Models are Few-Shot Learners. *NeurIPS*.
-
----
-
-## Notes
-
-This note focuses on what scholars and knowledge workers need to understand about LLMs rather than providing comprehensive technical coverage. The conceptual framework—scale driving emergent capabilities, self-supervised pretraining, alignment through RLHF—provides more durable understanding than specific model comparisons, which date quickly as the field evolves.
+- Brown, T. B., et al. (2020). Language models are few-shot learners. *Advances in Neural Information Processing Systems, 33*, 1877–1901. https://arxiv.org/abs/2005.14165
+- Schaeffer, R., Miranda, B., & Koyejo, S. (2023). Are emergent abilities of large language models a mirage? *Advances in Neural Information Processing Systems, 36*. https://arxiv.org/abs/2304.15004
+- Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. *Advances in Neural Information Processing Systems, 30*. https://arxiv.org/abs/1706.03762

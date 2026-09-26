@@ -53,7 +53,7 @@ When picking up the queue:
 3. Apply the next pending persona for that file, in pipeline order.
    - **Always use the template for the content type** (see the pipeline table above) to verify required frontmatter fields, callouts, and section structure are present. If the file has no frontmatter, create it from the template.
    - **The `copy_editor` pass does three things beyond the persona, as edits rather than flags** (decided 2026-09-24, on `Notes/context engineering.md`):
-     - **Complete the sources.** Every reference gets a URL and, where there is one, a site or publisher name, in APA. Look in the corpus first (Zotero, Readwise), then the web; confirm each URL resolves and matches the author and title before adding it. Never guess one.
+     - **Complete the sources.** Every reference gets a URL and, where there is one, a site or publisher name, in APA. House exception: a reference with many authors (more than three or so) gives the first author and "et al.", not APA 7's list of up to 20 names — it serves the citation without costing the reader time (Michael, 2026-09-26). Look in the corpus first (Zotero, Readwise), then the web; confirm each URL resolves and matches the author and title before adding it. Never guess one.
      - **Remove cross-section repetition.** Where a later section restates something an earlier one already said, cut or compress the restatement instead of noting it.
      - **Gloss jargon in footnotes.** Apply *Teach the reader* in `CLAUDE.md`: a term the reader can't be assumed to know gets a footnote at first use — bold term, one or two plain sentences, a health professions education example where one helps, a Wikipedia link.
 4. Tell the user what changed and wait for approval.
