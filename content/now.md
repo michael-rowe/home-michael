@@ -17,7 +17,6 @@ I'm actively working on:
 
 Writing:
 
-- **[[Courses/AI literacy/index|AI literacy for academics]]**: a course across six dimensions, from basic competence through adaptation to transformation.
 - A book on AI for doctoral researchers with [Springer Nature](https://www.researchmasterminds.com/ai-and-your-doctorate), co-authored with Benita Olivier, and a chapter for a Springer reference volume on AI in medical education.
 
 ---

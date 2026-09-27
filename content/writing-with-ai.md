@@ -10,7 +10,7 @@ How much of any given page is me varies by what you're reading, and the variatio
 
 Notes and posts often start as a conversation. I bring the framework, the reading, and whatever argument I'm trying to test, and Claude drafts, restructures, pushes back, and digs up the thing I wrote three months ago that doesn't sit comfortably with what I'm claiming now. A fair amount of the prose that results isn't mine in any sentence-by-sentence sense.
 
-Essays work the other way round. An essay is how I find out what I think, so handing the drafting over would defeat the point of writing one; the argument gets worked out in my own writing, and Claude reads it, presses on the weak parts, and copy-edits. Courses sit somewhere in between, closer to the posts than the essays.
+Essays work the other way round. An essay is how I find out what I think, so handing the drafting over would defeat the point of writing one; the argument gets worked out in my own writing, and Claude reads it, presses on the weak parts, and copy-edits.
 
 Then there's the checking, which is where most of the actual labour goes. Claims about the world get verified: citations, quotations, numbers, whether a source says what I've said it says. For a long time that was the part I wouldn't hand over. It's where these models were weakest, and until I had a workflow I could trust, I was reluctant to let them near it. I've since tested and refined that process, and it's now far better and more reliable at the checking than I am.
 

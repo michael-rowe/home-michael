@@ -19,7 +19,6 @@ category:
   - Technology
 related:
   - "[[Essays/context-sovereignty]]"
-  - "[[Courses/AI literacy/04 Transformation/01 context sovereignty]]"
   - "[[Notes/context engineering]]"
   - "[[Notes/contextual interoperability]]"
   - "[[Notes/intelligence as a service]]"

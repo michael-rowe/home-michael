@@ -18,7 +18,6 @@ related:
   - "[[Notes/AI literacy]]"
   - "[[Frameworks/AI literacy development framework]]"
   - "[[Notes/common architecture of literacy]]"
-  - "[[Courses/AI literacy/index]]"
   - "[[Notes/AI-forward]]"
 reviewed:
   - note_writer

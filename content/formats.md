@@ -15,8 +15,6 @@ Content on this site is structured into distinct formats, each with a different 
 
 <i class="ph ph-compass"></i> **Guide** — A one-page reference condensing a framework or essay into something usable in teaching and supervision.
 
-<i class="ph ph-graduation-cap"></i> **Course** — A structured, multi-lesson programme for developing a practical skill or working through a complex topic systematically.
-
 ---
 
 [[index|← Back to home]]

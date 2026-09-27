@@ -327,7 +327,7 @@ Content lives in `content/` directory (ignored by git per configuration):
 | `content/Essays/` | Long-form academic essays with abstracts, versioning, DOIs |
 | `content/Posts/` | Shorter blog-style commentary and analysis |
 | `content/Notes/` | Concept notes and knowledge management entries |
-| `content/Courses/` | Course materials organised by course name, then lesson files |
+| ~~`content/Courses/`~~ | **Removed 2026-09-27.** All six courses were unpublished and moved off the site (to `~/Desktop/Courses/`); the Courses menu entry went with them. The `lesson`/`course` schemas and course components remain in the code, dormant. Record `2026-09-27-unpublish-the-courses` |
 | `content/Bibliography/` | Annotated bibliography entries |
 | `content/Frameworks/` | Framework documents |
 | `content/Newsletters/` | Newsletter drafts and archives |

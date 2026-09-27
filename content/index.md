@@ -1,7 +1,7 @@
 ---
 title: Trying to get better at getting better
 tab-title: /home/michael
-meta-description: "Michael Rowe on scholarship, teaching and technology: blog posts, essays, courses, notes and working software on how we learn, teach, and share what we know."
+meta-description: "Michael Rowe on scholarship, teaching and technology: blog posts, essays, notes and working software on how we learn, teach, and share what we know."
 ---
 
 <img class="profile-photo" src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" />I'm an Associate Professor and Director of Teaching and Learning at the University of Lincoln. For most of my academic career my work has been informed by one question: how we learn to do difficult things well. Teaching, technology and research all answer part of it, and AI has recently become central to that conversation. I try to work in public following the traditions of open scholarship and open source software, where ideas are developed in the open so that others can see and use them. This is partly because I think knowledge belongs to more people than currently hold it, and partly because the work gets better when others can check it.
@@ -33,7 +33,6 @@ The projects I'm working on right now, mostly focused on professional developmen
 If you're new here, these are representative of the work:
 
 - A post on [[Posts/2026-03-07-ai-personas-for-professional-practice|building AI personas for professional practice]], and why the real leverage with AI isn't prompt engineering but knowing your professional commitments well enough to turn them into context an AI can work within.
-- A course I built on developing [[Courses/AI literacy/index|AI literacy for academics]], across six dimensions from basic competence to transformation.
 - A one-page guide explaining the design principles of my [[Guides/ai-hpe-framework-guide|theoretical framework for integrating AI]] into health professions education.
 - An essay on [[Essays/problem-based-learning-structural-conditions-ai|problem-based learning and AI]], arguing that the features that make PBL work — collaborative inquiry, facilitation, and metacognition — are the same conditions that make AI integration educationally productive.
 - A podcast conversation with Sharon Black on [[Podcasts/2026-09-02-leadership-biscuits-ai-leadership-team|what happens when AI joins the leadership team]], on why AI is a leadership question rather than an IT project in health and social care.

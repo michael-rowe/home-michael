@@ -28,7 +28,7 @@ The design prioritises readability and connection-making. The graph view and bac
 
 This site embodies several principles:
 
-**Work in public** — Ideas develop through iteration. Notes, essays, and courses exist at different stages of development rather than only appearing when "finished."
+**Work in public** — Ideas develop through iteration. Notes, posts, and essays exist at different stages of development rather than only appearing when "finished."
 
 **Connection over collection** — The value is in how ideas link together, not in accumulating isolated pages. The graph view and backlinks make this visible.
 

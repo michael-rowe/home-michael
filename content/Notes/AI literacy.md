@@ -42,7 +42,7 @@ A person can understand how [[Notes/large language models|language models]] work
 The six dimensions come from well beyond the AI literacy literature. They appear across the information, media, digital, and data literacy traditions, where the content changes from one domain to the next and the [[Notes/common architecture of literacy|common architecture of literacy]] underneath stays the same.
 
 1. **Access and recognition** — understanding what AI systems are and identifying when they are relevant
-2. **Critical evaluation** — assessing AI outputs for quality, accuracy, reliability, and bias; understanding [[Courses/AI literacy/01 Foundation/01 AI as a cognitive partner#Understanding complementary errors|complementary errors]]
+2. **Critical evaluation** — assessing AI outputs for quality, accuracy, reliability, and bias; understanding complementary errors
 3. **Functional application** — practical competence with prompting, tool selection, and structured engagement
 4. **Creation and communication** — generating meaningful outputs through collaboration with AI while maintaining distinctive voice
 5. **Ethical awareness** — understanding social, professional, and civic implications of AI engagement
@@ -63,9 +63,3 @@ AI literacy is neither binary nor universal — it develops through increasing s
 - Allen, L. K., & Kendeou, P. (2024). ED-AI Lit: An interdisciplinary framework for AI literacy in education. *Policy Insights from the Behavioral and Brain Sciences*, *11*(1), 3–10. https://doi.org/10.1177/23727322231220339
 - Association of College & Research Libraries. (2016). *Framework for information literacy for higher education*. ACRL. https://www.ala.org/sites/default/files/acrl/content/issues/infolit/framework1.pdf
 - Long, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. In *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems* (pp. 1–16). ACM. https://doi.org/10.1145/3313831.3376727
-
----
-
-## Notes
-
-The [[Courses/AI literacy/index|AI literacy course]] is built on the same six dimensions, with a foundation stage before the three set out in [[Notes/developing AI literacy|developing AI literacy]].
