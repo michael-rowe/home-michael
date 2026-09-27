@@ -267,17 +267,21 @@ export function renderPage(
           Skip to content
         </a>
         <div id="quartz-root" class="page">
+          {/* Site navigation sits before the page grid and outside <main> (PFL-9):
+              it is the first thing on screen, so it is first in the tab order,
+              and "Skip to content" now skips it. Its bars are position: fixed,
+              so moving it here changes no layout. */}
+          <Header {...componentData}>
+            {header.map((HeaderComponent) => (
+              <HeaderComponent {...componentData} />
+            ))}
+          </Header>
           <Body {...componentData}>
             {LeftComponent}
             {/* `main` landmark: lets assistive tech jump past the nav and sidebars.
                 Kept as class `center` — every rule targeting it is class-based. */}
             <main id="main-content" tabIndex={-1} class="center">
               <div class="page-header">
-                <Header {...componentData}>
-                  {header.map((HeaderComponent) => (
-                    <HeaderComponent {...componentData} />
-                  ))}
-                </Header>
                 <div class="popover-hint">
                   {beforeBody.map((BodyComponent) => (
                     <BodyComponent {...componentData} />

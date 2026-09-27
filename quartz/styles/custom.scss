@@ -12,6 +12,24 @@ html {
   scroll-padding-top: 5rem;
 }
 
+// Space above the first line of a page (PFL-9). The site header used to sit
+// inside .page-header, where its 2rem margins made this space and absorbed the
+// first line's own top margin; it now sits outside <main>, so the offsets are
+// set here — 2rem, or 4rem under 800px, where .page-header has no margin of its
+// own. Here rather than in Header.tsx because component CSS is emitted before
+// base.scss, whose mobile rule zeroes .page-header's padding.
+.page > #quartz-body .page-header {
+  padding-top: 2rem;
+
+  @media all and (max-width: 800px) {
+    padding-top: 4rem;
+  }
+
+  & > .popover-hint > :first-child {
+    margin-top: 0;
+  }
+}
+
 // Skip link: first thing in the tab order, hidden until focused. Sits above
 // the fixed top nav (z-index 200) so it is never clipped.
 .skip-link {
