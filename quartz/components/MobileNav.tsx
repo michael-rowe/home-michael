@@ -1,3 +1,4 @@
+import { Wordmark, wordmarkCss } from "./Wordmark"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { FullSlug, resolveRelative, simplifySlug } from "../util/path"
 import { byDateAndAlphabetical } from "./PageList"
@@ -156,6 +157,7 @@ export default ((opts?: Partial<MobileNavOptions>) => {
 
     return (
       <div class={`mobile-nav ${displayClass ?? ""}`}>
+        <Wordmark href={resolveRelative(fileData.slug!, "index" as FullSlug)} class="mobile-nav-wordmark" />
         <div class="mobile-nav-controls">
           <button class="darkmode" aria-label="Toggle dark mode">
             <svg xmlns="http://www.w3.org/2000/svg" class="dayIcon" width="22" height="22" viewBox="0 0 256 256" fill="currentColor">
@@ -190,7 +192,7 @@ export default ((opts?: Partial<MobileNavOptions>) => {
         </div>
         <nav class="mobile-nav-content" id="mobile-nav-content" aria-label="Site menu" inert>
           <div class="mobile-nav-header">
-            <span class="mobile-nav-site-title">{cfg.pageTitle}</span>
+            <span class="mobile-nav-site-title">Michael Rowe</span>
             <button
               type="button"
               class="mobile-nav-close"
@@ -259,17 +261,26 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     )
   }
 
-  MobileNav.css = `
+  MobileNav.css = wordmarkCss + `
 .mobile-nav {
   display: none;
 }
 
 @media (max-width: 800px) {
+  /* A top bar like the desktop one (PFL-9): wordmark left, controls right,
+     on the page ground with a hairline beneath, so text never runs under the
+     floating buttons. */
   .mobile-nav {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     position: fixed;
-    top: 0.5rem;
-    right: 0.5rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    background-color: var(--light);
+    border-bottom: 1px solid var(--lightgray);
     z-index: 200;
   }
 
