@@ -96,11 +96,10 @@ export default ((opts?: Partial<LessonNavOptions>) => {
   flex-direction: column;
   padding: 1rem 1.5rem;
   border: 1px solid var(--lightgray);
-  border-radius: 8px;
+  border-radius: 0;
   background-color: var(--light);
   text-decoration: none;
-  transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease,
-    box-shadow 0.2s ease;
+  transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
   min-width: 200px;
   max-width: 45%;
 }
@@ -108,8 +107,6 @@ export default ((opts?: Partial<LessonNavOptions>) => {
 .lesson-nav-button:hover {
   border-color: var(--secondary);
   background-color: var(--highlight);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .lesson-nav-prev {

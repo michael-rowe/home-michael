@@ -102,7 +102,7 @@ export default ((opts?: Partial<CourseGridOptions>) => {
   padding: 1rem 1.25rem;
   background-color: color-mix(in srgb, var(--card-accent, var(--lightgray)) 10%, var(--light));
   border: 1px solid color-mix(in srgb, var(--card-accent, var(--lightgray)) 25%, transparent);
-  border-radius: 8px;
+  border-radius: 0;
   text-decoration: none !important;
   color: inherit;
   transition: border-color 0.15s ease;
@@ -116,7 +116,7 @@ export default ((opts?: Partial<CourseGridOptions>) => {
   display: inline-flex;
   align-self: flex-start;
   padding: 0.2em 0.6em;
-  border-radius: 3px;
+  border-radius: 0;
   font-size: 0.8rem;
   font-weight: 500;
   letter-spacing: 0.05em;

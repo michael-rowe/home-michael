@@ -173,7 +173,7 @@ PageList.css = `
 
 .section .category-link {
   background-color: var(--highlight);
-  border-radius: 4px;
+  border-radius: 0;
   padding: 0.2rem 0.5rem;
   font-size: 0.85rem;
   color: var(--secondary);
@@ -195,7 +195,7 @@ PageList.css = `
 
 .section .tag-link {
   background-color: var(--highlight);
-  border-radius: 4px;
+  border-radius: 0;
   padding: 0.2rem 0.5rem;
   font-size: 0.85rem;
   color: var(--secondary);
