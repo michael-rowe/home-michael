@@ -1,5 +1,8 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { identityColors, loadIdentity } from "./quartz/util/identity"
+
+const identity = loadIdentity()
 
 /**
  * Quartz 4 Configuration
@@ -23,24 +26,15 @@ const config: QuartzConfig = {
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
+      // House identity type (PFL-9): Plex Sans throughout, Plex Mono for code and labels
       typography: {
-        header: "Outfit",
-        body: "Crimson Pro",
-        code: "JetBrains Mono",
+        header: { name: "IBM Plex Sans", weights: [400, 500, 600, 700] },
+        body: { name: "IBM Plex Sans", weights: [400, 500, 600, 700], includeItalic: true },
+        code: { name: "IBM Plex Mono", weights: [400, 500, 600] },
       },
       colors: {
-        lightMode: {
-          light: "#faf9f7",
-          lightgray: "#e8e2d9",
-          // 4.56:1 on --light — muted, but passes WCAG AA for text (was #a09990, 2.68:1)
-          gray: "#78716c",
-          darkgray: "#57534e",
-          dark: "#1c1917",
-          secondary: "#1d70b8",
-          tertiary: "#003078",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
+        // From formats/identities/michael.css (PFL-9) — edit the tokens, not here
+        lightMode: identityColors(identity.light),
         darkMode: {
           light: "#131009",
           lightgray: "#2a2418",

@@ -2,7 +2,7 @@
 
 // put your custom CSS here!
 
-// Base font size — cascades to all components; Crimson Pro reads well at 18px
+// Base font size — cascades to all components. IBM Plex Sans at 18px (PFL-9)
 html {
   font-size: 18px;
   line-height: 1.5;
@@ -42,7 +42,8 @@ main:focus {
   outline: none;
 }
 
-// Typography: UI elements use Inter (headerFont), not Lora
+// Typography: UI elements use headerFont. Header and body are both IBM Plex
+// Sans since PFL-9; the rule is kept so they can diverge again without hunting.
 .sidebar,
 .top-nav,
 .mobile-nav,
@@ -54,14 +55,38 @@ footer {
   font-family: var(--headerFont);
 }
 
-// Article body: Crimson Pro reads well at 1.05rem/18px base; override base.scss's
-// fixed 1.6rem line-height on p/li so paragraphs and lists breathe properly
+// Article body: Plex Sans at the 18px base; override base.scss's fixed 1.6rem
+// line-height on p/li. A sans needs more leading than the serif did.
 article {
-  font-size: 1.05rem;
+  font-size: 1rem;
 
   p, li, td {
-    line-height: 1.55;
+    line-height: 1.65;
   }
+}
+
+// Measure. The centre column is `auto` between two 320px sidebars, so on a wide
+// screen a line ran past 1,200px. Capped at 44rem (~80 characters of Plex Sans);
+// no change at 1440px and below.
+.page > #quartz-body .center {
+  // base.scss sets min-width: 100%, which beats max-width; release it
+  min-width: 0;
+  width: 100%;
+  max-width: 44rem;
+}
+
+// Footnote markers: keep them from opening the leading of their line
+// (the ref is an a.internal, which base.scss gives a 1.4rem line-height of its own)
+article sup,
+article sup a.internal {
+  line-height: 0;
+}
+
+// Inline links in running text: 500, not base.scss's 600, which reads as bold
+// in a sans body. Weight is not what marks a link; the underline below is.
+article p a,
+article li a {
+  font-weight: 500;
 }
 
 // Underline body content links for accessibility (colour alone is insufficient)
@@ -76,28 +101,35 @@ article a:not(.tag-link):not([role="anchor"]) {
   margin-right: 15%;
 }
 
-// Heading sizes, weight, and colour
+// Heading sizes, weight, and colour. House identity: Plex Sans 700, tight
+// tracking; with one family for heading and body, weight carries the hierarchy.
+// Headings are ink: in the house identity blue never carries a heading, only
+// links, rules and the tinted phrase (identity-michael.md, PFL-9)
 h1 {
-  font-size: 2rem;
-  font-weight: 400;
-  color: var(--secondary);
+  font-size: 2.1rem;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+  color: var(--dark);
 }
 
 h2 {
-  font-size: 1.6rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
   color: var(--dark);
 }
 
 h3 {
-  font-size: 1.3rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
   color: var(--dark);
 }
 
 h4, h5, h6 {
-  font-size: 1.1rem;
-  font-weight: 400;
+  font-size: 1.05rem;
+  font-weight: 600;
   color: var(--dark);
 }
 
@@ -117,7 +149,7 @@ ul.toc-content a {
   font-size: 0.8rem;
 }
 
-// Callout titles: use header font (Outfit), regular weight
+// Callout titles: header font, regular weight (restyled in PFL-9 Stage 5)
 .callout-title-inner {
   font-family: var(--headerFont);
   font-weight: 400 !important;
@@ -129,9 +161,10 @@ ul.toc-content a {
 }
 
 
-// Post listings: reduce title weight and increase description size
+// Post listings: titles at 600 so they hold against the description in the
+// same face; description size up
 .section h3 a {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .section .description {
