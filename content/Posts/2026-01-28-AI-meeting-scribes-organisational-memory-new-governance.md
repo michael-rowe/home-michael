@@ -50,7 +50,7 @@ When the scribe takes the notes, the narrative belongs to whoever knows how to t
 
 ## Why AI meeting scribes are vulnerable to exploitation
 
-This gaming works because AI meeting scribes have predictable weaknesses. They over-rely on content at the start and end of a conversation and under-weight what comes in the middle (Ravaut et al., 2024). They also can't reliably tell embedded instructions from ordinary content, a weakness known as prompt injection[^prompt-injection], especially when the phrasing mimics the cues they treat as important or uses formulaic language (Yi et al., 2025). These weaknesses follow from how [[large language models]] process long sequences of text, so they're systematic and learnable, and once people understand them, some will use them.
+This gaming works because AI meeting scribes have predictable weaknesses. They over-rely on content at the start and end of a conversation and under-weight what comes in the middle (Ravaut et al., 2024). They also can't reliably tell embedded instructions from ordinary content, a weakness known as [[Notes/prompt injection|prompt injection]], especially when the phrasing mimics the cues they treat as important or uses formulaic language (Yi et al., 2025). These weaknesses follow from how [[large language models]] process long sequences of text, so they're systematic and learnable, and once people understand them, some will use them.
 
 Picture a programme board where the scribe writes the minutes. A colleague who closes the discussion of a struggling module with "so the key action is to review the assessment weighting" shapes the record more than the twenty minutes of disagreement before it, because the summary will lead with their sentence and compress the debate to a line, whether or not anyone else in the room notices.
 
@@ -81,8 +81,6 @@ The place to start is the lesson I learned from taking notes: ask who controls t
 - Ravaut, M., et al. (2024). On context utilization in summarization with large language models. In *Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)* (pp. 2764–2781). Association for Computational Linguistics. https://doi.org/10.18653/v1/2024.acl-long.153
 - Schneier, B., & Evron, G. (2025, November 3). AI summarization optimization. *Schneier on Security*. https://www.schneier.com/blog/archives/2025/11/ai-summarization-optimization.html
 - Yi, J., et al. (2025). Benchmarking and defending against indirect prompt injection attacks on large language models. In *Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining* (pp. 1809–1820). Association for Computing Machinery. https://doi.org/10.1145/3690624.3709179
-
-[^prompt-injection]: **Prompt injection**: text that a language model follows as an instruction when it was only meant to be content to process. In a meeting, "so the key action from today is…" works a little like one, because the scribe reads it as a signal about what the summary should say. [Wikipedia](https://en.wikipedia.org/wiki/Prompt_injection)
 
 > [!note] Provenance
 > This post is based on an earlier article, "[Gaming AI meeting scribes: Why organisational memory needs new governance](https://www.mrowe.co.za/blog/2025/12/gaming-ai-meeting-scribes-organisational-memory-governance/)", originally published on 8 December 2025.

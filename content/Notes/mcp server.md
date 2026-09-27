@@ -1,124 +1,81 @@
 ---
 title: MCP server
-description: A lightweight programme that exposes specific data sources or capabilities through the Model Context Protocol standard, acting as an adapter between AI systems and diverse data sources.
+description: An MCP server is a small program that connects an AI assistant to one data source or service, such as a reference library, a folder of notes, or a calendar, through the Model Context Protocol. What the server offers sets the limit of what the assistant can see and do there.
 aliases:
   - Model Context Protocol server
   - context server
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-05
-updated: 2026-02-05
+updated: 2026-09-27
+draft: false
 tags:
-  - generative-ai
+  - model-context-protocol
   - context-engineering
-category: Technology
+category:
+  - Technology
 related:
-  - "[[Notes/context engineering]]"
-  - "[[Notes/context sovereignty]]"
-  - "[[Notes/contextual interoperability]]"
   - "[[Notes/model context protocol]]"
-builds_on:
-  - "[[model context protocol]]"
-leads_to:
-contradicts:
-source: ""
-source_url: ""
+  - "[[Notes/Claude Code]]"
+  - "[[Notes/context sovereignty]]"
+  - "[[Notes/prompt injection]]"
+  - "[[Notes/context engineering]]"
+keyphrase: MCP server for educators
+meta-description: "MCP server for educators: what it is, what it lets an AI assistant see and do, and what to check before you connect one to your files."
+reviewed:
+  - note_writer
+  - writing_style
+  - SEO_optimiser
+  - copy_editor
 linkedin:
-
 ---
 
-> [!info] The adapter pattern for AI
-> MCP servers solve a translation problem: your data exists in specific formats with particular access patterns, but AI systems need standardised interfaces. Rather than modifying your data sources or building custom integrations for each AI system, MCP servers act as adapters—translating between your data's native format and the protocol AI systems understand.
+> [!info] The server decides what the AI can reach
+> An MCP server sits between an AI assistant and one of your data sources: your notes, your reference library, or a database. The assistant can only see and do what the server offers it, so choosing or building a server is where you decide how much of your work an AI gets to touch.
 
 ## MCP server
 
-**One-sentence definition:** A lightweight programme that exposes specific data sources or capabilities through the [[Notes/model context protocol|Model Context Protocol]] standard, enabling AI systems to access that data or functionality through standardised interfaces.
+**One-sentence definition:** An MCP server is a small program that makes one data source or service available to AI applications through the [[Notes/model context protocol|Model Context Protocol]], the open standard for connecting AI assistants to external data and tools.
 
-Think of MCP servers as translators. Your file system speaks the language of files and directories. Your database speaks SQL. Your knowledge base has its own API. AI systems speak [[Notes/model context protocol|Model Context Protocol]]. MCP servers translate between these worlds—they understand how to fetch data from your sources and present it in the format AI systems expect.
+A server usually does one job. A file system server lists folders and reads files, a calendar server reads events and creates new ones, and a reference-manager server searches a library and returns citations. The AI application you're working in (Claude Desktop, [[Notes/Claude Code|Claude Code]], or a code editor) connects to whichever servers you've set up, and the assistant sees each one as a list of things it can ask for. Connecting several small servers gives an assistant access to several sources, and none of them needs to know about the others.
 
-Each server typically connects to one data source or service. A file system server knows how to navigate directories and read files. A database server knows how to execute queries and return results. A Slack server knows how to send messages and retrieve conversations. This focused scope keeps servers simple while enabling broad coverage through composition—connect multiple servers to give AI access to multiple data sources.
+### What a server offers
 
-## What servers expose
+The protocol defines three things a server can offer. *Tools* are actions the assistant can call, like running a search, fetching a record, creating an event, or writing a file. *Resources* are content it can read, such as a document or a database entry, and *prompts* are ready-made instructions for common tasks with that server's data. Most of what an assistant does through a server is calling tools.
 
-MCP servers make four types of capabilities available to AI:
+That list also marks the edge of what the assistant can do. If a server offers a search tool and a fetch tool, the assistant can search and fetch, and it has no way to delete anything because no tool for deleting exists. The person who builds the server decides what goes on the list, and that's a firmer limit on the AI than an instruction in a prompt, which the model may or may not follow.
 
-**Resources** are data or content the server can provide—essentially read operations. A file server might expose `file://documents/research.md` as a resource, enabling AI to access that document's contents. Resources make external information available to AI reasoning without requiring AI to understand file systems, databases, or APIs directly.
+### What one looks like
 
-**Tools** are actions AI can invoke through the server—write operations that cause side effects. A calendar server might expose a "schedule_meeting" tool, enabling AI to actually create calendar events rather than just suggesting them. Tools transform AI from information consumer to active agent capable of taking action in the world.
+I run a small server of my own that connects Claude to my Zotero[^zotero] library and my notes. It offers tools to search the library, pull an item's metadata and notes, extract the text of a PDF, and search my notes by keyword. When I ask what I've read about [[Notes/programmatic assessment|programmatic assessment]], Claude calls those tools and answers from my library rather than from whatever it absorbed in training. Two of the tools write to the library (one attaches a note to an item and one adds an item by its DOI[^doi]), and they're the only two that can change anything.
 
-**Prompts** are reusable templates the server supplies. Rather than crafting prompts from scratch, AI can access pre-written prompts optimised for working with that server's data. A research server might provide prompts for literature synthesis, methodology critique, or theoretical comparison—patterns specific to scholarly work.
+A programme team could build the same kind of thing over its curriculum documents: the module descriptors, the placement handbook, and the professional body's standards. With a server that offers only read-only searches, a module lead can ask *which modules assess communication with service users?* or *what does the handbook say when a student misses a placement shift?* and get an answer drawn from the programme's own documents. The assistant can't edit a descriptor, because the server never gave it a way to.
 
-**Sampling** enables two-way dialogue where servers can request AI to analyse or transform data. The server doesn't just respond to AI queries; it can initiate requests for AI processing. This creates genuine collaborative loops rather than one-directional retrieval.
+### Using one or building one
 
-The combination of these capabilities enables sophisticated interactions. AI doesn't just read your data—it can reason about it, take action based on it, and engage in structured dialogue mediated by the server.
+Using an existing server takes configuration and no programming: you add an entry to the AI application's settings that names the server and, for some, a folder path or an access key. Servers already exist for file systems, Google Drive, GitHub, common databases, and most widely used services. Building one takes some programming, though less than you might expect. The official libraries for Python[^python] and TypeScript[^typescript] handle the protocol, so a server that wraps a single data source can be a short script, within reach of an educator who's comfortable with a little Python and has an AI assistant to help write it.
 
-## Building versus using
+### Local and remote
 
-The distinction between building MCP servers and using them matters:
+A local server runs on your own computer, and the AI application starts it when it's needed. A remote server runs as a web service, which suits shared material like an institutional repository or a team's records, but means trusting whoever runs it. You can choose per source, keeping personal notes on a local server and reaching a shared resource through a remote one. How the two kinds connect is a matter of the protocol's transports, which [[Notes/model context protocol|the protocol note]] covers.
 
-**Using servers** means connecting existing MCP servers to your AI system. Someone has already built a server exposing file system access or database queries. You configure your AI application to connect to that server, grant appropriate permissions, and start using the capability. This requires no programming—just configuration.
+Running a server locally keeps the source on your machine, but the answers still leave it. Whatever a tool returns goes to the model, and if the model is hosted by an AI provider, that's where it goes. An occupational therapist who connects a server to a folder of home-visit reports and asks a cloud-hosted assistant to summarise their caseload has sent those patients' details to the provider, however securely the folder itself is stored. Patient-identifiable information should only reach a model your organisation has approved for it, and in most clinical settings that rules out a personal AI subscription.
 
-**Building servers** means creating new MCP servers that expose data sources or capabilities not yet available. Your organisation has a proprietary knowledge base. Your research uses a specialised database. Your workflow involves tools without existing MCP servers. Building a server requires programming but follows standardised patterns provided by the protocol.
+### Consent depends on the application
 
-The ecosystem's value grows as more servers become available. Early adopters face more server building. Later adopters benefit from existing server libraries covering common use cases.
+The protocol's specification says AI applications must get your consent before calling a tool, and most do this with an approval prompt. The specification can't enforce it, so how well you're protected depends on the application, on which tools you've told it to stop asking about, and on whether you read the prompt before clicking through it. The approval prompt also doesn't cover a second risk. Anything a server returns, whether a web page, an email, or a document someone else wrote, reaches the model as text it may treat as instructions, which is how [[Notes/prompt injection|prompt injection]] gets in. Before installing a server, find out who wrote it and what it can touch, as you would with any other software.
 
-For scholars, this distinction shapes what's practical. Using existing servers for file systems, databases, or common tools requires minimal technical sophistication. Building custom servers for specialised research infrastructure requires development capability—though the [[Notes/model context protocol|Model Context Protocol]] provides frameworks simplifying this work.
-
-## Security and control
-
-MCP servers operate with explicit permission models. When AI requests data through a server, you control what's accessible:
-
-**Granular permissions** enable specifying exactly what data or capabilities AI can access. Not just "access my file system" but "read documents in this specific directory." Not just "query my database" but "read from these tables only, no write access."
-
-**User approval** means AI cannot simply execute tools with side effects. Creating calendar events, sending messages, modifying data—these require explicit user authorisation. This prevents AI from taking unintended actions.
-
-**Transparent logging** records what AI accessed and when, enabling audit and review. You can see exactly what data AI has used, which tools it invoked, what actions it took.
-
-These controls support [[Notes/context sovereignty|context sovereignty]]—maintaining agency over your context while enabling AI access. The server architecture enables temporary, controlled access rather than permanent data transfer.
-
-## Local versus remote servers
-
-Where MCP servers run affects security, convenience, and capability:
-
-**Local servers** run on your own device, accessing data stored locally. Maximum security and privacy—your data never leaves your machine. AI running locally or remotely can access the server, but the data source itself remains under your physical control. Ideal for sensitive personal or proprietary information.
-
-**Remote servers** run as web services, potentially in cloud infrastructure. More convenient for collaborative work or when data sources are already cloud-hosted. Enables sharing server access across teams. Requires trusting that infrastructure with your data access.
-
-**Hybrid architectures** run sensitive servers locally while using remote servers for less sensitive data. Your research notes stay on your device accessed through local servers. Shared institutional resources use remote servers. This balances security with practical collaboration needs.
-
-The choice isn't binary—different data sources warrant different approaches. The question is which architecture serves your security requirements, collaboration needs, and technical capabilities for each specific data source.
-
-## Building personal infrastructure
-
-For knowledge workers, MCP servers enable creating personal AI infrastructure:
-
-**File system servers** make your documents, notes, and research materials accessible to AI while keeping them under your control. AI can read your literature library, synthesis documents, or research notes—but only what you specify, only when you approve.
-
-**Database servers** expose structured knowledge—citation databases, concept maps, research data—in ways AI can query and reason about. Rather than uploading databases to AI providers, servers enable temporary access for specific tasks.
-
-**Tool servers** let AI interact with your workflow—calendar, email, project management, communication tools—through controlled interfaces. AI can help manage your work without direct access to underlying systems.
-
-**Custom servers** for specialised needs—research instruments, domain-specific databases, proprietary tools—extend AI capabilities into your particular context without requiring vendor support.
-
-This infrastructure supports [[contextual interoperability]]—making your personal knowledge machine-readable while maintaining sovereignty. The servers you build or deploy become the interface between your intellectual work and AI capabilities.
-
-## What this enables
-
-MCP servers make [[intelligence as a service]] practical. Rather than uploading context to access AI capabilities, servers enable AI to access your context temporarily and under your control. This architectural separation—intelligence as remote service, context as local resource—enables the privacy-preserving AI integration that [[Notes/context sovereignty|context sovereignty]] requires.
-
-For [[context engineering]], servers provide the technical mechanism connecting structured knowledge representations to AI reasoning. Your [[knowledge graph]]s, personal knowledge bases, and research infrastructure become accessible to AI through standardised interfaces without custom integration work.
-
-The question isn't whether to use MCP servers but which ones to deploy, how to configure them, and what permissions to grant. These decisions shape what AI can do with your work—and what remains under your exclusive control.
+Used with that care, servers make [[Notes/context sovereignty|context sovereignty]] practical: your data stays in your own systems, and the model reaches only the parts a task needs, for as long as the task takes.
 
 ---
 
 ## Sources
 
-- Anthropic. (2024). Model Context Protocol documentation. https://modelcontextprotocol.io
-- Diamant, N. (2025). Model Context Protocol (MCP) Explained. https://diamantai.substack.com/p/model-context-protocol-mcp-explained
+- Anthropic. (2024, November 25). *Introducing the Model Context Protocol*. https://www.anthropic.com/news/model-context-protocol
+- Diamant, N. (2025, April 10). Model Context Protocol (MCP) explained. *DiamantAI*. https://newsletter.diamant-ai.com/p/model-context-protocol-mcp-explained
+- Model Context Protocol. (2026). *Specification* (Version 2026-07-28). https://modelcontextprotocol.io/specification/2026-07-28
 
----
-
-## Notes
-
-The server pattern enables composability—combine multiple focused servers rather than building monolithic integrations. A research workflow might use file system servers, database servers, literature database servers, and custom instrument servers simultaneously. Each handles one concern well; together they provide comprehensive AI access to research infrastructure.
+[^zotero]: **Zotero**: a free, open source reference manager that stores the articles, books, and PDFs you collect, with their citation details and your notes on them. Many students and researchers use it to build a reference list for a dissertation or a literature review. [Wikipedia](https://en.wikipedia.org/wiki/Zotero)
+[^doi]: **DOI (digital object identifier)**: a permanent identifier given to a published article, report, or dataset, which keeps pointing to it even when the publisher's web address changes. It's the string beginning `10.` at the end of most journal references. [Wikipedia](https://en.wikipedia.org/wiki/Digital_object_identifier)
+[^python]: **Python**: a general-purpose programming language known for being readable, and widely used in research for analysing data and automating routine tasks. [Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))
+[^typescript]: **TypeScript**: a programming language built on JavaScript, the language that runs in web browsers, and commonly used for web applications. [Wikipedia](https://en.wikipedia.org/wiki/TypeScript)
