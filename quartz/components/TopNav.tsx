@@ -121,7 +121,6 @@ export default ((opts?: Partial<TopNavOptions>) => {
   width: 100%;
   background-color: var(--light);
   border-bottom: 1px solid var(--lightgray);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
   padding: 0 0 0.5rem 0;
   margin-bottom: 1rem;
   display: flex;
@@ -236,9 +235,8 @@ export default ((opts?: Partial<TopNavOptions>) => {
   margin: 0;
   padding: 0.5rem 0;
   background-color: var(--light);
-  border: 1px solid var(--lightgray);
-  border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--dark); /* ink hairline, not a shadow (PFL-9) */
+  border-radius: 0;
   min-width: 140px;
   opacity: 0;
   visibility: hidden;

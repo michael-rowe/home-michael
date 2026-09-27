@@ -136,7 +136,7 @@ NotesByType.css = `
   padding: 1rem 1.25rem;
   background-color: var(--light);
   border: 1px solid var(--lightgray);
-  border-radius: 8px;
+  border-radius: 0;
   text-decoration: none !important;
   transition: border-color 0.15s ease;
 }

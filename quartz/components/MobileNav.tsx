@@ -282,13 +282,12 @@ export default ((opts?: Partial<MobileNavOptions>) => {
   .mobile-nav-controls .darkmode {
     background-color: var(--light);
     border: 1px solid var(--lightgray);
-    border-radius: 5px;
+    border-radius: 0;
     cursor: pointer;
     padding: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 38px;
     height: 38px;
     position: relative;
@@ -297,13 +296,12 @@ export default ((opts?: Partial<MobileNavOptions>) => {
   .mobile-nav-toggle {
     background-color: var(--light);
     border: 1px solid var(--lightgray);
-    border-radius: 5px;
+    border-radius: 0;
     cursor: pointer;
     padding: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.2s ease;
   }
 
@@ -338,7 +336,7 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     overflow-y: auto;
     overscroll-behavior: contain;
     padding: 1.5rem 1rem 1rem;
-    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+    border-left: 1px solid var(--dark); /* replaces the drop shadow (PFL-9) */
     z-index: 201;
   }
 
@@ -371,7 +369,7 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 4px;
+    border-radius: 0;
     transition: background-color 0.2s ease;
   }
 
@@ -426,7 +424,7 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     font-weight: 400;
     font-size: 0.95rem;
     background-color: transparent;
-    border-radius: 4px;
+    border-radius: 0;
     transition: background-color 0.2s ease, color 0.2s ease;
   }
 

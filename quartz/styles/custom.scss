@@ -26,7 +26,7 @@ html {
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
-  border-bottom-right-radius: 6px;
+  border-bottom-right-radius: 0;
   // Translate rather than display:none so the link stays focusable
   transform: translateY(-110%);
   transition: transform 0.15s ease;
@@ -205,14 +205,12 @@ ul.toc-content a {
   min-height: 160px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border-radius: 5px;
+  border-radius: 0;
   padding: 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
-  transition: box-shadow 0.3s ease;
   // --border is only defined inside .callout[data-callout=...] scopes, never on
   // :root, so referencing it here left the shorthand invalid and the cards
   // borderless. Use the tip/success accent directly.
@@ -221,7 +219,6 @@ ul.toc-content a {
 
 .flip-card:hover .flip-card-front,
 .flip-card:hover .flip-card-back {
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 // Use callout colors - default to tip/success colors
@@ -350,7 +347,7 @@ body[data-slug="index"] .recent-notes {
     display: block;
     width: 100%;
     margin: 0;
-    border-radius: 6px;
+    border-radius: 0;
     border: 1px solid var(--lightgray);
   }
 
@@ -415,7 +412,7 @@ body[data-slug="index"] .readermode {
     background-color: var(--secondary);
     color: var(--light) !important;
     border: 1.5px solid var(--secondary);
-    border-radius: 4px;
+    border-radius: 0;
     font-weight: 600;
     font-size: 1rem;
     text-decoration: none !important;
@@ -434,7 +431,7 @@ body[data-slug="index"] .readermode {
     background-color: transparent;
     color: var(--secondary) !important;
     border: 1.5px solid var(--secondary);
-    border-radius: 4px;
+    border-radius: 0;
     font-weight: 600;
     font-size: 1rem;
     text-decoration: none !important;
@@ -478,13 +475,12 @@ body[data-slug="index"] .readermode {
     img {
       width: 100%;
       display: block;
-      border-radius: 6px;
+      border-radius: 0;
       border: 1px solid var(--lightgray);
       transition: transform 0.15s ease;
     }
 
     &:hover img {
-      transform: translateY(-2px);
     }
   }
 
@@ -598,17 +594,18 @@ body[data-slug="index"] .readermode {
   font-size: 1rem;
   padding: 0.75rem 1rem;
   border: 1px solid var(--lightgray);
-  border-radius: 5px;
+  border-radius: 0;
   background-color: var(--light);
   color: var(--darkgray);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  transition: border-color 0.2s ease;
 }
 
 .form-input:focus,
 .form-textarea:focus {
   outline: none;
   border-color: var(--secondary);
-  box-shadow: 0 0 0 3px var(--highlight);
+  outline: 2px solid var(--tertiary);
+  outline-offset: 1px;
 }
 
 .form-input::placeholder,
@@ -629,7 +626,7 @@ body[data-slug="index"] .readermode {
   background-color: var(--secondary);
   color: var(--light);
   border: none;
-  border-radius: 5px;
+  border-radius: 0;
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.1s ease;
   align-self: flex-start;
@@ -658,20 +655,17 @@ a.course-button {
   background-color: var(--secondary) !important;
   color: var(--light) !important;
   border: 2px solid var(--secondary) !important;
-  border-radius: 8px;
+  border-radius: 0;
   font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none !important;
   transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease,
-    transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transform 0.3s ease;
 
   &:hover {
     background-color: var(--tertiary) !important;
     border-color: var(--tertiary) !important;
     color: var(--light) !important;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   }
 
   svg {
@@ -823,7 +817,7 @@ article p:has(.profile-photo) {
   padding: 1rem 1.25rem;
   border: 1px solid var(--gray);
   border-left: 4px solid var(--secondary);
-  border-radius: 8px;
+  border-radius: 0;
   background-color: var(--light);
 }
 
@@ -841,7 +835,7 @@ article p:has(.profile-photo) {
   padding: 0.6rem 0.8rem;
   margin: 0.4rem 0;
   border: 1px solid var(--lightgray);
-  border-radius: 6px;
+  border-radius: 0;
   // Subtle tint so options read as distinct surfaces against the .mcq card
   // (this previously referenced var(--background), which is not defined
   // anywhere — the declaration was invalid and silently did nothing)
@@ -900,7 +894,7 @@ article p:has(.profile-photo) {
   width: 100%;
   aspect-ratio: 16 / 9;
   margin: 1.5rem 0;
-  border-radius: 8px;
+  border-radius: 0;
   overflow: hidden;
   background-color: var(--lightgray);
 
