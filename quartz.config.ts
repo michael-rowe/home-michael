@@ -35,18 +35,7 @@ const config: QuartzConfig = {
       colors: {
         // From formats/identities/michael.css (PFL-9) — edit the tokens, not here
         lightMode: identityColors(identity.light),
-        darkMode: {
-          light: "#131009",
-          lightgray: "#2a2418",
-          // 5.93:1 on --light — passes WCAG AA for text (was #5a5040, 2.38:1)
-          gray: "#9c8f78",
-          darkgray: "#d4c9b0",
-          dark: "#ede6d6",
-          secondary: "#60a5fa",
-          tertiary: "#93c5fd",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
-        },
+        darkMode: identityColors(identity.dark),
       },
     },
   },

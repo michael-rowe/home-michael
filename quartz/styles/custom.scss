@@ -21,7 +21,7 @@ html {
   z-index: 300;
   padding: 0.75rem 1.25rem;
   background-color: var(--secondary);
-  color: #fff;
+  color: var(--light); // not #fff: --secondary is pale in dark mode (PFL-9)
   font-family: var(--headerFont);
   font-size: 1rem;
   font-weight: 600;
@@ -413,7 +413,7 @@ body[data-slug="index"] .readermode {
     display: inline-block;
     padding: 0.4em 1em;
     background-color: var(--secondary);
-    color: #fff !important;
+    color: var(--light) !important;
     border: 1.5px solid var(--secondary);
     border-radius: 4px;
     font-weight: 600;
@@ -442,7 +442,7 @@ body[data-slug="index"] .readermode {
 
     &:hover {
       background-color: var(--secondary);
-      color: #fff !important;
+      color: var(--light) !important;
     }
   }
 }
@@ -450,7 +450,7 @@ body[data-slug="index"] .readermode {
 // Single-link page-cta: always render as filled primary (overrides :last-of-type outline)
 .page-cta a:only-of-type {
   background-color: var(--secondary) !important;
-  color: #fff !important;
+  color: var(--light) !important;
   border-color: var(--secondary) !important;
 
   &:hover {
