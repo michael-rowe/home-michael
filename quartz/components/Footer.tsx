@@ -55,7 +55,11 @@ export default ((opts?: Options) => {
               CC BY 4.0
             </a>{" "}
             ·{" "}
-            <a href="https://orcid.org/0000-0002-1538-6052" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://orcid.org/0000-0002-1538-6052"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               orcid 0000-0002-1538-6052
             </a>
           </span>
