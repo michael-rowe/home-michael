@@ -21,6 +21,7 @@ related:
   - "[[Notes/large language models]]"
   - "[[Posts/2026-02-06-LLM-similarities-human-cognition]]"
   - "[[Notes/hallucination]]"
+  - "[[Notes/sycophancy]]"
   - "[[Essays/ai-tutor-accuracy-health-professions]]"
 keyphrase: "can students trust AI answers"
 linkedin:
@@ -40,7 +41,7 @@ reviewed:
 
 Traditional information sources carry three accountability mechanisms that learners rely on, often without noticing:
 
-**Interrogability.** A student can ask a teacher to justify a claim, and the teacher must defend or retract it. This creates a real-time feedback loop in which the source is accountable to challenge. Generative AI largely inverts this: large language models tend towards sycophancy, agreeing with incorrect user statements rather than defending accurate ones, at the moment correction matters most (Sharma et al., 2023; Chen et al., 2025).
+**Interrogability.** A student can ask a teacher to justify a claim, and the teacher must defend or retract it. This creates a real-time feedback loop in which the source is accountable to challenge. Generative AI largely inverts this: large language models tend towards [[Notes/sycophancy|sycophancy]], agreeing with incorrect user statements rather than defending accurate ones, at the moment correction matters most (Sharma et al., 2023; Chen et al., 2025).
 
 **Traceability.** Textbook claims can be traced to their evidential origins and compared against the broader literature. A lecturer's claims can be evaluated against their expertise and publication record. LLM-generated information cannot be traced in the same way: even when AI provides citations, studies find high rates of fabricated or inaccurate references (Buchanan et al., 2024; Dahl et al., 2024).
 

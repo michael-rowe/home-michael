@@ -54,7 +54,7 @@ The thinking itself gets offloaded. Research is accumulating on this: when an ag
 
 The agent has no project memory. Each session starts from scratch unless the researcher curates context for it. Suggestions feel coherent in the moment but accumulate over time into a trajectory nobody deliberately chose.
 
-The agent agrees too readily. Current models exhibit sycophancy — a well-documented disposition to support the framing of the question they're asked rather than push back. In research, where the discipline of holding interpretations open to disconfirmation is central, this quietly corrodes the work.
+The agent agrees too readily. Current models exhibit [[Notes/sycophancy|sycophancy]] — a well-documented disposition to support the framing of the question they're asked rather than push back. In research, where the discipline of holding interpretations open to disconfirmation is central, this quietly corrodes the work.
 
 Different prompts produce different answers. The cumulative analytic position becomes harder to defend because its parts were produced under inconsistent framings.
 
