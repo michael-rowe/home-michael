@@ -93,6 +93,22 @@ article {
   max-width: 44rem;
 }
 
+// Prose measure (PFL-9 Stage 12, Michael's call): running text stops at about
+// 70 characters, while callouts, tables, card grids and embedded decks keep the
+// full 44rem column. Set in rem, not ch: ch is the width of "0", wider than
+// Plex Sans's average character, and 44rem measured 91 characters a line.
+article > p,
+article > ul,
+article > ol,
+article > blockquote:not(.callout),
+article > h2,
+article > h3,
+article > h4,
+article > h5,
+article > h6 {
+  max-width: 35rem;
+}
+
 // Footnote markers: keep them from opening the leading of their line
 // (the ref is an a.internal, which base.scss gives a 1.4rem line-height of its own)
 article sup,
@@ -417,6 +433,9 @@ body[data-slug="index"] article {
 }
 
 body[data-slug="index"] article > h2 {
+  // The rule is drawn on the heading, and it spans the whole column like the
+  // card grids beneath it, so the heading is exempt from the prose measure
+  max-width: none;
   counter-increment: home-section;
   border-top: 2px solid var(--dark);
   padding-top: 1.1rem;
