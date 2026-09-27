@@ -45,13 +45,22 @@ TagList.css = `
   overflow-wrap: normal;
 }
 
+/* Tags as mono chips (PFL-9): lowercase — a tag is an identifier — in the
+   link colour, 1px chip-line box, no fill */
 a.internal.tag-link {
   border-radius: 0;
-  background-color: var(--highlight);
-  padding: 0.2rem 0.4rem;
-  margin: 0 0.1rem;
-  font-size: 0.85rem;
-  font-weight: normal;
+  background-color: transparent;
+  border: 1px solid var(--mr-chip-line);
+  padding: 0.25em 0.55em;
+  margin: 0;
+  font-family: var(--codeFont);
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+a.internal.tag-link:hover {
+  border-color: var(--secondary);
 }
 `
 
