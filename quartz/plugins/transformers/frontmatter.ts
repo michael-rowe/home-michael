@@ -165,6 +165,8 @@ declare module "vfile" {
         embed: string
         audio: string
         duration: string
+        // PFL-9: the phrase in the title to tint (ArticleTitle)
+        "title-highlight": string
       }>
   }
 }
