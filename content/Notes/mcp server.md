@@ -47,7 +47,7 @@ That list also marks the edge of what the assistant can do. If a server offers a
 
 ### What one looks like
 
-I run a small server of my own that connects Claude to my Zotero[^zotero] library and my notes. It offers tools to search the library, pull an item's metadata and notes, extract the text of a PDF, and search my notes by keyword. When I ask what I've read about [[Notes/programmatic assessment|programmatic assessment]], Claude calls those tools and answers from my library rather than from whatever it absorbed in training. Two of the tools write to the library (one attaches a note to an item and one adds an item by its DOI[^doi]), and they're the only two that can change anything.
+I run a small server of my own that connects Claude to my [[Notes/Zotero|Zotero]] library and my notes. It offers tools to search the library, pull an item's metadata and notes, extract the text of a PDF, and search my notes by keyword. When I ask what I've read about [[Notes/programmatic assessment|programmatic assessment]], Claude calls those tools and answers from my library rather than from whatever it absorbed in training. Two of the tools write to the library (one attaches a note to an item and one adds an item by its DOI[^doi]), and they're the only two that can change anything.
 
 A programme team could build the same kind of thing over its curriculum documents: the module descriptors, the placement handbook, and the professional body's standards. With a server that offers only read-only searches, a module lead can ask *which modules assess communication with service users?* or *what does the handbook say when a student misses a placement shift?* and get an answer drawn from the programme's own documents. The assistant can't edit a descriptor, because the server never gave it a way to.
 
@@ -75,7 +75,6 @@ Used with that care, servers make [[Notes/context sovereignty|context sovereignt
 - Diamant, N. (2025, April 10). Model Context Protocol (MCP) explained. *DiamantAI*. https://newsletter.diamant-ai.com/p/model-context-protocol-mcp-explained
 - Model Context Protocol. (2026). *Specification* (Version 2026-07-28). https://modelcontextprotocol.io/specification/2026-07-28
 
-[^zotero]: **Zotero**: a free, open source reference manager that stores the articles, books, and PDFs you collect, with their citation details and your notes on them. Many students and researchers use it to build a reference list for a dissertation or a literature review. [Wikipedia](https://en.wikipedia.org/wiki/Zotero)
 [^doi]: **DOI (digital object identifier)**: a permanent identifier given to a published article, report, or dataset, which keeps pointing to it even when the publisher's web address changes. It's the string beginning `10.` at the end of most journal references. [Wikipedia](https://en.wikipedia.org/wiki/Digital_object_identifier)
 [^python]: **Python**: a general-purpose programming language known for being readable, and widely used in research for analysing data and automating routine tasks. [Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))
 [^typescript]: **TypeScript**: a programming language built on JavaScript, the language that runs in web browsers, and commonly used for web applications. [Wikipedia](https://en.wikipedia.org/wiki/TypeScript)
