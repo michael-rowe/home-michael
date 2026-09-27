@@ -95,6 +95,30 @@ article a:not(.tag-link):not([role="anchor"]) {
   text-underline-offset: 0.2em;
 }
 
+// Quotations (identity § Structure): no rule — a large opening quotation mark
+// in the accent, hung in a 2em indent level with the first line; text italic.
+// Callouts are blockquotes too in Quartz, hence :not(.callout).
+article blockquote:not(.callout) {
+  position: relative;
+  border-left: 0;
+  margin: 1.5rem 0;
+  padding-left: 2em;
+  font-style: italic;
+
+  &::before {
+    content: "\201C";
+    position: absolute;
+    left: 0;
+    top: -0.12em;
+    font-family: var(--headerFont);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 1;
+    color: var(--tertiary);
+  }
+}
+
 // Indent quote callouts to visually distinguish as pull quotes
 .callout[data-callout="quote"] {
   margin-left: 15%;
@@ -366,10 +390,30 @@ body[data-slug="index"] .recent-notes {
 // which avoids singling out one section and putting pressure on the rest to
 // earn their own visual device. Landing page only: interior pages have a
 // single subject and don't need it.
+//
+// House identity (PFL-9): a 2px ink rule between sections, and a mono § marker
+// above each heading (§01, §02…) from a CSS counter, so the markers renumber
+// themselves when a section is added or moved.
+body[data-slug="index"] article {
+  counter-reset: home-section;
+}
+
 body[data-slug="index"] article > h2 {
-  border-top: 1px solid var(--lightgray);
-  padding-top: 1.75rem;
+  counter-increment: home-section;
+  border-top: 2px solid var(--dark);
+  padding-top: 1.1rem;
   margin-top: 2.75rem;
+
+  &::before {
+    content: "§" counter(home-section, decimal-leading-zero);
+    display: block;
+    margin-bottom: 0.6rem;
+    font-family: var(--codeFont);
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.13em;
+    color: var(--mr-label);
+  }
 }
 
 // Reader mode hides .sidebar.right, .contextual-nav, .ai-literacy-nav and
@@ -676,7 +720,7 @@ a.course-button {
 // Distinct from the 1px --lightgray hr used between individual content entries
 .section-break {
   border: none;
-  border-top: 2px solid var(--darkgray);
+  border-top: 2px solid var(--dark);
   margin: 3rem 0;
 }
 
