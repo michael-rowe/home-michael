@@ -37,6 +37,12 @@ This presentation starts by looking at what AI is capable of in clinical and phy
 
 The second half turns to patients, who are already using AI to research diagnoses and prepare questions before they arrive at the consultation. And they bring their unique context to the interaction as well. Their own AI agents will carry their history and goals into the consultation, and the talk asks what that does to the therapeutic relationship, and to the MDT, when everyone in the room brings their own contextually-invested AI agents.
 
+## Handout
+
+The one-page handout covers the structure of the talk, three concepts it depends on (context sovereignty, distributed cognition, and AI agents), four things to do next, and where to read more. It's written for any clinician, so you don't need to have been at the talk to use it.
+
+[Download the handout (PDF)](/static/presentations/2026-atocp-making-sense-of-ai-handout.pdf)
+
 ## Further reading
 
 The talk grew out of my [CSP Founders' lecture](../Presentations/2025-11-21-csp-founders-context-sovereignty) and a [webinar for MACP members](../Presentations/2026-05-13-macp-making-sense-of-ai) in May. The idea of context sovereignty is developed at more length in [Context sovereignty for AI-supported learning](../Essays/context-sovereignty), and [Context engineering for educators](../Posts/2026-02-14-context-engineering-for-educators) covers the practical side of giving AI the context it needs. It's written for educators, but the argument carries over to the clinic.
