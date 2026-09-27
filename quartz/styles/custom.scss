@@ -925,6 +925,21 @@ article p:has(.profile-photo) {
   }
 }
 
+// Embedded decks (PFL-9). Every presentation page embeds its Marp deck with
+// the same inline style — height 600px, 8px radius — which letterboxes a 16:9
+// deck in black and rounds the corners. Fixed here rather than in 14 content
+// files: the frame takes the deck's own 16:9 and the identity's square
+// hairline. The height attribute is presentational, so CSS outranks it; the
+// inline border needs !important.
+article iframe[src*="/static/presentations/"] {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--lightgray) !important;
+  border-radius: 0 !important;
+}
+
 // Responsive 16:9 container for embedded video (podcast episodes, talk
 // recordings). aspect-ratio rather than the padding-bottom hack, which
 // several pages still carry inline.
