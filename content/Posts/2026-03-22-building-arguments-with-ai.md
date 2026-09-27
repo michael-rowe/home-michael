@@ -24,7 +24,7 @@ linkedin:
 
 Raw material accumulates in different forms. Sometimes it's the weekly synthesis of reading and listening produced by my [[2026-03-21-review-reading-notes-with-ai|weekly review process]]. Sometimes it's a transcript, a set of book annotations, or a cluster of notes that haven't resolved into anything coherent. The material is there; what I've been missing is a structured way to make sense of it.
 
-Recently I built a brainstorming command called `/conclave`. It runs inside [Claude Code](https://claude.ai/code), a terminal-based AI interface. Point it at any source and it creates or opens a daily note in my writing vault, loads context from my recent work, and begins a conversation. Through a local server it has access to my full vault and Zotero library, giving it the ability to search notes, surface connections, and pull in sources directly.
+Recently I built a brainstorming command called `/conclave`. It runs inside [Claude Code](https://claude.ai/code), a terminal-based AI interface. Point it at any source and it creates or opens a daily note in my writing vault, loads context from my recent work, and begins a conversation. Through a local server it has access to my full vault and [[Notes/Zotero|Zotero]] library, giving it the ability to search notes, surface connections, and pull in sources directly.
 
 The instruction behind the command tells Claude to push back rather than validate, to steelman positions before testing them, to ask one sharp question rather than a battery of gentle ones. It's explicitly not a summarisation tool — building arguments with AI requires friction, not agreement.
 
@@ -77,7 +77,7 @@ Later in the same session, I asked it to search my vault and Zotero for relevant
 
 ---
 
-That last move — surfacing three things I'd written or read separately and hadn't yet connected — is what makes this different from a conversation I'd have in a browser. The command has context because it knows what's in my Obsidian vault and my Zotero library.
+That last move — surfacing three things I'd written or read separately and hadn't yet connected — is what makes this different from a conversation I'd have in a browser. The command has context because it knows what's in my [[Notes/Obsidian|Obsidian]] vault and my Zotero library.
 
 Once I feel like I've explored the idea sufficiently and moved the thread towards something resembling closure, Claude first generates new permanent notes based on the discussion, integrating them into my existing set of notes, and adds a conclusion to wrap things up. For example, this is the conclusion to the writing session described above:
 

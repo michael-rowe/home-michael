@@ -23,7 +23,7 @@ linkedin:
 > [!info] Working with AI agents changes what the work is, not just how fast it gets done
 > Less executing, more directing. That sounds like a small distinction. It isn't. This post is about what that shift looks like in practice, what made it possible, and why the limiting factor isn't what the models can do.
 
-For the last few months, my working environment has looked roughly like this: [Obsidian](https://obsidian.md), the note-taking application where most of my writing and thinking lives, takes up about two-thirds of my screen. The remaining third is a terminal; the space where [[ai-agents|AI agents]] handle a significant portion of my academic workflow.
+For the last few months, my working environment has looked roughly like this: [[Notes/Obsidian|Obsidian]], the note-taking application where most of my writing and thinking lives, takes up about two-thirds of my screen. The remaining third is a terminal; the space where [[ai-agents|AI agents]] handle a significant portion of my academic workflow.
 
 ![[terminal_window_split.png|Split-screen working environment: Obsidian notes on the left, a terminal running AI agents on the right]]
 *Split-screen working environment: Obsidian on the left, a terminal running AI agents on the right.*

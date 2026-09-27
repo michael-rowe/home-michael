@@ -18,6 +18,7 @@ related:
   - "[[Notes/distributed version control]]"
   - "[[Notes/plain text]]"
   - "[[Notes/open source software]]"
+  - "[[Notes/GitHub]]"
   - "[[Posts/2026-04-06-open-scholarship-workflow]]"
 keyphrase: "git for non-programmers"
 linkedin:
@@ -39,7 +40,7 @@ You don't need to write code to use git. Four ideas cover most of what a non-pro
 
 **Commits** are saved snapshots of your project at a point in time. Each commit includes the changes made, a short description, and a timestamp. Commits accumulate into a history you can browse or rewind.
 
-**Repositories** are the containers that hold a project and its full history. A repository (repo) lives on your machine and can be synchronised with a remote copy — typically hosted on a platform like GitHub — so that the history is backed up and shareable.
+**Repositories** are the containers that hold a project and its full history. A repository (repo) lives on your machine and can be synchronised with a remote copy — typically hosted on a platform like [[Notes/GitHub|GitHub]] — so that the history is backed up and shareable.
 
 **Branches** allow parallel lines of development. You can create a branch to work on something experimental without disturbing the main version, then merge it back when it's ready. This is how large collaborative projects let many people work at once without treading on each other's changes.
 
