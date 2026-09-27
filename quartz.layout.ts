@@ -30,7 +30,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
+    // PageTitle removed (PFL-9): the wordmark heads the top bar instead
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
@@ -131,7 +131,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.ContentMeta(),
   ],
   left: [
-    Component.PageTitle(),
+    // PageTitle removed (PFL-9): the wordmark heads the top bar instead
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [

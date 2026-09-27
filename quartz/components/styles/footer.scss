@@ -2,7 +2,7 @@ footer {
   margin-top: 4rem;
   margin-bottom: 4rem;
   padding-top: 2rem;
-  border-top: 1px solid var(--lightgray);
+  border-top: 2px solid var(--dark);
 
   .footer-links {
     display: flex;
@@ -22,46 +22,26 @@ footer {
     }
   }
 
-  .license-info {
+  // Build line: mono, ink-3, commit and date left, licence and ORCID right
+  .build-line {
     display: flex;
-    align-items: center;
-    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem 1.5rem;
+    font-family: var(--codeFont);
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    color: var(--mr-ink-3);
 
-    .cc-license-link {
-      flex-shrink: 0;
-      line-height: 0;
-    }
-
-    .cc-license-badge {
-      height: 31px;
-      width: 88px;
-      display: block;
-    }
-
-    .license-text {
-      margin: 0;
-      font-size: 0.9rem;
-      color: var(--darkgray);
-      line-height: 1.5;
+    a {
+      color: inherit;
       font-weight: 400;
+      text-decoration: none;
 
-      a {
+      &:hover {
         color: var(--secondary);
-        text-decoration: none;
-        font-weight: 400;
-
-        &:hover {
-          text-decoration: underline;
-        }
+        text-decoration: underline;
       }
-    }
-  }
-
-  @media (max-width: 800px) {
-    .license-info {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 1rem;
     }
   }
 }

@@ -1,5 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { FullSlug, resolveRelative } from "../util/path"
+import { Wordmark, wordmarkCss } from "./Wordmark"
 
 interface DropdownItem {
   text: string
@@ -44,6 +45,7 @@ export default ((opts?: Partial<TopNavOptions>) => {
   const TopNav: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
     return (
       <nav class={`top-nav ${displayClass ?? ""}`} aria-label="Main navigation">
+        <Wordmark href={resolveRelative(fileData.slug!, "index" as FullSlug)} class="top-nav-wordmark" />
         <ul>
           {options.links.map((link) => {
             const href = resolveRelative(fileData.slug!, link.slug as FullSlug)
@@ -111,7 +113,7 @@ export default ((opts?: Partial<TopNavOptions>) => {
     )
   }
 
-  TopNav.css = `
+  TopNav.css = wordmarkCss + `
 .top-nav {
   position: fixed;
   top: 0;
@@ -123,9 +125,20 @@ export default ((opts?: Partial<TopNavOptions>) => {
   border-bottom: 1px solid var(--lightgray);
   padding: 0 0 0.5rem 0;
   margin-bottom: 1rem;
-  display: flex;
+  /* Three columns (PFL-9): wordmark left, links centred, social right. The
+     equal 1fr side columns keep the links on the page's centre line. */
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  justify-content: center;
+  column-gap: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.25rem;
+  box-sizing: border-box; /* width is 100%; the padding must sit inside it */
+}
+
+.top-nav-wordmark {
+  justify-self: start;
+  margin-top: 0.5rem;
 }
 
 .top-nav > ul {
@@ -139,10 +152,7 @@ export default ((opts?: Partial<TopNavOptions>) => {
 }
 
 .top-nav-social {
-  position: absolute;
-  right: 1.25rem;
-  top: 50%;
-  transform: translateY(-50%);
+  justify-self: end;
   display: flex;
   align-items: center;
   gap: 0.5rem;
