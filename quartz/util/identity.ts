@@ -49,3 +49,16 @@ export function identityColors(t: IdentityTokens): ColorScheme {
     textHighlight: t["accent-tint"],
   }
 }
+
+// The full token set as CSS custom properties, so components can use the
+// identity's own names (--mr-chip-line, --mr-surface, --mr-ink-3…) where
+// Quartz's nine slots have no equivalent. Dark follows Quartz's toggle
+// attribute rather than the tokens file's [data-theme].
+export function identityCss(): string {
+  const { light, dark } = loadIdentity()
+  const decls = (t: IdentityTokens) =>
+    Object.entries(t)
+      .map(([k, v]) => `  --mr-${k}: ${v};`)
+      .join("\n")
+  return `:root {\n${decls(light)}\n}\n\n:root[saved-theme="dark"] {\n${decls(dark)}\n}`
+}
