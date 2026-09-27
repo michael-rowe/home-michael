@@ -17,10 +17,9 @@ const defaultOptions: Options = {
   layout: "modern",
 }
 
-let numTocs = 0
 export default ((opts?: Partial<Options>) => {
   const layout = opts?.layout ?? defaultOptions.layout
-  const { OverflowList, overflowListAfterDOMLoaded } = OverflowListFactory()
+  const { OverflowList, overflowListAfterDOMLoaded, id: listId } = OverflowListFactory()
   const TableOfContents: QuartzComponent = ({
     fileData,
     displayClass,
@@ -30,7 +29,10 @@ export default ((opts?: Partial<Options>) => {
       return null
     }
 
-    const id = `toc-${numTocs++}`
+    // aria-controls must name the list's real id; OverflowList replaces the
+    // `toc-n` id this used to pass, which left the button pointing at nothing
+    // (axe aria-valid-attr-value, critical)
+    const id = listId
     return (
       <div class={classNames(displayClass, "toc")}>
         <button
