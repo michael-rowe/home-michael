@@ -7,7 +7,12 @@
 
 export function Wordmark({ href, class: cls }: { href: string; class: string }) {
   return (
-    <a href={href} class={`wordmark ${cls}`} aria-label="Michael Rowe — home" data-no-popover="true">
+    <a
+      href={href}
+      class={`wordmark ${cls}`}
+      aria-label="Michael Rowe — home"
+      data-no-popover="true"
+    >
       Michael Rowe
     </a>
   )
