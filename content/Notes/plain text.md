@@ -37,7 +37,7 @@ That property is what makes plain text worth choosing deliberately rather than b
 
 ### The shift is smaller than it sounds
 
-For most academics the shift is small: writing in [[Notes/markdown|markdown]] rather than Word, keeping notes in an editor like Obsidian, and treating the .docx as an export for a committee rather than the master copy. Tenen and Wythoff's *Sustainable authorship in plain text* (2014) is still the best short case for the workflow, and Healy's *Plain text, papers, pandoc* (2014) shows what it looks like across a working social scientist's writing.
+For most academics the shift is small: writing in [[Notes/markdown|markdown]] rather than Word, keeping notes in an editor like [[Notes/Obsidian|Obsidian]], and treating the .docx as an export for a committee rather than the master copy. Tenen and Wythoff's *Sustainable authorship in plain text* (2014) is still the best short case for the workflow, and Healy's *Plain text, papers, pandoc* (2014) shows what it looks like across a working social scientist's writing.
 
 ### A format is not an organisation
 

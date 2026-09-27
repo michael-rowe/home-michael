@@ -36,7 +36,7 @@ After an unsuccessful search for an existing tool, I decided to build my own wit
 
 The [AdvanceHE](https://www.advance-he.ac.uk/fellowship/principal-fellowship) framework has four descriptors, each with multiple criteria that I wanted to build into template pages that would help me write evidence against each criterion. This would help me see where I'd done the work and where I hadn't.
 
-So I asked Claude Code to turn the framework into a set of linked templates, which then pushed me to think about how I could use the relationships between those templates; see which pieces of evidence mapped to which criteria, and which criteria were still thin. I've been using Obsidian for years and have come to really appreciate the value of backlinks and structured notes, so I started looking for open-source projects with permissive licences that I could extend without starting from scratch.
+So I asked Claude Code to turn the framework into a set of linked templates, which then pushed me to think about how I could use the relationships between those templates; see which pieces of evidence mapped to which criteria, and which criteria were still thin. I've been using [[Notes/Obsidian|Obsidian]] for years and have come to really appreciate the value of backlinks and structured notes, so I started looking for open-source projects with permissive licences that I could extend without starting from scratch.
 
 I found [SilverBullet](https://silverbullet.md), a markdown-based workspace with a plugin system. And a couple of hours later, I had something that was starting to feel like an app.
 
@@ -52,7 +52,7 @@ The core workflow: define a professional goal (a path), map it to a professional
 
 **Page types in Path**
 - *Path*: a professional goal with status tracking and target dates
-- *Framework and criteria*: HCPC revalidation and AdvanceHE fellowship criteria come pre-installed; others can be added from a Github repo
+- *Framework and criteria*: HCPC revalidation and AdvanceHE fellowship criteria come pre-installed; others can be added from a [[Notes/GitHub|GitHub]] repository
 - *CPD activity*: logged continuing professional development entries
 - *Reflection*: structured entries using Driscoll, ERA, Gibbs, or Rolfe
 - *Claim*: an argument that a specific criterion is met, with evidence links and impact notes

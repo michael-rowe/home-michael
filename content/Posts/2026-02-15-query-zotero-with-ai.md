@@ -31,7 +31,7 @@ I've been using [[Claude Code]] to read files on my computer for a couple of mon
 
 Then I realised something that should have been obvious: it can read *any* file I have local access to. Including databases.
 
-Specifically, it can read my [Zotero](https://www.zotero.org/) library. Not just the PDFs I've collected over the years, but the database file itself, at `zotero.sqlite`. The entire structure: metadata, tags, collections, notes, reading dates. Fifteen years of research decisions encoded in queryable form.
+Specifically, it can read my [[Notes/Zotero|Zotero]] library. Not just the PDFs I've collected over the years, but the database file itself, at `zotero.sqlite`. The entire structure: metadata, tags, collections, notes, reading dates. Fifteen years of research decisions encoded in queryable form.
 
 ## What it looks like in practice
 

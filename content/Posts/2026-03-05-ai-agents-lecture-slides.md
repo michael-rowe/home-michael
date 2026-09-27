@@ -27,7 +27,7 @@ linkedin: 2026-03-06
 > [!info] Structured documents are what make agent-assisted work possible
 > When teaching materials live in readable, structured formats, agents can do what would otherwise require sustained manual attention: checking claims against the literature, auditing accessibility across every slide, applying changes uniformly across an entire module. Binary formats like PowerPoint make this impossible.
 
-I've written my lecture slides in [[markdown]] for several years. The reasons were originally practical: one format, one place, no application lock-in, the ability to version-control a file rather than maintain a growing archive of differently-named copies. I used [Obsidian](https://obsidian.md/)'s [Marp plugin](https://github.com/JichouP/obsidian-marp-plugin) to get a presentation preview alongside the source, and that was essentially the whole setup; simple, portable, and easy to maintain.
+I've written my lecture slides in [[markdown]] for several years. The reasons were originally practical: one format, one place, no application lock-in, the ability to version-control a file rather than maintain a growing archive of differently-named copies. I used [[Notes/Obsidian|Obsidian]]'s [Marp plugin](https://github.com/JichouP/obsidian-marp-plugin) to get a presentation preview alongside the source, and that was essentially the whole setup; simple, portable, and easy to maintain.
 
 What I didn't anticipate was what that choice would mean once I started using AI agents to prepare lecture slides. What started as a formatting preference turned out to be an infrastructure decision that determines not just how I maintain my teaching materials, but what kinds of work become possible.
 

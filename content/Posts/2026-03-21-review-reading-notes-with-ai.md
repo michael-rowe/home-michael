@@ -21,7 +21,7 @@ subtype: field-note
 linkedin:
 ---
 
-Every week I annotate articles in [Zotero](https://www.zotero.org/), save highlights in [Reader](https://readwise.io/read), and capture podcast moments in [Snipd](https://www.snipd.com/). All of it — notes, highlights, summaries, metadata — syncs automatically to [Obsidian](https://obsidian.md/). By Friday I have a week's worth of reading and listening sitting in my vault, tagged and structured, but unreviewed.
+Every week I annotate articles in [[Notes/Zotero|Zotero]], save highlights in [Reader](https://readwise.io/read), and capture podcast moments in [Snipd](https://www.snipd.com/). All of it — notes, highlights, summaries, metadata — syncs automatically to [[Notes/Obsidian|Obsidian]]. By Friday I have a week's worth of reading and listening sitting in my vault, tagged and structured, but unreviewed.
 
 The problem isn't limited access to the material. It's that there's no natural moment to engage with it, and not everything has equal value. I wanted a way to surface what matters from the week and create a reason to go deeper — not a digest to consume, but a prompt based on my reading and listening, that I could respond to.
 

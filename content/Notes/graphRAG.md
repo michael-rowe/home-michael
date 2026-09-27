@@ -81,7 +81,7 @@ Academic knowledge is inherently relational. Understanding a field means underst
 - **Structural parallels:** "What concepts from Field X address limitations in Approach Y?"
 - **Contested relationships:** "Who disagrees with this characterisation and why?"
 
-GraphRAG works with both curated knowledge (the links you've already built in an Obsidian vault) and automated extraction (your PDF or Zotero library). Automated extraction refined by scholarly judgement often works best: let GraphRAG draft a knowledge graph from your library, then refine the relationships as you use it.
+GraphRAG works with both curated knowledge (the links you've already built in an [[Notes/Obsidian|Obsidian]] vault) and automated extraction (your PDF or [[Notes/Zotero|Zotero]] library). Automated extraction refined by scholarly judgement often works best: let GraphRAG draft a knowledge graph from your library, then refine the relationships as you use it.
 
 ## The quality question
 

@@ -77,7 +77,7 @@ One use is following chains of critique and influence through a citation network
 
 **Research trajectory mapping** shows how your own thinking has developed: which ideas led to which, which readings shaped which arguments, which collaborations produced which projects.
 
-In [[Notes/context engineering|context engineering]], the graph is what lets AI reason about how your scholarship fits together. The linked notes in Obsidian, the conceptual maps, and the citation networks you trace are already knowledge graphs; the question is whether to make them explicit enough to traverse.
+In [[Notes/context engineering|context engineering]], the graph is what lets AI reason about how your scholarship fits together. The linked notes in [[Notes/Obsidian|Obsidian]], the conceptual maps, and the citation networks you trace are already knowledge graphs; the question is whether to make them explicit enough to traverse.
 
 ## The curation challenge
 

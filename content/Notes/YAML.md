@@ -49,7 +49,7 @@ Indentation indicates nesting. There are no brackets or tags — structure comes
 
 ### YAML as frontmatter
 
-In markdown-based workflows — Obsidian, Quartz, Jekyll, and similar tools — YAML appears as a frontmatter block: a section delimited by `---` at the very top of the file, before the document content begins:
+In markdown-based workflows — [[Notes/Obsidian|Obsidian]], Quartz, Jekyll, and similar tools — YAML appears as a frontmatter block: a section delimited by `---` at the very top of the file, before the document content begins:
 
 ```yaml
 ---

@@ -90,7 +90,7 @@ Context engineering changes what AI can take part in. Synthesising across source
 
 **Teaching materials** that draw on what you've curated — your annotations, the connections you've made between readings, the pedagogical judgements accumulated over years of teaching.
 
-You've already built a personal knowledge system, in Zotero or Obsidian or a folder of annotated PDFs. Context engineering makes that investment legible to a machine, so the linked notes and conceptual maps become infrastructure for reasoning rather than material you alone can read.
+You've already built a personal knowledge system, in [[Notes/Zotero|Zotero]] or [[Notes/Obsidian|Obsidian]] or a folder of annotated PDFs. Context engineering makes that investment legible to a machine, so the linked notes and conceptual maps become infrastructure for reasoning rather than material you alone can read.
 
 ## The investment question
 
