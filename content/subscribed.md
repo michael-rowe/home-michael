@@ -23,7 +23,6 @@ Six practical habits for the sustained concentration that scholarship requires, 
 
 A few places worth exploring while you're here:
 
-- **[[Courses/AI literacy/index|AI literacy for academics]]**: a free course on developing real competence with AI tools, designed for people in higher education
 - **[[Posts/index|Recent posts]]**: shorter pieces on AI, knowledge work, and scholarly practice
 - **[[Essays/index|Essays]]**: longer, more developed arguments on themes I keep returning to
 

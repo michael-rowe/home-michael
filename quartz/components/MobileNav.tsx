@@ -28,7 +28,6 @@ const defaultOptions: MobileNavOptions = {
     { text: "Essays", slug: "Essays/index" },
     { text: "Notes", slug: "Notes/index" },
     { text: "Guides", slug: "Guides/index" },
-    { text: "Courses", slug: "Courses/index" },
   ],
   essaysLimit: 5,
   postsLimit: 5,

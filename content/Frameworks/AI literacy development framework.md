@@ -15,7 +15,6 @@ category:
   - Technology
 related:
   - "[[Notes/AI literacy]]"
-  - "[[Courses/AI literacy]]"
   - "[[Notes/common architecture of literacy]]"
   - "[[Notes/developing AI literacy]]"
 draft: false

@@ -104,7 +104,7 @@ Taste develops through exposure and reflection. You encounter diverse examples, 
 
 The three overlap, and together they make up a single sensibility about what's worth doing.
 
-[[Courses/AI literacy/04 Transformation/02 cultivating taste|Cultivating taste]] involves:
+Cultivating taste involves:
 
 - Paying attention to why some approaches succeed where others fail
 - Finding examples of excellence and examining what makes them excellent

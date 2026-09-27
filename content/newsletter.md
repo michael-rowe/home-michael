@@ -9,7 +9,6 @@ A monthly letter on scholarship, teaching and technology: how we learn, teach, a
 ### What to expect
 
 - **New essays and posts** as they're published
-- **Course updates** and new resources
 - **Reads worth your time**, and the occasional quote worth thinking about
 
 Published monthly (or when there's something worth sharing). You can also [read past issues](./Newsletters/).
