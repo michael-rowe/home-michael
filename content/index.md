@@ -1,5 +1,6 @@
 ---
 title: Trying to get better at getting better
+title-highlight: getting better
 tab-title: /home/michael
 meta-description: "Michael Rowe on scholarship, teaching and technology: blog posts, essays, courses, notes and working software on how we learn, teach, and share what we know."
 ---
