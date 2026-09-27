@@ -1,71 +1,39 @@
 .content-type {
+  // House identity (PFL-9): a mono chip — 1px chip-line box, uppercase, ink-3.
+  // One colour for every type; the word says which type it is. Stage 7 folds
+  // it into the masthead chip row.
   display: inline-flex;
   align-items: center;
-  gap: 0.35em;
-  font-size: 0.8rem;
+  gap: 0.4em;
+  font-family: var(--codeFont);
+  font-size: 0.68rem;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.13em;
   margin-top: 0.05rem;
   margin-bottom: 0.75rem;
-  padding: 0.2em 0.6em;
+  padding: 0.3em 0.65em;
+  border: 1px solid var(--mr-chip-line);
   border-radius: 0;
-  opacity: 0.85;
+  color: var(--mr-ink-3);
+  background-color: transparent;
 
   i {
-    font-size: 1em;
-  }
-
-  &.content-type--post {
-    color: var(--post-color);
-    background-color: color-mix(in srgb, var(--post-color) 12%, transparent);
-  }
-
-  &.content-type--note {
-    color: var(--note-color);
-    background-color: color-mix(in srgb, var(--note-color) 12%, transparent);
-  }
-
-  &.content-type--essay {
-    color: var(--essay-color);
-    background-color: color-mix(in srgb, var(--essay-color) 12%, transparent);
-  }
-
-  &.content-type--course {
-    color: var(--course-color);
-    background-color: color-mix(in srgb, var(--course-color) 12%, transparent);
-  }
-
-  &.content-type--presentation {
-    color: var(--presentation-color);
-    background-color: color-mix(in srgb, var(--presentation-color) 12%, transparent);
-  }
-
-  &.content-type--newsletter {
-    color: var(--newsletter-color);
-    background-color: color-mix(in srgb, var(--newsletter-color) 12%, transparent);
-  }
-
-  &.content-type--guide {
-    color: var(--guide-color);
-    background-color: color-mix(in srgb, var(--guide-color) 12%, transparent);
-  }
-
-  &.content-type--podcast {
-    color: var(--podcast-color);
-    background-color: color-mix(in srgb, var(--podcast-color) 12%, transparent);
+    font-size: 1.1em;
   }
 }
 
+// Content-type hues retired in PFL-9 (identity: one accent per page); the
+// names stay because RelatedContent and others read them.
 :root {
-  --post-color: #b5446e;
-  --essay-color: #3d7a52;
-  --note-color: #0e8aa0;
-  --course-color: #5b35a8;
-  --presentation-color: #9a7020;
-  --newsletter-color: #7c3aad;
-  --guide-color: #1e6ba8;
-  --podcast-color: #bf4d22;
+  --post-color: var(--mr-ink-3);
+  --essay-color: var(--mr-ink-3);
+  --note-color: var(--mr-ink-3);
+  --course-color: var(--mr-ink-3);
+  --presentation-color: var(--mr-ink-3);
+  --newsletter-color: var(--mr-ink-3);
+  --guide-color: var(--mr-ink-3);
+  --podcast-color: var(--mr-ink-3);
   // Status/state colours (CourseGrid badges, ShareLinks copied-state, Mcq)
   --status-positive: #2e7d52;
   --status-negative: #b3261e;
@@ -75,14 +43,14 @@
 }
 
 :root[saved-theme="dark"] {
-  --post-color: #e88aaa;
-  --essay-color: #72c47e;
-  --note-color: #3cc6dd;
-  --course-color: #a78bfa;
-  --presentation-color: #e0c060;
-  --newsletter-color: #c084fc;
-  --guide-color: #7bafd4;
-  --podcast-color: #f0916b;
+  --post-color: var(--mr-ink-3);
+  --essay-color: var(--mr-ink-3);
+  --note-color: var(--mr-ink-3);
+  --course-color: var(--mr-ink-3);
+  --presentation-color: var(--mr-ink-3);
+  --newsletter-color: var(--mr-ink-3);
+  --guide-color: var(--mr-ink-3);
+  --podcast-color: var(--mr-ink-3);
   --status-positive: #72c47e;
   --status-negative: #f28b82;
   --status-progress: #e0c060;

@@ -149,10 +149,10 @@ ul.toc-content a {
   font-size: 0.8rem;
 }
 
-// Callout titles: header font, regular weight (restyled in PFL-9 Stage 5)
+// Callout titles: header font at 600, ink (PFL-9)
 .callout-title-inner {
   font-family: var(--headerFont);
-  font-weight: 400 !important;
+  font-weight: 600 !important;
 }
 
 // Content meta (date, reading time): smaller and muted
@@ -211,24 +211,19 @@ ul.toc-content a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // --border is only defined inside .callout[data-callout=...] scopes, never on
-  // :root, so referencing it here left the shorthand invalid and the cards
-  // borderless. Use the tip/success accent directly.
-  border: 1px solid #00bfa544;
+  // Same treatment as a callout (PFL-9): 2px ink rule over the surface
+  border: 0;
+  border-top: 2px solid var(--dark);
 }
 
-.flip-card:hover .flip-card-front,
-.flip-card:hover .flip-card-back {
-}
 
-// Use callout colors - default to tip/success colors
 .flip-card-front,
 .flip-card-back {
-  background-color: #00bfa510;
+  background-color: var(--mr-surface);
 }
 
 .flip-card-front h3 {
-  color: #00bfa5;
+  color: var(--dark);
   margin-top: 0;
   font-size: 1.1rem;
   margin-bottom: 0.75rem;
@@ -236,7 +231,7 @@ ul.toc-content a {
 }
 
 .flip-card-back h3 {
-  color: #09ad7a;
+  color: var(--secondary);
   margin-top: 0;
   font-size: 1.1rem;
   margin-bottom: 0.75rem;

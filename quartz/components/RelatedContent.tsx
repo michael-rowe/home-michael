@@ -202,7 +202,7 @@ RelatedContent.css = `
         opacity: 0.7;
 
         &.related-type-icon--note { color: var(--note-color); }
-        &.related-type-icon--essay { color: var(--tertiary); }
+        &.related-type-icon--essay { color: var(--essay-color); }
         &.related-type-icon--presentation { color: var(--presentation-color); }
         &.related-type-icon--lesson { color: var(--course-color); }
         &.related-type-icon--guide { color: var(--guide-color); }
