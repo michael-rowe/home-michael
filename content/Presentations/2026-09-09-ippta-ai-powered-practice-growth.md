@@ -52,6 +52,12 @@ The last exercise of the day was to ask the model to argue against the plan it h
 
 Everything in the workshop ran on free accounts, with one exception: Deep Research needs a paid subscription, and we covered an interview-based alternative for anyone without one. A paid account is worth having when a limit is stopping you from doing work you want to do, and not before.
 
+## Handout
+
+The one-page handout covers the structure of the day, three concepts it depended on (the context window, sycophancy, and personas), four things to do next, and where to read more. It's written for anyone running a practice, so you don't need to have been in the room to use it.
+
+[Download the handout (PDF)](/static/presentations/2026-ippta-ai-powered-practice-growth-handout.pdf)
+
 ## Further reading
 
 I've written about the ideas behind the workshop on this site. Most of these posts are addressed to educators, but the argument in each is the same one we worked through in Hamburg.
