@@ -1,128 +1,79 @@
 ---
 title: Model Context Protocol
-description: An open standard enabling AI systems to access diverse data sources through standardised interfaces with fine-grained permission control.
+description: The Model Context Protocol (MCP) is an open standard for connecting AI applications to external data and tools through one common interface, in place of a custom integration for every pairing. It makes connections technically cleaner; whether they are wise ones is still a decision for the people who set them up.
 aliases:
   - MCP
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-05
-updated: 2026-02-05
+updated: 2026-09-27
+draft: false
 tags:
-  - generative-ai
+  - model-context-protocol
   - context-engineering
   - standards
-category: Technology
+category:
+  - Technology
 related:
-  - "[[Notes/context engineering]]"
+  - "[[Notes/mcp server]]"
   - "[[Notes/context sovereignty]]"
   - "[[Notes/contextual interoperability]]"
-  - "[[Notes/mcp server]]"
+  - "[[Notes/context engineering]]"
   - "[[Notes/intelligence as a service]]"
-builds_on:
-  - "[[prompt engineering]]"
-  - "[[retrieval augmented generation]]"
-leads_to:
-  - "[[context sovereignty]]"
-  - "[[MCP server]]"
-contradicts:
-source: ""
-source_url: https://modelcontextprotocol.io
+  - "[[Notes/prompt injection]]"
+meta-description: "What is Model Context Protocol? How the open standard connects AI assistants to data and tools, and what educators should ask before switching one on."
+keyphrase: "what is model context protocol"
+reviewed:
+  - note_writer
+  - writing_style
+  - SEO_optimiser
+  - copy_editor
 linkedin:
-
 ---
 
 > [!info] Universal connector, not universal solution
-> MCP solves a real problem—fragmented integrations between AI and data sources—by providing a standard interface. But standardisation isn't transformation. MCP makes context integration technically cleaner without automatically making it pedagogically sound, ethically robust, or strategically wise. The protocol enables possibilities; it doesn't determine outcomes.
+> MCP solves a real problem: every AI application used to need its own custom integration with every data source. It replaces those with one standard interface. Standardisation isn't transformation, though: a cleaner connection isn't automatically a pedagogically sound, ethically robust, or strategically wise one.
 
 ## Model Context Protocol
 
-**One-sentence definition:** An open standard enabling AI systems to access diverse data sources through standardised interfaces with fine-grained permission control, replacing fragmented point-to-point integrations.
+**One-sentence definition:** The Model Context Protocol (MCP) is an open standard that lets any compliant AI application connect to any compliant data source or tool through the same interface.
 
-Before MCP, connecting AI to external data sources meant building custom integrations for each combination of AI system and data source. Want Claude to access your file system? Build an integration. Want it to query your database? Build another integration. Want ChatGPT to access the same sources? Start over.
-
-This fragmentation created maintainability nightmares, security inconsistencies, and duplication of effort. MCP addresses this by providing a universal protocol—one standard interface that any AI system can use to access any compliant data source.
-
-The analogy: USB replaced dozens of proprietary connector types with a single standard. MCP aims to do the same for AI-data connections. Whether this succeeds depends on adoption, but the technical foundation is sound.
+Before MCP, connecting an AI assistant to your files meant building an integration for that assistant and that source. Querying a database took another one, and moving to a different assistant meant starting again. MCP replaces these point-to-point connections with a single protocol, much as USB replaced a drawer of proprietary cables. Anthropic released it as an open standard in November 2024, and it's since been taken up by AI applications from several other companies.
 
 ## How it works
 
-MCP uses client-server architecture with three components:
+The protocol names three roles. The **host** is the AI application you work in: a chat assistant, [[Notes/Claude Code|Claude Code]], or a code editor. Inside the host, a **client** holds the connection to each **server**, a small program that makes one source or service available: a folder of notes, a reference library, a calendar. The host decides which servers to connect to and asks for your permission; the client and server exchange messages in a standard format[^json-rpc]. Because every server speaks the same protocol, you can swap the source, add a new one, or change the assistant without rebuilding anything.
 
-**MCP servers** expose specific data sources or capabilities through the standard protocol. Each [[mcp server|MCP server]] typically connects to one data source—your file system, a database, Slack, a knowledge base. Think of servers as adapters that know how to fetch or manipulate particular kinds of data while presenting a consistent interface to AI systems.
+A server can offer three kinds of thing: *tools* the model can call, *resources* it can read, and *prompts*, ready-made instructions for common tasks. What that looks like in practice, and why the list of tools sets a firmer limit on the AI than any instruction, is the subject of the [[Notes/mcp server|MCP server]] note. Traffic in the other direction is limited: the one feature a client offers servers is *elicitation*, which lets a server ask you, through the host, for information it needs to finish a task.
 
-**MCP clients** run in AI applications and maintain connections to MCP servers. The client sends requests to servers and receives responses. You typically don't interact with clients directly—they're handled by the AI platform you use (Claude Desktop, Cursor, custom applications).
+Messages travel between client and server in one of two standard ways. With **stdio**[^stdio], the host starts the server as a program on your own computer and they exchange messages directly. With **Streamable HTTP**[^http], the server runs as a web service, which lets it live elsewhere and be shared by a team or an institution. Earlier versions of the specification used a different web transport, and older guides still describe it.
 
-**MCP hosts** are the AI-powered applications themselves—chat assistants, IDE extensions, agents—that want to use external data or tools. The host determines which servers to connect to and manages permission.
+## A specification that moves
 
-The interaction flow: your AI application (host) uses its MCP client to request data from an MCP server, which fetches from the actual data source and returns it through the standard protocol. This separation enables flexibility—swap data sources, change AI systems, add new capabilities—without rebuilding integrations from scratch.
+MCP has been revised often since its launch, and each revision is published as a dated version of the specification; this note follows the version dated 28 July 2026. Earlier versions let servers ask the model to generate text for them (a feature called *sampling*), and that is gone from the current core. Articles written a year ago describe a protocol that differs in several details, so it's worth checking the date on anything you read about it, including this note.
 
-## What MCP enables
+## Switching on a supplier's server
 
-The protocol defines four interaction types between AI and servers:
+Most educators will meet MCP as a governance question. Suppose the company behind the e-portfolio a diagnostic radiography programme uses for placement records announces an MCP server. Once it's switched on, any compliant assistant a student or practice educator uses can reach those records, within whatever the server allows. The questions a programme team needs answered first are which tools the server offers, whether any of them write or delete, and whose model receives the data they return. The protocol makes the connection possible and leaves those decisions to whoever switches it on.
 
-**Resources** provide data or content to the AI—essentially read operations. A file server might expose `file://README.md` as a resource enabling AI to access that file's contents. This makes external information available to AI reasoning.
+Used with that care, MCP supports [[Notes/context sovereignty|context sovereignty]]. You keep your material in your own systems and let a model reach the part a task needs, for as long as the task takes, and nothing has to be uploaded to an AI provider in advance. Deciding which part that is, and when the model gets it, is the work of [[Notes/context engineering|context engineering]], and MCP is one of the main ways of doing it. It separates where the intelligence lives from where your data lives, which is the arrangement [[Notes/intelligence as a service|intelligence as a service]] depends on.
 
-**Tools** enable AI to invoke actions through the server—write operations causing side effects. Tools let AI do things: run calculations, modify data, send messages, execute code. This transforms AI from passive consumer to active agent.
+## What the protocol can't guarantee
 
-**Prompts** are reusable templates or workflows that servers supply. Rather than crafting prompts from scratch, AI can access pre-written prompts designed for specific tasks. This enables standardisation of common patterns.
+The protocol's own specification says hosts must get your explicit consent before calling a tool or exposing your data, and then concedes that it can't enforce this. Protection depends on the application's design and on whether you read the approval prompt before clicking through it. Consent also does nothing about content: whatever a server returns reaches the model as text it may treat as instructions, which is how [[Notes/prompt injection|prompt injection]] gets in.
 
-**Sampling** allows two-way communication—servers can request AI to analyse or transform text. The AI asks servers for data; servers ask AI to process that data. This creates genuine dialogue rather than one-directional query-response.
+Standardisation has costs of its own. Early design decisions become hard to change once widely adopted, and a protocol shaped around one set of assumptions about how AI and data interact may not suit uses nobody has thought of yet. The frequent revisions are partly the protocol's designers finding that out as people use it.
 
-These interaction types, combined with standardised interfaces, enable sophisticated AI-data integration without custom development for each use case.
-
-## Security and transport
-
-MCP emphasises security because servers often access sensitive data or perform powerful actions. Servers implement access controls, and AI hosts typically require user approval before executing tools that modify data or access private information.
-
-The protocol supports different transport mechanisms:
-
-**STDIO transport** runs the MCP server as a local process, communicating through standard input/output pipes. Simple, secure, ideal for local development and personal use.
-
-**SSE (HTTP) transport** runs servers as web services with HTTP endpoints. More flexible—servers can run remotely, enabling cloud deployment and distributed architectures.
-
-The choice of transport affects security, deployment complexity, and use case suitability. Local servers through STDIO offer maximum security for personal data. Remote servers through HTTP enable shared infrastructure and collaborative use.
-
-## What this means for [[Notes/context sovereignty|context sovereignty]]
-
-MCP provides technical infrastructure supporting [[Notes/context sovereignty|context sovereignty]]—the framework where personal context remains under individual control while accessing AI capabilities. The protocol's permission model enables fine-grained control over what AI accesses and when.
-
-Rather than uploading all context to AI providers, MCP enables temporary, controlled access. Your data stays in your systems (exposed through MCP servers), AI accesses it only as needed (through MCP clients), and you control permissions (through the host application).
-
-This supports [[intelligence as a service|intelligence as a service]]—accessing AI capabilities without surrendering context ownership. MCP separates where intelligence lives from where your data lives, enabling the architectural separation that makes context sovereignty practical.
-
-## Critical perspectives
-
-MCP is infrastructure, not solution. It makes certain technical architectures easier to build but doesn't guarantee they'll be built well or used appropriately.
-
-**Standards don't ensure adoption:** MCP's value depends on widespread implementation. If AI platforms don't integrate MCP clients or data sources don't provide MCP servers, the standard remains theoretical. The protocol's success is social and commercial, not just technical.
-
-**Permission models require sophistication:** Fine-grained control is only as good as users' understanding of what they're granting access to. Poorly designed permission interfaces or inadequate user comprehension could undermine MCP's security benefits.
-
-**Standardisation creates path dependence:** Early architectural decisions in standards become difficult to change once widely adopted. MCP's current design reflects particular assumptions about AI-data interaction that may not serve all future use cases.
-
-**Integration isn't transformation:** Making it easier to connect AI to data sources doesn't automatically make those connections pedagogically valuable, ethically sound, or strategically wise. Technical capability precedes thoughtful implementation but doesn't ensure it.
-
-The question isn't whether MCP is good or bad but whether we use standardised AI-data integration to support human-centred goals or merely to make existing problematic patterns more efficient.
-
-## Practical implications
-
-For individuals, MCP enables building personal infrastructure where AI accesses your knowledge bases, files, and tools through standardised interfaces. This supports [[contextual interoperability]]—making your thinking machine-readable while maintaining control.
-
-For organisations, MCP reduces integration complexity when deploying AI across diverse data sources. Rather than custom development for each AI-data combination, implement MCP servers once and connect any compliant AI system.
-
-For developers, MCP provides clear specifications for building AI-integrated applications. Rather than inventing proprietary protocols, implement the standard and gain access to growing ecosystem of compatible servers and clients.
-
-The protocol's value grows with adoption—more MCP servers mean more data sources accessible to compliant AI systems. More AI platforms supporting MCP clients mean wider utility for existing servers. This network effect could drive standardisation or fragment if competing protocols emerge.
+None of this makes MCP good or bad in itself. What matters is whether the connections it makes easy get used to support human-centred goals, or only to make existing problematic patterns run more smoothly.
 
 ---
 
 ## Sources
 
-- Anthropic. (2024). Model Context Protocol documentation. https://modelcontextprotocol.io
-- Diamant, N. (2025). Model Context Protocol (MCP) Explained. https://diamantai.substack.com/p/model-context-protocol-mcp-explained
+- Anthropic. (2024, November 25). *Introducing the Model Context Protocol*. https://www.anthropic.com/news/model-context-protocol
+- Diamant, N. (2025, April 10). Model Context Protocol (MCP) explained. *DiamantAI*. https://newsletter.diamant-ai.com/p/model-context-protocol-mcp-explained
+- Model Context Protocol. (2026). *Specification* (Version 2026-07-28). https://modelcontextprotocol.io/specification/2026-07-28
 
----
-
-## Notes
-
-MCP emerged from Anthropic in 2024 but is open source and designed for broad adoption beyond Claude. The protocol addresses real fragmentation problems in AI-data integration while creating new questions about how standardised access to personal data should be governed, what permission models adequately protect user interests, and whether technical standardisation will drive or follow changes in how we think about AI-human collaboration.
+[^json-rpc]: **JSON-RPC**: a simple, widely used format for one program to ask another to do something and get a reply, written as structured text. MCP uses it so that every client and server phrases requests the same way. [Wikipedia](https://en.wikipedia.org/wiki/JSON-RPC)
+[^stdio]: **stdio (standard input and output)**: the channels every program on a computer has for receiving text and sending it back, the same ones you use when typing into a terminal. Using them means the server needs no network connection at all. [Wikipedia](https://en.wikipedia.org/wiki/Standard_streams)
+[^http]: **HTTP**: the set of rules web browsers and web servers use to exchange pages and data; it's the "http" at the start of a web address. A transport built on it lets an AI application reach a server anywhere on the internet, the same way a browser reaches your institution's virtual learning environment. [Wikipedia](https://en.wikipedia.org/wiki/HTTP)
