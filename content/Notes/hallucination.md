@@ -20,6 +20,7 @@ related:
   - "[[Posts/2026-02-06-LLM-similarities-human-cognition]]"
   - "[[Notes/retrieval augmented generation]]"
   - "[[Notes/AI literacy]]"
+  - "[[Notes/sycophancy]]"
   - "[[Posts/2026-03-21-not-all-ai-errors-are-hallucinations]]"
   - "[[Posts/2026-03-25-ai-fluency-is-noise]]"
   - "[[Essays/ai-tutor-accuracy-health-professions]]"

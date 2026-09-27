@@ -32,7 +32,7 @@ linkedin:
 
 **One-sentence definition:** A research harness is a structured specification of what an AI agent is for in a particular research project and how it is permitted to operate within it.
 
-The term adapts the software engineering practice of [[harness-engineering|harness engineering]] to doctoral inquiry. The underlying claim is that the characteristic problems of AI use in research — work moving faster than the thinking it depends on, cognitive offloading, [[context drift|drift]] into directions nobody deliberately chose, sycophantic confirmation of the researcher's framing, irreproducible answers across prompts, and untraceable attribution — are not primarily problems of institutional policy or model capability. They are problems of working with a capable [[ai-agents|agent]] in the absence of a specified operating context. The response is to specify that context.
+The term adapts the software engineering practice of [[harness-engineering|harness engineering]] to doctoral inquiry. The underlying claim is that the characteristic problems of AI use in research — work moving faster than the thinking it depends on, cognitive offloading, [[context drift|drift]] into directions nobody deliberately chose, [[Notes/sycophancy|sycophantic]] confirmation of the researcher's framing, irreproducible answers across prompts, and untraceable attribution — are not primarily problems of institutional policy or model capability. They are problems of working with a capable [[ai-agents|agent]] in the absence of a specified operating context. The response is to specify that context.
 
 The harness has seven components:
 
