@@ -54,7 +54,7 @@ export default {
       searchBarPlaceholder: "Search for something",
     },
     tableOfContents: {
-      title: "Table of Contents",
+      title: "Contents", // sentence case; shown as a mono rail label (PFL-9)
     },
     contentMeta: {
       readingTime: ({ minutes }) => `${minutes} min read`,
