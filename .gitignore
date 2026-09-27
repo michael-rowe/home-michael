@@ -21,3 +21,11 @@ content/Newsletters/*-newsletter-kit.md
 content/Newsletters/*-kit.md
 .replit
 replit.nix
+
+# PFL format library (2026-09-27): templates, themes and builders stay private.
+# Only the michael identity tokens are tracked — the deploy reads them, and the
+# built site's CSS publishes the same values anyway.
+formats/*
+!formats/identities/
+formats/identities/*
+!formats/identities/michael.css

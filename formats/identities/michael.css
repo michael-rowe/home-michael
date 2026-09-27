@@ -1,0 +1,21 @@
+/* identity: michael · v0.1.0 · 2026-09-20
+   Derived from ~/planning/workstreams/Portfolio of Scholarship/projects/Publication Format Library/design/identity-michael.md
+   Edit the document; regenerate this block. */
+:root, section {
+  --mr-bg: #f2f3f5;         --mr-surface: #eaecef;
+  --mr-ink: #16181c;        --mr-ink-2: #2b2f36;      --mr-ink-3: #4b5260;   --mr-label: #656b75;
+  --mr-line: #d3d7dd;       --mr-line-soft: #dde0e6;  --mr-chip-line: #c4c9d1;
+  --mr-accent: #2f5fa8;     --mr-accent-deep: #1d3f73; --mr-accent-tint: #dbe4f2;
+  --mr-canvas: #e2e5ea;
+  --mr-font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --mr-font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --mr-track-display: -0.038em; --mr-track-heading: -0.03em; --mr-track-mono: 0.13em;
+  --mr-rule: 2px; --mr-rule-strong: 3px; --mr-hairline: 1px; --mr-radius: 0;
+  --mr-wordmark-rule: 33.3%;
+}
+.mr-dark, [data-theme="dark"] {
+  --mr-bg: #101215;         --mr-surface: #1a1d22;
+  --mr-ink: #eef0f3;        --mr-ink-2: #d3d7dd;      --mr-ink-3: #9aa1ad;   --mr-label: #9aa1ad;
+  --mr-line: #2b2f36;       --mr-line-soft: #1c2028;  --mr-chip-line: #4b5260;
+  --mr-accent: #7aa3dd;     --mr-accent-deep: #a8c6ef; --mr-accent-tint: #1c2c44;
+}
