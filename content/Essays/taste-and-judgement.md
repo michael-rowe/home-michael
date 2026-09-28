@@ -1,6 +1,9 @@
 ---
 type: essay
 title: Taste and judgement in human-AI systems
+aliases:
+  - posts/evaluative-judgement
+  - Posts/2026-01-29-AI-and-evaluative-judgement
 description: >-
   Contemporary AI discourse often focuses on 'sanctuary strategies' — defensive
   attempts to identify uniquely human capabilities — positioning humans and AI as

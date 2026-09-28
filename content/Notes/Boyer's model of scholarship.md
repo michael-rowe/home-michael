@@ -13,8 +13,6 @@ tags:
 category:
   - Scholarship
 related:
-  - "[[Posts/2026-01-27-what-does-scholarship-sound-like]]"
-  - "[[Posts/2026-01-29-essays-as-scholarship]]"
   - "[[Notes/emergent scholarship]]"
   - "[[Notes/scholarly norms are recent inventions]]"
 builds_on:

@@ -84,7 +84,7 @@ Other moves required adjustment. The voice persona emphasises analytical commitm
 
 ## Why the asymmetry matters
 
-This was not a conversation between equals. Claude has no stakes in the paper's argument. It has no career, no reputation, and no discomfort when a structural decision is challenged. Claude will not feel any shame in [[2026-01-29-AI-and-evaluative-judgement|creating low-value slop]]. The asymmetry is real.
+This was not a conversation between equals. Claude has no stakes in the paper's argument. It has no career, no reputation, and no discomfort when a structural decision is challenged. Claude will not feel any shame in creating low-value slop. The asymmetry is real.
 
 But collaboration in this context didn't require symmetry. It required that the exchange change the thinking. The paper that emerged is substantially different from what I would have produced alone, not because Claude wrote better prose, but because the iterative exchange of analysis, challenge, and refinement pushed my thinking into territory I had not previously explored.
 
