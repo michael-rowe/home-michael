@@ -17,6 +17,10 @@ export default () => {
   const id = `list-${numLists++}`
 
   return {
+    // The id the list is rendered with; callers pointing at the list (a
+    // button's aria-controls) must use this, since the wrapper replaces any
+    // id they pass in.
+    id,
     OverflowList: (props: JSX.HTMLAttributes<HTMLUListElement>) => (
       <OverflowList {...props} id={id} />
     ),

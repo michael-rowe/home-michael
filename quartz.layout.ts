@@ -26,17 +26,11 @@ export const defaultContentPageLayout: PageLayout = {
         return type === "post" || type === "note" || type === "essay" || type === "lesson" || type === "bib" || type === "presentation" || type === "guide" || type === "podcast"
       },
     }),
-    Component.ConditionalRender({
-      component: Component.ContentType(),
-      condition: (page) => {
-        const type = page.fileData.frontmatter?.type as string | undefined
-        return type === "post" || type === "note" || type === "essay" || type === "presentation" || type === "guide" || type === "podcast"
-      },
-    }),
+    // ContentType's pill is now the first chip of ContentMeta's masthead (PFL-9)
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
+    // PageTitle removed (PFL-9): the wordmark heads the top bar instead
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
@@ -137,7 +131,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.ContentMeta(),
   ],
   left: [
-    Component.PageTitle(),
+    // PageTitle removed (PFL-9): the wordmark heads the top bar instead
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [

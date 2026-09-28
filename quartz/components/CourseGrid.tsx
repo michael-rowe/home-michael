@@ -99,44 +99,45 @@ export default ((opts?: Partial<CourseGridOptions>) => {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  padding: 1rem 1.25rem;
-  background-color: color-mix(in srgb, var(--card-accent, var(--lightgray)) 10%, var(--light));
-  border: 1px solid color-mix(in srgb, var(--card-accent, var(--lightgray)) 25%, transparent);
-  border-radius: 8px;
+  /* House identity (PFL-9): no tinted cards and no per-course colour — each
+     course sits under a 2px ink rule; the frontmatter \`color:\` is ignored. */
+  padding: 0.9rem 0 0.25rem;
+  background-color: transparent;
+  border: 0;
+  border-top: 2px solid var(--dark);
+  border-radius: 0;
   text-decoration: none !important;
   color: inherit;
   transition: border-color 0.15s ease;
 }
 
 .course-card:hover {
-  border-color: color-mix(in srgb, var(--card-accent, var(--secondary)) 60%, transparent);
+  border-top-color: var(--tertiary);
 }
 
 .course-status {
   display: inline-flex;
   align-self: flex-start;
-  padding: 0.2em 0.6em;
-  border-radius: 3px;
-  font-size: 0.8rem;
+  padding: 0.3em 0.65em;
+  border: 1px solid var(--mr-chip-line);
+  border-radius: 0;
+  font-family: var(--codeFont);
+  font-size: 0.68rem;
   font-weight: 500;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.13em;
   text-transform: uppercase;
+  color: var(--mr-ink-3);
   margin-bottom: 0.25rem;
 }
 
-.course-status--published {
-  background-color: color-mix(in srgb, var(--status-positive) 12%, transparent);
-  color: var(--status-positive);
-}
-
-.course-status--in-development {
-  background-color: color-mix(in srgb, var(--status-progress) 12%, transparent);
-  color: var(--status-progress);
-}
-
+/* Published is the default state and takes a plain chip; a state that is not
+   final takes the identity's status chip (tint fill, deep-accent text) —
+   the honest-state rule: say where the thing stands. */
+.course-status--in-development,
 .course-status--coming-soon {
-  background-color: color-mix(in srgb, var(--status-upcoming) 12%, transparent);
-  color: var(--status-upcoming);
+  background-color: var(--mr-accent-tint);
+  border-color: var(--mr-accent-deep);
+  color: var(--mr-accent-deep);
 }
 
 .course-card-title {
@@ -159,7 +160,7 @@ export default ((opts?: Partial<CourseGridOptions>) => {
   display: flex;
   gap: 0.5rem;
   padding-top: 0.5rem;
-  border-top: 1px solid color-mix(in srgb, var(--card-accent, var(--lightgray)) 20%, transparent);
+  border-top: 1px solid var(--lightgray);
   flex-wrap: wrap;
   margin-top: auto;
 }
