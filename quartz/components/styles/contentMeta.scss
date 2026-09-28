@@ -1,15 +1,34 @@
-.content-meta {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: var(--darkgray);
+// The masthead chip row (PFL-9; identity-michael.md § The masthead)
+.content-meta.mr-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.6rem 0 0;
+}
 
-  &[show-comma="true"] {
-    > *:not(:last-child) {
-      margin-right: 8px;
+.mr-chip {
+  display: inline-block;
+  padding: 0.3em 0.65em;
+  border: 1px solid var(--mr-chip-line);
+  font-family: var(--codeFont);
+  font-size: 0.68rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--mr-ink-3);
+  white-space: nowrap;
+}
 
-      &::after {
-        content: ",";
-      }
-    }
-  }
+// A state that is not final: tint fill, deep-accent border and text
+.mr-chip--status {
+  background-color: var(--mr-accent-tint);
+  border-color: var(--mr-accent-deep);
+  color: var(--mr-accent-deep);
+}
+
+// Reading time is a property of the page, not of the work: no box
+.mr-chip--plain {
+  border-color: transparent;
+  padding-left: 0.2em;
 }

@@ -21,10 +21,16 @@ button.toc-header {
   display: flex;
   align-items: center;
 
+  // The rail's label (PFL-9): mono, uppercase, label grey
   & h3 {
-    font-size: 1rem;
     display: inline-block;
     margin: 0;
+    font-family: var(--codeFont);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--mr-label);
   }
 
   & .fold {
@@ -47,19 +53,41 @@ ul.toc-content.overflow {
   overscroll-behavior: contain;
   list-style: none;
 
+  // The deck's rail (identity § Structure), on the page: every section listed
+  // in label grey, the one in view in the deep accent at 600 with a 3px accent
+  // mark in the margin beside it. Full opacity throughout — the old 0.35 put
+  // the entries at about 1.6:1, under the WCAG floor.
+  padding-left: 0.85rem;
+
   & > li > a {
-    color: var(--dark);
-    opacity: 0.35;
-    transition:
-      0.5s ease opacity,
-      0.3s ease color;
-    &.in-view {
-      color: var(--secondary);
-      opacity: 0.75;
-    }
+    position: relative;
+    display: block;
+    padding: 0.15rem 0;
+    color: var(--mr-label);
+    font-weight: 400;
+    line-height: 1.35;
+    transition: 0.3s ease color;
+
     &:hover {
       color: var(--secondary);
-      opacity: 1;
+    }
+  }
+
+  // Quartz marks every section scrolled past as .in-view; the rail marks only
+  // the current one — the last in-view entry, i.e. one with no in-view entry
+  // after it.
+  & > li:has(> a.in-view):not(:has(~ li > a.in-view)) > a {
+    color: var(--secondary);
+    font-weight: 600;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -0.85rem;
+      top: 0.3em;
+      bottom: 0.3em;
+      width: 3px;
+      background-color: var(--tertiary);
     }
   }
 

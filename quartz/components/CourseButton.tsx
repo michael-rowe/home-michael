@@ -83,21 +83,18 @@ export default ((opts?: Partial<CourseButtonOptions>) => {
   background-color: var(--secondary);
   color: var(--light);
   border: 2px solid var(--secondary);
-  border-radius: 8px;
+  border-radius: 0;
   font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none;
   transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease,
-    transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transform 0.3s ease;
 }
 
 .course-button:hover {
   background-color: var(--tertiary);
   border-color: var(--tertiary);
   color: var(--light);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .course-button svg {

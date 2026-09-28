@@ -2,7 +2,7 @@
 
 // put your custom CSS here!
 
-// Base font size — cascades to all components; Crimson Pro reads well at 18px
+// Base font size — cascades to all components. IBM Plex Sans at 18px (PFL-9)
 html {
   font-size: 18px;
   line-height: 1.5;
@@ -10,6 +10,24 @@ html {
   // The top nav is position: fixed, so anchor targets (TOC entries, heading
   // anchors) would otherwise scroll to sit underneath it.
   scroll-padding-top: 5rem;
+}
+
+// Space above the first line of a page (PFL-9). The site header used to sit
+// inside .page-header, where its 2rem margins made this space and absorbed the
+// first line's own top margin; it now sits outside <main>, so the offsets are
+// set here — 2rem, or 4rem under 800px, where .page-header has no margin of its
+// own. Here rather than in Header.tsx because component CSS is emitted before
+// base.scss, whose mobile rule zeroes .page-header's padding.
+.page > #quartz-body .page-header {
+  padding-top: 2rem;
+
+  @media all and (max-width: 800px) {
+    padding-top: 4rem;
+  }
+
+  & > .popover-hint > :first-child {
+    margin-top: 0;
+  }
 }
 
 // Skip link: first thing in the tab order, hidden until focused. Sits above
@@ -21,12 +39,12 @@ html {
   z-index: 300;
   padding: 0.75rem 1.25rem;
   background-color: var(--secondary);
-  color: #fff;
+  color: var(--light); // not #fff: --secondary is pale in dark mode (PFL-9)
   font-family: var(--headerFont);
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
-  border-bottom-right-radius: 6px;
+  border-bottom-right-radius: 0;
   // Translate rather than display:none so the link stays focusable
   transform: translateY(-110%);
   transition: transform 0.15s ease;
@@ -42,7 +60,8 @@ main:focus {
   outline: none;
 }
 
-// Typography: UI elements use Inter (headerFont), not Lora
+// Typography: UI elements use headerFont. Header and body are both IBM Plex
+// Sans since PFL-9; the rule is kept so they can diverge again without hunting.
 .sidebar,
 .top-nav,
 .mobile-nav,
@@ -54,14 +73,54 @@ footer {
   font-family: var(--headerFont);
 }
 
-// Article body: Crimson Pro reads well at 1.05rem/18px base; override base.scss's
-// fixed 1.6rem line-height on p/li so paragraphs and lists breathe properly
+// Article body: Plex Sans at the 18px base; override base.scss's fixed 1.6rem
+// line-height on p/li. A sans needs more leading than the serif did.
 article {
-  font-size: 1.05rem;
+  font-size: 1rem;
 
   p, li, td {
-    line-height: 1.55;
+    line-height: 1.65;
   }
+}
+
+// Measure. The centre column is `auto` between two 320px sidebars, so on a wide
+// screen a line ran past 1,200px. Capped at 44rem (~80 characters of Plex Sans);
+// no change at 1440px and below.
+.page > #quartz-body .center {
+  // base.scss sets min-width: 100%, which beats max-width; release it
+  min-width: 0;
+  width: 100%;
+  max-width: 44rem;
+}
+
+// Prose measure (PFL-9 Stage 12, Michael's call): running text stops at about
+// 70 characters, while callouts, tables, card grids and embedded decks keep the
+// full 44rem column. Set in rem, not ch: ch is the width of "0", wider than
+// Plex Sans's average character, and 44rem measured 91 characters a line.
+article > p,
+article > ul,
+article > ol,
+article > blockquote:not(.callout),
+article > h2,
+article > h3,
+article > h4,
+article > h5,
+article > h6 {
+  max-width: 35rem;
+}
+
+// Footnote markers: keep them from opening the leading of their line
+// (the ref is an a.internal, which base.scss gives a 1.4rem line-height of its own)
+article sup,
+article sup a.internal {
+  line-height: 0;
+}
+
+// Inline links in running text: 500, not base.scss's 600, which reads as bold
+// in a sans body. Weight is not what marks a link; the underline below is.
+article p a,
+article li a {
+  font-weight: 500;
 }
 
 // Underline body content links for accessibility (colour alone is insufficient)
@@ -70,34 +129,65 @@ article a:not(.tag-link):not([role="anchor"]) {
   text-underline-offset: 0.2em;
 }
 
+// Quotations (identity § Structure): no rule — a large opening quotation mark
+// in the accent, hung in a 2em indent level with the first line; text italic.
+// Callouts are blockquotes too in Quartz, hence :not(.callout).
+article blockquote:not(.callout) {
+  position: relative;
+  border-left: 0;
+  margin: 1.5rem 0;
+  padding-left: 2em;
+  font-style: italic;
+
+  &::before {
+    content: "\201C";
+    position: absolute;
+    left: 0;
+    top: -0.12em;
+    font-family: var(--headerFont);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 1;
+    color: var(--tertiary);
+  }
+}
+
 // Indent quote callouts to visually distinguish as pull quotes
 .callout[data-callout="quote"] {
   margin-left: 15%;
   margin-right: 15%;
 }
 
-// Heading sizes, weight, and colour
+// Heading sizes, weight, and colour. House identity: Plex Sans 700, tight
+// tracking; with one family for heading and body, weight carries the hierarchy.
+// Headings are ink: in the house identity blue never carries a heading, only
+// links, rules and the tinted phrase (identity-michael.md, PFL-9)
 h1 {
-  font-size: 2rem;
-  font-weight: 400;
-  color: var(--secondary);
+  font-size: 2.1rem;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+  color: var(--dark);
 }
 
 h2 {
-  font-size: 1.6rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
   color: var(--dark);
 }
 
 h3 {
-  font-size: 1.3rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
   color: var(--dark);
 }
 
 h4, h5, h6 {
-  font-size: 1.1rem;
-  font-weight: 400;
+  font-size: 1.05rem;
+  font-weight: 600;
   color: var(--dark);
 }
 
@@ -117,10 +207,10 @@ ul.toc-content a {
   font-size: 0.8rem;
 }
 
-// Callout titles: use header font (Outfit), regular weight
+// Callout titles: header font at 600, ink (PFL-9)
 .callout-title-inner {
   font-family: var(--headerFont);
-  font-weight: 400 !important;
+  font-weight: 600 !important;
 }
 
 // Content meta (date, reading time): smaller and muted
@@ -129,9 +219,10 @@ ul.toc-content a {
 }
 
 
-// Post listings: reduce title weight and increase description size
+// Post listings: titles at 600 so they hold against the description in the
+// same face; description size up
 .section h3 a {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .section .description {
@@ -172,33 +263,25 @@ ul.toc-content a {
   min-height: 160px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border-radius: 5px;
+  border-radius: 0;
   padding: 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
-  transition: box-shadow 0.3s ease;
-  // --border is only defined inside .callout[data-callout=...] scopes, never on
-  // :root, so referencing it here left the shorthand invalid and the cards
-  // borderless. Use the tip/success accent directly.
-  border: 1px solid #00bfa544;
+  // Same treatment as a callout (PFL-9): 2px ink rule over the surface
+  border: 0;
+  border-top: 2px solid var(--dark);
 }
 
-.flip-card:hover .flip-card-front,
-.flip-card:hover .flip-card-back {
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
-}
 
-// Use callout colors - default to tip/success colors
 .flip-card-front,
 .flip-card-back {
-  background-color: #00bfa510;
+  background-color: var(--mr-surface);
 }
 
 .flip-card-front h3 {
-  color: #00bfa5;
+  color: var(--dark);
   margin-top: 0;
   font-size: 1.1rem;
   margin-bottom: 0.75rem;
@@ -206,7 +289,7 @@ ul.toc-content a {
 }
 
 .flip-card-back h3 {
-  color: #09ad7a;
+  color: var(--secondary);
   margin-top: 0;
   font-size: 1.1rem;
   margin-bottom: 0.75rem;
@@ -317,7 +400,7 @@ body[data-slug="index"] .recent-notes {
     display: block;
     width: 100%;
     margin: 0;
-    border-radius: 6px;
+    border-radius: 0;
     border: 1px solid var(--lightgray);
   }
 
@@ -341,10 +424,33 @@ body[data-slug="index"] .recent-notes {
 // which avoids singling out one section and putting pressure on the rest to
 // earn their own visual device. Landing page only: interior pages have a
 // single subject and don't need it.
+//
+// House identity (PFL-9): a 2px ink rule between sections, and a mono § marker
+// above each heading (§01, §02…) from a CSS counter, so the markers renumber
+// themselves when a section is added or moved.
+body[data-slug="index"] article {
+  counter-reset: home-section;
+}
+
 body[data-slug="index"] article > h2 {
-  border-top: 1px solid var(--lightgray);
-  padding-top: 1.75rem;
+  // The rule is drawn on the heading, and it spans the whole column like the
+  // card grids beneath it, so the heading is exempt from the prose measure
+  max-width: none;
+  counter-increment: home-section;
+  border-top: 2px solid var(--dark);
+  padding-top: 1.1rem;
   margin-top: 2.75rem;
+
+  &::before {
+    content: "§" counter(home-section, decimal-leading-zero);
+    display: block;
+    margin-bottom: 0.6rem;
+    font-family: var(--codeFont);
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.13em;
+    color: var(--mr-label);
+  }
 }
 
 // Reader mode hides .sidebar.right, .contextual-nav, .ai-literacy-nav and
@@ -380,9 +486,9 @@ body[data-slug="index"] .readermode {
     display: inline-block;
     padding: 0.4em 1em;
     background-color: var(--secondary);
-    color: #fff !important;
+    color: var(--light) !important;
     border: 1.5px solid var(--secondary);
-    border-radius: 4px;
+    border-radius: 0;
     font-weight: 600;
     font-size: 1rem;
     text-decoration: none !important;
@@ -401,7 +507,7 @@ body[data-slug="index"] .readermode {
     background-color: transparent;
     color: var(--secondary) !important;
     border: 1.5px solid var(--secondary);
-    border-radius: 4px;
+    border-radius: 0;
     font-weight: 600;
     font-size: 1rem;
     text-decoration: none !important;
@@ -409,7 +515,7 @@ body[data-slug="index"] .readermode {
 
     &:hover {
       background-color: var(--secondary);
-      color: #fff !important;
+      color: var(--light) !important;
     }
   }
 }
@@ -417,7 +523,7 @@ body[data-slug="index"] .readermode {
 // Single-link page-cta: always render as filled primary (overrides :last-of-type outline)
 .page-cta a:only-of-type {
   background-color: var(--secondary) !important;
-  color: #fff !important;
+  color: var(--light) !important;
   border-color: var(--secondary) !important;
 
   &:hover {
@@ -445,13 +551,12 @@ body[data-slug="index"] .readermode {
     img {
       width: 100%;
       display: block;
-      border-radius: 6px;
+      border-radius: 0;
       border: 1px solid var(--lightgray);
       transition: transform 0.15s ease;
     }
 
     &:hover img {
-      transform: translateY(-2px);
     }
   }
 
@@ -565,17 +670,18 @@ body[data-slug="index"] .readermode {
   font-size: 1rem;
   padding: 0.75rem 1rem;
   border: 1px solid var(--lightgray);
-  border-radius: 5px;
+  border-radius: 0;
   background-color: var(--light);
   color: var(--darkgray);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  transition: border-color 0.2s ease;
 }
 
 .form-input:focus,
 .form-textarea:focus {
   outline: none;
   border-color: var(--secondary);
-  box-shadow: 0 0 0 3px var(--highlight);
+  outline: 2px solid var(--tertiary);
+  outline-offset: 1px;
 }
 
 .form-input::placeholder,
@@ -596,7 +702,7 @@ body[data-slug="index"] .readermode {
   background-color: var(--secondary);
   color: var(--light);
   border: none;
-  border-radius: 5px;
+  border-radius: 0;
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.1s ease;
   align-self: flex-start;
@@ -625,20 +731,17 @@ a.course-button {
   background-color: var(--secondary) !important;
   color: var(--light) !important;
   border: 2px solid var(--secondary) !important;
-  border-radius: 8px;
+  border-radius: 0;
   font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none !important;
   transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease,
-    transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transform 0.3s ease;
 
   &:hover {
     background-color: var(--tertiary) !important;
     border-color: var(--tertiary) !important;
     color: var(--light) !important;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   }
 
   svg {
@@ -654,7 +757,7 @@ a.course-button {
 // Distinct from the 1px --lightgray hr used between individual content entries
 .section-break {
   border: none;
-  border-top: 2px solid var(--darkgray);
+  border-top: 2px solid var(--dark);
   margin: 3rem 0;
 }
 
@@ -790,7 +893,7 @@ article p:has(.profile-photo) {
   padding: 1rem 1.25rem;
   border: 1px solid var(--gray);
   border-left: 4px solid var(--secondary);
-  border-radius: 8px;
+  border-radius: 0;
   background-color: var(--light);
 }
 
@@ -808,7 +911,7 @@ article p:has(.profile-photo) {
   padding: 0.6rem 0.8rem;
   margin: 0.4rem 0;
   border: 1px solid var(--lightgray);
-  border-radius: 6px;
+  border-radius: 0;
   // Subtle tint so options read as distinct surfaces against the .mcq card
   // (this previously referenced var(--background), which is not defined
   // anywhere — the declaration was invalid and silently did nothing)
@@ -859,6 +962,21 @@ article p:has(.profile-photo) {
   }
 }
 
+// Embedded decks (PFL-9). Every presentation page embeds its Marp deck with
+// the same inline style — height 600px, 8px radius — which letterboxes a 16:9
+// deck in black and rounds the corners. Fixed here rather than in 14 content
+// files: the frame takes the deck's own 16:9 and the identity's square
+// hairline. The height attribute is presentational, so CSS outranks it; the
+// inline border needs !important.
+article iframe[src*="/static/presentations/"] {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--lightgray) !important;
+  border-radius: 0 !important;
+}
+
 // Responsive 16:9 container for embedded video (podcast episodes, talk
 // recordings). aspect-ratio rather than the padding-bottom hack, which
 // several pages still carry inline.
@@ -867,7 +985,7 @@ article p:has(.profile-photo) {
   width: 100%;
   aspect-ratio: 16 / 9;
   margin: 1.5rem 0;
-  border-radius: 8px;
+  border-radius: 0;
   overflow: hidden;
   background-color: var(--lightgray);
 

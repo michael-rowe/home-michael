@@ -147,7 +147,9 @@ Quartz processes content through a three-stage plugin pipeline:
 ### Key files and directories
 
 **Configuration:**
-- `quartz.config.ts` - Main site configuration (theme, plugins, analytics, etc.)
+- `quartz.config.ts` - Main site configuration (theme, plugins, analytics, etc.). Its colours are not written here: they come from the house identity tokens (see *Styling*)
+- `formats/identities/michael.css` - The house identity's tokens, the one tracked file of the Publication Format Library (the rest of `formats/` is gitignored and private)
+- `quartz/util/identity.ts` - Reads those tokens at build time, maps them onto Quartz's colour slots, and emits every token as a `--mr-*` CSS variable
 - `quartz.layout.ts` - Page layout definitions (components for header, body, sidebar, etc.)
 - `tsconfig.json` - TypeScript configuration with Preact JSX settings
 
@@ -294,6 +296,15 @@ Plugins and components can declare external resources:
 - CSS is minified and transformed via Lightning CSS (vendor prefixes, syntax lowering)
 - Component styles can be defined inline via `.css` property
 - Global styles assembled in `quartz/components/renderPage.tsx`
+
+### The house identity
+
+Since PFL-9 (September 2026) the site wears the same identity as Michael's decks and handouts. The spec is `identity-michael.md` in the Publication Format Library project folder (planning vault), § *Site*; the values are in `formats/identities/michael.css`. The rules a change is most likely to break:
+
+- **Colours come from the tokens file.** Edit `formats/identities/michael.css`, not `quartz.config.ts`. Components can use the identity's own names (`--mr-surface`, `--mr-chip-line`, `--mr-ink-3`, `--mr-accent-tint`…) as well as Quartz's nine slots. `--secondary` is the text-safe deep accent (links); `--tertiary` is the accent (hover, rules, marks). Never put `#fff` on a `--secondary` fill: in dark mode `--secondary` is pale, so use `var(--light)`.
+- **One accent per page.** No per-type or per-course hues. The content-type colour variables (`--note-color` and the rest) survive only as aliases of the chip ink; don't give them colours again. The functional exception is right/wrong and copied states (`--status-positive`, `--status-negative`).
+- **Zero radius, no shadows, no hover lifts.** A floating layer (search panel, dropdown, drawer) is separated by a 1px ink hairline instead of a shadow.
+- **Type:** IBM Plex Sans for headings and body, IBM Plex Mono for code, chips and labels. Running text stops at 35rem (about 70 characters); callouts, tables, grids and embedded decks use the full 44rem column.
 
 ## Testing
 
@@ -548,6 +559,7 @@ Use a plain alias (`[[Projects/still-yours|Still Yours]]`), or a normal markdown
 - **DOI**: Omit the `doi:` field entirely if no DOI exists. Don't use empty `doi:`.
 - **No `slug:` field**: Quartz ignores it — page URLs always derive from the file path under `content/` (e.g. `content/Essays/my-essay.md` → `Essays/my-essay`). The field was removed from all content in June 2026; don't reintroduce it.
 - **cssclasses**: Don't add `cssclasses: [""]` — it has no effect and adds noise.
+- **`title-highlight` field** (optional, any type): a phrase from the title to tint with the accent — the identity's one decorative move, e.g. `title-highlight: getting better` on the home page. Matched case-insensitively; a page without it, or whose phrase is not in the title, keeps a plain title. Use it sparingly.
 - **`related` field**: Wiki-link format: `["[[Slug or Title]]"]`
 - **`linkedin` field**: Use `linkedin: YYYY-MM-DD` when a post has been shared to LinkedIn; leave as `linkedin:` (empty) if not yet posted. Never use the old `linkedin-status`/`linkedin-date` fields.
 - **Essay `version` field**: Follows a semantic versioning scheme indicating publication stage:
@@ -555,6 +567,8 @@ Use a plain alias (`[[Projects/still-yours|Still Yours]]`), or a normal markdown
   - `0.7`–`0.8`: Preprint deposited
   - `0.9`: Submitted to a peer-reviewed journal
   - `1.0`+: Published in a peer-reviewed venue; minor revisions increment the minor number (e.g. `1.1`)
+
+  The masthead under an essay's title shows the version as a chip and derives a status chip from it (*draft*, *preprint*, *submitted*). It shows **no** status for `1.0`+, because in September 2026 both 1.x essays were preprints and a derived "peer reviewed" chip would have overclaimed. The numbers are being reconciled with the scheme in the content review.
 
 ### Taxonomy (categories and tags)
 
@@ -624,12 +638,16 @@ Treat every piece as a solid starting point. Persona reviews are refinements —
 Key design decisions to be aware of when modifying components:
 
 - **Responsive breakpoint**: Both `TopNav.tsx` and `MobileNav.tsx` use `800px`. TopNav hides at `≤800px`; MobileNav shows at `≤800px`. Don't change one without changing the other.
-- **CSS variables**: Note colour is `--note-color` (defined in `contentType.scss`); course colour is `--course-color`. Add new content-type colours as CSS variables there, not hardcoded hex values.
+- **Colours**: see *The house identity* under *Styling*. No hard-coded hex values in components; use the `--mr-*` tokens or Quartz's slots.
+- **Masthead**: `ContentMeta` renders the chip row under a title (type · version · status · date, then reading time). `ContentType` is no longer in the layout; its stylesheet rides with `ContentMeta` because it still defines the colour aliases other components read.
+- **Header placement**: `renderPage.tsx` renders the header (`TopNav`, `MobileNav`) before the page grid and outside `<main>`, so the site navigation is the first tab stop and *Skip to content* skips it. The space above a page's first line is set on `.page-header` in `custom.scss`; if you move the header back, that spacing doubles.
+- **Wordmark**: `Wordmark.tsx`, used by `TopNav` and `MobileNav` at the left of the top bar. `cfg.pageTitle` stays `/home/michael` for tab titles and link previews; `PageTitle` is not in the layout.
+- **Table of contents**: styled as the decks' rail. Only the current section is marked — the *last* entry Quartz flags `in-view` (it flags every section scrolled past). `OverflowListFactory()` returns the `id` its list renders with; anything pointing at the list (`aria-controls`) must use it.
 - **Overlay pattern**: `MobileNav` appends its overlay to `<body>` via JS, so the show/hide rule is `body.mobile-nav-open .mobile-nav-overlay`, not a CSS sibling selector.
 - **JSON-LD / canonical**: `Head.tsx` emits `<link rel="canonical">` and `<script type="application/ld+json">` for `type: post`, `type: essay`, and course pages. Structured data uses Article schema for posts/essays, Course schema for courses.
 - **RelatedContent**: Uses a three-tier matching strategy — explicit `related` wikilinks first, then category matches, then tag-scored fallback. The `renderSection()` function takes `QuartzPluginData[]`, not `any[]`.
 - **`npm run check` failures**: There are 14 pre-existing TypeScript errors in the codebase (`quartz.layout.ts`, `Footer.tsx`, `LessonNav.tsx`, `MobileNav.tsx`, `mobilenav.inline.ts`, `folderPage.tsx`, `fileTrie.ts`). These do not block building — `npx quartz build` succeeds. Don't treat `npm run check` failures as blockers unless they're in files you've changed. **`Head.tsx` is clean and must stay clean** — a new error there is a real error, not noise.
-- **Site-specific frontmatter fields are declared in `quartz/plugins/transformers/frontmatter.ts`**: `meta-description`, `tab-title`, `keyphrase`, `linkedin`, and the podcast fields (`show`, `show-url`, `video`, `embed`, `audio`, `duration`) are in the `Partial<{…}>` on the `frontmatter` type. Without that they fall through the `{ [key: string]: unknown }` index signature and type as `unknown`, which poisons any `??` chain they start (this is what used to break `Head.tsx`). When a new content type adds a field that a component reads, declare it there too.
+- **Site-specific frontmatter fields are declared in `quartz/plugins/transformers/frontmatter.ts`**: `meta-description`, `tab-title`, `keyphrase`, `linkedin`, `title-highlight`, and the podcast fields (`show`, `show-url`, `video`, `embed`, `audio`, `duration`) are in the `Partial<{…}>` on the `frontmatter` type. Without that they fall through the `{ [key: string]: unknown }` index signature and type as `unknown`, which poisons any `??` chain they start (this is what used to break `Head.tsx`). When a new content type adds a field that a component reads, declare it there too.
 
 ## Performance considerations
 

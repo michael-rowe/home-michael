@@ -201,7 +201,7 @@ CourseLessonList.css = `
   display: block;
   text-decoration: none;
   padding: 1rem;
-  border-radius: 8px;
+  border-radius: 0;
   background-color: transparent;
   transition: background-color 0.2s ease;
   border: none !important;

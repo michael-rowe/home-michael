@@ -15,6 +15,7 @@ import {
   joinStyles,
   processGoogleFonts,
 } from "../../util/theme"
+import { identityCss } from "../../util/identity"
 import { Features, transform } from "lightningcss"
 import { transform as transpile } from "esbuild"
 import { write } from "./helpers"
@@ -326,6 +327,7 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
       const stylesheet = joinStyles(
         ctx.cfg.configuration.theme,
         googleFontsStyleSheet,
+        identityCss(), // --mr-* tokens (PFL-9)
         ...componentResources.css,
         styles,
       )
