@@ -637,7 +637,8 @@ Treat every piece as a solid starting point. Persona reviews are refinements —
 
 Key design decisions to be aware of when modifying components:
 
-- **Responsive breakpoint**: Both `TopNav.tsx` and `MobileNav.tsx` use `800px`. TopNav hides at `≤800px`; MobileNav shows at `≤800px`. Don't change one without changing the other.
+- **Responsive breakpoints**: the header swaps at `1100px` — TopNav collapses and MobileNav shows at `≤1100px`, because below that the top bar cannot hold its links centred beside the controls (2026-09-28). The sidebars still go at `800px`, the layout breakpoint in `variables.scss`. Don't change TopNav's number without MobileNav's. TopNav collapses to zero height rather than `display: none`, because the page's one Search instance (and the global graph overlay) lives inside it; MobileNav's search button opens that modal.
+- **Site controls**: Search, the global graph, reader mode and the theme toggle are rendered by `TopNav`, not the sidebars. There is no per-page graph. Reader mode hides both sidebars and is not remembered across page loads — deliberately, since it is for reading one piece.
 - **Colours**: see *The house identity* under *Styling*. No hard-coded hex values in components; use the `--mr-*` tokens or Quartz's slots.
 - **Masthead**: `ContentMeta` renders the chip row under a title (type · version · status · date, then reading time). `ContentType` is no longer in the layout; its stylesheet rides with `ContentMeta` because it still defines the colour aliases other components read.
 - **Header placement**: `renderPage.tsx` renders the header (`TopNav`, `MobileNav`) before the page grid and outside `<main>`, so the site navigation is the first tab stop and *Skip to content* skips it. The space above a page's first line is set on `.page-header` in `custom.scss`; if you move the header back, that spacing doubles.

@@ -2,6 +2,8 @@
 
 .backlinks {
   flex-direction: column;
+  // base.scss hides overflow on any div holding an .overflow list
+  overflow: visible !important;
 
   & > h3 {
     font-size: 1rem;
@@ -12,8 +14,15 @@
     list-style: none;
     padding: 0;
     margin: 0.5rem 0;
-    max-height: calc(100% - 2rem);
-    overscroll-behavior: contain;
+    // The full list, not a scrolling box (Michael's call, 2026-09-28): with the
+    // local graph gone the sidebar has the room, and the sidebar itself stops
+    // being sticky (custom.scss) so a long list scrolls with the page.
+    max-height: none;
+    overflow: visible;
+
+    &.gradient-active {
+      mask-image: none;
+    }
 
     & > li {
       & > a {

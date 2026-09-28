@@ -78,7 +78,9 @@ footer {
 article {
   font-size: 1rem;
 
-  p, li, td {
+  p,
+  li,
+  td {
     line-height: 1.65;
   }
 }
@@ -121,6 +123,17 @@ article sup a.internal {
 article p a,
 article li a {
   font-weight: 500;
+}
+
+// No fill behind internal links (2026-09-28). base.scss gives every a.internal
+// Quartz's --highlight background, mapped to --mr-surface, so listings,
+// "Continue reading" and body links sat on grey blocks while the bar, the
+// menus and the contents rail did not. Filled surfaces belong to callouts and
+// chips; a link is marked by colour, and in running text by the underline
+// below. Hover fills (menus, search results) still use --highlight.
+a.internal {
+  background-color: transparent;
+  padding: 0;
 }
 
 // Underline body content links for accessibility (colour alone is insufficient)
@@ -185,7 +198,9 @@ h3 {
   color: var(--dark);
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   font-size: 1.05rem;
   font-weight: 600;
   color: var(--dark);
@@ -217,7 +232,6 @@ ul.toc-content a {
 .content-meta {
   font-size: 0.82rem;
 }
-
 
 // Post listings: titles at 600 so they hold against the description in the
 // same face; description size up
@@ -273,7 +287,6 @@ ul.toc-content a {
   border: 0;
   border-top: 2px solid var(--dark);
 }
-
 
 .flip-card-front,
 .flip-card-back {
@@ -453,9 +466,9 @@ body[data-slug="index"] article > h2 {
   }
 }
 
-// Reader mode hides .sidebar.right, .contextual-nav, .ai-literacy-nav and
-// .recent-notes. The landing page renders none of them, so the toggle is a
-// button that visibly does nothing. Hide it rather than leave a dead control.
+// Reader mode hides both sidebars. The landing page has nothing in them worth
+// hiding, so the toggle would visibly do nothing. Hide it rather than leave a
+// dead control.
 body[data-slug="index"] .readermode {
   display: none;
 }
@@ -511,7 +524,9 @@ body[data-slug="index"] .readermode {
     font-weight: 600;
     font-size: 1rem;
     text-decoration: none !important;
-    transition: background-color 0.15s ease, color 0.15s ease;
+    transition:
+      background-color 0.15s ease,
+      color 0.15s ease;
 
     &:hover {
       background-color: var(--secondary);
@@ -704,7 +719,9 @@ body[data-slug="index"] .readermode {
   border: none;
   border-radius: 0;
   cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.1s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
   align-self: flex-start;
 }
 
@@ -735,7 +752,10 @@ a.course-button {
   font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none !important;
-  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease,
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    color 0.3s ease,
     transform 0.3s ease;
 
   &:hover {
@@ -995,5 +1015,15 @@ article iframe[src*="/static/presentations/"] {
     width: 100%;
     height: 100%;
     border: 0;
+  }
+}
+
+// The right sidebar holds only Backlinks now that the local graph is gone, and
+// shows the whole list. A sticky 100vh column would clip a long list at the
+// bottom of the screen, so on desktop it scrolls with the page instead.
+@media all and (min-width: 1200px) {
+  .page > #quartz-body > .sidebar.right {
+    position: static;
+    height: auto;
   }
 }

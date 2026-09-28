@@ -171,17 +171,22 @@ PageList.css = `
   padding: 0;
 }
 
-.section .category-link {
-  background-color: var(--highlight);
+/* The same chip as the tags under an article (TagList.tsx): hairline, mono,
+   link colour, no fill (identity § Masthead) */
+.section a.internal.category-link {
+  background-color: transparent;
+  border: 1px solid var(--mr-chip-line);
   border-radius: 0;
-  padding: 0.2rem 0.5rem;
-  font-size: 0.85rem;
+  padding: 0.25em 0.55em;
+  font-family: var(--codeFont);
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
   color: var(--secondary);
 }
 
-.section .category-link:hover {
-  background-color: var(--tertiary);
-  color: var(--light);
+.section a.internal.category-link:hover {
+  border-color: var(--secondary);
 }
 
 .section .tags {

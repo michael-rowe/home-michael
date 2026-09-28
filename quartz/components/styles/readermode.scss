@@ -21,29 +21,17 @@
   }
 }
 
-:root[reader-mode="on"] {
-  /* Right sidebar: Hide completely (reappear on hover) */
-  & .sidebar.right {
-    opacity: 0;
-    transition: opacity 0.2s ease;
+/* Reader mode hides both sidebars. visibility, not display, so the grid keeps
+   its columns and the article stays where it was rather than jumping left. The
+   button itself sits in TopNav, so it is still there to turn the mode off. */
+:root[reader-mode="on"] .page > #quartz-body > .sidebar {
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    opacity 0.2s ease,
+    visibility 0s linear 0.2s;
+}
 
-    &:hover {
-      opacity: 1;
-    }
-  }
-
-  /* Left sidebar: Hide specific navigation elements globally when reader mode is on */
-  /* We do NOT enable hover-to-reveal here because the toggle button is in the left sidebar,
-     so clicking it would immediately trigger the hover effect, preventing the hide. */
-  & .contextual-nav,
-  & .ai-literacy-nav {
-    opacity: 0;
-    transition: opacity 0.2s ease;
-    pointer-events: none;
-  }
-
-  /* Hide Recent Essays component completely */
-  & .recent-notes {
-    display: none;
-  }
+.page > #quartz-body > .sidebar {
+  transition: opacity 0.2s ease;
 }

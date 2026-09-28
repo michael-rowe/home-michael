@@ -173,7 +173,7 @@ function setupMobileNav() {
   }
 
   // Setup link clicks to close menu
-  const navLinks = document.querySelectorAll(".mobile-nav-link")
+  const navLinks = document.querySelectorAll(".mobile-nav-link, .mobile-nav-site-title")
   navLinks.forEach((link) => {
     link.removeEventListener("click", handleLinkClick)
     link.addEventListener("click", handleLinkClick)
@@ -191,3 +191,13 @@ window.addEventListener("popstate", () => closeMobileNav())
 document.addEventListener("keydown", handleEscape)
 document.addEventListener("keydown", trapFocus)
 document.addEventListener("nav", setupMobileNav)
+
+// The mobile search button opens TopNav's Search modal: there is one Search
+// instance on the page, because each instance binds its own Ctrl-K handler.
+// Delegated from document so it survives SPA navigation without rebinding.
+document.addEventListener("click", (e) => {
+  const target = e.target as Element | null
+  if (!target?.closest(".mobile-nav-search")) return
+  const button = document.querySelector<HTMLButtonElement>(".top-nav .search-button")
+  button?.click()
+})

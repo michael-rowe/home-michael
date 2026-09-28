@@ -1,6 +1,11 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { FullSlug, resolveRelative } from "../util/path"
 import { Wordmark, wordmarkCss } from "./Wordmark"
+import SearchConstructor from "./Search"
+import DarkmodeConstructor from "./Darkmode"
+import ReaderModeConstructor from "./ReaderMode"
+import GraphConstructor from "./Graph"
+import { concatenateResources } from "../util/resources"
 
 interface DropdownItem {
   text: string
@@ -40,11 +45,25 @@ const defaultOptions: TopNavOptions = {
 
 export default ((opts?: Partial<TopNavOptions>) => {
   const options = { ...defaultOptions, ...opts }
+  // The site controls live in the top bar's right-hand cluster, not the left
+  // sidebar (POS-18), so reader mode can hide both sidebars and still leave its
+  // own button on screen. One Search instance only: each instance binds its own
+  // Ctrl-K handler, so MobileNav opens this one rather than rendering a second.
+  const Search = SearchConstructor()
+  const Darkmode = DarkmodeConstructor()
+  const ReaderMode = ReaderModeConstructor()
+  // The global graph is the one graph on the site; the per-page local graph
+  // came out of the right sidebar. Ctrl-G opens it too (graph.inline.ts).
+  const Graph = GraphConstructor({ globalOnly: true })
 
-  const TopNav: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
+  const TopNav: QuartzComponent = (props: QuartzComponentProps) => {
+    const { fileData, displayClass } = props
     return (
       <nav class={`top-nav ${displayClass ?? ""}`} aria-label="Main navigation">
-        <Wordmark href={resolveRelative(fileData.slug!, "index" as FullSlug)} class="top-nav-wordmark" />
+        <Wordmark
+          href={resolveRelative(fileData.slug!, "index" as FullSlug)}
+          class="top-nav-wordmark"
+        />
         <ul>
           {options.links.map((link) => {
             const href = resolveRelative(fileData.slug!, link.slug as FullSlug)
@@ -67,7 +86,19 @@ export default ((opts?: Partial<TopNavOptions>) => {
                     aria-haspopup="true"
                     aria-label={`Show ${link.text} menu`}
                   >
-                    <svg class="dropdown-arrow" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <svg
+                      class="dropdown-arrow"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
                       <polyline points="6 9 12 15 18 9"></polyline>
                     </svg>
                   </button>
@@ -97,14 +128,45 @@ export default ((opts?: Partial<TopNavOptions>) => {
           })}
         </ul>
         <div class="top-nav-social">
-          <a href="https://github.com/michael-rowe/home-michael" target="_blank" rel="noopener noreferrer" aria-label="GitHub repository" class="social-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+          <Search {...props} />
+          <Graph {...props} />
+          <ReaderMode {...props} />
+          <Darkmode {...props} />
+          <span class="top-nav-divider" aria-hidden="true"></span>
+          <a
+            href="https://github.com/michael-rowe/home-michael"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub repository"
+            class="social-link"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
             </svg>
           </a>
-          <a href="https://www.linkedin.com/in/michael-rowe-phd/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" class="social-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          <a
+            href="https://www.linkedin.com/in/michael-rowe-phd/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn profile"
+            class="social-link"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
             </svg>
           </a>
         </div>
@@ -112,7 +174,9 @@ export default ((opts?: Partial<TopNavOptions>) => {
     )
   }
 
-  TopNav.css = wordmarkCss + `
+  const topNavCss =
+    wordmarkCss +
+    `
 .top-nav {
   position: fixed;
   top: 0;
@@ -155,6 +219,69 @@ export default ((opts?: Partial<TopNavOptions>) => {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+.top-nav-social .global-graph-icon,
+.top-nav-social .readermode,
+.top-nav-social .darkmode {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: var(--gray);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-nav-social .global-graph-icon svg,
+.top-nav-social .readermode svg,
+.top-nav-social .darkmode svg {
+  position: static;
+  width: 20px;
+  height: 20px;
+  fill: var(--gray);
+  stroke: none;
+  transition: fill 0.2s ease;
+}
+
+.top-nav-social .global-graph-icon:hover svg,
+.top-nav-social .readermode:hover svg,
+.top-nav-social .darkmode:hover svg,
+:root[reader-mode="on"] .top-nav-social .readermode svg {
+  fill: var(--secondary);
+}
+
+.top-nav-social .search {
+  max-width: none;
+  margin-right: 0.25rem;
+}
+
+.top-nav-social .search > .search-button {
+  width: 11rem;
+}
+
+/* Below 1440px a labelled search box makes the right column wider than the
+   wordmark's, and the 1fr/auto/1fr grid then pushes the links off centre. The
+   button drops its label and becomes an icon like its neighbours. */
+@media (max-width: 1440px) {
+  .top-nav-social .search > .search-button {
+    width: 2rem;
+    padding: 0;
+    justify-content: center;
+  }
+  .top-nav-social .search > .search-button > p {
+    display: none;
+  }
+}
+
+.top-nav-divider {
+  width: 1px;
+  height: 1.25rem;
+  background-color: var(--lightgray);
+  margin: 0 0.25rem;
 }
 
 .top-nav-social .social-link {
@@ -264,6 +391,14 @@ export default ((opts?: Partial<TopNavOptions>) => {
   transform: translateY(0);
 }
 
+/* Set for the moment after navigating from the menu (POS-15), until the
+   pointer leaves it. Keyboard focus and .open still open it. */
+.top-nav .has-dropdown.suppress-hover:not(.open):not(:focus-within) .dropdown-menu {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+}
+
 /* Devices that cannot hover get the menu only via the toggle, so a stray
    :hover from a tap does not leave it stuck open */
 @media (hover: none) {
@@ -301,14 +436,38 @@ export default ((opts?: Partial<TopNavOptions>) => {
   text-decoration: none;
 }
 
-@media (max-width: 800px) {
+/* Under 1100px MobileNav takes over (MobileNav.tsx shares this number). The bar collapses rather than leaving the
+   page, because the one Search instance lives in it: MobileNav's search button
+   opens this modal, which is position: fixed and so still covers the screen. */
+@media (max-width: 1100px) {
   .top-nav {
+    height: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: none;
+    overflow: visible;
+  }
+  .top-nav > :not(.top-nav-social),
+  .top-nav-social > :not(.search),
+  .top-nav .search > .search-button {
     display: none;
+  }
+  /* MobileNav's bar shares z-index 200 and comes later, so lift the open modal */
+  .top-nav:has(.search-container.active) {
+    z-index: 1000;
   }
 }
 `
+  TopNav.css = concatenateResources(Search.css, Graph.css, Darkmode.css, ReaderMode.css, topNavCss)
 
-  TopNav.afterDOMLoaded = `
+  TopNav.beforeDOMLoaded = concatenateResources(
+    Search.beforeDOMLoaded,
+    Graph.beforeDOMLoaded,
+    Darkmode.beforeDOMLoaded,
+    ReaderMode.beforeDOMLoaded,
+  )
+  const topNavScript = `
     document.addEventListener('nav', () => {
       const closeAll = (except) => {
         document.querySelectorAll('.top-nav .has-dropdown.open').forEach(li => {
@@ -317,6 +476,23 @@ export default ((opts?: Partial<TopNavOptions>) => {
           li.querySelector('.dropdown-toggle')?.setAttribute('aria-expanded', 'false')
         })
       }
+
+      // POS-15. SPA navigation swaps the page without a reload, so the link
+      // just clicked keeps focus (holding :focus-within), .open survives, and
+      // the pointer is still over the menu (holding :hover). Clear all three:
+      // blur, drop .open, and suppress hover until the pointer leaves.
+      closeAll()
+      const active = document.activeElement
+      if (active instanceof HTMLElement && active.closest('.top-nav .dropdown-menu')) {
+        active.blur()
+      }
+      document.querySelectorAll('.top-nav .has-dropdown').forEach(li => {
+        if (!li.matches(':hover')) return
+        li.classList.add('suppress-hover')
+        const release = () => li.classList.remove('suppress-hover')
+        li.addEventListener('mouseleave', release, { once: true })
+        window.addCleanup(() => li.removeEventListener('mouseleave', release))
+      })
 
       document.querySelectorAll('.top-nav .dropdown-toggle').forEach(toggle => {
         const parent = toggle.closest('.has-dropdown')
@@ -350,6 +526,13 @@ export default ((opts?: Partial<TopNavOptions>) => {
       })
     })
   `
+  TopNav.afterDOMLoaded = concatenateResources(
+    Search.afterDOMLoaded,
+    Graph.afterDOMLoaded,
+    Darkmode.afterDOMLoaded,
+    ReaderMode.afterDOMLoaded,
+    topNavScript,
+  )
 
   return TopNav
 }) satisfies QuartzComponentConstructor
