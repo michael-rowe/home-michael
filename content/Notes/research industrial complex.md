@@ -1,12 +1,13 @@
 ---
 title: Research industrial complex
-description: The research industrial complex describes the self-reinforcing system of incentives across universities, funding bodies, journals, and publishers that rewards publication volume and impact metrics over meaningful scientific progress. The term draws on Eisenhower's military-industrial complex to highlight how interconnected institutional interests can sustain a system that actively works against its own stated mission.
+description: The research industrial complex describes the self-reinforcing system of incentives across universities, funding bodies, journals, and publishers that rewards publication volume and impact metrics over meaningful scientific progress. The term draws on Eisenhower's military-industrial complex to show how interconnected institutional interests can sustain a system that works against its own stated mission.
+meta-description: "Perverse incentives in academic publishing: how universities, funders, and publishers reward volume over progress, and why generative AI could make it worse."
 aliases:
   - RIC
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-04-06
-updated: 2026-04-06
+updated: 2026-09-28
 draft: false
 tags:
   - publishing
@@ -16,48 +17,56 @@ category:
   - Scholarship
 related:
   - "[[Essays/publishing-with-purpose]]"
-keyphrase: "research industrial complex academic publishing"
+  - "[[Notes/scholarly norms are recent inventions]]"
+  - "[[Notes/Boyer's model of scholarship]]"
+  - "[[Notes/arms race dynamics higher education]]"
+keyphrase: "perverse incentives in academic publishing"
 linkedin:
+reviewed:
+  - note_writer
+  - writing_style
+  - SEO_optimiser
+  - copy_editor
 ---
 
-> [!info] A system of mutually reinforcing incentives that rewards publication volume over meaningful progress.
-> The research industrial complex is not the result of bad actors. Each participant — researchers, universities, funders, publishers — is responding rationally to the incentives they face. The collective result is a publishing culture that consistently prioritises metrics over knowledge, and quantity over quality.
+> [!info] Academic publishing rewards volume because everyone in it is behaving rationally
+> The research industrial complex needs no bad actors. Each participant — researchers, universities, funders, publishers — responds sensibly to the incentives in front of them, and the collective result is a publishing culture that consistently puts metrics before knowledge and quantity before quality.
 
 ## Research industrial complex
 
 **One-sentence definition:** The research industrial complex (RIC) is the interlocking system of incentives across academia — publication metrics, grant decisions, promotion criteria, and publisher revenues — that rewards output volume over meaningful contribution to knowledge or practice.
 
-The term borrows from Eisenhower's warning about the military-industrial complex: systems where interconnected institutional interests create self-perpetuating cycles that serve those institutions more than the public they claim to serve. In academic publishing, the dynamic manifests across every layer of the ecosystem:
+The term borrows from Eisenhower's warning about the military-industrial complex: interconnected institutional interests creating self-perpetuating cycles that serve those institutions more than the public they claim to serve. In academic publishing, the perverse incentives show up at every layer:
 
-- **Universities** evaluate faculty on publication counts and journal impact factors
-- **Funding bodies** use those same metrics for grant decisions
-- **Researchers** need publications for career advancement — particularly early-career academics
-- **Publishers** benefit from a steady, growing stream of submissions
+- **Universities** evaluate staff on publication counts and journal impact factors.
+- **Funding bodies** use the same metrics for grant decisions.
+- **Researchers** need publications for career advancement, and early-career academics need them most.
+- **Publishers** benefit from a steady, growing stream of submissions.
 
-Each actor responds rationally to their incentives. The collective result is a system that drives researchers to slice work into minimum publishable units, prioritise novelty over replication, and chase citation counts among academics rather than evidence of real-world impact on practice.
+Each actor responds rationally to their incentives. Together they push researchers to slice work into minimum publishable units, prioritise novelty over replication, and chase citations from other academics in place of evidence that practice has changed (Edwards & Roy, 2017). One consequence is that large fields slow down: as the volume of papers grows, attention concentrates on already-established work and new ideas struggle to break through (Chu & Evans, 2021). In health professions education the pressure reaches clinical academics and teaching-focused staff whose promotion cases are judged on the same publication metrics, even though their contribution is largely to how practitioners are taught.
 
 ### How AI intensifies it
 
-Generative AI is likely to accelerate rather than disrupt these dynamics unless deliberate countermeasures are taken. AI tools dramatically reduce the time needed to draft manuscripts, respond to reviewers, and repackage existing findings in new forms. This lowers the cost of publication without changing what is being rewarded. The risk is an AI-enabled paper mill: more papers, faster, with less connection to the kind of careful inquiry that actually advances knowledge or improves patient care.
+Unless institutions take deliberate countermeasures, generative AI is more likely to speed these dynamics up than to disrupt them. AI tools cut the time it takes to draft manuscripts, respond to reviewers, and repackage existing findings in new forms, which lowers the cost of publication without changing what is rewarded. The risk is an AI-enabled paper mill: more papers, faster, with less connection to the careful inquiry that advances knowledge or improves patient care.
 
-There is also a structural concern: several major publishers have entered commercial partnerships with AI companies, allowing frontier models to train on their content. This introduces a new set of commercial incentives — generating training data — that are even further removed from the mission of advancing scientific knowledge.
+There's also a structural concern. Several major publishers have entered commercial partnerships with AI companies, licensing their content for training frontier models. That adds a new commercial incentive, producing training data, which sits even further from the mission of advancing scientific knowledge.
 
 ### The collective action problem
 
-Reform is not simply a matter of individual will. No researcher can safely abandon traditional publication metrics while promotion committees continue using them. No journal can slow down to prioritise discourse while competing journals accelerate. Change requires coordinated action across researchers, journals, institutions, and funders — which is why previous reform efforts have struggled despite widespread recognition that the current system is dysfunctional.
+Individual will can't fix this. No researcher can safely abandon traditional publication metrics while promotion committees still use them, and no journal can slow down to prioritise discourse while its competitors speed up. Change needs coordinated action across researchers, journals, institutions, and funders, which is why earlier reform efforts have struggled despite widespread agreement that the system is dysfunctional.
 
-The appropriate response for journals is to use AI to deepen rather than accelerate discourse: to surface connections, make peer review dialogic, and measure impact through changes in practice rather than citations among academics. See [[publishing-with-purpose]] for a developed argument along these lines.
+For journals, the more useful response is to use AI to deepen discourse: surfacing connections, making peer review a dialogue, and measuring impact by changes in practice more than by citations among academics. [[Essays/publishing-with-purpose|Publishing with purpose]] develops that argument.
 
 ---
 
 ## Sources
 
-- Rowe, M. (2025). Publishing with purpose: Using AI to enhance scientific discourse. *Archives of Physiotherapy*, 15(1), 90–96. https://doi.org/10.33393/aop.2025.3442
-- Chu, J. S. G., & Evans, J. A. (2021). Slowed canonical progress in large fields of science. *PNAS*, 118(41). https://doi.org/10/gm2qmh
-- Edwards, M. A., & Roy, S. (2017). Academic research in the 21st century: Maintaining scientific integrity in a climate of perverse incentives and hypercompetition. *Environmental Engineering Science*, 34(1), 51–61.
+- Chu, J. S. G., & Evans, J. A. (2021). Slowed canonical progress in large fields of science. *Proceedings of the National Academy of Sciences*, *118*(41), e2021636118. https://doi.org/10.1073/pnas.2021636118
+- Edwards, M. A., & Roy, S. (2017). Academic research in the 21st century: Maintaining scientific integrity in a climate of perverse incentives and hypercompetition. *Environmental Engineering Science*, *34*(1), 51–61. https://doi.org/10.1089/ees.2016.0223
+- Rowe, M. (2025). Using AI to enhance scientific discourse by transforming journals into learning communities. *Archives of Physiotherapy*, *15*, 90–96. https://doi.org/10.33393/aop.2025.3442
 
 ---
 
 ## Notes
 
-The analogy has limits — publishers are not intentionally sustaining health problems for profit, as defence contractors might sustain conflict. The value of the analogy is structural: it names the mechanism by which institutional self-interest can override mission without anyone intending that outcome.
+The analogy has limits: publishers aren't deliberately sustaining health problems for profit, in the way defence contractors might sustain conflict. Its value is structural. It names the mechanism by which institutional self-interest can override mission without anyone intending that outcome.

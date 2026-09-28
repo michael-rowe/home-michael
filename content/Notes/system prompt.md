@@ -1,125 +1,93 @@
 ---
 title: System prompt
-description: Persistent context included in every message to an AI model, establishing consistent behaviour, knowledge, or constraints across interactions.
+description: Instructions placed in front of every conversation with an AI model, setting how it behaves, what it knows, and what it won't do, usually without the user seeing them.
+meta-description: "What is a system prompt? The hidden instructions that shape every AI conversation, who writes them, what they cost, and how to write your own."
 aliases:
   - system message
   - persistent context
 type: note
 author: "[[Michael Rowe]]"
 created: 2026-02-05
-updated: 2026-02-05
+updated: 2026-09-28
+draft: false
 tags:
   - generative-ai
   - prompt-engineering
   - context-engineering
-category: Technology
+category:
+  - Technology
 related:
   - "[[Notes/prompt engineering]]"
   - "[[Notes/context engineering]]"
   - "[[Notes/model context protocol]]"
+  - "[[Notes/prompt injection]]"
+  - "[[Notes/token budget]]"
 builds_on:
   - "[[prompt engineering]]"
 leads_to:
 contradicts:
 source: ""
 source_url: ""
+keyphrase: "what is a system prompt"
 linkedin:
+reviewed:
+  - note_writer
+  - writing_style
+  - SEO_optimiser
+  - copy_editor
 
 ---
 
-> [!info] The invisible context
-> Every AI interaction happens within an invisible frame—instructions about how to behave, what to prioritise, how to respond. System prompts define this frame, shaping interaction without users seeing the instructions. Understanding system prompts means understanding how AI responses are constrained and enabled before you even begin your conversation.
+> [!info] Every AI conversation starts inside instructions you didn't write
+> Before you type anything, an AI model has already been told how to behave, what to prioritise, and what to refuse. The system prompt holds those instructions, and knowing it's there explains much of what the model does and won't do, before your conversation even begins.
 
 ## System prompt
 
-**One-sentence definition:** Persistent context included in every message to an AI model, establishing consistent behaviour, knowledge, or constraints across interactions without requiring users to specify them repeatedly.
+**One-sentence definition:** A system prompt is a set of instructions sent to an AI model ahead of every conversation, establishing consistent behaviour, knowledge, or constraints without the user having to specify them each time.
 
-When you interact with ChatGPT, Claude, or other AI assistants, you're not starting from a blank slate. Before your message reaches the model, the system prepends instructions—sometimes thousands of words—defining who the AI is, how it should behave, what it should prioritise, what it should refuse. These invisible instructions constitute the system prompt.
+When you use ChatGPT, Claude, or another AI assistant, you aren't starting from a blank slate. Before your message reaches the model, the system places instructions in front of it, sometimes thousands of words long, defining who the assistant is, how it should behave, what it should prioritise, and what it should refuse. You type "help me write an essay", and the model receives the full set of instructions followed by your request. Anthropic publishes the system prompts used in its Claude apps (Anthropic, n.d.-b), and reading one is the quickest way to see how much is decided before the user arrives.
 
-You type "help me write an essay." The model receives something like: "[thousands of words of system instructions about being helpful, harmless, honest, specific formatting preferences, refusal policies, tone guidelines] User message: help me write an essay." Your interaction happens within the frame those instructions establish.
+### How the layers stack
 
-## Consistency, hidden constraints, and cost
+System prompts are usually written at several levels, and they stack in this order:
 
-System prompts shape AI behaviour in ways users often don't recognise:
+- **Platform instructions**, set by the AI provider, establish baseline behaviour: safety guardrails, refusal policies, and general personality. Users can't change them.
+- **Application instructions** are set by any tool built on top of a model. An AI writing assistant, a university's chatbot, or a marking-support tool will each carry their own instructions for their specific job.
+- **User instructions**, where a platform supports them, persist across your own conversations. Claude calls these *instructions for Claude* and supports separate *project instructions* (Anthropic, n.d.-a); ChatGPT calls them *custom instructions*.
 
-**Consistency across conversations:** Without system prompts, every interaction would require re-establishing basic expectations. System prompts ensure AI maintains consistent personality, safety guardrails, and quality standards across all conversations with all users.
+Then comes your actual message. The stack explains why a model sometimes behaves in ways that seem arbitrary: instructions you can't see are shaping its responses.
 
-**Hidden constraints:** When AI refuses certain requests or responds in particular patterns, that's often system prompt instructions rather than fundamental model limitations. Understanding this reveals what's policy versus capability.
+### What system prompts decide
 
-**Cost implications:** System prompts consume tokens in every interaction. A 2,000-word system prompt means paying for those 2,000 words with every message, regardless of your actual query. For providers, this represents significant computational cost. For users understanding pricing, it explains why some platforms cost more than others.
+**Consistency.** Without a system prompt, every conversation would have to re-establish basic expectations. The system prompt keeps a model's personality, safety guardrails, and quality standards the same across conversations and users.
 
-**Power dynamics:** Who writes system prompts determines AI behaviour. Users see the interface but not the instructions shaping responses. This creates information asymmetry—providers control behaviour through instructions users cannot see or modify.
+**Hidden constraints.** When a model refuses a request or answers in a particular pattern, that's often the system prompt at work and not a limit of the model itself. Knowing this helps separate what is policy from what is capability.
 
-## Personal system prompts
+**Cost.** The system prompt is sent with every message, so its [[Notes/token|tokens]] are paid for on every turn of a conversation, whatever the question. Providers reduce this with prompt caching (Anthropic, n.d.-c), but a long system prompt still takes up room in the [[Notes/context window|context window]] that could hold something more useful.
 
-The concept extends to user-defined persistent context. Some platforms enable you to establish personal system prompts—instructions specific to your usage that persist across conversations:
+**Power.** Whoever writes the system prompt determines the model's behaviour. Users see the interface and not the instructions, so providers and tool builders control behaviour through text the user can't see or change. That same gap is what [[Notes/prompt injection|prompt injection]] exploits.
 
-"I'm a clinical researcher working on rehabilitation outcomes. Assume familiarity with research methods and clinical terminology. Provide direct, technical responses rather than simplified explanations. When discussing statistics, show your working."
+### Writing your own
 
-This personal system prompt shapes every subsequent interaction without requiring you to repeat preferences each time. The trade-off: increased token consumption (these instructions come with every message) versus reduced friction (not repeatedly explaining your context).
+A personal system prompt shapes every later conversation without you repeating your preferences. For an educator it might read:
 
-For knowledge workers, personal system prompts can establish:
-- Professional context and expertise level
-- Preferred communication style and formatting
-- Theoretical frameworks or methodological commitments
-- Specific constraints or requirements for outputs
+"I teach clinical pharmacology to nursing and pharmacy students. Assume familiarity with pharmacology and with teaching in higher education. Give direct, technical answers. When you suggest a teaching activity, say which learning outcome it serves."
 
-The challenge is knowing what instructions provide sufficient value to warrant the token cost. Generic preferences ("be concise") probably don't. Specific domain knowledge ("I'm conducting research on X using methodology Y") might.
+What earns a place is specific: your professional context and level of expertise, the frameworks or methodological commitments you work within, and constraints on what outputs should look like. Generic preferences ("be concise") probably don't earn their tokens, and highly specific ones can get in the way when you use the same assistant for something else. Personal instructions also usually live on the provider's servers, so whatever you put in them becomes part of your record with that provider.
 
-## System prompts versus [[context engineering]]
+### System prompts and context engineering
 
-System prompts provide one mechanism for persistent context, but limited compared to [[context engineering]] approaches:
+A system prompt is one way of giving a model persistent context, and a limited one. It tells the model how to behave; [[Notes/context engineering|context engineering]] gives it structured access to your actual material — documents, knowledge bases, research history. A system prompt says "I'm a researcher", and context engineering lets the model read the research. A system prompt is also fixed for the conversation and included in full every time, while context engineering, often through tools such as the [[Notes/model context protocol|Model Context Protocol]], retrieves only what a particular question needs. System prompts work for general behaviour and small amounts of standing context, and context engineering for knowledge that would be impractical to include in every message.
 
-**System prompts are text-based instructions** that tell AI how to behave. [[Notes/context engineering|Context engineering]] provides structured access to actual data—your documents, knowledge bases, research history. System prompts say "I'm a researcher"; context engineering gives AI access to your research.
+### What remains open
 
-**System prompts are static** within a conversation. [[Notes/context engineering|Context engineering]] enables dynamic context retrieval based on what's relevant to specific queries. System prompts include everything upfront; context engineering surfaces what's needed when it's needed.
-
-**System prompts consume tokens constantly.** Every message includes the full system prompt, regardless of relevance. [[Notes/context engineering|Context engineering]] using tools like [[Notes/model context protocol|Model Context Protocol]] enables selective context access—only retrieving and including what's pertinent to current interaction.
-
-The relationship: system prompts work for establishing general behaviour and small amounts of persistent context. Context engineering works for providing AI with access to substantial personal or domain knowledge that would be impractical to include in every message.
-
-## Technical implementation
-
-System prompts operate at different architectural levels:
-
-**Platform system prompts** are set by AI providers and invisible to users. These establish baseline behaviour—safety guardrails, refusal policies, general personality. Users cannot modify platform system prompts.
-
-**Application system prompts** are set by applications built on AI platforms. If you're using an AI-powered writing tool, research assistant, or specialised application, it likely includes its own system prompt shaping behaviour for that specific use case.
-
-**User system prompts** (where supported) are set by individual users through platform features. Claude.ai supports "Custom Instructions," ChatGPT has "Custom instructions," allowing persistent user-defined context.
-
-**Message-level system prompts** in API use enable developers to define behaviour programmatically for each request. This provides maximum flexibility but requires understanding how system prompts interact with user messages and prior conversation history.
-
-These layers stack—platform instructions, then application instructions, then user instructions, then your actual message. Understanding this stack explains why AI sometimes behaves in seemingly arbitrary ways: instructions you cannot see are shaping responses.
-
-## Strategic considerations
-
-For individuals, decisions about personal system prompts involve trade-offs:
-
-**Specificity versus flexibility:** Highly specific instructions work well for narrow use cases but constrain AI in other contexts. General instructions maintain flexibility but provide less value. The question is whether your AI usage is consistent enough to warrant specific persistent instructions.
-
-**Token cost versus friction reduction:** Personal system prompts consume tokens in every interaction. For heavy usage, this cost accumulates. For light usage, repeatedly providing context might be more economical than persistent system prompts.
-
-**Privacy and control:** Personal system prompts often live on providers' systems rather than under your control. What you include in system prompts becomes part of your interaction record with that provider.
-
-For developers, system prompt design shapes user experience profoundly. Poor system prompts create inconsistent behaviour, unexpected refusals, or responses that don't match user expectations. Thoughtful system prompts enable reliable, appropriate AI behaviour aligned with application purposes.
-
-## What should not be user-configurable
-
-How much context is appropriate in system prompts before they become unwieldy? When do personal system prompts provide genuine value versus just consuming tokens? How do we balance user customisation with maintaining guardrails that serve broader social interests?
-
-The tension: personal system prompts enable tailoring AI to individual needs. But some constraints (safety, accuracy, appropriate behaviour) shouldn't be user-configurable. Where's the boundary between legitimate customisation and undermining important safeguards?
-
-System prompts represent one approach to persistent context—valuable for establishing general behaviour but insufficient for deep contextual understanding. The question isn't whether to use them but what role they play in broader context management strategies.
+Personal system prompts let people tailor AI to their own needs, but some constraints — safety, accuracy, appropriate behaviour — shouldn't be configurable by the user at all, and where that boundary sits is unsettled. So is transparency: some providers publish their system prompts and others keep them entirely hidden, which makes it hard for users to understand why a model responds the way it does.
 
 ---
 
 ## Sources
 
-None specifically cited—system prompts are a widespread practice across AI platforms with varying implementation details.
+- Anthropic. (n.d.-a). *Understanding Claude's personalization features*. Claude Help Center. https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features
+- Anthropic. (n.d.-b). *System prompts*. Claude Platform Docs. https://platform.claude.com/docs/en/release-notes/system-prompts/overview
+- Anthropic. (n.d.-c). *Prompt caching*. Claude Platform Docs. https://platform.claude.com/docs/en/build-with-claude/prompt-caching
 
----
-
-## Notes
-
-System prompts often remain invisible to users, creating information asymmetry about what instructions shape AI behaviour. Some platforms expose portions of system prompts; others keep them entirely hidden. This obscurity makes it difficult to understand why AI responds in particular ways or to debug unexpected behaviour. Transparency about system prompt content remains an open question in AI interface design.
