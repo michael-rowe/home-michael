@@ -1,0 +1,22 @@
+# Redirects for pages that no longer exist.
+#
+# A page that is renamed or merged keeps its old URL through the `aliases:`
+# field of the page that now covers it. This file is for the rest: pages
+# removed with nothing on the site that covers them. Each line maps an old
+# path to where it should now go. Read by quartz/plugins/emitters/redirects.ts.
+#
+#   old path: new path
+#
+# Paths are written as they appear under content/, without .md; spaces and
+# capitals are slugified the same way as filenames. End a target with / to
+# point at a folder page. A target can also be a full https:// URL. The build
+# warns if an old path is still a page or a target does not exist.
+
+# Posts imported from mrowe.co.za, removed 2026-09-28
+# (~/harness/record/2026-09-28-clean-start-for-posts.md)
+Posts/2026-01-29-AI-for-learning-at-scale: Posts/
+Posts/2026-01-29-essays-as-scholarship: Posts/
+Posts/2026-01-27-what-does-scholarship-sound-like: Posts/
+posts/audio-scholarship: Posts/
+Posts/2026-01-17-thoughtful-AI-use-a-better-game: Posts/
+Posts/2026-01-28-AI-meeting-scribes-organisational-memory-new-governance: Posts/
