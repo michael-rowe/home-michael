@@ -357,7 +357,11 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     autoStart: false,
     autoDensity: true,
     backgroundAlpha: 0,
-    preference: "webgpu",
+    // WebGL, not WebGPU: on GPUs that expose WebGPU without the
+    // float32-blendable feature, Pixi draws an empty canvas (Quartz #1899;
+    // upstream's workarounds were rolled back). Both the local graph and the
+    // global overlay came up blank in Michael's browser, 2026-09-28.
+    preference: "webgl",
     resolution: window.devicePixelRatio,
     eventMode: "static",
   })

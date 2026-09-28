@@ -58,6 +58,11 @@ ul.toc-content.overflow {
   // mark in the margin beside it. Full opacity throughout — the old 0.35 put
   // the entries at about 1.6:1, under the WCAG floor.
   padding-left: 0.85rem;
+  // width: 100% plus that padding overran the rail by 0.85rem, and the
+  // overflow-y: auto from base.scss turned the overrun into a horizontal
+  // scrollbar under every contents list
+  box-sizing: border-box;
+  overflow-x: hidden;
 
   & > li > a {
     position: relative;

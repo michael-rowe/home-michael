@@ -7,11 +7,18 @@ const emitReaderModeChangeEvent = (mode: "on" | "off") => {
   document.dispatchEvent(event)
 }
 
+const syncPressed = () => {
+  for (const button of document.getElementsByClassName("readermode")) {
+    button.setAttribute("aria-pressed", String(isReaderMode))
+  }
+}
+
 document.addEventListener("nav", () => {
   const switchReaderMode = () => {
     isReaderMode = !isReaderMode
     const newMode = isReaderMode ? "on" : "off"
     document.documentElement.setAttribute("reader-mode", newMode)
+    syncPressed()
     emitReaderModeChangeEvent(newMode)
   }
 
@@ -22,4 +29,5 @@ document.addEventListener("nav", () => {
 
   // Set initial state
   document.documentElement.setAttribute("reader-mode", isReaderMode ? "on" : "off")
+  syncPressed()
 })

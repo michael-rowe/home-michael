@@ -69,7 +69,10 @@ export default ((opts?: Partial<MobileNavOptions>) => {
             <ul>
               {essays.map((essay) => (
                 <li>
-                  <a href={resolveRelative(fileData.slug!, essay.slug!)} class="internal mobile-nav-link">
+                  <a
+                    href={resolveRelative(fileData.slug!, essay.slug!)}
+                    class="internal mobile-nav-link"
+                  >
                     {essay.frontmatter?.title}
                   </a>
                 </li>
@@ -91,7 +94,10 @@ export default ((opts?: Partial<MobileNavOptions>) => {
             <ul>
               {posts.map((post) => (
                 <li>
-                  <a href={resolveRelative(fileData.slug!, post.slug!)} class="internal mobile-nav-link">
+                  <a
+                    href={resolveRelative(fileData.slug!, post.slug!)}
+                    class="internal mobile-nav-link"
+                  >
                     {post.frontmatter?.title}
                   </a>
                 </li>
@@ -115,7 +121,10 @@ export default ((opts?: Partial<MobileNavOptions>) => {
             <ul>
               {relatedNotes.map((note) => (
                 <li>
-                  <a href={resolveRelative(fileData.slug!, note!.slug!)} class="internal mobile-nav-link">
+                  <a
+                    href={resolveRelative(fileData.slug!, note!.slug!)}
+                    class="internal mobile-nav-link"
+                  >
                     {note!.frontmatter?.title}
                   </a>
                 </li>
@@ -139,10 +148,11 @@ export default ((opts?: Partial<MobileNavOptions>) => {
                 const lessonNum = lessonNumber(lesson)
                 return (
                   <li>
-                    <a href={resolveRelative(fileData.slug!, lesson.slug!)} class="internal mobile-nav-link">
-                      {lessonNum !== undefined && (
-                        <span class="lesson-number">{lessonNum}. </span>
-                      )}
+                    <a
+                      href={resolveRelative(fileData.slug!, lesson.slug!)}
+                      class="internal mobile-nav-link"
+                    >
+                      {lessonNum !== undefined && <span class="lesson-number">{lessonNum}. </span>}
                       {lesson.frontmatter?.title}
                     </a>
                   </li>
@@ -156,13 +166,58 @@ export default ((opts?: Partial<MobileNavOptions>) => {
 
     return (
       <div class={`mobile-nav ${displayClass ?? ""}`}>
-        <Wordmark href={resolveRelative(fileData.slug!, "index" as FullSlug)} class="mobile-nav-wordmark" />
+        <Wordmark
+          href={resolveRelative(fileData.slug!, "index" as FullSlug)}
+          class="mobile-nav-wordmark"
+        />
         <div class="mobile-nav-controls">
+          <button type="button" class="mobile-nav-search" aria-label="Search">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 19.9 19.7"
+              width="18"
+              height="18"
+              aria-hidden="true"
+            >
+              <g fill="none" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4" />
+                <circle cx="8" cy="8" r="7" />
+              </g>
+            </svg>
+          </button>
+          {/* Driven by readermode.inline.ts, which TopNav loads and which binds
+              every .readermode button; shown 800–1100px, where the sidebars are */}
+          <button type="button" class="readermode" aria-label="Reader mode" aria-pressed="false">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 256 256"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path d="M232,48H160a40,40,0,0,0-32,16A40,40,0,0,0,96,48H24a8,8,0,0,0-8,8V200a8,8,0,0,0,8,8H96a24,24,0,0,1,24,24,8,8,0,0,0,16,0,24,24,0,0,1,24-24h72a8,8,0,0,0,8-8V56A8,8,0,0,0,232,48ZM96,192H32V64H96a24,24,0,0,1,24,24V200A39.81,39.81,0,0,0,96,192Zm128,0H160a39.81,39.81,0,0,0-24,8V88a24,24,0,0,1,24-24h64Z" />
+            </svg>
+          </button>
           <button class="darkmode" aria-label="Toggle dark mode">
-            <svg xmlns="http://www.w3.org/2000/svg" class="dayIcon" width="22" height="22" viewBox="0 0 256 256" fill="currentColor">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="dayIcon"
+              width="22"
+              height="22"
+              viewBox="0 0 256 256"
+              fill="currentColor"
+            >
               <path d="M120,40V16a8,8,0,0,1,16,0V40a8,8,0,0,1-16,0Zm72,88a64,64,0,1,1-64-64A64.07,64.07,0,0,1,192,128Zm-16,0a48,48,0,1,0-48,48A48.05,48.05,0,0,0,176,128ZM58.34,69.66A8,8,0,0,0,69.66,58.34l-16-16A8,8,0,0,0,42.34,53.66Zm0,116.68-16,16a8,8,0,0,0,11.32,11.32l16-16a8,8,0,0,0-11.32-11.32ZM192,72a8,8,0,0,0,5.66-2.34l16-16a8,8,0,0,0-11.32-11.32l-16,16A8,8,0,0,0,192,72Zm5.66,114.34a8,8,0,0,0-11.32,11.32l16,16a8,8,0,0,0,11.32-11.32ZM48,128a8,8,0,0,0-8-8H16a8,8,0,0,0,0,16H40A8,8,0,0,0,48,128Zm80,80a8,8,0,0,0-8,8v24a8,8,0,0,0,16,0V216A8,8,0,0,0,128,208Zm112-88H216a8,8,0,0,0,0,16h24a8,8,0,0,0,0-16Z" />
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="nightIcon" width="22" height="22" viewBox="0 0 256 256" fill="currentColor">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="nightIcon"
+              width="22"
+              height="22"
+              viewBox="0 0 256 256"
+              fill="currentColor"
+            >
               <path d="M233.54,142.23a8,8,0,0,0-8-2,88.08,88.08,0,0,1-109.8-109.8,8,8,0,0,0-10-10,104.84,104.84,0,0,0-52.91,37A104,104,0,0,0,136,224a103.09,103.09,0,0,0,62.52-20.88,104.84,104.84,0,0,0,37-52.91A8,8,0,0,0,233.54,142.23ZM188.9,190.34A88,88,0,0,1,65.66,67.11a89,89,0,0,1,31.4-26A106,106,0,0,0,96,56,104.11,104.11,0,0,0,200,160a106,106,0,0,0,14.92-1.06A89,89,0,0,1,188.9,190.34Z" />
             </svg>
           </button>
@@ -191,12 +246,11 @@ export default ((opts?: Partial<MobileNavOptions>) => {
         </div>
         <nav class="mobile-nav-content" id="mobile-nav-content" aria-label="Site menu" inert>
           <div class="mobile-nav-header">
-            <span class="mobile-nav-site-title">Michael Rowe</span>
-            <button
-              type="button"
-              class="mobile-nav-close"
-              aria-label="Close navigation menu"
-            >
+            <Wordmark
+              href={resolveRelative(fileData.slug!, "index" as FullSlug)}
+              class="mobile-nav-site-title"
+            />
+            <button type="button" class="mobile-nav-close" aria-label="Close navigation menu">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -260,12 +314,17 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     )
   }
 
-  MobileNav.css = wordmarkCss + `
+  MobileNav.css =
+    wordmarkCss +
+    `
 .mobile-nav {
   display: none;
 }
 
-@media (max-width: 800px) {
+/* The header swap is at 1100px, not the 800px layout breakpoint: below
+   1100px the top bar cannot hold its links centred beside the controls
+   (TopNav.tsx shares this number). The sidebars still go at 800px, below. */
+@media (max-width: 1100px) {
   /* A top bar like the desktop one (PFL-9): wordmark left, controls right,
      on the page ground with a hairline beneath, so text never runs under the
      floating buttons. */
@@ -289,6 +348,8 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     gap: 0.4rem;
   }
 
+  .mobile-nav-controls .mobile-nav-search,
+  .mobile-nav-controls .readermode,
   .mobile-nav-controls .darkmode {
     background-color: var(--light);
     border: 1px solid var(--lightgray);
@@ -301,6 +362,10 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     width: 38px;
     height: 38px;
     position: relative;
+  }
+
+  .mobile-nav-search {
+    color: var(--darkgray);
   }
 
   .mobile-nav-toggle {
@@ -364,11 +429,9 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     border-bottom: 1px solid var(--lightgray);
   }
 
+  /* The wordmark heads the drawer as it heads the bar (PFL-9) */
   .mobile-nav-site-title {
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: var(--darkgray);
-    letter-spacing: 0.01em;
+    margin-top: 0.25rem;
   }
 
   .mobile-nav-close {
@@ -403,13 +466,16 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     border-bottom: none;
   }
 
+  /* The rail's label, as on the desktop contents list (toc.scss): mono,
+     uppercase, label grey */
   .mobile-nav-section h3 {
-    font-size: 0.9rem;
-    font-weight: 600;
-    margin: 0 0 0.75rem 0;
-    color: var(--gray);
+    font-family: var(--codeFont);
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+    color: var(--mr-label);
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.13em;
   }
 
   .mobile-nav-section ul {
@@ -426,7 +492,9 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     padding: 0;
   }
 
-  .mobile-nav-link {
+  /* .mobile-nav a. to outrank the global a.internal rule, whose tinted
+     background and tight padding were winning here */
+  .mobile-nav a.mobile-nav-link {
     display: block;
     padding: 0.65rem 0.5rem;
     color: var(--secondary);
@@ -438,8 +506,8 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     transition: background-color 0.2s ease, color 0.2s ease;
   }
 
-  .mobile-nav-link:hover,
-  .mobile-nav-link:active {
+  .mobile-nav a.mobile-nav-link:hover,
+  .mobile-nav a.mobile-nav-link:active {
     background-color: var(--highlight);
     color: var(--tertiary);
   }
@@ -475,15 +543,20 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     overflow: hidden;
   }
 
-  /* Hide desktop top nav on mobile */
-  .top-nav {
-    display: none;
-  }
+  /* The desktop top nav collapses itself under 1100px (TopNav.tsx); it is not
+     display: none, because the page's one Search modal lives inside it. */
+}
 
+@media (max-width: 800px) {
   /* Hide sidebars on mobile */
   .page > #quartz-body > .sidebar.left,
   .page > #quartz-body > .sidebar.right {
     display: none !important;
+  }
+
+  /* Reader mode hides the sidebars, and there are none here */
+  .mobile-nav-controls .readermode {
+    display: none;
   }
 }
 `

@@ -165,13 +165,16 @@ RelatedContent.css = `
   margin-top: 1rem;
   padding-top: 0;
 
+  /* The rail's label, as on the contents list (toc.scss) and the mobile
+     menu: mono, uppercase, label grey */
   h3 {
-    font-size: 0.9rem;
+    font-family: var(--codeFont);
+    font-size: 0.7rem;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--gray);
+    letter-spacing: 0.13em;
+    color: var(--mr-label);
     margin-bottom: 0.75rem;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   ul {

@@ -15,7 +15,7 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
+      component: Component.Breadcrumbs({ showCurrentPage: false }),
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
@@ -23,25 +23,25 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.ContentMeta(),
       condition: (page) => {
         const type = page.fileData.frontmatter?.type as string | undefined
-        return type === "post" || type === "note" || type === "essay" || type === "lesson" || type === "bib" || type === "presentation" || type === "guide" || type === "podcast"
+        return (
+          type === "post" ||
+          type === "note" ||
+          type === "essay" ||
+          type === "lesson" ||
+          type === "bib" ||
+          type === "presentation" ||
+          type === "guide" ||
+          type === "podcast"
+        )
       },
     }),
-    // ContentType's pill is now the first chip of ContentMeta's masthead (PFL-9)
-    Component.TagList(),
+    // ContentType's pill is now the first chip of ContentMeta's masthead (PFL-9).
+    // TagList moved to afterBody: tags are for after reading, not before it.
   ],
   left: [
     // PageTitle removed (PFL-9): the wordmark heads the top bar instead
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
-      ],
-    }),
+    // Search, reader mode and the theme toggle moved to TopNav (POS-18)
     Component.ConditionalRender({
       component: Component.DesktopOnly(Component.TableOfContents()),
       condition: (page) => page.fileData.slug !== "index",
@@ -63,22 +63,14 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   right: [
-    Component.ConditionalRender({
-      component: Component.Graph({
-        localGraph: {
-          scale: 1.6,
-          opacityScale: 3,
-          showTags: false,
-        },
-      }),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
+    // Per-page graph removed; the global graph opens from TopNav instead
     Component.ConditionalRender({
       component: Component.Backlinks(),
       condition: (page) => page.fileData.slug !== "index",
     }),
   ],
   afterBody: [
+    Component.TagList(),
     Component.Mcq(),
     Component.FlipCard(),
     Component.ConditionalRender({
@@ -103,7 +95,14 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.RelatedContent(),
       condition: (page) => {
         const type = page.fileData.frontmatter?.type as string | undefined
-        return type === "post" || type === "note" || type === "essay" || type === "presentation" || type === "guide" || type === "podcast"
+        return (
+          type === "post" ||
+          type === "note" ||
+          type === "essay" ||
+          type === "presentation" ||
+          type === "guide" ||
+          type === "podcast"
+        )
       },
     }),
     Component.ShareLinks(),
@@ -126,22 +125,14 @@ export const defaultContentPageLayout: PageLayout = {
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
+    Component.Breadcrumbs({ showCurrentPage: false }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
   ],
   left: [
     // PageTitle removed (PFL-9): the wordmark heads the top bar instead
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-      ],
-    }),
+    // Search, reader mode and the theme toggle moved to TopNav (POS-18)
     Component.ContextualNav(),
     Component.RecentlyAddedNav(),
     // Not on the Newsletters index, which already lists every issue in the body.
@@ -151,13 +142,7 @@ export const defaultListPageLayout: PageLayout = {
     }),
   ],
   right: [
-    Component.Graph({
-      localGraph: {
-        scale: 1.6,
-        opacityScale: 3,
-        showTags: false,
-      },
-    }),
+    // Per-page graph removed; the global graph opens from TopNav instead
     Component.Backlinks(),
   ],
   afterBody: [

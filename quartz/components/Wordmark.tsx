@@ -1,7 +1,7 @@
 // The house wordmark (PFL-9; identity-michael.md § Wordmark): *Michael Rowe*
 // in Plex Sans 700, tracking −0.04em, with a rule in the accent one third of
 // the name's width beneath it. Used by TopNav (desktop) and MobileNav
-// (≤800px) at the far left of the top bar, where a site title is expected.
+// (≤1100px) at the far left of the top bar, where a site title is expected.
 // `cfg.pageTitle` stays "/home/michael": it names the site in tab titles and
 // link previews; the wordmark names who is behind it.
 
