@@ -1,64 +1,66 @@
 ---
-title: Qualifications for AI literacy
+title: What a course can claim about AI literacy
 type: note
 aliases:
   - AI literacy caveats
 description: >-
-  Any claim that a course or programme of study develops AI literacy requires
-  important qualifications—literacy develops through sustained practice, is
-  developmental and contextual, and cannot be fully assessed at course
-  completion.
+  Any claim that a course or programme develops AI literacy needs
+  qualifying: literacy develops through sustained practice, is developmental
+  and contextual, and can't be fully assessed at the end of a course.
+meta-description: "Assessing AI literacy at the end of a course misses what literacy is. Why it needs sustained practice, varies by context, and shows up over time."
 author: '[[Michael Rowe]]'
-date: 2026-01-29
-updated: 2026-01-29
+created: 2026-01-29
+updated: 2026-09-28
 tags:
   - ai-literacy
+  - learning-outcomes
 category:
   - Technology
+  - Assessment
 related:
   - '[[Notes/AI literacy]]'
+  - '[[Notes/developing AI literacy]]'
   - '[[Frameworks/AI literacy development framework]]'
+  - '[[Essays/taste-and-judgement]]'
+  - '[[Notes/programmatic assessment]]'
 draft: false
-permalink: ''
 enableToc: true
-cssclasses:
-  - ''
+keyphrase: "assessing AI literacy"
 linkedin:
+reviewed:
+  - note_writer
+  - writing_style
+  - SEO_optimiser
+  - copy_editor
 
 ---
-> [!info] Literacy is longitudinal
-> The true test of whether a course or programme develops AI literacy cannot be answered through end-of-course assessment. It requires observing whether participants continue to engage thoughtfully, adapt their practice as AI evolves, and develop increasingly sophisticated judgement—which is precisely what literacy means.
+> [!info] AI literacy can only be seen over time
+> Whether a course or programme has developed AI literacy can't be settled by an end-of-course assessment. It shows in whether participants go on engaging thoughtfully, adapt their practice as AI changes, and develop increasingly sophisticated judgement, and that takes months to observe.
 
-A process that claims to develop [[AI literacy]] needs important qualifications. These caveats do not diminish the value of structured learning but clarify what literacy actually requires.
+## What a course can claim about AI literacy
 
-## 1. Literacy requires practice, not just instruction
+**One-sentence definition:** The limits on what any course can claim about AI literacy come from what literacy is: [[Notes/AI literacy|AI literacy]] develops through practice, grows in stages and differs by context, and can only be partly assessed when the course ends.
 
-Learning resources provide frameworks, techniques, and conceptual foundations, but literacy develops through sustained practice. [[Essays/taste-and-judgement|Taste and judgement]] develop through practice, reflection, and accumulated experience. A participant who passively reads lessons but does not apply them will not be AI literate, just as reading about information literacy does not make someone information literate.
+None of this reduces the value of structured learning. It clarifies what a module outcome such as "students will be AI literate" can honestly promise, and what a programme team would need to look for afterwards to know whether it had been met.
 
-Effective course design anticipates this. Activities throughout should require actual AI engagement, reflection on outcomes, and iterative refinement. The progression from substitution through adaptation to transformation assumes participants are actively working with AI throughout, not just learning about it.
+### Literacy develops through practice
 
-The true test of whether a course delivers AI literacy is longitudinal: do participants continue to engage with AI thoughtfully six months after completion? Do they adapt their practice as AI capabilities evolve? Do they develop increasingly sophisticated judgement about meaningful engagement?
+Learning resources provide frameworks, techniques, and conceptual foundations, but literacy develops through sustained practice, in the same way that [[Essays/taste-and-judgement|taste and judgement]] develop through practice, reflection, and accumulated experience. A participant who reads the lessons and never applies them won't be AI literate, just as reading about information literacy doesn't make someone information literate.
 
-These questions cannot be answered through end-of-course assessment. They require observing whether participants have internalised frameworks and continue applying them independently—which is precisely what literacy means.
+Good course design anticipates this. Its activities require participants to work with AI on real tasks, reflect on what happened, and refine their approach, so that they're using AI throughout the course as well as learning about it.
 
-## 2. AI literacy is developmental and contextual
+### Literacy is developmental and contextual
 
-AI literacy is not binary—literate or illiterate—but developmental. Participants begin where they are and progress through increasing sophistication. The substitution-adaptation-transformation framework itself acknowledges stages of development.
+AI literacy isn't a state someone is either in or out of. People start where they are and work with AI in increasingly sophisticated ways, from using it as a substitute for tasks they already do towards changing how they work; [[Notes/developing AI literacy|developing AI literacy]] describes the stages and what moves people between them. Finishing a course marks a point on that trajectory.
 
-Additionally, AI literacy is domain-specific. What constitutes meaningful AI engagement differs across research, teaching, and administration. Someone can be AI literate in one domain (e.g., using AI for writing) while still developing literacy in another (e.g., using AI for teaching).
+It also varies by domain. What counts as meaningful engagement differs across research, teaching, and administration, so someone can be AI literate in one (using AI to draft and revise their writing, say) while still developing in another (using it to design a case-based seminar for occupational therapy students).
 
-This means that completing a course marks a point on a developmental trajectory, not an endpoint. Continued growth requires ongoing practice, reflection, and adaptation as both AI capabilities and professional contexts evolve.
+### A course covers its own context
 
-## 3. Courses deliver foundational AI literacy for specific contexts
+A well-designed course delivers AI literacy as the literacy frameworks define it, within its intended context. It won't cover every aspect: training models, contributing to AI development, and building AI systems are usually out of scope, and that's a reasonable design choice. Information literacy for academics differs from information literacy for journalists or data scientists, and AI literacy for scholarly work differs from AI literacy for other fields in the same way. A course for academics delivers the capability to recognise, evaluate, use, create with, reflect on, and make judgements about AI in scholarly practice, and the frameworks it teaches carry over to new contexts as they're needed.
 
-A well-designed course delivers AI literacy as defined by literacy frameworks within its intended context. It does not address every possible aspect of AI literacy—for example, it may not cover training AI models, contributing to AI development, or technical implementation of AI systems.
+### Assessing AI literacy
 
-This scoping is appropriate. Just as information literacy for academics differs from information literacy for journalists or data scientists, AI literacy for academic workflow differs from AI literacy for other domains. A course for academics delivers what academics need: the capability to recognise, evaluate, use, create with, reflect on, and make judgements about AI in their scholarly practice.
+AI literacy, like all literacies, is easier to recognise than to measure. You can assess whether someone knows how to write a structured prompt, which is functional application; whether they've developed good taste about when and how to engage, which is contextual judgement, only shows in their practice over time.
 
-The limitation is not a flaw but a design choice. Foundational literacy in one context provides transferable frameworks that support developing literacy in new contexts as needed.
-
-## The challenge of assessment
-
-AI literacy, like all literacies, is easier to recognise than to measure. You can assess whether someone knows how to write a structured prompt (functional application), but assessing whether they have developed good taste about meaningful engagement (contextual judgement) requires observing practice over time.
-
-Courses can address this by emphasising reflection, documentation of learning, and progressive complexity. Activities create opportunities for participants to demonstrate developing literacy rather than just acquiring knowledge. But the ultimate measure of literacy is whether participants continue applying what they have learned independently, adapting their practice as contexts change.
+Courses can get closer by building in reflection, documentation of learning, and tasks that grow in complexity, so that participants demonstrate developing literacy and not only acquired knowledge. The test that matters comes later: six months after the course, are participants still engaging with AI thoughtfully, adapting their practice as capabilities change, and applying the frameworks without being prompted to? Answering that means observing practice longitudinally, the way [[Notes/programmatic assessment|programmatic assessment]] builds up evidence over a programme instead of relying on a single end point.
