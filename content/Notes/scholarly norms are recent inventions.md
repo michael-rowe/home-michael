@@ -21,7 +21,6 @@ related:
   - "[[Notes/research industrial complex]]"
   - "[[Notes/distributed version control]]"
   - "[[Essays/publishing-with-purpose]]"
-  - "[[Posts/2026-01-29-essays-as-scholarship]]"
 keyphrase: history of peer review
 linkedin:
 ---
