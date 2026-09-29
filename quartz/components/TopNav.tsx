@@ -74,7 +74,9 @@ export default ((opts?: Partial<TopNavOptions>) => {
       showTags: false,
       repelForce: 1,
       linkDistance: 50,
-      opacityScale: 0.5,
+      opacityScale: 0.75,
+      // Labels no longer grow with zoom, so they start at a readable size
+      fontSize: 0.9,
     },
   })
 
