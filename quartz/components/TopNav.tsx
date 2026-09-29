@@ -54,7 +54,29 @@ export default ((opts?: Partial<TopNavOptions>) => {
   const ReaderMode = ReaderModeConstructor()
   // The global graph is the one graph on the site; the per-page local graph
   // came out of the right sidebar. Ctrl-G opens it too (graph.inline.ts).
-  const Graph = GraphConstructor({ globalOnly: true })
+  // Defaults for readers who have not changed the panel: content folders only,
+  // no tags, labels only when zoomed well in, more room between nodes.
+  const Graph = GraphConstructor({
+    globalOnly: true,
+    globalGraph: {
+      folders: [
+        "Posts",
+        "Notes",
+        "Essays",
+        "Guides",
+        "Projects",
+        "Presentations",
+        "Podcasts",
+        "Bibliography",
+      ],
+      defaultFolders: ["Posts", "Notes", "Essays", "Guides", "Projects", "Presentations"],
+      userSettings: true,
+      showTags: false,
+      repelForce: 1,
+      linkDistance: 50,
+      opacityScale: 0.5,
+    },
+  })
 
   const TopNav: QuartzComponent = (props: QuartzComponentProps) => {
     const { fileData, displayClass } = props

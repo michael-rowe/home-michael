@@ -34,6 +34,18 @@ const typeLabels: Record<string, string> = {
   bib: "reading",
 }
 
+// The content folder whose --graph- colour (custom.scss) the type chip takes;
+// the same colours as the global graph's nodes. Lessons have none.
+const typeFolders: Record<string, string> = {
+  post: "posts",
+  note: "notes",
+  essay: "essays",
+  presentation: "presentations",
+  guide: "guides",
+  podcast: "podcasts",
+  bib: "bibliography",
+}
+
 // Essay versions follow the scheme in CLAUDE.md: 0.1–0.6 working draft,
 // 0.7–0.8 preprint deposited, 0.9 submitted, 1.0+ peer-reviewed publication.
 // 1.0+ gets no derived status: in September 2026 both 1.x essays were
@@ -64,7 +76,11 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     const chips: JSX.Element[] = []
 
     if (type && type in typeLabels) {
-      chips.push(<span class="mr-chip">{typeLabels[type]}</span>)
+      chips.push(
+        <span class="mr-chip mr-chip--type" style={`--type-colour: var(--graph-${typeFolders[type]})`}>
+          {typeLabels[type]}
+        </span>,
+      )
     }
 
     const rawVersion = fm?.version as string | number | undefined

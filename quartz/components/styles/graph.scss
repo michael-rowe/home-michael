@@ -71,3 +71,138 @@
     }
   }
 }
+
+// Reader settings for the global graph: a panel over the canvas's top-left
+// corner (the container is 80vw × 80vh, centred). House style: hairline,
+// zero radius, mono labels.
+.global-graph-outer > .graph-settings {
+  position: fixed;
+  top: calc(10vh + 0.75rem);
+  left: calc(10vw + 0.75rem);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 0.75rem 0.9rem;
+  background-color: var(--light);
+  border: 1px solid var(--lightgray);
+  font-family: var(--codeFont);
+  font-size: 0.72rem;
+  color: var(--darkgray);
+
+  & fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  & legend,
+  & .graph-settings-spacing {
+    padding: 0;
+    margin-bottom: 0.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    color: var(--mr-label);
+  }
+
+  & label {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    cursor: pointer;
+  }
+
+  & .graph-settings-spacing {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+
+    & input {
+      width: 100%;
+      accent-color: var(--secondary);
+    }
+  }
+
+  & .graph-swatch {
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  // Tags draw as rings on the canvas; the key matches
+  & .graph-swatch-tag {
+    box-sizing: border-box;
+    border: 2px solid var(--tertiary);
+  }
+
+  & input[type="checkbox"] {
+    margin: 0;
+    accent-color: var(--secondary);
+  }
+
+  & button {
+    align-self: flex-start;
+    font: inherit;
+    color: var(--secondary);
+    background: none;
+    border: 1px solid var(--mr-chip-line);
+    border-radius: 0;
+    padding: 0.2rem 0.55rem;
+    cursor: pointer;
+
+    &:hover {
+      border-color: var(--secondary);
+    }
+  }
+}
+
+// Close controls, over the canvas's top-right corner: the Esc hint and an X
+.global-graph-outer > .global-graph-close-bar {
+  position: fixed;
+  top: calc(10vh + 0.75rem);
+  right: calc(10vw + 0.75rem);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  & .global-graph-hint {
+    font-family: var(--codeFont);
+    font-size: 0.68rem;
+    letter-spacing: 0.05em;
+    color: var(--mr-label);
+
+    & kbd {
+      font-family: inherit;
+      font-size: inherit;
+      padding: 0.1em 0.4em;
+      border: 1px solid var(--mr-chip-line);
+      border-radius: 0;
+      background: none;
+      box-shadow: none;
+    }
+  }
+
+  & .global-graph-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    color: var(--darkgray);
+    background-color: var(--light);
+    border: 1px solid var(--lightgray);
+    border-radius: 0;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--dark);
+      border-color: var(--dark);
+    }
+  }
+}

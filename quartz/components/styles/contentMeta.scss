@@ -20,6 +20,24 @@
   white-space: nowrap;
 }
 
+// The type chip carries its type's colour (trial, 2026-09-29): border and a
+// dot in the colour, text in ink-3. The text stays ink because three of the
+// colours are under 4.5:1 on the light ground — fine for a mark, not for text.
+.mr-chip--type {
+  border-color: var(--type-colour, var(--mr-chip-line));
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 0.55em;
+    height: 0.55em;
+    margin-right: 0.5em;
+    border-radius: 50%;
+    background-color: var(--type-colour, transparent);
+    vertical-align: 0.05em;
+  }
+}
+
 // A state that is not final: tint fill, deep-accent border and text
 .mr-chip--status {
   background-color: var(--mr-accent-tint);
