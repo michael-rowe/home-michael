@@ -16,13 +16,14 @@ Content is written in [Obsidian](https://obsidian.md/) as markdown files, then t
 
 ## Design
 
-The site uses Quartz's default layout with custom modifications:
+The site uses the same design system as my slides and handouts, described in [[Posts/2026-09-29-personal-design-system|A personal design system for scholarly output]]. Its colours, type, and structure are read at build time from one token file, so the site and the other formats stay in step.
 
-- **Typography** — Inter for headings and body text, IBM Plex Mono for code
-- **Colours** — Custom palette with steel blue (`#3b6ea5`) for links in light mode, brighter blue (`#6b9fd4`) in dark mode
-- **Components** — Custom navigation, share buttons, course layouts, and contextual sidebar
+- **Typography** — IBM Plex Sans for headings and body text, IBM Plex Mono for code, labels, and the chips under each title
+- **Colours** — a cool grey background with a single ink blue accent (`#2f5fa8`), and a dark mode that follows your system setting unless you choose otherwise
+- **Structure** — square corners, no shadows, 2px lines between sections, and a contents rail beside longer pieces that marks the section you're in
+- **Components** — a top bar with search, the site graph, reader mode, and the theme toggle; a row of chips under each title giving the page's type and date; and backlinks beside every page
 
-The design prioritises readability and connection-making. The graph view and backlinks surface relationships between ideas. The table of contents aids navigation in longer pieces.
+The design prioritises readability and connection-making. The [[Posts/2026-09-29-quartz-graph-view|graph view]] shows how the writing connects, with each kind of page in its own colour, and the backlinks show which pages point to the one you're reading. The table of contents aids navigation in longer pieces.
 
 ## Philosophy
 
@@ -60,16 +61,16 @@ Essays carry a version number that indicates their publication stage:
 - **0.9** — Submitted to a peer-reviewed journal
 - **1.0+** — Published in a peer-reviewed venue; minor revisions increment the decimal (e.g. 1.1)
 
-Version numbers appear in the frontmatter of each essay and are visible in the "About this essay" section.
+Version numbers appear in the frontmatter of each essay, in the chips under its title, and in the "About this essay" section.
 
 ## Licence
 
-Content on this site is shared openly for non-commercial use with attribution. Academic citation format:
+Content on this site is shared under a [Creative Commons Attribution 4.0 licence](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). You can copy, adapt, and reuse it for any purpose, including commercially, as long as you credit the source. Academic citation format:
 
 > Rowe, M. (2026). [Title]. */home/michael*. https://michael-rowe.github.io/home-michael/
 
-For other uses, [[contact|get in touch]].
+If you'd like to discuss using something in a way the licence doesn't cover, [[contact|get in touch]].
 
 ---
 
-*Last updated: February 2026*
+*Last updated: September 2026*
