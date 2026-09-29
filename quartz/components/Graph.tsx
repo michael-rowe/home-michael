@@ -19,6 +19,13 @@ export interface D3Config {
   showTags: boolean
   focusOnHover?: boolean
   enableRadial?: boolean
+  // Content folders the graph may draw (top-level folders under content/).
+  // When set, pages outside them and section index pages are left out.
+  folders?: string[]
+  // The folders switched on before a reader changes anything
+  defaultFolders?: string[]
+  // Read the reader's saved choices (graph-settings in localStorage)
+  userSettings?: boolean
 }
 
 interface GraphOptions {
@@ -94,9 +101,63 @@ export default ((opts?: Partial<GraphOptions>) => {
         </svg>
       </button>
     )
+    // Reader settings sit beside the canvas, not in it: renderGraph clears the
+    // container on every draw. graph.inline.ts wires the form.
+    const settings = globalGraph.userSettings && globalGraph.folders && (
+      <form class="graph-settings" aria-label="Graph settings">
+        <fieldset>
+          <legend>Show</legend>
+          {globalGraph.folders.map((folder) => (
+            <label>
+              <input type="checkbox" name="folder" value={folder} />
+              <span
+                class="graph-swatch"
+                style={`background-color: var(--graph-${folder.toLowerCase()})`}
+                aria-hidden="true"
+              ></span>
+              {folder}
+            </label>
+          ))}
+          <label>
+            <input type="checkbox" name="tags" />
+            <span class="graph-swatch graph-swatch-tag" aria-hidden="true"></span>
+            Tags
+          </label>
+        </fieldset>
+        <label class="graph-settings-spacing">
+          Spacing
+          <input type="range" name="spacing" min="0.5" max="3" step="0.25" />
+        </label>
+        <button type="reset">Reset</button>
+      </form>
+    )
     const overlay = (
       <div class="global-graph-outer">
         <div class="global-graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
+        {settings}
+        {opts?.globalOnly && (
+          <div class="global-graph-close-bar">
+            <span class="global-graph-hint">
+              <kbd>Esc</kbd> to close
+            </span>
+            <button type="button" class="global-graph-close" aria-label="Close the site graph">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                aria-hidden="true"
+              >
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
+          </div>
+        )}
       </div>
     )
 

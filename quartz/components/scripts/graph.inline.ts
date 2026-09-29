@@ -57,6 +57,48 @@ function getVisited(): Set<SimpleSlug> {
   return new Set(JSON.parse(localStorage.getItem(localStorageKey) ?? "[]"))
 }
 
+// Global graph settings (2026-09-28). The global graph shows only the content
+// folders a reader has switched on, with tags optional and spacing adjustable;
+// the choices live in this browser's localStorage. Pages outside the listed
+// folders (colophon, privacy, the subscribe flow) and section index pages are
+// never drawn. Defaults come from the graph's data-cfg (Graph.tsx).
+type GraphSettings = { folders: string[]; tags: boolean; spacing: number }
+const settingsKey = "graph-settings"
+
+function defaultSettings(cfg: D3Config): GraphSettings {
+  return { folders: cfg.defaultFolders ?? cfg.folders ?? [], tags: cfg.showTags, spacing: 1 }
+}
+
+function loadSettings(cfg: D3Config): GraphSettings {
+  const fallback = defaultSettings(cfg)
+  try {
+    const saved = JSON.parse(localStorage.getItem(settingsKey) ?? "null")
+    if (!saved || !Array.isArray(saved.folders)) return fallback
+    return {
+      folders: saved.folders.filter((f: string) => cfg.folders?.includes(f)),
+      tags: typeof saved.tags === "boolean" ? saved.tags : fallback.tags,
+      spacing: typeof saved.spacing === "number" ? saved.spacing : fallback.spacing,
+    }
+  } catch {
+    return fallback
+  }
+}
+
+function saveSettings(settings: GraphSettings) {
+  try {
+    localStorage.setItem(settingsKey, JSON.stringify(settings))
+  } catch {
+    // storage blocked: the settings still apply until the page is left
+  }
+}
+
+// A content page in one of the allowed folders, not the folder's index
+function inFolders(slug: SimpleSlug, folders: Set<string>) {
+  const slash = slug.indexOf("/")
+  if (slash <= 0 || slug.endsWith("/")) return false
+  return folders.has(slug.slice(0, slash))
+}
+
 function addToVisited(slug: SimpleSlug) {
   const visited = getVisited()
   visited.add(slug)
@@ -73,6 +115,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   const visited = getVisited()
   removeAllChildren(graph)
 
+  const cfg = JSON.parse(graph.dataset["cfg"]!) as D3Config
   let {
     drag: enableDrag,
     zoom: enableZoom,
@@ -87,13 +130,21 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     showTags,
     focusOnHover,
     enableRadial,
-  } = JSON.parse(graph.dataset["cfg"]!) as D3Config
+  } = cfg
+
+  let folders: Set<string> | null = null
+  if (cfg.folders) {
+    const settings = cfg.userSettings ? loadSettings(cfg) : defaultSettings(cfg)
+    folders = new Set(settings.folders)
+    showTags = settings.tags
+    repelForce *= settings.spacing
+    linkDistance *= settings.spacing
+  }
 
   const data: Map<SimpleSlug, ContentDetails> = new Map(
-    Object.entries<ContentDetails>(await fetchData).map(([k, v]) => [
-      simplifySlug(k as FullSlug),
-      v,
-    ]),
+    Object.entries<ContentDetails>(await fetchData)
+      .map(([k, v]) => [simplifySlug(k as FullSlug), v] as [SimpleSlug, ContentDetails])
+      .filter(([k]) => folders === null || inFolders(k, folders)),
   )
   const links: SimpleLinkData[] = []
   const tags: SimpleSlug[] = []
@@ -194,9 +245,24 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   )
 
   // calculate color
+  // Type colours (graph only; identity § One accent, functional exception):
+  // a page in a listed folder takes that folder's --graph-<folder> colour
+  // (graph.scss). The current page is marked by an ink ring, not a fill, so
+  // its type still shows.
+  const rootStyle = getComputedStyle(document.documentElement)
+  const typeColour = (id: SimpleSlug) => {
+    if (!folders) return ""
+    const slash = id.indexOf("/")
+    if (slash <= 0) return ""
+    return rootStyle.getPropertyValue(`--graph-${id.slice(0, slash).toLowerCase()}`).trim()
+  }
+
   const color = (d: NodeData) => {
     const isCurrent = d.id === slug
-    if (isCurrent) {
+    const typed = d.id.startsWith("tags/") ? "" : typeColour(d.id)
+    if (typed) {
+      return typed
+    } else if (isCurrent) {
       return computedStyleMap["--secondary"]
     } else if (visited.has(d.id) || d.id.startsWith("tags/")) {
       return computedStyleMap["--tertiary"]
@@ -421,6 +487,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
     if (isTagNode) {
       gfx.stroke({ width: 2, color: computedStyleMap["--tertiary"] })
+    } else if (nodeId === slug && typeColour(nodeId)) {
+      gfx.stroke({ width: 2, color: computedStyleMap["--dark"] })
     }
 
     nodesContainer.addChild(gfx)
@@ -639,6 +707,67 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
       )
       anyGlobalGraphOpen ? hideGlobalGraph() : renderGlobalGraph()
     }
+  }
+
+  // Redraw the open global graph after a settings change
+  async function rerenderGlobalGraph() {
+    cleanupGlobalGraphs()
+    const slug = getFullSlug(window)
+    for (const container of containers) {
+      if (!container.classList.contains("active")) continue
+      const graphContainer = container.querySelector(".global-graph-container") as HTMLElement
+      if (graphContainer) globalGraphCleanups.push(await renderGraph(graphContainer, slug))
+    }
+  }
+
+  for (const container of containers) {
+    const form = container.querySelector<HTMLFormElement>(".graph-settings")
+    const graphContainer = container.querySelector<HTMLElement>(".global-graph-container")
+    if (!form || !graphContainer) continue
+    const cfg = JSON.parse(graphContainer.dataset["cfg"]!) as D3Config
+
+    const fill = (settings: GraphSettings) => {
+      for (const box of form.querySelectorAll<HTMLInputElement>('input[name="folder"]')) {
+        box.checked = settings.folders.includes(box.value)
+      }
+      const tags = form.querySelector<HTMLInputElement>('input[name="tags"]')
+      if (tags) tags.checked = settings.tags
+      const spacing = form.querySelector<HTMLInputElement>('input[name="spacing"]')
+      if (spacing) spacing.value = String(settings.spacing)
+    }
+    fill(loadSettings(cfg))
+
+    const read = (): GraphSettings => ({
+      folders: [...form.querySelectorAll<HTMLInputElement>('input[name="folder"]:checked')].map(
+        (b) => b.value,
+      ),
+      tags: form.querySelector<HTMLInputElement>('input[name="tags"]')?.checked ?? false,
+      spacing: Number(form.querySelector<HTMLInputElement>('input[name="spacing"]')?.value ?? 1),
+    })
+
+    const onChange = () => {
+      saveSettings(read())
+      void rerenderGlobalGraph()
+    }
+    const onReset = (e: Event) => {
+      e.preventDefault()
+      try {
+        localStorage.removeItem(settingsKey)
+      } catch {}
+      fill(defaultSettings(cfg))
+      void rerenderGlobalGraph()
+    }
+    form.addEventListener("change", onChange)
+    form.addEventListener("reset", onReset)
+    window.addCleanup(() => {
+      form.removeEventListener("change", onChange)
+      form.removeEventListener("reset", onReset)
+    })
+  }
+
+  for (const close of document.querySelectorAll(".global-graph-close")) {
+    close.addEventListener("click", hideGlobalGraph)
+    window.addCleanup(() => close.removeEventListener("click", hideGlobalGraph))
   }
 
   const containerIcons = document.getElementsByClassName("global-graph-icon")

@@ -35,8 +35,8 @@ export const defaultContentPageLayout: PageLayout = {
         )
       },
     }),
-    // ContentType's pill is now the first chip of ContentMeta's masthead (PFL-9).
-    // TagList moved to afterBody: tags are for after reading, not before it.
+    // ContentType's pill is now the first chip of ContentMeta's masthead (PFL-9)
+    Component.TagList(),
   ],
   left: [
     // PageTitle removed (PFL-9): the wordmark heads the top bar instead
@@ -70,7 +70,6 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   afterBody: [
-    Component.TagList(),
     Component.Mcq(),
     Component.FlipCard(),
     Component.ConditionalRender({

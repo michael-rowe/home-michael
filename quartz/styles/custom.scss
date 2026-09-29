@@ -1027,3 +1027,30 @@ article iframe[src*="/static/presentations/"] {
     height: auto;
   }
 }
+
+// Type colours (Michael, 2026-09-29): one muted hue per content folder, Posts
+// in the accent, each at least 3:1 on both grounds. Used by the global graph's
+// nodes and key (graph.scss, graph.inline.ts reads them by name) and by the
+// masthead type chip (contentMeta.scss). A functional exception to the
+// one-accent rule: the colour says what kind of page something is.
+:root {
+  --graph-posts: #2f5fa8;
+  --graph-notes: #3d8a6c;
+  --graph-essays: #a0612f;
+  --graph-presentations: #8a4f9e;
+  --graph-guides: #b0452f;
+  --graph-projects: #4b5260;
+  --graph-podcasts: #9a7e14;
+  --graph-bibliography: #2c8594;
+}
+
+:root[saved-theme="dark"] {
+  --graph-posts: #7aa3dd;
+  --graph-notes: #6fbf9f;
+  --graph-essays: #d49a6a;
+  --graph-presentations: #bf92d1;
+  --graph-guides: #e0816c;
+  --graph-projects: #9aa1ad;
+  --graph-podcasts: #d8bb57;
+  --graph-bibliography: #6cc0cc;
+}
