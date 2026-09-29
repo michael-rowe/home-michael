@@ -341,11 +341,16 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     })
   }
 
+  // Labels hold one on-screen size at every zoom (Michael, 2026-09-29): the
+  // stage scales by the zoom factor, so each label is scaled by its inverse.
+  // Quartz let them grow with the zoom, and in a dense area they overlapped.
+  let labelZoom = scale
+
   function renderLabels() {
     tweens.get("label")?.stop()
     const tweenGroup = new TweenGroup()
 
-    const defaultScale = 1 / scale
+    const defaultScale = 1 / labelZoom
     const activeScale = defaultScale * 1.1
     for (const n of nodeRenderData) {
       const nodeId = n.simulationData.id
@@ -580,9 +585,19 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         stage.scale.set(transform.k, transform.k)
         stage.position.set(transform.x, transform.y)
 
+        labelZoom = transform.k
+        for (const n of nodeRenderData) {
+          const hovered = n.simulationData.id === hoveredNodeId
+          n.label.scale.set((hovered ? 1.1 : 1) / transform.k)
+        }
+
         // zoom adjusts opacity of labels too
         const zoomScale = transform.k * opacityScale
-        let scaleOpacity = Math.max((zoomScale - 1) / 3.75, 0)
+        // Labels fade in from zoomScale 1 and are fully opaque by 3, so at the
+        // global graph's opacityScale (0.75) they start at 1.33× zoom and are
+        // solid at the 4× maximum. Quartz's own /3.75 never reached full
+        // opacity inside the zoom limit at a lowered opacityScale.
+        let scaleOpacity = Math.min(Math.max((zoomScale - 1) / 2, 0), 1)
         const activeNodes = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
 
         for (const label of labelsContainer.children) {
