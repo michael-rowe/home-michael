@@ -38,7 +38,7 @@ This site embodies several principles:
 
 ## Writing with AI
 
-This site is built and largely written in collaboration with Claude, and that includes the content, not just the code. Rather than compress it into a paragraph here, there's a fuller statement of what that means in practice, what varies between essays, posts and notes, and who answers for the result: [[writing-with-ai|Writing with AI]].
+This site is built and largely written in collaboration with Claude, and that includes the content, not just the code. Rather than compress it into a paragraph here, there's a fuller statement of what that means in practice, how it differs from the usual picture of writing with AI, and who answers for the result: [[writing-with-ai|Writing with AI]].
 
 ## Accessibility
 
