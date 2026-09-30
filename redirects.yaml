@@ -13,10 +13,12 @@
 # warns if an old path is still a page or a target does not exist.
 
 # Posts imported from mrowe.co.za, removed 2026-09-28
-# (~/harness/record/2026-09-28-clean-start-for-posts.md)
-Posts/2026-01-29-AI-for-learning-at-scale: Posts/
-Posts/2026-01-29-essays-as-scholarship: Posts/
-Posts/2026-01-27-what-does-scholarship-sound-like: Posts/
-posts/audio-scholarship: Posts/
-Posts/2026-01-17-thoughtful-AI-use-a-better-game: Posts/
-Posts/2026-01-28-AI-meeting-scribes-organisational-memory-new-governance: Posts/
+# (~/harness/record/2026-09-28-clean-start-for-posts.md); each points at its
+# original on the old site. The evaluative judgement post is not here: its old
+# URLs are aliases on Essays/taste-and-judgement.
+Posts/2026-01-29-AI-for-learning-at-scale: https://www.mrowe.co.za/blog/2023/12/my-biased-enthusiasm-for-generative-ai-clearly-articulated/
+Posts/2026-01-29-essays-as-scholarship: https://www.mrowe.co.za/blog/2021/12/publishing-essays-as-scholarly-work/
+Posts/2026-01-27-what-does-scholarship-sound-like: https://www.mrowe.co.za/blog/2019/04/what-does-scholarship-sound-like/
+posts/audio-scholarship: https://www.mrowe.co.za/blog/2019/04/what-does-scholarship-sound-like/
+Posts/2026-01-17-thoughtful-AI-use-a-better-game: https://www.mrowe.co.za/blog/2025/10/a-better-game-choosing-what-to-amplify-with-ai/
+Posts/2026-01-28-AI-meeting-scribes-organisational-memory-new-governance: https://www.mrowe.co.za/blog/2025/12/gaming-ai-meeting-scribes-organisational-memory-governance/
