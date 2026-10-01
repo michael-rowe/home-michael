@@ -62,23 +62,23 @@ This also describes most human expertise. Each of us is trained on wildly non-re
 
 ## Tokenisation and the structure of expertise
 
-LLMs process language by breaking it into [[Notes/token|tokens]], which are meaningful chunks rather than individual characters. What counts as a "chunk" shapes how efficiently the model can process information.
+LLMs process language by breaking it into [[Notes/token|tokens]], which are meaningful chunks rather than individual characters. What counts as a 'chunk' shapes how efficiently the model can process information.
 
 Humans chunk too, and your level of expertise changes your tokeniser. A novice piano student sees individual notes on a page; an expert sees chord progressions and phrases as single perceptual units. Chess masters famously perceive board positions as meaningful configurations rather than individual piece placements (Chase & Simon, 1973). Clinical reasoning research describes the same shift: an experienced clinician recognises a presentation as an illness script, a whole pattern of onset, risk factors and findings, where a student is still working through the history one finding at a time (Schmidt et al., 1990).
 
-Jargon works the same way: for domain experts, it's a more efficient tokenisation. Reading "CEO" consumes less cognitive effort than processing "Chief Executive Officer" because we've compressed it into a single retrievable unit. When you encounter unfamiliar technical terminology, you're forced to process it more granularly — letter by letter or syllable by syllable — which is why jargon is harder to process for outsiders. And different domains use different tokenisers, carving up conceptual space in distinct ways.
+Jargon works the same way: for domain experts, it's a more efficient tokenisation. Reading 'CEO' consumes less cognitive effort than processing 'Chief Executive Officer' because we've compressed it into a single retrievable unit. When you encounter unfamiliar technical terminology, you're forced to process it more granularly — letter by letter or syllable by syllable — which is why jargon is harder to process for outsiders. And different domains use different tokenisers, carving up conceptual space in distinct ways.
 
 ## Temperature and the pressure to play it safe
 
-LLMs have a "temperature" parameter that controls randomness in their outputs. *Low temperature* produces conservative, predictable responses, while *high temperature* introduces more variation and creativity, at the cost of occasional incoherence.
+LLMs have a 'temperature' parameter that controls randomness in their outputs. *Low temperature* produces conservative, predictable responses, while *high temperature* introduces more variation and creativity, at the cost of occasional incoherence.
 
-Human cognition exhibits the same dynamic. People in high-stakes settings, such as an OSCE station, a job interview, or a formal presentation, lower their cognitive "temperature". We become more conservative, more predictable, more risk-averse in our thinking, and we stick to safe, well-rehearsed responses.
+Human cognition exhibits the same dynamic. People in high-stakes settings, such as an OSCE station, a job interview, or a formal presentation, lower their cognitive 'temperature'. We become more conservative, more predictable, more risk-averse in our thinking, and we stick to safe, well-rehearsed responses.
 
 And more creative work requires us to increase randomness. Brainstorming sessions, experimental art, and theoretical speculation all involve consciously loosening cognitive constraints, allowing more unusual combinations and associations. We even have techniques for this: free writing, lateral thinking exercises, and deliberately looking for strange analogies. We're just manually adjusting our temperature parameter.
 
 ## Hallucination is a feature of memory
 
-LLMs "[[Notes/hallucination|hallucinate]]" by generating plausible-sounding information that isn't actually true, filling gaps in their knowledge with convincing fabrications.
+LLMs '[[Notes/hallucination|hallucinate]]' by generating plausible-sounding information that isn't actually true, filling gaps in their knowledge with convincing fabrications.
 
 Human memory works in much the same way. We're all notoriously unreliable witnesses, confidently recalling events that never happened, filling gaps with plausible details, all the while completely unaware we're [confabulating](https://en.wikipedia.org/wiki/Confabulation). We misremember who said what, when things happened, and what was in a scene, and we do it all the time. And the confidence with which we recall these fabricated details is indistinguishable from genuine memory.
 
@@ -92,7 +92,7 @@ Health professions education already has a name for this: the hidden curriculum,
 
 ## Pattern matching first, reasons afterwards
 
-A common critique: LLMs are "just" pattern matchers. They identify statistical regularities without genuine causal understanding, confusing correlation with causation.
+A common critique: LLMs are 'just' pattern matchers. They identify statistical regularities without genuine causal understanding, confusing correlation with causation.
 
 Most human reasoning works this way too. We arrive at conclusions through pattern matching and then construct causal stories to explain them afterwards. [Split-brain experiments](https://www.nature.com/articles/483260a)[^split-brain] show people confidently explaining decisions they didn't consciously make (Wolman, 2012). Superstition, conspiracy theories, spurious medical beliefs, and false historical narratives all emerge from the same pattern-matching capabilities that produce genuine insights.
 
@@ -100,7 +100,7 @@ Most human reasoning works this way too. We arrive at conclusions through patter
 
 If the similarities are this extensive, why do we resist them so fiercely, and insist that LLMs are fundamentally, categorically different? I can think of three reasons, each more uncomfortable than the last.
 
-**Maybe we don't "really understand" either.** When we insist LLMs lack true understanding, we're assuming we possess it. But if you push someone to define what understanding actually is (beyond appeals to subjective feeling or consciousness), many will struggle. We can't clearly articulate the difference between our pattern matching and the pattern matching of language models. The understanding we claim to have might just be another pattern we've learned to recognise, rather than a categorically different phenomenon.
+**Maybe we don't 'really understand' either.** When we insist LLMs lack true understanding, we're assuming we possess it. But if you push someone to define what understanding actually is (beyond appeals to subjective feeling or consciousness), many will struggle. We can't clearly articulate the difference between our pattern matching and the pattern matching of language models. The understanding we claim to have might just be another pattern we've learned to recognise, rather than a categorically different phenomenon.
 
 **Maybe our expertise is less special than we thought.** If LLMs can perform cognitive work previously reserved for trained professionals (e.g. writing, analysis, synthesis, or problem-solving), what unique value do knowledge workers provide? In my experience, the resistance to AI is strongest among those whose professional identity depends on cognitive uniqueness, so when someone tells me that "AI will never replace X", I tend to hear "my professional identity requires that AI not replace X".
 
@@ -112,7 +112,7 @@ The dismissive framing gives some of this away. David Wiley (2025) [points out](
 
 This isn't the first time human exceptionalism has been challenged. Copernicus moved us away from the cosmic centre. Darwin revealed we weren't specially created. Freud argued we weren't even in conscious control of our own minds. Each of these deflations met fierce, emotional resistance, and the strength of it had more to do with the psychological stakes than with the evidence.
 
-This LLM moment might be another step in that trajectory. The systems don't need to be conscious, or intelligent in some special sense, to show that many of the capabilities we thought required consciousness can emerge from "mere" pattern matching and statistical correlation.
+This LLM moment might be another step in that trajectory. The systems don't need to be conscious, or intelligent in some special sense, to show that many of the capabilities we thought required consciousness can emerge from 'mere' pattern matching and statistical correlation.
 
 We're pattern-matching, probability-distributing, context-dependent generators of plausible outputs. We've just had millions of years to optimise the architecture and we're running on remarkably efficient biological hardware.
 
