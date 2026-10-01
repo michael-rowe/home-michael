@@ -57,7 +57,7 @@ The term belongs to the "X-forward" pattern in technology strategy: data-forward
 
 ## How it differs from maturity, readiness, and fluency
 
-Higher education already has terms for AI integration: *AI maturity* (staged development models), *AI readiness* (preparedness assessment), *AI transformation* (fundamental organisational change), and *AI fluency* (capability to apply effectively). Each is useful, but none captures what AI-forward emphasises: continuous, strategic engagement with evolving technology.
+Higher education already has terms for AI integration: *AI maturity* (staged development models), *AI readiness* (preparedness assessment), *AI transformation* (fundamental organisational change), and *[[Notes/AI fluency|AI fluency]]* (capability to apply effectively). Each is useful, but none captures what AI-forward emphasises: continuous, strategic engagement with evolving technology.
 
 AI maturity suggests progression through defined levels toward optimisation — but optimisation of what? Optimising today's capabilities says nothing about preparing for tomorrow's. AI readiness emphasises current state over ongoing engagement. AI transformation focuses on magnitude of change rather than strategic orientation. AI fluency describes individual or organisational competence but not institutional commitment to sustained engagement.
 
