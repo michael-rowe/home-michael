@@ -25,12 +25,14 @@ linkedin:
 reviewed:
   - blog_writer
   - writing_style
+  - SEO_optimiser
+  - copy_editor
 ---
 
 > [!info] Your research database is already AI-ready context
 > Some of the most useful data for AI-assisted research is sitting in databases you've been building for years. Pointing an AI agent at your Zotero library shifts the available context from individual documents to your entire research history. The capability works, and the first thing it exposes is the state of your metadata.
 
-I've been using [[Claude Code]] to read files on my computer for a couple of months now, mostly PDFs, [[markdown|markdown notes]], and text files. I point it at a document and ask it to analyse or summarise it, or to cross-reference it against something I'm writing, which is useful but not particularly remarkable.
+I've been using [[Notes/Claude Code|Claude Code]] to read files on my computer for a couple of months now, mostly PDFs, [[Notes/markdown|markdown notes]], and text files. I point it at a document and ask it to analyse or summarise it, or to cross-reference it against something I'm writing, which is useful but not particularly remarkable.
 
 Then I realised something that should have been obvious, which is that it can read *any* file I have local access to, and that includes databases.
 
@@ -45,13 +47,13 @@ Say I'm working on a draft about AI and assessment design. Instead of searching 
 > Here is a draft paragraph: [paste text].
 > Query the database for the most relevant items and return titles, authors, and any notes I've added.
 
-Claude works out the structure of the database and writes the SQL queries itself, without any input from me, and it searches the entire library at once. It knows what I have, when I saved it, how I tagged it, and which collections I've grouped it into, so the [[context engineering|context available to the agent]] grows from a single document to everything I've collected.
+Claude works out the structure of the database and writes the SQL[^sql] queries itself, without any input from me, and it searches the entire library at once. It knows what I have, when I saved it, how I tagged it, and which collections I've grouped it into, so the [[Notes/context engineering|context available to the agent]] grows from a single document to everything I've collected.
 
 ![[zotero-query-results.png|Claude Code output showing five ranked references from an AI query of a Zotero library, each with author, title, and a reason for relevance to the draft paragraph|450]]
 
 *Claude Code querying a Zotero database and returning ranked references aligned with a draft paragraph about assessment design.*
 
-A caveat: direct database access isn't the best way to do this. Zotero offers [access through its API](https://www.zotero.org/support/dev/web_api/v3/basics) (a structured interface designed for external tools), which is cleaner and safer; the [[Notes/Zotero|note on Zotero]] describes what an agent can do through it. What I'm describing here is a proof of concept, and I wouldn't recommend it as a working setup.
+A caveat: direct database access isn't the best way to do this. Zotero offers [access through its API](https://www.zotero.org/support/dev/web_api/v3/basics),[^api] which is cleaner and safer; the [[Notes/Zotero|note on Zotero]] describes what an agent can do through it. What I'm describing here is a proof of concept, and I wouldn't recommend it as a working setup.
 
 ## What breaks
 
@@ -65,8 +67,11 @@ Even so, the database lives on my filesystem. I control access, retention, struc
 
 ## What this means
 
-An agent querying the database shows you the state your data practices are actually in. The system you imagine—clean tags, regular reviews, consistent metadata—meets the one you have, which in my case means accumulated cruft, deferred decisions, and inconsistent naming.
+An agent querying the database shows you the state your data practices are actually in. The system you imagine — clean tags, regular reviews, consistent metadata — meets the one you have, which in my case means accumulated cruft, deferred decisions, and inconsistent naming.
 
 The same holds for any collection an educator might point an agent at, whether that's a programme's module evaluations or a team's shared reading list. The agent's answers can only be as good as the way that collection has been kept.
 
 If you use a reference manager and an AI coding agent, the proof of concept is straightforward: point one at the other. What you learn about the state of your metadata will be more valuable than the queries themselves.
+
+[^sql]: **SQL** — the standard language for asking questions of a database, such as "list every item tagged *assessment* and saved since 2020". A programme's student records system answers the same kind of query when someone asks it for every student on placement this term. [Wikipedia](https://en.wikipedia.org/wiki/SQL)
+[^api]: **API** — an application programming interface: a published set of requests one program can make of another, so a tool can ask Zotero for items without reading the database file underneath. [Wikipedia](https://en.wikipedia.org/wiki/API)
