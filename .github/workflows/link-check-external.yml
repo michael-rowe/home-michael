@@ -74,6 +74,11 @@ jobs:
           #   gemini.google.com — returns an HTTP/2 protocol error to lychee
           #     from the runner while returning 200 to curl over both HTTP/2
           #     and HTTP/1.1. A client/runner artefact, not link rot.
+          #   crl.acrl.org and irrodl.org — the same HTTP/2 protocol error, on
+          #     two cited DOIs that redirect to these journals. Both return 200
+          #     to curl over HTTP/2 and HTTP/1.1 (checked 2026-10-03). As with
+          #     figshare, the doi.org links are what the page carries, so the
+          #     DOIs are excluded alongside the hosts.
           ./lychee --scheme http --scheme https --max-retries 3 \
             --root-dir "$PWD" \
             --accept 200,202,203,206,403,405,429,999 \
@@ -84,4 +89,8 @@ jobs:
             --exclude 'figshare\.uts\.edu\.au' \
             --exclude '10\.71741/4PYXMBNJAQ\.31302475' \
             --exclude 'gemini\.google\.com' \
+            --exclude 'crl\.acrl\.org' \
+            --exclude '10\.5860/crl-76r1' \
+            --exclude 'irrodl\.org' \
+            --exclude '10\.19173/irrodl\.v13i4\.1313' \
             --no-progress 'public/**/*.html'
