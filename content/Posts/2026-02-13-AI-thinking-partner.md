@@ -6,7 +6,7 @@ meta-description: "Using AI as a thinking partner to revise a journal article: a
 keyphrase: AI as a thinking partner
 author: "[[Michael Rowe]]"
 date: 2026-02-13
-updated: 2026-02-14
+updated: 2026-10-02
 tags:
   - ai-integration
   - academic-writing

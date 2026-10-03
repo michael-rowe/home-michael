@@ -19,7 +19,6 @@ related:
   - "[[Notes/developing AI literacy]]"
 draft: false
 enableToc: true
-status: Active
 ---
 
 > [!tip] Learning AI primarily through use

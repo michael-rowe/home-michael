@@ -6,7 +6,7 @@ meta-description: What an AI workflow for academics looks like in practice — s
 keyphrase: AI workflow for academics
 author: "[[Michael Rowe]]"
 date: 2026-02-11
-updated: 2026-02-11
+updated: 2026-10-01
 tags:
   - documentation
   - emergent-scholarship
