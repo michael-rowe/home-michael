@@ -6,7 +6,7 @@ meta-description: Organising notes for AI takes more than good search. Make the 
 keyphrase: organising notes for AI
 author: "[[Michael Rowe]]"
 date: 2026-02-12
-updated: 2026-02-12
+updated: 2026-10-02
 tags:
   - context-sovereignty
   - knowledge-representation

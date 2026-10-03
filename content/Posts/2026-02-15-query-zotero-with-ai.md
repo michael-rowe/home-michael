@@ -7,7 +7,7 @@ meta-description: Can you query Zotero with AI? I pointed Claude Code at my Zote
 keyphrase: query Zotero with AI
 author: "[[Michael Rowe]]"
 date: 2026-02-15
-updated: 2026-04-01
+updated: 2026-10-02
 enableToc: true
 tags:
   - agent

@@ -5,7 +5,6 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-09-15
 updated: 2026-09-17
-status: draft
 draft: true
 tags:
   - emergent-scholarship

@@ -10,7 +10,7 @@ meta-description: "Context engineering for educators: the infrastructure decisio
 keyphrase: context engineering for educators
 author: "[[Michael Rowe]]"
 date: 2026-02-14
-updated: 2026-02-14
+updated: 2026-10-02
 tags:
   - organisational-infrastructure
   - context-engineering

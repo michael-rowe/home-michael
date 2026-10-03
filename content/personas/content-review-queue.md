@@ -57,7 +57,7 @@ When picking up the queue:
      - **Remove cross-section repetition.** Where a later section restates something an earlier one already said, cut or compress the restatement instead of noting it.
      - **Gloss jargon in footnotes.** Apply *Teach the reader* in `CLAUDE.md`: a term the reader can't be assumed to know gets a footnote at first use — bold term, one or two plain sentences, a health professions education example where one helps, a Wikipedia link.
 4. Tell the user what changed and wait for approval.
-5. After approval, add the persona name to `reviewed:` in that file's frontmatter. That is the only place to record it.
+5. After approval, add the persona name to `reviewed:` in that file's frontmatter. That is the only place to record it. When the last pass is approved, set the file's update date to that day (`updated:` for posts and notes, `modified:` for essays), so readers can see the piece has changed substantially (Michael, 2026-10-03).
 6. Move on only when the current file is complete or the user explicitly skips a step.
 
 Work through content types in whatever order the work calls for; posts are the shortest and the best place to iterate on a persona's instructions, essays and lessons the longest.
