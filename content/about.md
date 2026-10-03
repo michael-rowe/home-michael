@@ -1,32 +1,26 @@
 ---
 title: About
 ---
-<img src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" style="float: left; width: 191px; margin-right: 1rem; margin-bottom: 0.5rem; margin-top: 5px;" />I am an Associate Professor and Director of Teaching and Learning in the School of Health and Care Sciences at the University of Lincoln in the United Kingdom.
+<img src="Media/Michael-Rowe-profile.png" alt="Michael Rowe" style="float: left; width: 191px; margin-right: 1rem; margin-bottom: 0.5rem; margin-top: 5px;" />I'm an Associate Professor and Director of Teaching and Learning in the School of Health and Social Care at the University of Lincoln in the United Kingdom.
 
-My scholarship focuses on the transformative potential of digital technologies in education, with a particular interest in how they influence relationships between teachers and students in learning environments. Drawing on critical pedagogy and complexity science, my work focuses on the use of technological innovation to enhance both education and practice while maintaining student-centred approaches to learning.
+My research is about how digital technology changes education, and in particular how it changes the relationships between teachers and students. I draw on critical pedagogy and complexity science, and most of my work asks how new technology can improve teaching and clinical practice while keeping students at the centre of their own learning.
 
 [Google Scholar](https://scholar.google.com/citations?user=H6CN3yAAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/michael-rowe-phd/) | [GitHub](https://github.com/michael-rowe/home-michael)
 
 ## About this project
 
-This site is a framework for the entire knowledge creation pipeline — from identifying problems worth solving, to learning systematically, to sharing what you've learned in ways that matter. It's not just about publishing differently; it's about working differently as someone who creates and shares knowledge.
+This site is a framework for the whole of knowledge work, from identifying problems worth solving, to learning systematically, to sharing what you've learned in ways that matter. Publishing is one part of that, and the site is as interested in how people who create and share knowledge go about their work as in what they publish.
 
-The content here reflects a commitment to open scholarly practice: understanding develops through relationships, networks, and dynamic interactions. This approach is particularly relevant in an era of rapid technological change, information abundance, and interconnected challenges in how knowledge gets made, taught and shared.
+I work openly because I think understanding develops through relationships and networks, in conversation with other people. That matters more when technology is changing quickly, information is abundant, and the ways knowledge gets made, taught, and shared are bound up with each other.
 
-## Purpose
+## What you'll find here
 
-This digital space serves as:
-
-- A **knowledge garden** where ideas grow, connect, and evolve over time
-- A **laboratory** for experimenting with networked thinking and non-linear scholarship
-- A **conversation starter** for engaging with others interested in how we create, share, and apply knowledge
-
-The content here reflects ongoing learning and thinking-in-progress. You'll find notes, essays, reflections, and syntheses that represent different stages of development rather than polished final products.
+The site is a place to learn something about AI in health professions education, and a record of my own learning as it happens. Notes explain one concept each, posts work out my understanding of an idea, and essays set out positions I'm committed to. Everything here is work I'm prepared to put my name to. The pieces link to each other, so following the links is often a better way through the site than reading in order, and the [[formats|formats page]] says what each kind of page is for.
 
 ## This site
 
-This site is built with [Quartz](https://quartz.jzhao.xyz/), an open-source static site generator designed for publishing digital gardens and interconnected notes. The content is written in Markdown and published as an evolving collection of linked thoughts.
+The site is built with [Quartz](https://quartz.jzhao.xyz/), an open-source static site generator designed for publishing linked notes. Everything is written in markdown, and the [[colophon]] has the details of how it's made.
 
 ---
 
-*Last updated: 26 January 2026*
+*Last updated: 3 October 2026*

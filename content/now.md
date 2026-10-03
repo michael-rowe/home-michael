@@ -7,17 +7,17 @@ description: What I'm currently working on.
 
 ## What I'm working on
 
-Most of my attention at the moment is on building out a product called Path, which aims to provide a framework for professional development. Besides that, my focus is on how scholarship is changing as a result of AI in higher and professional education.
+Most of my attention at the moment goes on building Path, software that gives professional development a framework to work within. Alongside that, I'm thinking about how AI is changing scholarship in higher and professional education.
 
-I'm actively working on:
+The projects I'm working on:
 
-- **[[Projects/path|Path]]**: software for career progression by design: aim at a standard, gather evidence as you go, build the case for your next step. Publicly released, with a waiting list open.
-- **[[Projects/vertex|Vertex]]**: a curriculum knowledge graph for natural-language querying, quality assurance, and compliance.
+- **[[Projects/path|Path]]**: software for planning career progression. You aim at a standard, gather evidence as you go, and build the case for your next step. It's publicly released, with a waiting list open.
+- **[[Projects/vertex|Vertex]]**: a curriculum [[Notes/knowledge graph|knowledge graph]] for natural-language querying, quality assurance, and compliance.
 - **[[Projects/research-harness|The research harness]]**: a structured operating context for working with AI agents in doctoral research, and increasingly in scholarship more broadly.
 
 Writing:
 
-- A book on AI for doctoral researchers with [Springer Nature](https://www.researchmasterminds.com/ai-and-your-doctorate), co-authored with Benita Olivier, and a chapter for a Springer reference volume on AI in medical education.
+- [[Projects/still-yours|Still Yours]], a book on AI for doctoral researchers with [Springer Nature](https://www.researchmasterminds.com/ai-and-your-doctorate), co-authored with Benita Olivier, and a chapter for a Springer reference volume on AI in medical education.
 
 ---
 

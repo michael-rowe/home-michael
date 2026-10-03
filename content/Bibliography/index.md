@@ -7,6 +7,4 @@ linkedin:
 
 ---
 
-A curated collection of resources I've read, listened to, or watched — and found worth recommending. Each entry includes my annotation: not just what the source says, but why it matters and what to expect from it.
-
-Entries span books, articles, podcasts, videos, reports, and tools. Use the topic tags to find resources relevant to your interests.
+Books, articles, podcasts, videos, reports, and tools I've read, listened to, or watched and think are worth recommending. Each entry has my annotation, which says why the source matters and what to expect from it as well as what it says. The topic tags group entries by subject.

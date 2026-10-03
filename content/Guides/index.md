@@ -5,7 +5,7 @@ enableToc: false
 linkedin:
 ---
 
-Practical one-page guides — condensed from essays and frameworks — for use in teaching, supervision, and everyday academic work. Each guide is available as a downloadable PDF.
+One-page guides condensed from the site's essays and frameworks, for use in teaching, supervision, and everyday academic work. Each one can be downloaded as a PDF.
 
 ---
 

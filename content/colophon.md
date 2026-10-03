@@ -6,7 +6,7 @@ enableToc: false
 
 ## The name
 
-`/home/michael` is a path in the Linux filesystem pointing to the home directory for a user named michael. It reflects an unashamed love of technology and the belief that the tools we use shape how we think. It's also deliberately personal: not a brand, not a project name, just a location, both local and now, remote.
+`/home/michael` is a path in the Linux filesystem pointing to the home directory for a user named michael. It reflects an unashamed love of technology and the belief that the tools we use shape how we think. It's also deliberately personal, a location rather than a brand or a project name, and one that's now remote as well as local.
 
 ## How this site is made
 
@@ -23,34 +23,25 @@ The site uses the same design system as my slides and handouts, described in [[P
 - **Structure** — square corners, no shadows, 2px lines between sections, and a contents rail beside longer pieces that marks the section you're in
 - **Components** — a top bar with search, the site graph, reader mode, and the theme toggle; a row of chips under each title giving the page's type and date; and backlinks beside every page
 
-The design prioritises readability and connection-making. The [[Posts/2026-09-29-quartz-graph-view|graph view]] shows how the writing connects, with each kind of page in its own colour, and the backlinks show which pages point to the one you're reading. The table of contents aids navigation in longer pieces.
+The design is meant to make the writing easy to read and its connections easy to follow. The [[Posts/2026-09-29-quartz-graph-view|graph view]] shows how the writing connects, with each kind of page in its own colour, and the backlinks show which pages point to the one you're reading. The table of contents aids navigation in longer pieces.
 
 ## Philosophy
 
-This site embodies several principles:
+**Work in public** — The process is visible as well as the result. The source and the full history of changes to every page are public, and each essay carries a version number that shows how far it has come.
 
-**Work in public** — Ideas develop through iteration. Notes, posts, and essays exist at different stages of development rather than only appearing when "finished."
+**Connection over collection** — Ideas are more useful linked to each other than stored separately, and the graph view and backlinks make those links visible.
 
-**Connection over collection** — The value is in how ideas link together, not in accumulating isolated pages. The graph view and backlinks make this visible.
+**Plain text, open formats** — Everything is written in markdown, so nothing depends on a proprietary format and the whole site can be rebuilt from plain text files.
 
-**Plain text, open formats** — Everything is markdown. No proprietary formats, no lock-in. The entire site can be rebuilt from plain text files.
-
-**Own your platform** — Self-hosted on GitHub Pages rather than a platform that could disappear or change terms. The [source is public](https://github.com/michael-rowe/home-michael).
+**Own your platform** — The site is published on GitHub Pages from files I keep myself, so it doesn't depend on a platform that could disappear or change its terms. The [source is public](https://github.com/michael-rowe/home-michael).
 
 ## Writing with AI
 
-This site is built and largely written in collaboration with Claude, and that includes the content, not just the code. Rather than compress it into a paragraph here, there's a fuller statement of what that means in practice, how it differs from the usual picture of writing with AI, and who answers for the result: [[writing-with-ai|Writing with AI]].
+This site is built and largely written in collaboration with Claude, and that includes the content as well as the code. [[writing-with-ai|Writing with AI]] says what that means in practice, how it differs from the usual picture of writing with AI, and who answers for the result.
 
 ## Accessibility
 
-The site aims to be accessible:
-
-- Semantic HTML structure
-- Keyboard navigable
-- Respects system dark mode preference
-- Readable typography and sufficient contrast
-
-If you encounter accessibility issues, please [[contact|let me know]].
+The site uses semantic HTML, works from the keyboard, follows your system's dark mode setting, and keeps text readable with sufficient contrast. The [[accessibility|accessibility statement]] has the details and the known limitations. If you run into a problem, please [[contact|let me know]].
 
 ## Essay versioning
 
@@ -61,11 +52,11 @@ Essays carry a version number that indicates their publication stage:
 - **0.9** — Submitted to a peer-reviewed journal
 - **1.0+** — Published in a peer-reviewed venue; minor revisions increment the decimal (e.g. 1.1)
 
-Version numbers appear in the frontmatter of each essay, in the chips under its title, and in the "About this essay" section.
+The version appears in the chips under each essay's title and in its "About this essay" section.
 
 ## Licence
 
-Content on this site is shared under a [Creative Commons Attribution 4.0 licence](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). You can copy, adapt, and reuse it for any purpose, including commercially, as long as you credit the source. Academic citation format:
+Content on this site is shared under a [Creative Commons Attribution 4.0 licence](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). You can copy, adapt, and reuse it for any purpose, including commercially, as long as you credit the source. To cite a page:
 
 > Rowe, M. (2026). [Title]. */home/michael*. https://michael-rowe.github.io/home-michael/
 
@@ -73,4 +64,4 @@ If you'd like to discuss using something in a way the licence doesn't cover, [[c
 
 ---
 
-*Last updated: September 2026*
+*Last updated: October 2026*

@@ -5,7 +5,7 @@ enableToc: false
 noBacklink: true
 ---
 
-Thanks for confirming. I'll only send newsletters out when I think there's genuinely something worth sharing.
+Thanks for confirming. The newsletter goes out roughly once a month, and only when there's something worth sharing.
 
 ## Your free guide
 
@@ -15,7 +15,7 @@ As a thank-you, here's a short guide on building sustainable habits for academic
 
 **[Download: 6 Habits for Calm Academic Productivity](/Guides/Head%20Space%20-%206%20Habits%20for%20Calm%20Academic%20Productivity.pdf)**
 
-Six practical habits for the sustained concentration that scholarship requires, without the productivity-culture noise.
+Six practical habits for the kind of sustained concentration that scholarship needs.
 
 <div style="clear: both;"></div>
 

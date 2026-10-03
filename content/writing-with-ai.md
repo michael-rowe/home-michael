@@ -22,7 +22,7 @@ What I won't do is annotate which sentences came from where. Sarah Eaton's (2023
 
 I will. Handing over some of the production of text doesn't hand over responsibility for it, for whether the claims hold up, whether the sources exist, whether it was worth your time. If something here is wrong, it's mine to answer for, and not the model's.
 
-Two things I'm deliberately not saying. I'm not claiming that every sentence passed under my eye in its final form, because some pages here are much more machine than me and pretending otherwise would be the comfortable lie. And none of this is an apology, because whether I used AI stopped being the interesting question a while ago.
+I'm also not claiming that every sentence passed under my eye in its final form, because some pages here are much more machine than me and pretending otherwise would be the comfortable lie. And none of this is an apology, because whether I used AI stopped being the interesting question a while ago.
 
 If you want to see the workings, the [source is public](https://github.com/michael-rowe/home-michael), with the full commit history for every page here.
 
