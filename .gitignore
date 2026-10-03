@@ -10,8 +10,6 @@ private/
 content/templates/
 # Drafts never leave the machine: not built, not committed (2026-09-17)
 content/drafts/
-# Held off GitHub until a publishing decision is made (2026-10-03)
-content/soul.md
 # Personas are local-only; taxonomy.md is tracked so CI can validate against it
 content/personas/*
 !content/personas/taxonomy.md
