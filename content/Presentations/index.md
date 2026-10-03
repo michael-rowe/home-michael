@@ -6,7 +6,7 @@ linkedin:
 ---
 A year-by-year archive of talks I've given at conferences, universities, and professional organisations, on artificial intelligence in health professions education and clinical practice.
 
-Linked titles have their own page, with slides and an overview of the argument. The rest are recorded here for the record — many are re-deliveries of an argument that already has a page elsewhere in the list.
+Linked titles have their own page, with slides and an overview of the argument. The rest are listed for completeness, and many of them are re-deliveries of an argument that already has a page elsewhere in the list.
 
 For a curated selection with fuller descriptions, and what's coming up, see the [[speaking|speaking page]].
 

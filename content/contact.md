@@ -5,7 +5,7 @@ enableToc: false
 
 <section class="contact-section">
 <div class="contact-intro">
-<p class="contact-description">Complete the form below and I'll get back to you as soon I can.</p>
+<p class="contact-description">Complete the form below and I'll get back to you as soon as I can.</p>
 </div>
 <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
 <input type="hidden" name="access_key" value="98885db0-631f-4540-8f05-97902fa66a38" />
@@ -26,7 +26,7 @@ enableToc: false
 <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
 </div>
 </div>
-<button class="form-submit" type="submit">Send Message</button>
+<button class="form-submit" type="submit">Send message</button>
 </form>
 </section>
 
@@ -39,4 +39,4 @@ I'm available for speaking engagements, workshops, and consultations on topics r
 - Knowledge management and personal learning systems
 - Academic writing and publishing
 
-To inquire about availability, please use the form above.
+To ask about availability, use the form above. The [[speaking|speaking page]] has recent talks and a form for sending event details.

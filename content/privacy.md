@@ -4,7 +4,7 @@ description: How this site handles your data, including analytics, comments, new
 enableToc: true
 ---
 
-This site respects your privacy. Here's exactly what data is collected and how it's used.
+The site collects very little data about you. Here's what it does collect, and what happens to it.
 
 ## Analytics
 
@@ -43,17 +43,14 @@ The newsletter is managed through [Kit](https://kit.com/) (formerly ConvertKit).
 
 The contact form uses [Web3Forms](https://web3forms.com/). When you submit a message:
 
-- Your name, email, phone (if provided), and message are sent to me via email
+- Your name, email address, message, and (on the speaking form) organisation are sent to me by email
 - Web3Forms does not store your submission long-term
 - I receive your message directly and may respond via email
 - Your information is not shared with third parties
 
 ## Cookies
 
-This site does not use cookies for tracking. The only cookies that may be set are:
-
-- **Theme preference** - Remembers your light/dark mode choice (stored locally in your browser)
-- **GitHub authentication** - If you use Giscus comments (managed by GitHub)
+This site doesn't set any cookies. Your choice of light or dark mode is kept in your browser's local storage, which stays on your device and isn't sent anywhere. If you comment through Giscus, GitHub sets its own cookies to sign you in.
 
 ## Third-party embeds
 
@@ -73,4 +70,4 @@ If you have questions about this privacy policy, [[contact|get in touch]].
 
 ---
 
-*Last updated: February 2026*
+*Last updated: October 2026*

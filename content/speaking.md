@@ -4,7 +4,7 @@ description: Invited talks, workshops and presentations on teaching, research an
 enableToc: true
 ---
 
-I speak at conferences, universities and professional organisations about how teaching, research and scholarly practice are changing, and what AI has to do with it. Most of that work is grounded in health professions education, where I've spent my career, though the questions travel further than that. My talks aim to help audiences make sense of this moment: what AI actually means for how we teach, learn and practise.
+I speak at conferences, universities, and professional organisations about how teaching, research, and scholarly practice are changing, and what AI has to do with it. Most of that work is grounded in health professions education, where I've spent my career, though the questions travel further than that. In the talks I try to help audiences make sense of what AI means for how we teach, learn, and practise.
 
 ## Watch a recent talk
 
@@ -12,7 +12,7 @@ I speak at conferences, universities and professional organisations about how te
 <iframe src="https://www.youtube.com/embed/Sj3daDywOAU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" title="AI and the future of professional education — ADAPT conference" allowfullscreen></iframe>
 </div>
 
-This is a talk I gave at the ADAPT conference in late 2025. In it I argued that generative AI is widening access to expertise, and in doing so threatens the privileged role of universities as gatekeepers of professional knowledge. As AI becomes more capable of applying knowledge to solve problems and communicate complex ideas, it starts to function as an expert mentor — "expertise on demand" that makes learning personalised, contextualised, and cheap, independent of formal degree programmes.
+This is a talk I gave at the ADAPT conference in late 2023. In it I argued that generative AI is widening access to expertise, and in doing so threatens the privileged role of universities as gatekeepers of professional knowledge. As AI becomes more capable of applying knowledge to solve problems and communicate complex ideas, it starts to function as an expert mentor — "expertise on demand" that makes learning personalised, contextualised, and cheap, independent of formal degree programmes.
 
 I take the common criticisms seriously — bias, inaccuracy — but argue that AI is improving on these fronts, already has advantages over humans across a growing range of specialised tasks, and is becoming embedded across every kind of software and platform, providing intelligence wherever it's needed.
 
@@ -41,7 +41,7 @@ An invitation-only summit convened for World Physiotherapy's 75th anniversary, b
 ### Masterclass: AI in private physiotherapy practice
 **24 October 2026** · Canadian Physiotherapy Association, Private Practice Education Committee — Online
 
-A four-hour practical masterclass for private practice clinicians across physiotherapy, occupational therapy, osteopathy, and allied health on applying AI in clinical and business contexts. Covers practical activities and real workflows rather than theory, including AI for clinical communication, documentation, professional content creation, and business tasks, alongside guidance on evaluating different AI platforms and ethical and safe AI use. 12:30–4:30pm EDT.
+A four-hour practical masterclass for private practice clinicians across physiotherapy, occupational therapy, osteopathy, and allied health on applying AI in clinical and business contexts. It's built around practical activities and real workflows: AI for clinical communication, documentation, professional content, and business tasks, how to evaluate different AI platforms, and how to use AI safely and ethically. 12:30–4:30pm EDT.
 
 ---
 
@@ -82,7 +82,7 @@ A panel presentation on ethics and the use of AI in physiotherapy. It argues aga
 ### New therapeutic alliances
 **4 September 2026** · South African Society of Physiotherapy Symposium — Online
 
-The first of two invited panel presentations at the SASP Symposium 2026, on AI and the future of physiotherapy education. Patients are already arriving at consultations having consulted AI first, and are increasingly able to get genuinely useful health guidance from it. The talk asks what that means for practice, research and education — not whether AI will replace clinical judgement, but how the profession prepares students and practitioners for patients who bring an AI-shaped health literacy into the room.
+The first of two invited panel presentations at the SASP Symposium 2026, on AI and the future of physiotherapy education. Patients are already arriving at consultations having consulted AI first, and are increasingly able to get genuinely useful health guidance from it. The talk asks what that means for practice, research, and education, and how the profession can prepare students and practitioners for patients who bring an AI-shaped health literacy into the room.
 
 [[Presentations/2026-09-04-sasp-ai-future-physiotherapy-education|Slides and overview →]]
 
@@ -91,7 +91,7 @@ The first of two invited panel presentations at the SASP Symposium 2026, on AI a
 ### AI and the learning alignment problem
 **11 June 2026** · Global Research Nursing Education Network — Online
 
-An invited keynote webinar for GRNEN's international network of nursing educators, primarily from the US, Canada, and Africa. AI has exposed a longstanding misalignment between what educational systems measure and what they are meant to develop — optimising for measurable proxies like grades and artefacts rather than authentic developmental outcomes like judgement and professional becoming. The session explored what that misalignment means for nursing education design, and how shifting from control to cultivation can ensure AI becomes a partner in professional growth rather than a shortcut around it.
+An invited keynote webinar for GRNEN's international network of nursing educators, primarily from the US, Canada, and Africa. AI has exposed a longstanding misalignment between what educational systems measure and what they're meant to develop: they reward grades and artefacts, which are easy to measure, over the judgement and professional becoming that education exists to produce. The session explored what that means for how nursing education is designed, and how moving from control to cultivation can make AI a partner in professional growth instead of a shortcut around it.
 
 [[Presentations/2026-06-11-grnen-learning-alignment-problem|Slides and overview →]]
 
@@ -100,21 +100,21 @@ An invited keynote webinar for GRNEN's international network of nursing educator
 ### The use of AI within health and social care
 **11 June 2026** · National Back Exchange Moving and Handling Awareness Day — Online
 
-An open webinar for the National Back Exchange's annual awareness day, accessible to members and non-members. Designed for a broad audience — nurses, occupational therapists, physiotherapists, and moving and handling specialists — the session offered a practical and accessible introduction to AI in health and social care: what generative AI is, how it works, and what it can and cannot do in practice, alongside current and emerging applications, implications for professional roles, and how practitioners can engage with AI as a professional tool.
+An open webinar for the National Back Exchange's annual awareness day, accessible to members and non-members. Designed for a broad audience of nurses, occupational therapists, physiotherapists, and moving and handling specialists, the session was a practical introduction to AI in health and social care: what generative AI is, how it works, what it can and can't do in practice, where it's being used now, what it means for professional roles, and how practitioners can use it as a professional tool.
 
 ---
 
 ### What is the work? Rethinking learning and assessment in an age of AI
 **9 June 2026** · Best Practices in Education Rounds — Online
 
-Invited presentation for the monthly BPER series, co-hosted by the University of Toronto Centre for Faculty Development, The Wilson Centre, and the Centre for Interprofessional Education — an open session drawing 100+ attendees from across health professions education. The talk asked what generative AI does to the relationship between assessment and the learning it is meant to evidence, and what educators should treat as the real work now that AI can produce fluent artefacts.
+An invited presentation for the monthly BPER series, co-hosted by the University of Toronto Centre for Faculty Development, The Wilson Centre, and the Centre for Interprofessional Education. The session was open, and drew more than 100 people from across health professions education. The talk asked what generative AI does to the relationship between assessment and the learning it is meant to evidence, and what educators should treat as the real work now that AI can produce fluent artefacts.
 
 ---
 
 ### AI in clinical practice and making sense of this moment
 **13 May 2026** · Musculoskeletal Association of Chartered Physiotherapists — Online
 
-An invited lecture for MACP members merging practical AI integration with a philosophical sense-making framework: how AI tools support clinical decision-making, documentation, and patient communication, and what this moment actually means for the health professions — for expertise, judgement, and human contribution when machines can generate fluent text and pass clinical assessments.
+An invited lecture for MACP members that combined the practical with the philosophical: how AI tools support clinical decision-making, documentation, and patient communication, and what this moment means for expertise, judgement, and human contribution in the health professions when machines can generate fluent text and pass clinical assessments.
 
 [[Presentations/2026-05-13-macp-making-sense-of-ai|Slides and overview →]]
 
@@ -159,7 +159,7 @@ An internal staff development workshop introducing AI through Microsoft Copilot:
 ### Beyond document management
 **10 February 2026** · Advance HE AI Symposium — Online
 
-Professional curricula are comprehensively documented and almost entirely unqueryable. The talk introduces a three-layer architecture that treats a graph database as the source of truth for curriculum structure, with vector search for content retrieval and the Model Context Protocol for stakeholder interfaces.
+Professional curricula are comprehensively documented and almost entirely unqueryable. The talk introduces a three-layer architecture that treats a [[Notes/graph database|graph database]] as the source of truth for curriculum structure, with [[Notes/vector database|vector search]] for finding content and the [[Notes/model context protocol|Model Context Protocol]] for letting staff and students query it.
 
 [[Presentations/2026-02-10-beyond-document-management|Slides and overview →]]
 
@@ -168,7 +168,7 @@ Professional curricula are comprehensively documented and almost entirely unquer
 ### Context sovereignty: building human-AI coalitions in physiotherapy
 **21 November 2025** · Chartered Society of Physiotherapy Founders' Lecture — Newport, Wales
 
-The CSP's annual Founders' Lecture. It opens with the disorienting evidence that AI now matches or exceeds clinicians on diagnosis, empathy, and ethical reasoning, then rejects the defensive sanctuary strategies that provokes. Because language models are stateless, static, and contextless, the professional context a practitioner brings is a structural necessity rather than a comfort — and controlling it is the distinctive human contribution.
+The CSP's annual Founders' Lecture. It opens with the disorienting evidence that AI now matches or exceeds clinicians on diagnosis, empathy, and ethical reasoning, then argues against the defensive strategies that evidence tends to provoke, which look for a sanctuary AI can't reach. Because language models are stateless, static, and contextless, the professional context a practitioner brings is a structural necessity rather than a comfort — and controlling it is the distinctive human contribution.
 
 [[Presentations/2025-11-21-csp-founders-context-sovereignty|Slides and overview →]]
 
@@ -211,7 +211,7 @@ How should we teach when students have access to AI? What does AI mean for asses
 
 ### AI for researchers
 
-Using AI as a thinking partner for literature review, analysis, writing, and research design — not as a shortcut, but as a cognitive collaborator that amplifies scholarly judgement. This includes practical guidance on integrating AI into systematic review workflows, qualitative analysis, grant writing, and manuscript development, alongside honest discussion of the risks: [[Notes/hallucination|hallucination]], bias, and the erosion of deep reading habits. Aimed at researchers at any career stage who want to work more effectively without compromising intellectual rigour.
+Using AI as a thinking partner for literature review, analysis, writing, and research design, in ways that strengthen a researcher's own judgement. This includes practical guidance on bringing AI into systematic reviews, qualitative analysis, grant writing, and manuscript development, alongside the risks: [[Notes/hallucination|hallucination]], bias, and the erosion of deep reading habits. Aimed at researchers at any career stage who want to work more effectively without compromising intellectual rigour.
 
 ### AI in clinical practice
 
@@ -219,21 +219,21 @@ How do AI tools support clinical decision-making, documentation, and patient com
 
 ### AI and practice management
 
-Practical applications of AI in healthcare administration, workflow optimisation, and service delivery, with an honest assessment of what works, what doesn't, and what the implementation challenges look like on the ground. This includes scheduling, documentation, administrative support, patient communication, and service planning, with attention to the organisational change management that determines whether AI adoption actually improves practice or just adds complexity.
+Practical uses of AI in healthcare administration, workflows, and service delivery, looking at what works, what doesn't, and what implementation looks like on the ground. This includes scheduling, documentation, administrative support, patient communication, and service planning, with attention to the organisational change management that determines whether AI adoption actually improves practice or just adds complexity.
 
 ### Making sense of this moment
 
-More theoretical and philosophical talks exploring what AI means for the health professions. How do we understand expertise, judgement, and human contribution when machines can generate fluent text and pass medical exams? What happens to the value of experience and tacit knowledge when AI can simulate competence? These talks help audiences develop frameworks for thinking about AI at wider scales rather than just reacting to it, grounding the conversation in the history and values of the professions rather than in technology hype.
+More theoretical and philosophical talks exploring what AI means for the health professions. How do we understand expertise, judgement, and human contribution when machines can generate fluent text and pass medical exams? What happens to the value of experience and tacit knowledge when AI can simulate competence? These talks give audiences ways of thinking about AI at a wider scale, and ground the conversation in the history and values of the professions.
 
 <div class="section-break"></div>
 
 ## Get in touch
 
-If you're interested in having me speak at your event, run a workshop, or facilitate a session, I'd be happy to discuss how I might contribute.
+If you'd like me to speak at your event, run a workshop, or facilitate a session, tell me about it using the form below.
 
 <section class="contact-section">
 <div class="contact-intro">
-<p class="contact-description">Fill out the form below and I'll get back to you about availability and format.</p>
+<p class="contact-description">I'll get back to you about availability and format.</p>
 </div>
 <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
 <input type="hidden" name="access_key" value="98885db0-631f-4540-8f05-97902fa66a38" />
