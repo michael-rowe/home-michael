@@ -31,7 +31,7 @@ linkedin:
 
 ## Overview
 
-A panel session for the [South African Society of Physiotherapy](https://saphysio.co.za/)'s 2026 Symposium, themed *Taking Physiotherapy into the Future*. The panel paired two medical doctors speaking to clinical AI use with this contribution on AI in physiotherapy education and research.
+A panel session for the [South African Society of Physiotherapy](https://www.saphysio.co.za/)'s 2026 Symposium, themed *Taking Physiotherapy into the Future*. The panel paired two medical doctors speaking to clinical AI use with this contribution on AI in physiotherapy education and research.
 
 The talk opens with an older claim — that smartphones and the internet would end medicine's paternalism by putting patients in charge of their own data — and argues that AI is finishing what that claim only gestured at. AI performance on licensing-style medical exams has moved from barely passing to consistently strong in a few years, and systems like Flok Health's Class IIa-certified MSK pathway show unsupervised AI already operating inside regulated clinical care, not just answering questions about it.
 

@@ -31,7 +31,7 @@ linkedin:
 
 ## Overview
 
-The second of two panel sessions for the [South African Society of Physiotherapy](https://saphysio.co.za/)'s 2026 Symposium, themed *Taking Physiotherapy into the Future*, and a direct follow-on from the previous day's session on AI and the future of physiotherapy education.
+The second of two panel sessions for the [South African Society of Physiotherapy](https://www.saphysio.co.za/)'s 2026 Symposium, themed *Taking Physiotherapy into the Future*, and a direct follow-on from the previous day's session on AI and the future of physiotherapy education.
 
 The talk pushes back on the question that dominates every headline and hallway conversation about AI in healthcare — *is it better than us?* — as the wrong contest to be having. Treating capability as zero-sum means the goalposts move every time AI closes a gap, and the profession spends its energy defending the next "essential" human trait rather than deciding what actually matters. Working with a colleague who's better than you at something isn't diminishing, and the talk asks whether the discomfort of extending that same logic to AI is doing more work in the "keep the human in the loop" argument than patient benefit is.
 

@@ -2,7 +2,7 @@
 type: presentation
 title: What is the work?
 description: A keynote for the Royal College of Nursing's Education conference. Examines how generative AI has severed the inferential chain between assessment artifacts and the learning they were meant to evidence, and what nursing education needs to do structurally in response. The argument moves from the current AI landscape, through the premises of nursing formation, to why discursive responses (policies, declarations) cannot address a structural problem.
-meta-description: Keynote on AI, assessment, and nursing education at the RCN Education conference. Argues that AI has broken the proxy linking artifact production to learning, and that structural responses are needed.
+meta-description: "RCN Education conference keynote on AI, assessment and nursing education: AI has broken the proxy linking artifact production to learning."
 author:
   - "[[Michael Rowe]]"
 date: 2026-04-15
