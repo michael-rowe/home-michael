@@ -2,7 +2,7 @@
 type: post
 title: We're comparing AI chatbot health advice to the wrong thing
 description: One in seven people in the UK are using AI chatbots for health advice instead of seeing a GP. The institutional response has been to warn them off, but that response applies a standard it doesn't consistently apply to anything else in the system. This post argues that the risk comparison driving those warnings is systematically skewed, and that a more honest accounting points toward an entirely different kind of response.
-meta-description: The 'AI might make mistakes' warning applies a standard to AI chatbot health advice we've never applied consistently to other technologies in health systems, and that asymmetry matters.
+meta-description: The 'AI might make mistakes' warning holds AI chatbot health advice to a standard we have never applied to other technologies in health systems.
 keyphrase: AI chatbot health advice
 author: "[[Michael Rowe]]"
 date: 2026-05-15

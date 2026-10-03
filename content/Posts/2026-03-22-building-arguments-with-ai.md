@@ -81,7 +81,7 @@ That last move — surfacing three things I'd written or read separately and had
 
 Once I feel like I've explored the idea sufficiently and moved the thread towards something resembling closure, Claude first generates new permanent notes based on the discussion, integrating them into my existing set of notes, and adds a conclusion to wrap things up. For example, this is the conclusion to the writing session described above:
 
-![[conclave_conclusion.png]]
+![[conclave_conclusion.png|The conclusion Claude wrote at the end of the session: AI changes the medium, not the drive to write, and the judgement of whether the words captured what you saw is what stays yours. Below it, links to two permanent notes derived from the session and one unresolved tension]]
 
 ## Why this matters
 

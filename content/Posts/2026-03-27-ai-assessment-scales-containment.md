@@ -30,7 +30,7 @@ Something's been nagging at me about the way higher education is responding to A
 
 | AI Assessment Scale               | Traffic light system                      |
 | :-------------------------------: | :---------------------------------------: |
-| ![[ai-assessment-scale.png\|400]] | ![[ai_traffic_light_assessment.png\|400]] |
+| ![[ai-assessment-scale.png\|The AI Assessment Scale: five levels from no AI, through AI planning, collaboration and full AI, to AI exploration, each with an instruction to students\|400]] | ![[ai_traffic_light_assessment.png\|A traffic light model of AI use: red, AI not permitted in this activity; amber, permission from the teacher required; green, students encouraged to use AI\|400]] |
 
 That's worth naming clearly, because it shapes what kind of conversation we're having, and whether it's the right one.
 
