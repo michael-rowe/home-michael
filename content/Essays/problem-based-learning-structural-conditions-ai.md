@@ -272,13 +272,13 @@ Azer, S. A. (2005). Facilitation of students' discussion in problem-based learni
 
 Barrows, H. S. (1986). A taxonomy of problem-based learning methods. _Medical Education_, 20(6), 481–486.
 
-Bearman, M., Tai, J., & Dawson, P. (2024). Developing evaluative judgement for a time of generative artificial intelligence. _Assessment & Evaluation in Higher Education_.
+Bearman, M., Tai, J., & Dawson, P. (2024). Developing evaluative judgement for a time of generative artificial intelligence. _Assessment & Evaluation in Higher Education_. ([[Bibliography/Bearman-et-al-2024-developing-evaluative-judgement-for-a-time-of-generative-artificial-intelligence|annotation]])
 
 Bjork, E. L., & Bjork, R. A. (2009). Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning. In _Psychology and the Real World_.
 
 Carless, D. (2007). Learning-oriented assessment: Conceptual bases and practical implications. _Innovations in Education and Teaching International_. [Volume and page details not confirmed — verify before submission.]
 
-Corbin, T., Dawson, P., & Liu, D. (2025). Talk is cheap: Why structural assessment changes are needed for a time of GenAI. _Assessment & Evaluation in Higher Education_.
+Corbin, T., Dawson, P., & Liu, D. (2025). Talk is cheap: Why structural assessment changes are needed for a time of GenAI. _Assessment & Evaluation in Higher Education_. ([[Bibliography/Corbin-et-al-2025-talk-is-cheap-why-structural-assessment-changes-are-needed|annotation]])
 
 Dawson, P., Bearman, M., & Dollinger, M. (2024). Validity matters more than cheating. _Assessment & Evaluation in Higher Education_.
 

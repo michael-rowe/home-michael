@@ -223,7 +223,7 @@ In health professions education contexts, also consider: does the student recogn
 
 1. **Audit existing activities:** Identify where AI engagement could support disciplinary learning while developing AI literacy
 2. **Sequence deliberately:** Ensure activities progress through developmental stages appropriately
-3. **Be explicit about expectations:** Clarify AI use policies for each activity rather than blanket policies
+3. **Be explicit about expectations:** Clarify [[Policies/classroom-policy-AI-use|AI use policies]] for each activity rather than blanket policies
 4. **Build in reflection points:** Regular opportunities for students to evaluate their AI engagement patterns
 
 ### In health professions education

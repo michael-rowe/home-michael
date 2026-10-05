@@ -75,7 +75,7 @@ Bok et al. (2018) reviewed the validity evidence and found it thinner than the m
 ## Notes
 
 - An earlier version of this note (February 2026) described programmatic assessment as automated testing of student-built digital artefacts. That is a different idea with a borrowed name, and it was wrong; the term belongs to the medical education literature above. Rewritten 2026-09-17.
-- The model is the natural home for the argument in [[Essays/learning-alignment|learning alignment]]: if assessment is a programme of evidence, student use of AI becomes something to observe and discuss, and not only something to police.
+- The model is the natural home for the argument in [[Essays/learning-alignment|learning alignment]]: if assessment is a programme of evidence, student use of AI becomes something to observe and discuss, and [[Posts/2026-05-28-fawns-student-use-ai|not only something to police]].
 
 [^ottawa]: **Ottawa conference** — a long-running international conference on assessment in medical and health professions education, which periodically publishes consensus statements on assessment practice. They're widely used as reference points when programmes redesign their assessment. [The 2020 statement on programmatic assessment](https://doi.org/10.1080/0142159X.2021.1957088)
 [^osce]: **OSCE.** Objective structured clinical examination: a circuit of timed stations at which students carry out a clinical task, such as a medication history or a counselling conversation, while an examiner scores them against a checklist. See [Wikipedia: Objective structured clinical examination](https://en.wikipedia.org/wiki/Objective_structured_clinical_examination).
