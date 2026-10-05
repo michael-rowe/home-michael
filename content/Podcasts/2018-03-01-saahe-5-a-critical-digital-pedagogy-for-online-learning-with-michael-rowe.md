@@ -1,6 +1,6 @@
 ---
 type: podcast
-title: "A critical pedagogy for online learning"
+title: "A critical pedagogy for online learning (SAAHE)"
 description: "A recording of a chapter I wrote for Manipulating practices: a critical physiotherapy reader, which the Critical Physiotherapy Network published open access. The argument is that professional education which treats some knowledge as objective and legitimate, and students' own experience as peripheral, teaches students that they are not in charge of their own learning — and that digital technology usually makes this worse, because we reach for it to measure and monitor rather than to change anything. We recorded it to find out whether an audio version of an open access book was something people wanted."
 meta-description: "A recording of a chapter I wrote for Manipulating practices: a critical physiotherapy reader, which the Critical Physiotherapy Network published open…"
 author:

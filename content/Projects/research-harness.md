@@ -47,4 +47,5 @@ The framework is published as a preprint on the Open Science Framework and conde
 
 - Essay: [[Essays/research-harness-doctoral-ai|The research harness: a framework for bounded AI use in doctoral work]]
 - Guide: [[Guides/research-harness-guide|The research harness — a one-page guide for doctoral researchers]] (downloadable PDF)
+- Post: [[Posts/2026-06-01-research-harness-doctoral-ai|What software engineers can teach us about AI in doctoral research]]
 - Preprint: [Open Science Framework](https://doi.org/10.35542/osf.io/mwhgz_v1)

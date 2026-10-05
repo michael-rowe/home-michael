@@ -1,6 +1,6 @@
 ---
 type: podcast
-title: "A critical pedagogy for online learning"
+title: "A critical pedagogy for online learning (In Beta)"
 description: "The Critical Physiotherapy Network published Manipulating practices fully open access, which left the authors rather than the publisher holding the rights to decide what could be done with it. There was no audio version, so we recorded one chapter as a podcast to see what happened. This episode is that chapter."
 meta-description: "The Critical Physiotherapy Network published Manipulating practices fully open access, which left the authors rather than the publisher holding the…"
 author:

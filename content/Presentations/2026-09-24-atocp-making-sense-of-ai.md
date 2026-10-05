@@ -1,6 +1,6 @@
 ---
 type: presentation
-title: "Making sense of AI in clinical practice"
+title: "Making sense of AI in clinical practice: ATOCP at BOA Congress"
 description: "An invited talk in the ATOCP session at the BOA Annual Congress 2026 in London. It looks at what AI can already do in clinical work, why the usual responses to it leave clinicians as spectators, and what physiotherapists bring that AI systems don't have, which is context. The second half turns to patients, who are already using AI before they arrive, and asks what changes in the consultation when both sides bring their own context and their own agents. It closes with three things to do the next working day."
 meta-description: "ATOCP session at BOA Congress 2026 on AI in orthopaedic physiotherapy: the clinical evidence, context sovereignty, and patients who arrive using AI."
 author:

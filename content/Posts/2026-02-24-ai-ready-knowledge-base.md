@@ -223,4 +223,6 @@ I've come to think this is one of the more underappreciated things that working 
 
 The scaffold I started building with intent five years ago feels, for the first time, structurally sound. What happens on it next is the interesting part.
 
+I've written up what the week taught me about working with AI on a project this size as [[Posts/2026-02-25-principles-ai-collaboration|seven principles for collaborating with AI]].
+
 *Tools mentioned in this post: [Obsidian](https://obsidian.md/) is a free, local-first note-taking application that stores everything as plain text. [YAML frontmatter](https://help.obsidian.md/Editing+and+formatting/Properties) is Obsidian's built-in support for structured note metadata. [Claude Code](https://claude.ai/code) is Anthropic's agentic coding tool, which can work directly with files on your computer. [Git](https://git-scm.com/) is free, open-source version control software. The [Anthropic API](https://www.anthropic.com/api) is the developer service used by the description-generation script — separate from the Claude.ai subscription product.*
