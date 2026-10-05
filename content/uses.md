@@ -36,8 +36,6 @@ The tools and systems I use for academic work, writing, and maintaining this sit
 
 **[GitHub](https://github.com/michael-rowe/home-michael)**. Version control, and free hosting through GitHub Pages. The whole site is open source.
 
-**[Giscus](https://giscus.app/)**. Comments on the site, powered by GitHub Discussions, so anyone with a GitHub account can comment without signing up for anything else.
-
 **[Umami](https://umami.is/)**. Privacy-focused analytics that count anonymous page views without cookies or personal data.
 
 **[Kit](https://kit.com/)**. Newsletter management (formerly ConvertKit).

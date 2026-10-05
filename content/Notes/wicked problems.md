@@ -20,6 +20,7 @@ related:
   - "[[Notes/emergent scholarship]]"
   - "[[Essays/problem-based-learning-structural-conditions-ai]]"
   - "[[Essays/teaching-to-learning]]"
+  - "[[Bibliography/Corbin-et-al-2025-the-wicked-problem-of-ai-and-assessment]]"
   - "[[Notes/emergence]]"
 keyphrase: "wicked problems in health professions education"
 linkedin:

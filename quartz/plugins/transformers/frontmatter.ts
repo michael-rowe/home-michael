@@ -151,7 +151,6 @@ declare module "vfile" {
         enableToc: string
         cssclasses: string[]
         socialImage: string
-        comments: boolean | string
         // Site-specific fields used by /home/michael (see ~/sharing/CLAUDE.md).
         // Declared here so they type as `string | undefined` rather than falling
         // through the index signature above as `unknown`.

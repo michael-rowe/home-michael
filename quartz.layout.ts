@@ -105,19 +105,6 @@ export const defaultContentPageLayout: PageLayout = {
       },
     }),
     Component.ShareLinks(),
-    Component.Comments({
-      provider: "giscus",
-      options: {
-        repo: "michael-rowe/home-michael",
-        repoId: "R_kgDOOHzPWg",
-        category: "Announcements",
-        categoryId: "DIC_kwDOOHzPWs4Cw5Jj",
-        mapping: "pathname",
-        strict: false,
-        reactionsEnabled: true,
-        inputPosition: "top",
-      },
-    }),
   ],
 }
 
