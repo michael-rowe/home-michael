@@ -17,6 +17,8 @@ tags:
   - academic-practice
 category:
   - Technology
+related:
+  - "[[Posts/2026-03-04-ai-dependency-in-practice]]"
 aliases:
   - posts/what-happens-when-agent-first-workflows-scale
 linkedin: 2026-03-04

@@ -18,6 +18,7 @@ category:
   - Professional development
 related:
   - "[[Essays/ai-hpe-theoretical-framework]]"
+  - "[[Posts/2026-03-31-transform-documents-with-ai]]"
 draft: false
 enableToc: true
 linkedin: 2026-06-09
