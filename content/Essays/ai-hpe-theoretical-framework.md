@@ -13,7 +13,7 @@ email:
 keyphrase: "framework for AI in health professions education"
 version: 1.1
 created: 2025-03-29
-modified: 2026-09-28
+modified: 2026-10-06
 orcid: 0000-0002-1538-6052
 doi: 10.31219/osf.io/c764f_v2
 doclicense: Creative Commons Attribution 4.0 International
@@ -47,7 +47,7 @@ linkedin:
 > - **Author**: Michael Rowe ([ORCID](https://orcid.org/0000-0002-1538-6052))
 > - **Affiliation**: University of Lincoln (mrowe@lincoln.ac.uk)
 > - **Created**: 29 March 2025
-> - **Version**: 1.1 (last updated: 28 September 2026)
+> - **Version**: 1.1 (last updated: 6 October 2026)
 > - **Keywords**: artificial intelligence, complexity, connectivism, critical pedagogy, health professions education, learning theory, social constructivism
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 > - **Preprint DOI**:
@@ -72,7 +72,7 @@ Health professions education produces a troubling tension: graduates who are sim
 
 And these challenges are entrenched. Students struggle to integrate theoretical knowledge with clinical practice. Educators labour under curricular structures that fragment learning into discrete subjects and skills. Assessment practices measure what is easy to evaluate rather than what is important to learn, and evaluating proxies for learning takes the place of observing learning itself. The gap between how we educate and how health and care professionals actually work continues to widen, despite sustained efforts to bridge it.
 
-Artificial intelligence has entered this landscape as something more disruptive than another technology to integrate: a catalyst that exposes assumptions we had stopped examining. Students are already using AI tools extensively — surveys consistently show adoption rates of 80–90% — to explore concepts, practise reasoning, and prepare for assessments, regardless of whether educators have sanctioned or acknowledged this use. Some of this use is straightforwardly instrumental, with students looking for the path of least resistance through the curriculum. But the scale and consistency of adoption suggest something beyond convenience-seeking, and the more interesting question is what students' rapid embrace of AI reveals about the limitations of what we were already doing.
+Artificial intelligence has entered this landscape as something more disruptive than another technology to integrate: a catalyst that exposes assumptions we had stopped examining. Students are already using AI tools extensively — surveys report adoption rates of 86–92% (Digital Education Council, 2024; Freeman, 2025) — to explore concepts, practise reasoning, and prepare for assessments, regardless of whether educators have sanctioned or acknowledged this use. Some of this use is straightforwardly instrumental, with students looking for the path of least resistance through the curriculum. But the scale and consistency of adoption suggest something beyond convenience-seeking, and the more interesting question is what students' rapid embrace of AI reveals about the limitations of what we were already doing.
 
 AI makes the existing problems of health professions education harder to ignore. When students use AI to generate assignment text, this reveals that our assessments were measuring the difficulty of producing artefacts rather than the depth of learning behind them (Dawson et al., 2024). When AI can summarise a lecture more efficiently than attending it, this exposes the poverty of transmission-based teaching. When AI support improves students' short-term task performance while simultaneously reducing their metacognitive engagement — a pattern Fan et al. (2024) describe as "metacognitive laziness" — this illustrates how AI can produce the appearance of learning while undermining its substance. The challenge is to recognise what AI's disruptive presence tells us about those practices, and to respond with approaches grounded in how learning works.
 
@@ -106,7 +106,7 @@ Connectivism addresses the *what* of learning: the nature and organisation of kn
 
 ### Methodology
 
-Moving from theoretical foundations to design principles requires an approach that maintains theoretical integrity while producing something practically useful. I adopted a structured conceptual analysis (Jabareen, 2009) involving three phases: constructing an analytical lens through which to compare the theories, mapping each theory's propositions across that lens, and identifying convergences: points where multiple theories arrive at similar insights despite different conceptual starting points.
+Moving from theoretical foundations to design principles requires an approach that maintains theoretical integrity while producing something practically useful. I adopted a structured conceptual analysis (Jabareen, 2009) involving three phases: constructing an analytical lens through which to compare the theories, mapping each theory's propositions across that lens, and identifying convergences: points where multiple theories arrive at similar insights despite different conceptual starting points. Identifying a convergence was an interpretive judgement, made by reading across the matrix for conditions the theories reach from their different directions, and I applied no counting rule to it.
 
 ### Constructing the analytical lens
 
@@ -153,7 +153,7 @@ These convergences describe one set of conditions for effective learning. They d
 
 ## Design principles for AI integration
 
-The move from descriptive convergence to prescriptive principle involves an interpretive step that must be made explicit. The logic is straightforward: if multiple learning theories converge on a condition under which learning is effective, then AI integration that supports this condition is likely to enhance learning, while integration that contradicts it is likely to undermine learning. The six principles below apply this reasoning to each convergence. Table 2 illustrates what each looks like in practice — both with and without AI — where the principles describe effective learning environments, and not merely "good AI use". However, it is noted that this paper aims to promote principles that support the integration of AI in HPE.
+The move from descriptive convergence to prescriptive principle involves an interpretive step that must be made explicit. The logic is straightforward: if multiple learning theories converge on a condition under which learning is effective, then AI integration that supports this condition is likely to enhance learning, while integration that contradicts it is likely to undermine learning. The six principles below apply this reasoning to each convergence. Table 2 illustrates what each looks like in practice — both with and without AI — where the principles describe effective learning environments, and not merely "good AI use".
 
 **The six principles:**
 
@@ -187,9 +187,9 @@ Wegerif and Casebourne's (2025) double dialogic pedagogy operates closer to the 
 
 ### Physical access and epistemological access
 
-Core to the framework is a claim that most students are not natural autodidacts. The widespread availability of AI has been accompanied by an assumption — in policy, popular discourse, and sometimes educational research — that access to powerful tools naturally enhances learning. This assumption recapitulates a pattern well-documented in educational technology research. Mitra's (2003) "hole in the wall" experiments, often cited as evidence that children teach themselves with technology, showed that unsupported access produced surface-level exploration rather than deep learning. Warschauer's (2004) research on technology and social inclusion demonstrated that providing physical access to technology without epistemological access — the knowledge, practices, and dispositions needed to learn with it (Morrow, 2009) — consistently failed to produce anticipated outcomes.
+Core to the framework is a claim that most students are not natural autodidacts. The widespread availability of AI has been accompanied by an assumption — in policy, popular discourse, and sometimes educational research — that access to powerful tools naturally enhances learning. This assumption recapitulates a pattern well-documented in educational technology research. Mitra's (2003) "hole in the wall" experiments are often cited as evidence that children teach themselves with technology: Mitra reported that children with unsupervised access to a public computer taught one another basic computer skills. Critics who looked at the same kiosks found them used mostly for games and drawing, with little engagement with educational content, and some sites falling into disuse once the novelty wore off (Arora, 2010; Warschauer, 2004). Much of the dispute turns on what counts as learning: acquiring the skill to operate the machine, or using the machine to learn something else. Warschauer's (2004) research on technology and social inclusion demonstrated that providing physical access to technology without epistemological access — the knowledge, practices, and dispositions needed to learn with it (Morrow, 2009) — consistently failed to produce anticipated outcomes.
 
-The distinction is sharper still for the integration of AI into HPE. A student who uses AI to generate a well-structured essay has physical access to the technology and a skillset that enables them to use it effectively, but may nonetheless lack the epistemological access to learn through the process. AI can create a compelling illusion of learning: reviewing an AI-generated output and recognising it as correct produces a subjective sense of understanding while requiring none of the constructive cognitive effort required to drive the synaptic reconfiguration that characterises learning. This is the fluency illusion (Bjork & Bjork, 2011), in which re-reading material feels like learning because it produces familiarity without comprehension. Emerging empirical evidence supports this concern: Fan et al. (2024) found that students using AI exhibited significantly fewer self-regulated learning processes such as evaluation, monitoring, and orientation compared to those receiving human support, even as their immediate task outputs improved. Xu et al. (2025) further demonstrated that metacognitive support is critical for maintaining effective self-regulation in AI environments and that without it, students' self-regulated learning declined. The principles address this gap by specifying conditions, such as dialogue, critical evaluation, adaptation, and reflection, under which AI interaction produces genuine learning rather than the comfortable feeling that learning has occurred.
+The distinction is sharper still for the integration of AI into HPE. A student who uses AI to generate a well-structured essay has physical access to the technology and a skillset that enables them to use it effectively, but may nonetheless lack the epistemological access to learn through the process. AI can create a compelling illusion of learning: reviewing an AI-generated output and recognising it as correct produces a subjective sense of understanding while involving none of the constructive cognitive effort that learning depends on. This is the fluency illusion (Bjork & Bjork, 2011), in which re-reading material feels like learning because it produces familiarity without comprehension. Emerging empirical evidence supports this concern: Fan et al. (2024) found that students using AI exhibited significantly fewer self-regulated learning processes such as evaluation, monitoring, and orientation compared to those receiving human support, even as their immediate task outputs improved. Xu et al. (2025) further demonstrated that metacognitive support is critical for maintaining effective self-regulation in AI environments and that without it, students' self-regulated learning declined. The principles address this gap by specifying conditions, such as dialogue, critical evaluation, adaptation, and reflection, under which AI interaction produces genuine learning rather than the comfortable feeling that learning has occurred.
 
 ### Networked knowledge building and wicked problems
 
@@ -217,6 +217,8 @@ This framework is one map through a complex problem space, shaped by particular 
 
 ## References
 
+Arora, P. (2010). Hope-in-the-wall? A digital promise for free learning. *British Journal of Educational Technology*, *41*(5), 689–702. https://doi.org/10.1111/j.1467-8535.2010.01078.x
+
 Barnett, R. (2000). *Realising the university in an age of supercomplexity*. Society for Research into Higher Education & Open University Press.
 
 Biesta, G. (2015). What is education for? On good education, teacher judgement, and educational professionalism. *European Journal of Education*, *50*(1), 75–87. https://doi.org/10.1111/ejed.12109
@@ -233,15 +235,19 @@ Chi, M. T. H. (2009). Active-constructive-interactive: A conceptual framework fo
 
 Dall'Alba, G., & Barnacle, R. (2007). An ontological turn for higher education. *Studies in Higher Education*, *32*(6), 679–691. https://doi.org/10.1080/03075070701685130
 
-Dawson, P., Bearman, M., Boud, D., Hall, M., Molloy, E., Bennett, S., & Joughin, G. (2024). Assessment might need to change just a little, or a lot: A psychometric perspective on assessment and generative AI. *Assessment & Evaluation in Higher Education*, 49(8), 1127–1139.
+Dawson, P., Bearman, M., Dollinger, M., & Boud, D. (2024). Validity matters more than cheating. *Assessment & Evaluation in Higher Education*, *49*(7), 1005–1016. https://doi.org/10.1080/02602938.2024.2386662
 
 Deci, E. L., & Ryan, R. M. (2000). The "what" and "why" of goal pursuits: Human needs and the self-determination of behavior. *Psychological Inquiry*, *11*(4), 227–268. https://doi.org/10.1207/S15327965PLI1104_01
+
+Digital Education Council. (2024). *Digital Education Council global AI student survey 2024: AI or not AI, what students want*. https://www.digitaleducationcouncil.com/post/digital-education-council-global-ai-student-survey-2024
 
 Engeström, Y. (2001). Expansive learning at work: Toward an activity theoretical reconceptualization. *Journal of Education and Work*, *14*(1), 133–156. https://doi.org/10.1080/13639080020028747
 
 Fan, Y., Tang, L., Le, H., et al. (2024). Beware of metacognitive laziness: Effects of generative artificial intelligence on learning motivation, processes, and performance. *British Journal of Educational Technology*, *56*(2), 489–530. https://doi.org/10.1111/bjet.13544
 
 Fraser, S. W., & Greenhalgh, T. (2001). Coping with complexity: Educating for capability. *BMJ*, *323*(7316), 799–803. https://doi.org/10.1136/bmj.323.7316.799
+
+Freeman, J. (2025). *Student generative AI survey 2025* (HEPI Policy Note 61). Higher Education Policy Institute. https://www.hepi.ac.uk/reports/student-generative-ai-survey-2025/
 
 Freire, P. (2000). *Pedagogy of the oppressed* (30th anniversary ed.). Continuum.
 
