@@ -27,7 +27,7 @@ enableToc: true
 linkedin:
 ---
 
-> [!info] Small fixes compound when the system keeps them
+> [!info] Each session that fixes something makes later requests simpler
 > Most AI use is transactional: you finish a task and the tool is the same afterwards as it was before. When you work inside infrastructure you've built, some sessions leave the system slightly more capable, and those gains add up. Eventually a single sentence can do work that once needed step-by-step direction, because everything the sentence relies on was built in earlier sessions.
 
 I recently watched two talks from [Akademy](https://akademy.kde.org/2026/), the annual KDE conference, which was held in Graz this year. One was [Scott Jenson's keynote](https://www.youtube.com/watch?v=V7AfAcQwLW0) on why desktop interfaces have barely changed in twenty years, and the other was [Eva Brucherseifer and Jan Mühlig](https://www.youtube.com/watch?v=n8eTZk6xoZQ) on what a sovereign, AI-native desktop might need.
