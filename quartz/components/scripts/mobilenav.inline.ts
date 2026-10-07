@@ -133,7 +133,7 @@ function closeMobileNavRestoringFocus() {
 }
 
 // Close menu when clicking on a link
-function handleLinkClick(this: HTMLElement, evt: MouseEvent) {
+function handleLinkClick() {
   closeMobileNav()
 }
 

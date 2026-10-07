@@ -5,16 +5,11 @@ import { courseLessons } from "./utils/lessons"
 
 interface LessonNavOptions {}
 
-const defaultOptions: LessonNavOptions = {}
-
-export default ((opts?: Partial<LessonNavOptions>) => {
-  const options = { ...defaultOptions, ...opts }
-
+export default ((_opts?: Partial<LessonNavOptions>) => {
   const LessonNav: QuartzComponent = ({
     fileData,
     allFiles,
     displayClass,
-    cfg,
   }: QuartzComponentProps) => {
     const currentSlug = fileData.slug!
     const isCourses = currentSlug.startsWith("Courses/")
