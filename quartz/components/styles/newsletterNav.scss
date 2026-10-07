@@ -1,0 +1,23 @@
+// The issue being read is marked as the table of contents marks the section
+// in view (toc.scss): deep accent at 600, with a 3px accent mark in the margin.
+.newsletter-nav > ul.recent-ul > li {
+  & .section > .desc > h3 > a {
+    position: relative;
+    display: block;
+  }
+
+  &.active .section > .desc > h3 > a {
+    color: var(--secondary);
+    font-weight: 600;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -0.85rem;
+      top: 0.15em;
+      bottom: 0.15em;
+      width: 3px;
+      background-color: var(--tertiary);
+    }
+  }
+}

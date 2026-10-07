@@ -1,20 +1,42 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { resolveRelative, simplifySlug } from "../util/path"
 import { getDate } from "./Date"
-import style from "./styles/recentNotes.scss"
+import recentStyle from "./styles/recentNotes.scss"
+import style from "./styles/newsletterNav.scss"
 import { classNames } from "../util/lang"
 
 const MONTH_NAMES = [
-  "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December",
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
 ]
 
 // Left-hand "Past issues" panel for the newsletter archive.
 // Lists every published newsletter (type: newsletter), most recent first, labelled by month.
 export default (() => {
-  const NewsletterNav: QuartzComponent = ({ fileData, allFiles, cfg, displayClass }: QuartzComponentProps) => {
+  const NewsletterNav: QuartzComponent = ({
+    fileData,
+    allFiles,
+    cfg,
+    displayClass,
+  }: QuartzComponentProps) => {
     const currentSlug = simplifySlug(fileData.slug!)
-    if (!(currentSlug === "Newsletters" || currentSlug.startsWith("Newsletters/") || currentSlug === "newsletter")) {
+    if (
+      !(
+        currentSlug === "Newsletters" ||
+        currentSlug.startsWith("Newsletters/") ||
+        currentSlug === "newsletter"
+      )
+    ) {
       return null
     }
 
@@ -27,20 +49,26 @@ export default (() => {
     }
 
     return (
-      <div class={classNames(displayClass, "recent-notes")}>
+      <div class={classNames(displayClass, "recent-notes", "newsletter-nav")}>
         <h3>Past issues</h3>
         <ul class="recent-ul">
           {issues.map((f) => {
             const d = getDate(cfg, f)
             // Local-time month labels on UTC-midnight dates — see RecentlyAddedList
-            const label = d ? `${MONTH_NAMES[d.getMonth()]} ${d.getFullYear()}` : simplifySlug(f.slug!)
+            const label = d
+              ? `${MONTH_NAMES[d.getMonth()]} ${d.getFullYear()}`
+              : simplifySlug(f.slug!)
             const isActive = simplifySlug(f.slug!) === currentSlug
             return (
               <li class={`recent-li${isActive ? " active" : ""}`}>
                 <div class="section">
                   <div class="desc">
                     <h3>
-                      <a href={resolveRelative(fileData.slug!, f.slug!)} class="internal">
+                      <a
+                        href={resolveRelative(fileData.slug!, f.slug!)}
+                        class="internal"
+                        aria-current={isActive ? "page" : undefined}
+                      >
                         {label}
                       </a>
                     </h3>
@@ -54,6 +82,6 @@ export default (() => {
     )
   }
 
-  NewsletterNav.css = style
+  NewsletterNav.css = recentStyle + "\n" + style
   return NewsletterNav
 }) satisfies QuartzComponentConstructor

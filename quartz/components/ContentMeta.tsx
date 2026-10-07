@@ -32,10 +32,12 @@ const typeLabels: Record<string, string> = {
   podcast: "podcast",
   lesson: "lesson",
   bib: "reading",
+  newsletter: "newsletter",
 }
 
 // The content folder whose --graph- colour (custom.scss) the type chip takes;
-// the same colours as the global graph's nodes. Lessons have none.
+// the same colours as the global graph's nodes. Lessons and newsletters have
+// none (Newsletters is not a graph folder).
 const typeFolders: Record<string, string> = {
   post: "posts",
   note: "notes",
@@ -64,6 +66,13 @@ function isoDate(d: Date): string {
   return d.toISOString().slice(0, 10)
 }
 
+// A newsletter issue is for a month, not a day: the chip reads "August 2026",
+// the same label NewsletterNav gives it in the left-hand list. Local-time
+// month on a UTC-midnight date, as there.
+function issueMonth(d: Date): string {
+  return d.toLocaleDateString("en-GB", { month: "long", year: "numeric" })
+}
+
 export default ((opts?: Partial<ContentMetaOptions>) => {
   const options: ContentMetaOptions = { ...defaultOptions, ...opts }
 
@@ -77,7 +86,10 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
     if (type && type in typeLabels) {
       chips.push(
-        <span class="mr-chip mr-chip--type" style={`--type-colour: var(--graph-${typeFolders[type]})`}>
+        <span
+          class="mr-chip mr-chip--type"
+          style={typeFolders[type] ? `--type-colour: var(--graph-${typeFolders[type]})` : undefined}
+        >
           {typeLabels[type]}
         </span>,
       )
@@ -95,7 +107,9 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     if (date) {
       chips.push(
         <span class="mr-chip">
-          <time datetime={date.toISOString()}>{isoDate(date)}</time>
+          <time datetime={date.toISOString()}>
+            {type === "newsletter" ? issueMonth(date) : isoDate(date)}
+          </time>
         </span>,
       )
     }

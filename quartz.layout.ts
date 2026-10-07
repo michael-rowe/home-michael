@@ -31,7 +31,8 @@ export const defaultContentPageLayout: PageLayout = {
           type === "bib" ||
           type === "presentation" ||
           type === "guide" ||
-          type === "podcast"
+          type === "podcast" ||
+          type === "newsletter"
         )
       },
     }),
