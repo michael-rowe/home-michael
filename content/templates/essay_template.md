@@ -9,7 +9,7 @@ affiliation:
   - Institution Name
 email:
   - email@institution.edu
-keyphrase: realistic search phrase not just a topic word
+abstract: ""
 version: 0.1
 created: YYYY-MM-DD
 modified: YYYY-MM-DD
@@ -19,10 +19,9 @@ tags:
   - tag3
   - tag4
   - tag5
+doi: ""  # Omit the field entirely if no DOI exists
 related:
   - "[[Related Content Title]]"
-category:
-  - Category Name
 draft: false
 linkedin:  # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
 ---

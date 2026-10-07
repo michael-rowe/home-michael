@@ -11,7 +11,7 @@ meta-description: "How AI infrastructure for academics compounds: one request to
 keyphrase: AI infrastructure for academics
 author: "[[Michael Rowe]]"
 date: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 tags:
   - agent
   - information-management
@@ -47,9 +47,13 @@ What came back was two [[Notes/Zotero|Zotero]] items with the presentation type,
 
 I didn't tell the agent where to look for slides, which Zotero item type to use, or that the transcripts would need to be PDFs before my note command could read them, and it worked all of those out. One sentence was enough because a series of earlier sessions had each left something behind.
 
-## The earlier sessions the request relied on
+## Each earlier session left something behind
 
 The agent could write to Zotero at all because of a session in March. I'd asked Claude to summarise a newly added paper, [Marchal et al. (2026)](https://arxiv.org/abs/2603.02960) on trust in artificial epistemic agents, and attach the summary as a note. The write failed, because my [[Notes/mcp server|MCP server]] (the small program that gives Claude access to Zotero) was sending write requests to Zotero's local API, which only allows reading. The fix was one line that sent writes to the web API instead, and from that session onwards the system could write to my library.
+
+While the paper was being summarised in that same session, I also asked Claude to search my own writing for related ideas. It found 'epistemic accountability', a concept I'd defined in a section of an essay that I'd cut during editing and moved to the trash. Without a search across the whole vault, I wouldn't have found it again.
+
+I recovered the concept and put it back into the published essay on [[Essays/ai-tutor-accuracy-health-professions|AI tutor accuracy]], citing the paper I'd been summarising. I also created a separate [[Notes/epistemic accountability|concept note]] for it on this site, linked the essay to the note, and updated the Zotero summary to mention the connection. Later writing can now link to a concept that had been sitting in the trash.
 
 The attachments in October relied on a tool I added in September, for attaching a PDF to an existing item. I built it for a different job and haven't thought about it since. The note format came from a command I wrote in March and have revised since, which specifies what a summary should contain and how to appraise the claims in a paper. When I wrote "whatever you'd normally use", the agent found that command and applied it, because it was written down where the agent knows to look. Like the March fix and the September tool, it was there because an earlier task had needed it.
 
@@ -59,11 +63,7 @@ Most talk about using AI describes a transaction: you have a task, the AI helps 
 
 For health professions educators, a patient's record may be the closest comparison. Each entry documents one encounter and also informs the next, and a record that's been kept carefully for years is worth far more than its entries taken one at a time, which is how a personal knowledge system works too.
 
-## Ideas and standards build up as well
-
-In the March session, while the paper was being summarised, I also asked Claude to search my own writing for related ideas. It found 'epistemic accountability', a concept I'd defined in a section of an essay that I'd cut during editing and moved to the trash. Without a search across the whole vault, I wouldn't have found it again.
-
-I recovered the concept and put it back into the published essay on [[Essays/ai-tutor-accuracy-health-professions|AI tutor accuracy]], citing the paper I'd been summarising. I also created a separate [[Notes/epistemic accountability|concept note]] for it on this site, linked the essay to the note, and updated the Zotero summary to mention the connection. Later writing can now link to a concept that had been sitting in the trash.
+## A written standard works on sources it wasn't written for
 
 I wrote the note command for journal articles, with its sections on what the authors claim and what their evidence can support, and hadn't thought about using it for conference talks until October, when it worked for them too. The agent rated Jenson's keynote as *speculative*, because he's an experienced practitioner making a design argument with sketched prototypes and no user testing. It rated the Brucherseifer and Mühlig talk as *limited*, because their main evidence is a usability study from 2003 with self-reported outcomes and a repeat study that hasn't produced results yet. The part of the command that produced those ratings reads, slightly shortened:
 
@@ -88,12 +88,12 @@ Once the infrastructure is in place, you can describe the outcome you want and l
 
 The transcripts came from YouTube's automatic captions, which turned the speakers' names into "Eva Bha Cipha" and "Yan Muling", and the notes can only be as good as that source, so checking them is now my part of the work. I still need to watch the talks again against the notes and decide whether those weight ratings are fair. I also need to test the paragraph at the end of each note that connects the talk to my own work, because a connection that sounds plausible is easy to accept without checking. As I argued in [[2026-06-11-verification-trap|the verification trap]], this checking is slower and harder than "always verify" makes it sound, and it depends on knowing the subject.
 
-## Gaps the two sessions revealed
+## Using the system shows what it's missing
 
 The March session showed me that adding a note to Zotero doesn't prompt a search for essays and concept notes that should cite the new source. Nothing flags a concept that turns up across several notes but has no note of its own, either.
 
 The October session showed me that my note command assumes the source is a paper, so it has no guidance on how to appraise a keynote, and the agent made reasonable choices that I'd prefer to have written down. It also showed that automatic captions are good enough to summarise from but not to quote from, which matters most for a talk without slides, where the transcript is all there is.
 
-I won't build all of these, but I wouldn't have known about most of them if I hadn't been using what I'd already built. The system got to the point where it could handle the Akademy request because I kept using it, and kept fixing whatever each piece of work showed was missing.
+I won't build all of these, but I wouldn't have known about most of them if I hadn't been using what I'd already built.
 
 If you want to start on AI infrastructure of your own, begin with one standard you already apply, such as how you judge whether a paper's conclusions hold, or what a useful comment on a student's work contains. Write it down and keep it somewhere your AI tool can read every time you use it. That's how the [[Presentations/2026-09-09-ippta-ai-powered-practice-growth|AI-powered practice growth workshop]] for the International Private Physiotherapy Association worked: delegates kept everything they produced in a single plain-text practice file, which carried their context from one session to the next across the day.

@@ -25,6 +25,8 @@ A hand-ticked table stood here until 2026-09-18. It had already drifted — it m
 | Newsletters | `newsletter_editor` → `writing_style` → `SEO_optimiser` → `copy_editor` | `content/templates/newsletter_template.md` |
 | Other (frameworks, policies, nav) | `SEO_optimiser` → `copy_editor` | — |
 
+The step names are labels recorded in each file's `reviewed:` list, so they outlive the personas they were named after: `blog_writer` is now the `/blog-writer` review, and `essay_writer` is the structure and template review in `+article` (both personas were retired on 2026-10-06; Record `2026-10-06-retire-blog-and-essay-personas`). Renaming a step would mark every file that ran it as unreviewed.
+
 \* `zotero_citations`: A final pass to integrate citation data from Zotero. Persona TBD — pending Zotero database cleanup. Apply only to essays and posts that reference academic sources. Marked `*` here because the persona does not exist yet; the script reads that marker and does not count it as outstanding work.
 
 **The script parses this table**, matching the content-type column to the `type:` in each file's frontmatter. Changing a pipeline here changes what the backlog reports — no second place to update. Adding a row for a new content type is how that type enters the queue.
@@ -39,7 +41,7 @@ The **structural refiner** step (the first in each pipeline) is responsible for 
 
 These personas operate at site level and should be run periodically rather than per content item:
 
-- **`accessibility_reviewer`** — Full WCAG 2.1 AA audit of site components, templates, and rendered pages. Content-level accessibility checks (inclusive language, heading hierarchy, reading level) are handled by `copy_editor` in the per-piece pipeline.
+- **`accessibility_reviewer`** — Full WCAG 2.2 AA audit of site components, templates, and rendered pages. Content-level accessibility checks (inclusive language, heading hierarchy, reading level) are handled by `copy_editor` in the per-piece pipeline.
 - **`content_strategist`** — Site-level information architecture, audience journey, content gaps, and internal linking strategy. Run after completing a batch of per-piece reviews, or when the site structure changes.
 
 ## Instructions for delegated review sessions
