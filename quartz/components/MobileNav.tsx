@@ -1,8 +1,7 @@
 import { Wordmark, wordmarkCss } from "./Wordmark"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { FullSlug, resolveRelative, simplifySlug } from "../util/path"
+import { FullSlug, resolveRelative } from "../util/path"
 import { byDateAndAlphabetical } from "./PageList"
-import { Date, getDate } from "./Date"
 import { courseLessons, lessonNumber } from "./utils/lessons"
 import { resolveRelatedField } from "./utils/wikilinks"
 // @ts-ignore
@@ -42,10 +41,8 @@ export default ((opts?: Partial<MobileNavOptions>) => {
     allFiles,
     displayClass,
     cfg,
-    tree,
   }: QuartzComponentProps) => {
     const currentSlug = fileData.slug!
-    const slug = simplifySlug(currentSlug)
 
     // Determine which section we're in
     const isEssays = currentSlug.startsWith("Essays/")

@@ -44,7 +44,7 @@ export class FileTrieNode<T extends FileTrieData = ContentDetails> {
       // A folder whose index page is supplied by a same-named sibling file
       // (e.g. recently-added.md alongside a recently-added/ folder) resolves to
       // that page's slug rather than the synthetic <path>/index that doesn't exist.
-      const dataSlug = (this.data as { slug?: FullSlug } | undefined)?.slug
+      const dataSlug = (this.data as unknown as { slug?: FullSlug } | null)?.slug
       if (dataSlug && !dataSlug.endsWith("/index")) {
         return dataSlug
       }

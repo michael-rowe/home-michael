@@ -24,7 +24,7 @@ interface Options {
 }
 
 export default ((opts?: Options) => {
-  const Footer: QuartzComponent = ({ displayClass, cfg, fileData }: QuartzComponentProps) => {
+  const Footer: QuartzComponent = ({ displayClass, fileData }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
     const author = opts?.author ?? "Michael Rowe"
     const baseDir = pathToRoot(fileData.slug!)
