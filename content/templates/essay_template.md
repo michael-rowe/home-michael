@@ -28,8 +28,8 @@ linkedin:  # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
 > [!info] **About this essay**
 > - **Author**: Author Name ([ORCID](https://orcid.org/XXXX-XXXX-XXXX-XXXX); email@institution.edu)
 > - **Affiliation**: Institution Name
-> - **Created**: Month DD, YYYY
-> - **Version**: 0.1 (last updated: Month DD, YYYY)
+> - **Created**: DD Month YYYY
+> - **Version**: 0.1 (last updated: DD Month YYYY)
 > - **Keywords**: keyword1, keyword2, keyword3, keyword4, keyword5
 > - **License**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
@@ -46,39 +46,39 @@ linkedin:  # Add date (YYYY-MM-DD) when posted; leave empty if not yet posted
 
 ## Introduction
 
-Context and background for the essay. Frame the problem or question being addressed.
+
 
 ### Subsection if needed
 
-Further development of introductory ideas.
+
 
 ## Main section 1
 
-Core argument or analysis begins here.
+
 
 ### Subsection 1.1
 
-Develop specific aspects of the argument.
+
 
 ### Subsection 1.2
 
-Continue building the framework.
+
 
 ## Main section 2
 
-Continue developing the argument with additional theoretical or empirical considerations.
+
 
 ### Subsection 2.1
 
-Detailed analysis or examples.
+
 
 ## Main section 3
 
-Further development of key concepts or applications.
+
 
 ## Conclusion
 
-Synthesise key arguments and restate main contributions. Connect back to the opening questions or problems.
+
 
 ## References
 

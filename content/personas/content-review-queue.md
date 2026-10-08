@@ -21,7 +21,7 @@ A hand-ticked table stood here until 2026-09-18. It had already drifted — it m
 | Essays | `essay_writer` → `writing_style` → `SEO_optimiser` → `copy_editor` → `zotero_citations`* | `content/templates/essay_template.md` |
 | Posts | `blog_writer` → `writing_style` → `SEO_optimiser` → `copy_editor` → `zotero_citations`* | `content/templates/post_template.md` |
 | Notes | `note_writer` → `writing_style` → `SEO_optimiser` → `copy_editor` | `content/templates/note_template.md` |
-| Lessons | `course_designer` → `writing_style` → `web_designer` → `SEO_optimiser` → `copy_editor` | `content/templates/lesson_template.md` |
+| Lessons | `course_designer` → `writing_style` → `web_designer` → `SEO_optimiser` → `copy_editor` | — (template deleted 2026-10-08; courses unpublished) |
 | Newsletters | `newsletter_editor` → `writing_style` → `SEO_optimiser` → `copy_editor` | `content/templates/newsletter_template.md` |
 | Other (frameworks, policies, nav) | `SEO_optimiser` → `copy_editor` | — |
 
@@ -41,7 +41,7 @@ The **structural refiner** step (the first in each pipeline) is responsible for 
 
 These personas operate at site level and should be run periodically rather than per content item:
 
-- **`accessibility_reviewer`** — Full WCAG 2.2 AA audit of site components, templates, and rendered pages. Content-level accessibility checks (inclusive language, heading hierarchy, reading level) are handled by `copy_editor` in the per-piece pipeline.
+- **`accessibility_reviewer`** — Full WCAG 2.2 AA audit of site components, templates, and rendered pages. Content-level accessibility checks are handled in the per-piece pipeline: inclusive language and heading hierarchy by `copy_editor`, readability by `writing_style`.
 - **`content_strategist`** — Site-level information architecture, audience journey, content gaps, and internal linking strategy. Run after completing a batch of per-piece reviews, or when the site structure changes.
 
 ## Instructions for delegated review sessions

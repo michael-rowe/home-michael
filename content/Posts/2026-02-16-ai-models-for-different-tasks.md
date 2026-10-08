@@ -14,6 +14,7 @@ tags:
 category:
   - Technology
 related:
+  - "[[Posts/2026-02-18-switching-to-claude-sonnet-4-6]]"
 draft: false
 enableToc: true
 linkedin:
