@@ -29,3 +29,6 @@ formats/*
 !formats/identities/
 formats/identities/*
 !formats/identities/michael.css
+
+# Obsidian trash
+.trash/
