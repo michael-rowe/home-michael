@@ -15,7 +15,7 @@ category:
   - Professional development
 related:
   - "[[Posts/2026-07-18-introducing-path-cpd-portfolio-app]]"
-draft: true
+draft: false
 enableToc: true
 linkedin:
 ---
