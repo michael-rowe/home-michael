@@ -8,7 +8,7 @@ type: note
 author: "[[Michael Rowe]]"
 created: 2026-10-21
 updated: 2026-10-21
-draft: true
+draft: false
 tags:
   - human-ai-collaboration
   - professional-identity
@@ -64,14 +64,13 @@ Both forms point at something that matters, and both put it somewhere I expect A
 
 A speech and language therapy team might move its assessment onto reflective writing because AI can't reflect on a student's own placement, then find within a year that markers can't tell AI-assisted reflections from the rest. Insisting the writing is still authentic, banning AI from the task, or giving up on assessing reflection all leave the more useful question unasked: what was the reflection for, and was a written piece ever the best evidence of it?
 
-Some claims about human work don't depend on AI's limits. Mollick (2024) describes "Just Me Tasks" that we keep for ourselves for reasons of meaning or ethics, whatever AI can do. Accountability is a reason of the same kind: someone has to answer for a clinical decision regardless of who proposed it, and that holds when the AI is excellent. It becomes jurisdiction when the rule is used to keep AI out of work it could do well. The test I use is whether the argument would survive the next model release. In place of asking what humans can do that AI can't, I'd ask what clinicians and AI can reach together; [[Notes/distributed cognition|distributed cognition]], [[Notes/context sovereignty|context sovereignty]], and the essay [[Essays/taste-and-judgement|Taste and judgement]] develop that answer.
+Some claims about human work don't depend on AI's limits. Ethan Mollick describes "Just Me Tasks" that we keep for ourselves for reasons of meaning or ethics, whatever AI can do. Accountability is a reason of the same kind: someone has to answer for a clinical decision regardless of who proposed it, and that holds when the AI is excellent. It becomes jurisdiction when the rule is used to keep AI out of work it could do well. The test I use is whether the argument would survive the next model release. In place of asking what humans can do that AI can't, I'd ask what clinicians and AI can reach together; [[Notes/distributed cognition|distributed cognition]], [[Notes/context sovereignty|context sovereignty]], and the essay [[Essays/taste-and-judgement|Taste and judgement]] develop that answer.
 
 ## Sources
 
 - Graber, M. L. (2013). The incidence of diagnostic error in medicine. *BMJ Quality & Safety*, *22*(Suppl 2), ii21–ii27. https://doi.org/10.1136/bmjqs-2012-001615
 - Howcroft, A., et al. (2025). AI chatbots versus human healthcare professionals: A systematic review and meta-analysis of empathy in patient care. *British Medical Bulletin*, *156*(1). https://doi.org/10.1093/bmb/ldaf017
 - Jussupow, E., Heinzl, A., & Spohrer, K. (2018). I am; we are: Conceptualizing professional identity threats from information technology. In *Proceedings of the International Conference on Information Systems (ICIS 2018)*, San Francisco.
-- Mollick, E. (2024). *Co-intelligence: Living and working with AI*. Portfolio.
 - Rossetti, S. C., et al. (2025). Real-time surveillance system for patient deterioration: A pragmatic cluster-randomized controlled trial. *Nature Medicine*. https://doi.org/10.1038/s41591-025-03609-7
 
 [^gaps]: **God of the gaps.** The argument that whatever science can't yet explain must be the work of God, so that God's role shrinks each time science explains something new. See [God of the gaps](https://en.wikipedia.org/wiki/God_of_the_gaps) on Wikipedia.
