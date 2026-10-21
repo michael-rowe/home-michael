@@ -40,7 +40,7 @@ The second half treats care as a system that already includes the family's AI. F
 
 ## Handout
 
-The one-page handout covers the five parts of the talk, three concepts it depends on (sanctuary strategies, distributed cognition, and AI agents), two things to try, and where to read more. It's written for any nurse or allied health professional, so you don't need to have been at the talk to use it.
+The one-page handout covers the main parts of the talk, three concepts it depends on (sanctuary strategies, distributed cognition, and AI agents), two things to try, and where to read more. It's written for any nurse or allied health professional, so you don't need to have been at the talk to use it.
 
 [Download the handout (PDF)](/static/presentations/2026-sidra-working-with-ai-agents-handout.pdf)
 
