@@ -1,7 +1,7 @@
 ---
 type: presentation
 title: "Practical AI for private practice"
-description: "A four-hour online masterclass for clinicians in the Kinatex network across the rehabilitation professions, run as four hands-on sessions: patient communication and education, professional development, administration, and business operations. It opens with what AI can now do and how it works, keeps patient data out of general AI tools throughout, and closes with patients who bring their own AI into the clinic."
+description: "A four-hour online masterclass for rehabilitation clinicians in the Kinatex network, run as four hands-on sessions on patient education, professional development, admin and business, and closing with patients who bring their own AI into the clinic."
 meta-description: "Kinatex masterclass on practical AI for rehabilitation clinicians in private practice: patient education, professional development, admin, business, and patients' own AI."
 author:
   - "[[Michael Rowe]]"
@@ -32,26 +32,15 @@ linkedin:
 
 ## Overview
 
-A four-hour online masterclass for clinicians in the Kinatex network: physiotherapists, occupational therapists, kinesiologists, osteopaths, massage therapists, athletic therapists, acupuncturists and nutritionists, most of them working in private clinics. Everything ran on the free tiers of ChatGPT, Claude, Gemini or Copilot, and participants worked on their own practice throughout.
+A four-hour online masterclass for clinicians in the Kinatex network, across the rehabilitation professions and mostly working in private clinics. Everything ran on free AI tools, and participants worked on their own practice throughout.
 
-The masterclass opens with what AI can now do, from systems that work unsupervised for hours to studies in emergency departments, primary care and allied health private practice. Bean and colleagues' Oxford study qualifies that picture usefully. On its own, the AI named the right condition 95% of the time, but people using the same AI managed under 35%, mostly because they left out details that mattered and asked closed questions. How you ask decides much of what you get back, and that's what the rest of the day practises. A short section on how AI works follows, because nearly every habit later in the day comes from one fact: the model works only from its training and what's in the conversation.
-
-The four sessions:
-
-- **Communication and education**: a weak first prompt for a low back pain handout, improved step by step with context and by letting the AI interview you; the structure of a prompt, applied to an exercise programme for an invented patient; and checking the result against a guideline
-- **Professional development**: a conversation with a research paper, judged both for its facts and for what it adds to your thinking; references you can check; a guideline turned into changes you can make on Monday; and a learning plan that lasts longer than one conversation
-- **Administrative efficiency**: Kinatex's rules for AI, with clinical data kept to approved tools; invented patients in place of real records; templates kept in a project; everyday admin; and an AI-use policy written for patients
-- **Business operations**: a persona for a patient group you'd like to see more of, content written for that person in your own voice and spread across formats, your clinic's website seen through a prospective patient's eyes, and a proposal for a new service
-
-The last section turns to patients, who are asking AI about their health before they see us. I think responding to that well is becoming part of clinical practice, and the session looks at what to do when a patient's AI disagrees with you, how to agree a response as a team, and how to teach patients to ask AI better questions, which I'd count as part of health literacy now.
+We started with what AI can now do, and with Bean and colleagues' finding that the AI on its own named the right condition 95% of the time, while people using the same AI managed under 35%, mostly because of what they left out and how they asked. The rest of the day practised asking well, over four sessions: patient handouts and exercise programmes, checked against a guideline; research papers, guidelines and planning your own learning; admin, with patient data kept out of general AI tools; and business work, from a patient persona to a proposal for a new service. The last part turned to patients who bring their own AI into the clinic, and how we can help them use it well.
 
 ## After the day
 
-The habit that runs through all four sessions is giving the AI context before asking for anything. A bare request gets an answer that could be for any clinic, and a few sentences about you, your patients and what you want them to do next turn it into something you'd use. When you're not sure what it needs, ask it to interview you first.
+The habits I'd keep from the day are giving the AI context about you and your patients before asking for anything, and letting it interview you when you're not sure what it needs. I'd also invent the patient, so real records stay in the tools your organisation has approved for them, and read, review, correct and approve whatever the AI gives you before it goes into a record or to anyone else. That last one is Kinatex's rule for Plume, its clinical notes tool, and it works for any AI tool.
 
-The second habit is inventing the patient. An invented patient typical of your caseload gives the AI everything it needs to help you think, and real records stay in the tools your organisation has approved for them. The third is Kinatex's rule for Plume, which works for any AI tool: read the output in full, review it critically, correct it, and approve it yourself before it goes into a record or to anyone else.
-
-If you try one thing this week, pick a task from the day that you do every week, do it once with AI using context, an interview and a check, and keep the prompt that worked.
+If you try one thing this week, take a task you do every week, do it once with AI, and keep the prompt that worked.
 
 ## Handout
 
