@@ -46,7 +46,7 @@ A four-hour practical masterclass for private practice clinicians across physiot
 ---
 
 ### Partner or foe? The rising role of AI in nursing and allied health practice
-**29–31 October 2026** · Sidra Medicine Paediatric Neurosciences Conference, Doha — presented remotely
+**29–31 October 2026** · Sidra Medicine Pediatric Neuroscience Conference, Doha — presented remotely
 
 An invited talk for Sidra Medicine on the role of AI in nursing and allied health practice: where AI genuinely supports clinical work, where it falls short, and how practitioners can engage with it as a professional tool rather than treating it as either saviour or threat.
 

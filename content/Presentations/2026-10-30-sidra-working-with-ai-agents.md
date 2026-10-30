@@ -22,7 +22,7 @@ category:
 related:
   - "[[Presentations/2026-09-24-atocp-making-sense-of-ai]]"
   - "[[Posts/2026-05-15-ai-chatbot-health-advice]]"
-draft: true
+draft: false
 linkedin:
 ---
 

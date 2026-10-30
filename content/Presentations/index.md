@@ -14,6 +14,7 @@ For a curated selection with fuller descriptions, and what's coming up, see the 
 
 ## 2026
 
+- **30 October** · [[Presentations/2026-10-30-sidra-working-with-ai-agents|Working with AI agents in health systems]] · Sidra Medicine Pediatric Neuroscience Conference 2026, Neuroscience Nursing and Allied Health Symposium — Online *(invited)*
 - **24 October** · [[Presentations/2026-10-24-kinatex-practical-ai-private-practice|Practical AI for private practice]] · Kinatex education committee masterclass — Online *(workshop)*
 - **24 September** · [[Presentations/2026-09-24-atocp-making-sense-of-ai|Making sense of AI in clinical practice]] · BOA Annual Congress 2026, ATOCP session — London *(invited)*
 - **9 September** · [[Presentations/2026-09-09-ippta-ai-powered-practice-growth|AI-powered practice growth]] · IPPTA Business Meeting 2026 — Hamburg *(workshop)*
