@@ -1,8 +1,7 @@
-import { execFileSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { contentUrlPath, contentDirs, dateString } from './newsletter-lib.mjs';
+import { contentUrl, contentUrlPath, contentDirs, dateString } from './newsletter-lib.mjs';
 
 // Parse command-line arguments: [month] [year] [--force]
 const rawArgs = process.argv.slice(2);
@@ -37,10 +36,8 @@ const OUTPUT_DIR = 'content/Newsletters';
 const DATE_STR = `${targetYear}-${String(targetMonth).padStart(2, '0')}`;
 const monthStartDate = new Date(targetYear, targetMonth - 1, 1);
 const MONTH_NAME = monthStartDate.toLocaleString('en-GB', { month: 'long', year: 'numeric' });
-const SINCE_DATE = `${DATE_STR}-01T00:00:00`;
 const nextMonthYear = targetMonth === 12 ? targetYear + 1 : targetYear;
 const nextMonth = targetMonth === 12 ? 1 : targetMonth + 1;
-const UNTIL_DATE = `${nextMonthYear}-${String(nextMonth).padStart(2, '0')}-01T00:00:00`;
 
 // Default `date:` for the issue — the last day of the target month, matching the
 // issued archive. It is a placeholder: set the real send date by hand when the
@@ -58,26 +55,13 @@ if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 }
 
-console.log(`Generating newsletter draft for ${MONTH_NAME}...`);
-
-function runGit(gitArgs) {
-  try {
-    return execFileSync('git', ['-c', 'core.quotepath=off', ...gitArgs], {
-      encoding: 'utf8',
-      stdio: ['ignore', 'pipe', 'pipe'],
-    }).trim();
-  } catch (e) {
-    console.warn(`git ${gitArgs.join(' ')} failed: ${e.stderr?.toString().trim() || e.message}`);
-    return '';
-  }
-}
+console.log(`Generating newsletter skeleton for ${MONTH_NAME}...`);
 
 function getFrontmatter(filePath) {
   const fallback = {
     title: path.basename(filePath, '.md'),
     description: '',
     slug: contentUrlPath(filePath),
-    filename: path.basename(filePath, '.md'),
     date: null,
     draft: false,
   };
@@ -119,10 +103,8 @@ function getNewContent(dir) {
     return results;
   }
 
-  const files = walk(dir);
   const items = [];
-
-  for (const file of files) {
+  for (const file of walk(dir)) {
     const meta = getFrontmatter(file);
     if (meta.draft) continue; // don't leak embargoed/unpublished content into the draft
     if (meta.date && meta.date.slice(0, 7) === DATE_STR) {
@@ -133,104 +115,56 @@ function getNewContent(dir) {
   return items.sort((a, b) => b.date.localeCompare(a.date));
 }
 
-/**
- * Gets root-level content/*.md files modified during the month via git log,
- * with the most recent commit subject as a description.
- */
-function getModifiedRootFiles() {
-  const raw = runGit([
-    'log', `--since=${SINCE_DATE}`, `--until=${UNTIL_DATE}`,
-    '--name-only', '--format=', '--', 'content/*.md',
-  ]);
-  if (!raw) return [];
-
-  const seen = new Set();
-  const items = [];
-
-  for (const line of raw.split('\n')) {
-    const trimmed = line.trim();
-    if (!trimmed.endsWith('.md')) continue;
-    if (!/^content\/[^/]+\.md$/.test(trimmed)) continue;
-    if (seen.has(trimmed)) continue;
-    seen.add(trimmed);
-
-    if (!fs.existsSync(trimmed)) continue;
-    const meta = getFrontmatter(trimmed);
-    if (meta.draft) continue; // don't leak embargoed/unpublished content into the draft
-
-    // Get the most recent commit subject for this file within the month
-    let commitMsg = runGit([
-      'log', `--since=${SINCE_DATE}`, `--until=${UNTIL_DATE}`,
-      '-1', '--format=%s', '--', trimmed,
-    ]);
-    // Strip conventional commit prefix and capitalise
-    commitMsg = commitMsg.replace(/^(feat|fix|refactor|content|style|chore|docs):\s*/i, '');
-    commitMsg = commitMsg.charAt(0).toUpperCase() + commitMsg.slice(1);
-
-    items.push({ ...meta, path: trimmed, commitMsg });
-  }
-
-  return items;
-}
-
-// 1. Gather data
+// 1. Inventory: what the site published this month. This is source material,
+// not newsletter content — it is printed for the session, never written into
+// the draft. An issue that lists what the site published is a digest.
 const allDirData = ALL_CONTENT_DIRS.map(dir => ({
   label: path.basename(dir),
   items: getNewContent(dir),
 })).filter(d => d.items.length > 0);
 
-// Sort: preferred order first, then remaining dirs alphabetically
 const contentByDir = [
   ...PREFERRED_ORDER.map(label => allDirData.find(d => d.label === label)).filter(Boolean),
   ...allDirData.filter(d => !PREFERRED_ORDER.includes(d.label)).sort((a, b) => a.label.localeCompare(b.label)),
 ];
 
-const rootFiles = getModifiedRootFiles();
-
-// 2. Format helpers
-const formatItem = (i) =>
-  `- **[[${i.filename}|${i.title}]]** (${i.date})${i.description ? `: ${i.description}` : ''}`;
-
-const formatList = (items) => items.map(formatItem).join('\n');
-
-// 3. Build content sections
-const contentSections = contentByDir.map(d =>
-  `### ${d.label}\n\n${formatList(d.items)}`
-).join('\n\n');
-
 const totalNewItems = contentByDir.reduce((sum, d) => sum + d.items.length, 0);
 
-const minorSection = rootFiles.length > 0
-  ? `## Minor changes\n\n${rootFiles.map(i => `- [[${i.filename}|${i.title}]]: ${i.commitMsg}`).join('\n')}`
-  : '';
-
-// 4. Assemble draft
-let draft = `---
-title: "Newsletter: ${MONTH_NAME} Update"
-description: "A summary of recent site updates and some behind-the-scenes context."
+// 2. Skeleton: the house shape of an issue (see 2026-08 and 2026-09). Each
+// placeholder says what the section owes the reader. Links in the draft are
+// absolute URLs, so the issued file and the Kit copy match.
+const draft = `---
+title: "[Subject line: under 50 characters, names the lead idea]"
+description: "[Preview text: 40-130 characters, extends the subject line rather than repeating it]"
 date: ${ISSUE_DATE}
 type: newsletter
 tags: []
 category: []
 draft: true
 ---
+## [Lead heading: the idea, not the month]
 
-## Current reflections
+[The lead piece, 400-600 words. One idea a health professions educator can use or think with, grounded in a specific context: a programme, a placement, a consultation, a policy. Michael's own work can be the evidence, but the reader's situation is the subject. Close with a specific question readers could answer by replying.]
 
-[Placeholder: Add any additional notes, resources you're finding useful, or questions you're asking the audience.]
+## Worth reading
 
-> [!tip] Subscriber Context
-> [Write 1-2 paragraphs here about the 'Why' behind this month's work.]
+[One or two pieces from elsewhere, each with a paragraph on why it matters to someone developing health professionals. The commentary is the value; a bare link is noise.]
 
-## New content
+## Something you can use
 
-${totalNewItems === 0 ? '_No new content this month._' : contentSections}
+[Optional. Only what the reader can take away: slides, a handout, a note that explains a concept, a tool they can try. Say what it is for and who it helps, not that it was made. Leave the section out if nothing qualifies.]
 
-${minorSection}
+## Quotes that resonated with me
 
----
+> [Quote]
+>
+> [Speaker, source]
 
-*This draft was auto-generated from the site's project history to serve as a starting point.*
+## Something for the commute
+
+[One podcast or talk, with what the listener will get from it and how it connects to the lead.]
+
+[One ask: a reply to the lead question, or sharing the signup page (https://michael-rowe.github.io/home-michael/newsletter).]
 `;
 
 const fileName = `${DATE_STR}-newsletter-draft.md`;
@@ -244,16 +178,23 @@ if (fs.existsSync(outputPath) && !force) {
 
 fs.writeFileSync(outputPath, draft);
 
-console.log(`\nSuccess! Draft generated at: ${outputPath}`);
+console.log(`\nSkeleton written to: ${outputPath}`);
 console.log('  Written with draft: true — not built, not committed.');
-if (totalNewItems > 0) {
-  contentByDir.forEach(d => console.log(`  ${d.label}: ${d.items.length} item(s)`));
-}
-if (rootFiles.length > 0) {
-  console.log(`  Minor changes: ${rootFiles.length} root file(s)`);
+
+console.log(`\nPublished on the site in ${MONTH_NAME} (source material, not a list for the issue):`);
+if (totalNewItems === 0) {
+  console.log('  (nothing)');
+} else {
+  for (const d of contentByDir) {
+    console.log(`\n  ${d.label}`);
+    for (const i of d.items) {
+      console.log(`  - ${i.title} (${i.date})\n    ${contentUrl(i.path)}`);
+      if (i.description) console.log(`    ${i.description}`);
+    }
+  }
 }
 
-console.log('\nTo issue it: fill the placeholders, add tags and category from');
+console.log('\nTo issue it: fill the skeleton, add tags and category from');
 console.log('content/personas/taxonomy.md, set draft: false, and rename to');
 console.log(`  ${path.join(OUTPUT_DIR, `${DATE_STR}.md`)}`);
 console.log('Nothing publishes until that rename — see CLAUDE.md, type: newsletter.');

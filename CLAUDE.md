@@ -51,7 +51,7 @@ Both rules apply to existing content, not only new writing. A sweep for unglosse
 
 ## Commands
 
-`npx quartz build` builds the site; `npx quartz build --serve` previews it at localhost:8080. The other scripts are in `package.json` (`check`, `format`, `test`, `validate`, `fetch:podcasts`). `node scripts/generate-newsletter.mjs [month year]` drafts a newsletter; see `type: newsletter` below and `/newsletter`.
+`npx quartz build` builds the site; `npx quartz build --serve` previews it at localhost:8080. The other scripts are in `package.json` (`check`, `format`, `test`, `validate`, `fetch:podcasts`). `node scripts/generate-newsletter.mjs [month year]` writes an empty issue skeleton and prints the month's published items as source material; see `type: newsletter` below and `/newsletter`.
 
 Everything else about how Quartz works (build pipeline, plugins, components, paths) is in `quartz/` and the upstream Quartz documentation.
 
@@ -102,7 +102,7 @@ Each piece of content requires a `type:` field. **The schema for each type is it
 
 **Two filenames, and the difference is what the file is.** An **issued** newsletter is `YYYY-MM.md` — tracked, built, published at `/Newsletters/YYYY-MM`. A **draft** is `YYYY-MM-newsletter-draft.md` and the Kit export is `YYYY-MM-newsletter-kit.md`; both patterns are gitignored, so neither is committed or built. Note that `content/Newsletters/` as a directory is **not** gitignored — only those two filename patterns are. A draft becomes an issue by being renamed, not by a flag.
 
-**`draft:` is the gate; `status:` does nothing.** Quartz's `RemoveDrafts` filter tests `frontmatter.draft === true` and knows nothing about `status`. A file carrying `status: draft` and no `draft:` field publishes. The generator writes `draft: true`; a draft that is being issued has it flipped to `false` by hand as part of the rename.
+**`draft:` is the gate; `status:` does nothing.** Quartz's `RemoveDrafts` filter tests `frontmatter.draft === true` and knows nothing about `status`. A file carrying `status: draft` and no `draft:` field publishes. The generator writes the skeleton with `draft: true`; a draft that is being issued has it flipped to `false` by hand as part of the rename.
 
 **`type: podcast`** — Podcast appearances and recorded interviews (within `content/Podcasts/`)
 *Episodes are embedded with `<div class="video-embed"><iframe src="EMBED_URL" …></iframe></div>` — the responsive 16:9 wrapper in `quartz/styles/custom.scss`, not the inline `padding-bottom` hack older pages use. `Head.tsx` emits `PodcastEpisode` JSON-LD from the `show`, `show-url` and `video` fields.*
